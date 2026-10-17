@@ -1,0 +1,4 @@
+REGULAR = ("L1", "L2", "L3", "L4", "P1", "P2", "P3", "P4")
+WILD = "WILD"
+SCATTER = "SCATTER"
+SYMBOLS = REGULAR + (WILD, SCATTER)

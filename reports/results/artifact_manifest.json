@@ -1,0 +1,33 @@
+{
+  "config_hash": "31c72aa957b4cc761c6e68864ba40e720a436c967c0c7700b1bf1fb385cf8d99",
+  "package_sha256": "44b300ec91df9b8e674f0c7d168b78d0b67f183147b0b8c9081e35d44c9c5581",
+  "files": {
+    "polska_gurom/__init__.py": "fe223fbaeccd7bb2a40a97c2f836d23e099450b66ca2e20b263b5f16cbfc487f",
+    "polska_gurom/analytics.py": "5a0594d671c698df7bff70a749da9803cdc703ffe3b3adc7b173553cff8e00b2",
+    "polska_gurom/bonus.py": "e4e0bbde182ee307bd332c47a2c1cef139c0faf0fe4bb1b8dc3b45bc3f990b3d",
+    "polska_gurom/cap.py": "4141c6e371549f664d3cf8915db89ae13fbc32b1df89fd1d6f35c61b6fed3efe",
+    "polska_gurom/config.py": "537b5ebaa23b98fa375935c7f3e1160d8027396cfd3ddee0148c170b2e7953ee",
+    "polska_gurom/engine.py": "a95259e8cd2fe0d2e0e74a7d366b813a0421f7bb42aeb60fa7eb4ea32b7cd358",
+    "polska_gurom/evaluator.py": "26dccf82d94d0c02035972f3c96c23413b269e97102d8d289803be7c3c32add7",
+    "polska_gurom/reels.py": "d7364fa77929a167cef7fc9973ffb206fbc88e1323e33e0446fdca0b13a2a85a",
+    "polska_gurom/scatter.py": "dffd0b0bdbe32488c2c07dcc884e03b5b4e51c8e52a44ac3e1e6090987d86ea0",
+    "polska_gurom/sdk_adapter.py": "23fb7eefd6e38e0b327a43578f96a3ca82f2933753cf142e8f07c0e276621f30",
+    "polska_gurom/simulation.py": "a50585605a59d1fa6067426c9b465c50632922587d9fa66ea334a4e99f723e3a",
+    "polska_gurom/symbols.py": "b72626369fc62e59b786087210db0d8092bb9f0612257d53b3d6f4457dc44388",
+    "configs/presentation.json": "d35e22744e5343c9dd4ac573f1d27d7b04a4875c4a5da2bd23320cbb593810e8",
+    "configs/reconstruction_v0_1.json": "26f88155c46a808b840febe7b4854f0fe560624177208b2d143313eefe40f947",
+    "scripts/build_report.py": "6e6ba08112be65e56c98c4a7c32dfb71dad25418ee95942e9ac8ef7e69ad259e",
+    "scripts/check_sdk_precision.py": "52b81f98914f473bc838315575b6ebb6b5c55b2df9d2aa55d8f1943e5486d85e",
+    "scripts/run_analysis.py": "a39d03aca2d216ea7616fc9ec451a0fddbd18e62c0fed55d9043d21809532f75",
+    "scripts/run_simulations.py": "795763f95d727d4ddb97c554ee066da4be07fe70d7debc07f5d4656aa8fdbb26",
+    "scripts/sample_round.py": "6b763afbda9a48714ae875bf558edbc19f9160789ed117521cfd9f6d3954deae",
+    "scripts/verify_bounds.py": "fe0cc30b28513dd11421b018743c0c6539d5705b76b7e91cc02cca008ba868a5",
+    "tests/test_math.py": "2fb8661d6fbc9ce46d0c4231b66a73b3d2b2a5af2a787e4e5e8d8b1d04d70606",
+    "docs/GAME_DESIGN_DOCUMENT.md": "a7b057ab67911edda9fbb6d150956c7342fa45a1bfeac0219ed3349a177d6319",
+    "docs/MATH_CHANGELOG.md": "7f05c7c7fda83c241b9a3a26ba7e7a534a6e7915481128a021ec4d4b73b8b68e",
+    "docs/MATH_SPECIFICATION.md": "ebcb29cb46b8d4f416e823ebc181ad5fa672cf71c1432d13ed0b938663b03dac",
+    "docs/PAR_SHEET.md": "671e58e69296b42114cf4da8bc19cd773ec12bd21c33c02364cfe0e88d8965b2",
+    "docs/STAKE_COMPLIANCE.md": "a3d0f2779d75f4177008ee13ffe45198416fe1a0e2990bf39c45921a3da376e7",
+    "docs/TEST_PLAN.md": "e19d407bd500a58b565a01fcba90ba30fd1b881064337684ee6a01f34cd28744"
+  }
+}

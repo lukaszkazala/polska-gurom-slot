@@ -1,0 +1,2 @@
+# Keep byte-based source hashes stable across Windows and cloud checkouts.
+* text=auto eol=lf

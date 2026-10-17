@@ -1,0 +1,102 @@
+{
+  "seed": 20261017,
+  "engine_version": "0.1.0-reconstruction",
+  "config_hash": "31c72aa957b4cc761c6e68864ba40e720a436c967c0c7700b1bf1fb385cf8d99",
+  "kind": "natural-seeded-round",
+  "round": {
+    "base": {
+      "natural_board": [
+        [
+          "L4",
+          "L4",
+          "L4"
+        ],
+        [
+          "L1",
+          "L1",
+          "L1"
+        ],
+        [
+          "P3",
+          "P3",
+          "P3"
+        ],
+        [
+          "L2",
+          "L3",
+          "L3"
+        ],
+        [
+          "L2",
+          "L2",
+          "L2"
+        ]
+      ],
+      "board": [
+        [
+          "L4",
+          "L4",
+          "L4"
+        ],
+        [
+          "L1",
+          "L1",
+          "L1"
+        ],
+        [
+          "P3",
+          "P3",
+          "P3"
+        ],
+        [
+          "L2",
+          "L3",
+          "L3"
+        ],
+        [
+          "L2",
+          "L2",
+          "L2"
+        ]
+      ],
+      "stops": [
+        17,
+        1,
+        28,
+        11,
+        7
+      ],
+      "line_wins": [],
+      "scatter_count": 0,
+      "scatter_units": 0,
+      "line_units": 0,
+      "total_units": 0,
+      "charge_reel": null,
+      "is_free": false,
+      "awarded_free_spins": 0
+    },
+    "free_spins": [],
+    "raw_base_units": 0,
+    "raw_bonus_units": 0,
+    "raw_total_units": 0,
+    "paid_base_units": 0,
+    "paid_bonus_units": 0,
+    "paid_total_units": 0,
+    "cap_reduction_units": 0,
+    "cap_reached": false,
+    "settlement_trace": [
+      {
+        "spin_index": 0,
+        "is_free": false,
+        "raw_line_units": 0,
+        "raw_scatter_units": 0,
+        "raw_total_units": 0,
+        "paid_line_units": 0,
+        "paid_scatter_units": 0,
+        "paid_total_units": 0,
+        "cumulative_raw_units": 0,
+        "cumulative_paid_units": 0
+      }
+    ]
+  }
+}

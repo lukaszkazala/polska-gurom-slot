@@ -1,0 +1,285 @@
+{
+  "method": "MONTE CARLO",
+  "status": "PROTOTYPE / NOT MATH-FROZEN",
+  "algorithm_version": "numpy-PCG64-splitstreams-v2",
+  "rng": "numpy.random.Generator(PCG64)",
+  "seed": 20271017,
+  "seed_streams": {
+    "base_stops_spawn_key": [
+      0
+    ],
+    "free_stops_spawn_key": [
+      1
+    ],
+    "charge_occurrence_spawn_key": [
+      2
+    ],
+    "charge_selection_spawn_key": [
+      3
+    ]
+  },
+  "batch_size": 100000,
+  "python_version": "3.10.11",
+  "numpy_version": "2.2.6",
+  "code_sha256": "44b300ec91df9b8e674f0c7d168b78d0b67f183147b0b8c9081e35d44c9c5581",
+  "config_version": "reconstruction-v0.1-grouped-2026-10-17",
+  "config_hash": "31c72aa957b4cc761c6e68864ba40e720a436c967c0c7700b1bf1fb385cf8d99",
+  "paid_rounds": 10000,
+  "total_bet": 10000,
+  "scale": 100,
+  "total_payout_units": 694380,
+  "total_payout": 6943.8,
+  "raw_total_payout_units": 694380,
+  "elapsed_seconds": 0.04659529961645603,
+  "rtp_post_cap": {
+    "total": 0.69438,
+    "base": 0.636555,
+    "bonus": 0.057825,
+    "scatter": 0.0059
+  },
+  "rtp_pre_cap": {
+    "total": 0.69438,
+    "base": 0.636555,
+    "bonus": 0.057825,
+    "scatter": 0.0059
+  },
+  "scatter_attribution": "Chronological spins; within each spin line credits precede natural-board scatter credits. Base/bonus totals use chronological cap allocation.",
+  "sample_variance": 14.014168332433245,
+  "sample_standard_deviation": 3.7435502310551736,
+  "raw_sample_variance": 14.014168332433245,
+  "rtp_standard_error": 0.03743550231055174,
+  "rtp_95pct_ci": [
+    0.6210077637281526,
+    0.7677522362718474
+  ],
+  "ci_method": "Normal CLT interval using full paid-round sample variance (ddof=1); rare unobserved large payouts can make nominal coverage unreliable, especially 10k. Not proof of exact RTP or tail absence.",
+  "bonus_count": 53,
+  "bonus_frequency": 0.0053,
+  "bonus_mean_interval_paid_rounds": 188.67924528301887,
+  "mean_bonus_payout_given_bonus": 10.910377358490567,
+  "mean_raw_bonus_payout_given_bonus": 10.910377358490567,
+  "free_spin_count": 426,
+  "mean_free_spins_given_bonus": 8.037735849056604,
+  "mean_free_spins_per_paid_round": 0.0426,
+  "charge_count": 105,
+  "charge_frequency_per_free_spin": 0.24647887323943662,
+  "mean_charge_count_per_bonus": 1.9811320754716981,
+  "charge_reel_selection_counts_1_based": {
+    "1": 0,
+    "2": 31,
+    "3": 30,
+    "4": 44,
+    "5": 0
+  },
+  "charge_reel_selection_probabilities_given_charge": {
+    "1": 0.0,
+    "2": 0.29523809523809524,
+    "3": 0.2857142857142857,
+    "4": 0.41904761904761906,
+    "5": 0.0
+  },
+  "natural_board_stats": {
+    "base": {
+      "spins": 10000,
+      "wild_cells": 8095,
+      "wild_windows": 5369,
+      "wild_boards": 4308,
+      "wild_cells_by_reel": [
+        1517,
+        1650,
+        1660,
+        1654,
+        1614
+      ],
+      "wild_windows_by_reel": [
+        1007,
+        1096,
+        1112,
+        1090,
+        1064
+      ],
+      "scatter_histogram": [
+        6492,
+        2933,
+        522,
+        52,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "natural_wild_cell_frequency": 0.05396666666666667,
+      "natural_wild_reel_window_frequency": 0.10738,
+      "natural_wild_board_frequency": 0.4308,
+      "scatter_distribution": {
+        "0": 0.6492,
+        "1": 0.2933,
+        "2": 0.0522,
+        "3": 0.0052,
+        "4": 0.0001,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0
+      }
+    },
+    "free_spins": {
+      "spins": 426,
+      "wild_cells": 370,
+      "wild_windows": 251,
+      "wild_boards": 203,
+      "wild_cells_by_reel": [
+        60,
+        87,
+        71,
+        78,
+        74
+      ],
+      "wild_windows_by_reel": [
+        40,
+        60,
+        47,
+        50,
+        54
+      ],
+      "scatter_histogram": [
+        267,
+        129,
+        28,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "natural_wild_cell_frequency": 0.057902973395931145,
+      "natural_wild_reel_window_frequency": 0.11784037558685447,
+      "natural_wild_board_frequency": 0.4765258215962441,
+      "scatter_distribution": {
+        "0": 0.6267605633802817,
+        "1": 0.3028169014084507,
+        "2": 0.06572769953051644,
+        "3": 0.004694835680751174,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0,
+        "13": 0.0,
+        "14": 0.0,
+        "15": 0.0
+      }
+    }
+  },
+  "frequency": {
+    "hit_base": 0.1343,
+    "hit_complete_round": 0.1343,
+    "payout_gt_bet": 0.1102,
+    "positive_payout_lt_bet": 0.0202,
+    "exact_stake_return": 0.0039
+  },
+  "hit_target_definition": "25-30% target interpreted as base spin payout>0, before awarded FS",
+  "paid_round_payout_bins": [
+    {
+      "interval": "0",
+      "count": 8657,
+      "probability": 0.8657,
+      "rtp_contribution": 0.0
+    },
+    {
+      "interval": "(0;1)",
+      "count": 202,
+      "probability": 0.0202,
+      "rtp_contribution": 0.01246
+    },
+    {
+      "interval": "[1;5)",
+      "count": 783,
+      "probability": 0.0783,
+      "rtp_contribution": 0.188615
+    },
+    {
+      "interval": "[5;20)",
+      "count": 295,
+      "probability": 0.0295,
+      "rtp_contribution": 0.273195
+    },
+    {
+      "interval": "[20;100)",
+      "count": 61,
+      "probability": 0.0061,
+      "rtp_contribution": 0.19167
+    },
+    {
+      "interval": "[100;500)",
+      "count": 2,
+      "probability": 0.0002,
+      "rtp_contribution": 0.02844
+    },
+    {
+      "interval": "[500;1000)",
+      "count": 0,
+      "probability": 0.0,
+      "rtp_contribution": 0.0
+    },
+    {
+      "interval": "[1000;5000)",
+      "count": 0,
+      "probability": 0.0,
+      "rtp_contribution": 0.0
+    },
+    {
+      "interval": "exactly 5000",
+      "count": 0,
+      "probability": 0.0,
+      "rtp_contribution": 0.0
+    }
+  ],
+  "bonus_paid_tail_probabilities_given_bonus": {
+    "lt_1": 0.2641509433962264,
+    "gt_20": 0.1320754716981132,
+    "gt_100": 0.018867924528301886,
+    "gt_500": 0.0,
+    "gt_1000": 0.0
+  },
+  "maximum_observed_paid_round_payout": 153.0,
+  "maximum_observed_raw_round_payout": 153.0,
+  "maximum_observed_paid_bonus_payout": 120.8,
+  "cap_reached_count": 0,
+  "cap_reduction_count": 0,
+  "cap_reduction_units": 0,
+  "cap_reduction_rtp": 0.0,
+  "all_awarded_free_spins_played": true,
+  "accounting_assertions": {
+    "paid_base_plus_bonus_equals_paid_total": true,
+    "bins_cover_all_paid_rounds": true,
+    "free_spins_equal_awards": true
+  }
+}

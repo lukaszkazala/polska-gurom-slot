@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rounds": 10000,
+  "seed": 66251,
+  "batch_sizes": [
+    1000,
+    333
+  ],
+  "comparison": "All result fields identical except processing batch size and elapsed time"
+}

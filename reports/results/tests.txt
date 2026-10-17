@@ -1,0 +1,48 @@
+test_charge_expands_each_allowed_reel_and_only_one (test_math.BonusTests) ... ok
+test_charge_probability_and_reel_weights_have_exact_integer_draws (test_math.BonusTests) ... ok
+test_charge_rejects_reels_one_five_and_base_game (test_math.BonusTests) ... ok
+test_charge_resets_before_next_free_spin (test_math.BonusTests) ... ok
+test_free_spin_scatter_pays_without_retrigger (test_math.BonusTests) ... ok
+test_free_spin_without_charge_preserves_natural_board (test_math.BonusTests) ... ok
+test_play_round_has_no_retriggers (test_math.BonusTests) ... ok
+test_scatter_hidden_by_charge_still_pays_from_natural_board (test_math.BonusTests) ... ok
+test_config_hash_is_stable_and_covers_math_changes (test_math.ConfigTests) ... ok
+test_invalid_configuration_is_rejected (test_math.ConfigTests) ... ok
+test_paylines_are_twenty_unique_complete_coordinates (test_math.ConfigTests) ... ok
+test_equal_payout_interpretations_use_stable_symbol_order (test_math.EvaluatorTests) ... ok
+test_interruption_ends_run (test_math.EvaluatorTests) ... ok
+test_invalid_lines_and_boards_are_rejected (test_math.EvaluatorTests) ... ok
+test_leading_wilds_and_all_wilds (test_math.EvaluatorTests) ... ok
+test_losing_line (test_math.EvaluatorTests) ... ok
+test_match_must_start_on_first_reel (test_math.EvaluatorTests) ... ok
+test_multiple_winning_lines_and_line_indices (test_math.EvaluatorTests) ... ok
+test_no_sum_of_three_four_five_on_same_line (test_math.EvaluatorTests) ... ok
+test_one_highest_interpretation_per_line (test_math.EvaluatorTests) ... ok
+test_reference_evaluator_exhaustive_small_alphabet (test_math.EvaluatorTests) ... ok
+test_reference_evaluator_seeded_all_symbols (test_math.EvaluatorTests) ... ok
+test_three_four_and_five_matching_symbols (test_math.EvaluatorTests) ... ok
+test_total_bet_units_and_sdk_line_bet_equivalence (test_math.EvaluatorTests) ... ok
+test_wild_does_not_substitute_scatter (test_math.EvaluatorTests) ... ok
+test_wild_substitution_inside_run (test_math.EvaluatorTests) ... ok
+test_at_most_one_visible_scatter_per_reel (test_math.ReelAndScatterTests) ... ok
+test_cyclic_window_wraps_at_strip_end (test_math.ReelAndScatterTests) ... ok
+test_exactly_three_four_five_scatters_and_free_spin_awards (test_math.ReelAndScatterTests) ... ok
+test_fewer_than_three_scatters_do_not_trigger (test_math.ReelAndScatterTests) ... ok
+test_historical_counts_are_preserved_but_order_is_explicit (test_math.ReelAndScatterTests) ... ok
+test_invalid_stop_positions_and_unsupported_scatter_count (test_math.ReelAndScatterTests) ... ok
+test_all_awarded_spins_are_simulated_after_cap (test_math.RoundAndCapTests) ... ok
+test_cap_below_equal_and_above_five_thousand_total_bet (test_math.RoundAndCapTests) ... ok
+test_full_round_aggregation (test_math.RoundAndCapTests) ... ok
+test_incomplete_or_retriggered_trace_is_rejected (test_math.RoundAndCapTests) ... ok
+test_negative_cap_inputs_are_rejected (test_math.RoundAndCapTests) ... ok
+test_paid_components_sum_after_cap (test_math.RoundAndCapTests) ... ok
+test_reachable_positive_probability_cap_witness (test_math.RoundAndCapTests) ... ok
+test_round_result_does_not_depend_on_preceding_paid_round (test_math.RoundAndCapTests) ... ok
+test_round_without_bonus_has_no_free_spins (test_math.RoundAndCapTests) ... ok
+test_same_seed_config_and_engine_reproduce_complete_rounds (test_math.RoundAndCapTests) ... ok
+test_serialized_per_spin_settlement_preserves_raw_and_paid_totals (test_math.RoundAndCapTests) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 1.038s
+
+OK

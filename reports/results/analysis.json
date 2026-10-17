@@ -1,0 +1,1224 @@
+{
+  "method": "EXACT",
+  "scope": "Natural cyclic-reel generator; pre-cap expected values",
+  "status": "PROTOTYPE / NOT MATH-FROZEN",
+  "config_version": "reconstruction-v0.1-grouped-2026-10-17",
+  "config_hash": "31c72aa957b4cc761c6e68864ba40e720a436c967c0c7700b1bf1fb385cf8d99",
+  "scale": 100,
+  "reels": [
+    {
+      "reel_1_based": 1,
+      "length": 36,
+      "ordered_strip": [
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L4",
+        "L4",
+        "L4",
+        "L4",
+        "P1",
+        "P1",
+        "P1",
+        "P1",
+        "P2",
+        "P2",
+        "P2",
+        "P3",
+        "P3",
+        "P3",
+        "P4",
+        "P4",
+        "WILD",
+        "WILD",
+        "SCATTER"
+      ],
+      "counts": {
+        "L1": 7,
+        "L2": 5,
+        "L3": 5,
+        "L4": 4,
+        "P1": 4,
+        "P2": 3,
+        "P3": 3,
+        "P4": 2,
+        "WILD": 2,
+        "SCATTER": 1
+      },
+      "single_row_symbol_probabilities": {
+        "L1": {
+          "fraction": "7/36",
+          "numerator": 7,
+          "denominator": 36,
+          "value": 0.19444444444444445,
+          "unit": "probability"
+        },
+        "L2": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L3": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L4": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P1": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P2": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P3": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P4": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "WILD": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "SCATTER": {
+          "fraction": "1/36",
+          "numerator": 1,
+          "denominator": 36,
+          "value": 0.027777777777777776,
+          "unit": "probability"
+        }
+      },
+      "scatter_window_distribution": {
+        "0": {
+          "fraction": "11/12",
+          "numerator": 11,
+          "denominator": 12,
+          "value": 0.9166666666666666,
+          "unit": "probability"
+        },
+        "1": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        }
+      },
+      "natural_wild_cell_probability": {
+        "fraction": "1/18",
+        "numerator": 1,
+        "denominator": 18,
+        "value": 0.05555555555555555,
+        "unit": "probability"
+      },
+      "natural_wild_window_probability": {
+        "fraction": "1/9",
+        "numerator": 1,
+        "denominator": 9,
+        "value": 0.1111111111111111,
+        "unit": "probability"
+      }
+    },
+    {
+      "reel_1_based": 2,
+      "length": 36,
+      "ordered_strip": [
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L4",
+        "L4",
+        "L4",
+        "L4",
+        "P1",
+        "P1",
+        "P1",
+        "P1",
+        "P2",
+        "P2",
+        "P2",
+        "P3",
+        "P3",
+        "P3",
+        "P4",
+        "P4",
+        "WILD",
+        "WILD",
+        "SCATTER"
+      ],
+      "counts": {
+        "L1": 7,
+        "L2": 5,
+        "L3": 5,
+        "L4": 4,
+        "P1": 4,
+        "P2": 3,
+        "P3": 3,
+        "P4": 2,
+        "WILD": 2,
+        "SCATTER": 1
+      },
+      "single_row_symbol_probabilities": {
+        "L1": {
+          "fraction": "7/36",
+          "numerator": 7,
+          "denominator": 36,
+          "value": 0.19444444444444445,
+          "unit": "probability"
+        },
+        "L2": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L3": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L4": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P1": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P2": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P3": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P4": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "WILD": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "SCATTER": {
+          "fraction": "1/36",
+          "numerator": 1,
+          "denominator": 36,
+          "value": 0.027777777777777776,
+          "unit": "probability"
+        }
+      },
+      "scatter_window_distribution": {
+        "0": {
+          "fraction": "11/12",
+          "numerator": 11,
+          "denominator": 12,
+          "value": 0.9166666666666666,
+          "unit": "probability"
+        },
+        "1": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        }
+      },
+      "natural_wild_cell_probability": {
+        "fraction": "1/18",
+        "numerator": 1,
+        "denominator": 18,
+        "value": 0.05555555555555555,
+        "unit": "probability"
+      },
+      "natural_wild_window_probability": {
+        "fraction": "1/9",
+        "numerator": 1,
+        "denominator": 9,
+        "value": 0.1111111111111111,
+        "unit": "probability"
+      }
+    },
+    {
+      "reel_1_based": 3,
+      "length": 36,
+      "ordered_strip": [
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L4",
+        "L4",
+        "L4",
+        "L4",
+        "P1",
+        "P1",
+        "P1",
+        "P1",
+        "P2",
+        "P2",
+        "P2",
+        "P3",
+        "P3",
+        "P3",
+        "P4",
+        "P4",
+        "WILD",
+        "WILD",
+        "SCATTER"
+      ],
+      "counts": {
+        "L1": 7,
+        "L2": 5,
+        "L3": 5,
+        "L4": 4,
+        "P1": 4,
+        "P2": 3,
+        "P3": 3,
+        "P4": 2,
+        "WILD": 2,
+        "SCATTER": 1
+      },
+      "single_row_symbol_probabilities": {
+        "L1": {
+          "fraction": "7/36",
+          "numerator": 7,
+          "denominator": 36,
+          "value": 0.19444444444444445,
+          "unit": "probability"
+        },
+        "L2": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L3": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L4": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P1": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P2": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P3": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P4": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "WILD": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "SCATTER": {
+          "fraction": "1/36",
+          "numerator": 1,
+          "denominator": 36,
+          "value": 0.027777777777777776,
+          "unit": "probability"
+        }
+      },
+      "scatter_window_distribution": {
+        "0": {
+          "fraction": "11/12",
+          "numerator": 11,
+          "denominator": 12,
+          "value": 0.9166666666666666,
+          "unit": "probability"
+        },
+        "1": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        }
+      },
+      "natural_wild_cell_probability": {
+        "fraction": "1/18",
+        "numerator": 1,
+        "denominator": 18,
+        "value": 0.05555555555555555,
+        "unit": "probability"
+      },
+      "natural_wild_window_probability": {
+        "fraction": "1/9",
+        "numerator": 1,
+        "denominator": 9,
+        "value": 0.1111111111111111,
+        "unit": "probability"
+      }
+    },
+    {
+      "reel_1_based": 4,
+      "length": 36,
+      "ordered_strip": [
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L4",
+        "L4",
+        "L4",
+        "L4",
+        "P1",
+        "P1",
+        "P1",
+        "P1",
+        "P2",
+        "P2",
+        "P2",
+        "P3",
+        "P3",
+        "P3",
+        "P4",
+        "P4",
+        "WILD",
+        "WILD",
+        "SCATTER"
+      ],
+      "counts": {
+        "L1": 7,
+        "L2": 5,
+        "L3": 5,
+        "L4": 4,
+        "P1": 4,
+        "P2": 3,
+        "P3": 3,
+        "P4": 2,
+        "WILD": 2,
+        "SCATTER": 1
+      },
+      "single_row_symbol_probabilities": {
+        "L1": {
+          "fraction": "7/36",
+          "numerator": 7,
+          "denominator": 36,
+          "value": 0.19444444444444445,
+          "unit": "probability"
+        },
+        "L2": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L3": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L4": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P1": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P2": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P3": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P4": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "WILD": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "SCATTER": {
+          "fraction": "1/36",
+          "numerator": 1,
+          "denominator": 36,
+          "value": 0.027777777777777776,
+          "unit": "probability"
+        }
+      },
+      "scatter_window_distribution": {
+        "0": {
+          "fraction": "11/12",
+          "numerator": 11,
+          "denominator": 12,
+          "value": 0.9166666666666666,
+          "unit": "probability"
+        },
+        "1": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        }
+      },
+      "natural_wild_cell_probability": {
+        "fraction": "1/18",
+        "numerator": 1,
+        "denominator": 18,
+        "value": 0.05555555555555555,
+        "unit": "probability"
+      },
+      "natural_wild_window_probability": {
+        "fraction": "1/9",
+        "numerator": 1,
+        "denominator": 9,
+        "value": 0.1111111111111111,
+        "unit": "probability"
+      }
+    },
+    {
+      "reel_1_based": 5,
+      "length": 36,
+      "ordered_strip": [
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L2",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L3",
+        "L4",
+        "L4",
+        "L4",
+        "L4",
+        "P1",
+        "P1",
+        "P1",
+        "P1",
+        "P2",
+        "P2",
+        "P2",
+        "P3",
+        "P3",
+        "P3",
+        "P4",
+        "P4",
+        "WILD",
+        "WILD",
+        "SCATTER"
+      ],
+      "counts": {
+        "L1": 7,
+        "L2": 5,
+        "L3": 5,
+        "L4": 4,
+        "P1": 4,
+        "P2": 3,
+        "P3": 3,
+        "P4": 2,
+        "WILD": 2,
+        "SCATTER": 1
+      },
+      "single_row_symbol_probabilities": {
+        "L1": {
+          "fraction": "7/36",
+          "numerator": 7,
+          "denominator": 36,
+          "value": 0.19444444444444445,
+          "unit": "probability"
+        },
+        "L2": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L3": {
+          "fraction": "5/36",
+          "numerator": 5,
+          "denominator": 36,
+          "value": 0.1388888888888889,
+          "unit": "probability"
+        },
+        "L4": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P1": {
+          "fraction": "1/9",
+          "numerator": 1,
+          "denominator": 9,
+          "value": 0.1111111111111111,
+          "unit": "probability"
+        },
+        "P2": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P3": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        },
+        "P4": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "WILD": {
+          "fraction": "1/18",
+          "numerator": 1,
+          "denominator": 18,
+          "value": 0.05555555555555555,
+          "unit": "probability"
+        },
+        "SCATTER": {
+          "fraction": "1/36",
+          "numerator": 1,
+          "denominator": 36,
+          "value": 0.027777777777777776,
+          "unit": "probability"
+        }
+      },
+      "scatter_window_distribution": {
+        "0": {
+          "fraction": "11/12",
+          "numerator": 11,
+          "denominator": 12,
+          "value": 0.9166666666666666,
+          "unit": "probability"
+        },
+        "1": {
+          "fraction": "1/12",
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "unit": "probability"
+        }
+      },
+      "natural_wild_cell_probability": {
+        "fraction": "1/18",
+        "numerator": 1,
+        "denominator": 18,
+        "value": 0.05555555555555555,
+        "unit": "probability"
+      },
+      "natural_wild_window_probability": {
+        "fraction": "1/9",
+        "numerator": 1,
+        "denominator": 9,
+        "value": 0.1111111111111111,
+        "unit": "probability"
+      }
+    }
+  ],
+  "scatter_distribution": {
+    "0": {
+      "fraction": "161051/248832",
+      "numerator": 161051,
+      "denominator": 248832,
+      "value": 0.6472278485082305,
+      "unit": "probability"
+    },
+    "1": {
+      "fraction": "73205/248832",
+      "numerator": 73205,
+      "denominator": 248832,
+      "value": 0.2941944765946502,
+      "unit": "probability"
+    },
+    "2": {
+      "fraction": "6655/124416",
+      "numerator": 6655,
+      "denominator": 124416,
+      "value": 0.05348990483539095,
+      "unit": "probability"
+    },
+    "3": {
+      "fraction": "605/124416",
+      "numerator": 605,
+      "denominator": 124416,
+      "value": 0.004862718621399177,
+      "unit": "probability"
+    },
+    "4": {
+      "fraction": "55/248832",
+      "numerator": 55,
+      "denominator": 248832,
+      "value": 0.0002210326646090535,
+      "unit": "probability"
+    },
+    "5": {
+      "fraction": "1/248832",
+      "numerator": 1,
+      "denominator": 248832,
+      "value": 4.018775720164609e-06,
+      "unit": "probability"
+    }
+  },
+  "trigger_distribution": {
+    "3": {
+      "fraction": "605/124416",
+      "numerator": 605,
+      "denominator": 124416,
+      "value": 0.004862718621399177,
+      "unit": "probability"
+    },
+    "4": {
+      "fraction": "55/248832",
+      "numerator": 55,
+      "denominator": 248832,
+      "value": 0.0002210326646090535,
+      "unit": "probability"
+    },
+    "5": {
+      "fraction": "1/248832",
+      "numerator": 1,
+      "denominator": 248832,
+      "value": 4.018775720164609e-06,
+      "unit": "probability"
+    }
+  },
+  "bonus_probability": {
+    "fraction": "211/41472",
+    "numerator": 211,
+    "denominator": 41472,
+    "value": 0.005087770061728395,
+    "unit": "probability"
+  },
+  "bonus_mean_interval_paid_rounds": {
+    "fraction": "41472/211",
+    "numerator": 41472,
+    "denominator": 211,
+    "value": 196.54976303317537,
+    "unit": "paid_rounds"
+  },
+  "mean_free_spins_given_bonus": {
+    "fraction": "1707/211",
+    "numerator": 1707,
+    "denominator": 211,
+    "value": 8.090047393364928,
+    "unit": "free_spins"
+  },
+  "mean_free_spins_per_paid_round": {
+    "fraction": "569/13824",
+    "numerator": 569,
+    "denominator": 13824,
+    "value": 0.04116030092592592,
+    "unit": "free_spins/paid_round"
+  },
+  "required_mean_bonus_for_22_5pp": {
+    "fraction": "46656/1055",
+    "numerator": 46656,
+    "denominator": 1055,
+    "value": 44.22369668246446,
+    "unit": "TOTAL_BET"
+  },
+  "line_mean_no_charge": {
+    "fraction": "22326583/604661760",
+    "numerator": 22326583,
+    "denominator": 604661760,
+    "value": 0.036924086285860046,
+    "unit": "TOTAL_BET"
+  },
+  "line_mean_charge_by_reel": {
+    "2": {
+      "fraction": "399559/1866240",
+      "numerator": 399559,
+      "denominator": 1866240,
+      "value": 0.21409840106310013,
+      "unit": "TOTAL_BET"
+    },
+    "3": {
+      "fraction": "399559/1866240",
+      "numerator": 399559,
+      "denominator": 1866240,
+      "value": 0.21409840106310013,
+      "unit": "TOTAL_BET"
+    },
+    "4": {
+      "fraction": "690947/5598720",
+      "numerator": 690947,
+      "denominator": 5598720,
+      "value": 0.12341160122313671,
+      "unit": "TOTAL_BET"
+    }
+  },
+  "free_spin_mean_no_charge": {
+    "fraction": "45018881/60466176",
+    "numerator": 45018881,
+    "denominator": 60466176,
+    "value": 0.7445299831760487,
+    "unit": "TOTAL_BET"
+  },
+  "free_spin_mean_conditional_charge": {
+    "fraction": "24747043/6718464",
+    "numerator": 24747043,
+    "denominator": 6718464,
+    "value": 3.6834376131210944,
+    "unit": "TOTAL_BET"
+  },
+  "free_spin_mean": {
+    "fraction": "59630005/40310784",
+    "numerator": 59630005,
+    "denominator": 40310784,
+    "value": 1.47925689066231,
+    "unit": "TOTAL_BET"
+  },
+  "charge_increment_per_free_spin": {
+    "fraction": "88852253/120932352",
+    "numerator": 88852253,
+    "denominator": 120932352,
+    "value": 0.7347269074862615,
+    "unit": "TOTAL_BET"
+  },
+  "mean_bonus_given_trigger_pre_cap": {
+    "fraction": "33929472845/2835191808",
+    "numerator": 33929472845,
+    "denominator": 2835191808,
+    "value": 11.967258352419732,
+    "unit": "TOTAL_BET"
+  },
+  "base_rtp_pre_cap": {
+    "fraction": "45018881/60466176",
+    "numerator": 45018881,
+    "denominator": 60466176,
+    "value": 0.7445299831760487,
+    "unit": "TOTAL_BET"
+  },
+  "bonus_rtp_pre_cap": {
+    "fraction": "33929472845/557256278016",
+    "numerator": 33929472845,
+    "denominator": 557256278016,
+    "value": 0.06088665876641019,
+    "unit": "TOTAL_BET"
+  },
+  "total_rtp_pre_cap": {
+    "fraction": "448823480141/557256278016",
+    "numerator": 448823480141,
+    "denominator": 557256278016,
+    "value": 0.8054166419424589,
+    "unit": "TOTAL_BET"
+  },
+  "scatter_rtp_pre_cap": {
+    "fraction": "21661465/3439853568",
+    "numerator": 21661465,
+    "denominator": 3439853568,
+    "value": 0.006297205555931385,
+    "unit": "TOTAL_BET"
+  },
+  "diagnostics_exact_pre_cap": {
+    "note": "Counterfactual diagnostics only; no configuration changes and no inference about unavailable historical evaluator.",
+    "base_rtp_natural_wilds_treated_as_blockers": {
+      "fraction": "11604541/60466176",
+      "numerator": 11604541,
+      "denominator": 60466176,
+      "value": 0.1919178914175092,
+      "unit": "TOTAL_BET"
+    },
+    "base_rtp_increment_from_natural_wild_substitution": {
+      "fraction": "8353585/15116544",
+      "numerator": 8353585,
+      "denominator": 15116544,
+      "value": 0.5526120917585395,
+      "unit": "TOTAL_BET"
+    },
+    "bonus_rtp_without_scatter_payout_in_free_spins": {
+      "fraction": "33790744955/557256278016",
+      "numerator": 33790744955,
+      "denominator": 557256278016,
+      "value": 0.06063771066932654,
+      "unit": "TOTAL_BET"
+    },
+    "total_rtp_without_scatter_payout_in_free_spins": {
+      "fraction": "448684752251/557256278016",
+      "numerator": 448684752251,
+      "denominator": 557256278016,
+      "value": 0.8051676938453752,
+      "unit": "TOTAL_BET"
+    },
+    "free_spin_scatter_rtp_contribution": {
+      "fraction": "856345/3439853568",
+      "numerator": 856345,
+      "denominator": 3439853568,
+      "value": 0.0002489480970836489,
+      "unit": "TOTAL_BET"
+    }
+  },
+  "charge_sweep_pre_cap": [
+    {
+      "charge_probability": {
+        "fraction": "0",
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0,
+        "unit": "probability"
+      },
+      "rtp_pre_cap": {
+        "fraction": "647956754233/835884417024",
+        "numerator": 647956754233,
+        "denominator": 835884417024,
+        "value": 0.7751750613319495,
+        "unit": "TOTAL_BET"
+      },
+      "bonus_rtp_pre_cap": {
+        "fraction": "25615743289/835884417024",
+        "numerator": 25615743289,
+        "denominator": 835884417024,
+        "value": 0.030645078155900733,
+        "unit": "TOTAL_BET"
+      }
+    },
+    {
+      "charge_probability": {
+        "fraction": "1/4",
+        "numerator": 1,
+        "denominator": 4,
+        "value": 0.25,
+        "unit": "probability"
+      },
+      "rtp_pre_cap": {
+        "fraction": "448823480141/557256278016",
+        "numerator": 448823480141,
+        "denominator": 557256278016,
+        "value": 0.8054166419424589,
+        "unit": "TOTAL_BET"
+      },
+      "bonus_rtp_pre_cap": {
+        "fraction": "33929472845/557256278016",
+        "numerator": 33929472845,
+        "denominator": 557256278016,
+        "value": 0.06088665876641019,
+        "unit": "TOTAL_BET"
+      }
+    },
+    {
+      "charge_probability": {
+        "fraction": "1/2",
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5,
+        "unit": "probability"
+      },
+      "rtp_pre_cap": {
+        "fraction": "349256843095/417942208512",
+        "numerator": 349256843095,
+        "denominator": 417942208512,
+        "value": 0.8356582225529684,
+        "unit": "TOTAL_BET"
+      },
+      "bonus_rtp_pre_cap": {
+        "fraction": "38086337623/417942208512",
+        "numerator": 38086337623,
+        "denominator": 417942208512,
+        "value": 0.09112823937691965,
+        "unit": "TOTAL_BET"
+      }
+    },
+    {
+      "charge_probability": {
+        "fraction": "3/4",
+        "numerator": 3,
+        "denominator": 4,
+        "value": 0.75,
+        "unit": "probability"
+      },
+      "rtp_pre_cap": {
+        "fraction": "1447584304337/1671768834048",
+        "numerator": 1447584304337,
+        "denominator": 1671768834048,
+        "value": 0.8658998031634778,
+        "unit": "TOTAL_BET"
+      },
+      "bonus_rtp_pre_cap": {
+        "fraction": "202902282449/1671768834048",
+        "numerator": 202902282449,
+        "denominator": 1671768834048,
+        "value": 0.1213698199874291,
+        "unit": "TOTAL_BET"
+      }
+    },
+    {
+      "charge_probability": {
+        "fraction": "1",
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0,
+        "unit": "probability"
+      },
+      "rtp_pre_cap": {
+        "fraction": "83230068683/92876046336",
+        "numerator": 83230068683,
+        "denominator": 92876046336,
+        "value": 0.8961413837739872,
+        "unit": "TOTAL_BET"
+      },
+      "bonus_rtp_pre_cap": {
+        "fraction": "14081067467/92876046336",
+        "numerator": 14081067467,
+        "denominator": 92876046336,
+        "value": 0.15161140059793857,
+        "unit": "TOTAL_BET"
+      }
+    }
+  ],
+  "charge_probability_required_for_96pct_pre_cap": {
+    "fraction": "3862307152751/2527846597850",
+    "numerator": 3862307152751,
+    "denominator": 2527846597850,
+    "value": 1.527904088814564,
+    "unit": "probability"
+  },
+  "cap": {
+    "post_cap_exact_rtp_status": "NOT CALCULATED",
+    "method": "EXACT RIGOROUS BOUND: convex-order Bernoulli stop-loss domination; independent FS; same bounded payout and mean",
+    "single_spin_payout_upper_bound": {
+      "fraction": "1020",
+      "numerator": 1020,
+      "denominator": 1,
+      "value": 1020.0,
+      "unit": "TOTAL_BET"
+    },
+    "round_payout_upper_bound": {
+      "fraction": "13260",
+      "numerator": 13260,
+      "denominator": 1,
+      "value": 13260.0,
+      "unit": "TOTAL_BET"
+    },
+    "rtp_loss_upper_bound": {
+      "fraction": "343667422589921329261973770423793586006264679371343206417351578980450417538643160311529679728000139252138042576455/1983087744824845925202269793718189501734972739517827491116415851586554910141569759358634461813013600694026192679238428000256",
+      "numerator": 343667422589921329261973770423793586006264679371343206417351578980450417538643160311529679728000139252138042576455,
+      "denominator": 1983087744824845925202269793718189501734972739517827491116415851586554910141569759358634461813013600694026192679238428000256,
+      "value": 1.732991510268626e-10,
+      "unit": "TOTAL_BET"
+    },
+    "post_cap_rtp_lower_bound": {
+      "fraction": "1597211871770403799555341911028835085277906163545823483701301644565365233837237399309932959630961331108809693034605707407801/1983087744824845925202269793718189501734972739517827491116415851586554910141569759358634461813013600694026192679238428000256",
+      "numerator": 1597211871770403799555341911028835085277906163545823483701301644565365233837237399309932959630961331108809693034605707407801,
+      "denominator": 1983087744824845925202269793718189501734972739517827491116415851586554910141569759358634461813013600694026192679238428000256,
+      "value": 0.8054166417691597,
+      "unit": "TOTAL_BET"
+    },
+    "post_cap_rtp_upper_bound": {
+      "fraction": "448823480141/557256278016",
+      "numerator": 448823480141,
+      "denominator": 557256278016,
+      "value": 0.8054166419424589,
+      "unit": "TOTAL_BET"
+    },
+    "base_rtp_post_cap": {
+      "fraction": "45018881/60466176",
+      "numerator": 45018881,
+      "denominator": 60466176,
+      "value": 0.7445299831760487,
+      "unit": "TOTAL_BET"
+    },
+    "bonus_rtp_post_cap_lower_bound": {
+      "fraction": "120743586479332894889303748250131819603291130860490890466060799020762302445825742158586045302211592725719573707236535579065/1983087744824845925202269793718189501734972739517827491116415851586554910141569759358634461813013600694026192679238428000256",
+      "numerator": 120743586479332894889303748250131819603291130860490890466060799020762302445825742158586045302211592725719573707236535579065,
+      "denominator": 1983087744824845925202269793718189501734972739517827491116415851586554910141569759358634461813013600694026192679238428000256,
+      "value": 0.060886658593111036,
+      "unit": "TOTAL_BET"
+    },
+    "bonus_rtp_post_cap_upper_bound": {
+      "fraction": "33929472845/557256278016",
+      "numerator": 33929472845,
+      "denominator": 557256278016,
+      "value": 0.06088665876641019,
+      "unit": "TOTAL_BET"
+    },
+    "caveat": "Bounds are not exact post-cap RTP. The generic maximum is an upper bound, not an attainable maximum."
+  },
+  "not_calculated_exactly": [
+    "hit frequency",
+    "round variance",
+    "round payout distribution",
+    "post-cap exact RTP"
+  ],
+  "historical_reported_unverified": {
+    "total_rtp": 0.805417,
+    "base_rtp": 0.74453,
+    "bonus_rtp": 0.060887,
+    "hit_frequency_1m": 0.496463,
+    "bonus_interval": 196.55,
+    "maximum_observed_1m": 130,
+    "charge_probability": 0.25
+  },
+  "interpretation": "Agreement of pre-cap mean and bonus probability with historical rounded figures does not reconstruct historical reel order, evaluator implementation, hits, variance or tail."
+}

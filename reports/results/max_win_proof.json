@@ -1,0 +1,75 @@
+{
+  "engine_version": "0.1.0-reconstruction",
+  "config_version": "reconstruction-v0.1-grouped-2026-10-17",
+  "config_hash": "31c72aa957b4cc761c6e68864ba40e720a436c967c0c7700b1bf1fb385cf8d99",
+  "status": "PROTOTYPE / NOT MATH-FROZEN",
+  "result_status": "EXACT",
+  "units": "100 units = 1 TOTAL BET",
+  "method": "Analityczne ograniczenie wszystkich FS oraz pelna enumeracja 243 plansz base z 5 Scatterami, z rzeczywistym core.",
+  "specific_configuration_only": true,
+  "source_sha256": {
+    "polska_gurom/config.py": "537b5ebaa23b98fa375935c7f3e1160d8027396cfd3ddee0148c170b2e7953ee",
+    "polska_gurom/evaluator.py": "26dccf82d94d0c02035972f3c96c23413b269e97102d8d289803be7c3c32add7",
+    "polska_gurom/engine.py": "a95259e8cd2fe0d2e0e74a7d366b813a0421f7bb42aeb60fa7eb4ea32b7cd358",
+    "polska_gurom/bonus.py": "e4e0bbde182ee307bd332c47a2c1cef139c0faf0fe4bb1b8dc3b45bc3f990b3d",
+    "polska_gurom/cap.py": "4141c6e371549f664d3cf8915db89ae13fbc32b1df89fd1d6f35c61b6fed3efe",
+    "polska_gurom/scatter.py": "dffd0b0bdbe32488c2c07dcc884e03b5b4e51c8e52a44ac3e1e6090987d86ea0",
+    "polska_gurom/reels.py": "d7364fa77929a167cef7fc9973ffb206fbc88e1323e33e0446fdca0b13a2a85a"
+  },
+  "assumptions_checked": {
+    "identical_grouped_36_symbol_strips": true,
+    "twenty_unique_lines_including_three_horizontals": true,
+    "one_visible_scatter_per_reel_at_most": true,
+    "line_maximum_units": 5000,
+    "three_match_maximum_units": 200,
+    "scatter_maximum_units": 2000,
+    "charge_probability": "1/4",
+    "charge_weights": [
+      1,
+      1,
+      1
+    ],
+    "allowed_charge_reels_zero_based": [
+      1,
+      2,
+      3
+    ],
+    "charge_covers_at_most_one_reel": true,
+    "free_spin_retriggers": false,
+    "all_awarded_spins_played_after_cap": true
+  },
+  "free_spin_upper_units": 100000,
+  "free_spin_upper_with_positive_scatter_pay_units": 97200,
+  "free_spin_bound_argument": "Przy >=3 naturalnych SC po co najwyzej jednym Charge pozostaja >=2 odkryte SC; przynajmniej jeden na bebnie 1-4. Pozioma linia przez niego placi <=2x. Pozostale 19 linii <=50x kazda, Scatter payout <=20x; suma <=972x. Przy <3SC suma <=1000x. Stops31/noCharge osiaga1000x.",
+  "five_scatter_boards_enumerated": 243,
+  "five_scatter_base_maximum_units": 32400,
+  "five_scatter_maximizing_stops": [
+    [
+      33,
+      33,
+      33,
+      33,
+      33
+    ]
+  ],
+  "round_upper_bounds_units": {
+    "0_1_2_scatters": 100000,
+    "3_scatters": 902000,
+    "4_scatters": 1102000,
+    "5_scatters": 1232400
+  },
+  "raw_round_maximum_units": 1232400,
+  "raw_round_maximum_total_bet": 12324,
+  "paid_round_maximum_units": 500000,
+  "paid_round_maximum_total_bet": 5000,
+  "maximum_cap_reduction_units": 732400,
+  "witness_probability": {
+    "numerator": 1,
+    "denominator": 4559606763238607858032149214179115214372499020391995525499169562317470185611954273363310059956706738176,
+    "fraction": "1/4559606763238607858032149214179115214372499020391995525499169562317470185611954273363310059956706738176",
+    "decimal_approximation": 2.1931715867745527e-103
+  },
+  "witness_path": "reports/max_win_witness.json",
+  "probability_scope": "Jedna konkretna sciezka; nie obliczono tutaj dokladnej czestosci cap.",
+  "bounds_scope": "Nie obliczono tutaj dokladnego RTP po cap ani optymalizacji; oddzielny modul analityczny raportuje ich ograniczenia."
+}

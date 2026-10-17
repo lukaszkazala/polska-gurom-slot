@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "samples": 2048,
+  "seed": 91276,
+  "charge_choices_reel_indices": [
+    null,
+    1,
+    2,
+    3
+  ],
+  "lut_entries_from_scalar_evaluator": 100000
+}

@@ -1,0 +1,11 @@
+{
+  "status":"PROTOTYPE / NOT MATH-FROZEN",
+  "symbols": {
+    "L1":{"label":"L1","asset":null},"L2":{"label":"L2","asset":null},
+    "L3":{"label":"L3","asset":null},"L4":{"label":"L4","asset":null},
+    "P1":{"label":"Pierogi","asset":null},"P2":{"label":"Bocian","asset":null},
+    "P3":{"label":"Szabla","asset":null},"P4":{"label":"Husarz","asset":null},
+    "WILD":{"label":"Wild","asset":null},"SCATTER":{"label":"Scatter","asset":null}
+  },
+  "unassigned_graphic_candidates":["maluch","zamek inspirowany Wawelem","skrzydła husarskie","drewniany domek góralski"]
+}
