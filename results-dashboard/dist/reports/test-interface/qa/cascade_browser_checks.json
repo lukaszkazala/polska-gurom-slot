@@ -1,0 +1,40 @@
+{
+  "verified_at": "2026-10-19T16:17:10.902Z",
+  "passed": true,
+  "method": "Browser UI against the actual bundled Python cascade engine.",
+  "checks": {
+    "cascade_preview": {
+      "transitions": 3,
+      "stage_line_credits": [
+        90,
+        400,
+        212,
+        0
+      ],
+      "bet_cents": 200,
+      "win_cents": 1404,
+      "scenario_preserves_paid_round_count": true
+    },
+    "autoplay": {
+      "completed": 100,
+      "target": 100,
+      "actual_paid_rounds": 100
+    },
+    "animated_bonus": {
+      "completed": true,
+      "cascades": 6,
+      "win_cents": 18928
+    },
+    "responsive_widths": [
+      390,
+      1440
+    ],
+    "translated_summary": true,
+    "console_errors": []
+  },
+  "screenshots": [
+    "cascade-mobile.jpg",
+    "cascade-desktop.jpg",
+    "cascade-autoplay-100.jpg"
+  ]
+}

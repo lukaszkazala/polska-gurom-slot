@@ -1,0 +1,231 @@
+{
+  "source": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface-any-start",
+  "isolated_copy": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\full_review_2026_10_20\\server\\isolated_app",
+  "files": [
+    {
+      "file": "build_math.py",
+      "sha256": "2a6ad20bff6aee3b87d46a7b5c6cfe7c09f2d431f5659120a9bd6b89b04ab96a",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/__init__.py",
+      "sha256": "eca968557571b57ef1226c4221f669eb9466eff60fea0220f9f44de7d26882ad",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/__main__.py",
+      "sha256": "b3185ca26ce0b7b5d9615a3497beb7ea339108c0df3a54ef4a9419f710fbb61a",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/config.py",
+      "sha256": "7767db5e864a4b05c23221438dcd13339af2498597681cca50b6ee4cc10ab322",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/game.py",
+      "sha256": "42401e6a16c511abc9d9884a4d74b5d6643e290315ee5e63f635343665322dfb",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/selection.py",
+      "sha256": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/sim.py",
+      "sha256": "721d6afcffab894c5d0d29300a4f6b64586bf91e54a821b081cd3fdef0f05556",
+      "matches_original": true
+    },
+    {
+      "file": "engine/polska_gurom/theory.py",
+      "sha256": "fb87be34318902a31abb8fd7ee34264772360b2d123f56ed4a2dd81fabef65a4",
+      "matches_original": true
+    },
+    {
+      "file": "package_demo.py",
+      "sha256": "a4a4b92e440f5cf62adf1f92543b6523654687b5b7db043e2f899fcf5b78dc00",
+      "matches_original": true
+    },
+    {
+      "file": "qa/autoplay_logic_results.json",
+      "sha256": "faf013e44e5a30b791448153d23f0880f3bae561ce06ea8cd48f0ba58560345b",
+      "matches_original": true
+    },
+    {
+      "file": "qa/browser_fault_lab.py",
+      "sha256": "d5f46af41ca0d7157e90dbc71e50487fbc05b9d2cde4b3c45904aecd4be6adf8",
+      "matches_original": true
+    },
+    {
+      "file": "qa/cascade_math_checks.json",
+      "sha256": "f17023f058684f49f29180352a10e8cc8ee4c3e92451a2a061548e473fef5212",
+      "matches_original": true
+    },
+    {
+      "file": "qa/check_cascade_math.py",
+      "sha256": "98ba05fbe822be21a903ee65abe634cd70da4bd70c5e409b0cbdcbaba5772972",
+      "matches_original": true
+    },
+    {
+      "file": "qa/portable_check.py",
+      "sha256": "1c0cfa69d84bac7332ef3dc8c714f9e06f0878edafa37a14c067b39b848f3ded",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_any_start_frontend.cjs",
+      "sha256": "8a039191978dd81e9974c37b637eb1a6b6b600ca2b7f5da253d4bf782d984822",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_autoplay.cjs",
+      "sha256": "4c173ed4c8ffde4495b44c75f793eb4715f4c553e90ee77a358cc0909cd3eac4",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_bonus12_api.py",
+      "sha256": "7f1652192536113ef3d8ddafb1ec92491c764ee60ad3e9f47b156b486a6391fa",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_bonus12_frontend.cjs",
+      "sha256": "08a621879e76226d91b2df01b19551c3b746dcb46a38d05e32044d53a96df8c9",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_cascades.py",
+      "sha256": "f87ad4d84907aeb2cdc99d87cb51204e1a363d783a6a8a6dbc9b90ef05d5147a",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_network_faults.py",
+      "sha256": "da473b256a54462a094d8a6a714e9bf76b8ff72758c6edd04eccb7d1508f2403",
+      "matches_original": true
+    },
+    {
+      "file": "qa/test_network_logic.cjs",
+      "sha256": "07e439b83335287855ec2ef36417092cd1c3f2e8a913c131d234ddba5fea4a66",
+      "matches_original": true
+    },
+    {
+      "file": "README_PL.md",
+      "sha256": "28298c507fbc074ec0cb55e92657436c54f928bf765f21bb08d3f40f3c3ba3df",
+      "matches_original": true
+    },
+    {
+      "file": "server.py",
+      "sha256": "96ede08914de614a01174fc351da20d1e4fa7bf94c9196b61284490efdee5973",
+      "matches_original": true
+    },
+    {
+      "file": "stake_math/books_base.jsonl.zst",
+      "sha256": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57",
+      "matches_original": true
+    },
+    {
+      "file": "stake_math/index.json",
+      "sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "matches_original": true
+    },
+    {
+      "file": "stake_math/lookUpTable_base_0.csv",
+      "sha256": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b",
+      "matches_original": true
+    },
+    {
+      "file": "stake_math/mathematics.json",
+      "sha256": "24e52274ed46b2d09d64fea31766f3488bfeba97a2c2d38a7dc2165a02bfc54e",
+      "matches_original": true
+    },
+    {
+      "file": "stake_math/selection.json",
+      "sha256": "4f55f32fbd3d993e7299eed1d34162fe66f1f6bb700b1727bb035e20f6560e1c",
+      "matches_original": true
+    },
+    {
+      "file": "START.cmd",
+      "sha256": "fef10be06b9d2e07e8e3765231b7f9ab73181511076b2175bde6f2c1f401a98b",
+      "matches_original": true
+    },
+    {
+      "file": "START_UX.cmd",
+      "sha256": "71f6a91c66c36e013f359f1d6ce227e4ace43b7c96bb559ee1aa9a57544e0d83",
+      "matches_original": true
+    },
+    {
+      "file": "test_server.py",
+      "sha256": "aaf9a415298162d12dfa5c99b19af21f18d8fe2b7efeceae5360e7ccb5940d04",
+      "matches_original": true
+    },
+    {
+      "file": "web/app.js",
+      "sha256": "5c2c70eaf00b1ff5732cc30e254e67e27ea4a26c857a4bb106c199268de5fe71",
+      "matches_original": true
+    },
+    {
+      "file": "web/art-catalog.js",
+      "sha256": "6712291291d66be95c24ac0707c21d16115f78c6f7a7bac34eea8e31c7d0b9e2",
+      "matches_original": true
+    },
+    {
+      "file": "web/art-theme.css",
+      "sha256": "9ab3ff77be726cdf6ed7bb98acc3e3056d7d3bedbd4b204844a5a2892e26f831",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/art/husarz.png",
+      "sha256": "3f1a54259fda32a15740799609f712fba5a430d83abde286b996599c22c5d81d",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/art/klasyczne-motywy.png",
+      "sha256": "741ebde62656e3728fee585e31d5a43a4f0f39b3d6ccbe469c403e0ad68e603a",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/art/polskie-motywy.png",
+      "sha256": "92e89378f4fd537e2e75e7aeec19905de7f2f2ddb123d1f5cb8b2c6628072fec",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/art/PROVENANCE.md",
+      "sha256": "7b5cf86c3a50fa47f50c633dc1e1231599cff5d05e6f66a267fb84663c373755",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/art/rama.png",
+      "sha256": "90c7c12810bcd8cc97eb151fb2051918533800f8c825239602845a237f25b98b",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/art/symbole-specjalne.png",
+      "sha256": "4c88b2839e63f9ccc122efb1558c0f863a1d6142af65e66ab5be0ef9187170de",
+      "matches_original": true
+    },
+    {
+      "file": "web/assets/symbols.json",
+      "sha256": "36fb74fdaf68560737140f3053e045a10bf9d1727079f6119b6dc5f8578ee02c",
+      "matches_original": true
+    },
+    {
+      "file": "web/game-layout.js",
+      "sha256": "193fa82bf4803aedb27ffa42ac3897f9da1f6a6f75b0a4df7c46dfcb37397309",
+      "matches_original": true
+    },
+    {
+      "file": "web/index.html",
+      "sha256": "153b111a23f9a7f9d61b221a38a8feb8de3dbe5b89feba6115a38ef450913844",
+      "matches_original": true
+    },
+    {
+      "file": "web/player-layout.css",
+      "sha256": "e28c21307fc64a43350afcafa9406333e8abbd59e280a4b114186df7a9757366",
+      "matches_original": true
+    },
+    {
+      "file": "web/style.css",
+      "sha256": "7a8083810064c18d880377c91747501f36e9bd1ae2edb70156c3600e0680b0f6",
+      "matches_original": true
+    }
+  ]
+}

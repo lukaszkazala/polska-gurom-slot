@@ -1,0 +1,420 @@
+{
+  "project": "D:\\Kazaluka_slots\\polska_gurom_phase2_v0.1",
+  "theory": {
+    "base_line_rtp": 0.7384817257171944,
+    "scatter_rtp": 0.00604825745884774,
+    "base_rtp": 0.7445299831760421,
+    "bonus_rtp": 0.060886658766409966,
+    "total_rtp": 0.8054166419424521,
+    "bonus_frequency": 0.005087770061728398,
+    "average_free_spins_per_trigger": 8.09004739336493,
+    "free_spin_ev": 1.4792568906623038,
+    "expanded_line_rtp": 3.6773893556622412,
+    "scatter_distribution": {
+      "0": 0.6472278485082316,
+      "1": 0.2941944765946506,
+      "2": 0.053489904835391,
+      "3": 0.00486271862139918,
+      "4": 0.00022103266460905358,
+      "5": 4.0187757201646085e-06
+    }
+  },
+  "paylines": [
+    {
+      "id": 1,
+      "rows_zero_based": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "rows_zero_based": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "rows_zero_based": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "rows_zero_based": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "rows_zero_based": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "rows_zero_based": [
+        0,
+        0,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "rows_zero_based": [
+        2,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 8,
+      "rows_zero_based": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "rows_zero_based": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "rows_zero_based": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "rows_zero_based": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "rows_zero_based": [
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "rows_zero_based": [
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "rows_zero_based": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "rows_zero_based": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 16,
+      "rows_zero_based": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "rows_zero_based": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "rows_zero_based": [
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "id": 19,
+      "rows_zero_based": [
+        2,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 20,
+      "rows_zero_based": [
+        0,
+        2,
+        2,
+        2,
+        0
+      ]
+    }
+  ],
+  "line_count": 20,
+  "unique_lines": 20,
+  "horizontal_lines": 3,
+  "non_horizontal_lines": 17,
+  "current_exact_hit": {
+    "line_hit_probability": 0.4941700960219479,
+    "paid_round_positive_payout_probability": 0.49622101123113854,
+    "exact_fraction": "370427/746496",
+    "unique_three_reel_prefixes": 20
+  },
+  "three_horizontal_exact_hit": {
+    "line_hit_probability": 0.12127057613168725,
+    "paid_round_positive_payout_probability": 0.12554566043667123,
+    "exact_fraction": "140579/1119744",
+    "unique_three_reel_prefixes": 3
+  },
+  "single_line_positive_probability": 0.045117455418381344,
+  "expected_count_of_winning_lines_per_paid_spin": 0.9023491083676269,
+  "target_96_with_current_base": {
+    "required_bonus_rtp": 0.21547001682395783,
+    "required_mean_bonus_given_trigger": 42.350580747503194,
+    "required_free_spin_ev_before_cap": 5.23489896761756,
+    "bonus_scaling_before_cap": 3.5388707672497315,
+    "rtp_at_100_percent_expansion": 0.8961413837739806
+  },
+  "unit_warning": "PAYTABLE values already multiply TOTAL BET, not bet per line.",
+  "geometry_invariance": "At fixed line count, identical marginal symbol probabilities per row and the same paytable imply equal uncapped mean line payout. Joint hit probability and variance depend on the geometry and strip order. Caps can break total RTP invariance.",
+  "simulation_1m": {
+    "positive_payout_rate": 0.496463,
+    "positive_below_total_bet_rate": 0.290543,
+    "rtp_estimate": 0.8030867999996857,
+    "rtp_95_percent_normal_half_width": 0.004636800236138636,
+    "note": "Normal interval is an empirical Monte Carlo diagnostic, not a guarantee about rare tails or production accuracy."
+  },
+  "research_candidate_with_v": {
+    "lines": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "independently_recomputed_hit": {
+      "line_hit_probability": 0.2939386145404664,
+      "paid_round_positive_payout_probability": 0.2970869532083524,
+      "exact_fraction": "31187/104976",
+      "unique_three_reel_prefixes": 9
+    },
+    "same_uncapped_mean_as_current": true,
+    "production_ready": false,
+    "remaining_validation": [
+      "full payout distribution",
+      "variance",
+      "attainable max and cap loss",
+      "net profit frequency",
+      "bonus tuning",
+      "visual readability"
+    ]
+  },
+  "original_files_unchanged": true,
+  "matches_prior_audit_hashes": true
+}

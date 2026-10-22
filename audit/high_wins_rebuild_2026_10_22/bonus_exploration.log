@@ -1,0 +1,849 @@
+{
+  "candidate_count": 11016,
+  "unique_rounds": 7752,
+  "unique_high_rounds": 6349,
+  "legal_rng_draws_checked": 1252678,
+  "variants": {
+    "8": {
+      "distinct_high_payouts": 1291,
+      "largest_gap_units": 7680,
+      "largest_gaps_units": [
+        [
+          7680,
+          228860,
+          236540
+        ],
+        [
+          7640,
+          130980,
+          138620
+        ],
+        [
+          5080,
+          144580,
+          149660
+        ],
+        [
+          4240,
+          466940,
+          471180
+        ],
+        [
+          4240,
+          236540,
+          240780
+        ]
+      ],
+      "cap_sequences": 350,
+      "example_cap": {
+        "spec": {
+          "recipe": {
+            "name": "bonus_wild_refill",
+            "stops": [
+              35,
+              28,
+              17,
+              16,
+              31
+            ],
+            "free_spin_stops": [
+              4,
+              33,
+              27,
+              19,
+              11
+            ],
+            "wild_refill_limit": 29,
+            "expanding_reel": null,
+            "fallback_seed": 20261022
+          }
+        },
+        "fs": 8,
+        "payout_units": 500000,
+        "event_sha256": "a2a6c4727868d16eca954fe905c3cbadb60520f744db6cfb5aa51a69b6df0453",
+        "free_spins_played": 1,
+        "cap_reduction_units": 61460
+      }
+    },
+    "10": {
+      "distinct_high_payouts": 1326,
+      "largest_gap_units": 7680,
+      "largest_gaps_units": [
+        [
+          7680,
+          233540,
+          241220
+        ],
+        [
+          5760,
+          139020,
+          144780
+        ],
+        [
+          4320,
+          134700,
+          139020
+        ],
+        [
+          4280,
+          150060,
+          154340
+        ],
+        [
+          4040,
+          216140,
+          220180
+        ]
+      ],
+      "cap_sequences": 379,
+      "example_cap": {
+        "spec": {
+          "recipe": {
+            "name": "bonus_wild_refill",
+            "stops": [
+              35,
+              28,
+              17,
+              16,
+              8
+            ],
+            "free_spin_stops": [
+              4,
+              33,
+              27,
+              19,
+              11
+            ],
+            "wild_refill_limit": 29,
+            "expanding_reel": null,
+            "fallback_seed": 20261022
+          }
+        },
+        "fs": 10,
+        "payout_units": 500000,
+        "event_sha256": "ba7fd7cbedbcf77d179b8c9d591eea4bf73d626a1f951dc53d9f245e3b2fdc24",
+        "free_spins_played": 1,
+        "cap_reduction_units": 61860
+      }
+    },
+    "12": {
+      "distinct_high_payouts": 1299,
+      "largest_gap_units": 7680,
+      "largest_gaps_units": [
+        [
+          7680,
+          238680,
+          246360
+        ],
+        [
+          5000,
+          150360,
+          155360
+        ],
+        [
+          4800,
+          139520,
+          144320
+        ],
+        [
+          4000,
+          469080,
+          473080
+        ],
+        [
+          3480,
+          235200,
+          238680
+        ]
+      ],
+      "cap_sequences": 421,
+      "example_cap": {
+        "spec": {
+          "recipe": {
+            "name": "bonus_wild_refill",
+            "stops": [
+              35,
+              27,
+              22,
+              15,
+              8
+            ],
+            "free_spin_stops": [
+              4,
+              33,
+              27,
+              19,
+              11
+            ],
+            "wild_refill_limit": 29,
+            "expanding_reel": null,
+            "fallback_seed": 20261022
+          }
+        },
+        "fs": 12,
+        "payout_units": 500000,
+        "event_sha256": "fd58c68075423e837c909ddebd5d521f72c46ab506b5ae5f4fdfd6fb83c70d71",
+        "free_spins_played": 1,
+        "cap_reduction_units": 63360
+      }
+    }
+  },
+  "elapsed_seconds": 33.985359899998,
+  "catalog_count": 114,
+  "band_summaries": [
+    {
+      "fs": 8,
+      "lower_units": 50000,
+      "upper_units_exclusive": 75000,
+      "candidate_count": 187,
+      "min_units": 50020,
+      "max_units": 73820,
+      "selected_payout_units": [
+        62340,
+        62700
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 75000,
+      "upper_units_exclusive": 100000,
+      "candidate_count": 77,
+      "min_units": 75500,
+      "max_units": 99980,
+      "selected_payout_units": [
+        87300,
+        87940
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 100000,
+      "upper_units_exclusive": 125000,
+      "candidate_count": 80,
+      "min_units": 100060,
+      "max_units": 124540,
+      "selected_payout_units": [
+        111620,
+        112980
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 125000,
+      "upper_units_exclusive": 150000,
+      "candidate_count": 25,
+      "min_units": 125140,
+      "max_units": 149660,
+      "selected_payout_units": [
+        130980,
+        138620
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 150000,
+      "upper_units_exclusive": 175000,
+      "candidate_count": 62,
+      "min_units": 150740,
+      "max_units": 174180,
+      "selected_payout_units": [
+        161140,
+        163620
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 175000,
+      "upper_units_exclusive": 200000,
+      "candidate_count": 65,
+      "min_units": 175420,
+      "max_units": 198660,
+      "selected_payout_units": [
+        187300,
+        187780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 200000,
+      "upper_units_exclusive": 225000,
+      "candidate_count": 22,
+      "min_units": 200860,
+      "max_units": 224060,
+      "selected_payout_units": [
+        211820,
+        214260
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 225000,
+      "upper_units_exclusive": 250000,
+      "candidate_count": 47,
+      "min_units": 225260,
+      "max_units": 249420,
+      "selected_payout_units": [
+        236540,
+        240780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 250000,
+      "upper_units_exclusive": 275000,
+      "candidate_count": 177,
+      "min_units": 250020,
+      "max_units": 274780,
+      "selected_payout_units": [
+        262420,
+        262780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 275000,
+      "upper_units_exclusive": 300000,
+      "candidate_count": 118,
+      "min_units": 275140,
+      "max_units": 299180,
+      "selected_payout_units": [
+        286540,
+        287780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 300000,
+      "upper_units_exclusive": 325000,
+      "candidate_count": 54,
+      "min_units": 300100,
+      "max_units": 324220,
+      "selected_payout_units": [
+        312140,
+        313420
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 325000,
+      "upper_units_exclusive": 350000,
+      "candidate_count": 127,
+      "min_units": 325580,
+      "max_units": 349980,
+      "selected_payout_units": [
+        337420,
+        337700
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 350000,
+      "upper_units_exclusive": 375000,
+      "candidate_count": 254,
+      "min_units": 350140,
+      "max_units": 374980,
+      "selected_payout_units": [
+        362460,
+        362700
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 375000,
+      "upper_units_exclusive": 400000,
+      "candidate_count": 82,
+      "min_units": 375180,
+      "max_units": 399780,
+      "selected_payout_units": [
+        387100,
+        387580
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 400000,
+      "upper_units_exclusive": 425000,
+      "candidate_count": 60,
+      "min_units": 400180,
+      "max_units": 424660,
+      "selected_payout_units": [
+        411860,
+        413860
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 425000,
+      "upper_units_exclusive": 450000,
+      "candidate_count": 55,
+      "min_units": 425340,
+      "max_units": 449700,
+      "selected_payout_units": [
+        436620,
+        437580
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 450000,
+      "upper_units_exclusive": 475000,
+      "candidate_count": 31,
+      "min_units": 451140,
+      "max_units": 474940,
+      "selected_payout_units": [
+        460340,
+        463260
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 475000,
+      "upper_units_exclusive": 500000,
+      "candidate_count": 177,
+      "min_units": 475020,
+      "max_units": 499900,
+      "selected_payout_units": [
+        487420,
+        487660
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 50000,
+      "upper_units_exclusive": 75000,
+      "candidate_count": 226,
+      "min_units": 50060,
+      "max_units": 74060,
+      "selected_payout_units": [
+        62220,
+        62780
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 75000,
+      "upper_units_exclusive": 100000,
+      "candidate_count": 71,
+      "min_units": 75340,
+      "max_units": 99740,
+      "selected_payout_units": [
+        87460,
+        87540
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 100000,
+      "upper_units_exclusive": 125000,
+      "candidate_count": 84,
+      "min_units": 100460,
+      "max_units": 124660,
+      "selected_payout_units": [
+        112420,
+        112780
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 125000,
+      "upper_units_exclusive": 150000,
+      "candidate_count": 29,
+      "min_units": 125540,
+      "max_units": 148300,
+      "selected_payout_units": [
+        134700,
+        139020
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 150000,
+      "upper_units_exclusive": 175000,
+      "candidate_count": 53,
+      "min_units": 150060,
+      "max_units": 174940,
+      "selected_payout_units": [
+        161820,
+        163500
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 175000,
+      "upper_units_exclusive": 200000,
+      "candidate_count": 75,
+      "min_units": 175420,
+      "max_units": 199060,
+      "selected_payout_units": [
+        186900,
+        187900
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 200000,
+      "upper_units_exclusive": 225000,
+      "candidate_count": 19,
+      "min_units": 201260,
+      "max_units": 224900,
+      "selected_payout_units": [
+        211380,
+        212660
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 225000,
+      "upper_units_exclusive": 250000,
+      "candidate_count": 32,
+      "min_units": 225060,
+      "max_units": 249900,
+      "selected_payout_units": [
+        233540,
+        241220
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 250000,
+      "upper_units_exclusive": 275000,
+      "candidate_count": 167,
+      "min_units": 250140,
+      "max_units": 274900,
+      "selected_payout_units": [
+        262460,
+        262540
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 275000,
+      "upper_units_exclusive": 300000,
+      "candidate_count": 133,
+      "min_units": 275260,
+      "max_units": 299900,
+      "selected_payout_units": [
+        286700,
+        287700
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 300000,
+      "upper_units_exclusive": 325000,
+      "candidate_count": 62,
+      "min_units": 300500,
+      "max_units": 324780,
+      "selected_payout_units": [
+        312460,
+        312540
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 325000,
+      "upper_units_exclusive": 350000,
+      "candidate_count": 105,
+      "min_units": 326580,
+      "max_units": 349780,
+      "selected_payout_units": [
+        337060,
+        337580
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 350000,
+      "upper_units_exclusive": 375000,
+      "candidate_count": 244,
+      "min_units": 350100,
+      "max_units": 374860,
+      "selected_payout_units": [
+        362460,
+        362700
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 375000,
+      "upper_units_exclusive": 400000,
+      "candidate_count": 113,
+      "min_units": 375180,
+      "max_units": 398540,
+      "selected_payout_units": [
+        386900,
+        388060
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 400000,
+      "upper_units_exclusive": 425000,
+      "candidate_count": 57,
+      "min_units": 401020,
+      "max_units": 424380,
+      "selected_payout_units": [
+        412180,
+        412620
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 425000,
+      "upper_units_exclusive": 450000,
+      "candidate_count": 55,
+      "min_units": 425180,
+      "max_units": 449820,
+      "selected_payout_units": [
+        436300,
+        437660
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 450000,
+      "upper_units_exclusive": 475000,
+      "candidate_count": 30,
+      "min_units": 450580,
+      "max_units": 474900,
+      "selected_payout_units": [
+        460860,
+        463940
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 475000,
+      "upper_units_exclusive": 500000,
+      "candidate_count": 147,
+      "min_units": 475700,
+      "max_units": 499860,
+      "selected_payout_units": [
+        487460,
+        487700
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 50000,
+      "upper_units_exclusive": 75000,
+      "candidate_count": 276,
+      "min_units": 50080,
+      "max_units": 74920,
+      "selected_payout_units": [
+        62480,
+        62680
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 75000,
+      "upper_units_exclusive": 100000,
+      "candidate_count": 85,
+      "min_units": 75040,
+      "max_units": 99600,
+      "selected_payout_units": [
+        87160,
+        87560
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 100000,
+      "upper_units_exclusive": 125000,
+      "candidate_count": 94,
+      "min_units": 100120,
+      "max_units": 124680,
+      "selected_payout_units": [
+        112280,
+        112760
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 125000,
+      "upper_units_exclusive": 150000,
+      "candidate_count": 33,
+      "min_units": 126960,
+      "max_units": 149000,
+      "selected_payout_units": [
+        137360,
+        139520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 150000,
+      "upper_units_exclusive": 175000,
+      "candidate_count": 41,
+      "min_units": 150360,
+      "max_units": 174000,
+      "selected_payout_units": [
+        162000,
+        163040
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 175000,
+      "upper_units_exclusive": 200000,
+      "candidate_count": 77,
+      "min_units": 175040,
+      "max_units": 199920,
+      "selected_payout_units": [
+        187280,
+        187680
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 200000,
+      "upper_units_exclusive": 225000,
+      "candidate_count": 26,
+      "min_units": 201120,
+      "max_units": 223480,
+      "selected_payout_units": [
+        212000,
+        214040
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 225000,
+      "upper_units_exclusive": 250000,
+      "candidate_count": 20,
+      "min_units": 226160,
+      "max_units": 249560,
+      "selected_payout_units": [
+        235200,
+        238680
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 250000,
+      "upper_units_exclusive": 275000,
+      "candidate_count": 148,
+      "min_units": 250480,
+      "max_units": 274920,
+      "selected_payout_units": [
+        262440,
+        262520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 275000,
+      "upper_units_exclusive": 300000,
+      "candidate_count": 153,
+      "min_units": 275280,
+      "max_units": 299200,
+      "selected_payout_units": [
+        286800,
+        287800
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 300000,
+      "upper_units_exclusive": 325000,
+      "candidate_count": 68,
+      "min_units": 300040,
+      "max_units": 324760,
+      "selected_payout_units": [
+        311480,
+        312760
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 325000,
+      "upper_units_exclusive": 350000,
+      "candidate_count": 96,
+      "min_units": 325560,
+      "max_units": 348720,
+      "selected_payout_units": [
+        337440,
+        337520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 350000,
+      "upper_units_exclusive": 375000,
+      "candidate_count": 228,
+      "min_units": 350080,
+      "max_units": 374840,
+      "selected_payout_units": [
+        362400,
+        362520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 375000,
+      "upper_units_exclusive": 400000,
+      "candidate_count": 141,
+      "min_units": 375120,
+      "max_units": 399920,
+      "selected_payout_units": [
+        387360,
+        387920
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 400000,
+      "upper_units_exclusive": 425000,
+      "candidate_count": 55,
+      "min_units": 400320,
+      "max_units": 424880,
+      "selected_payout_units": [
+        412280,
+        412560
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 425000,
+      "upper_units_exclusive": 450000,
+      "candidate_count": 49,
+      "min_units": 425760,
+      "max_units": 449920,
+      "selected_payout_units": [
+        436960,
+        437520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 450000,
+      "upper_units_exclusive": 475000,
+      "candidate_count": 41,
+      "min_units": 450840,
+      "max_units": 473640,
+      "selected_payout_units": [
+        461240,
+        462760
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 475000,
+      "upper_units_exclusive": 500000,
+      "candidate_count": 112,
+      "min_units": 476760,
+      "max_units": 499960,
+      "selected_payout_units": [
+        487440,
+        487560
+      ]
+    }
+  ],
+  "catalog_largest_gaps_units": {
+    "8": 24760,
+    "10": 24880,
+    "12": 24880
+  },
+  "catalog_method": "Nearest payout below and above each 250x band midpoint, two FS cap witnesses with different expansion reels, then fill any remaining gap larger than 250x"
+}

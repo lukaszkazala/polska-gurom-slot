@@ -1,0 +1,896 @@
+{
+  "passed": 20,
+  "total": 20,
+  "seconds": 1.125,
+  "tests": [
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_default_expansion_uses_exact_integer_threshold",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_every_payline_event_matches_oracle_with_overlapping_prefixes",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_exhaustive_100000_line_sequences_against_independent_oracle",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_expansion_uses_exactly_one_inner_reel_and_preserves_input",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_explicit_left_anchor_interruption_and_best_wild_once",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_frozen_config_and_payline_geometry",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_history_distinguishes_equal_payment_different_expansion",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_reachable_twelve_free_spin_maximum_witness_caps_8618_22",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_result_snapshot_does_not_change_if_callers_grid_changes",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_round_cap_reconciles_base_bonus_and_every_credit",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_round_full_history_is_seed_deterministic",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_round_history_awards_8_10_12_without_retriggers",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_scatter_anywhere_pays_and_awards_only_in_paid_game",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_strips_and_cyclic_window_generation",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+      "name": "test_total_bet_units_are_not_divided_by_twenty",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_math.py",
+      "name": "test_exact_first_moments_match_independent_frozen_results",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_math.py",
+      "name": "test_full_distribution_report_is_current_and_meets_targets",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_math.py",
+      "name": "test_invalid_inputs_fail_before_settlement",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_math.py",
+      "name": "test_model_assumptions_cannot_be_changed_silently",
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_math.py",
+      "name": "test_scatter_distribution_is_exact_binomial_window_probability",
+      "passed": true
+    }
+  ],
+  "note": "The existing report assertion is only a regression assertion; fresh enumerated results are separate files in this audit directory.",
+  "math_config_sha256": "d79c6643b616c077afe91803cb0b96a65a7a7ef004b4d51416dad18570958148",
+  "fresh_first_moments": {
+    "base_line_rtp": {
+      "fraction": "110231291/151165440",
+      "float": 0.7292096063756371
+    },
+    "scatter_rtp": {
+      "fraction": "1505/248832",
+      "float": 0.006048257458847736
+    },
+    "base_rtp": {
+      "fraction": "222291157/302330880",
+      "float": 0.7352578638344849
+    },
+    "expanded_line_rtp_before_multiplier": {
+      "fraction": "15341713/4199040",
+      "float": 3.6536239235634813
+    },
+    "free_spin_ev": {
+      "fraction": "206347154354788949/37791360000000000",
+      "float": 5.460167465653233
+    },
+    "bonus_rtp_uncapped": {
+      "fraction": "117411530827874911981/522427760640000000000",
+      "float": 0.22474213599223736
+    },
+    "total_rtp_uncapped": {
+      "fraction": "501530650123874911981/522427760640000000000",
+      "float": 0.9599999998267222
+    },
+    "bonus_frequency": {
+      "fraction": "211/41472",
+      "float": 0.005087770061728395
+    },
+    "average_free_spins_per_trigger": {
+      "fraction": "1707/211",
+      "float": 8.090047393364928
+    },
+    "average_bonus_payout": {
+      "fraction": "117411530827874911981/2657992320000000000",
+      "float": 44.17301357284393
+    },
+    "expansion_probability": {
+      "fraction": "216905037/1000000000",
+      "float": 0.216905037
+    }
+  },
+  "payout_hundredths_not_divisible_by_ten_witnesses": [
+    {
+      "seed": 0,
+      "payout_units": 266,
+      "payout_multiplier": 2.66,
+      "grid": [
+        [
+          "L4",
+          "P3",
+          "L1",
+          "SCATTER",
+          "WILD"
+        ],
+        [
+          "L1",
+          "L1",
+          "P2",
+          "L1",
+          "L4"
+        ],
+        [
+          "P4",
+          "SCATTER",
+          "L4",
+          "P1",
+          "L1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 12,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 14,
+          "symbol": "L1",
+          "count": 5,
+          "payout_units": 250
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 16,
+      "payout_units": 125,
+      "payout_multiplier": 1.25,
+      "grid": [
+        [
+          "WILD",
+          "P1",
+          "L4",
+          "P1",
+          "L4"
+        ],
+        [
+          "L4",
+          "L2",
+          "L2",
+          "L2",
+          "L3"
+        ],
+        [
+          "L1",
+          "L3",
+          "P3",
+          "L3",
+          "P1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 8,
+          "symbol": "L2",
+          "count": 4,
+          "payout_units": 100
+        },
+        {
+          "line_id": 10,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 17,
+      "payout_units": 32,
+      "payout_multiplier": 0.32,
+      "grid": [
+        [
+          "P3",
+          "P3",
+          "L3",
+          "P2",
+          "P3"
+        ],
+        [
+          "L1",
+          "L1",
+          "P3",
+          "L4",
+          "L1"
+        ],
+        [
+          "SCATTER",
+          "SCATTER",
+          "L1",
+          "L2",
+          "P1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 13,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 15,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 19,
+      "payout_units": 266,
+      "payout_multiplier": 2.66,
+      "grid": [
+        [
+          "L2",
+          "WILD",
+          "L1",
+          "L1",
+          "L3"
+        ],
+        [
+          "L3",
+          "L1",
+          "P3",
+          "P2",
+          "WILD"
+        ],
+        [
+          "WILD",
+          "P2",
+          "L2",
+          "L4",
+          "L1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 18,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 20,
+          "symbol": "L1",
+          "count": 5,
+          "payout_units": 250
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 21,
+      "payout_units": 64,
+      "payout_multiplier": 0.64,
+      "grid": [
+        [
+          "L1",
+          "P3",
+          "L3",
+          "P1",
+          "P3"
+        ],
+        [
+          "P1",
+          "L1",
+          "WILD",
+          "L2",
+          "L2"
+        ],
+        [
+          "L3",
+          "SCATTER",
+          "L1",
+          "L3",
+          "WILD"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 8,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 10,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 17,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 19,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 22,
+      "payout_units": 107,
+      "payout_multiplier": 1.07,
+      "grid": [
+        [
+          "L2",
+          "L2",
+          "L2",
+          "P1",
+          "L2"
+        ],
+        [
+          "P3",
+          "WILD",
+          "L1",
+          "L3",
+          "L3"
+        ],
+        [
+          "L1",
+          "L4",
+          "P2",
+          "P4",
+          "WILD"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 4,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        },
+        {
+          "line_id": 6,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        },
+        {
+          "line_id": 9,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 11,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 16,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 55,
+      "payout_units": 266,
+      "payout_multiplier": 2.66,
+      "grid": [
+        [
+          "L1",
+          "P1",
+          "L2",
+          "L2",
+          "L3"
+        ],
+        [
+          "P2",
+          "L1",
+          "WILD",
+          "L3",
+          "P3"
+        ],
+        [
+          "L4",
+          "P3",
+          "L4",
+          "WILD",
+          "L1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 8,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 10,
+          "symbol": "L1",
+          "count": 5,
+          "payout_units": 250
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 67,
+      "payout_units": 144,
+      "payout_multiplier": 1.44,
+      "grid": [
+        [
+          "WILD",
+          "L2",
+          "L3",
+          "L3",
+          "L4"
+        ],
+        [
+          "L1",
+          "L1",
+          "WILD",
+          "P4",
+          "L3"
+        ],
+        [
+          "P2",
+          "P2",
+          "L1",
+          "L2",
+          "P1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 1,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 2,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 3,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 8,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 10,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 13,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 15,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 17,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 19,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 69,
+      "payout_units": 641,
+      "payout_multiplier": 6.41,
+      "grid": [
+        [
+          "L2",
+          "P4",
+          "WILD",
+          "WILD",
+          "P4"
+        ],
+        [
+          "L3",
+          "L2",
+          "L4",
+          "L4",
+          "L2"
+        ],
+        [
+          "WILD",
+          "L1",
+          "L1",
+          "L1",
+          "L1"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 5,
+          "symbol": "L1",
+          "count": 5,
+          "payout_units": 250
+        },
+        {
+          "line_id": 7,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 18,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        },
+        {
+          "line_id": 20,
+          "symbol": "L2",
+          "count": 5,
+          "payout_units": 350
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 71,
+      "payout_units": 316,
+      "payout_multiplier": 3.16,
+      "grid": [
+        [
+          "L1",
+          "L3",
+          "P4",
+          "SCATTER",
+          "L1"
+        ],
+        [
+          "P3",
+          "WILD",
+          "L2",
+          "L1",
+          "P1"
+        ],
+        [
+          "L2",
+          "L1",
+          "L1",
+          "P1",
+          "L2"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 9,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        },
+        {
+          "line_id": 11,
+          "symbol": "L2",
+          "count": 3,
+          "payout_units": 25
+        },
+        {
+          "line_id": 17,
+          "symbol": "L1",
+          "count": 5,
+          "payout_units": 250
+        },
+        {
+          "line_id": 19,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 74,
+      "payout_units": 32,
+      "payout_multiplier": 0.32,
+      "grid": [
+        [
+          "L3",
+          "L2",
+          "P3",
+          "P4",
+          "L1"
+        ],
+        [
+          "P3",
+          "L1",
+          "L1",
+          "L3",
+          "P1"
+        ],
+        [
+          "L1",
+          "P2",
+          "SCATTER",
+          "P1",
+          "L3"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 9,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 11,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 79,
+      "payout_units": 168,
+      "payout_multiplier": 1.68,
+      "grid": [
+        [
+          "P3",
+          "SCATTER",
+          "SCATTER",
+          "L2",
+          "P2"
+        ],
+        [
+          "L1",
+          "L1",
+          "L1",
+          "P2",
+          "L4"
+        ],
+        [
+          "P1",
+          "P1",
+          "P1",
+          "L4",
+          "L2"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 1,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 2,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 3,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 5,
+          "symbol": "P1",
+          "count": 3,
+          "payout_units": 60
+        },
+        {
+          "line_id": 7,
+          "symbol": "P1",
+          "count": 3,
+          "payout_units": 60
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 88,
+      "payout_units": 32,
+      "payout_multiplier": 0.32,
+      "grid": [
+        [
+          "L1",
+          "P1",
+          "L1",
+          "P2",
+          "L3"
+        ],
+        [
+          "P4",
+          "L1",
+          "SCATTER",
+          "L4",
+          "P1"
+        ],
+        [
+          "L3",
+          "P3",
+          "L1",
+          "L3",
+          "L2"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 17,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 19,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    },
+    {
+      "seed": 98,
+      "payout_units": 112,
+      "payout_multiplier": 1.12,
+      "grid": [
+        [
+          "L2",
+          "P3",
+          "SCATTER",
+          "P3",
+          "P2"
+        ],
+        [
+          "WILD",
+          "L1",
+          "L1",
+          "L1",
+          "L4"
+        ],
+        [
+          "L4",
+          "P1",
+          "P1",
+          "P1",
+          "L3"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 1,
+          "symbol": "L1",
+          "count": 4,
+          "payout_units": 80
+        },
+        {
+          "line_id": 2,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        },
+        {
+          "line_id": 3,
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 16
+        }
+      ],
+      "has_bonus": false
+    }
+  ],
+  "source_hashes": {
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\polska_gurom\\__init__.py": "73ef05053ae0d0c031899c9eb1c53651a4b561288bbce311db6ac203b52dce6b",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\polska_gurom\\__main__.py": "1064e6fe338cf6665457b260210c0b93bfc6f7de92e1a34036ce69f9e87a5a60",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\polska_gurom\\config.py": "363da616865d228043dfacb298316ee0cd5ec181c97be2daae9d65e72d050d6d",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\polska_gurom\\game.py": "824ac9a83e779e607e0a75b8f3a7440957a14251479ac75078323005c2aa92b9",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\polska_gurom\\sim.py": "8221613c612d6408bfe5faac694ebd0d3acace48ebcbb216808e21be15c762d7",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\polska_gurom\\theory.py": "3db12a4d025132a3c1b999caf95d4aabe48faec62695deeb5124d6a224d96f11",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\run_checks.py": "97e44ef1527c6a4fe12cc4637be14632ea02a002b544d3fd4c7ee682857c693a",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py": "e221f616f365ba480ce93e9fe40fbfc9afc65fe33112abe422e45415a380bbf9",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_math.py": "8716ef0a662d32dca817394db39a8487621d2106f1a6992bba430a1b6b375fbd",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tools\\__init__.py": "1e7355ad8a9b089c8031565298ba69ab0ad58f1bebe3edaff57e8082661c5e05",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tools\\build_distribution.py": "c0bad158998e465a2413dbe71a96d9593e2cf803cb8d843aeaa7309c9bb48945",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tools\\check_consistency.py": "10bdc20d9e8858b6ffd115ac52d5059e61923e26d1dec9479cd64b719eb0780d",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tools\\math_config.py": "ded4081f8d327ad69e64b1fbb09476237a5690fc21a069cc286a033c3916e0a9",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tools\\simulate_distribution.py": "364d1a54a54d0163d73a106514ffce82a4ef93adf235b333edda075f27c34a5f",
+    "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tools\\verify_math.py": "213336e5ab1468f373ac5da051000883d879261a4e2af01a370dc3e08848eeba"
+  }
+}

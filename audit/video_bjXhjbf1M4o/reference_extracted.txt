@@ -1,0 +1,989 @@
+PAGE 1
+Journal Information
+Journal ID ( publisher-id ): jgi
+ISSN: 1910-7595
+Publisher: Centre for Addiction and Mental Health
+Article Information
+© 1999-2001 The Centre for Addiction and Mental
+Health
+Received Day: 5 Month: November Year: 2008
+Accepted Day: 23 Month: February Year: 2009
+Publication date: June 2009
+First Page: 81 Last Page: 110
+Publisher Id: jgi.2009.23.5
+DOI: 10.4309/jgi.2009.23.5
+PAR Sheets, probabilities, and slot machine play:
+Implications for problem and non-problem
+gambling
+Kevin A. Harrigan
+Mike Dixon Afﬁliation: University of Waterloo, Waterloo, Ontario, Canada E-mail:
+kevinh@uwaterloo.ca
+All URLs were active at the time of submission. This article was peer-
+reviewed.
+For correspondence: Kevin A. Harrigan, PhD, University of Waterloo;
+Canadian Centre for Arts and Technology, 200 University Avenue West,
+University of Waterloo, Waterloo, Ontario, Canada N2L 3G1; Phone: (519)
+888-4567 x36652; Fax: (519) 725-0651; Web site:
+problemgambling.uwaterloo.ca; E-mail: kevinh@uwaterloo.ca.
+Contributors: Both KH and MD were personally and actively involved in
+substantive work leading to this paper.
+Competing interests: None declared.
+Ethics approval: Not required.
+Funding: KH and MD are employed at the University of Waterloo. Their
+research is supported by the Ontario Problem Gambling Research Centre.
+Kevin A. Harrigan, PhD, is a Research Associate Professor at the University
+of Waterloo in Canada. His research explores why there is such a high
+prevalence of problem gambling amongst those who play slot machines and
+video lottery terminals (VLTs). Topics of research interest include limitations
+of random number generators (RNGs), game design documents (called PAR
+Sheets), near misses, mathematics of gambling games, computer
+algorithms used in gambling games, and gaming regulations. He was
+involved in the design of software related to problem gambling on slot
+machines, including being the Executive Producer of the safe@play Slot
+Machine Tutorial. He acts as an expert witness in cases involving slot
+machines and video poker. He teaches computer game design.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+1 of 27 5/3/22, 10:28 PM
+
+PAGE 2
+Mike Dixon, PhD, is a Professor in Psychology at the University of Waterloo.
+He has conducted research in diverse domains and is internationally
+recognized for his research on how semantic information (what a person
+knows about the world) can inﬂuence the manner in which one perceives
+and recognizes objects in our world. He is one of the foremost authorities on
+synaesthesia (an anomalous type of perception) and has conducted award-
+winning research on how brain damage (stroke, Alzheimer's disease) can
+inﬂuence visual identiﬁcation. Recently, he has begun to conduct research
+on how stimuli of which we are not fully aware can inﬂuence our decision
+making, and how physiological (bodily) reactions to events in our world can
+shape the cognitive decisions that we make. In problem gambling, Dr.
+Dixon's research is aimed at identifying those elements of the gambling
+experience that lead to measurable changes in behaviour – changes that
+may, potentially, lead to problem gambling.
+Abstract
+Through the Freedom of Information and Protection of Privacy Act, we obtained
+design documents, called PAR Sheets, for slot machine games that are in use in
+Ontario, Canada. From our analysis of these PAR Sheets and observations from
+playing and watching others play these games, we report on the design of the
+structural characteristics of Ontario slots and their implications for problem
+gambling. We discuss characteristics such as speed of play, stop buttons, bonus
+modes, hand-pays, nudges, near misses, how some wins are in fact losses, and
+how two identical looking slot machines can have very different payback
+percentages. We then discuss how these characteristics can lead to multi-level
+reinforcement schedules (different reinforcement schedules for frequent and
+infrequent gamblers playing the same game) and how they may provide an illusion
+of control and contribute in other ways to irrational thinking, all of which are known
+risk factors for problem gambling.
+Introduction
+Slot machines are a very popular form of gambling in North America. For example,
+Ontario, Canada, has approximately 23,000 slot machines, which in the ﬁscal year
+2002-2003 generated approximately three billion dollars “after prizes/winnings but
+before operating expenses” ( Williams & Wood, 2004 , p. 25). This revenue is
+greater than that from all other types of gambling in Ontario combined (Williams &
+Wood, p. 25). According to Williams and Wood, approximately 60% of slot machine
+revenue, around 1.8 billion dollars annually, is generated from problem gamblers.
+This percentage is higher than that for horse racing (53%), casino table games
+(22%), bingo/rafﬂes (22%), and lotteries/instant-win scratch tickets/sports betting
+(19%).
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+2 of 27 5/3/22, 10:28 PM
+
+PAGE 3
+In an effort to understand the popularity and addictiveness of slot machines, one
+approach is to investigate what potential effects the slot machine's structural
+characteristics have on the player. The underlying math and computer algorithms
+for the design of many of the structural characteristics, such as hit frequency,
+payback percentage, and odds of winning, are contained in the manufacturers’
+design documents, called probability accounting reports (PAR Sheets; sometimes
+called paytable and reel strips [PARS]). To date, the study of slot machine
+structural characteristics has been hampered by the fact that researchers have not
+had access to the manufacturers’ PAR Sheets to see how the games are designed.
+We have been successful with requests for PAR Sheets through the Freedom of
+Information and Protection of Privacy Act ( FIPPA, 2007 ) for four slot machine
+games that are approved for use in Ontario.
+We analyzed the PAR Sheets and played the four games for approximately 60 hr
+at an Ontario casino, Grand River Raceway, which has 200 slot machines. This
+paper begins with a detailed description of the structural characteristics of the slot
+machine games, and then discusses these characteristics in terms of their
+potential implications for problem gambling. To our knowledge, this is the ﬁrst
+report in problem gambling literature that has drawn on actual PAR Sheets for
+games that are approved and being used in a North American jurisdiction.
+The design of slot machine games
+In response to our FIPPA requests, we were given copies of the following 23 PAR
+Sheets, all of which were provided by the North American slot machine
+manufacturer International Game Technology:
+1. One version of Double Diamond Deluxe
+2. Eight versions of The Phantom of the Opera
+3. Seven versions of Lucky Larry's Lobstermania
+4. Seven versions of Money Storm
+Double Diamond Deluxe  and The Phantom of the Opera  are traditional mechanical
+three-reel slot machines with physical reels that spin. On both games, the player
+can see a 3 × 3 matrix of symbols, with the middle row being the payline. The
+player plays the game by using buttons and/or the handle on the slot machine.
+Lucky Larry's Lobstermania  and Money Storm  are ﬁve-reel video slots games that
+have a touch screen on which an animation of ﬁve spinning reels is displayed in a
+3 × 5 matrix (three rows, ﬁve columns). Both video slots games have a bonus
+mode that a player enters infrequently, but once there, the player always
+experiences frequent wins (from the gambler's point of view, the bonus mode is a
+very good place to be). Players play the video slots games by using the touch
+screen and/or buttons on the cabinet.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+3 of 27 5/3/22, 10:28 PM
+
+PAGE 4
+Detailed descriptions of PAR Sheets for traditional mechanical three-reel slot
+machine games are contained in the gaming industry trade magazine Slot Tech
+Magazine ; these descriptions are a useful reference source ( Locke, 2001 ; Wilson,
+2003 , 2004a , 2004b , 2004c , 2004d , 2004e , 2004f ). However, they are limited in
+that (a) the audience for Slot Tech Magazine  is slot machine technicians and so the
+articles focus on the practical issues of how the information contained in PAR
+Sheets can be used by individuals who are servicing slot machines, (b) the
+descriptions cover only traditional mechanical three-reel slots, and (c) the
+descriptions use PAR Sheet examples without indicating whether those games are
+actually used in a speciﬁc jurisdiction.
+Research has been published in the problem gambling literature related to the
+information included in PAR Sheets for traditional mechanical three-reel slot
+machine games ( Harrigan 2007 , 2008 , 2009 ; Turner & Horbay, 2004 ), but the
+authors of these papers did not have access to actual PAR Sheets for games that
+are approved for use in a North American jurisdiction. Also, Grifﬁths (1993 , 1994 ,
+1995 , 1999 ) and Parke and Grifﬁths (2004 , 2006 ) have written extensively about
+the structural characteristics of slot machines in Britain. Although slot machines in
+Britain are similar to slot machines in North America, a signiﬁcant difference, with
+respect to the present paper, is that British machines “use a compensator which
+monitors the payout ratio game by game and initiates action, as necessary, to
+inﬂuence the random selection of wins and thereby attempt to hold the ratio at all
+times close to the preselected level” (British patent GB 2 165 386A, as cited in
+Parke & Grifﬁths, 2006 , p. 153), whereas in North America the machines do not
+have a compensator and the result of every spin is determined by a random
+number generator (for a detailed discussion of the differences between British and
+North American machines, see Parke & Grifﬁths, 2006 , pp. 152-153). This paper
+focuses speciﬁcally on slot machines in Ontario, Canada, as we have obtained
+PAR Sheets for Ontario slot machine games.
+Observations from actual play
+As we studied the PAR Sheets, we frequently visited a casino to play, and to watch
+others play, the four games to (a) observe several structural characteristics,
+focusing on the bonus mode, to ensure that our understanding of the PAR Sheets
+reﬂected the way that slot machines actually behave; and (b) observe several
+structural characteristics that are not contained in the PAR Sheets, including speed
+of play, stop buttons, and “hand-pays.” In this section, we provide details on the
+structural characteristics that we observed.
+Speed of play
+We estimated the speed of play by using the second hand on a watch. On the two
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+4 of 27 5/3/22, 10:28 PM
+
+PAGE 5
+traditional mechanical reel slot machine games, the player can play approximately
+every 6 s, which is approximately 10 spins per minute, or 600 spins per hour. On
+the two video slots games, the player can play approximately every 3 s, which is
+1,200 spins per hour.
+Stop buttons
+Both Money Storm  and Lobstermania  provide two methods to speed up the game
+by approximately 50% (i.e., approximately 1.5 s per spin). One method is for the
+player to press “spin” to begin play, and then press spin again as the reels begin to
+spin, which causes the reels to stop quickly. The second method is for the player to
+touch one or more of the reels as they are spinning, which causes the touched
+reel(s) to stop quickly.
+Hand-pays
+At the casino we frequently visited, the games are conﬁgured so that when the
+outcome of a spin is a win greater than a certain amount (the amount is $125.00
+for Lobstermania ), the following occurs:
+1. the screen freezes and thus the player cannot play the machine
+2. the light on the top of the machine lights up
+3. the machine makes a sound of a bell ringing
+4. an attendant comes by and adjusts the machine to silence the bell
+5. the attendant leaves
+6. the attendant returns with cash and pays the player the winning amount in
+cash
+7. the attendant makes further adjustments to the machine so that normal play
+can be resumed
+Collectively, this procedure is called a “hand-pay.” We observed over 20 hand-pays
+and we estimate that it takes an average of 5 min from the time the screen freezes
+until the game returns to normal play. These ﬁve min are usually a very social time
+during which fellow players gather and speak to the winning player. The amount
+required for a hand-pay varies from game to game and, in general, the amount is
+higher for games that allow the player to make higher wagers.
+Summary of PAR Sheet analysis
+In this section, we provide a brief description of various structural characteristics
+from the PAR Sheets, as summarized in Table 1 , and then describe several
+structural characteristics in detail:
+1. The ﬁrst column in Table 1  provides the game name, the number of reels,
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+5 of 27 5/3/22, 10:28 PM
+
+PAGE 6
+and the number of lines and indicates whether or not there are scatter wins.
+1. ○  The game name is abbreviated: “DD” for Double Diamond Deluxe , “P” for
+The Phantom of the Opera , “L” for Lucky Larry's Lobstermania , and “M” for
+Money Storm . If there are multiple versions of the game, the game
+abbreviation is followed by a number, such as L1, L2, and L3, to indicate the
+different versions of Lucky Larry's Lobstermania .
+2. ○  “Reels” refers to the number of reels, which is three for the mechanical reel
+slots and ﬁve for the video slots.
+3. ○  “Lines” refers to the number of lines that can be wagered upon. The
+mechanical reels slots are single-line games, whereas the video slots are
+multi-line games. To illustrate how multiple lines are designed, the top of
+Figure 1  shows the 15 lines in Lucky Larry's Lobstermania . To be a win,
+identical symbols on a line must start on the leftmost reel and be
+consecutive. For example, in Lobstermania  a winning combination is three,
+four, or ﬁve consecutive “BOAT” symbols. The game outcome BOAT-BOAT-
+BOAT-CLAM-CLAM is a win, whereas BOAT-BOAT-CLAM-BOAT-BOAT is a
+loss, as there are not three consecutive BOAT symbols starting from the left.
+4. ○  On the lower panel of Figure 1 , the “S” symbol denotes a “scatter” symbol.
+Lucky Larry's Lobstermania  and Money Storm  afford “scatter” wins. A scatter
+win is different from a line win in that scatter wins occur when the scatter
+symbol occurs three, four, or ﬁve times anywhere on the 3 × 5 matrix. Figure
+1  shows two examples of scatter wins. Scatter wins occur frequently. As an
+example, the PAR Sheets show that in one version of Lobstermania , scatter
+wins account for 25.7% of all wins.
+1. “Min/max wager” refers to the minimum and maximum bet that a player can
+wager per spin. Both traditional slots games are “quarter” games and the
+player can wager 25, 50, or 75 cents. Both video slots games are “nickel”
+games and the player can wager 5, 10, 15, 20, or 25 cents per line, resulting
+in a maximum wager per spin of $3.75 for Lobstermania  (25 cents × 15 lines
+= $3.75) and $5.00 for Money Storm  (25 cents × 20 lines = $5.00).
+2. “Symbols per reel” denotes the number of symbols on each reel. On
+mechanical reel slots, this refers to the virtual reels (virtual reels are
+described later in this paper). Multiplying the number of symbols on each reel
+yields the total number of possible combinations. For example,
+Lobstermania's  ﬁve reels have 47, 46, 48, 50, and 50 symbols, yielding a
+total of 259,440,000 possible combinations.
+3. “Payback %” is the payback percentage, which is the percentage of the
+wager that the player will receive back, on average, per spin. Payback
+percentage is the major distinguishing characteristic between multiple
+approved versions of the same game. Despite the fact that all versions of
+Lucky Larry's Lobstermania  look identical to the gambler, a row of these
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+6 of 27 5/3/22, 10:28 PM
+
+PAGE 7
+machines in a casino could contain a range of payback percentages varying
+from a low of 85% to a high of 96.2%.
+4. “Hit freq” is the hit frequency, or the percentage of times, on average, that the
+player will win something on each line. Table 1  shows that this varies from a
+low of 4.9% for the 85% version of Lobstermania  to a high of 16.7% for
+Money Storm . The hit frequency does not vary signiﬁcantly between versions
+of the same slot machine game. For example, all versions of Money Storm
+have a hit frequency of approximately 16.6%.
+5. “Plays per jackpot” is the average number of plays before a jackpot is won.
+The maximum jackpot can be won only when the player has made the
+maximum wager on the winning line.
+6. “Jackpot amount” is the amount of the highest prize. On the mechanical reel
+slots, there is a bonus for wagering the maximum number of credits. For
+example, on The Phantom of the Opera , a wager of one credit pays a bonus
+of 1,000 credits, two credits pays 2,000, and three credits pays 5,000. The
+amount of the jackpot for both video slots games is linear in that the jackpot
+is 10,000 times the credits wagered and thus varies from 10,000 to 50,000,
+as the wager can vary from one to ﬁve credits.
+7. “Plays per bonus” is the number of plays, on average, before bonus mode is
+entered. Only video slots have bonus mode, with Money Storm  having two
+bonuses.
+8. “VI” stands for “volatility index,” and is an indication of how much the game's
+payback percentage will vary for a given number of games played. Games
+with a high volatility index have a larger variance in the payback percentage
+per gambling session than do games with a low volatility index. Only the PAR
+Sheets for the mechanical reel slots games include the volatility index. Table
+2  describes the calculation of volatility index and the resulting conﬁdence
+interval.
+Multiple approved versions of the same game
+As shown in Table 1 , Ontario approves multiple versions of the same slot machine
+game, with the major difference between versions being the payback percentage.
+The differences in payback percentages have a direct effect on playing time. In
+Lobstermania , a player wagering $1.00 per spin would lose, on average, 3.8 cents
+per spin on the 96.2% game and 15 cents per spin on the 85% game. Thus, the
+player loses approximately four times more money per spin on the 85% game than
+on the 96.2% game (15 ÷ 3.8 = 3.95). A player arriving with a “bankroll” of $10.00
+and wagering $1.00 per spin, who gambles until the bankroll is depleted, would
+make, on average, 263 one-dollar wagers on the 96.2% game ($10.00 ÷ $0.038 =
+263), but only 67 one-dollar wagers on the 85% game ($10.00 ÷ $0.15 = 66.7);
+thus a player with a speciﬁc bankroll would have approximately four times more
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+7 of 27 5/3/22, 10:28 PM
+
+PAGE 8
+gambling time on the 96.2% version versus the 85% version (263 ÷ 66.7 = 3.95).
+In the games for which we have the PAR Sheets, the different payback
+percentages of the same game are achieved by changing the symbols on the reels
+while maintaining the number of symbols per reel. As an example, Table 3  shows
+the number of occurrences of each symbol on the ﬁve reels in the 85% and 96%
+versions of Lobstermania . The number of occurrences of the highest-paying wild
+card symbol (WS) and other special symbols (LO and LT) do not vary between
+versions (2-2-1-4-2, 2-5-6-0-0, and 2-2-2-2-2, respectively). The game designers
+have manipulated the number of occurrences of all other symbols, such as having
+10-3-10-7-8 occurrences of the low-paying SF symbol on the 85.0% version and
+only 5-5-6-8-7 on the 96.2% version. The right-hand side of Table 3  shows the
+amount paid for two, three, four, or ﬁve occurrences of each symbol. Lobstermania
+is a nickel slot machine; hence, one credit equals one nickel. As can be seen in
+Table 3 , two WS symbols pay ﬁve credits, and ﬁve WS symbols pay 10,000 credits.
+All of these payouts are for a wager of one credit on the winning line and are
+multiplied by the number of credits wagered. If ﬁve credits are wagered, two WS
+symbols pay 25 credits and ﬁve WS symbols pay the jackpot of 50,000 credits.
+Because this is a ﬁve-cent game, the jackpot is $2,500.00 (50,000 × $0.05). As
+shown in Table 1 , one result of this manipulation is that the hit frequency is 5.2% in
+the 96.2% version and slightly lower at 4.9% in the 85.0% version. Table 4  shows a
+breakdown of the prize structure (i.e., the number of occurrences of each winning
+amount) for three versions of Lobstermania . Most prizes are small, with prizes of
+two and ﬁve credits accounting for approximately 70% to 75% of all winning hits.
+Mechanical reel slots: Virtual reel mapping, nudges, and
+near misses
+Virtual reel mapping
+The PAR Sheets show that the two traditional mechanical reel slot machines
+games use virtual reels, whereas the two video slots games do not. Physical reels
+on traditional mechanical reel slot machines have a limited number of stops,
+usually 22, which limits the number of possible outcomes to 10,648 (22 × 22 × 22 =
+10,648). Double Diamond Deluxe  and The Phantom of the Opera  use virtual reels,
+with 72 and 256 stops, respectively, as shown in Table 1 , which increases the
+number of possible outcomes to 373,248 and 16,777,216, respectively (72
+3
+ =
+373,248 and 256
+3
+ = 16,777,216). Table 5  shows the mapping of Virtual Reel 1 to
+Physical Reel 1 for Double Diamond Deluxe :
+1. For each spin, the computer generates a random number between 1 and 72,
+which corresponds to a position on the 72-stop virtual reel. Each position on
+the virtual reel has an equal probability of occurring (i.e., 1 in 72).
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+8 of 27 5/3/22, 10:28 PM
+
+PAGE 9
+2. A weighted mapping is used to map each of the 72 stops on the virtual reel to
+one of the 22 stops on the physical reel, which will be on the payline at the
+end of a spin. As examples, the three Virtual Stops 1 to 3 are mapped to
+Physical Stop 1, which is a blank; Virtual Stop 4 is mapped to Physical Stop
+2, which is the “7” symbol; and the ﬁve Virtual Stops 5 to 9 are mapped to
+Physical Stop 3, which is a blank.
+3. Because of the weighting, each stop on the physical reel does not have an
+equal probability of occurring on the payline; the blank on Physical Stop 1
+occurs on the payline 3 out of 72 times, the 7 on Physical Stop 2 occurs 1 out
+of 72 times, and the blank on Physical Stop 3 occurs 5 out of 72 times.
+Nudges
+Double Diamond Deluxe  and The Phantom of the Opera  are both “nudging”
+games. In these two games, the reels spin for approximately 5 s and then, 1 s
+later, one or more reels may nudge up or down. If the reels do nudge, a blank is
+always nudged away from the payline and a paying symbol is nudged to the
+payline. The design of nudges will be explained using Table 5 :
+1. If the virtual stopping position is 10, 11, or 12, then Reel 1 will stop with
+Physical Stop 4 (i.e., a One Bar) on the payline and there will be no nudge.
+2. If the virtual stopping position is in the range of 13 to 19, then Physical Stop 5
+(i.e., a blank) will stop on the payline after approximately 5 s.
+3. Then 1 s later, the reel will nudge so that Physical Stop 4 (i.e., the One Bar)
+will be on the payline.
+4. Thus, in this game, the blank in Physical Stop 5 is never on the payline at the
+end of a spin.
+5. The game's probabilities are not affected by the nudging, as the probabilities
+are calculated by using the ﬁnal stopping position after the nudge.
+6. Importantly, not all physical stops containing blanks get nudged off the
+payline. Some physical stops associated with blanks do appear on the
+payline, a fact that contributes to near misses.
+Near misses caused by clustering
+A near miss is a failure that is close to a win, such as when the high-paying Double
+Diamond  symbol appears on the payline on two reels and just above or just below
+the payline on the third reel. Wilson (2004a)  and Harrigan (2007 , 2008 , 2009 ) show
+in detail how manufacturers of traditional mechanical reel slot machine games
+create this type of near miss by using virtual reels and a technique called
+clustering, a technique that is used in both Double Diamond Deluxe  and the
+Phantom of the Opera . This technique is described brieﬂy here with reference to
+Table 5 :
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+9 of 27 5/3/22, 10:28 PM
+
+PAGE 10
+1. Using the clustering technique, game designers put a high ratio of blanks
+adjacent to the high-paying symbols in the virtual reel. As an example, the
+ﬁve virtual stops 22 to 26 are mapped to Physical Stop 7, which is a blank;
+Virtual Stop 27 is mapped to Physical Stop 8, which is the high-paying
+Double Diamond  symbol; and the ﬁve Virtual Stops 28 to 32 are mapped to
+Physical Stop 9, which is a blank.
+This creates near misses as follows:
+1. ○  Physical Stop 7 (a blank) appears on the payline 5 times out of 72 and
+when it does, Physical Stop 8 will be below the payline. Thus, the Double
+Diamond  in Physical Stop 8 will appear below the payline 5 times out of 72.
+2. ○  The Double Diamond  on Physical Stop 8 will appear on the payline 1 time
+out of 72.
+3. ○  Physical Stop 9 (another blank) appears on the payline 5 times out of 72
+and when it does, Physical Stop 8 will be above the payline. Thus, the
+Double Diamond  in Physical Stop 8 will appear above the payline 5 times out
+of 72.
+4. ○  This clustering technique results in a near miss, in that the player sees the
+high-paying Double Diamond  symbol ﬁve times more often in the non-
+winning position (i.e., above and below the payline) than it appears on the
+payline.
+Near misses caused by asymmetric reels
+Lobstermania, Money Storm , and The Phantom of the Opera  create another form
+of near miss with another technique called asymmetric reels. In this form of near
+miss, when there are several occurrences of a high-paying symbol on one line, it is
+frequently in non-winning combinations. As an example, in Lobstermania , the
+number of lobster symbols is 2-5-6-0-0 and lobster symbols on Reels 1, 2, and 3
+on a played line initiate “Lobster Buoy Bonus.” The player sees the lobster symbols
+2.5 and 3 times more often on Reels 2 and 3 than on Reel 1. The fact that Reel 1
+is “starved” of the lobster symbol (yet it is necessary to get into Lobster Buoy
+Bonus) elevates the occurrence of near misses (and simultaneously lowers the
+number of wins).
+Near misses caused by wins less than the wager
+In our computer analysis, we were also interested in outcomes in which the win is
+less than the wager, such as when the player wagers $0.75 by wagering $0.05 on
+each of the 15 lines and wins $0.45. The result of this play is a loss of $0.30 on the
+spin, but the slot machine game indicates that it is a win. In Table 6 , the column
+“Wins < Wager” shows our results. As an example, when wagering on all 15 lines,
+the player wins something on 33.52% of the spins and of these wins, 60.73% are
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+10 of 27 5/3/22, 10:28 PM
+
+PAGE 11
+less than the wager. This situation can be construed as yet another form of the
+near miss, as the player sees one or more wins on the spin and yet has actually
+lost money on the spin. We also show “Wins = Wager,” which is a unique situation,
+as the game outcome is neither a win nor a loss, but the game indicates that it is a
+win.
+Hit frequency: Multi-line wins and scatters
+As noted, Lobstermania  and Money Storm  are multi-line games. The PAR Sheets
+show the math for one line only, and as such, the PAR Sheets treat each line as a
+separate game. For example, as shown in Table 1 , the PAR Sheets show that the
+hit frequency per line  for the 92.5% version of Lobstermania  is approximately
+5.3%. Hit frequency is deﬁned as “the percentage of time that a machine will give
+any payout” ( Brisman, 1999 , p. 258). For a simple single-line game, such as
+Double Diamond Deluxe , the hit frequency reported in the PAR Sheets accurately
+reﬂects the percentage of time that the game will give any payout.
+However, for multi-line games with scatter wins, the hit frequency in the PAR
+Sheets does not reﬂect “the percentage of time that a machine will give any
+payout.” When a player wins two or more times on the same spin, this adds one to
+the number of hits in the hit frequency for each winning line, as shown in the PAR
+Sheets, but it adds one only to “the percentage of time that a machine will give any
+payout” on the spin. To determine this percentage per spin, we wrote a computer
+program to analyze all 259,440,000 possible outcomes (47 × 46 × 48 × 50 × 50 =
+259,440,000), for each potential number of lines wagered, in the 3 × 5 matrix in the
+92.5% version of Lobstermania . In Table 6 , the column “Spins ³ 1 hit” shows that
+“the percentage of time that a machine will give any payout” per spin varies from
+5.25% for one line to 33.52% for 15 lines. If there were no scatters and the 15 lines
+were independent of one another, a player wagering on all 15 lines with a 5.25%
+hit frequency would expect to win something on 55.5% of the spins (calculated as
+1-((1-0.0525)
+15
+)). The fact that our analysis of all 259,440,000 possible outcomes
+shows that the percentage of times that a player wagering on all 15 lines wins
+something is only 33.52% is accounted for by two factors. First, scatters are
+counted only once per spin regardless of the number of lines wagered. Second,
+the 15 lines are not independent of one another. The outcome of a spin is
+determined by ﬁve random numbers that represent the middle row in the 3 × 5
+matrix. As an example of the non-independence, if the middle row starts with two
+wild symbols, then we see from Figure 1  that this guarantees that Lines 1, 14, and
+15 will all be wins, as they will all begin with two wild symbols and then some other
+symbol, which is always a win. Another example occurs when Line 1 begins with
+two non-wild symbols that are not the same, and then this guarantees that Lines 1,
+14, and 15 will not be wins.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+11 of 27 5/3/22, 10:28 PM
+
+PAGE 12
+Hand-pays
+Finally, in our analysis, we calculated the number of wins that are hand-pays. The
+right-hand side of Table 6  shows our results. The amount won is multiplied by the
+wager, so that players who make higher wagers will get more hand-pays. For
+example, when wagering on only one line, there are 32 wins that pay 2,500 (which
+is $125 and triggers a hand-pay on Lobstermania ) or more, whereas there are
+41,074 outcomes that pay 2,500 or more for a player wagering ﬁve credits. Thus, a
+player wagering ﬁve credits has 1,284 times the chance (41,074 ÷ 32 = 1,284) of
+getting a hand-pay as a player wagering one credit. This large increase in hand-
+pays is explained by the fact that when wagering one credit in Lobstermania , there
+are 32 wins of 10,000 credits, 6,880 wins of 1,000 credits, and 34,162 wins of 500
+credits. Thus, a wager of one or two credits yields 32 wins that are greater than
+2,500 credits. A wager of three or four credits yields 6,912 wins (32 + 6,880 =
+6,912) of 2,500 credits or greater, as the 6,880 wins of 1,000 are multiplied by the
+wager and become wins of 3,000 and 4,000. A wager of ﬁve credits yields 41,074
+wins (32 + 6,880 + 34,162 = 41,074) of 2,500 or greater, as the 34,162 wins of 500
+are multiplied by ﬁve and become wins of 2,500.
+With a maximum bet of ﬁve credits on all 15 lines (a total of 75 credits, or $3.75),
+there are 649,847 outcomes that are hand-pays, which means that, on average, a
+player gets a hand-pay every 399 spins (259,440,000 ÷ 649,847 = 399). When
+playing continuously every 3 s, 399 spins take 20 min (399 × [3 ÷ 60] = 20). We
+considered a scenario in which a player arrives with a bankroll of $100 and makes
+maximum wagers of $3.75 until broke. On average, the player would make 356
+plays on the 92.5% version ($100 ÷ [$3.75 × .075] = 356) and thus have an 89%
+probability of getting a hand-pay ([356 ÷ 399] × 100 = 89%).
+Bonus mode wins
+Both Lobstermania  and Money Storm  have a bonus mode that contributes to the
+winning hits and winning amounts. In this section, we will describe in detail the
+bonus mode in Lobstermania  and note any signiﬁcant differences compared with
+the bonuses in Money Storm .
+Bonus mode wins ( Lobstermania )
+The PAR Sheets do not include any information about the sounds, graphics, and
+animations, and so in order to observe them, we played and watched others play
+the games. In particular, as bonus mode is not entered frequently, it took many
+hours before we entered bonus mode enough times to observe the sounds,
+graphics, and animations. Also, it took some time to understand the game play
+within bonus mode and to see how it correlated with the math and computer
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+12 of 27 5/3/22, 10:28 PM
+
+PAGE 13
+algorithms as shown in the PAR Sheets.
+In Lobstermania , the Lobster Buoy Bonus is initiated when the lobster symbol
+occurs on Reels 1, 2, and 3 on a played line. The number of lobster symbols per
+reel is 2, 5, 6, 0, and 0, yielding 150,000 possible combinations to initiate the
+Lobster Buoy Bonus (2 × 5 × 6 × 50 × 50 = 150,000). Thus, the bonus mode is
+entered, on average, every 1,729 plays (259,400,000 ÷150,000 = 1,729). By
+playing one line every 3 s, it would take 86.5 min, on average, to enter the bonus
+mode and 5.8 min if playing all 15 lines. Note that using the “stop-spin” button
+would cut those times by approximately half.
+Figure 2  shows line drawings of the screens that we observed in Lobster Buoy
+Bonus and is described as follows:
+1. A. When the three lobster symbols appear on Reels 1, 2, and 3 of a played
+line, the lobster symbols change to contain the words “Pick Me,” and they
+become active in that the screen waits until the player touches one of the
+lobster symbols ( Figure 2A ).
+2. B. After the player touches one of the lobster symbols, the screen changes to
+reveal the numbers 2, 3, and 4 randomly placed behind the three lobster
+symbols, with the number behind the selected lobster being the only one
+used in Lobster Buoy Bonus ( Figure 2B ). The screen stays in this state for
+approximately 3 s before automatically moving on to the next screen.
+3. C. The next screen is the main screen for the Lobster Buoy Bonus and is
+broken into two parts. The top part shows an animated, talking lobster
+ﬁsherman in a boat. The bottom part of the screen shows nine buoys in the
+water. The player touches a number of buoys corresponding to the number
+revealed behind the selected lobster in the previous screen ( Figure 2C ).
+4. D. The animated and talking lobster ﬁsherman then reveals prizes won within
+each buoy ( Figure 2D ).
+5. E. The prizes in the unselected buoys are also shown ( Figure 2E ).
+6. F. After all prizes are revealed, a screen appears showing the total amount
+won (i.e., credited to the player's account; Figure 2F ). All wins are multiplied
+by the bet on the initiating line.
+7. G. The game then automatically returns to the standard game mode.
+The PAR Sheets reveal the following:
+1. In Figure 2B , after the player selects a “Pick Me” shown in Figure 2A , the
+revealed numbers are always 2, 3, and 4 and the probability of each is equal
+at one third.
+In screens 2C and 2D, the number of prizes behind each selected buoy has an
+equal probability of being two or three. Thus, the total number of prizes can vary
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+13 of 27 5/3/22, 10:28 PM
+
+PAGE 14
+from a low of 4 (two prizes in each of two buoys) to a high of 12 (three prizes in
+each of four buoys).
+1. The amount of each of the two or three individual prizes within a buoy is
+determined by a random lookup table, with replacement. This is a weighted
+pay table, which is shown in Table 7 . It has the following features:
+2. A random number between 0 and 321 is generated and the computer
+determines where that number is within the lower bounds and upper bounds
+of the range columns (columns 1 and 2).
+3. The corresponding prize column is what the player wins and this win can vary
+from 5 to 250 (times the wager). For example, if the random number is 100,
+the prize is 25 (times the wager), whereas a random number of 200 yields a
+prize of 45 (times the wager).
+4. The weight and probability columns reﬂect the fact that the lookup table is
+weighted. As an example, the prize of 12 occurs 10 times out of 322,
+whereas the prize of 250 occurs 5 times out of 322.
+5. The contribution column shows, on average, the amount that each potential
+prize in a buoy will contribute to the average amount won for that prize.
+6. The average amount won in Lobster Buoy Bonus is 330.16 credits times the
+number of credits wagered on the initiating line.
+The top half of Table 8  shows a detailed breakdown of all the wins in Lobstermania
+when wagering on one line only. Line wins and scatter account for approximately
+90% of all wins. Lobster Buoy Bonus is initiated on 1.01% of all winning hits, but
+initiating the bonus does not in and of itself generate any winning amounts. Once
+in the Lobster Buoy Bonus, the player gets wins that account for 7.61% of all
+winning hits and 21.63% of the total winning amount.
+Bonus mode wins ( Money Storm )
+Money Storm , like Lobstermania , has line wins, scatters, and two types of bonuses
+with the percentage of each winning type, as shown in the bottom half of Table 8 .
+Money Storm  has a simple bonus called “Weather Beakon [ sic ] Bonus,” which has
+no additional screens and gives instant wins. In Money Storm , the combination that
+initiates the “Free Storm Scatter Bonus” generates instant wins as well as the
+subsequent wins that are won in Free Storm Scatter Bonus. Free Storm Scatter
+Bonus wins account for 6.25% of all wins and contribute 24.39% to the payback
+percentage.
+Potential implications for problem gambling
+Reinforcement schedules
+The founder of the behaviourist movement in psychology, B.F. Skinner, believed
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+14 of 27 5/3/22, 10:28 PM
+
+PAGE 15
+that gambling behaviour could be explained by using principles of reinforcement.
+Of particular importance were the reinforcement schedules forming the patterns of
+wins and losses. He concluded that “the long-term net gain or loss is almost
+irrelevant in accounting for the effectiveness of this schedule” ( Skinner, 1953 , p.
+104). Skinner did not, however, explain why some people gamble at problematic
+levels whereas others do not.
+The more recent pathways model of problem and pathological gambling
+( Blaszczynski, 2000 ) includes various pathways that may account for problematic
+gambling, but states that all players, regardless of their pathway into gambling, go
+through “common processes,” including classical and operant conditioning.
+Slot machine play involves both operant and classical conditioning. In terms of
+operant conditioning, pushing the spin button is intermittently reinforced by using a
+random-ratio reinforcement schedule (the type of reinforcement schedule that
+yields high rates of responding and is impervious to extinction). One of the
+consequences of winning is that one becomes aroused. This arousal response is
+then involved in classical conditioning. The arousal itself serves as an
+unconditioned response and the proximal cues in the environment (e.g., the lights,
+the machines themselves) become conditioned stimuli. The upshot of this classical
+conditioning is that just seeing the machine will begin to trigger the (rewarding)
+arousal response. Thus, a seasoned gambler approaching a slot machine would
+be expected to show states of arousal before play has even commenced. As
+summarized by Blaszczynski and Nower, “Operant conditioning occurs when
+intermittent wins delivered on a variable ratio produce states of arousal often
+described as equivalent to a “drug-induced high,’ while with repeated pairings, this
+arousal is also classical conditioned to stimuli associated with the gambling
+environment” ( Blaszczynski & Nower, 2002 , p. 491).
+We ﬁnd it interesting to consider how the various structural characteristics of slot
+machines revealed by an analysis of the PAR Sheets, and by our ﬁeld
+observations, might impact arousal, classical and operant conditioning, and
+reinforcement schedules.
+Not all wins are created equal
+In slot machine play, wins are accompanied by characteristic sights and sounds.
+The majority of these wins are low in value. For example, Table 4  shows that in the
+85% version of Lobstermania , approximately 82% of the wins are for 10 credits (50
+cents) or less (22.5% + 52.7% + 6.7%). Nevertheless, the sounds and sights
+associated with a win, even if it is for a small amount, serve as sensory cues that
+differentiate in the gambler's mind winning spins from losing spins.
+Some of these small wins are actually losses. Recall that players on a nickel
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+15 of 27 5/3/22, 10:28 PM
+
+PAGE 16
+machine such as Lucky Larry's Lobstermania  can wager on up to 25 cents per line
+and can wager on up to 15 lines per spin. For those playing the maximum, this
+translates to $3.75 per spin. For a gambler playing this maximum, two-thirds of
+their spins (66.48%) will result in losses, but one-third (33.52%) of the time, the
+lights and sounds of the machine will indicate a win. Crucially, however, on 60.73%
+of these wins, the amount gained will be less than the amount that they wagered
+on that spin . In other words, on these spins, the sensory cues (ﬂashing lights and
+sounds that are so important to classical conditioning) point to a win, even though
+the net outcome of the spin is in fact a loss.
+Hand-pay wins
+Hand-pays occur when a relatively large amount of money is won (e.g., $125 for
+Lobstermania ). Additional sensory stimuli accompany the hand-pay win (the
+rotating light atop the machine turns on and a siren-type sound begins). Also, the
+machine stops so that no further play can commence until the person receives the
+winnings from the attendant. Studies of slot machine gambling suggest that wins
+lead to increases in arousal ( Coventry & Constable, 1999 ; Coventry & Hudson,
+2001 ). Furthermore, when a gambler's spin results in a relatively big win, the
+gambler tends not to spin again right away but to pause in play (the so-called post-
+reinforcement pause – see, for example, Delfabbro & Wineﬁeld, 1999 ). Insofar as
+arousal is associated with wins, the pauses in game play may give the player
+adequate time to focus on the pleasurable feelings associated with the win,
+thereby increasing the reward value. The hand-pay may artiﬁcially lengthen this
+post-reinforcement pause and maximize the rewarding value of the win. In
+addition, the recipient of the hand-pay may receive reinforcing accolades from
+fellow players. Such a situation may be especially reinforcing to those who see
+themselves as skilled players. Our analysis reveals that for those who continuously
+make the maximum wager, the frequency with which the gambler will experience a
+hand-pay during an extended gambling session is surprisingly high (a player on a
+92.5% Lobstermania  machine who gambles until the $100 bankroll is gone will
+have an 89% chance of experiencing a hand-pay.
+Bonus mode
+The bonus mode is uniformly associated with wins (rewards) and hence likely
+associated with high levels of arousal. Just as arousal causes the sight of the
+machine to become classically conditioned (i.e., the machine becomes a
+conditioned stimulus), the heightened arousal in the bonus mode will also cause
+conditioning to occur. In the bonus mode, there is a very salient change in the
+context from regular game play (the animated ﬁsherman appears along with the
+bonus buoys). In an experienced player, the sight of the animated ﬁsherman, his
+boat and the bonus buoys would all become prime candidates for conditioning (i.e.,
+these animated elements that appear in the bonus mode would become
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+16 of 27 5/3/22, 10:28 PM
+
+PAGE 17
+conditioned stimuli that would trigger the positively rewarding arousal). Thus in the
+bonus mode, classical conditioning leads to (rewarding) arousal, and the wins in
+the bonus mode also lead to further (operant) reward. In sum, the bonus round is
+indeed, in the words of the gambler, “a very good place to be” – it is operantly and
+classically rewarding. We note that it is unlikely that gamblers would habituate to
+the extra arousal associated with the bonus mode because the bonus mode lasts
+only a relatively short period of time and because entering the bonus round occurs
+only intermittently. From a reinforcement schedule point of view, gamblers know
+that the bonus mode is a very good (and arousing) place to be, yet they experience
+the bonus mode only on a random-ratio schedule. This multi-level reinforcement
+schedule (of wins and the less frequent, but more rewarding, bonus mode) is of
+potential concern for problem gambling. Recall that only those who are repeatedly
+exposed to the bonus mode will experience the classical conditioning that enables
+the animated ﬁsherman to become a conditioned stimulus. Hence, only those who
+are repeatedly exposed to the bonus mode will experience the two (operant plus
+classical) triggers of arousal associated with the bonus mode. Thus the very nature
+of the bonus mode may have preferential effects on problem (as opposed to
+novice) gamblers.
+Near misses
+Speculation has also been put forth that near misses are misinterpreted by
+problem gamblers as a form of win in which “the player is not constantly losing but
+constantly nearly winning” ( Parke and Grifﬁths, 2004 , p. 407). Our analysis shows
+how clustering techniques and starving certain reels of winning symbols
+preferentially elevate the instances of near misses. If, indeed, problem gamblers
+interpret near misses as wins, then one might surmise that they experience
+rewarding arousal to these near misses. If so, this would change the nature of
+reinforcement for problem and non-problem gamblers. To whit, problem gamblers
+would receive rewarding arousal on more spins than would non-problem gamblers.
+It may also be the case that the relatively big wins associated with hand-pays and
+the gamblers responses to near misses are not orthogonal in their contributions to
+problem gambling. We speculate that the highly arousing hand-pays may sensitize
+the anomalous responses to near misses. Concretely, a near miss involving the
+symbols that were associated with a recent hand-pay win may prove to be more
+arousing (and rewarding) than the same near miss occurring before a hand-pay
+win. Although at present this is mere speculation, we are currently conducting
+empirical investigations to better understand the relations among big wins and near
+misses, and their relation to problem gambling.
+Illusion of control
+Walker's sociocognitive theory of gambling involvement ( Walker, 1992 , p. 147)
+states that some potentially heavy gamblers maintain and increase their
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+17 of 27 5/3/22, 10:28 PM
+
+PAGE 18
+involvement in gambling by engaging in irrational thinking. The irrational thinking is
+characterized by three well-known psychological processes, one of which is the
+illusion of control – a perception that there is more skill in the game than is
+objectively the case. Langer (1975)  deﬁnes skill as a situation in which there is a
+causal link between behaviour and outcome. She conducted six experiments
+showing that when a person is allowed to make choices in a random event, a
+perceived skill factor is introduced for the person and thus fosters an illusion of
+control. In one experiment, Langer allowed half of the subjects to choose their
+rafﬂe ticket, whereas the other half were not given a choice (choice was the skill
+factor). Later, the subjects were asked to sell back their ticket or trade it for a ticket
+in a different rafﬂe that had better odds. People who were able to choose their
+tickets valued their tickets as being worth signiﬁcantly more than did those people
+who did not get to choose their tickets, although both groups clearly understood
+that the outcome of the rafﬂe was random.
+With respect to our analysis of the four games, there are multiple points at which
+players can make choices, including pressing the stop button to speed up game
+play and making several choices in bonus mode. The stop spin does not affect the
+game outcome, but using the button on the video slots provides the gambler with
+an illusion of control, as it gives the player the impression that the stop spin button
+is somehow a factor in determining the stopping position of the reels ( Ladouceur &
+Sévigny, 2005 ). When the Lobster Buoy Bonus feature is triggered in
+Lobstermania , the player chooses between three lobster traps to enter the feature
+(see Figure 2A ). Then, within the feature, the player has to choose several of nine
+buoys (see Figure 2C ). The result of both choices is random, with the result
+determined by a lookup table (shown in Table 8 ). However, the fact that the player
+consciously chooses some of the buoys and not others provides a situation
+conducive to an illusion of control, similar to the Langer lottery example described
+earlier.
+Myths and irrational thinking: Multiple versions of the same game
+Ontario approves multiple versions of the same game, with the payback
+percentage being the most notable difference between different versions. One slot
+machine may be running one version of a game, whereas another identical-looking
+slot machine, in the same or a different Ontario gambling facility, may be running a
+version of the same game with a different payback percentage. Importantly, this is
+concealed from the player – the games look identical and are played in the same
+way – because three lobsters in a row wins in both games. The player's experience
+varies signiﬁcantly from game to game because, on average, the player loses four
+times more money per spin on an 85% version compared with a 96.2% version,
+which means that for a given bankroll, the player can gamble four times longer on
+the 96.2% version.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+18 of 27 5/3/22, 10:28 PM
+
+PAGE 19
+Gamblers commonly believe that some slot machines are “hot or loose” (i.e., ready
+to payout), whereas others are “cold.” Indeed Turner and Horbay (2004)  cite this
+belief as one of the common myths held by gamblers, namely, that “some
+machines are set to be loose.” Turner and Horbay acknowledge that “machines do
+indeed vary in payback percentage and hit frequency” but state that the odds are
+not typically posted and it “would be impossible to determine which machines were
+actually set to pay out more.” However, given the wide variation in payback
+percentage (85% vs. 98%) of the different versions of the games approved in
+Ontario, it is not beyond the realm of possibility that an experienced player could
+discriminate between a loose machine (i.e., a 98% version) and a machine with a
+much lower payback percentage (i.e., an 85% version). Indeed Haw (2008)
+showed in a laboratory setting that a subset of his participants were sensitive to
+payback percentage – after sampling two machines for 40 spins each, 80% of this
+subsample chose to gamble on the machine with the higher payback percentage.
+If there really are instances of loose and tight machines (as predetermined by the
+payback schedules), and experienced gamblers can (eventually) tell the difference
+between them, this may feed into the gamblers self-attribution of “gambling skill.”
+One nefarious consequence of this self-attribution is that problem gamblers may
+develop a faith in their skill and apply this skill to choosing things such as the
+bonus buoys in the bonus mode. They win, and despite the fact that their choices
+are irrelevant (the lookup table determines what they win), they will likely attribute
+their winning to their skill level. Such mentations will likely generalize to other
+situations where perceived skill is applied to other chance outcomes (hot vs. cold
+blackjack tables, dealers, etc.). The bottom line is that having visually identical
+machines with different payback percentages may start gamblers down the road of
+seeing their winning as evidence of ability – a situation that may make it harder for
+them to realize that with enough plays, everyone loses, regardless of a particular
+machine's payback percentage.
+Our analyses of the PAR Sheets have implications not only for research, but also
+for policy and clinical interventions in problem gambling. Consider a person who
+gambles twice per week and always plays the same machine. Given that it is legal
+to have a range of payback percentages in Ontario, and given that payback
+percentage can be easily changed by the owners through the machine settings
+options, it is theoretically possible for this person to gamble on a machine with a
+high payback percentage early in the week and on one with a low-payback later in
+the week. One questions the fairness of this practice from the consumer's
+perspective.
+Furthermore, a number of problem gambling prevention campaigns cite that
+mistaken beliefs about the odds of winning at gambling constitute a key risk factor
+for developing problem gambling. Information-based treatment approaches often
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+19 of 27 5/3/22, 10:28 PM
+
+PAGE 20
+will try to teach gamblers that outcomes on slot machines are random and that if
+gamblers play any machine long enough, they will ultimately lose. Although this is
+true, it is also true that players are more likely to experience more wins on a high
+payback percentage machine than on a low payback percentage machine.
+Problem gamblers may focus on this latter information, and, to their detriment, fail
+to focus on the fact that if you play any machine long enough, you will invariably
+lose. Thus, having identical-looking machines with different payback percentages
+may serve to muddy the waters in the minds of problem gamblers when it comes to
+the messages they are receiving from information-based intervention strategies
+and may even serve to undermine these campaigns.
+Conclusions
+In this research, we have used information provided in PAR Sheets to learn more
+about the structural characteristics of slot machine games. Where such information
+was lacking (e.g., the bonus mode of Lucky Larry's Lobstermania ) we either played
+or observed others playing slot machines in a real gambling venue to gain a further
+understanding of these slot machines. In particular, the PAR Sheets show detailed
+information about the overall design of slot machine games and provide speciﬁc
+information about the frequency of wins, losses, and near misses. The analysis
+provides a number of intriguing ﬁndings. These include the following: (a) With a
+bankroll of $100.00 and making the maximum wager, one has an 89% chance of
+encountering a hand-pay of at least $125.00 (assuming one continues to play until
+the bankroll is depleted); (b) a substantial number of wins are actually losses. For
+gamblers placing the maximum bet on 15 lines of a nickel machine, 35% of their
+signalled wins will be less than their wager per spin; (c) the myth that there are
+loose and tight slot machines is actually true and could contribute to the evolution
+of gamblers’ “systems” and other faulty cognitions; (d) bonus modes are highly
+salient environments associated with wins that are in the view of the gambler a
+very good place to be. Because entering these arousing and highly rewarding
+bonus environments is rare, only those who gamble frequently will become
+classically conditioned to these environments and experience the combined effects
+of operant and classical conditioning – a situation that could preferentially target
+problem gamblers.
+References
+References
+Blaszczynski, A.. ( 2000). Pathways to pathological gambling: Identifying typologies. Journal of
+Gambling Issues , 1. Retrieved from http://www.camh.net/egambling/issue1/feature/index.html
+Blaszczynski, A.. Nower, L.. ( 2002). A pathways model of problem and pathological gambling.
+Addictio n , 97, 487-499.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+20 of 27 5/3/22, 10:28 PM
+
+PAGE 21
+Brisman, A.. ( 1999). American Mensa guide to casino gambling: Winning ways . New York:
+Sterling Publishing.
+Coventry, K.R.. Constable, B.. ( 1999). Physiological arousal and sensation seeking in female fruit
+machine players. Addiction , 94, 425-430.
+Coventry, K.R.. Hudson, J.. ( 2001). Gender differences, physiological arousal and the role of
+winning in fruit machine gamblers. Addiction , 96, 871-879.
+Delfabbro, P. H.. Wineﬁeld, A. H.. ( 1999). Poker-machine gambling: An analysis of within session
+characteristics. British Journal of Psychology.  90, 425-439.
+Freedom of Information and Protection of Privacy Act, R.S.O. 1990, Chapter F.31 ( 2007).
+Retrieved Oct 12, 2007, from http://www.e-laws.gov.on.ca/html/statutes/english
+/elaws_statutes_90f31_e.htm
+Grifﬁths, M.. ( 1993). Fruit machine gambling: The importance of structural characteristics.
+Behavioral Science , 9, 101-120.
+Grifﬁths, M.. ( 1994). The role of cognitive bias and skill in fruit machine gambling. British Journal
+of Psychology , 85, 351-369.
+Grifﬁths, M.. ( 1995). Adolescent gambling . London: Routledge.
+Grifﬁths, M.. ( 1999). Gambling technologies: Prospects for problem gambling. Behavioral
+Science , 15, 265-283.
+Harrigan, K.A.. ( 2007). Slot machine structural characteristics: Distorted player views of payback
+percentages. Journal of Gambling Issues , 20. 215–234.
+Harrigan, K.A.. ( 2008). Slot machine structural characteristics: Creating near misses using high
+symbol award ratios. International Journal of Mental Health and Addiction , 6, 353-368.
+Harrigan, K.A.. ( 2009). Slot machines: Pursuing responsible gaming practices for virtual reels and
+near misses. International Journal of Mental Health and Addiction , 7(1), 68–83.
+Haw, J.. ( 2008). The relationship between reinforcement and gaming machine choice. Journal of
+Gambling Studies , 24, 55-61.
+Ladouceur, R.. & Sévigny, S.. ( 2005). Structural characteristics of video lotteries: Effects of a
+stopping device on the illusion of control and gambling persistence. Journal of Gambling Studies ,
+21, 117-131.
+Langer, E.. ( 1975). The illusion of control. Journal of Personality and Social Psychology , 32,
+311-318.
+Locke, K.. ( 2001, August). Above PAR. Slot Tech Magazine, 4–8.
+Parke, J.. Grifﬁths, M.. ( 2004). Gambling addiction and the evolution of the “near miss.” Addiction
+Research and Theory , 12, 407-411.
+Parke, J.. Grifﬁths, M.. ( 2006). The psychology of the fruit machine: The role of structural
+characteristics (revisited). International Journal of Mental Health and Addiction , 4, 151-179.
+Skinner, B.F.. ( 1953). Science and human behavior . New York: Macmillan.
+Turner, N.. Horbay, R.. ( 2004). How do slot machines and other electronic gambling machines
+really work? Journal of Gambling Issues , 11. Retrieved from http://www.camh.net/egambling
+/issue11/jgi_11_turner_horbay.html
+Walker, M.. ( 1992). The psychology of gambling . New York: Pergamon Press.
+Williams, R.. Wood, R.. ( 2004). Final report to the Ontario Problem Gambling Research Centre:
+The demographic sources of Ontario gaming revenue. Retrieved February 26, 2008, from
+http://www.gamblingresearch.org/contentdetail.sz?cid=198&pageid=1042&r=s
+Wilson, J.. ( 2003, December). Slot machine volatility index. Slot Tech Magazine, 10–17.
+Wilson, J.. ( 2004a, January). Virtual reels? Physical reels? Just the real truth. Slot Tech
+Magazine, 18–22.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+21 of 27 5/3/22, 10:28 PM
+
+PAGE 22
+Wilson, J.. ( 2004b, February). PAR excellence: Improve your edge. Slot Tech Magazine, 16–23.
+Wilson, J.. ( 2004c, March). PAR excellance: Part 2. Slot Tech Magazine, 16–21.
+Wilson, J.. ( 2004d, April). PAR excellance: Part 3. Slot Tech Magazine, 20–26.
+Wilson, J.. ( 2004e, May). PAR excellence - Improving you game - Part IV. Slot Tech Magazine,
+21–24.
+Wilson, J.. ( 2004f, June). PAR excellance: Part V: The end is here! Slot Tech Magazine, 24–29.
+Figures
+Figure 1. 
+Line and scatter wins in Lucky Larry's
+Lobstermania . The top shows the 15 lines
+and the bottom shows two sample scatter
+wins, one with three scatter symbols and
+one with four.
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+22 of 27 5/3/22, 10:28 PM
+
+PAGE 23
+Figure 2. 
+Various screens in Lobster Buoy Bonus in
+Lucky Larry's Lobstermania .
+Tables
+Table 1 
+Summary of PAR Sheets for 23 versions of two traditional mechanical reel slot
+machine games and two video slots games
+Table 2 
+Calculation of volatility index for the 92.5% version of Double Diamond Deluxe , for
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+23 of 27 5/3/22, 10:28 PM
+
+PAGE 24
+a three-credit wager of $0.75
+Table 3 
+Game designers manipulate the symbols on the reels to achieve different versions
+of the same game
+Table 4 
+The prize structure in the 85.0%, 92.5%, and 96.2% versions of Lobstermania
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+24 of 27 5/3/22, 10:28 PM
+
+PAGE 25
+Table 5 
+Reel 1 of Double Diamond Deluxe : Virtual reel mapping, nudges, and near misses
+caused by clustering
+Table 6 
+The 92.5% version of Lobstermania
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+25 of 27 5/3/22, 10:28 PM
+
+PAGE 26
+Table 7 
+Weighted lookup table for determining prizes in Lobstermania's  Lobster Buoy
+Bonus
+Table 8 
+Summary of calculations of the various forms of wins when wagering on one line in
+the 92.5% versions of Lucky Larry's Lobstermania  and Money Storm
+Keywords:
+Keywords
+problem gambling
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+26 of 27 5/3/22, 10:28 PM
+
+PAGE 27
+,
+slot machines
+,
+video slots
+,
+PAR Sheets
+,
+structural characteristics
+,
+reinforcement schedules
+.
+Related Article(s):
+Firefox https://jgi.camh.net/index.php/jgi/article/download/3811/3825?inline=1
+27 of 27 5/3/22, 10:28 PM

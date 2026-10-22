@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "total": 33,
+  "checks": [
+    {
+      "name": "Checkpoint uses authenticated bet/event with no amount or new play",
+      "passed": true
+    },
+    {
+      "name": "New browser state resumes server checkpoint without local recovery storage",
+      "passed": true
+    },
+    {
+      "name": "Zero payout auto-closed round never sends bet/event or end-round",
+      "passed": true
+    },
+    {
+      "name": "Duplicate or older checkpoints do not move progress backwards",
+      "passed": true
+    },
+    {
+      "name": "More advanced server checkpoint wins over older local checkpoint",
+      "passed": true
+    },
+    {
+      "name": "Local completed presentation survives lost checkpoint acknowledgement",
+      "passed": true
+    },
+    {
+      "name": "Lost event response remains recoverable even after losing all browser storage",
+      "passed": true
+    },
+    {
+      "name": "Checkpoint not reaching server preserves local completed progress",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 8",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 9",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 10",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 11",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 12",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 13",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 14",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 15",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 16",
+      "passed": true
+    },
+    {
+      "name": "Malformed or foreign server checkpoint cannot skip unshown bonus 17",
+      "passed": true
+    },
+    {
+      "name": "Unconfirmed event echo is rejected and round is not settled",
+      "passed": true
+    },
+    {
+      "name": "Same betID with changed authoritative outcome cannot settle cached result",
+      "passed": true
+    },
+    {
+      "name": "Object key order differences do not change the authoritative outcome",
+      "passed": true
+    },
+    {
+      "name": "Expired session while recovering does not discard uncertain paid intent",
+      "passed": true
+    },
+    {
+      "name": "Concurrent finish requests cannot issue two end-round calls",
+      "passed": true
+    },
+    {
+      "name": "Settlement network-before retries by recovery, never by new play",
+      "passed": true
+    },
+    {
+      "name": "Settlement 500 retries by recovery, never by new play",
+      "passed": true
+    },
+    {
+      "name": "Settlement lost-response retries by recovery, never by new play",
+      "passed": true
+    },
+    {
+      "name": "Settlement bad-json retries by recovery, never by new play",
+      "passed": true
+    },
+    {
+      "name": "Initial authentication failure offers reconnect without duplicate handlers or cells",
+      "passed": true
+    },
+    {
+      "name": "Bonus pauses at fourth free spin after event network-before and resumes safely",
+      "passed": true
+    },
+    {
+      "name": "Bonus pauses at fourth free spin after event lost-response and resumes safely",
+      "passed": true
+    },
+    {
+      "name": "Fresh UI without old browser storage resumes fifth free spin from RGS event",
+      "passed": true
+    },
+    {
+      "name": "Changed permitted stakes do not discard already paid active bonus",
+      "passed": true
+    },
+    {
+      "name": "Offline recovery authentication preserves UI intent until reconnect",
+      "passed": true
+    }
+  ]
+}

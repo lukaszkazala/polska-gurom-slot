@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "verified_at": "2026-10-19T16:23:17.677Z",
+  "reload_defaults": {
+    "mode": "random",
+    "instant": false,
+    "speed": "normal",
+    "tools_open": false
+  },
+  "ordinary_play_checks": [
+    {
+      "count": "Po wygranej",
+      "mode": "random",
+      "rounds": "2",
+      "win": "0,00 zł"
+    },
+    {
+      "count": "Po wygranej",
+      "mode": "random",
+      "rounds": "3",
+      "win": "0,00 zł"
+    },
+    {
+      "count": "Po wygranej",
+      "mode": "random",
+      "rounds": "4",
+      "win": "0,00 zł"
+    },
+    {
+      "count": "Po wygranej",
+      "mode": "random",
+      "rounds": "5",
+      "win": "0,00 zł"
+    },
+    {
+      "count": "Po wygranej",
+      "mode": "random",
+      "rounds": "6",
+      "win": "0,00 zł"
+    },
+    {
+      "count": "1",
+      "mode": "random",
+      "rounds": "7",
+      "win": "5,28 zł"
+    }
+  ],
+  "console_errors": []
+}

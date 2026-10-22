@@ -1,0 +1,26 @@
+
+test_actual_high_wins_replay_at_both_ticket_edges (__main__.HighWinRegressions.test_actual_high_wins_replay_at_both_ticket_edges) ... ok
+test_cap_mass_and_actual_free_spin_termination (__main__.HighWinRegressions.test_cap_mass_and_actual_free_spin_termination) ... ok
+test_every_integer_ticket_boundary_selects_correct_book (__main__.HighWinRegressions.test_every_integer_ticket_boundary_selects_correct_book) ... ok
+test_http_cap_settles_once_for_paid_round_and_retries (__main__.HighWinRegressions.test_http_cap_settles_once_for_paid_round_and_retries) ... 127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:48] "GET /api/state HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.671s
+
+OK

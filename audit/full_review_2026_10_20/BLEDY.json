@@ -1,0 +1,110 @@
+[
+  {
+    "id": "B01",
+    "priority": "P2",
+    "kind": "odporność rozliczenia",
+    "title": "Wyjątek podczas serializacji może spowodować dwukrotne obciążenie tego samego żądania",
+    "source": "server.py",
+    "line": 342,
+    "evidence": "server/extended_server_results.json",
+    "reproduction": "W izolowanym teście asdict(result) zgłasza jednokrotnie MemoryError po zmianie salda. Pierwsza odpowiedź: HTTP 500; saldo 1 000 000 → 999 900 groszy, rounds=1, brak zapisanego wyniku. Ponowienie request_id=commit-gap obciąża kolejne 100 groszy: saldo 999 800, rounds=2.",
+    "impact": "To błąd atomowości lokalnego serwera. Został dowiedziony przez wymuszenie awarii; nie zaobserwowano go podczas zwykłych rund z poprawnymi wynikami. Nie dotyczy dowiedzionego działania portfela RGS, którego tutaj nie ma.",
+    "recommendation": "Przygotować pełny wynik i odpowiedź przed zmianą portfela, a zmianę salda, statystyk oraz wpis idempotencji zatwierdzać razem lub wycofywać razem."
+  },
+  {
+    "id": "B02",
+    "priority": "P2",
+    "kind": "stan interfejsu",
+    "title": "Retry starej rundy cofa wyświetlane saldo i statystyki po grze w drugiej karcie",
+    "source": "web/app.js",
+    "line": 419,
+    "evidence": "frontend/extended_frontend_results.json",
+    "reproduction": "Karta A traci odpowiedź po rozliczeniu. Karta B gra kolejną rundę w tej samej sesji. A ponawia odczyt poprzedniego ID. Serwer poprawnie zwraca ten sam wynik, ale również historyczny portfel. UI A pokazuje 999 800 groszy i 1 rundę, podczas gdy faktyczny portfel ma 999 300 groszy i 2 rundy.",
+    "impact": "Brak podwójnej wypłaty w tym przypadku; gracz widzi nieaktualne saldo. Przy dalszej grze decyzja interfejsu o dostępnych środkach też może być oparta na starym stanie.",
+    "recommendation": "Oddzielić niezmienny wynik rundy od aktualnego portfela. Po recovery odczytać bieżący stan sesji i stosować monotoniczną wersję portfela."
+  },
+  {
+    "id": "B03",
+    "priority": "P2",
+    "kind": "wznowienie",
+    "title": "Odświeżenie podczas animacji przywraca domyślną stawkę",
+    "source": "web/app.js",
+    "line": 378,
+    "evidence": "frontend/extended_frontend_results.json",
+    "reproduction": "Rozpocząć rundę za 100 PLN; po otrzymaniu odpowiedzi, gdy animacja nadal trwa, odświeżyć stronę. state.pending jest już skasowane. init ustawia currentBet na 10 000 groszy z historii, ale state.bet pozostaje 200 groszy. W przeglądarce potwierdzono analogicznie zmianę widocznej stawki 10 PLN → 2 PLN.",
+    "impact": "Rozliczenie starej rundy pozostaje prawidłowe. Wskaźnik stawki nie odpowiada ostatnio rozegranej rundzie; przebieg animacji nie jest wznawiany od przerwanego miejsca.",
+    "recommendation": "Zachowywać wybraną stawkę i etap prezentacji do zakończenia rundy; przy inicjalizacji uzgodnić state.bet, currentBet oraz wynik historyczny."
+  },
+  {
+    "id": "B04",
+    "priority": "P2",
+    "kind": "układ ekranu",
+    "title": "Karty bonusu są ucinane na pośrednich szerokościach",
+    "source": "web/player-layout.css",
+    "line": 18,
+    "evidence": "frontend/browser_checks_2026_10_21.json",
+    "reproduction": "Otworzyć grę przy viewport 802×829. .feature-rail ma 108 px, ale odziedziczone grid-template-columns tworzy trzy kolumny po 28 px. Każda karta ma clientWidth 24 px; zawartość wymaga 38/38/72 px. Widać ucięte FREE SPINS, HUSSAR CHARGE i 5,000×.",
+    "impact": "Gracz nie może czytelnie odczytać opisu bonusu i maksimum. Przyczyną jest konflikt responsywnych reguł style.css:108–109 z player-layout.css; obecne testy Node nie uruchamiają tych stylów.",
+    "recommendation": "Zresetować grid-template-columns na jedną kolumnę w pionowym rail albo zastosować wspólny breakpoint ukrywający/przenoszący cały panel."
+  },
+  {
+    "id": "B05",
+    "priority": "P2",
+    "kind": "walidacja odpowiedzi",
+    "title": "Nieprawidłowe współrzędne kaskady przechodzą walidację i przerywają animację",
+    "source": "web/app.js",
+    "line": 281,
+    "evidence": "frontend/extended_frontend_results.json",
+    "reproduction": "W odpowiedzi z prawdziwą rundą maksimum podmienić wyłącznie removed_positions pierwszego etapu na [[999,0]]. validateSpinResponse akceptuje tablicę, a tumbleTransition próbuje użyć nieistniejącego pola i zgłasza TypeError. pending jest już usunięte; rekord trafia do historii.",
+    "impact": "To luka wykazana przez podmianę odpowiedzi testowej. Wszystkie niezmienione rekordy finalnego banku mają poprawne współrzędne, więc nie jest to dowód uszkodzenia obecnego eksportu.",
+    "recommendation": "Przed zaakceptowaniem wyniku sprawdzać zakres i unikalność usunięć, strukturę/przesunięcia movements, zgodność plansz i sum etapów; odrzucić wadliwy wynik z zachowaniem możliwości recovery."
+  },
+  {
+    "id": "B06",
+    "priority": "P2",
+    "kind": "ładowanie zasobów",
+    "title": "Zawieszone pobieranie ilustracji nie ma limitu czasu aplikacji",
+    "source": "web/app.js",
+    "line": 575,
+    "evidence": "frontend/extended_frontend_results.json",
+    "reproduction": "W teście pozostawić Image bez onload i onerror, przy poprawnych odpowiedziach API. Promise.all ilustracji nie rozwiązuje się i nie ma aktywnego timera kończącego inicjalizację. Osobny limit 15 sekund w api() nie obejmuje obrazów.",
+    "impact": "Fault injection potwierdza możliwość utknięcia przy ładowaniu. Przy prawidłowym pobieraniu lokalnych ilustracji ekrany załadowały się poprawnie; przeglądarka może niezależnie zakończyć rzeczywistą awarię własnym timeoutem.",
+    "recommendation": "Dodać limit czasu obrazów oraz bezpieczne przejście do symboli zastępczych z możliwością ponowienia."
+  },
+  {
+    "id": "B07",
+    "priority": "P2",
+    "kind": "zasady gry",
+    "title": "Zasady nie określają remisów i interpretacji układu samych Wildów",
+    "source": "web/app.js",
+    "line": 49,
+    "evidence": "math/independent_full_bank_results.json",
+    "reproduction": "Dla L1 L1 WILD WILD P2 dwa układy płacą po 0,6×: L1 od bębna 1 (cztery symbole) i P2 od bębna 3 (trzy symbole). Silnik wybiera lewy początek. Z kolei pięć Wildów interpretuje jako P4 i płaci 40× na linię. Odczytane zasady mówią tylko o najwyższej wypłacie i zastępowaniu symboli.",
+    "impact": "Nie znaleziono błędu algorytmu. Brakuje jawnego kontraktu dla gracza; rozstrzygnięcie remisu zmienia pola usuwane w następnej kaskadzie. Remisy odmiennych przedziałów występują w 50 z 100 000 możliwych ciągów.",
+    "recommendation": "Dopisać wybór najbardziej lewego początku przy równych wypłatach, regułę samych Wildów oraz jawne wykluczenie zastępowania Scattera."
+  },
+  {
+    "id": "B08",
+    "priority": "P3",
+    "kind": "dokumentacja",
+    "title": "README wciąż zawiera nieaktualne instrukcje i liczby",
+    "source": "README_PL.md",
+    "line": 60,
+    "evidence": "release/source_manifest.json",
+    "reproduction": "Obok aktualnego nagłówka v0.5 pozostaje aktywne zdanie o dołączonym silniku v0.4.1, 100 048 rundach i polecenie przebudowy test-interface/build_math.py. Aktualna gra ma 100 049 rund i własny test-interface-any-start/build_math.py.",
+    "impact": "Osoba odtwarzająca matematykę może uruchomić kompilator innej wersji. Część README oznaczono historycznie, ale późniejsze bieżące instrukcje nadal są sprzeczne.",
+    "recommendation": "Przenieść opis v0.4 do wyraźnej historii; w części uruchomieniowej zostawić wyłącznie dane i polecenia v0.5."
+  },
+  {
+    "id": "B09",
+    "priority": "P3",
+    "kind": "paczka demo",
+    "title": "ZIP nie zawiera START_UX.cmd polecanego na początku instrukcji",
+    "source": "package_demo.py",
+    "line": 28,
+    "evidence": "release/release_results.json",
+    "reproduction": "Zbudować ZIP oficjalnym lokalnym package_demo.py i porównać spis. Archiwum ma 29 plików; zawiera START.cmd, lecz nie START_UX.cmd. README rozpoczyna instrukcję od uruchomienia START_UX.cmd.",
+    "impact": "Polecona ścieżka startu z rozpakowanego ZIP nie istnieje. Alternatywny START.cmd jest obecny, a paczka przeszła 27 kontroli przenośnego uruchomienia.",
+    "recommendation": "Dołączyć uruchamiacz UX do ZIP albo dostosować pierwszą instrukcję do faktycznie dostarczonego START.cmd."
+  }
+]

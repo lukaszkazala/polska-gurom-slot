@@ -1,0 +1,20 @@
+[
+  {
+    "package": "POLSKA_GUROM_TESTER.zip",
+    "passed": true,
+    "files_checked": 9,
+    "sha256": "2e1bf94ac26e4755b44f62c0d094fee9ee5cdecf75b4245c08d98ac590daa916"
+  },
+  {
+    "package": "POLSKA_GUROM_RGS_TEST.zip",
+    "passed": true,
+    "files_checked": 9,
+    "sha256": "5c0f5fa0facbbfc88efde3a2baca4ddc8f5e20db2d4b3886a5160b8be6bdb14f"
+  },
+  {
+    "package": "POLSKA_GUROM_RGS_FRONTEND.zip",
+    "passed": true,
+    "files_checked": 9,
+    "sha256": "c0bc2dede2a7f6188df3a917698b35757effdefe815631f1c50c15ba80927150"
+  }
+]

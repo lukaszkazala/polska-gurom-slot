@@ -1,0 +1,34 @@
+{
+  "balance": {
+    "amount": 179450000,
+    "currency": "USD"
+  },
+  "charges": 1,
+  "settlements": 1,
+  "active": false,
+  "event": "{\"v\":1,\"game\":\"polska-gurom\",\"math\":\"0.5.0-any-start\",\"round_id\":\"1\",\"baseComplete\":true,\"freeCompleted\":12}",
+  "calls": [
+    "/wallet/authenticate",
+    "/wallet/play",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/wallet/authenticate",
+    "/wallet/authenticate",
+    "/wallet/authenticate",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/bet/event",
+    "/wallet/authenticate",
+    "/wallet/end-round",
+    "/wallet/balance",
+    "/wallet/balance"
+  ]
+}

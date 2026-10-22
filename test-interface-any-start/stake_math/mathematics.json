@@ -1,0 +1,3279 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "mode": "base",
+  "cost": 1,
+  "selection": "unbiased integer ticket in published complete-round lookup table",
+  "book_count": 100343,
+  "unique_event_sequences": 100343,
+  "natural_candidate_books": 100000,
+  "last_natural_seed": 100051,
+  "candidate_sample_rtp": 2.2383889999999997,
+  "total_weight": 1000000000000,
+  "weighted_payout_units_sum": 96000000000000,
+  "rtp_exact_fraction": "24/25",
+  "rtp": 0.96,
+  "payout_scale": 100,
+  "payout_step_units": 10,
+  "max_win": 5000,
+  "max_win_weight": 125000,
+  "max_win_one_in": 8000000,
+  "hit_frequency": 0.156383939513,
+  "net_profit_frequency": 0.098153690211,
+  "bonus_frequency": 0.00496993554,
+  "expansions_per_paid_round": 0.010263625764,
+  "standard_deviation": 10.556181719332265,
+  "variance_fraction": "1114329724915647/10000000000000",
+  "largest_single_book_probability": 2.201331e-05,
+  "distinct_payouts": 1096,
+  "rare_groups": [
+    {
+      "target_units": 62500,
+      "group_weight": 7759154,
+      "books": [
+        {
+          "id": 46183,
+          "payout_units": 52880,
+          "weight": 1023474
+        },
+        {
+          "id": 100121,
+          "payout_units": 54980,
+          "weight": 23277
+        },
+        {
+          "id": 100122,
+          "payout_units": 59980,
+          "weight": 23277
+        },
+        {
+          "id": 100123,
+          "payout_units": 64900,
+          "weight": 23277
+        },
+        {
+          "id": 100124,
+          "payout_units": 70620,
+          "weight": 1234441
+        },
+        {
+          "id": 100000,
+          "payout_units": 50430,
+          "weight": 677100
+        },
+        {
+          "id": 100001,
+          "payout_units": 50430,
+          "weight": 19397
+        },
+        {
+          "id": 100002,
+          "payout_units": 50470,
+          "weight": 19905
+        },
+        {
+          "id": 100003,
+          "payout_units": 50610,
+          "weight": 19397
+        },
+        {
+          "id": 100049,
+          "payout_units": 52310,
+          "weight": 19397
+        },
+        {
+          "id": 100050,
+          "payout_units": 59820,
+          "weight": 19408
+        },
+        {
+          "id": 100051,
+          "payout_units": 65050,
+          "weight": 19397
+        },
+        {
+          "id": 100052,
+          "payout_units": 66430,
+          "weight": 2309660
+        },
+        {
+          "id": 100195,
+          "payout_units": 54940,
+          "weight": 758412
+        },
+        {
+          "id": 100196,
+          "payout_units": 59940,
+          "weight": 19397
+        },
+        {
+          "id": 100197,
+          "payout_units": 64980,
+          "weight": 19397
+        },
+        {
+          "id": 100198,
+          "payout_units": 70100,
+          "weight": 754624
+        },
+        {
+          "id": 100269,
+          "payout_units": 54920,
+          "weight": 378235
+        },
+        {
+          "id": 100270,
+          "payout_units": 60000,
+          "weight": 9698
+        },
+        {
+          "id": 100271,
+          "payout_units": 64960,
+          "weight": 9698
+        },
+        {
+          "id": 100272,
+          "payout_units": 70080,
+          "weight": 378286
+        }
+      ]
+    },
+    {
+      "target_units": 87500,
+      "group_weight": 4433802,
+      "books": [
+        {
+          "id": 100004,
+          "payout_units": 99530,
+          "weight": 636915
+        },
+        {
+          "id": 100005,
+          "payout_units": 99490,
+          "weight": 11084
+        },
+        {
+          "id": 100006,
+          "payout_units": 99430,
+          "weight": 11084
+        },
+        {
+          "id": 100007,
+          "payout_units": 99090,
+          "weight": 11084
+        },
+        {
+          "id": 100053,
+          "payout_units": 79890,
+          "weight": 1070101
+        },
+        {
+          "id": 100054,
+          "payout_units": 85020,
+          "weight": 11084
+        },
+        {
+          "id": 100055,
+          "payout_units": 89910,
+          "weight": 11084
+        },
+        {
+          "id": 100056,
+          "payout_units": 95490,
+          "weight": 11084
+        },
+        {
+          "id": 100125,
+          "payout_units": 80180,
+          "weight": 658679
+        },
+        {
+          "id": 100126,
+          "payout_units": 85140,
+          "weight": 16626
+        },
+        {
+          "id": 100127,
+          "payout_units": 89660,
+          "weight": 16626
+        },
+        {
+          "id": 100128,
+          "payout_units": 95060,
+          "weight": 638209
+        },
+        {
+          "id": 100199,
+          "payout_units": 79940,
+          "weight": 411908
+        },
+        {
+          "id": 100200,
+          "payout_units": 84940,
+          "weight": 11084
+        },
+        {
+          "id": 100201,
+          "payout_units": 90020,
+          "weight": 11084
+        },
+        {
+          "id": 100202,
+          "payout_units": 94380,
+          "weight": 452684
+        },
+        {
+          "id": 100273,
+          "payout_units": 79960,
+          "weight": 217957
+        },
+        {
+          "id": 100274,
+          "payout_units": 85200,
+          "weight": 5542
+        },
+        {
+          "id": 100275,
+          "payout_units": 90080,
+          "weight": 5542
+        },
+        {
+          "id": 100276,
+          "payout_units": 95160,
+          "weight": 214341
+        }
+      ]
+    },
+    {
+      "target_units": 112500,
+      "group_weight": 2758810,
+      "books": [
+        {
+          "id": 100057,
+          "payout_units": 103490,
+          "weight": 488034
+        },
+        {
+          "id": 100058,
+          "payout_units": 109910,
+          "weight": 13794
+        },
+        {
+          "id": 100059,
+          "payout_units": 115920,
+          "weight": 13794
+        },
+        {
+          "id": 100060,
+          "payout_units": 119960,
+          "weight": 587902
+        },
+        {
+          "id": 100129,
+          "payout_units": 104660,
+          "weight": 394238
+        },
+        {
+          "id": 100130,
+          "payout_units": 109900,
+          "weight": 10345
+        },
+        {
+          "id": 100131,
+          "payout_units": 115460,
+          "weight": 10345
+        },
+        {
+          "id": 100132,
+          "payout_units": 119980,
+          "weight": 412715
+        },
+        {
+          "id": 100203,
+          "payout_units": 104980,
+          "weight": 256952
+        },
+        {
+          "id": 100204,
+          "payout_units": 110260,
+          "weight": 6897
+        },
+        {
+          "id": 100205,
+          "payout_units": 114580,
+          "weight": 6897
+        },
+        {
+          "id": 100206,
+          "payout_units": 119380,
+          "weight": 281016
+        },
+        {
+          "id": 100277,
+          "payout_units": 104880,
+          "weight": 130942
+        },
+        {
+          "id": 100278,
+          "payout_units": 110280,
+          "weight": 3448
+        },
+        {
+          "id": 100279,
+          "payout_units": 115040,
+          "weight": 3448
+        },
+        {
+          "id": 100280,
+          "payout_units": 119720,
+          "weight": 138043
+        }
+      ]
+    },
+    {
+      "target_units": 137500,
+      "group_weight": 1805767,
+      "books": [
+        {
+          "id": 100061,
+          "payout_units": 132820,
+          "weight": 434855
+        },
+        {
+          "id": 100062,
+          "payout_units": 134790,
+          "weight": 9028
+        },
+        {
+          "id": 100063,
+          "payout_units": 140340,
+          "weight": 9028
+        },
+        {
+          "id": 100064,
+          "payout_units": 145050,
+          "weight": 269395
+        },
+        {
+          "id": 100133,
+          "payout_units": 130180,
+          "weight": 261894
+        },
+        {
+          "id": 100134,
+          "payout_units": 138620,
+          "weight": 6771
+        },
+        {
+          "id": 100135,
+          "payout_units": 141060,
+          "weight": 6771
+        },
+        {
+          "id": 100136,
+          "payout_units": 144580,
+          "weight": 266294
+        },
+        {
+          "id": 100207,
+          "payout_units": 129100,
+          "weight": 163119
+        },
+        {
+          "id": 100208,
+          "payout_units": 134700,
+          "weight": 4514
+        },
+        {
+          "id": 100209,
+          "payout_units": 139020,
+          "weight": 4514
+        },
+        {
+          "id": 100210,
+          "payout_units": 144780,
+          "weight": 189006
+        },
+        {
+          "id": 100281,
+          "payout_units": 129920,
+          "weight": 83248
+        },
+        {
+          "id": 100282,
+          "payout_units": 134600,
+          "weight": 2257
+        },
+        {
+          "id": 100283,
+          "payout_units": 139520,
+          "weight": 2257
+        },
+        {
+          "id": 100284,
+          "payout_units": 144320,
+          "weight": 92816
+        }
+      ]
+    },
+    {
+      "target_units": 162500,
+      "group_weight": 1222365,
+      "books": [
+        {
+          "id": 100065,
+          "payout_units": 153430,
+          "weight": 205842
+        },
+        {
+          "id": 100066,
+          "payout_units": 162740,
+          "weight": 6111
+        },
+        {
+          "id": 100067,
+          "payout_units": 165020,
+          "weight": 6111
+        },
+        {
+          "id": 100068,
+          "payout_units": 169330,
+          "weight": 270882
+        },
+        {
+          "id": 100137,
+          "payout_units": 155100,
+          "weight": 181301
+        },
+        {
+          "id": 100138,
+          "payout_units": 160020,
+          "weight": 4583
+        },
+        {
+          "id": 100139,
+          "payout_units": 165460,
+          "weight": 4583
+        },
+        {
+          "id": 100140,
+          "payout_units": 170100,
+          "weight": 176242
+        },
+        {
+          "id": 100211,
+          "payout_units": 154460,
+          "weight": 114201
+        },
+        {
+          "id": 100212,
+          "payout_units": 159940,
+          "weight": 3055
+        },
+        {
+          "id": 100213,
+          "payout_units": 164860,
+          "weight": 3055
+        },
+        {
+          "id": 100214,
+          "payout_units": 169900,
+          "weight": 124162
+        },
+        {
+          "id": 100285,
+          "payout_units": 155360,
+          "weight": 60113
+        },
+        {
+          "id": 100286,
+          "payout_units": 159960,
+          "weight": 1527
+        },
+        {
+          "id": 100287,
+          "payout_units": 165280,
+          "weight": 1527
+        },
+        {
+          "id": 100288,
+          "payout_units": 169760,
+          "weight": 59070
+        }
+      ]
+    },
+    {
+      "target_units": 187500,
+      "group_weight": 847507,
+      "books": [
+        {
+          "id": 100010,
+          "payout_units": 198690,
+          "weight": 134006
+        },
+        {
+          "id": 100069,
+          "payout_units": 179690,
+          "weight": 194826
+        },
+        {
+          "id": 100070,
+          "payout_units": 183490,
+          "weight": 3390
+        },
+        {
+          "id": 100071,
+          "payout_units": 190420,
+          "weight": 3390
+        },
+        {
+          "id": 100072,
+          "payout_units": 195090,
+          "weight": 3390
+        },
+        {
+          "id": 100141,
+          "payout_units": 179860,
+          "weight": 125275
+        },
+        {
+          "id": 100142,
+          "payout_units": 185180,
+          "weight": 3178
+        },
+        {
+          "id": 100143,
+          "payout_units": 190020,
+          "weight": 3178
+        },
+        {
+          "id": 100144,
+          "payout_units": 195300,
+          "weight": 122621
+        },
+        {
+          "id": 100215,
+          "payout_units": 179860,
+          "weight": 82041
+        },
+        {
+          "id": 100216,
+          "payout_units": 185220,
+          "weight": 2118
+        },
+        {
+          "id": 100217,
+          "payout_units": 190220,
+          "weight": 2118
+        },
+        {
+          "id": 100218,
+          "payout_units": 195020,
+          "weight": 83224
+        },
+        {
+          "id": 100289,
+          "payout_units": 179720,
+          "weight": 40121
+        },
+        {
+          "id": 100290,
+          "payout_units": 185000,
+          "weight": 1059
+        },
+        {
+          "id": 100291,
+          "payout_units": 190080,
+          "weight": 1059
+        },
+        {
+          "id": 100292,
+          "payout_units": 194840,
+          "weight": 42513
+        }
+      ]
+    },
+    {
+      "target_units": 212500,
+      "group_weight": 598240,
+      "books": [
+        {
+          "id": 100008,
+          "payout_units": 200830,
+          "weight": 90049
+        },
+        {
+          "id": 100009,
+          "payout_units": 201140,
+          "weight": 1709
+        },
+        {
+          "id": 100011,
+          "payout_units": 201840,
+          "weight": 1709
+        },
+        {
+          "id": 100073,
+          "payout_units": 205040,
+          "weight": 1709
+        },
+        {
+          "id": 100074,
+          "payout_units": 209620,
+          "weight": 1709
+        },
+        {
+          "id": 100075,
+          "payout_units": 214290,
+          "weight": 1709
+        },
+        {
+          "id": 100076,
+          "payout_units": 220340,
+          "weight": 140702
+        },
+        {
+          "id": 100145,
+          "payout_units": 204060,
+          "weight": 75076
+        },
+        {
+          "id": 100146,
+          "payout_units": 209940,
+          "weight": 2243
+        },
+        {
+          "id": 100147,
+          "payout_units": 214260,
+          "weight": 2243
+        },
+        {
+          "id": 100148,
+          "payout_units": 218860,
+          "weight": 99910
+        },
+        {
+          "id": 100219,
+          "payout_units": 204340,
+          "weight": 56652
+        },
+        {
+          "id": 100220,
+          "payout_units": 209940,
+          "weight": 1495
+        },
+        {
+          "id": 100221,
+          "payout_units": 216020,
+          "weight": 1495
+        },
+        {
+          "id": 100222,
+          "payout_units": 220180,
+          "weight": 60006
+        },
+        {
+          "id": 100293,
+          "payout_units": 204520,
+          "weight": 26379
+        },
+        {
+          "id": 100294,
+          "payout_units": 209640,
+          "weight": 747
+        },
+        {
+          "id": 100295,
+          "payout_units": 215720,
+          "weight": 747
+        },
+        {
+          "id": 100296,
+          "payout_units": 219080,
+          "weight": 31951
+        }
+      ]
+    },
+    {
+      "target_units": 237500,
+      "group_weight": 428214,
+      "books": [
+        {
+          "id": 100077,
+          "payout_units": 232020,
+          "weight": 96474
+        },
+        {
+          "id": 100078,
+          "payout_units": 234970,
+          "weight": 2141
+        },
+        {
+          "id": 100079,
+          "payout_units": 239230,
+          "weight": 2141
+        },
+        {
+          "id": 100080,
+          "payout_units": 245020,
+          "weight": 70529
+        },
+        {
+          "id": 100149,
+          "payout_units": 228860,
+          "weight": 58518
+        },
+        {
+          "id": 100150,
+          "payout_units": 236540,
+          "weight": 1605
+        },
+        {
+          "id": 100151,
+          "payout_units": 240780,
+          "weight": 1605
+        },
+        {
+          "id": 100152,
+          "payout_units": 245020,
+          "weight": 66736
+        },
+        {
+          "id": 100223,
+          "payout_units": 230020,
+          "weight": 42609
+        },
+        {
+          "id": 100224,
+          "payout_units": 233540,
+          "weight": 1070
+        },
+        {
+          "id": 100225,
+          "payout_units": 241220,
+          "weight": 1070
+        },
+        {
+          "id": 100226,
+          "payout_units": 245300,
+          "weight": 40893
+        },
+        {
+          "id": 100297,
+          "payout_units": 229560,
+          "weight": 21984
+        },
+        {
+          "id": 100298,
+          "payout_units": 235200,
+          "weight": 535
+        },
+        {
+          "id": 100299,
+          "payout_units": 238680,
+          "weight": 535
+        },
+        {
+          "id": 100300,
+          "payout_units": 246360,
+          "weight": 19769
+        }
+      ]
+    },
+    {
+      "target_units": 262500,
+      "group_weight": 309945,
+      "books": [
+        {
+          "id": 100081,
+          "payout_units": 253030,
+          "weight": 47503
+        },
+        {
+          "id": 100082,
+          "payout_units": 259530,
+          "weight": 1549
+        },
+        {
+          "id": 100083,
+          "payout_units": 265520,
+          "weight": 1549
+        },
+        {
+          "id": 100084,
+          "payout_units": 268630,
+          "weight": 73377
+        },
+        {
+          "id": 100153,
+          "payout_units": 255060,
+          "weight": 45319
+        },
+        {
+          "id": 100154,
+          "payout_units": 260100,
+          "weight": 1162
+        },
+        {
+          "id": 100155,
+          "payout_units": 264780,
+          "weight": 1162
+        },
+        {
+          "id": 100156,
+          "payout_units": 269940,
+          "weight": 45340
+        },
+        {
+          "id": 100227,
+          "payout_units": 254980,
+          "weight": 30143
+        },
+        {
+          "id": 100228,
+          "payout_units": 260060,
+          "weight": 774
+        },
+        {
+          "id": 100229,
+          "payout_units": 265020,
+          "weight": 774
+        },
+        {
+          "id": 100230,
+          "payout_units": 269980,
+          "weight": 30298
+        },
+        {
+          "id": 100301,
+          "payout_units": 254840,
+          "weight": 14948
+        },
+        {
+          "id": 100302,
+          "payout_units": 260000,
+          "weight": 387
+        },
+        {
+          "id": 100303,
+          "payout_units": 264880,
+          "weight": 387
+        },
+        {
+          "id": 100304,
+          "payout_units": 270000,
+          "weight": 15273
+        }
+      ]
+    },
+    {
+      "target_units": 287500,
+      "group_weight": 226395,
+      "books": [
+        {
+          "id": 100014,
+          "payout_units": 296830,
+          "weight": 35712
+        },
+        {
+          "id": 100015,
+          "payout_units": 296830,
+          "weight": 754
+        },
+        {
+          "id": 100085,
+          "payout_units": 280830,
+          "weight": 51830
+        },
+        {
+          "id": 100086,
+          "payout_units": 285040,
+          "weight": 754
+        },
+        {
+          "id": 100087,
+          "payout_units": 289800,
+          "weight": 754
+        },
+        {
+          "id": 100088,
+          "payout_units": 294890,
+          "weight": 754
+        },
+        {
+          "id": 100157,
+          "payout_units": 279780,
+          "weight": 32687
+        },
+        {
+          "id": 100158,
+          "payout_units": 284900,
+          "weight": 848
+        },
+        {
+          "id": 100159,
+          "payout_units": 290260,
+          "weight": 848
+        },
+        {
+          "id": 100160,
+          "payout_units": 295020,
+          "weight": 33535
+        },
+        {
+          "id": 100231,
+          "payout_units": 280140,
+          "weight": 22662
+        },
+        {
+          "id": 100232,
+          "payout_units": 284860,
+          "weight": 565
+        },
+        {
+          "id": 100233,
+          "payout_units": 290220,
+          "weight": 565
+        },
+        {
+          "id": 100234,
+          "payout_units": 295260,
+          "weight": 21487
+        },
+        {
+          "id": 100305,
+          "payout_units": 280000,
+          "weight": 11295
+        },
+        {
+          "id": 100306,
+          "payout_units": 284960,
+          "weight": 283
+        },
+        {
+          "id": 100307,
+          "payout_units": 289960,
+          "weight": 283
+        },
+        {
+          "id": 100308,
+          "payout_units": 295360,
+          "weight": 10779
+        }
+      ]
+    },
+    {
+      "target_units": 312500,
+      "group_weight": 166627,
+      "books": [
+        {
+          "id": 100012,
+          "payout_units": 300340,
+          "weight": 23797
+        },
+        {
+          "id": 100013,
+          "payout_units": 301090,
+          "weight": 555
+        },
+        {
+          "id": 100089,
+          "payout_units": 305050,
+          "weight": 555
+        },
+        {
+          "id": 100090,
+          "payout_units": 310290,
+          "weight": 555
+        },
+        {
+          "id": 100091,
+          "payout_units": 316030,
+          "weight": 555
+        },
+        {
+          "id": 100092,
+          "payout_units": 319860,
+          "weight": 40633
+        },
+        {
+          "id": 100161,
+          "payout_units": 304820,
+          "weight": 24103
+        },
+        {
+          "id": 100162,
+          "payout_units": 309940,
+          "weight": 624
+        },
+        {
+          "id": 100163,
+          "payout_units": 314740,
+          "weight": 624
+        },
+        {
+          "id": 100164,
+          "payout_units": 320020,
+          "weight": 24637
+        },
+        {
+          "id": 100235,
+          "payout_units": 304620,
+          "weight": 15797
+        },
+        {
+          "id": 100236,
+          "payout_units": 310340,
+          "weight": 416
+        },
+        {
+          "id": 100237,
+          "payout_units": 315220,
+          "weight": 416
+        },
+        {
+          "id": 100238,
+          "payout_units": 319940,
+          "weight": 16696
+        },
+        {
+          "id": 100309,
+          "payout_units": 305320,
+          "weight": 8191
+        },
+        {
+          "id": 100310,
+          "payout_units": 310080,
+          "weight": 208
+        },
+        {
+          "id": 100311,
+          "payout_units": 314800,
+          "weight": 208
+        },
+        {
+          "id": 100312,
+          "payout_units": 319800,
+          "weight": 8057
+        }
+      ]
+    },
+    {
+      "target_units": 337500,
+      "group_weight": 123427,
+      "books": [
+        {
+          "id": 100093,
+          "payout_units": 329490,
+          "weight": 20739
+        },
+        {
+          "id": 100094,
+          "payout_units": 338430,
+          "weight": 617
+        },
+        {
+          "id": 100095,
+          "payout_units": 339840,
+          "weight": 617
+        },
+        {
+          "id": 100096,
+          "payout_units": 343490,
+          "weight": 27397
+        },
+        {
+          "id": 100165,
+          "payout_units": 329940,
+          "weight": 18100
+        },
+        {
+          "id": 100166,
+          "payout_units": 334980,
+          "weight": 462
+        },
+        {
+          "id": 100167,
+          "payout_units": 340060,
+          "weight": 462
+        },
+        {
+          "id": 100168,
+          "payout_units": 345100,
+          "weight": 18004
+        },
+        {
+          "id": 100239,
+          "payout_units": 329860,
+          "weight": 11979
+        },
+        {
+          "id": 100240,
+          "payout_units": 335340,
+          "weight": 308
+        },
+        {
+          "id": 100241,
+          "payout_units": 340060,
+          "weight": 308
+        },
+        {
+          "id": 100242,
+          "payout_units": 345060,
+          "weight": 12090
+        },
+        {
+          "id": 100313,
+          "payout_units": 330000,
+          "weight": 6000
+        },
+        {
+          "id": 100314,
+          "payout_units": 335040,
+          "weight": 154
+        },
+        {
+          "id": 100315,
+          "payout_units": 339760,
+          "weight": 154
+        },
+        {
+          "id": 100316,
+          "payout_units": 344960,
+          "weight": 6036
+        }
+      ]
+    },
+    {
+      "target_units": 362500,
+      "group_weight": 91932,
+      "books": [
+        {
+          "id": 100097,
+          "payout_units": 354430,
+          "weight": 14925
+        },
+        {
+          "id": 100098,
+          "payout_units": 361140,
+          "weight": 459
+        },
+        {
+          "id": 100099,
+          "payout_units": 364970,
+          "weight": 459
+        },
+        {
+          "id": 100100,
+          "payout_units": 368230,
+          "weight": 20929
+        },
+        {
+          "id": 100169,
+          "payout_units": 354940,
+          "weight": 13303
+        },
+        {
+          "id": 100170,
+          "payout_units": 360060,
+          "weight": 344
+        },
+        {
+          "id": 100171,
+          "payout_units": 364980,
+          "weight": 344
+        },
+        {
+          "id": 100172,
+          "payout_units": 369900,
+          "weight": 13588
+        },
+        {
+          "id": 100243,
+          "payout_units": 354860,
+          "weight": 8870
+        },
+        {
+          "id": 100244,
+          "payout_units": 360060,
+          "weight": 229
+        },
+        {
+          "id": 100245,
+          "payout_units": 364980,
+          "weight": 229
+        },
+        {
+          "id": 100246,
+          "payout_units": 369980,
+          "weight": 9058
+        },
+        {
+          "id": 100317,
+          "payout_units": 355080,
+          "weight": 4531
+        },
+        {
+          "id": 100318,
+          "payout_units": 359920,
+          "weight": 114
+        },
+        {
+          "id": 100319,
+          "payout_units": 365000,
+          "weight": 114
+        },
+        {
+          "id": 100320,
+          "payout_units": 370080,
+          "weight": 4436
+        }
+      ]
+    },
+    {
+      "target_units": 387500,
+      "group_weight": 68801,
+      "books": [
+        {
+          "id": 100101,
+          "payout_units": 380340,
+          "weight": 14528
+        },
+        {
+          "id": 100102,
+          "payout_units": 385050,
+          "weight": 344
+        },
+        {
+          "id": 100103,
+          "payout_units": 387090,
+          "weight": 344
+        },
+        {
+          "id": 100104,
+          "payout_units": 396030,
+          "weight": 12304
+        },
+        {
+          "id": 100173,
+          "payout_units": 380020,
+          "weight": 9733
+        },
+        {
+          "id": 100174,
+          "payout_units": 384900,
+          "weight": 258
+        },
+        {
+          "id": 100175,
+          "payout_units": 390220,
+          "weight": 258
+        },
+        {
+          "id": 100176,
+          "payout_units": 394500,
+          "weight": 10391
+        },
+        {
+          "id": 100247,
+          "payout_units": 379940,
+          "weight": 6897
+        },
+        {
+          "id": 100248,
+          "payout_units": 384980,
+          "weight": 172
+        },
+        {
+          "id": 100249,
+          "payout_units": 389780,
+          "weight": 172
+        },
+        {
+          "id": 100250,
+          "payout_units": 395500,
+          "weight": 6519
+        },
+        {
+          "id": 100321,
+          "payout_units": 380000,
+          "weight": 3365
+        },
+        {
+          "id": 100322,
+          "payout_units": 385080,
+          "weight": 86
+        },
+        {
+          "id": 100323,
+          "payout_units": 390040,
+          "weight": 86
+        },
+        {
+          "id": 100324,
+          "payout_units": 395040,
+          "weight": 3344
+        }
+      ]
+    },
+    {
+      "target_units": 412500,
+      "group_weight": 51705,
+      "books": [
+        {
+          "id": 100016,
+          "payout_units": 402740,
+          "weight": 8083
+        },
+        {
+          "id": 100017,
+          "payout_units": 402740,
+          "weight": 129
+        },
+        {
+          "id": 100018,
+          "payout_units": 402780,
+          "weight": 129
+        },
+        {
+          "id": 100019,
+          "payout_units": 402960,
+          "weight": 129
+        },
+        {
+          "id": 100105,
+          "payout_units": 405000,
+          "weight": 129
+        },
+        {
+          "id": 100106,
+          "payout_units": 409670,
+          "weight": 129
+        },
+        {
+          "id": 100107,
+          "payout_units": 418680,
+          "weight": 129
+        },
+        {
+          "id": 100108,
+          "payout_units": 419530,
+          "weight": 11825
+        },
+        {
+          "id": 100177,
+          "payout_units": 405500,
+          "weight": 7860
+        },
+        {
+          "id": 100178,
+          "payout_units": 410260,
+          "weight": 193
+        },
+        {
+          "id": 100179,
+          "payout_units": 415060,
+          "weight": 193
+        },
+        {
+          "id": 100180,
+          "payout_units": 420060,
+          "weight": 7265
+        },
+        {
+          "id": 100251,
+          "payout_units": 404940,
+          "weight": 5039
+        },
+        {
+          "id": 100252,
+          "payout_units": 410180,
+          "weight": 129
+        },
+        {
+          "id": 100253,
+          "payout_units": 414340,
+          "weight": 129
+        },
+        {
+          "id": 100254,
+          "payout_units": 420060,
+          "weight": 5044
+        },
+        {
+          "id": 100325,
+          "payout_units": 405440,
+          "weight": 2620
+        },
+        {
+          "id": 100326,
+          "payout_units": 410080,
+          "weight": 64
+        },
+        {
+          "id": 100327,
+          "payout_units": 415320,
+          "weight": 64
+        },
+        {
+          "id": 100328,
+          "payout_units": 420120,
+          "weight": 2423
+        }
+      ]
+    },
+    {
+      "target_units": 437500,
+      "group_weight": 39000,
+      "books": [
+        {
+          "id": 100109,
+          "payout_units": 432020,
+          "weight": 8837
+        },
+        {
+          "id": 100110,
+          "payout_units": 435920,
+          "weight": 195
+        },
+        {
+          "id": 100111,
+          "payout_units": 441140,
+          "weight": 195
+        },
+        {
+          "id": 100112,
+          "payout_units": 445040,
+          "weight": 6373
+        },
+        {
+          "id": 100181,
+          "payout_units": 429900,
+          "weight": 5712
+        },
+        {
+          "id": 100182,
+          "payout_units": 434460,
+          "weight": 146
+        },
+        {
+          "id": 100183,
+          "payout_units": 439980,
+          "weight": 146
+        },
+        {
+          "id": 100184,
+          "payout_units": 445140,
+          "weight": 5696
+        },
+        {
+          "id": 100255,
+          "payout_units": 430260,
+          "weight": 3894
+        },
+        {
+          "id": 100256,
+          "payout_units": 434580,
+          "weight": 97
+        },
+        {
+          "id": 100257,
+          "payout_units": 440340,
+          "weight": 97
+        },
+        {
+          "id": 100258,
+          "payout_units": 445100,
+          "weight": 3712
+        },
+        {
+          "id": 100329,
+          "payout_units": 429680,
+          "weight": 1792
+        },
+        {
+          "id": 100330,
+          "payout_units": 434920,
+          "weight": 48
+        },
+        {
+          "id": 100331,
+          "payout_units": 439720,
+          "weight": 48
+        },
+        {
+          "id": 100332,
+          "payout_units": 444480,
+          "weight": 2012
+        }
+      ]
+    },
+    {
+      "target_units": 462500,
+      "group_weight": 29514,
+      "books": [
+        {
+          "id": 100113,
+          "payout_units": 460340,
+          "weight": 6406
+        },
+        {
+          "id": 100114,
+          "payout_units": 465050,
+          "weight": 5399
+        },
+        {
+          "id": 100185,
+          "payout_units": 455540,
+          "weight": 4789
+        },
+        {
+          "id": 100186,
+          "payout_units": 460340,
+          "weight": 110
+        },
+        {
+          "id": 100187,
+          "payout_units": 463820,
+          "weight": 110
+        },
+        {
+          "id": 100188,
+          "payout_units": 471180,
+          "weight": 3845
+        },
+        {
+          "id": 100259,
+          "payout_units": 454860,
+          "weight": 2530
+        },
+        {
+          "id": 100260,
+          "payout_units": 460220,
+          "weight": 73
+        },
+        {
+          "id": 100261,
+          "payout_units": 463940,
+          "weight": 73
+        },
+        {
+          "id": 100262,
+          "payout_units": 468500,
+          "weight": 3226
+        },
+        {
+          "id": 100333,
+          "payout_units": 454520,
+          "weight": 1303
+        },
+        {
+          "id": 100334,
+          "payout_units": 459520,
+          "weight": 36
+        },
+        {
+          "id": 100335,
+          "payout_units": 465360,
+          "weight": 36
+        },
+        {
+          "id": 100336,
+          "payout_units": 469080,
+          "weight": 1578
+        }
+      ]
+    },
+    {
+      "target_units": 487500,
+      "group_weight": 22400,
+      "books": [
+        {
+          "id": 100115,
+          "payout_units": 482740,
+          "weight": 6122
+        },
+        {
+          "id": 100116,
+          "payout_units": 485020,
+          "weight": 112
+        },
+        {
+          "id": 100117,
+          "payout_units": 489330,
+          "weight": 112
+        },
+        {
+          "id": 100118,
+          "payout_units": 498680,
+          "weight": 2614
+        },
+        {
+          "id": 100189,
+          "payout_units": 479820,
+          "weight": 3256
+        },
+        {
+          "id": 100190,
+          "payout_units": 484620,
+          "weight": 84
+        },
+        {
+          "id": 100191,
+          "payout_units": 490060,
+          "weight": 84
+        },
+        {
+          "id": 100192,
+          "payout_units": 495100,
+          "weight": 3296
+        },
+        {
+          "id": 100263,
+          "payout_units": 479700,
+          "weight": 2143
+        },
+        {
+          "id": 100264,
+          "payout_units": 484860,
+          "weight": 56
+        },
+        {
+          "id": 100265,
+          "payout_units": 489900,
+          "weight": 56
+        },
+        {
+          "id": 100266,
+          "payout_units": 495020,
+          "weight": 2225
+        },
+        {
+          "id": 100337,
+          "payout_units": 479960,
+          "weight": 1091
+        },
+        {
+          "id": 100338,
+          "payout_units": 484840,
+          "weight": 28
+        },
+        {
+          "id": 100339,
+          "payout_units": 489760,
+          "weight": 28
+        },
+        {
+          "id": 100340,
+          "payout_units": 495040,
+          "weight": 1093
+        }
+      ]
+    },
+    {
+      "target_units": 500000,
+      "group_weight": 125000,
+      "books": [
+        {
+          "id": 100020,
+          "payout_units": 500000,
+          "weight": 10417
+        },
+        {
+          "id": 100021,
+          "payout_units": 500000,
+          "weight": 10417
+        },
+        {
+          "id": 100022,
+          "payout_units": 500000,
+          "weight": 10417
+        },
+        {
+          "id": 100023,
+          "payout_units": 500000,
+          "weight": 10417
+        },
+        {
+          "id": 100119,
+          "payout_units": 500000,
+          "weight": 10416
+        },
+        {
+          "id": 100120,
+          "payout_units": 500000,
+          "weight": 10416
+        },
+        {
+          "id": 100193,
+          "payout_units": 500000,
+          "weight": 15625
+        },
+        {
+          "id": 100194,
+          "payout_units": 500000,
+          "weight": 15625
+        },
+        {
+          "id": 100267,
+          "payout_units": 500000,
+          "weight": 9375
+        },
+        {
+          "id": 100268,
+          "payout_units": 500000,
+          "weight": 9375
+        },
+        {
+          "id": 100341,
+          "payout_units": 500000,
+          "weight": 6250
+        },
+        {
+          "id": 100342,
+          "payout_units": 500000,
+          "weight": 6250
+        }
+      ]
+    }
+  ],
+  "high_win_design": {
+    "schema": 1,
+    "math_version": "0.6.0-high-wins",
+    "baseline_math_version": "0.5.0-any-start",
+    "total_weight": 1000000000000,
+    "high_return_units": 2443555420320,
+    "high_rtp_percentage_points": 2.44355542032,
+    "ordinary_to_high_return_transfer_units": 0,
+    "design": "18 bands of 250x; non-cap RTP shares decline by factor 4/5 per band; frequency targets use band midpoints",
+    "family_percentages_per_band": {
+      "0": 40,
+      "8": 30,
+      "10": 20,
+      "12": 10
+    },
+    "cap_weights_by_awarded_fs": {
+      "0": 62500,
+      "8": 31250,
+      "10": 18750,
+      "12": 12500
+    },
+    "bonus_weights": {
+      "8": 4679041094,
+      "10": 286875670,
+      "12": 4018776
+    },
+    "bands": [
+      {
+        "lower_units": 50000,
+        "upper_units_exclusive": 75000,
+        "target_weight": 7759154,
+        "target_probability_fraction": "3879577/500000000000",
+        "target_return_units_fraction": "1816601120239257812500000/3745977788889",
+        "target_rtp_percentage_points": 0.48494711464320617,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 7759154,
+        "actual_return_units": 484947075350,
+        "actual_rtp_percentage_points": 0.48494707535,
+        "book_ids": [
+          46183,
+          100121,
+          100122,
+          100123,
+          100124,
+          100000,
+          100001,
+          100002,
+          100003,
+          100049,
+          100050,
+          100051,
+          100052,
+          100195,
+          100196,
+          100197,
+          100198,
+          100269,
+          100270,
+          100271,
+          100272
+        ],
+        "family_weights": {
+          "0": 3103661,
+          "8": 2327746,
+          "10": 1551830,
+          "12": 775917
+        }
+      },
+      {
+        "lower_units": 75000,
+        "upper_units_exclusive": 100000,
+        "target_weight": 4433802,
+        "target_probability_fraction": "2216901/500000000000",
+        "target_return_units_fraction": "1453280896191406250000000/3745977788889",
+        "target_rtp_percentage_points": 0.38795769171456496,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 4433802,
+        "actual_return_units": 387957682640,
+        "actual_rtp_percentage_points": 0.38795768264,
+        "book_ids": [
+          100004,
+          100005,
+          100006,
+          100007,
+          100053,
+          100054,
+          100055,
+          100056,
+          100125,
+          100126,
+          100127,
+          100128,
+          100199,
+          100200,
+          100201,
+          100202,
+          100273,
+          100274,
+          100275,
+          100276
+        ],
+        "family_weights": {
+          "0": 1773520,
+          "8": 1330140,
+          "10": 886760,
+          "12": 443382
+        }
+      },
+      {
+        "lower_units": 100000,
+        "upper_units_exclusive": 125000,
+        "target_weight": 2758810,
+        "target_probability_fraction": "275881/100000000000",
+        "target_return_units_fraction": "1162624716953125000000000/3745977788889",
+        "target_rtp_percentage_points": 0.31036615337165196,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 2758810,
+        "actual_return_units": 310366146380,
+        "actual_rtp_percentage_points": 0.31036614638,
+        "book_ids": [
+          100057,
+          100058,
+          100059,
+          100060,
+          100129,
+          100130,
+          100131,
+          100132,
+          100203,
+          100204,
+          100205,
+          100206,
+          100277,
+          100278,
+          100279,
+          100280
+        ],
+        "family_weights": {
+          "0": 1103524,
+          "8": 827643,
+          "10": 551762,
+          "12": 275881
+        }
+      },
+      {
+        "lower_units": 125000,
+        "upper_units_exclusive": 150000,
+        "target_weight": 1805767,
+        "target_probability_fraction": "1805767/1000000000000",
+        "target_return_units_fraction": "930099773562500000000000/3745977788889",
+        "target_rtp_percentage_points": 0.24829292269732156,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 1805767,
+        "actual_return_units": 248292917990,
+        "actual_rtp_percentage_points": 0.24829291799,
+        "book_ids": [
+          100061,
+          100062,
+          100063,
+          100064,
+          100133,
+          100134,
+          100135,
+          100136,
+          100207,
+          100208,
+          100209,
+          100210,
+          100281,
+          100282,
+          100283,
+          100284
+        ],
+        "family_weights": {
+          "0": 722306,
+          "8": 541730,
+          "10": 361153,
+          "12": 180578
+        }
+      },
+      {
+        "lower_units": 150000,
+        "upper_units_exclusive": 175000,
+        "target_weight": 1222365,
+        "target_probability_fraction": "244473/200000000000",
+        "target_return_units_fraction": "744079818850000000000000/3745977788889",
+        "target_rtp_percentage_points": 0.19863433815785725,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 1222365,
+        "actual_return_units": 198634347240,
+        "actual_rtp_percentage_points": 0.19863434724,
+        "book_ids": [
+          100065,
+          100066,
+          100067,
+          100068,
+          100137,
+          100138,
+          100139,
+          100140,
+          100211,
+          100212,
+          100213,
+          100214,
+          100285,
+          100286,
+          100287,
+          100288
+        ],
+        "family_weights": {
+          "0": 488946,
+          "8": 366709,
+          "10": 244473,
+          "12": 122237
+        }
+      },
+      {
+        "lower_units": 175000,
+        "upper_units_exclusive": 200000,
+        "target_weight": 847507,
+        "target_probability_fraction": "847507/1000000000000",
+        "target_return_units_fraction": "595263855080000000000000/3745977788889",
+        "target_rtp_percentage_points": 0.1589074705262858,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 847507,
+        "actual_return_units": 158907483900,
+        "actual_rtp_percentage_points": 0.1589074839,
+        "book_ids": [
+          100010,
+          100069,
+          100070,
+          100071,
+          100072,
+          100141,
+          100142,
+          100143,
+          100144,
+          100215,
+          100216,
+          100217,
+          100218,
+          100289,
+          100290,
+          100291,
+          100292
+        ],
+        "family_weights": {
+          "0": 339002,
+          "8": 254252,
+          "10": 169501,
+          "12": 84752
+        }
+      },
+      {
+        "lower_units": 200000,
+        "upper_units_exclusive": 225000,
+        "target_weight": 598240,
+        "target_probability_fraction": "3739/6250000000",
+        "target_return_units_fraction": "476211084064000000000000/3745977788889",
+        "target_rtp_percentage_points": 0.12712597642102863,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 598240,
+        "actual_return_units": 127125982520,
+        "actual_rtp_percentage_points": 0.12712598252,
+        "book_ids": [
+          100008,
+          100009,
+          100011,
+          100073,
+          100074,
+          100075,
+          100076,
+          100145,
+          100146,
+          100147,
+          100148,
+          100219,
+          100220,
+          100221,
+          100222,
+          100293,
+          100294,
+          100295,
+          100296
+        ],
+        "family_weights": {
+          "0": 239296,
+          "8": 179472,
+          "10": 119648,
+          "12": 59824
+        }
+      },
+      {
+        "lower_units": 225000,
+        "upper_units_exclusive": 250000,
+        "target_weight": 428214,
+        "target_probability_fraction": "214107/500000000000",
+        "target_return_units_fraction": "380968867251200000000000/3745977788889",
+        "target_rtp_percentage_points": 0.1017007811368229,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 428214,
+        "actual_return_units": 101700790020,
+        "actual_rtp_percentage_points": 0.10170079002,
+        "book_ids": [
+          100077,
+          100078,
+          100079,
+          100080,
+          100149,
+          100150,
+          100151,
+          100152,
+          100223,
+          100224,
+          100225,
+          100226,
+          100297,
+          100298,
+          100299,
+          100300
+        ],
+        "family_weights": {
+          "0": 171285,
+          "8": 128464,
+          "10": 85642,
+          "12": 42823
+        }
+      },
+      {
+        "lower_units": 250000,
+        "upper_units_exclusive": 275000,
+        "target_weight": 309945,
+        "target_probability_fraction": "61989/200000000000",
+        "target_return_units_fraction": "304775093800960000000000/3745977788889",
+        "target_rtp_percentage_points": 0.08136062490945832,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 309945,
+        "actual_return_units": 81360619330,
+        "actual_rtp_percentage_points": 0.08136061933,
+        "book_ids": [
+          100081,
+          100082,
+          100083,
+          100084,
+          100153,
+          100154,
+          100155,
+          100156,
+          100227,
+          100228,
+          100229,
+          100230,
+          100301,
+          100302,
+          100303,
+          100304
+        ],
+        "family_weights": {
+          "0": 123978,
+          "8": 92983,
+          "10": 61989,
+          "12": 30995
+        }
+      },
+      {
+        "lower_units": 275000,
+        "upper_units_exclusive": 300000,
+        "target_weight": 226395,
+        "target_probability_fraction": "45279/200000000000",
+        "target_return_units_fraction": "243820075040768000000000/3745977788889",
+        "target_rtp_percentage_points": 0.06508849992756666,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 226395,
+        "actual_return_units": 65088490640,
+        "actual_rtp_percentage_points": 0.06508849064,
+        "book_ids": [
+          100014,
+          100015,
+          100085,
+          100086,
+          100087,
+          100088,
+          100157,
+          100158,
+          100159,
+          100160,
+          100231,
+          100232,
+          100233,
+          100234,
+          100305,
+          100306,
+          100307,
+          100308
+        ],
+        "family_weights": {
+          "0": 90558,
+          "8": 67918,
+          "10": 45279,
+          "12": 22640
+        }
+      },
+      {
+        "lower_units": 300000,
+        "upper_units_exclusive": 325000,
+        "target_weight": 166627,
+        "target_probability_fraction": "166627/1000000000000",
+        "target_return_units_fraction": "195056060032614400000000/3745977788889",
+        "target_rtp_percentage_points": 0.05207079994205333,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 166627,
+        "actual_return_units": 52070800280,
+        "actual_rtp_percentage_points": 0.05207080028,
+        "book_ids": [
+          100012,
+          100013,
+          100089,
+          100090,
+          100091,
+          100092,
+          100161,
+          100162,
+          100163,
+          100164,
+          100235,
+          100236,
+          100237,
+          100238,
+          100309,
+          100310,
+          100311,
+          100312
+        ],
+        "family_weights": {
+          "0": 66650,
+          "8": 49988,
+          "10": 33325,
+          "12": 16664
+        }
+      },
+      {
+        "lower_units": 325000,
+        "upper_units_exclusive": 350000,
+        "target_weight": 123427,
+        "target_probability_fraction": "123427/1000000000000",
+        "target_return_units_fraction": "156044848026091520000000/3745977788889",
+        "target_rtp_percentage_points": 0.04165663995364266,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 123427,
+        "actual_return_units": 41656633410,
+        "actual_rtp_percentage_points": 0.04165663341,
+        "book_ids": [
+          100093,
+          100094,
+          100095,
+          100096,
+          100165,
+          100166,
+          100167,
+          100168,
+          100239,
+          100240,
+          100241,
+          100242,
+          100313,
+          100314,
+          100315,
+          100316
+        ],
+        "family_weights": {
+          "0": 49370,
+          "8": 37028,
+          "10": 24685,
+          "12": 12344
+        }
+      },
+      {
+        "lower_units": 350000,
+        "upper_units_exclusive": 375000,
+        "target_weight": 91932,
+        "target_probability_fraction": "22983/250000000000",
+        "target_return_units_fraction": "124835878420873216000000/3745977788889",
+        "target_rtp_percentage_points": 0.033325311962914134,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 91932,
+        "actual_return_units": 33325324130,
+        "actual_rtp_percentage_points": 0.03332532413,
+        "book_ids": [
+          100097,
+          100098,
+          100099,
+          100100,
+          100169,
+          100170,
+          100171,
+          100172,
+          100243,
+          100244,
+          100245,
+          100246,
+          100317,
+          100318,
+          100319,
+          100320
+        ],
+        "family_weights": {
+          "0": 36772,
+          "8": 27579,
+          "10": 18386,
+          "12": 9195
+        }
+      },
+      {
+        "lower_units": 375000,
+        "upper_units_exclusive": 400000,
+        "target_weight": 68801,
+        "target_probability_fraction": "68801/1000000000000",
+        "target_return_units_fraction": "99868702736698572800000/3745977788889",
+        "target_rtp_percentage_points": 0.026660249570331303,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 68801,
+        "actual_return_units": 26660257400,
+        "actual_rtp_percentage_points": 0.0266602574,
+        "book_ids": [
+          100101,
+          100102,
+          100103,
+          100104,
+          100173,
+          100174,
+          100175,
+          100176,
+          100247,
+          100248,
+          100249,
+          100250,
+          100321,
+          100322,
+          100323,
+          100324
+        ],
+        "family_weights": {
+          "0": 27520,
+          "8": 20640,
+          "10": 13760,
+          "12": 6881
+        }
+      },
+      {
+        "lower_units": 400000,
+        "upper_units_exclusive": 425000,
+        "target_weight": 51705,
+        "target_probability_fraction": "10341/200000000000",
+        "target_return_units_fraction": "79894962189358858240000/3745977788889",
+        "target_rtp_percentage_points": 0.021328199656265045,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 51705,
+        "actual_return_units": 21328205940,
+        "actual_rtp_percentage_points": 0.02132820594,
+        "book_ids": [
+          100016,
+          100017,
+          100018,
+          100019,
+          100105,
+          100106,
+          100107,
+          100108,
+          100177,
+          100178,
+          100179,
+          100180,
+          100251,
+          100252,
+          100253,
+          100254,
+          100325,
+          100326,
+          100327,
+          100328
+        ],
+        "family_weights": {
+          "0": 20682,
+          "8": 15511,
+          "10": 10341,
+          "12": 5171
+        }
+      },
+      {
+        "lower_units": 425000,
+        "upper_units_exclusive": 450000,
+        "target_weight": 39000,
+        "target_probability_fraction": "39/1000000000",
+        "target_return_units_fraction": "63915969751487086592000/3745977788889",
+        "target_rtp_percentage_points": 0.017062559725012034,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 39000,
+        "actual_return_units": 17062575760,
+        "actual_rtp_percentage_points": 0.01706257576,
+        "book_ids": [
+          100109,
+          100110,
+          100111,
+          100112,
+          100181,
+          100182,
+          100183,
+          100184,
+          100255,
+          100256,
+          100257,
+          100258,
+          100329,
+          100330,
+          100331,
+          100332
+        ],
+        "family_weights": {
+          "0": 15600,
+          "8": 11700,
+          "10": 7800,
+          "12": 3900
+        }
+      },
+      {
+        "lower_units": 450000,
+        "upper_units_exclusive": 475000,
+        "target_weight": 29514,
+        "target_probability_fraction": "14757/500000000000",
+        "target_return_units_fraction": "51132775801189669273600/3745977788889",
+        "target_rtp_percentage_points": 0.013650047780009628,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 29514,
+        "actual_return_units": 13650052710,
+        "actual_rtp_percentage_points": 0.01365005271,
+        "book_ids": [
+          100113,
+          100114,
+          100185,
+          100186,
+          100187,
+          100188,
+          100259,
+          100260,
+          100261,
+          100262,
+          100333,
+          100334,
+          100335,
+          100336
+        ],
+        "family_weights": {
+          "0": 11805,
+          "8": 8854,
+          "10": 5902,
+          "12": 2953
+        }
+      },
+      {
+        "lower_units": 475000,
+        "upper_units_exclusive": 500000,
+        "target_weight": 22400,
+        "target_probability_fraction": "7/312500000",
+        "target_return_units_fraction": "40906220640951735418880/3745977788889",
+        "target_rtp_percentage_points": 0.010920038224007703,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 22400,
+        "actual_return_units": 10920034680,
+        "actual_rtp_percentage_points": 0.01092003468,
+        "book_ids": [
+          100115,
+          100116,
+          100117,
+          100118,
+          100189,
+          100190,
+          100191,
+          100192,
+          100263,
+          100264,
+          100265,
+          100266,
+          100337,
+          100338,
+          100339,
+          100340
+        ],
+        "family_weights": {
+          "0": 8960,
+          "8": 6720,
+          "10": 4480,
+          "12": 2240
+        }
+      }
+    ],
+    "exact_moment_correction": [
+      {
+        "from": 100000,
+        "to": 100002,
+        "tickets": 508
+      },
+      {
+        "from": 100050,
+        "to": 100052,
+        "tickets": -11
+      }
+    ],
+    "high_weight": 21108605,
+    "cap_book_ids_by_awarded_fs": {
+      "0": [
+        100020,
+        100021,
+        100022,
+        100023,
+        100119,
+        100120
+      ],
+      "8": [
+        100193,
+        100194
+      ],
+      "10": [
+        100267,
+        100268
+      ],
+      "12": [
+        100341,
+        100342
+      ]
+    },
+    "candidate_count": 11889,
+    "additional_books": 294
+  },
+  "largest_high_gap_x": 98.6,
+  "bonus_coverage": {
+    "8": {
+      "scatters": 3,
+      "book_ids": [
+        484,
+        508,
+        519,
+        709,
+        1002,
+        1321,
+        1450,
+        1898,
+        2045,
+        2188,
+        2341,
+        2520,
+        2612,
+        2814,
+        3058,
+        3146,
+        3685,
+        3741,
+        4108,
+        4138,
+        4387,
+        4423,
+        4531,
+        4693,
+        4979,
+        5075,
+        5147,
+        5321,
+        6078,
+        6129,
+        6150,
+        6264,
+        6507,
+        6513,
+        6589,
+        6671,
+        6688,
+        6923,
+        7121,
+        7265,
+        7360,
+        7437,
+        7505,
+        8048,
+        8195,
+        8245,
+        8364,
+        8462,
+        8599,
+        9127,
+        9453,
+        9650,
+        9756,
+        9793,
+        10199,
+        10309,
+        10420,
+        10479,
+        10487,
+        10534,
+        10641,
+        10766,
+        10833,
+        10993,
+        11147,
+        11174,
+        11367,
+        11398,
+        11462,
+        11967,
+        12090,
+        12484,
+        12671,
+        13252,
+        13281,
+        13575,
+        13662,
+        13749,
+        13879,
+        14586,
+        14765,
+        14811,
+        14829,
+        15102,
+        15463,
+        15521,
+        15604,
+        15652,
+        15814,
+        15851,
+        16027,
+        16353,
+        16414,
+        16622,
+        16751,
+        16921,
+        17202,
+        17899,
+        18230,
+        18546,
+        19069,
+        19273,
+        19283,
+        19649,
+        19760,
+        19852,
+        19988,
+        20120,
+        20156,
+        20664,
+        20921,
+        21129,
+        21270,
+        21309,
+        21587,
+        21613,
+        22128,
+        22530,
+        22641,
+        23404,
+        23462,
+        23481,
+        23800,
+        24180,
+        24196,
+        24238,
+        24470,
+        24484,
+        24632,
+        24730,
+        24790,
+        25618,
+        25727,
+        26055,
+        26162,
+        26275,
+        26390,
+        26519,
+        26716,
+        26812,
+        26955,
+        27339,
+        27568,
+        27855,
+        27997,
+        28164,
+        28243,
+        28314,
+        28328,
+        28749,
+        29086,
+        29251,
+        29420,
+        29720,
+        30006,
+        30120,
+        30354,
+        31093,
+        31357,
+        31734,
+        31751,
+        32358,
+        32824,
+        32887,
+        33351,
+        33827,
+        33874,
+        34211,
+        34674,
+        35124,
+        35323,
+        35351,
+        35364,
+        35808,
+        36138,
+        36207,
+        36535,
+        36722,
+        37069,
+        37169,
+        37205,
+        37245,
+        37248,
+        37281,
+        37356,
+        37403,
+        37751,
+        37803,
+        37836,
+        38061,
+        38443,
+        38605,
+        38703,
+        38938,
+        39000,
+        39620,
+        39745,
+        39850,
+        40142,
+        40342,
+        40368,
+        40730,
+        40929,
+        41069,
+        41467,
+        41682,
+        43055,
+        43310,
+        43401,
+        44143,
+        44163,
+        44168,
+        44280,
+        44319,
+        44746,
+        44828,
+        44904,
+        44945,
+        45243,
+        45365,
+        45516,
+        45758,
+        46124,
+        46183,
+        46224,
+        46345,
+        46347,
+        46435,
+        46483,
+        46916,
+        46935,
+        47452,
+        47635,
+        47961,
+        48153,
+        48465,
+        48792,
+        48797,
+        48873,
+        49419,
+        49637,
+        49676,
+        50061,
+        50331,
+        50800,
+        50871,
+        50893,
+        50929,
+        51146,
+        51197,
+        51342,
+        51358,
+        52162,
+        53011,
+        53344,
+        53455,
+        53487,
+        53623,
+        53654,
+        53670,
+        53744,
+        54327,
+        54633,
+        54692,
+        54824,
+        55047,
+        55186,
+        55320,
+        55365,
+        55411,
+        55631,
+        55873,
+        56007,
+        56034,
+        56236,
+        56303,
+        56310,
+        56396,
+        56800,
+        56947,
+        57066,
+        57157,
+        57493,
+        58115,
+        58129,
+        58133,
+        58203,
+        58207,
+        58235,
+        58504,
+        58695,
+        59103,
+        59614,
+        59843,
+        60190,
+        60287,
+        60415,
+        60481,
+        60538,
+        61148,
+        61341,
+        61648,
+        61859,
+        62091,
+        62224,
+        62409,
+        62716,
+        62818,
+        62863,
+        63628,
+        63675,
+        63938,
+        64000,
+        64002,
+        64029,
+        64063,
+        64068,
+        64234,
+        65006,
+        65070,
+        65109,
+        65378,
+        65478,
+        65702,
+        65783,
+        65992,
+        66038,
+        66204,
+        66252,
+        66278,
+        66350,
+        66465,
+        67226,
+        67726,
+        67774,
+        67844,
+        67888,
+        68071,
+        68229,
+        68233,
+        68258,
+        68303,
+        68392,
+        69185,
+        69204,
+        69435,
+        69759,
+        69876,
+        70260,
+        70552,
+        70781,
+        71119,
+        71816,
+        72117,
+        72425,
+        72496,
+        72914,
+        73140,
+        73475,
+        73731,
+        73959,
+        73995,
+        74508,
+        74974,
+        75155,
+        75225,
+        75713,
+        75938,
+        76006,
+        76192,
+        76561,
+        77040,
+        77081,
+        77258,
+        77269,
+        78159,
+        78291,
+        78424,
+        78555,
+        78575,
+        78579,
+        78634,
+        78663,
+        78790,
+        78915,
+        79256,
+        79291,
+        79402,
+        79927,
+        80308,
+        80411,
+        80905,
+        81291,
+        81305,
+        81311,
+        81358,
+        81999,
+        82290,
+        82627,
+        83328,
+        83548,
+        83603,
+        84020,
+        84064,
+        84150,
+        84635,
+        84863,
+        84876,
+        84956,
+        85100,
+        85140,
+        85577,
+        85580,
+        85657,
+        85777,
+        86527,
+        86612,
+        86773,
+        86830,
+        87208,
+        87487,
+        87638,
+        87929,
+        87977,
+        88071,
+        88174,
+        88389,
+        88598,
+        89787,
+        89865,
+        90371,
+        90825,
+        90915,
+        90978,
+        91007,
+        91144,
+        92207,
+        92769,
+        93242,
+        93516,
+        93698,
+        93767,
+        93890,
+        93926,
+        94078,
+        94271,
+        94396,
+        94479,
+        95067,
+        95152,
+        95165,
+        95618,
+        95770,
+        96026,
+        96064,
+        96234,
+        96274,
+        96488,
+        96846,
+        97055,
+        97182,
+        97423,
+        97479,
+        97487,
+        98023,
+        98035,
+        98054,
+        98342,
+        98609,
+        98711,
+        98934,
+        99598,
+        99779,
+        100121,
+        100122,
+        100123,
+        100124,
+        100125,
+        100126,
+        100127,
+        100128,
+        100129,
+        100130,
+        100131,
+        100132,
+        100133,
+        100134,
+        100135,
+        100136,
+        100137,
+        100138,
+        100139,
+        100140,
+        100141,
+        100142,
+        100143,
+        100144,
+        100145,
+        100146,
+        100147,
+        100148,
+        100149,
+        100150,
+        100151,
+        100152,
+        100153,
+        100154,
+        100155,
+        100156,
+        100157,
+        100158,
+        100159,
+        100160,
+        100161,
+        100162,
+        100163,
+        100164,
+        100165,
+        100166,
+        100167,
+        100168,
+        100169,
+        100170,
+        100171,
+        100172,
+        100173,
+        100174,
+        100175,
+        100176,
+        100177,
+        100178,
+        100179,
+        100180,
+        100181,
+        100182,
+        100183,
+        100184,
+        100185,
+        100186,
+        100187,
+        100188,
+        100189,
+        100190,
+        100191,
+        100192,
+        100193,
+        100194
+      ],
+      "total_weight": 4679041094
+    },
+    "10": {
+      "scatters": 4,
+      "book_ids": [
+        287,
+        1008,
+        3382,
+        6813,
+        7579,
+        11164,
+        14587,
+        19092,
+        20848,
+        21371,
+        24605,
+        26723,
+        33477,
+        35877,
+        41597,
+        48145,
+        53823,
+        54745,
+        56550,
+        62653,
+        72928,
+        75831,
+        76087,
+        78206,
+        79846,
+        87348,
+        88197,
+        89141,
+        94235,
+        100195,
+        100196,
+        100197,
+        100198,
+        100199,
+        100200,
+        100201,
+        100202,
+        100203,
+        100204,
+        100205,
+        100206,
+        100207,
+        100208,
+        100209,
+        100210,
+        100211,
+        100212,
+        100213,
+        100214,
+        100215,
+        100216,
+        100217,
+        100218,
+        100219,
+        100220,
+        100221,
+        100222,
+        100223,
+        100224,
+        100225,
+        100226,
+        100227,
+        100228,
+        100229,
+        100230,
+        100231,
+        100232,
+        100233,
+        100234,
+        100235,
+        100236,
+        100237,
+        100238,
+        100239,
+        100240,
+        100241,
+        100242,
+        100243,
+        100244,
+        100245,
+        100246,
+        100247,
+        100248,
+        100249,
+        100250,
+        100251,
+        100252,
+        100253,
+        100254,
+        100255,
+        100256,
+        100257,
+        100258,
+        100259,
+        100260,
+        100261,
+        100262,
+        100263,
+        100264,
+        100265,
+        100266,
+        100267,
+        100268
+      ],
+      "total_weight": 286875670
+    },
+    "12": {
+      "scatters": 5,
+      "book_ids": [
+        100024,
+        100025,
+        100026,
+        100027,
+        100028,
+        100029,
+        100030,
+        100031,
+        100032,
+        100033,
+        100034,
+        100035,
+        100036,
+        100037,
+        100038,
+        100039,
+        100040,
+        100041,
+        100042,
+        100043,
+        100044,
+        100045,
+        100046,
+        100047,
+        100269,
+        100270,
+        100271,
+        100272,
+        100273,
+        100274,
+        100275,
+        100276,
+        100277,
+        100278,
+        100279,
+        100280,
+        100281,
+        100282,
+        100283,
+        100284,
+        100285,
+        100286,
+        100287,
+        100288,
+        100289,
+        100290,
+        100291,
+        100292,
+        100293,
+        100294,
+        100295,
+        100296,
+        100297,
+        100298,
+        100299,
+        100300,
+        100301,
+        100302,
+        100303,
+        100304,
+        100305,
+        100306,
+        100307,
+        100308,
+        100309,
+        100310,
+        100311,
+        100312,
+        100313,
+        100314,
+        100315,
+        100316,
+        100317,
+        100318,
+        100319,
+        100320,
+        100321,
+        100322,
+        100323,
+        100324,
+        100325,
+        100326,
+        100327,
+        100328,
+        100329,
+        100330,
+        100331,
+        100332,
+        100333,
+        100334,
+        100335,
+        100336,
+        100337,
+        100338,
+        100339,
+        100340,
+        100341,
+        100342
+      ],
+      "total_weight": 4018776
+    }
+  },
+  "bonus_coverage_method": "Legal seeded and controlled-draw complete rounds; fixed published 8/10/12FS trigger masses",
+  "coverage_candidate_books": 24,
+  "five_scatter_natural_probability_fraction": "1/248832",
+  "five_scatter_published_probability_fraction": "502347/125000000000",
+  "ordinary_positive_book_weight": 2474907,
+  "correction_book_ids": [
+    15,
+    12
+  ],
+  "correction_additional_weights": [
+    637406,
+    0
+  ],
+  "source_fingerprint": {
+    "config.py": "d0a1b09794e6d212b2296f6f9fe158bb6aa69b17754bd0d26f8480ea5b3607cf",
+    "game.py": "42401e6a16c511abc9d9884a4d74b5d6643e290315ee5e63f635343665322dfb",
+    "selection.py": "4e4c6a9e55f537d2c80389922200b0a1f30e1f7c7452c92a749e966da3d3e602"
+  },
+  "elapsed_seconds": 58.3663585999966,
+  "platform_approval": "Not performed; export and public SDK validation are local",
+  "files": {
+    "index.json": {
+      "sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "bytes": 164
+    },
+    "books_base.jsonl.zst": {
+      "sha256": "77d5a172931bf4d424d574b92ce8180168d83e482eaad6cb3889ff1304c77171",
+      "bytes": 9721266
+    },
+    "lookUpTable_base_0.csv": {
+      "sha256": "b28847b42ef2f8c2458949aea46a1d37a174209f3c11f28edf6ef48c2d05727f",
+      "bytes": 1839761
+    },
+    "selection.json": {
+      "sha256": "a9d7f3b4e9a3e6e1417562045511fd662b69320eebbfcdd04646ab314ade2036",
+      "bytes": 1553236
+    }
+  }
+}

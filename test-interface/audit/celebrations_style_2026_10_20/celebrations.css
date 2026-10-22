@@ -1,0 +1,22 @@
+/* Gold, velvet and drifting unmarked coins. No rapid flashes or camera shake. */
+.celebration{position:absolute;inset:0 0 94px;z-index:25;display:flex;align-items:center;justify-content:center;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse,#552135de,#180d1aee 78%);border-radius:12px 12px 0 0;animation:celebration-enter .3s ease-out;pointer-events:none}
+.celebration-rays{position:absolute;inset:-100%;z-index:-1;opacity:.3;background:repeating-conic-gradient(from 0deg,#edc17000 0deg 14deg,#edc17044 18deg 21deg,#edc17000 27deg 40deg);mask-image:radial-gradient(circle,#000,transparent 58%);animation:celebration-rays 32s linear infinite}
+.celebration-card{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;width:min(610px,88%);padding:28px 20px;gap:16px;border:1px solid #d1aa6266;border-radius:5px;background:radial-gradient(ellipse,#421d2bd9,#1b1019cc);box-shadow:0 0 0 5px #d7a95712,0 15px 45px #0006;animation:celebration-crown .55s cubic-bezier(.2,.8,.2,1)}
+.celebration-card::before,.celebration-card::after{content:"";position:absolute;inset:6px;border:1px solid #edca8544;pointer-events:none}.celebration-card::after{inset:12px;border-color:#edca851a}
+.celebration-ornament{font-size:24px;color:#e9bb68;letter-spacing:12px;text-shadow:0 0 18px #ffd28366}
+.celebration-title,.celebration-value{font-family:Georgia,serif;line-height:1.12;color:#ffe3a1;text-shadow:0 3px 1px #5e281d,0 6px 18px #0008;overflow-wrap:anywhere}
+.celebration-title{font-size:clamp(22px,4vw,48px);letter-spacing:1.5px}.celebration-value{font-size:clamp(32px,6vw,76px);font-variant-numeric:tabular-nums}.celebration-value[hidden]{display:none}
+.celebration-detail{font-size:clamp(12px,1.5vw,17px);color:#f3dec1;max-width:95%;line-height:1.5}
+.celebration-skip{position:absolute;bottom:14px;right:18px;pointer-events:auto;min-height:44px;padding:8px 17px;border:1px solid #e2b86d77;border-radius:6px;background:#22121fe8;color:#fae4bd;font-size:12px;cursor:pointer}
+.celebration-skip:hover{background:#482632}.celebration-skip:focus-visible{outline:2px solid #ffe2a6;outline-offset:3px}
+.celebration-particles{position:absolute;inset:0;overflow:hidden;pointer-events:none}.celebration-particles i{position:absolute;left:var(--x);top:-35px;width:17px;height:21px;border:2px solid #f7d68b;border-radius:50%;background:radial-gradient(ellipse at 30% 25%,#fff0ba,#c28b33 65%,#7c491d);box-shadow:0 0 0 2px #98612e inset,0 3px 7px #0005;animation:celebration-coins var(--duration) linear infinite;animation-delay:var(--delay)}
+.celebration[data-kind="epic"] .celebration-card{border-color:#ffe4aa;box-shadow:0 0 0 5px #d7a95722,0 0 70px #f7c46d33}.celebration[data-kind="mega"] .celebration-rays,.celebration[data-kind="epic"] .celebration-rays{opacity:.5}
+.free-spins-active .reel-surround{box-shadow:0 0 25px #f0ba4f77,0 0 0 1px #ffe5ad!important}.free-spins-active .bonus-bar{color:#ffe29c!important;text-shadow:0 0 12px #ffbd6255}
+.celebration-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@keyframes celebration-enter{from{opacity:0}to{opacity:1}}
+@keyframes celebration-crown{from{opacity:0;transform:translateY(12px) scale(.94)}to{opacity:1;transform:none}}
+@keyframes celebration-rays{to{transform:rotate(360deg)}}
+@keyframes celebration-coins{0%{transform:translate3d(0,-25px,0) rotateY(0deg);opacity:0}10%{opacity:.9}85%{opacity:.9}100%{transform:translate3d(var(--drift),660px,0) rotateY(560deg) rotate(40deg);opacity:0}}
+@media(max-width:680px){.celebration{inset:0 0 134px;border-radius:6px 6px 0 0}.celebration-card{gap:12px;padding:20px 10px;width:90%}.celebration-title{font-size:24px;letter-spacing:.5px}.celebration-value{font-size:36px}.celebration-ornament{font-size:18px}.celebration-detail{font-size:12px}.celebration-skip{bottom:10px;right:10px}.celebration-particles i:nth-child(n+15){display:none}}
+@media(max-width:360px){.celebration-title{font-size:20px}.celebration-value{font-size:29px}.celebration-card{gap:10px;padding:18px 10px}}
+@media(prefers-reduced-motion:reduce){.celebration,.celebration-card,.celebration-rays,.celebration-particles i{animation:none!important}.celebration-rays{display:none}}

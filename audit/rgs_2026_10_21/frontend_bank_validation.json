@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "books_checked": 100049,
+  "failures": [],
+  "rgs_envelopes_checked": 100049,
+  "scope": "Every real exported round through the actual UI validator, local and synthetic RGS envelopes; not a real platform response test"
+}

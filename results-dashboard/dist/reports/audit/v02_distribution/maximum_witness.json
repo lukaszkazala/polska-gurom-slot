@@ -1,0 +1,147 @@
+{
+  "1": {
+    "stops": [
+      21,
+      0,
+      8,
+      3,
+      31
+    ],
+    "original_grid": [
+      [
+        "P3",
+        "L4",
+        "P3",
+        "L2",
+        "L2"
+      ],
+      [
+        "L2",
+        "L2",
+        "L2",
+        "WILD",
+        "WILD"
+      ],
+      [
+        "WILD",
+        "P3",
+        "WILD",
+        "L4",
+        "L4"
+      ]
+    ],
+    "forced_reel_zero_based": 1,
+    "line_win_before_multiplier": 116.6,
+    "line_win_after_multiplier_four": 466.4,
+    "original_scatter_count": 0
+  },
+  "2": {
+    "stops": [
+      21,
+      15,
+      0,
+      3,
+      30
+    ],
+    "original_grid": [
+      [
+        "P3",
+        "L2",
+        "P4",
+        "L2",
+        "P3"
+      ],
+      [
+        "L2",
+        "WILD",
+        "L2",
+        "WILD",
+        "L2"
+      ],
+      [
+        "WILD",
+        "L4",
+        "L1",
+        "L4",
+        "WILD"
+      ]
+    ],
+    "forced_reel_zero_based": 2,
+    "line_win_before_multiplier": 178.5,
+    "line_win_after_multiplier_four": 714.0,
+    "original_scatter_count": 0
+  },
+  "3": {
+    "stops": [
+      21,
+      15,
+      9,
+      0,
+      30
+    ],
+    "original_grid": [
+      [
+        "P3",
+        "L2",
+        "L2",
+        "P1",
+        "P3"
+      ],
+      [
+        "L2",
+        "WILD",
+        "WILD",
+        "L1",
+        "L2"
+      ],
+      [
+        "WILD",
+        "L4",
+        "L4",
+        "P3",
+        "WILD"
+      ]
+    ],
+    "forced_reel_zero_based": 3,
+    "line_win_before_multiplier": 154.6,
+    "line_win_after_multiplier_four": 618.4,
+    "original_scatter_count": 0
+  },
+  "base_five_scatter": {
+    "stops": [
+      33,
+      26,
+      20,
+      14,
+      6
+    ],
+    "original_grid": [
+      [
+        "P3",
+        "P3",
+        "P3",
+        "P3",
+        "P3"
+      ],
+      [
+        "L1",
+        "L1",
+        "L1",
+        "L1",
+        "L1"
+      ],
+      [
+        "SCATTER",
+        "SCATTER",
+        "SCATTER",
+        "SCATTER",
+        "SCATTER"
+      ]
+    ],
+    "line_win": 30.22,
+    "scatter_win": 20.0,
+    "total_win": 50.22,
+    "original_scatter_count": 5,
+    "free_spins_awarded": 12
+  }
+}

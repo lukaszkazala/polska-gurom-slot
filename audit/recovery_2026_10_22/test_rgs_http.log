@@ -1,0 +1,10 @@
+test_full_bonus (__main__.RgsHttpTests.test_full_bonus) ... ok
+test_lost_play_response (__main__.RgsHttpTests.test_lost_play_response) ... ok
+test_lost_settlement_response (__main__.RgsHttpTests.test_lost_settlement_response) ... ok
+test_positive_round (__main__.RgsHttpTests.test_positive_round) ... ok
+test_zero_round (__main__.RgsHttpTests.test_zero_round) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.801s
+
+OK

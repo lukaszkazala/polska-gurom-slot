@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "math_version": "0.4.1-weighted-12fs",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "tests_run": 10,
+  "passed": 10,
+  "tests": [
+    {
+      "name": "test_cascades.CascadeTests.test_actual_fall_with_holes_above_and_below_survivors",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_duplicates_remove_one_cell_and_survivor_order_is_stable",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_emergency_limit_is_explicit_and_stops_before_removal",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_free_spin_multiplier_cascades_and_expansion_only_once",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_limit_caps_stage_after_scatter_before_any_removal",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_overlapping_lines_remove_union_once_and_award_new_wins",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_round_cap_applies_across_base_and_free_spins",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_scatter_count_before_free_spin_expansion",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_scatter_is_initial_only_and_never_spawned",
+      "status": "pass"
+    },
+    {
+      "name": "test_cascades.CascadeTests.test_seeded_rounds_are_repeatable_and_settlement_matches_animation",
+      "status": "pass"
+    }
+  ],
+  "failures": 0,
+  "errors": 0
+}

@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "audit": "Fresh independent full export and draw-trace reconstruction",
+  "production_evaluator_called": false,
+  "command": "python audit/double_check_2026_10_20/math/independent_math_audit.py",
+  "math_version": "0.4.1-weighted-12fs",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "source_fingerprint": {
+    "config.py": "a0ec242a1e6d69ff70b9c4f69b57bf037a33267e9360c5ca6fedb76f2752884b",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6"
+  },
+  "compressed_file_sha256": "8988aa6f8cea385b5954f3d449cc5795aa3276c5e8d864315eeacfc1c47a3f81",
+  "books_checked": 100048,
+  "unique_event_sequences": 100048,
+  "total_weight": 1000000000000,
+  "integer_ticket_boundaries_checked": 200096,
+  "exact": {
+    "rtp_fraction": "24/25",
+    "rtp": 0.96,
+    "variance_fraction": "2435830022639691/50000000000000",
+    "standard_deviation": 6.979727820824665,
+    "max_win_units": 500000,
+    "max_win_probability_fraction": "1/8000000",
+    "hit_probability": 0.294433510567,
+    "net_profit_probability": 0.168853054548,
+    "expansions_per_paid_round": 0.010162189462,
+    "distinct_payouts": 566,
+    "largest_book_probability": 1.0062986e-05
+  },
+  "bonus_types": [
+    {
+      "scatters": 3,
+      "free_spins": 8,
+      "books": 473,
+      "integer_weight": 4679041094,
+      "published_probability_fraction": "2339520547/500000000000",
+      "published_probability": 0.004679041094,
+      "one_in": 213.71900351170544,
+      "natural_probability_fraction": "605/124416",
+      "natural_probability": 0.004862718621399177,
+      "published_vs_natural_relative_difference": -0.03777260041139835,
+      "conditional_mean_payout_multiple": 46.9678644927071
+    },
+    {
+      "scatters": 4,
+      "free_spins": 10,
+      "books": 29,
+      "integer_weight": 286875670,
+      "published_probability_fraction": "28687567/100000000000",
+      "published_probability": 0.00028687567,
+      "one_in": 3485.830638757201,
+      "natural_probability_fraction": "55/248832",
+      "natural_probability": 0.0002210326646090535,
+      "published_vs_natural_relative_difference": 0.2978881221352727,
+      "conditional_mean_payout_multiple": 57.662068900788974
+    },
+    {
+      "scatters": 5,
+      "free_spins": 12,
+      "books": 24,
+      "integer_weight": 4018776,
+      "published_probability_fraction": "502347/125000000000",
+      "published_probability": 4.018776e-06,
+      "one_in": 248831.9826733314,
+      "natural_probability_fraction": "1/248832",
+      "natural_probability": 4.018775720164609e-06,
+      "published_vs_natural_relative_difference": 6.9632e-08,
+      "conditional_mean_payout_multiple": 81.65
+    }
+  ],
+  "total_bonus_probability": 0.00496993554,
+  "baseline_bonus_probability": 0.00496993554,
+  "total_bonus_preserved": true,
+  "natural_scatter_window_counts": [
+    {
+      "0": 33,
+      "1": 3
+    },
+    {
+      "0": 33,
+      "1": 3
+    },
+    {
+      "0": 33,
+      "1": 3
+    },
+    {
+      "0": 33,
+      "1": 3
+    },
+    {
+      "0": 33,
+      "1": 3
+    }
+  ],
+  "natural_trigger_probability": 0.005087770061728395,
+  "twelve_spin_witnesses": {
+    "count": 24,
+    "all_natural_seeds": true,
+    "distinct_initial_scatter_row_vectors": 23,
+    "scatter_row_counts_per_reel": [
+      {
+        "1": 12,
+        "2": 7,
+        "0": 5
+      },
+      {
+        "1": 10,
+        "2": 10,
+        "0": 4
+      },
+      {
+        "2": 8,
+        "1": 8,
+        "0": 8
+      },
+      {
+        "0": 9,
+        "1": 9,
+        "2": 6
+      },
+      {
+        "0": 10,
+        "2": 9,
+        "1": 5
+      }
+    ]
+  },
+  "independent_checks": {
+    "new_symbols": 167507,
+    "falling_survivors": 128027,
+    "cascade_transitions": 39980,
+    "cascade_stages": 144390,
+    "line_awards": 124644,
+    "paid_spins": 100048,
+    "expansions": 1102,
+    "free_spins": 4362
+  },
+  "findings": [
+    {
+      "severity": "info",
+      "topic": "generator_vs_published",
+      "detail_pl": "Rozkład końcowy jest ważonym bankiem pełnych rund. Proporcje 8/10FS zachowano z próbki473:29; nie są identyczne z naturalnym generatorem. 12FS skalibrowano do dokładnego 1/248832 z pasków. To jawny wybór matematyki, a nie dowód odtworzenia całego naturalnego rozkładu."
+    },
+    {
+      "severity": "info",
+      "topic": "conditional_bonus_model",
+      "detail_pl": "24 dodatnio ważone naturalne rundy gwarantują pokrycie12FS. Nie wyczerpują wszystkich możliwych wyników ani nie dowodzą naturalnego warunkowego RTP12FS; końcowy model ma własny dokładnie obliczony RTP."
+    },
+    {
+      "severity": "minor_documentation",
+      "topic": "historical_math_review_wording",
+      "path": "audit/bonus12_fix_2026_10_20/math_review.md",
+      "detail_pl": "Archiwalny przegląd propozycji wspomina sekwencje wild_refill_limit=0 obok naturalnego świadka. Faktycznie eksportowane24wyniki12FS mają wyłącznie naturalne seed; bieżący RAPORT_PL.md i eksport opisują stan końcowy."
+    }
+  ],
+  "limitations_pl": [
+    "Walidacja lokalna publicznego formatu i reguł nie stanowi zatwierdzenia gry przez Stake.",
+    "Przeliczenie wszystkich wyników daje dokładne statystyki skończonego banku; nie dowodzi jakości ani certyfikacji RNG środowiska produkcyjnego.",
+    "Nie zmieniano kodu produkcyjnego, eksportu ani dawnych raportów."
+  ],
+  "elapsed_seconds": 26.917,
+  "audit_source_sha256": "561a96163b815bb593ebd4d2ace3652e72ac98238ab48f13c0bb1d1c05269f38"
+}

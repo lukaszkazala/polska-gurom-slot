@@ -1,0 +1,55 @@
+{
+  "started_at_utc": "2026-10-20T10:21:19.546751+00:00",
+  "completed_at_utc": "2026-10-20T10:22:03.866317+00:00",
+  "status": "PASS",
+  "math_version": "0.4.1-weighted-12fs",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "source_fingerprint": {
+    "config.py": "a0ec242a1e6d69ff70b9c4f69b57bf037a33267e9360c5ca6fedb76f2752884b",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6"
+  },
+  "steps": [
+    {
+      "name": "test_cascades",
+      "exit_code": 0
+    },
+    {
+      "name": "test_server",
+      "exit_code": 0
+    },
+    {
+      "name": "test_coverage",
+      "exit_code": 0
+    },
+    {
+      "name": "test_autoplay",
+      "exit_code": 0
+    },
+    {
+      "name": "test_network_logic",
+      "exit_code": 0
+    },
+    {
+      "name": "test_network_faults",
+      "exit_code": 0
+    },
+    {
+      "name": "portable_check",
+      "exit_code": 0
+    },
+    {
+      "name": "test_bonus12_api",
+      "exit_code": 0
+    },
+    {
+      "name": "test_bonus12_frontend",
+      "exit_code": 0
+    },
+    {
+      "name": "run_official_validation",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Fresh existing regression cases plus local unmodified pinned public SDK, not private RGS integration or platform approval"
+}

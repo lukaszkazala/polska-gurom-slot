@@ -1,0 +1,32 @@
+{
+  "checked_on": "2026-10-20",
+  "audience": "owner-only",
+  "source": {
+    "project_id": "appgprj_6ad66828d1048191bdde48b33a580369",
+    "checkout_path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\results-dashboard",
+    "commit_sha": "6d9f4dad34393d93506136f4c692f328b06172d9",
+    "archive": "C:/Users/Kazaluka/.codex/.chatgpt-projects/g-p-6ad10d7dc94881919023097cba0cf4b4/audit/dashboard_delivery/dashboard-site.tar.gz"
+  },
+  "deployment": {
+    "id": "appgdep_6ad7378f3bd08191a348ac21af6243cf",
+    "project_id": "appgprj_6ad66828d1048191bdde48b33a580369",
+    "title": "Polska Gurom — dashboard wyników",
+    "version_id": "appgprj_6ad66828d1048191bdde48b33a580369~appgver_1bd6d370f7308191aa5fce03246a780d",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://polska-gurom-wyniki-20261019.bronzebrook7.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad66828d1048191bdde48b33a580369",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-20T09:43:10.831736+00:00"
+  },
+  "delivery": "POLSKA_GUROM_DASHBOARD.html",
+  "reports": 139,
+  "simulations": 21,
+  "gameRegressionChecks": 107,
+  "largeSimulationsRerun": false,
+  "standalone": "All139reports embedded with original SHA256; no external script or stylesheet dependencies.",
+  "layout": "Light responsive HTML dashboard; desktop1440px and mobile390px verified."
+}

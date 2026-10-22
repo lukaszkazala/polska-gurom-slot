@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "suites": [
+    {
+      "suite": "test_server",
+      "exit_code": 0,
+      "seconds": 3.281
+    },
+    {
+      "suite": "test_cascades",
+      "exit_code": 0,
+      "seconds": 0.5
+    },
+    {
+      "suite": "test_network_faults",
+      "exit_code": 0,
+      "seconds": 6.0
+    },
+    {
+      "suite": "test_atomicity",
+      "exit_code": 0,
+      "seconds": 1.61
+    },
+    {
+      "suite": "test_bonus12_api",
+      "exit_code": 0,
+      "seconds": 14.875
+    },
+    {
+      "suite": "test_rgs_http",
+      "exit_code": 0,
+      "seconds": 4.438
+    },
+    {
+      "suite": "test_autoplay",
+      "exit_code": 0,
+      "seconds": 8.094
+    },
+    {
+      "suite": "test_network_logic",
+      "exit_code": 0,
+      "seconds": 1.219
+    },
+    {
+      "suite": "test_bonus12_frontend",
+      "exit_code": 0,
+      "seconds": 3.594
+    },
+    {
+      "suite": "test_any_start_frontend",
+      "exit_code": 0,
+      "seconds": 0.094
+    },
+    {
+      "suite": "test_audit_fixes",
+      "exit_code": 0,
+      "seconds": 0.297
+    },
+    {
+      "suite": "test_rgs",
+      "exit_code": 0,
+      "seconds": 0.328
+    }
+  ]
+}

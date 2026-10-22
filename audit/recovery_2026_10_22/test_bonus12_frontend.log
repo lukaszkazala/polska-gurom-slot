@@ -1,0 +1,7 @@
+PASS Actual exported 12-FS round renders through completion in normal mode
+PASS Actual exported 12-FS round renders through completion in quick mode
+PASS Actual exported 12-FS round renders through completion in turbo mode
+PASS Actual exported 12-FS round renders through completion in instant mode
+PASS 100 autoplay rounds containing 12 FS each count 100 paid rounds and 1200 free spins
+PASS Lost 12-FS reply retries the original paid round without double counting
+PASS STOP during the fifth free spin completes all twelve but starts no extra paid round

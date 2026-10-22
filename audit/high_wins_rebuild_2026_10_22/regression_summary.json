@@ -1,0 +1,151 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "scope": "Local selector, engine, HTTP wallet, UI logic and RGS contract regressions. Minimal DOM tests do not establish browser visuals or platform approval.",
+  "passed": true,
+  "suites_run": 18,
+  "suites_passed": 18,
+  "checks": [
+    {
+      "name": "generate_current_fixtures",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.645,
+      "log": "regressions/generate_current_fixtures.log"
+    },
+    {
+      "name": "bonus12_api",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 15.313,
+      "log": "regressions/bonus12_api.log"
+    },
+    {
+      "name": "server",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 3.663,
+      "log": "regressions/server.log"
+    },
+    {
+      "name": "settlement_atomicity",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 2.187,
+      "log": "regressions/settlement_atomicity.log"
+    },
+    {
+      "name": "cascades",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.63,
+      "log": "regressions/cascades.log"
+    },
+    {
+      "name": "high_wins",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 4.08,
+      "log": "regressions/high_wins.log"
+    },
+    {
+      "name": "cap_messages",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.098,
+      "log": "regressions/cap_messages.log"
+    },
+    {
+      "name": "audit_fixes",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.416,
+      "log": "regressions/audit_fixes.log"
+    },
+    {
+      "name": "replay",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.303,
+      "log": "regressions/replay.log"
+    },
+    {
+      "name": "rgs",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.509,
+      "log": "regressions/rgs.log"
+    },
+    {
+      "name": "rgs_recovery",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.59,
+      "log": "regressions/rgs_recovery.log"
+    },
+    {
+      "name": "autoplay",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 15.28,
+      "log": "regressions/autoplay.log"
+    },
+    {
+      "name": "network_logic",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.595,
+      "log": "regressions/network_logic.log"
+    },
+    {
+      "name": "platform_currency",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.409,
+      "log": "regressions/platform_currency.log"
+    },
+    {
+      "name": "localization",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.633,
+      "log": "regressions/localization.log"
+    },
+    {
+      "name": "bonus12_frontend",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 4.93,
+      "log": "regressions/bonus12_frontend.log"
+    },
+    {
+      "name": "any_start_frontend",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.163,
+      "log": "regressions/any_start_frontend.log"
+    },
+    {
+      "name": "high_wins_frontend",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.076,
+      "log": "regressions/high_wins_frontend.log"
+    }
+  ],
+  "fixture_sha256": "b30332deaedb5d7c6eac6a7318480bc08748debc7ccb2fcdf5cb74dce373db52",
+  "source_sha256": {
+    "engine/polska_gurom/config.py": "d0a1b09794e6d212b2296f6f9fe158bb6aa69b17754bd0d26f8480ea5b3607cf",
+    "engine/polska_gurom/game.py": "42401e6a16c511abc9d9884a4d74b5d6643e290315ee5e63f635343665322dfb",
+    "engine/polska_gurom/selection.py": "4e4c6a9e55f537d2c80389922200b0a1f30e1f7c7452c92a749e966da3d3e602",
+    "server.py": "e15a1f81a5dd1157780695c1d5b611d9337c839582bd80ff8f74a57c87e78a30",
+    "web/app.js": "b6654dac0f418e2c802811fb943d57d8318063b8145e5b4f9f4f7550ceb5f570",
+    "web/rgs-client.js": "83e4f137ca3380902aeaee05cc816ded84fbc12dda17cf2a44c5eb9b1ff1a610",
+    "web/game-config.json": "8bba1e9d99c2dd6ed6192ee8f857e0a453764c0e57dea0178766c389803c1758",
+    "stake_math/lookUpTable_base_0.csv": "b28847b42ef2f8c2458949aea46a1d37a174209f3c11f28edf6ef48c2d05727f"
+  },
+  "prior_attempt_directories": [
+    "regression_attempts/1792703729179123900",
+    "regression_attempts/1792703800019883600",
+    "regression_attempts/1792703831104725400"
+  ]
+}

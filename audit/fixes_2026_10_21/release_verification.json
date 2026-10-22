@@ -1,0 +1,55 @@
+{
+  "completed_date": "2026-10-21",
+  "math_version": "0.5.0-any-start",
+  "fixed_findings": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09"
+  ],
+  "python_tests": 53,
+  "javascript_tests": 81,
+  "regression_total": 134,
+  "frontend_bank_validated": 100049,
+  "responsive_viewports_passed": 5,
+  "portable_checks_passed": 27,
+  "math_files_unchanged": {
+    "stake_math/books_base.jsonl.zst": true,
+    "stake_math/index.json": true,
+    "stake_math/lookUpTable_base_0.csv": true,
+    "stake_math/mathematics.json": true,
+    "stake_math/selection.json": true,
+    "engine/polska_gurom/config.py": true,
+    "engine/polska_gurom/game.py": true,
+    "engine/polska_gurom/selection.py": true,
+    "engine/polska_gurom/sim.py": true,
+    "engine/polska_gurom/theory.py": true,
+    "engine/polska_gurom/__init__.py": true,
+    "engine/polska_gurom/__main__.py": true
+  },
+  "rtp_exact": "24/25",
+  "zip_matches_sources": true,
+  "zip_has_START_UX": true,
+  "zip_file_count": 30,
+  "zip_sha256": "ca96e5ed37580b995a2664bc363cc65323b4ac4b2e9f295261db213bebd9b4b9",
+  "changed_files": [
+    "package_demo.py",
+    "README_PL.md",
+    "server.py",
+    "qa/test_autoplay.cjs",
+    "web/app.js",
+    "web/player-layout.css"
+  ],
+  "added_files": [
+    "qa/generate_regression_fixtures.py",
+    "qa/regression_fixtures.json",
+    "qa/test_audit_fixes.cjs",
+    "qa/test_settlement_atomicity.py"
+  ],
+  "production_integration_completed": false
+}

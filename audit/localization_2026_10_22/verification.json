@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-22",
+  "passed": true,
+  "tests": [
+    {
+      "test": "test_localization.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_localization.cjs.log"
+    },
+    {
+      "test": "test_rgs.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_rgs.cjs.log"
+    },
+    {
+      "test": "test_rgs_recovery.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_rgs_recovery.cjs.log"
+    },
+    {
+      "test": "test_platform_currency.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_platform_currency.cjs.log"
+    },
+    {
+      "test": "test_replay.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_replay.cjs.log"
+    },
+    {
+      "test": "test_network_logic.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_network_logic.cjs.log"
+    },
+    {
+      "test": "test_audit_fixes.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_audit_fixes.cjs.log"
+    },
+    {
+      "test": "test_autoplay.cjs",
+      "passed": true,
+      "exit_code": 0,
+      "log": "test_autoplay.cjs.log"
+    }
+  ],
+  "source_sha256": {
+    "test-interface-any-start/web/app.js": "f22cb4e50b1c06c346730ec4b2a0190fc31750ecb4b72fc8c0e690cb08dff855",
+    "test-interface-any-start/web/rgs-client.js": "004dce74c3bc66edd2066b5906e49aed2f071db2ded640aae53e070572fbe3ea",
+    "test-interface-any-start/web/index.html": "e10e63a04f479ff07f0f63f50cd15bad935f30205dae59be29159b35114ad3a6",
+    "test-interface-any-start/web/game-layout.js": "bf1e4b69d9816ce25a5e8e6728049035753e2d22cc1894997d434854dc577cf5"
+  },
+  "math_sha256_before_packaging": {
+    "test-interface-any-start/stake_math/books_base.jsonl.zst": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57",
+    "test-interface-any-start/stake_math/index.json": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+    "test-interface-any-start/stake_math/lookUpTable_base_0.csv": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b",
+    "test-interface-any-start/stake_math/mathematics.json": "24e52274ed46b2d09d64fea31766f3488bfeba97a2c2d38a7dc2165a02bfc54e",
+    "test-interface-any-start/stake_math/selection.json": "4f55f32fbd3d993e7299eed1d34162fe66f1f6bb700b1727bb035e20f6560e1c"
+  },
+  "limitations": [
+    "Deterministic UI/model/API tests; no browser rendering or real platform acceptance.",
+    "Local HTTP tests failed to connect with EACCES in sandbox.",
+    "Escalated HTTP test was not executed: automatic approval review could not finish because of an account usage limit."
+  ],
+  "math_unchanged_during_packaging": true,
+  "packages": [
+    {
+      "file": "POLSKA_GUROM_RGS_FRONTEND.zip",
+      "passed": true,
+      "web_files_verified": 18,
+      "sha256": "cb86067830d0a1eb56435675576f6ef73a8bf08f18d306f7218d6a2842778f33",
+      "size_bytes": 14426242
+    },
+    {
+      "file": "POLSKA_GUROM_RGS_TEST.zip",
+      "passed": true,
+      "web_files_verified": 18,
+      "sha256": "fa1b715904b693acd6ccd51ea153f509fa529cde6fa51b145506f97f82f0ab98",
+      "size_bytes": 14463628
+    },
+    {
+      "file": "POLSKA_GUROM_TESTER.zip",
+      "passed": true,
+      "web_files_verified": 18,
+      "sha256": "4f2966dc3fefaeaf90b984c2a38b0799e66e8ef26897d1f79f975dd124264194",
+      "size_bytes": 24712182
+    }
+  ]
+}

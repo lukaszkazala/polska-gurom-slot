@@ -1,0 +1,128 @@
+{
+  "current": {
+    "base_line_rtp": {
+      "value": 0.7384817257172009,
+      "fraction": "22326583/30233088"
+    },
+    "scatter_rtp": {
+      "value": 0.006048257458847736,
+      "fraction": "1505/248832"
+    },
+    "base_rtp": {
+      "value": 0.7445299831760487,
+      "fraction": "45018881/60466176"
+    },
+    "expanded_line_rtp": {
+      "value": 3.6773893556622466,
+      "fraction": "3088301/839808"
+    },
+    "bonus_frequency": {
+      "value": 0.005087770061728395,
+      "fraction": "211/41472"
+    },
+    "mean_free_spins_per_trigger": {
+      "value": 8.090047393364928,
+      "fraction": "1707/211"
+    },
+    "mean_free_spins_per_paid_round": {
+      "value": 0.04116030092592592,
+      "fraction": "569/13824"
+    },
+    "free_spin_ev": {
+      "value": 1.47925689066231,
+      "fraction": "59630005/40310784"
+    },
+    "bonus_ev_conditional": {
+      "value": 11.967258352419732,
+      "fraction": "33929472845/2835191808"
+    },
+    "bonus_rtp": {
+      "value": 0.06088665876641019,
+      "fraction": "33929472845/557256278016"
+    },
+    "total_rtp": {
+      "value": 0.8054166419424589,
+      "fraction": "448823480141/557256278016"
+    }
+  },
+  "preserve_base_target_96pct": {
+    "required_bonus_rtp": {
+      "value": 0.21547001682395128,
+      "fraction": "325716199/1511654400"
+    },
+    "required_mean_free_spin_payout": {
+      "value": 5.234898967617403,
+      "fraction": "325716199/62220150"
+    },
+    "required_bonus_payout_conditional": {
+      "value": 42.35058074750194,
+      "fraction": "325716199/7690950"
+    },
+    "bonus_multiplier_before_cap": {
+      "value": 3.538870767249611,
+      "fraction": "3001800489984/848236821125"
+    },
+    "required_expansion_probability_without_other_changes": {
+      "value": 1.527904088814564,
+      "fraction": "3862307152751/2527846597850"
+    },
+    "rtp_at_expansion_probability_1": {
+      "value": 0.8961413837739872,
+      "fraction": "83230068683/92876046336"
+    },
+    "bonus_multiplier_at_expansion_probability_1": {
+      "value": 1.4211993027843646,
+      "fraction": "500300081664/352026686675"
+    },
+    "round_max_at_expansion_1_and_bonus_multiplier": {
+      "value": 4296.6016754646935,
+      "fraction": "15125184517760897/3520266866750"
+    },
+    "largest_bonus_multiplier_before_cap_can_bind": {
+      "value": 1.6564653154057127,
+      "fraction": "49525/29898"
+    },
+    "minimum_expansion_probability_for_cap_inactive_96pct_scale": {
+      "value": 0.8219900707966209,
+      "fraction": "102906254414619323/125191602758521250"
+    }
+  },
+  "illustrative_nonrecommended_global_line_scale": {
+    "regular_paytable_multiplier": {
+      "value": 1.1934421201873637,
+      "fraction": "13286421739134/11132858070275"
+    },
+    "base_rtp_after": {
+      "value": 0.8873834539184073,
+      "fraction": "7374719119169503949/8310634018028006400"
+    },
+    "bonus_rtp_after": {
+      "value": 0.07261654608159265,
+      "fraction": "120697907627476439/1662126803605601280"
+    },
+    "rtp_after": {
+      "value": 0.96,
+      "fraction": "24/25"
+    },
+    "conservative_round_payout_bound": {
+      "value": 3624.84175164508,
+      "fraction": "201774243741358491/55664290351375"
+    }
+  },
+  "adding_lines_unchanged_per_line_pay": {
+    "required_line_count": {
+      "value": 23.868842403747276,
+      "fraction": "53145686956536/2226571614055"
+    },
+    "rtp_24_lines": {
+      "value": 0.9652405292197644,
+      "fraction": "224119310293/232190115840"
+    }
+  },
+  "notes": [
+    "All expectations are exact until payout cap or paytable rounding is changed.",
+    "Scaling the whole current bonus by the 25% multiplier can make the 5000 cap bind; solve capped expectation again.",
+    "100% expansion plus the exact multiplier is an illustrative exact algebraic solution with cap inactive, not a design recommendation.",
+    "Global line scaling leaves probability of a strictly positive win unchanged and misses target allocation."
+  ]
+}

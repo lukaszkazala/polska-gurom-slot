@@ -1,0 +1,35 @@
+PASS Local saved loss: exact replay twice, no new wallet operation
+PASS Local saved middle: exact replay twice, no new wallet operation
+PASS Local saved bonus8: exact replay twice, no new wallet operation
+PASS Local saved bonus12: exact replay twice, no new wallet operation
+PASS Local saved cap: exact replay twice, no new wallet operation
+PASS RGS saved loss: exact replay twice, no new wallet operation
+PASS RGS saved middle: exact replay twice, no new wallet operation
+PASS RGS saved bonus8: exact replay twice, no new wallet operation
+PASS RGS saved bonus12: exact replay twice, no new wallet operation
+PASS RGS saved cap: exact replay twice, no new wallet operation
+PASS Saved complete bonus remains playable offline
+PASS Saved replay is refused while pending
+PASS Saved replay is refused while auto
+PASS Saved replay is refused while busy
+PASS Saved replay is refused while walletReading
+PASS Replay ignores unrelated completed recovery progress
+PASS Main and details replay buttons use the selected saved round
+PASS Malformed saved result is blocked before presentation 17
+PASS Malformed saved result is blocked before presentation 18
+PASS Malformed saved result is blocked before presentation 19
+PASS Malformed saved result is blocked before presentation 20
+PASS Settled RGS history survives reload without creating a new round
+PASS Standalone loss replay launches without a session or wallet
+PASS Standalone middle replay launches without a session or wallet
+PASS Standalone bonus8 replay launches without a session or wallet
+PASS Standalone bonus12 replay launches without a session or wallet
+PASS Standalone cap replay launches without a session or wallet
+PASS Failed or malformed standalone launch stays blocked without demo fallback 27
+PASS Failed or malformed standalone launch stays blocked without demo fallback 28
+PASS Failed or malformed standalone launch stays blocked without demo fallback 29
+PASS Failed or malformed standalone launch stays blocked without demo fallback 30
+PASS Failed or malformed standalone launch stays blocked without demo fallback 31
+PASS Failed or malformed standalone launch stays blocked without demo fallback 32
+PASS A replay link ignores a supplied session token and never authenticates it
+{"passed":true,"total":34,"failed":0}

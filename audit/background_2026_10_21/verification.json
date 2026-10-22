@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "existing_files_changed": [
+    "web/index.html"
+  ],
+  "added": [
+    "web/battle-background.css",
+    "web/assets/art/tlo-husaria-v2.png"
+  ],
+  "previous_artwork_reused": true,
+  "game_logic_and_math_unchanged": true,
+  "zip_matches_source": true,
+  "visual_checks": [
+    "desktop 1280x720",
+    "mobile 390x700"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "method": "All selector ticket boundaries, actual exported high-win replays and local HTTP wallet cap settlement; no live-platform claim.",
+  "tests_run": 4,
+  "passed": true,
+  "failures": [],
+  "details": {
+    "actual_high_win_edge_replays": 638,
+    "bonus_cap_ids_by_variant": {
+      "8": [
+        100193,
+        100194
+      ],
+      "10": [
+        100267,
+        100268
+      ],
+      "12": [
+        100341,
+        100342
+      ]
+    },
+    "partial_final_fs_book_ids": [
+      100193,
+      100194,
+      100267,
+      100268,
+      100341,
+      100342
+    ],
+    "early_fs_termination_book_ids": [
+      100193,
+      100194,
+      100267,
+      100268,
+      100342
+    ],
+    "ticket_boundary_checks": 200686,
+    "http_settlement_cases": [
+      {
+        "book_id": 100020,
+        "bet_cents": 100,
+        "awarded": 0,
+        "played": 0
+      },
+      {
+        "book_id": 100020,
+        "bet_cents": 10000,
+        "awarded": 0,
+        "played": 0
+      },
+      {
+        "book_id": 100193,
+        "bet_cents": 100,
+        "awarded": 8,
+        "played": 1
+      },
+      {
+        "book_id": 100193,
+        "bet_cents": 10000,
+        "awarded": 8,
+        "played": 1
+      },
+      {
+        "book_id": 100267,
+        "bet_cents": 100,
+        "awarded": 10,
+        "played": 1
+      },
+      {
+        "book_id": 100267,
+        "bet_cents": 10000,
+        "awarded": 10,
+        "played": 1
+      },
+      {
+        "book_id": 100341,
+        "bet_cents": 100,
+        "awarded": 12,
+        "played": 12
+      },
+      {
+        "book_id": 100341,
+        "bet_cents": 10000,
+        "awarded": 12,
+        "played": 12
+      }
+    ]
+  },
+  "source_sha256": {
+    "engine/polska_gurom/selection.py": "4e4c6a9e55f537d2c80389922200b0a1f30e1f7c7452c92a749e966da3d3e602",
+    "server.py": "e15a1f81a5dd1157780695c1d5b611d9337c839582bd80ff8f74a57c87e78a30",
+    "stake_math/lookUpTable_base_0.csv": "b28847b42ef2f8c2458949aea46a1d37a174209f3c11f28edf6ef48c2d05727f"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope": "Observed actual browser render of virtual local RGS bonus_cap8; real positive-weight exported cap book",
+  "math_version": "0.6.0-high-wins",
+  "language": "pl",
+  "currency": "USD",
+  "bet": "0.50",
+  "round_win": "2500.00",
+  "balance_after": "2599.50",
+  "played_fs": 1,
+  "awarded_fs": 8,
+  "unused_fs": 7,
+  "cap_message_visible": true,
+  "credited_amount_visible": true,
+  "snapshot": "bonus_cap_browser.png"
+}

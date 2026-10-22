@@ -1,0 +1,29 @@
+PASS Real loss round passes full validation and exact presentation
+PASS Real bonus8 round passes full validation and exact presentation
+PASS Real cap round passes full validation and exact presentation
+PASS Real middle round passes full validation and exact presentation
+PASS Real bonus12 round passes full validation and exact presentation
+PASS Recovery after a second tab uses the current wallet without charging again
+PASS Wallet http-404 after settlement preserves the original paid request
+PASS Wallet fetch-stall after settlement preserves the original paid request
+PASS Reload during base presentation retains stake and the same paid request
+PASS Reload after four bonus spins resumes at the fifth and leaves AUTO stopped
+PASS Reject removed row outside board before presenting or clearing pending
+PASS Reject malformed position before presenting or clearing pending
+PASS Reject duplicate removed position before presenting or clearing pending
+PASS Reject missing removal before presenting or clearing pending
+PASS Reject movement outside board before presenting or clearing pending
+PASS Reject fractional movement source before presenting or clearing pending
+PASS Reject missing movement before presenting or clearing pending
+PASS Reject incorrect moving symbol before presenting or clearing pending
+PASS Reject incorrect stage sum before presenting or clearing pending
+PASS Reject incorrect bonus aggregate before presenting or clearing pending
+PASS Reject incorrect cap reduction before presenting or clearing pending
+PASS Reject missing cascade data before presenting or clearing pending
+PASS Reject empty cascade data before presenting or clearing pending
+PASS Artwork stall falls back and leaves the game usable
+PASS Artwork error falls back and leaves the game usable
+PASS Rules in pl explain all-WILD payouts and tie removal
+PASS Rules in en explain all-WILD payouts and tie removal
+PASS Rules in de explain all-WILD payouts and tie removal
+{"passed":true,"total":28,"passed_count":28}

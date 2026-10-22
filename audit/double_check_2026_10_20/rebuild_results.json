@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "math_version": "0.4.1-weighted-12fs",
+  "files": {
+    "index.json": {
+      "current": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "rebuilt": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "equal": true
+    },
+    "books_base.jsonl.zst": {
+      "current": "8988aa6f8cea385b5954f3d449cc5795aa3276c5e8d864315eeacfc1c47a3f81",
+      "rebuilt": "8988aa6f8cea385b5954f3d449cc5795aa3276c5e8d864315eeacfc1c47a3f81",
+      "equal": true
+    },
+    "lookUpTable_base_0.csv": {
+      "current": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+      "rebuilt": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+      "equal": true
+    },
+    "selection.json": {
+      "current": "15e7543c2363f0b50866de8946bb2fa71a9c4c4fbeabf5fe0f8985c7cb177b76",
+      "rebuilt": "15e7543c2363f0b50866de8946bb2fa71a9c4c4fbeabf5fe0f8985c7cb177b76",
+      "equal": true
+    }
+  },
+  "mathematics_identical_except_build_elapsed_time": true,
+  "production_files_unchanged": true,
+  "scope": "Actual deterministic rebuild of all100048 outcomes and integer calibration; audit target only"
+}

@@ -1,0 +1,207 @@
+{
+  "math_version": "0.5.0-any-start",
+  "created_at_utc": "2026-10-21T22:36:18.599276+00:00",
+  "method": "Real local HTTP and TCP sockets, unmodified InterfaceServer, isolated test-only fault relay",
+  "machine_internet_changed": false,
+  "live_user_server_touched": false,
+  "paid_mode": "random with current weighted complete-round distribution",
+  "tests_run": 17,
+  "passed": 17,
+  "failed": 0,
+  "errors": 0,
+  "tests": [
+    {
+      "test": "test_01_response_dropped_after_settlement_retry_same_id",
+      "status": "passed"
+    },
+    {
+      "test": "test_02_truncated_response_retry_same_id",
+      "status": "passed"
+    },
+    {
+      "test": "test_03_unavailable_before_forwarding_then_recovery",
+      "status": "passed"
+    },
+    {
+      "test": "test_04_gateway_503_after_settlement_then_recovery",
+      "status": "passed"
+    },
+    {
+      "test": "test_05_delayed_response_client_timeout_and_retry",
+      "status": "passed"
+    },
+    {
+      "test": "test_06_parallel_retries_after_lost_response",
+      "status": "passed"
+    },
+    {
+      "test": "test_07_connection_closes_before_headers_complete",
+      "status": "passed"
+    },
+    {
+      "test": "test_08_connection_closes_during_request_body",
+      "status": "passed"
+    },
+    {
+      "test": "test_09_server_unavailable_then_new_instance",
+      "status": "passed"
+    },
+    {
+      "test": "test_10_restart_blocks_silent_resettlement_of_lost_result",
+      "status": "passed"
+    },
+    {
+      "test": "test_11_missing_cookie_cannot_start_unrecoverable_spin",
+      "status": "passed"
+    },
+    {
+      "test": "test_12_recent_cache_eviction_rejects_old_id_without_charge",
+      "status": "passed"
+    },
+    {
+      "test": "test_13_page_reload_with_same_cookie_recovers_lost_result",
+      "status": "passed"
+    },
+    {
+      "test": "test_14_expired_session_rejected_before_new_settlement",
+      "status": "passed"
+    },
+    {
+      "test": "test_15_missing_or_mismatched_session_header_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "test_16_reset_blocks_retry_from_old_session_epoch",
+      "status": "passed"
+    },
+    {
+      "test": "test_17_idempotency_capacity_rejects_and_explicit_reset_recovers",
+      "status": "passed"
+    }
+  ],
+  "observations": [
+    {
+      "test": "test_01_response_dropped_after_settlement_retry_same_id",
+      "scenario": "Connection disappears after debit/result, before response",
+      "outcome": "Same-ID retry returned identical round; one debit and one settlement",
+      "limitation": false
+    },
+    {
+      "test": "test_02_truncated_response_retry_same_id",
+      "scenario": "Only half the JSON response arrives",
+      "outcome": "Retry recovered complete identical round; no duplicate debit",
+      "limitation": false
+    },
+    {
+      "test": "test_03_unavailable_before_forwarding_then_recovery",
+      "scenario": "Gateway 503 before request reaches engine",
+      "outcome": "No wallet change during outage; same-ID recovery settled once",
+      "limitation": false
+    },
+    {
+      "test": "test_04_gateway_503_after_settlement_then_recovery",
+      "scenario": "Gateway 503 after engine has already settled",
+      "outcome": "Same-ID recovery returned settled result without second charge",
+      "limitation": false
+    },
+    {
+      "test": "test_05_delayed_response_client_timeout_and_retry",
+      "scenario": "Response delayed beyond client timeout while original socket remains open",
+      "outcome": "Concurrent same-ID retry recovered one settled round",
+      "limitation": false
+    },
+    {
+      "test": "test_06_parallel_retries_after_lost_response",
+      "scenario": "Eight simultaneous reconnect retries after response loss",
+      "outcome": "All eight received same round ID and one wallet settlement",
+      "limitation": false
+    },
+    {
+      "test": "test_07_connection_closes_before_headers_complete",
+      "scenario": "Connection closes before HTTP headers/body complete",
+      "outcome": "Incomplete request caused no debit or round",
+      "limitation": false
+    },
+    {
+      "test": "test_08_connection_closes_during_request_body",
+      "scenario": "Upload closes halfway through JSON request",
+      "outcome": "400 response with no debit; complete retry settled once",
+      "limitation": false
+    },
+    {
+      "test": "test_09_server_unavailable_then_new_instance",
+      "scenario": "Local engine unavailable before a round, then restarted",
+      "outcome": "Outage produced 503; stale-cookie replay rejected409 without creating or charging a session; explicit state reload allowed fresh play",
+      "limitation": true
+    },
+    {
+      "test": "test_10_restart_blocks_silent_resettlement_of_lost_result",
+      "scenario": "Restart after paid settlement and lost response, then replay old request ID",
+      "outcome": "Stale session rejected409 and never resettled automatically; original virtual wallet/history remain unrecoverable because memory was lost",
+      "limitation": true
+    },
+    {
+      "test": "test_11_missing_cookie_cannot_start_unrecoverable_spin",
+      "scenario": "Spin attempted with no established session cookie",
+      "outcome": "409 session_expired with no new session or debit; state bootstrap required before first paid spin",
+      "limitation": false
+    },
+    {
+      "test": "test_12_recent_cache_eviction_rejects_old_id_without_charge",
+      "scenario": "Retry old paid ID after its full result leaves the 100-entry response cache",
+      "outcome": "Tombstone retained:409 result_expired and no duplicate settlement; old full response is no longer replayable",
+      "limitation": true
+    },
+    {
+      "test": "test_13_page_reload_with_same_cookie_recovers_lost_result",
+      "scenario": "Page reload after lost response with existing session cookie",
+      "outcome": "State endpoint recovered settled round and balance without another spin",
+      "limitation": false
+    },
+    {
+      "test": "test_14_expired_session_rejected_before_new_settlement",
+      "scenario": "24h expiry simulated by aging isolated session fixture",
+      "outcome": "RealHTTP spin rejected409 without debit or replacement session; no 24h wall-clock wait was used",
+      "limitation": false
+    },
+    {
+      "test": "test_15_missing_or_mismatched_session_header_rejected",
+      "scenario": "Cookie survives but session-identity header is missing or stale",
+      "outcome": "Both rejected409 session_changed; zero wallet changes",
+      "limitation": false
+    },
+    {
+      "test": "test_16_reset_blocks_retry_from_old_session_epoch",
+      "scenario": "Another tab resets while disconnected tab retries old paid request",
+      "outcome": "Rotated session identity blocked stale retry409; reset wallet remained untouched",
+      "limitation": false
+    },
+    {
+      "test": "test_17_idempotency_capacity_rejects_and_explicit_reset_recovers",
+      "scenario": "100k processed-ID guard simulated by filling isolated bookkeeping fixture",
+      "outcome": "New paid request rejected409 without debit; explicit reset rotated identity and allowed fresh play",
+      "limitation": false
+    }
+  ],
+  "scope": "Loopback client-server transport failures; no real Stake RGS or wallet provider is connected",
+  "limitations": [
+    {
+      "test": "test_09_server_unavailable_then_new_instance",
+      "scenario": "Local engine unavailable before a round, then restarted",
+      "outcome": "Outage produced 503; stale-cookie replay rejected409 without creating or charging a session; explicit state reload allowed fresh play",
+      "limitation": true
+    },
+    {
+      "test": "test_10_restart_blocks_silent_resettlement_of_lost_result",
+      "scenario": "Restart after paid settlement and lost response, then replay old request ID",
+      "outcome": "Stale session rejected409 and never resettled automatically; original virtual wallet/history remain unrecoverable because memory was lost",
+      "limitation": true
+    },
+    {
+      "test": "test_12_recent_cache_eviction_rejects_old_id_without_charge",
+      "scenario": "Retry old paid ID after its full result leaves the 100-entry response cache",
+      "outcome": "Tombstone retained:409 result_expired and no duplicate settlement; old full response is no longer replayable",
+      "limitation": true
+    }
+  ]
+}

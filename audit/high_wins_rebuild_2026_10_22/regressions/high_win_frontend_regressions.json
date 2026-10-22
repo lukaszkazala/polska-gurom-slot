@@ -1,0 +1,246 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "method": "Actual current weighted FS-cap fixtures through app.js and the RGS contract double, using minimal DOM and virtual time; no visual or live-platform claim.",
+  "source_sha256": "b6654dac0f418e2c802811fb943d57d8318063b8145e5b4f9f4f7550ceb5f570",
+  "actual_book_ids": {
+    "bonus_cap8": 100193,
+    "bonus_cap10": 100267,
+    "bonus_cap12": 100342
+  },
+  "tests_run": 36,
+  "passed": 36,
+  "checks": [
+    {
+      "name": "bonus_cap8, pl, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, pl, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, pl, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, en, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, en, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, en, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, de, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, de, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8, de, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8: saved replay preserves original paid stake and wallet",
+      "passed": true
+    },
+    {
+      "name": "bonus_cap8: RGS reload after paid base resumes bonus with one charge and one settlement",
+      "passed": true
+    },
+    {
+      "name": "bonus_cap8: public replay uses current 0.6.0-high-wins version without wallet requests",
+      "passed": true,
+      "replay_version": "0.6.0-high-wins",
+      "book_id": 100193
+    },
+    {
+      "name": "bonus_cap10, pl, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, pl, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, pl, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, en, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, en, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, en, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, de, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, de, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10, de, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10: saved replay preserves original paid stake and wallet",
+      "passed": true
+    },
+    {
+      "name": "bonus_cap10: RGS reload after paid base resumes bonus with one charge and one settlement",
+      "passed": true
+    },
+    {
+      "name": "bonus_cap10: public replay uses current 0.6.0-high-wins version without wallet requests",
+      "passed": true,
+      "replay_version": "0.6.0-high-wins",
+      "book_id": 100267
+    },
+    {
+      "name": "bonus_cap12, pl, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, pl, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, pl, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, en, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, en, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, en, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, de, animated: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, de, instant: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12, de, skip-screens: actual FS cap displays credited payout and original award",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12: saved replay preserves original paid stake and wallet",
+      "passed": true
+    },
+    {
+      "name": "bonus_cap12: RGS reload after paid base resumes bonus with one charge and one settlement",
+      "passed": true
+    },
+    {
+      "name": "bonus_cap12: public replay uses current 0.6.0-high-wins version without wallet requests",
+      "passed": true,
+      "replay_version": "0.6.0-high-wins",
+      "book_id": 100342
+    }
+  ],
+  "status": "pass"
+}

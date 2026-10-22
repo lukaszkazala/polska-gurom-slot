@@ -1,0 +1,318 @@
+{
+  "status": "INFORMATIONAL_SAMPLING_VARIATION",
+  "method": "Exact binomial count predictions and two-sided probability-order binomial tests, plus four-category Pearson check. No new draws. No weights changed in response to results.",
+  "runs": [
+    {
+      "rounds": 10000000,
+      "types": [
+        {
+          "free_spins": 0,
+          "count": 9950389,
+          "expected": 9950300.6446,
+          "probability": 0.99503006446,
+          "central_95_prediction_counts": [
+            9949864,
+            9950736
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.34662644722298375,
+          "exact_two_sided_pvalue": 0.6939699528558894,
+          "rate_clopper_pearson_95": [
+            0.9949951594806986,
+            0.995082353524122
+          ]
+        },
+        {
+          "free_spins": 8,
+          "count": 46769,
+          "expected": 46790.410939999994,
+          "probability": 0.004679041094,
+          "central_95_prediction_counts": [
+            46368,
+            47214
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.5401351841621942,
+          "exact_two_sided_pvalue": 0.9243198689985925,
+          "rate_clopper_pearson_95": [
+            0.004634706223086023,
+            0.004719380949855492
+          ]
+        },
+        {
+          "free_spins": 10,
+          "count": 2789,
+          "expected": 2868.7567,
+          "probability": 0.00028687567,
+          "central_95_prediction_counts": [
+            2764,
+            2974
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.9335264611097172,
+          "exact_two_sided_pvalue": 0.13766824893666596,
+          "rate_clopper_pearson_95": [
+            0.0002686456400799263,
+            0.00028944547889640223
+          ]
+        },
+        {
+          "free_spins": 12,
+          "count": 53,
+          "expected": 40.18776,
+          "probability": 4.018776e-06,
+          "central_95_prediction_counts": [
+            28,
+            53
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.030119960640481027,
+          "exact_two_sided_pvalue": 0.04817869052086711,
+          "rate_clopper_pearson_95": [
+            3.9700661347028295e-06,
+            6.932524834132599e-06
+          ]
+        }
+      ],
+      "four_category_pearson_chi_square": 6.312628586537208,
+      "degrees_of_freedom": 3,
+      "four_category_pearson_pvalue": 0.09735220417838707
+    },
+    {
+      "rounds": 50000000,
+      "types": [
+        {
+          "free_spins": 0,
+          "count": 49751352,
+          "expected": 49751503.223,
+          "probability": 0.99503006446,
+          "central_95_prediction_counts": [
+            49750528,
+            49752477
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.6199778111073976,
+          "exact_two_sided_pvalue": 0.760615081971326,
+          "rate_clopper_pearson_95": [
+            0.9950075034054044,
+            0.9950465192452093
+          ]
+        },
+        {
+          "free_spins": 8,
+          "count": 234023,
+          "expected": 233952.05469999998,
+          "probability": 0.004679041094,
+          "central_95_prediction_counts": [
+            233007,
+            234898
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.4418346117695044,
+          "exact_two_sided_pvalue": 0.8830261337656613,
+          "rate_clopper_pearson_95": [
+            0.004661560095961981,
+            0.004699417288505337
+          ]
+        },
+        {
+          "free_spins": 10,
+          "count": 14395,
+          "expected": 14343.7835,
+          "probability": 0.00028687567,
+          "central_95_prediction_counts": [
+            14110,
+            14579
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.3355398284920813,
+          "exact_two_sided_pvalue": 0.6671449943711096,
+          "rate_clopper_pearson_95": [
+            0.0002832165353145945,
+            0.00029264148056765284
+          ]
+        },
+        {
+          "free_spins": 12,
+          "count": 230,
+          "expected": 200.9388,
+          "probability": 4.018776e-06,
+          "central_95_prediction_counts": [
+            174,
+            229
+          ],
+          "inside_prediction_counts": false,
+          "upper_tail_probability": 0.02378135303916668,
+          "exact_two_sided_pvalue": 0.0442324457407252,
+          "rate_clopper_pearson_95": [
+            4.024678313323266e-06,
+            5.234486875421607e-06
+          ]
+        }
+      ],
+      "four_category_pearson_chi_square": 4.407887012207962,
+      "degrees_of_freedom": 3,
+      "four_category_pearson_pvalue": 0.22065519126287733
+    },
+    {
+      "rounds": 100000000,
+      "types": [
+        {
+          "free_spins": 0,
+          "count": 99503160,
+          "expected": 99503006.446,
+          "probability": 0.99503006446,
+          "central_95_prediction_counts": [
+            99501628,
+            99504384
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.41393946547093635,
+          "exact_two_sided_pvalue": 0.8277645790697307,
+          "rate_clopper_pearson_95": [
+            0.9950177998492296,
+            0.9950453714815171
+          ]
+        },
+        {
+          "free_spins": 8,
+          "count": 467294,
+          "expected": 467904.10939999996,
+          "probability": 0.004679041094,
+          "central_95_prediction_counts": [
+            466567,
+            469242
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.8145277207765733,
+          "exact_two_sided_pvalue": 0.3717885673037162,
+          "rate_clopper_pearson_95": [
+            0.0046595825805594085,
+            0.004686326106233066
+          ]
+        },
+        {
+          "free_spins": 10,
+          "count": 29172,
+          "expected": 28687.567,
+          "probability": 0.00028687567,
+          "central_95_prediction_counts": [
+            28356,
+            29020
+          ],
+          "inside_prediction_counts": false,
+          "upper_tail_probability": 0.002181841606152881,
+          "exact_two_sided_pvalue": 0.0043030221297790106,
+          "rate_clopper_pearson_95": [
+            0.00028838237972690623,
+            0.0002950866037494709
+          ]
+        },
+        {
+          "free_spins": 12,
+          "count": 374,
+          "expected": 401.8776,
+          "probability": 4.018776e-06,
+          "central_95_prediction_counts": [
+            363,
+            442
+          ],
+          "inside_prediction_counts": true,
+          "upper_tail_probability": 0.9228225636343182,
+          "exact_two_sided_pvalue": 0.17006404363445773,
+          "rate_clopper_pearson_95": [
+            3.3705201891040513e-06,
+            4.138925526440525e-06
+          ]
+        }
+      ],
+      "four_category_pearson_chi_square": 10.909979340937825,
+      "degrees_of_freedom": 3,
+      "four_category_pearson_pvalue": 0.012222744828405789
+    }
+  ],
+  "aggregate": {
+    "rounds": 160000000,
+    "types": [
+      {
+        "free_spins": 0,
+        "count": 159204901,
+        "expected": 159204810.3136,
+        "probability": 0.99503006446,
+        "central_95_prediction_counts": [
+          159203066,
+          159206553
+        ],
+        "inside_prediction_counts": true,
+        "upper_tail_probability": 0.4596940078836379,
+        "exact_two_sided_pvalue": 0.9194086118269411,
+        "rate_clopper_pearson_95": [
+          0.9950197234195065,
+          0.9950415211640513
+        ]
+      },
+      {
+        "free_spins": 8,
+        "count": 748086,
+        "expected": 748646.5750399999,
+        "probability": 0.004679041094,
+        "central_95_prediction_counts": [
+          746955,
+          750339
+        ],
+        "inside_prediction_counts": true,
+        "upper_tail_probability": 0.7421122159429359,
+        "exact_two_sided_pvalue": 0.5165089850178736,
+        "rate_clopper_pearson_95": [
+          0.004664973063293209,
+          0.004686119863993495
+        ]
+      },
+      {
+        "free_spins": 10,
+        "count": 46356,
+        "expected": 45900.1072,
+        "probability": 0.00028687567,
+        "central_95_prediction_counts": [
+          45481,
+          46320
+        ],
+        "inside_prediction_counts": false,
+        "upper_tail_probability": 0.01686978319764145,
+        "exact_two_sided_pvalue": 0.033470115325081214,
+        "rate_clopper_pearson_95": [
+          0.00028709387069104713,
+          0.0002923742366553843
+        ]
+      },
+      {
+        "free_spins": 12,
+        "count": 657,
+        "expected": 643.00416,
+        "probability": 4.018776e-06,
+        "central_95_prediction_counts": [
+          594,
+          693
+        ],
+        "inside_prediction_counts": true,
+        "upper_tail_probability": 0.2956584425030787,
+        "exact_two_sided_pvalue": 0.5808254890321138,
+        "rate_clopper_pearson_95": [
+          3.7982251804947445e-06,
+          4.4326016812995805e-06
+        ]
+      }
+    ],
+    "four_category_pearson_chi_square": 5.252495446827783,
+    "degrees_of_freedom": 3,
+    "four_category_pearson_pvalue": 0.154214761158593
+  },
+  "interpretation": [
+    "The 50M 12FS count is 230 versus mean200.9388; it lies one above the central95% integer count band174..229.",
+    "For 50M, P(X>=230) is about0.02378. A valid random model may yield counts outside a95% band. Multiple categories and runs also increase the chance of at least one such result.",
+    "The 100M 10FS count29172 versus mean28687.567 is above the95% prediction band28356..29020; the unadjusted exact two-sided p-value is about0.004303. The aggregate10FS46356 versus mean45900.1072 is also above its95% band45481..46320, unadjusted p about0.03347.",
+    "All three RTP results lie inside their separately reported95% normal reference bands. That claim must not be extended to every bonus category.",
+    "The aggregate12FS count657 in160M is compared with mean643.00416 in the aggregate record. This is a separate aggregate description, not a reason to erase an individual tail observation.",
+    "Finite-model exact RTP is computed algebraically from all outcomes; simulation RTP is a sample estimate. Difference does not imply a payout-accounting error."
+  ]
+}

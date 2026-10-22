@@ -1,0 +1,338 @@
+[
+  {
+    "seed": 650496,
+    "stops": [
+      34,
+      27,
+      20,
+      16,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 5040
+  },
+  {
+    "seed": 853719,
+    "stops": [
+      33,
+      27,
+      21,
+      15,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 2880
+  },
+  {
+    "seed": 1167446,
+    "stops": [
+      34,
+      26,
+      20,
+      14,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 5020
+  },
+  {
+    "seed": 1356288,
+    "stops": [
+      34,
+      27,
+      22,
+      14,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 4120
+  },
+  {
+    "seed": 1563937,
+    "stops": [
+      33,
+      28,
+      21,
+      15,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 5660
+  },
+  {
+    "seed": 1649495,
+    "stops": [
+      33,
+      26,
+      20,
+      16,
+      7
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 6700
+  },
+  {
+    "seed": 1795802,
+    "stops": [
+      35,
+      26,
+      20,
+      14,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 4300
+  },
+  {
+    "seed": 1834501,
+    "stops": [
+      34,
+      26,
+      22,
+      15,
+      7
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 4500
+  },
+  {
+    "seed": 1854629,
+    "stops": [
+      34,
+      26,
+      22,
+      14,
+      7
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 12820
+  },
+  {
+    "seed": 1911267,
+    "stops": [
+      34,
+      28,
+      22,
+      16,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 12220
+  },
+  {
+    "seed": 2064380,
+    "stops": [
+      34,
+      27,
+      21,
+      16,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 16320
+  },
+  {
+    "seed": 2179455,
+    "stops": [
+      35,
+      26,
+      20,
+      15,
+      7
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 16650
+  },
+  {
+    "seed": 2238745,
+    "stops": [
+      35,
+      28,
+      22,
+      16,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 7390
+  },
+  {
+    "seed": 2267304,
+    "stops": [
+      35,
+      27,
+      21,
+      16,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 5040
+  },
+  {
+    "seed": 2420345,
+    "stops": [
+      34,
+      27,
+      21,
+      15,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 7470
+  },
+  {
+    "seed": 2900532,
+    "stops": [
+      33,
+      27,
+      20,
+      16,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 4360
+  },
+  {
+    "seed": 3065497,
+    "stops": [
+      34,
+      28,
+      22,
+      14,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 16140
+  },
+  {
+    "seed": 3666531,
+    "stops": [
+      34,
+      26,
+      20,
+      15,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 9600
+  },
+  {
+    "seed": 4428363,
+    "stops": [
+      34,
+      26,
+      21,
+      15,
+      7
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 13880
+  },
+  {
+    "seed": 5042276,
+    "stops": [
+      35,
+      27,
+      22,
+      14,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 3280
+  },
+  {
+    "seed": 5574611,
+    "stops": [
+      33,
+      26,
+      20,
+      15,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 7910
+  },
+  {
+    "seed": 5599133,
+    "stops": [
+      33,
+      27,
+      22,
+      16,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 11920
+  },
+  {
+    "seed": 5614943,
+    "stops": [
+      33,
+      26,
+      21,
+      15,
+      8
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 6820
+  },
+  {
+    "seed": 5682788,
+    "stops": [
+      34,
+      27,
+      21,
+      16,
+      6
+    ],
+    "scatter_count": 5,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "payout_units": 5920
+  }
+]

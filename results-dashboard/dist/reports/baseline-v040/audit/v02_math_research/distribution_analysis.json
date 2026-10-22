@@ -1,0 +1,98 @@
+{
+  "parameters": {
+    "free_spin_line_multiplier": 4,
+    "expanding_probability": 0.216905037,
+    "expanding_probability_fraction": "216905037/1000000000",
+    "cap": 5000
+  },
+  "rtp_uncapped": 0.9599999998267222,
+  "rtp_capped_interval": [
+    0.9599999998267222,
+    0.9599999998267222
+  ],
+  "rtp_capped_interval_expression": "[501530650123874911981/522427760640000000000 - 1.9134000462691305e-46, 501530650123874911981/522427760640000000000]",
+  "rtp_uncapped_fraction": "501530650123874911981/522427760640000000000",
+  "base_rtp": 0.7352578638344849,
+  "bonus_rtp": 0.22474213599223736,
+  "base_standard_deviation": 2.3100947468454365,
+  "paid_round_standard_deviation_uncapped": 5.13802976275141,
+  "paid_round_variance_uncapped": 26.399349842919307,
+  "paid_round_variance_uncapped_fraction": "1441038950087184613778564129041808877587179/54586153017465026641920000000000000000000",
+  "round_second_moment_loss_to_cap_bound": 2.6057102778103197e-42,
+  "free_spin_mean": 5.460167465653233,
+  "free_spin_standard_deviation": 16.030813212861116,
+  "mean_bonus_given_trigger": 44.17301357284393,
+  "bonus_standard_deviation_given_trigger": 45.654711471231735,
+  "positive_return_probability": 0.2970869532083524,
+  "positive_below_bet_probability": 0.1164221795669698,
+  "net_profit_probability": 0.1788952361085797,
+  "break_even_probability": 0.001769537532802859,
+  "free_spin_zero_probability": 0.6356464369915552,
+  "zero_bonus_probability_given_trigger": 0.025944058649664915,
+  "trigger_probability": 0.005087770061728395,
+  "rounds_per_bonus": 196.54976303317537,
+  "cap_stoploss_chernoff_bound": 1.9134000462691305e-46,
+  "cap_probability_chernoff_bound": 1.2504967073517588e-47,
+  "chernoff_t": 0.024042647578288372,
+  "max_base_by_scatter": [
+    104.55,
+    47.65,
+    40.16,
+    37.86,
+    36.18,
+    50.22
+  ],
+  "max_free_spin": 714.0,
+  "max_round_before_cap": 8618.22,
+  "round_gross_payout_quantiles_fft": {
+    "0.5": 0.0,
+    "0.75": 0.5,
+    "0.9": 2.4,
+    "0.95": 4.0,
+    "0.99": 12.5,
+    "0.999": 69.56,
+    "0.9999": 182.04,
+    "0.99999": 330.56
+  },
+  "bonus_payout_quantiles_given_trigger_fft": {
+    "0.5": 31.2,
+    "0.75": 57.84,
+    "0.9": 95.6,
+    "0.95": 129.2,
+    "0.99": 230.4,
+    "0.999": 364.84,
+    "0.9999": 502.04,
+    "0.99999": 624.64
+  },
+  "round_gross_payout_tail_probabilities_gt_fft": {
+    "1": 0.17889523610860783,
+    "5": 0.03695739280808386,
+    "10": 0.014874660405455388,
+    "20": 0.005607481757965509,
+    "50": 0.001992298070010423,
+    "100": 0.0004840284225065714,
+    "250": 3.9822558243495564e-05,
+    "500": 5.517365536366052e-07,
+    "1000": 4.6858420657202066e-11
+  },
+  "bonus_tail_probabilities_given_trigger_gt_fft": {
+    "1": 0.9731354996518747,
+    "5": 0.9105340010972583,
+    "10": 0.8301166042817993,
+    "20": 0.66426039252861,
+    "50": 0.3057895762473093,
+    "100": 0.09078189197261757,
+    "250": 0.007581381564819985,
+    "500": 0.0001039623202591747,
+    "1000": 8.787986629498538e-09
+  },
+  "fft_negative_mass_round": 3.4802940394373946e-14,
+  "fft_negative_mass_bonus": 6.027064472926234e-15,
+  "notes": [
+    "All units are multiples of total bet. Paid round includes its triggered bonus.",
+    "Moments before cap use exact rational arithmetic, including base/trigger covariance.",
+    "The mathematically derived Chernoff bound uses numerically evaluated finite MGFs. It bounds cap loss, so the calibrated uncapped RTP interval also controls capped RTP.",
+    "FFT quantiles/tails are descriptive numerical distributions, not used to assert ultra-rare cap probabilities.",
+    "There is no universal numerical industry boundary for volatility classes; report SD and payout quantiles with the medium-high design label."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "all_graphics_persisted_in_project": true,
+  "symbol_illustrations": 18,
+  "png_files": 7,
+  "all_art_references_resolve": true,
+  "temporary_generated_paths_in_active_references": false,
+  "package_matches_project": true,
+  "files": [
+    {
+      "file": "web/assets/art/husarz.png",
+      "bytes": 2192720,
+      "sha256": "3f1a54259fda32a15740799609f712fba5a430d83abde286b996599c22c5d81d",
+      "included_in_package": true
+    },
+    {
+      "file": "web/assets/art/klasyczne-motywy.png",
+      "bytes": 2762645,
+      "sha256": "741ebde62656e3728fee585e31d5a43a4f0f39b3d6ccbe469c403e0ad68e603a",
+      "included_in_package": true
+    },
+    {
+      "file": "web/assets/art/polskie-motywy.png",
+      "bytes": 2415691,
+      "sha256": "92e89378f4fd537e2e75e7aeec19905de7f2f2ddb123d1f5cb8b2c6628072fec",
+      "included_in_package": true
+    },
+    {
+      "file": "web/assets/art/rama.png",
+      "bytes": 2185160,
+      "sha256": "90c7c12810bcd8cc97eb151fb2051918533800f8c825239602845a237f25b98b",
+      "included_in_package": true
+    },
+    {
+      "file": "web/assets/art/skarbiec-v2.png",
+      "bytes": 1974748,
+      "sha256": "9e3b0f9c85d06acd04719caccd4ac0aa2bf1bb0f868181258e28c16baffd96f8",
+      "included_in_package": true
+    },
+    {
+      "file": "web/assets/art/symbole-specjalne.png",
+      "bytes": 2425507,
+      "sha256": "4c88b2839e63f9ccc122efb1558c0f863a1d6142af65e66ab5be0ef9187170de",
+      "included_in_package": true
+    },
+    {
+      "file": "web/assets/art/tlo-husaria-v2.png",
+      "bytes": 2542739,
+      "sha256": "a3afc445205966cad80581fc583819f0f90646513637c45f3d2e7f5f9e542b6b",
+      "included_in_package": true
+    }
+  ]
+}

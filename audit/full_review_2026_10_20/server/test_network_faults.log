@@ -1,0 +1,583 @@
+test_01_response_dropped_after_settlement_retry_same_id (__main__.NetworkFaultTests.test_01_response_dropped_after_settlement_retry_same_id) ... ERROR
+test_02_truncated_response_retry_same_id (__main__.NetworkFaultTests.test_02_truncated_response_retry_same_id) ... ERROR
+test_03_unavailable_before_forwarding_then_recovery (__main__.NetworkFaultTests.test_03_unavailable_before_forwarding_then_recovery) ... ERROR
+test_04_gateway_503_after_settlement_then_recovery (__main__.NetworkFaultTests.test_04_gateway_503_after_settlement_then_recovery) ... ERROR
+test_05_delayed_response_client_timeout_and_retry (__main__.NetworkFaultTests.test_05_delayed_response_client_timeout_and_retry) ... ERROR
+test_06_parallel_retries_after_lost_response (__main__.NetworkFaultTests.test_06_parallel_retries_after_lost_response) ... ERROR
+test_07_connection_closes_before_headers_complete (__main__.NetworkFaultTests.test_07_connection_closes_before_headers_complete) ... ERROR
+test_08_connection_closes_during_request_body (__main__.NetworkFaultTests.test_08_connection_closes_during_request_body) ... ERROR
+test_09_server_unavailable_then_new_instance (__main__.NetworkFaultTests.test_09_server_unavailable_then_new_instance) ... ERROR
+test_10_restart_blocks_silent_resettlement_of_lost_result (__main__.NetworkFaultTests.test_10_restart_blocks_silent_resettlement_of_lost_result) ... ERROR
+test_11_missing_cookie_cannot_start_unrecoverable_spin (__main__.NetworkFaultTests.test_11_missing_cookie_cannot_start_unrecoverable_spin) ... ERROR
+test_12_recent_cache_eviction_rejects_old_id_without_charge (__main__.NetworkFaultTests.test_12_recent_cache_eviction_rejects_old_id_without_charge) ... ERROR
+test_13_page_reload_with_same_cookie_recovers_lost_result (__main__.NetworkFaultTests.test_13_page_reload_with_same_cookie_recovers_lost_result) ... ERROR
+test_14_expired_session_rejected_before_new_settlement (__main__.NetworkFaultTests.test_14_expired_session_rejected_before_new_settlement) ... ERROR
+test_15_missing_or_mismatched_session_header_rejected (__main__.NetworkFaultTests.test_15_missing_or_mismatched_session_header_rejected) ... ERROR
+test_16_reset_blocks_retry_from_old_session_epoch (__main__.NetworkFaultTests.test_16_reset_blocks_retry_from_old_session_epoch) ... ERROR
+test_17_idempotency_capacity_rejects_and_explicit_reset_recovers (__main__.NetworkFaultTests.test_17_idempotency_capacity_rejects_and_explicit_reset_recovers) ... ERROR
+
+======================================================================
+ERROR: test_01_response_dropped_after_settlement_retry_same_id (__main__.NetworkFaultTests.test_01_response_dropped_after_settlement_retry_same_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_02_truncated_response_retry_same_id (__main__.NetworkFaultTests.test_02_truncated_response_retry_same_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_03_unavailable_before_forwarding_then_recovery (__main__.NetworkFaultTests.test_03_unavailable_before_forwarding_then_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_04_gateway_503_after_settlement_then_recovery (__main__.NetworkFaultTests.test_04_gateway_503_after_settlement_then_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_05_delayed_response_client_timeout_and_retry (__main__.NetworkFaultTests.test_05_delayed_response_client_timeout_and_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_06_parallel_retries_after_lost_response (__main__.NetworkFaultTests.test_06_parallel_retries_after_lost_response)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_07_connection_closes_before_headers_complete (__main__.NetworkFaultTests.test_07_connection_closes_before_headers_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_08_connection_closes_during_request_body (__main__.NetworkFaultTests.test_08_connection_closes_during_request_body)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_09_server_unavailable_then_new_instance (__main__.NetworkFaultTests.test_09_server_unavailable_then_new_instance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_10_restart_blocks_silent_resettlement_of_lost_result (__main__.NetworkFaultTests.test_10_restart_blocks_silent_resettlement_of_lost_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_11_missing_cookie_cannot_start_unrecoverable_spin (__main__.NetworkFaultTests.test_11_missing_cookie_cannot_start_unrecoverable_spin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_12_recent_cache_eviction_rejects_old_id_without_charge (__main__.NetworkFaultTests.test_12_recent_cache_eviction_rejects_old_id_without_charge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_13_page_reload_with_same_cookie_recovers_lost_result (__main__.NetworkFaultTests.test_13_page_reload_with_same_cookie_recovers_lost_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_14_expired_session_rejected_before_new_settlement (__main__.NetworkFaultTests.test_14_expired_session_rejected_before_new_settlement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_15_missing_or_mismatched_session_header_rejected (__main__.NetworkFaultTests.test_15_missing_or_mismatched_session_header_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_16_reset_blocks_retry_from_old_session_epoch (__main__.NetworkFaultTests.test_16_reset_blocks_retry_from_old_session_epoch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+======================================================================
+ERROR: test_17_idempotency_capacity_rejects_and_explicit_reset_recovers (__main__.NetworkFaultTests.test_17_idempotency_capacity_rejects_and_explicit_reset_recovers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 176, in setUp
+    self.before = self.client.state()
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 61, in state
+    status, data = self.request("GET", "/api/state")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\full_review_2026_10_20\server\isolated_app\qa\test_network_faults.py", line 47, in request
+    connection.request(method, path, data, headers)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta�a podj�ta pr�ba uzyskania dost�pu do gniazda w spos�b zabroniony przez
+
+przypisane do niego uprawnienia dost�pu
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.755s
+
+FAILED (errors=17)

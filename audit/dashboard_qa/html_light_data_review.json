@@ -1,0 +1,146 @@
+{
+  "checked_on": "2026-10-20",
+  "scope": "Read-only data and source evidence audit; no UI changes, no new game simulations, no publication.",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "139 reports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "21 unique simulations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "10 historical phases match inventory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "160M weighted separate from 160M natural",
+      "passed": true,
+      "detail": {
+        "weighted": 160000000,
+        "natural": 160000000
+      }
+    },
+    {
+      "name": "107 unique regression cases from 6 suites",
+      "passed": true,
+      "detail": {
+        "network-http": 17,
+        "network-logic": 30,
+        "autoplay": 13,
+        "portable": 27,
+        "cascade-engine": 10,
+        "server-api": 10
+      }
+    },
+    {
+      "name": "Regression cases all pass and counts match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "139 report copies byte-identical to originals and registry",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Reports registry paths unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Offline embedded JSON matches data.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "5 game/math fingerprints still match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Previous dashboard QA 17/17 passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Critical 12 FS absence remains visible in data",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "sha256": {
+    "data.json": "5a3262225c2f6f6ca02e2d29d3d3553c7d5e2964e91d87863b7936281c758895",
+    "data-embed.js": "330112ba679077b8fe95be87cc9ccf8e6e99ecb41ce4e991e5888e7c953443e7",
+    "history_inventory.json": "bc9b169e1e0fef5caf622fb1c27e317ef17d53c6a24cf1995f2f0940a481147a",
+    "previous_dashboard_qa.json": "b96b449f995069c4a9aa7559c6131a4b609ec0921f6ee9b4a6ff1b9629c5bf3b",
+    "lut": "6f41f22a102a96658b8326aa500607a64eaa77df7e705e1ac217a9da2f2c58fe"
+  },
+  "totals": {
+    "reports": 139,
+    "simulationSeries": 21,
+    "historyPhases": 10,
+    "regressionCases": 107,
+    "weightedDraws": 160000000,
+    "naturalRounds": 160000000
+  },
+  "limitations": [
+    {
+      "id": "missing-12fs",
+      "severity": "critical",
+      "title": "Bonus 12 darmowych obrotów nie występuje",
+      "detail": "Zasady przewidują 5 Scatterów → 12 darmowych obrotów, ale końcowa tabela zawiera 0 takich wyników i wagę 0. Wykryte w analizie bonusów; poprawka nie została jeszcze wdrożona.",
+      "status": "open",
+      "evidence": [
+        "audit/bonus_frequency_2026_10_19/results.json"
+      ]
+    },
+    {
+      "id": "stake-approval",
+      "severity": "info",
+      "title": "Brak zatwierdzenia platformy Stake",
+      "detail": "Publiczny walidator SDK uruchomiono lokalnie. Nie przeprowadzono procesu zatwierdzenia ani testów prawdziwego RGS i portfela Stake.",
+      "status": "not-performed",
+      "evidence": [
+        "audit/stake_cascades_v04/official_validation/official_validation_report.json",
+        "audit/network_resilience_2026_10_19/results.json"
+      ]
+    },
+    {
+      "id": "memory-wallet",
+      "severity": "warning",
+      "title": "Restart usuwa lokalne saldo i historię",
+      "detail": "Lokalny portfel demonstracyjny działa w pamięci. Stara sesja po restarcie jest odrzucana, co zapobiega ponownemu obciążeniu, ale nie odtwarza utraconej historii.",
+      "status": "open",
+      "evidence": [
+        "audit/network_resilience_2026_10_19/results.json"
+      ]
+    },
+    {
+      "id": "replay-window",
+      "severity": "warning",
+      "title": "Pełne odtworzenie obejmuje ostatnie 100 wyników",
+      "detail": "Starsze identyfikatory są odrzucane bez opłaty. Pełna odpowiedź starszej rundy nie jest już dostępna; odświeżenie działa w tej samej karcie przy dostępnym sessionStorage.",
+      "status": "known-limit",
+      "evidence": [
+        "audit/network_resilience_2026_10_19/results.json"
+      ]
+    },
+    {
+      "id": "offline-scope",
+      "severity": "info",
+      "title": "Awarie sieci testowano w izolacji",
+      "detail": "Użyto rzeczywistego lokalnego HTTP/TCP i przekaźnika usterek. Nie wyłączano Wi-Fi komputera ani nie testowano połączenia z produkcyjnym Stake.",
+      "status": "scope",
+      "evidence": [
+        "audit/network_resilience_2026_10_19/results.json"
+      ]
+    }
+  ]
+}

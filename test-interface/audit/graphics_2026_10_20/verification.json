@@ -1,0 +1,18 @@
+{
+  "protected_logic_unchanged": {
+    "web\\app.js": true,
+    "web\\game-layout.js": true,
+    "engine\\polska_gurom\\config.py": true,
+    "engine\\polska_gurom\\game.py": true,
+    "engine\\polska_gurom\\selection.py": true,
+    "server.py": true
+  },
+  "index_only_new_stylesheet": true,
+  "atlas_size": [
+    1536,
+    1024
+  ],
+  "atlas_mode": "RGBA",
+  "transparent_gutters": true,
+  "graphics_only": true
+}

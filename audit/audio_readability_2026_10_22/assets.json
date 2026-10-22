@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01_Karczma_Disco_BASE_120bpm_Dm.wav",
+    "seconds": 64.0,
+    "channels": 2,
+    "rate": 44100,
+    "bytes": 2,
+    "same_as_source": true
+  },
+  {
+    "file": "02_Szarza_Husarza_BONUS_120bpm_Dm.wav",
+    "seconds": 32.0,
+    "channels": 2,
+    "rate": 44100,
+    "bytes": 2,
+    "same_as_source": true
+  },
+  {
+    "file": "03_Wejscie_do_bonusu.wav",
+    "seconds": 4.0,
+    "channels": 2,
+    "rate": 44100,
+    "bytes": 2,
+    "same_as_source": true
+  },
+  {
+    "file": "04_Wygrana.wav",
+    "seconds": 2.0,
+    "channels": 2,
+    "rate": 44100,
+    "bytes": 2,
+    "same_as_source": true
+  },
+  {
+    "file": "05_Duza_wygrana.wav",
+    "seconds": 4.0,
+    "channels": 2,
+    "rate": 44100,
+    "bytes": 2,
+    "same_as_source": true
+  },
+  {
+    "file": "06_Czesciowy_zwrot.wav",
+    "seconds": 2.0,
+    "channels": 2,
+    "rate": 44100,
+    "bytes": 2,
+    "same_as_source": true
+  }
+]

@@ -1,0 +1,19 @@
+test_01_distinct_concurrent_ids_and_bets_exact_ledger (__main__.AuditTests.test_01_distinct_concurrent_ids_and_bets_exact_ledger) ... ok
+test_02_concurrent_conflicting_stakes_one_id (__main__.AuditTests.test_02_concurrent_conflicting_stakes_one_id) ... ok
+test_03_overdraft_prevented_with_parallel_losses (__main__.AuditTests.test_03_overdraft_prevented_with_parallel_losses) ... ok
+test_04_all_stakes_scale_identical_book_exactly (__main__.AuditTests.test_04_all_stakes_scale_identical_book_exactly) ... ok
+test_05_scenarios_all_modes_all_stakes_no_debit (__main__.AuditTests.test_05_scenarios_all_modes_all_stakes_no_debit) ... ok
+test_06_injection_and_malformed_semantics_rejected_without_mutation (__main__.AuditTests.test_06_injection_and_malformed_semantics_rejected_without_mutation) ... ok
+test_07_selector_failure_before_settlement_is_retry_safe (__main__.AuditTests.test_07_selector_failure_before_settlement_is_retry_safe) ... ok
+test_08_json_output_failure_after_cache_is_retry_safe (__main__.AuditTests.test_08_json_output_failure_after_cache_is_retry_safe) ... ok
+test_09_record_serialization_failure_exposes_non_atomic_settlement (__main__.AuditTests.test_09_record_serialization_failure_exposes_non_atomic_settlement) ... ok
+test_10_old_retry_contains_historical_wallet_snapshot (__main__.AuditTests.test_10_old_retry_contains_historical_wallet_snapshot) ... ok
+test_11_reset_and_inflight_spin_are_serialized_and_old_epoch_rejected (__main__.AuditTests.test_11_reset_and_inflight_spin_are_serialized_and_old_epoch_rejected) ... ok
+test_12_exact_final_funds_permit_one_loss_then_block (__main__.AuditTests.test_12_exact_final_funds_permit_one_loss_then_block) ... ok
+test_13_cached_result_replay_allowed_when_wallet_now_insolvent (__main__.AuditTests.test_13_cached_result_replay_allowed_when_wallet_now_insolvent) ... ok
+test_14_conflicting_mode_id_cannot_convert_scenario_to_paid (__main__.AuditTests.test_14_conflicting_mode_id_cannot_convert_scenario_to_paid) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.842s
+
+OK

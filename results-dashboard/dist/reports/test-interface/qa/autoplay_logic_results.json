@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "method": "Real app.js evaluated in Node VM with a minimal DOM, accelerated virtual timers and an idempotent mock API; deterministic logic regression, not browser/rendering/network integration QA.",
+  "source_sha256": "28862cdbdfbbd571801480f813d7bc4873bcd5bc3e057ed59f014884dc145e26",
+  "checks": [
+    {
+      "scenario": "100 normal rounds with deterministic bonuses",
+      "passed": true,
+      "rounds": 100,
+      "virtual_ms": 287660
+    },
+    {
+      "scenario": "100 quick rounds with deterministic bonuses",
+      "passed": true,
+      "rounds": 100,
+      "virtual_ms": 81060
+    },
+    {
+      "scenario": "100 turbo rounds with deterministic bonuses",
+      "passed": true,
+      "rounds": 100,
+      "virtual_ms": 56305
+    },
+    {
+      "scenario": "100 instant rounds with deterministic bonuses",
+      "passed": true,
+      "rounds": 100,
+      "virtual_ms": 17820
+    },
+    {
+      "scenario": "Hide at 80/100, complete hidden, show again without extra spins",
+      "passed": true
+    },
+    {
+      "scenario": "Hide during round 81 presentation and finish 100/100",
+      "passed": true
+    },
+    {
+      "scenario": "Lost response at round 81 retries same ID: 100 charges, 100 results, 101 requests",
+      "passed": true
+    },
+    {
+      "scenario": "Transient 503 at round 81 recovers to exactly 100/100",
+      "passed": true
+    },
+    {
+      "scenario": "Local balance check after 80 rounds shows explicit insufficient balance reason",
+      "passed": true
+    },
+    {
+      "scenario": "API 409 after 80 rounds shows explicit insufficient balance reason",
+      "passed": true
+    },
+    {
+      "scenario": "STOP between rounds cancels continuation with no extra charge",
+      "passed": true
+    },
+    {
+      "scenario": "STOP in flight finishes current round and starts no extra rounds",
+      "passed": true
+    },
+    {
+      "scenario": "Persistent connection failure stops with reason and preserves same pending ID",
+      "passed": true,
+      "attempts": 3
+    }
+  ]
+}

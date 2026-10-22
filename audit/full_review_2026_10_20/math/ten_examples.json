@@ -1,0 +1,902 @@
+[
+  {
+    "book_id": 0,
+    "base_initial_grid": [
+      [
+        "L4",
+        "P3",
+        "L1",
+        "SCATTER",
+        "WILD"
+      ],
+      [
+        "L1",
+        "L1",
+        "P2",
+        "L1",
+        "L4"
+      ],
+      [
+        "P4",
+        "SCATTER",
+        "L4",
+        "P1",
+        "L1"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 12,
+        "rows": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 14,
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          2
+        ],
+        "symbol": "L1",
+        "count": 5,
+        "payout_units": 200,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 16,
+        "rows": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      },
+      {
+        "line_id": 18,
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "symbol": "L1",
+        "count": 4,
+        "payout_units": 60,
+        "line_multiplier": 1,
+        "start_reel": 1
+      }
+    ],
+    "base_scatter_units": 0,
+    "base_credited_units": 280,
+    "free_spins_awarded": 0,
+    "free_spins_played": 0,
+    "free_spin_credits": [],
+    "bonus_credited_units": 0,
+    "total_credited_units": 280,
+    "csv_payout_units": 280,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 12,
+    "base_initial_grid": [
+      [
+        "P2",
+        "L4",
+        "L1",
+        "L1",
+        "L1"
+      ],
+      [
+        "L4",
+        "L1",
+        "P1",
+        "P2",
+        "P1"
+      ],
+      [
+        "L3",
+        "P4",
+        "L3",
+        "L4",
+        "L2"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 4,
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      },
+      {
+        "line_id": 12,
+        "rows": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 1
+      },
+      {
+        "line_id": 20,
+        "rows": [
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 1
+      }
+    ],
+    "base_scatter_units": 0,
+    "base_credited_units": 30,
+    "free_spins_awarded": 0,
+    "free_spins_played": 0,
+    "free_spin_credits": [],
+    "bonus_credited_units": 0,
+    "total_credited_units": 30,
+    "csv_payout_units": 30,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 15,
+    "base_initial_grid": [
+      [
+        "P4",
+        "L4",
+        "L1",
+        "P3",
+        "P1"
+      ],
+      [
+        "L2",
+        "L2",
+        "P1",
+        "L2",
+        "L2"
+      ],
+      [
+        "L1",
+        "P3",
+        "L3",
+        "WILD",
+        "L3"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 5,
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "symbol": "L3",
+        "count": 3,
+        "payout_units": 20,
+        "line_multiplier": 1,
+        "start_reel": 2
+      }
+    ],
+    "base_scatter_units": 0,
+    "base_credited_units": 20,
+    "free_spins_awarded": 0,
+    "free_spins_played": 0,
+    "free_spin_credits": [],
+    "bonus_credited_units": 0,
+    "total_credited_units": 20,
+    "csv_payout_units": 20,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 287,
+    "base_initial_grid": [
+      [
+        "SCATTER",
+        "L2",
+        "P3",
+        "SCATTER",
+        "L1"
+      ],
+      [
+        "L1",
+        "P3",
+        "L1",
+        "L1",
+        "SCATTER"
+      ],
+      [
+        "P1",
+        "L1",
+        "SCATTER",
+        "P1",
+        "L1"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 8,
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      },
+      {
+        "line_id": 9,
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      }
+    ],
+    "base_scatter_units": 500,
+    "base_credited_units": 520,
+    "free_spins_awarded": 10,
+    "free_spins_played": 10,
+    "free_spin_credits": [
+      0,
+      480,
+      0,
+      2320,
+      240,
+      2320,
+      800,
+      4560,
+      0,
+      0
+    ],
+    "bonus_credited_units": 10720,
+    "total_credited_units": 11240,
+    "csv_payout_units": 11240,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 484,
+    "base_initial_grid": [
+      [
+        "L1",
+        "SCATTER",
+        "P3",
+        "P3",
+        "P3"
+      ],
+      [
+        "P1",
+        "L1",
+        "L1",
+        "L2",
+        "L1"
+      ],
+      [
+        "L3",
+        "P1",
+        "SCATTER",
+        "WILD",
+        "SCATTER"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 3,
+        "rows": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 1
+      },
+      {
+        "line_id": 4,
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "symbol": "P3",
+        "count": 3,
+        "payout_units": 100,
+        "line_multiplier": 1,
+        "start_reel": 2
+      },
+      {
+        "line_id": 8,
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 10,
+        "rows": [
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "symbol": "L1",
+        "count": 4,
+        "payout_units": 60,
+        "line_multiplier": 1,
+        "start_reel": 0
+      }
+    ],
+    "base_scatter_units": 100,
+    "base_credited_units": 280,
+    "free_spins_awarded": 8,
+    "free_spins_played": 8,
+    "free_spin_credits": [
+      320,
+      0,
+      360,
+      960,
+      0,
+      3840,
+      360,
+      5520
+    ],
+    "bonus_credited_units": 11360,
+    "total_credited_units": 11640,
+    "csv_payout_units": 11640,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 6507,
+    "base_initial_grid": [
+      [
+        "SCATTER",
+        "L1",
+        "L4",
+        "SCATTER",
+        "P3"
+      ],
+      [
+        "L1",
+        "SCATTER",
+        "L1",
+        "L1",
+        "L2"
+      ],
+      [
+        "P1",
+        "L1",
+        "P4",
+        "P1",
+        "WILD"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 9,
+        "rows": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      }
+    ],
+    "base_scatter_units": 100,
+    "base_credited_units": 110,
+    "free_spins_awarded": 8,
+    "free_spins_played": 8,
+    "free_spin_credits": [
+      22080,
+      400,
+      4880,
+      240,
+      0,
+      120,
+      0,
+      1480
+    ],
+    "bonus_credited_units": 29200,
+    "total_credited_units": 29310,
+    "csv_payout_units": 29310,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 46183,
+    "base_initial_grid": [
+      [
+        "L1",
+        "P1",
+        "L4",
+        "P3",
+        "P3"
+      ],
+      [
+        "SCATTER",
+        "L2",
+        "L3",
+        "L1",
+        "L1"
+      ],
+      [
+        "L1",
+        "P2",
+        "P1",
+        "SCATTER",
+        "SCATTER"
+      ]
+    ],
+    "first_stage_line_wins": [],
+    "base_scatter_units": 100,
+    "base_credited_units": 100,
+    "free_spins_awarded": 8,
+    "free_spins_played": 8,
+    "free_spin_credits": [
+      400,
+      1120,
+      720,
+      3680,
+      41400,
+      1040,
+      100,
+      4320
+    ],
+    "bonus_credited_units": 52780,
+    "total_credited_units": 52880,
+    "csv_payout_units": 52880,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 100020,
+    "base_initial_grid": [
+      [
+        "WILD",
+        "WILD",
+        "WILD",
+        "L2",
+        "L2"
+      ],
+      [
+        "L1",
+        "L1",
+        "L1",
+        "L3",
+        "L3"
+      ],
+      [
+        "P2",
+        "P2",
+        "P2",
+        "WILD",
+        "WILD"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 1,
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 2,
+        "rows": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 3,
+        "rows": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "symbol": "L1",
+        "count": 5,
+        "payout_units": 200,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 4,
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "symbol": "L2",
+        "count": 5,
+        "payout_units": 280,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 5,
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "symbol": "P2",
+        "count": 5,
+        "payout_units": 1200,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 6,
+        "rows": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "symbol": "L3",
+        "count": 5,
+        "payout_units": 360,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 7,
+        "rows": [
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "symbol": "P2",
+        "count": 3,
+        "payout_units": 60,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 8,
+        "rows": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 10,
+        "rows": [
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "symbol": "L1",
+        "count": 5,
+        "payout_units": 200,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 12,
+        "rows": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 14,
+        "rows": [
+          1,
+          1,
+          0,
+          1,
+          2
+        ],
+        "symbol": "L3",
+        "count": 3,
+        "payout_units": 20,
+        "line_multiplier": 1,
+        "start_reel": 2
+      },
+      {
+        "line_id": 16,
+        "rows": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "symbol": "L3",
+        "count": 5,
+        "payout_units": 360,
+        "line_multiplier": 1,
+        "start_reel": 0
+      },
+      {
+        "line_id": 18,
+        "rows": [
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "symbol": "L3",
+        "count": 3,
+        "payout_units": 20,
+        "line_multiplier": 1,
+        "start_reel": 2
+      }
+    ],
+    "base_scatter_units": 0,
+    "base_credited_units": 500000,
+    "free_spins_awarded": 0,
+    "free_spins_played": 0,
+    "free_spin_credits": [],
+    "bonus_credited_units": 0,
+    "total_credited_units": 500000,
+    "csv_payout_units": 500000,
+    "cap_reduction_units": 11540
+  },
+  {
+    "book_id": 100024,
+    "base_initial_grid": [
+      [
+        "L1",
+        "L1",
+        "P3",
+        "SCATTER",
+        "SCATTER"
+      ],
+      [
+        "SCATTER",
+        "SCATTER",
+        "L1",
+        "L1",
+        "L1"
+      ],
+      [
+        "L1",
+        "L1",
+        "SCATTER",
+        "P1",
+        "P1"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 1,
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      }
+    ],
+    "base_scatter_units": 2000,
+    "base_credited_units": 2070,
+    "free_spins_awarded": 12,
+    "free_spins_played": 12,
+    "free_spin_credits": [
+      520,
+      0,
+      1880,
+      640,
+      120,
+      0,
+      2520,
+      3760,
+      240,
+      1000,
+      1120,
+      2120
+    ],
+    "bonus_credited_units": 13920,
+    "total_credited_units": 15990,
+    "csv_payout_units": 15990,
+    "cap_reduction_units": 0
+  },
+  {
+    "book_id": 100048,
+    "base_initial_grid": [
+      [
+        "P1",
+        "L1",
+        "L1",
+        "L1",
+        "P3"
+      ],
+      [
+        "L3",
+        "P2",
+        "P4",
+        "P1",
+        "L1"
+      ],
+      [
+        "P4",
+        "L4",
+        "L3",
+        "L2",
+        "SCATTER"
+      ]
+    ],
+    "first_stage_line_wins": [
+      {
+        "line_id": 4,
+        "rows": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 1
+      },
+      {
+        "line_id": 12,
+        "rows": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      },
+      {
+        "line_id": 20,
+        "rows": [
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "symbol": "L1",
+        "count": 3,
+        "payout_units": 10,
+        "line_multiplier": 1,
+        "start_reel": 2
+      }
+    ],
+    "base_scatter_units": 0,
+    "base_credited_units": 30,
+    "free_spins_awarded": 0,
+    "free_spins_played": 0,
+    "free_spin_credits": [],
+    "bonus_credited_units": 0,
+    "total_credited_units": 30,
+    "csv_payout_units": 30,
+    "cap_reduction_units": 0
+  }
+]

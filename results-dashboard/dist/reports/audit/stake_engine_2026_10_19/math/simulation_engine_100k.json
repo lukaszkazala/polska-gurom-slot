@@ -1,0 +1,42 @@
+{
+  "method": "actual game.play_round, rational expansion draw, integer settlement",
+  "seed": 20261019,
+  "spins": 100000,
+  "rtp": 0.9628928,
+  "rtp_95_percent_normal_interval": [
+    0.9316457001273625,
+    0.9941398998726375
+  ],
+  "base_rtp": 0.7386024,
+  "bonus_rtp": 0.2242904,
+  "hit_frequency": 0.29756,
+  "net_profit_frequency": 0.17877,
+  "positive_below_bet_frequency": 0.11698,
+  "break_even_frequency": 0.00181,
+  "bonus_frequency": 0.00512,
+  "average_bonus_payout": 43.80671875,
+  "variance": 25.41600506170816,
+  "std_dev": 5.04142887103529,
+  "max_observed_win": 304.76,
+  "rounds_reduced_by_cap": 0,
+  "free_spins_played": 4138,
+  "expanding_wild_events": 890,
+  "wild_cell_frequency": 0.055489333333333335,
+  "scatter_cell_frequency": 0.027716666666666667,
+  "scatter_distribution": {
+    "0": 64832,
+    "1": 29294,
+    "2": 5362,
+    "3": 491,
+    "4": 21
+  },
+  "win_buckets": {
+    "0x": 70244,
+    ">0x-1x": 11698,
+    "1x-5x": 14327,
+    "20x-100x": 509,
+    "5x-20x": 3168,
+    "100x-500x": 54
+  },
+  "confidence_interval_note": "Empirical normal Monte Carlo interval; exact mathematics and tail bounds are verified separately."
+}

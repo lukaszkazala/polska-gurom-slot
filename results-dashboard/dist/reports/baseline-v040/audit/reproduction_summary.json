@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "original_test_count": 12,
+  "original_test_passed": 12,
+  "theory_differences": [],
+  "simulations": [
+    {
+      "spins": 10000,
+      "seconds": 0.29896610000105284,
+      "differences": [],
+      "rtp": 0.7727149999999953,
+      "hit_frequency": 0.4948
+    },
+    {
+      "spins": 100000,
+      "seconds": 3.340535799999998,
+      "differences": [],
+      "rtp": 0.803310499999951,
+      "hit_frequency": 0.49549
+    },
+    {
+      "spins": 1000000,
+      "seconds": 32.050866499999756,
+      "differences": [],
+      "rtp": 0.8030867999996857,
+      "hit_frequency": 0.496463
+    }
+  ],
+  "original_files_unchanged": true,
+  "original_file_count": 16
+}

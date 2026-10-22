@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-22",
+  "local_implementation_complete": true,
+  "local_tests_passed": true,
+  "total_tests": 325,
+  "python_tests": 64,
+  "javascript_tests": 261,
+  "suites": 16,
+  "new_recovery_logic_tests": 33,
+  "new_recovery_http_tests": 6,
+  "engine_math_unchanged": true,
+  "live_stake_verified": false,
+  "release_directory": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\recovery_2026_10_22\\release\\test-interface-any-start",
+  "packages": {
+    "POLSKA_GUROM_RGS_FRONTEND.zip": {
+      "sha256": "1c4414b63ec5476f5d436faf028e4387d230f0a321c1cc5d66cb7cd1ccb724b8",
+      "files": 18,
+      "bytes": 14425832
+    },
+    "POLSKA_GUROM_RGS_TEST.zip": {
+      "sha256": "896ae2868fda42a86bf4353d50d731df3cee31368836f74507aef8f96da55763",
+      "files": 30,
+      "bytes": 14459476
+    },
+    "POLSKA_GUROM_TESTER.zip": {
+      "sha256": "d881da6cf08687a163a96820d2454ae4247fdcebd5eacc54b7a23d7905dce53f",
+      "files": 35,
+      "bytes": 24707946
+    }
+  },
+  "extra_frozen_browser_preview": "not started: automatic approval review unavailable due to account usage limit"
+}

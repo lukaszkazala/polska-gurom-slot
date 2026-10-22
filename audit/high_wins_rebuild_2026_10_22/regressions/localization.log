@@ -1,0 +1,75 @@
+PASS Demo launch lang="pl" selects pl before requests
+PASS RGS launch lang="pl" selects pl before requests
+PASS Demo launch lang="en" selects en before requests
+PASS RGS launch lang="en" selects en before requests
+PASS Demo launch lang="de" selects de before requests
+PASS RGS launch lang="de" selects de before requests
+PASS Demo launch lang="PL" selects pl before requests
+PASS RGS launch lang="PL" selects pl before requests
+PASS Demo launch lang="pl-PL" selects pl before requests
+PASS RGS launch lang="pl-PL" selects pl before requests
+PASS Demo launch lang="en_US" selects en before requests
+PASS RGS launch lang="en_US" selects en before requests
+PASS Demo launch lang="de-DE" selects de before requests
+PASS RGS launch lang="de-DE" selects de before requests
+PASS Demo launch lang="  DE  " selects de before requests
+PASS RGS launch lang="  DE  " selects de before requests
+PASS Demo launch lang="" selects en before requests
+PASS RGS launch lang="" selects en before requests
+PASS Demo launch lang="fr" selects en before requests
+PASS RGS launch lang="fr" selects en before requests
+PASS Demo launch lang="__proto__" selects en before requests
+PASS RGS launch lang="__proto__" selects en before requests
+PASS Demo launch lang="constructor" selects en before requests
+PASS RGS launch lang="constructor" selects en before requests
+PASS Demo without lang uses saved de as de
+PASS Demo without lang uses saved en as en
+PASS Demo without lang uses saved invalid as pl
+PASS Demo without lang uses saved constructor as pl
+PASS Demo without lang uses saved null as pl
+PASS RGS without lang defaults to English despite saved Polish
+PASS Invalid or unsupported launch keeps its language: de
+PASS Invalid or unsupported launch keeps its language: en
+PASS Invalid or unsupported launch keeps its language: de
+PASS Invalid or unsupported launch keeps its language: en
+PASS Invalid or unsupported launch keeps its language: de
+PASS Demo reconnect retains manually selected language
+PASS RGS reconnect retains manually selected language
+PASS Complete UI dictionaries and DOM translation keys in pl
+PASS Complete UI dictionaries and DOM translation keys in en
+PASS Complete UI dictionaries and DOM translation keys in de
+PASS Amounts in pl/PLN retain currency precision and nonzero micro units
+PASS Amounts in pl/USD retain currency precision and nonzero micro units
+PASS Amounts in pl/EUR retain currency precision and nonzero micro units
+PASS Amounts in pl/JPY retain currency precision and nonzero micro units
+PASS Amounts in pl/KWD retain currency precision and nonzero micro units
+PASS Amounts in en/PLN retain currency precision and nonzero micro units
+PASS Amounts in en/USD retain currency precision and nonzero micro units
+PASS Amounts in en/EUR retain currency precision and nonzero micro units
+PASS Amounts in en/JPY retain currency precision and nonzero micro units
+PASS Amounts in en/KWD retain currency precision and nonzero micro units
+PASS Amounts in de/PLN retain currency precision and nonzero micro units
+PASS Amounts in de/USD retain currency precision and nonzero micro units
+PASS Amounts in de/EUR retain currency precision and nonzero micro units
+PASS Amounts in de/JPY retain currency precision and nonzero micro units
+PASS Amounts in de/KWD retain currency precision and nonzero micro units
+PASS Demo amounts retain PLN formatting in pl
+PASS Demo amounts retain PLN formatting in en
+PASS Demo amounts retain PLN formatting in de
+PASS Server error codes and unknown error details are localized in pl
+PASS Server error codes and unknown error details are localized in en
+PASS Server error codes and unknown error details are localized in de
+PASS Reset message formats the actual returned balance in pl
+PASS Reset message formats the actual returned balance in en
+PASS Reset message formats the actual returned balance in de
+PASS Language switch retains the blocking launch error in pl
+PASS Language switch retains the blocking launch error in en
+PASS Language switch retains the blocking launch error in de
+PASS Actual accessibility attribute hooks translate in pl
+PASS Actual accessibility attribute hooks translate in en
+PASS Actual accessibility attribute hooks translate in de
+PASS Public replay rules and amounts translate before and after playback in pl
+PASS Public replay rules and amounts translate before and after playback in en
+PASS Public replay rules and amounts translate before and after playback in de
+{"passed":true,"checks":73,"failed":0}
+

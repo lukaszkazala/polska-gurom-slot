@@ -1,0 +1,265 @@
+PASS Exact display 500000 micro-units in USD
+PASS Exact display 1 micro-units in USD
+PASS Exact display 1234567 micro-units in MXN
+PASS Exact display 1000000 micro-units in JPY
+PASS Exact display 500000 micro-units in JPY
+PASS Exact display 1 micro-units in JPY
+PASS Exact display 500000 micro-units in KWD
+PASS Exact display 1234567 micro-units in KWD
+PASS Exact display 1 micro-units in BTC
+PASS Exact display 1 micro-units in USDT
+PASS Exact display 1234567 micro-units in DOGE
+PASS Exact display -1 micro-units in USD
+PASS Exact display 0 micro-units in USD
+PASS Exact display 0 micro-units in JPY
+PASS Exact display 9007199254740991 micro-units in USD
+PASS Exact display -9007199254740991 micro-units in USD
+PASS Polish and German display retain every authenticated fractional unit
+PASS Fractional, non-finite and unsafe micro-unit values are rejected
+PASS Every fiat currency in the official Stake Engine client can display exact micro-units
+PASS Configured minBet missing from the permitted levels blocks play
+PASS Configured maxBet missing from the permitted levels blocks play
+PASS Social launch remains explicitly unavailable in this non-social release
+{"passed":false,"total":53,"failed":31}
+
+FAIL Authoritative currency overrides the optional URL currency hint: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:70:28
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:68:9)
+FAIL UI USD: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI EUR: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI PLN: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI JPY: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI KWD: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI MXN: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI BTC: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI USDT: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL UI DOGE: exact balance, bet, win and history use the same platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:79:17
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:74:5)
+FAIL Irregular platform levels are sorted, defaulted and bounded without inventing intermediate stakes: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:106:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:102:3)
+FAIL A non-platform stake is rejected before sending a debit request: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:127:63
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:126:9)
+FAIL Stake preferences are isolated by platform session and authenticated currency: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:133:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:131:3)
+FAIL An obsolete saved stake falls back to the new authoritative default: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:149:62
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:148:3)
+FAIL Updated platform levels reach the UI after settlement and replace an unavailable stake: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:162:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:155:44)
+FAIL Updated platform levels reach the UI after recovery and replace an unavailable stake: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:162:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:155:44)
+FAIL Autoplay stops after its accepted round when authentication removes the chosen stake: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:183:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:176:3)
+FAIL RGS rules in pl remove the local PLN wallet paragraph and retain the cap rule: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:191:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:190:46)
+FAIL RGS rules in en remove the local PLN wallet paragraph and retain the cap rule: AssertionError [ERR_ASSERTION]: The game result could not be verified. New bets are blocked. Reopen the game from the lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:191:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:190:46)
+FAIL RGS rules in de remove the local PLN wallet paragraph and retain the cap rule: AssertionError [ERR_ASSERTION]: Das Spielergebnis konnte nicht bestätigt werden. Neue Einsätze sind gesperrt. Öffne das Spiel erneut aus der Lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:26:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:191:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:190:46)
+FAIL A wallet currency change during a session blocks the update: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:202:63
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:201:9)
+FAIL A persisted session currency change blocks reload with pending=false: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:212:15
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:210:46)
+FAIL A persisted session currency change blocks reload with pending=true: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:212:15
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:210:46)
+FAIL XSC authentication is blocked before a bet in this release: AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+
+Caught error:
+
+Error: rgs_incompatible_math
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:228:5
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:226:54)
+FAIL XGC authentication is blocked before a bet in this release: AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+
+Caught error:
+
+Error: rgs_incompatible_math
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:228:5
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:226:54)
+FAIL SC authentication is blocked before a bet in this release: AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+
+Caught error:
+
+Error: rgs_incompatible_math
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:228:5
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:226:54)
+FAIL GC authentication is blocked before a bet in this release: AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+
+Caught error:
+
+Error: rgs_incompatible_math
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:228:5
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:226:54)
+FAIL Social official jurisdictionFlags is blocked during boot and prevents play: AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+
+Caught error:
+
+Error: rgs_incompatible_math
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:238:7
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:232:49)
+FAIL Social official jurisdictionFlags is blocked during reauthentication and prevents play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:234:39
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:232:55)
+FAIL Social legacy config.jurisdiction is blocked during boot and prevents play: AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received false
+
+Caught error:
+
+Error: rgs_incompatible_math
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:238:7
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:232:49)
+FAIL Social legacy config.jurisdiction is blocked during reauthentication and prevents play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:234:39
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:13:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_platform_currency.cjs:232:55)

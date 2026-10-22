@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "checks": [
+    {
+      "name": "zip_integrity",
+      "success": true
+    },
+    {
+      "name": "zip_no_python_cache",
+      "success": true
+    },
+    {
+      "name": "extracted_files_match_zip",
+      "success": true
+    },
+    {
+      "name": "portable_files",
+      "success": true
+    },
+    {
+      "name": "engine_bytes_match_current_reference",
+      "success": true
+    },
+    {
+      "name": "isolated_port",
+      "success": true
+    },
+    {
+      "name": "packaged_server_health",
+      "success": true
+    },
+    {
+      "name": "homepage",
+      "success": true
+    },
+    {
+      "name": "config",
+      "success": true
+    },
+    {
+      "name": "cascade_version_metadata",
+      "success": true
+    },
+    {
+      "name": "symbol_manifest",
+      "success": true
+    },
+    {
+      "name": "initial_state",
+      "success": true
+    },
+    {
+      "name": "normal_spin_wallet",
+      "success": true
+    },
+    {
+      "name": "normal_spin_idempotency",
+      "success": true
+    },
+    {
+      "name": "normal_cascade_settlement",
+      "success": true
+    },
+    {
+      "name": "request_id_conflict",
+      "success": true
+    },
+    {
+      "name": "expansion_scenario",
+      "success": true
+    },
+    {
+      "name": "scenario_preserves_wallet_statistics",
+      "success": true
+    },
+    {
+      "name": "scenario_idempotency",
+      "success": true
+    },
+    {
+      "name": "bonus_cascade_settlement",
+      "success": true
+    },
+    {
+      "name": "cascade_scenario",
+      "success": true
+    },
+    {
+      "name": "cascade_contains_falling_survivors",
+      "success": true
+    },
+    {
+      "name": "cascade_serialized_transitions",
+      "success": true
+    },
+    {
+      "name": "cascade_preserves_wallet_statistics",
+      "success": true
+    },
+    {
+      "name": "cascade_idempotency",
+      "success": true
+    },
+    {
+      "name": "recent_rounds",
+      "success": true
+    },
+    {
+      "name": "server_imports_extracted_engine",
+      "success": true
+    }
+  ],
+  "zip_file_count": 29,
+  "zip_bytes": 22200005,
+  "zip_sha256": "7f93e15007ba25d4faa486ff9597e8761fe9b6177fc0de59ba35f13450d749ec",
+  "extracted_engine": "audit\\full_review_2026_10_20\\server\\portable\\portable-smoke-7f93e15007ba\\engine\\polska_gurom\\game.py",
+  "engine_reference": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface-any-start\\engine\\polska_gurom",
+  "engine_files_verified": 7,
+  "math_version": "0.5.0-any-start"
+}

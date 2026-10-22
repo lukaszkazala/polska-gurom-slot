@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "math_version": "0.4.1-weighted-12fs",
+  "scope": "Real Chromium UI against unmodified production HTTP handler, frontend and current weighted export. Isolated QA ticket generator intentionally selects positive-weight book 100024; not evidence of random frequency.",
+  "manual_animated": {
+    "book_id": 100024,
+    "math_version": "0.4.1-weighted-12fs",
+    "scatter_count": 5,
+    "awarded": 12,
+    "played": 12,
+    "credits": 12,
+    "payout_units": 5040,
+    "balance_cents": 1009880,
+    "stats": {
+      "rounds": 1,
+      "total_bet_cents": 200,
+      "total_win_cents": 10080
+    }
+  },
+  "autoplay": {
+    "requested_paid_rounds": 100,
+    "completed_paid_rounds": 100,
+    "progress": "100 / 100",
+    "total_session_rounds": 101,
+    "last_free_spins_played": 12,
+    "balance_cents": 1997880,
+    "expected_balance_cents": 1997880,
+    "mode": "instant",
+    "scope": "Each of 100 complete paid rounds contains the same genuine 12FS exported result."
+  }
+}

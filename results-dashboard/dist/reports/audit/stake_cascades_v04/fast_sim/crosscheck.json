@@ -1,0 +1,7 @@
+{
+  "checked_rounds": 10000,
+  "exact_trace_comparison": "passed",
+  "fields": "Every generated/evaluation grid, scatter count, expanding reel, cascade line payout/credit/removal mask, spin totals and round totals",
+  "rng": "SplitMix64; identical unbiased bounded rejection draws",
+  "source_sha256": "33e086b3612d4557127b5c6b0f26ed7075e07d6afab83b32f398e25c42b7fa7e"
+}

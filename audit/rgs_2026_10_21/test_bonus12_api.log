@@ -1,0 +1,33 @@
+test_01_five_scatter_recipe_plays_twelve_reachable_free_spins (__main__.Bonus12Tests.test_01_five_scatter_recipe_plays_twelve_reachable_free_spins) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_02_production_selector_replays_complete_fixture_book (__main__.Bonus12Tests.test_02_production_selector_replays_complete_fixture_book) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_03_http_settles_all_twelve_spins_with_one_bet (__main__.Bonus12Tests.test_03_http_settles_all_twelve_spins_with_one_bet) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_04_lost_reply_retry_keeps_round_id_and_single_charge (__main__.Bonus12Tests.test_04_lost_reply_retry_keeps_round_id_and_single_charge) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_05_concurrent_same_id_retries_settle_only_once (__main__.Bonus12Tests.test_05_concurrent_same_id_retries_settle_only_once) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_06_state_restores_complete_twelve_spin_book (__main__.Bonus12Tests.test_06_state_restores_complete_twelve_spin_book) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_07_conflicting_retry_cannot_charge_another_bet (__main__.Bonus12Tests.test_07_conflicting_retry_cannot_charge_another_bet) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_08_global_cap_also_bounds_five_scatter_round_and_its_retry (__main__.Bonus12Tests.test_08_global_cap_also_bounds_five_scatter_round_and_its_retry) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_09_old_session_cannot_replay_book_into_reset_wallet (__main__.Bonus12Tests.test_09_old_session_cannot_replay_book_into_reset_wallet) ... 127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_10_published_distribution_contains_positive_weight_twelve_spin_book (__main__.PublishedDistributionTests.test_10_published_distribution_contains_positive_weight_twelve_spin_book) ... 127.0.0.1 - - [21/Oct/2026 15:11:32] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 15:11:32] "GET /api/state HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 14.465s
+
+OK

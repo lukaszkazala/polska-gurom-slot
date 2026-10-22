@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "checks_passed": 30,
+  "checks_total": 30,
+  "created_at": "2026-10-19T17:17:12.725Z",
+  "method": "Actual app.js evaluated in Node VM with minimal DOM, accelerated timers, AbortSignal-aware transport/body faults, persistent tab storage and an idempotent session mock. Tests frontend state transitions; separate HTTP and browser tests cover their respective layers.",
+  "source_sha256": "28862cdbdfbbd571801480f813d7bc4873bcd5bc3e057ed59f014884dc145e26",
+  "checks": [
+    {
+      "scenario": "Connection absent before POST: no charge; manual recovery reuses request and session",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Response lost after settlement: retry displays the original round and never charges twice",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Transient HTTP 408: autoplay retries the same ID and completes all 10 rounds",
+      "passed": true,
+      "completed": 10,
+      "attempts": 11,
+      "unique_charges": 10
+    },
+    {
+      "scenario": "Transient HTTP 429: autoplay retries the same ID and completes all 10 rounds",
+      "passed": true,
+      "completed": 10,
+      "attempts": 11,
+      "unique_charges": 10
+    },
+    {
+      "scenario": "Transient HTTP 500: autoplay retries the same ID and completes all 10 rounds",
+      "passed": true,
+      "completed": 10,
+      "attempts": 11,
+      "unique_charges": 10
+    },
+    {
+      "scenario": "Transient HTTP 502: autoplay retries the same ID and completes all 10 rounds",
+      "passed": true,
+      "completed": 10,
+      "attempts": 11,
+      "unique_charges": 10
+    },
+    {
+      "scenario": "Transient HTTP 503: autoplay retries the same ID and completes all 10 rounds",
+      "passed": true,
+      "completed": 10,
+      "attempts": 11,
+      "unique_charges": 10
+    },
+    {
+      "scenario": "Persistent network-before: exactly 3 attempts, explicit stop, pending retained, manual recovery",
+      "passed": true,
+      "failed_attempts": 3,
+      "recovered_attempts": 4,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Persistent lost-response: exactly 3 attempts, explicit stop, pending retained, manual recovery",
+      "passed": true,
+      "failed_attempts": 3,
+      "recovered_attempts": 4,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Persistent http-429: exactly 3 attempts, explicit stop, pending retained, manual recovery",
+      "passed": true,
+      "failed_attempts": 3,
+      "recovered_attempts": 4,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Persistent http-502: exactly 3 attempts, explicit stop, pending retained, manual recovery",
+      "passed": true,
+      "failed_attempts": 3,
+      "recovered_attempts": 4,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "fetch-stall: 15-second deadline covers transport and response body, then safe recovery",
+      "passed": true,
+      "timeout_ms": 15000,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "body-stall: 15-second deadline covers transport and response body, then safe recovery",
+      "passed": true,
+      "timeout_ms": 15000,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Persistent transport stalls: autoplay stops after 3 timeouts without any charge",
+      "passed": true,
+      "attempts": 3,
+      "virtual_ms": 46500,
+      "unique_charges": 0
+    },
+    {
+      "scenario": "session_expired: terminal recovery error stops old-session play without a charge",
+      "passed": true,
+      "attempts": 1,
+      "unique_charges": 0
+    },
+    {
+      "scenario": "session_changed: terminal recovery error stops old-session play without a charge",
+      "passed": true,
+      "attempts": 1,
+      "unique_charges": 0
+    },
+    {
+      "scenario": "result_expired: terminal recovery error stops old-session play without a charge",
+      "passed": true,
+      "attempts": 1,
+      "unique_charges": 0
+    },
+    {
+      "scenario": "Double-click while a response is delayed: busy guard sends exactly one request",
+      "passed": true,
+      "attempts": 1,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Connection disappears after bonus result arrives: finish all 8 free spins, stop on next paid request",
+      "passed": true,
+      "completed_paid_rounds": 13,
+      "completed_free_spins_in_last_round": 8,
+      "next_request_attempts": 3,
+      "unique_charges": 13
+    },
+    {
+      "scenario": "bad-json: rejected before clearing pending or presenting a result; exact recovery",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "empty-json: rejected before clearing pending or presenting a result; exact recovery",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "wrong-request-id: rejected before clearing pending or presenting a result; exact recovery",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "wrong-session-id: rejected before clearing pending or presenting a result; exact recovery",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "wrong-version: rejected before clearing pending or presenting a result; exact recovery",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Slow response below deadline: one round and one request, without retries",
+      "passed": true,
+      "response_delay_ms": 8000,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Late response beyond deadline: timeout retains original ID, retry does not double-charge",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1
+    },
+    {
+      "scenario": "Page reload with settled but unread response: recover saved request without duplicate history",
+      "passed": true,
+      "attempts": 2,
+      "unique_charges": 1,
+      "displayed_results": 1
+    },
+    {
+      "scenario": "Reload after autoplay round 81 outage: recover 81/100 and keep autoplay stopped",
+      "passed": true,
+      "completed": 81,
+      "selected": 100,
+      "unique_charges": 81
+    },
+    {
+      "scenario": "Reload after server session replacement: stale pending never executes in the new session",
+      "passed": true,
+      "new_session_charges": 0
+    },
+    {
+      "scenario": "Symbol manifest stalls during startup: initialization ends at its 15-second deadline",
+      "passed": true,
+      "timeout_ms": 15000,
+      "unique_charges": 0
+    }
+  ]
+}

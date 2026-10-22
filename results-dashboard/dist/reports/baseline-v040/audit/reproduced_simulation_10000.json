@@ -1,0 +1,31 @@
+{
+  "seed": 20261015,
+  "spins": 10000,
+  "rtp": 0.7727149999999953,
+  "base_rtp": 0.7317049999999953,
+  "bonus_rtp": 0.041010000000000005,
+  "hit_frequency": 0.4948,
+  "bonus_frequency": 0.0035,
+  "average_bonus_payout": 11.717142857142857,
+  "variance": 4.560507278775076,
+  "std_dev": 2.1355344246288976,
+  "max_observed_win": 75.55,
+  "free_spins_played": 282,
+  "expanding_wild_events": 78,
+  "wild_cell_frequency": 0.05533333333333333,
+  "scatter_cell_frequency": 0.0272,
+  "scatter_distribution": {
+    "0": 6500,
+    "1": 2956,
+    "2": 509,
+    "3": 34,
+    "4": 1
+  },
+  "win_buckets": {
+    ">0x-1x": 2930,
+    "0x": 5052,
+    "1x-5x": 1717,
+    "5x-20x": 280,
+    "20x-100x": 21
+  }
+}

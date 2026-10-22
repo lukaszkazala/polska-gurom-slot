@@ -1,0 +1,24 @@
+{
+  "method": "Original app.js evaluated with a minimal fake DOM and real engine-result fixtures; no browser layout, touch, rendering, or network integration is claimed.",
+  "source_sha256": "590a871be2723f72ca63ea8dde9a0b1cbd8e7168664b6d75879724dc4cc8dc7f",
+  "cap_warning_overwritten_by_line_cycle": {
+    "before": "Osiągnięto limit 5000×. Saldo uwzględnia tylko zaksięgowaną wypłatę.",
+    "after": "Linia 2 · Pik ×4 · Wypłata tej linii: 4,00 zł · ×4",
+    "last_free_spin_credit_units": 0,
+    "total_win_stays": "5000,00 zł",
+    "balance_correct": true
+  },
+  "change_language_during_spin": {
+    "language_control_enabled": true,
+    "total_before": "123,45 zł",
+    "total_after": "PLN 0.00",
+    "caption_after": "Complete round total · PLN 0.00",
+    "busy": true
+  },
+  "autoplay": {
+    "after_one_of_two_rounds_remaining": 1,
+    "scheduled_next": 1,
+    "stop_clears_scheduled": true,
+    "requests_after_stop": 1
+  }
+}

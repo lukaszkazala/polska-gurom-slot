@@ -1,0 +1,653 @@
+{
+  "method": "Independent waveform and source inspection only; no listening performed. Integer 16-bit WAV decoded to float64. True peaks checked with 8x scipy resample_poly including circular padding.",
+  "files": [
+    {
+      "file": "01_Karczma_Disco_BASE_120bpm_Dm.wav",
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "sample_rate": 44100,
+      "frames": 2822400,
+      "seconds": 64.0,
+      "sample_peak_dbfs": -1.5056208550292316,
+      "true_peak_dbtp_8x_circular": -1.4998418991311424,
+      "rms_dbfs": -16.122205937125695,
+      "clipped_samples": 0,
+      "dc_per_channel": [
+        -5.093436122210929e-05,
+        -4.328421724626537e-05
+      ],
+      "stereo_correlation": 0.9895084256099161,
+      "side_to_mid_db": -22.775634676798052,
+      "boundary_step": [
+        0.002044677734375,
+        0.003753662109375
+      ],
+      "sample_step_p999": 0.15887451171875,
+      "first_20ms_rms": 0.3019014295462266,
+      "last_20ms_rms": 0.05161117329971556,
+      "loop_frames_at_120bpm_divisible": true,
+      "loop_boundary_step_percentile": 44.731839828457986
+    },
+    {
+      "file": "02_Szarza_Husarza_BONUS_120bpm_Dm.wav",
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "sample_rate": 44100,
+      "frames": 1411200,
+      "seconds": 32.0,
+      "sample_peak_dbfs": -1.5698520858053668,
+      "true_peak_dbtp_8x_circular": -1.5000793870916707,
+      "rms_dbfs": -15.295483884191956,
+      "clipped_samples": 0,
+      "dc_per_channel": [
+        -9.31218421918735e-05,
+        -8.320319679588958e-05
+      ],
+      "stereo_correlation": 0.9905204568374385,
+      "side_to_mid_db": -23.213268400915155,
+      "boundary_step": [
+        0.000823974609375,
+        0.000335693359375
+      ],
+      "sample_step_p999": 0.207916259765625,
+      "first_20ms_rms": 0.3279374958031153,
+      "last_20ms_rms": 0.05535091340180418,
+      "loop_frames_at_120bpm_divisible": true,
+      "loop_boundary_step_percentile": 8.359310061869376
+    },
+    {
+      "file": "03_Wejscie_do_bonusu.wav",
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "sample_rate": 44100,
+      "frames": 176400,
+      "seconds": 4.0,
+      "sample_peak_dbfs": -1.505936103723144,
+      "true_peak_dbtp_8x_circular": -1.500157147825054,
+      "rms_dbfs": -19.19073214073668,
+      "clipped_samples": 0,
+      "dc_per_channel": [
+        -6.0270486775439344e-05,
+        -2.802479023836097e-05
+      ],
+      "stereo_correlation": 0.9803090751872641,
+      "side_to_mid_db": -19.910901443504173,
+      "boundary_step": [
+        0.0,
+        0.0
+      ],
+      "sample_step_p999": 0.28656143188475625,
+      "first_20ms_rms": 0.12753031354551667,
+      "last_20ms_rms": 4.4619946050281463e-05
+    },
+    {
+      "file": "04_Wygrana.wav",
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "sample_rate": 44100,
+      "frames": 88200,
+      "seconds": 2.0,
+      "sample_peak_dbfs": -1.5116125376282994,
+      "true_peak_dbtp_8x_circular": -1.500015232791196,
+      "rms_dbfs": -19.669785816876836,
+      "clipped_samples": 0,
+      "dc_per_channel": [
+        2.961796697845805e-06,
+        4.434390943877551e-06
+      ],
+      "stereo_correlation": 0.9803351806709948,
+      "side_to_mid_db": -20.02017279265653,
+      "boundary_step": [
+        0.0,
+        0.0
+      ],
+      "sample_step_p999": 0.08870248413085946,
+      "first_20ms_rms": 0.1594984877535715,
+      "last_20ms_rms": 1.0579586776414443e-05
+    },
+    {
+      "file": "05_Duza_wygrana.wav",
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "sample_rate": 44100,
+      "frames": 176400,
+      "seconds": 4.0,
+      "sample_peak_dbfs": -1.5056208550292316,
+      "true_peak_dbtp_8x_circular": -1.4998418991311424,
+      "rms_dbfs": -18.60020109260124,
+      "clipped_samples": 0,
+      "dc_per_channel": [
+        -0.00011275795311614229,
+        -0.00010965879271630528
+      ],
+      "stereo_correlation": 0.9928128349270681,
+      "side_to_mid_db": -24.402454593945926,
+      "boundary_step": [
+        0.0,
+        0.0
+      ],
+      "sample_step_p999": 0.27571438598632625,
+      "first_20ms_rms": 0.2587519113196957,
+      "last_20ms_rms": 3.163879548147618e-05
+    },
+    {
+      "file": "06_Czesciowy_zwrot.wav",
+      "channels": 2,
+      "sample_width_bytes": 2,
+      "sample_rate": 44100,
+      "frames": 88200,
+      "seconds": 2.0,
+      "sample_peak_dbfs": -18.040619798502895,
+      "true_peak_dbtp_8x_circular": -18.034840842604808,
+      "rms_dbfs": -36.393410559630986,
+      "clipped_samples": 0,
+      "dc_per_channel": [
+        2.3337989167020974e-06,
+        2.5562796733276644e-06
+      ],
+      "stereo_correlation": 0.9940690969736395,
+      "side_to_mid_db": -25.252053006028238,
+      "boundary_step": [
+        0.0,
+        0.0
+      ],
+      "sample_step_p999": 0.0087890625,
+      "first_20ms_rms": 0.06814550571322069,
+      "last_20ms_rms": 0.0
+    }
+  ],
+  "source_findings": [
+    {
+      "severity": "minor",
+      "location": "compose.py lp() plus render() stereo echo",
+      "finding": "lp calls scipy.signal.sosfilt with default axis=-1. The stereo echo source is N x 2, so its low-pass filter runs across the two stereo channels, not through time. This reduces and changes the stereo echo instead of applying its intended 4300 Hz temporal low-pass. Dry instruments and room reverb use mono arrays and are unaffected.",
+      "suggestion": "Pass axis=0 in lp() to handle mono and stereo audio consistently."
+    },
+    {
+      "severity": "minor",
+      "location": "compose.py save_midi()",
+      "finding": "BASE dulcimer MIDI has overlapping repeated note 74 at beats 114/114.5 and duplicate note 81 onset at beat 123, followed by redundant note-offs. Some MIDI players may shorten the repeated note. This is not evidence of a fault in synthesized WAV.",
+      "suggestion": "Merge overlapping intervals for identical track/note before MIDI serialization, retaining maximum velocity and latest note-off."
+    }
+  ],
+  "midi_checks": [
+    {
+      "file": "01_Karczma_Disco_BASE_120bpm_Dm.mid",
+      "format": 1,
+      "tracks": 8,
+      "ppq": 480,
+      "track_data": [
+        {
+          "name": "01_Karczma_Disco_BASE_120bpm_Dm",
+          "end_ticks": 61440,
+          "note_ons": 0,
+          "tempo_us": [
+            500000
+          ],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "accordion",
+          "end_ticks": 61440,
+          "note_ons": 108,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "dulcimer",
+          "end_ticks": 61440,
+          "note_ons": 122,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": [
+            "overlapping_same_note",
+            "unmatched_note_off",
+            "overlapping_same_note",
+            "unmatched_note_off"
+          ]
+        },
+        {
+          "name": "bass",
+          "end_ticks": 61440,
+          "note_ons": 192,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "chords",
+          "end_ticks": 61440,
+          "note_ons": 384,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "pad",
+          "end_ticks": 61440,
+          "note_ons": 96,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "brass",
+          "end_ticks": 61440,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "drums",
+          "end_ticks": 61440,
+          "note_ons": 476,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        }
+      ],
+      "valid_structure": true
+    },
+    {
+      "file": "02_Szarza_Husarza_BONUS_120bpm_Dm.mid",
+      "format": 1,
+      "tracks": 8,
+      "ppq": 480,
+      "track_data": [
+        {
+          "name": "02_Szarza_Husarza_BONUS_120bpm_Dm",
+          "end_ticks": 30720,
+          "note_ons": 0,
+          "tempo_us": [
+            500000
+          ],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "accordion",
+          "end_ticks": 30720,
+          "note_ons": 97,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "dulcimer",
+          "end_ticks": 30720,
+          "note_ons": 12,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "bass",
+          "end_ticks": 30720,
+          "note_ons": 128,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "chords",
+          "end_ticks": 30720,
+          "note_ons": 192,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "pad",
+          "end_ticks": 30720,
+          "note_ons": 48,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "brass",
+          "end_ticks": 30720,
+          "note_ons": 12,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "drums",
+          "end_ticks": 30720,
+          "note_ons": 398,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        }
+      ],
+      "valid_structure": true
+    },
+    {
+      "file": "03_Wejscie_do_bonusu.mid",
+      "format": 1,
+      "tracks": 8,
+      "ppq": 480,
+      "track_data": [
+        {
+          "name": "03_Wejscie_do_bonusu",
+          "end_ticks": 3840,
+          "note_ons": 0,
+          "tempo_us": [
+            500000
+          ],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "accordion",
+          "end_ticks": 3840,
+          "note_ons": 8,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "dulcimer",
+          "end_ticks": 3840,
+          "note_ons": 8,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "bass",
+          "end_ticks": 3840,
+          "note_ons": 1,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "chords",
+          "end_ticks": 3840,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "pad",
+          "end_ticks": 3840,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "brass",
+          "end_ticks": 3840,
+          "note_ons": 4,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "drums",
+          "end_ticks": 3840,
+          "note_ons": 11,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        }
+      ],
+      "valid_structure": true
+    },
+    {
+      "file": "04_Wygrana.mid",
+      "format": 1,
+      "tracks": 8,
+      "ppq": 480,
+      "track_data": [
+        {
+          "name": "04_Wygrana",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [
+            500000
+          ],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "accordion",
+          "end_ticks": 1920,
+          "note_ons": 3,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "dulcimer",
+          "end_ticks": 1920,
+          "note_ons": 4,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "bass",
+          "end_ticks": 1920,
+          "note_ons": 1,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "chords",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "pad",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "brass",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "drums",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        }
+      ],
+      "valid_structure": true
+    },
+    {
+      "file": "05_Duza_wygrana.mid",
+      "format": 1,
+      "tracks": 8,
+      "ppq": 480,
+      "track_data": [
+        {
+          "name": "05_Duza_wygrana",
+          "end_ticks": 3840,
+          "note_ons": 0,
+          "tempo_us": [
+            500000
+          ],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "accordion",
+          "end_ticks": 3840,
+          "note_ons": 8,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "dulcimer",
+          "end_ticks": 3840,
+          "note_ons": 4,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "bass",
+          "end_ticks": 3840,
+          "note_ons": 1,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "chords",
+          "end_ticks": 3840,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "pad",
+          "end_ticks": 3840,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "brass",
+          "end_ticks": 3840,
+          "note_ons": 4,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "drums",
+          "end_ticks": 3840,
+          "note_ons": 7,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        }
+      ],
+      "valid_structure": true
+    },
+    {
+      "file": "06_Czesciowy_zwrot.mid",
+      "format": 1,
+      "tracks": 8,
+      "ppq": 480,
+      "track_data": [
+        {
+          "name": "06_Czesciowy_zwrot",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [
+            500000
+          ],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "accordion",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "dulcimer",
+          "end_ticks": 1920,
+          "note_ons": 1,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "bass",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "chords",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "pad",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "brass",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        },
+        {
+          "name": "drums",
+          "end_ticks": 1920,
+          "note_ons": 0,
+          "tempo_us": [],
+          "dangling_note_ons": 0,
+          "issues": []
+        }
+      ],
+      "valid_structure": true
+    }
+  ],
+  "join_analysis": {
+    "01_Karczma_Disco_BASE_120bpm_Dm.wav": {
+      "boundary_max_abs": 0.003753662109375,
+      "boundary_dbfs": -48.510896470406394,
+      "interior_step_median": 0.00445556640625,
+      "interior_step_p99": 0.0948486328125,
+      "boundary_vs_p99_ratio": 0.03957528957528957,
+      "interpretation": "Boundary change is substantially below normal high-percentile adjacent-sample steps; no abnormal numerical discontinuity found. This is a numerical check, not a listening assertion."
+    },
+    "02_Szarza_Husarza_BONUS_120bpm_Dm.wav": {
+      "boundary_max_abs": 0.000823974609375,
+      "boundary_dbfs": -61.68172341601461,
+      "interior_step_median": 0.006378173828125,
+      "interior_step_p99": 0.123077392578125,
+      "boundary_vs_p99_ratio": 0.006694768162658071,
+      "interpretation": "Boundary change is substantially below normal high-percentile adjacent-sample steps; no abnormal numerical discontinuity found. This is a numerical check, not a listening assertion."
+    }
+  },
+  "partial_return_check": {
+    "rms_dbfs": -36.393410559630986,
+    "vs_regular_win_rms_db": -16.72362474275415,
+    "source_arrangement": "One D4 dulcimer pluck, no fanfare, drums, or celebratory chord. Output target -18 dBTP versus -1.5 dBTP for other cues."
+  }
+}

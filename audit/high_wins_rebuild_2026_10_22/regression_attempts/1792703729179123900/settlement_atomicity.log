@@ -1,0 +1,204 @@
+
+test_asdict_failure_leaves_wallet_and_idempotency_unchanged (__main__.AtomicSettlementTests.test_asdict_failure_leaves_wallet_and_idempotency_unchanged) ... ERROR
+test_cache_insert_failure_rolls_back_partial_entry (__main__.AtomicSettlementTests.test_cache_insert_failure_rolls_back_partial_entry) ... ERROR
+test_json_encoding_failure_occurs_before_commit (__main__.AtomicSettlementTests.test_json_encoding_failure_occurs_before_commit) ... ERROR
+test_output_failure_after_commit_keeps_exact_result_for_retry (__main__.AtomicSettlementTests.test_output_failure_after_commit_keeps_exact_result_for_retry) ... ERROR
+test_processed_id_failure_rolls_back_both_cache_and_wallet (__main__.AtomicSettlementTests.test_processed_id_failure_rolls_back_both_cache_and_wallet) ... ERROR
+test_wallet_endpoint_is_current_after_historical_result_retry (__main__.AtomicSettlementTests.test_wallet_endpoint_is_current_after_historical_result_retry) ... ERROR
+
+======================================================================
+ERROR: test_asdict_failure_leaves_wallet_and_idempotency_unchanged (__main__.AtomicSettlementTests.test_asdict_failure_leaves_wallet_and_idempotency_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_settlement_atomicity.py", line 32, in setUp
+    self.before=self.client.state()
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+======================================================================
+ERROR: test_cache_insert_failure_rolls_back_partial_entry (__main__.AtomicSettlementTests.test_cache_insert_failure_rolls_back_partial_entry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_settlement_atomicity.py", line 32, in setUp
+    self.before=self.client.state()
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+======================================================================
+ERROR: test_json_encoding_failure_occurs_before_commit (__main__.AtomicSettlementTests.test_json_encoding_failure_occurs_before_commit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_settlement_atomicity.py", line 32, in setUp
+    self.before=self.client.state()
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+======================================================================
+ERROR: test_output_failure_after_commit_keeps_exact_result_for_retry (__main__.AtomicSettlementTests.test_output_failure_after_commit_keeps_exact_result_for_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_settlement_atomicity.py", line 32, in setUp
+    self.before=self.client.state()
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+======================================================================
+ERROR: test_processed_id_failure_rolls_back_both_cache_and_wallet (__main__.AtomicSettlementTests.test_processed_id_failure_rolls_back_both_cache_and_wallet)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_settlement_atomicity.py", line 32, in setUp
+    self.before=self.client.state()
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+======================================================================
+ERROR: test_wallet_endpoint_is_current_after_historical_result_retry (__main__.AtomicSettlementTests.test_wallet_endpoint_is_current_after_historical_result_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_settlement_atomicity.py", line 32, in setUp
+    self.before=self.client.state()
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.628s
+
+FAILED (errors=6)

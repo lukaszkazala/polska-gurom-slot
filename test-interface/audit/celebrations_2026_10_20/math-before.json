@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\engine\\polska_gurom\\config.py",
+    "Hash": "7767DB5E864A4B05C23221438DCD13339AF2498597681CCA50B6EE4CC10AB322"
+  },
+  {
+    "Path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\engine\\polska_gurom\\game.py",
+    "Hash": "42401E6A16C511ABC9D9884A4D74B5D6643E290315EE5E63F635343665322DFB"
+  },
+  {
+    "Path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\engine\\polska_gurom\\selection.py",
+    "Hash": "A553F6662C6CE554CAAC815811A24E42B32747CD173EAFC7791F656B0D251BF6"
+  },
+  {
+    "Path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\server.py",
+    "Hash": "96EDE08914DE614A01174FC351DA20D1E4FA7BF94C9196B61284490EFDEE5973"
+  }
+]

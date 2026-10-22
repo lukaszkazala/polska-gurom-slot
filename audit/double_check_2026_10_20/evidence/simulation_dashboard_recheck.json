@@ -1,0 +1,661 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-20T10:23:43.674491+00:00",
+  "math_version": "0.4.1-weighted-12fs",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "checks_run": 100,
+  "checks_passed": 100,
+  "exact_route_a": {
+    "books": 100048,
+    "total_weight": 1000000000000,
+    "weighted_payout_units_sum": 96000000000000,
+    "weighted_squared_payout_units_sum": 496382004527938200,
+    "rtp_fraction": "24/25",
+    "variance_fraction": "2435830022639691/50000000000000",
+    "max_win_probability": "1/8000000",
+    "bonus_weights": {
+      "0": 995030064460,
+      "10": 286875670,
+      "8": 4679041094,
+      "12": 4018776
+    },
+    "bonus_books": {
+      "0": 99522,
+      "10": 29,
+      "8": 473,
+      "12": 24
+    }
+  },
+  "route_b": "SQLite integer SUMs and relational joins; every count, first/second moment, 8/10/12 bonus count matched route A",
+  "simulation_rechecks": [
+    {
+      "rounds": 10000000,
+      "total_payout_units": 961718220,
+      "squared_payout_units_sum": 5710323458800,
+      "rtp": 0.96171822,
+      "empirical_variance": 56.178332653320034,
+      "reference_z": 0.778467135214524,
+      "by_free_spins": {
+        "0": 9950389,
+        "10": 2789,
+        "8": 46769,
+        "12": 53
+      },
+      "max_win_hits": 2,
+      "both_routes_match": true
+    },
+    {
+      "rounds": 50000000,
+      "total_payout_units": 4806249610,
+      "squared_payout_units_sum": 26020621987700,
+      "rtp": 0.961249922,
+      "empirical_variance": 51.117242562855,
+      "reference_z": 1.2662790653774745,
+      "by_free_spins": {
+        "0": 49751352,
+        "10": 14395,
+        "8": 234023,
+        "12": 230
+      },
+      "max_win_hits": 8,
+      "both_routes_match": true
+    },
+    {
+      "rounds": 100000000,
+      "total_payout_units": 9601048170,
+      "squared_payout_units_sum": 48964478983900,
+      "rtp": 0.960104817,
+      "empirical_variance": 48.042677724273396,
+      "reference_z": 0.15017347766392708,
+      "by_free_spins": {
+        "0": 99503160,
+        "10": 29172,
+        "8": 467294,
+        "12": 374
+      },
+      "max_win_hits": 8,
+      "both_routes_match": true
+    }
+  ],
+  "regression_suite_counts": [
+    {
+      "id": "network-http",
+      "count": 17,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "network-logic",
+      "count": 30,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "autoplay",
+      "count": 13,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "portable",
+      "count": 27,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "cascade-engine",
+      "count": 10,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "server-api",
+      "count": 10,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "bonus12-coverage",
+      "count": 11,
+      "passed": true,
+      "count_basis": "unittest count/status plus independent AST method count; individual results not in original JSON"
+    },
+    {
+      "id": "bonus12-api",
+      "count": 10,
+      "passed": true,
+      "count_basis": "individual source check records"
+    },
+    {
+      "id": "bonus12-frontend",
+      "count": 7,
+      "passed": true,
+      "count_basis": "individual source check records"
+    }
+  ],
+  "standalone_reports": 166,
+  "game_zip_sha256": "d27d3f7f35b216f8991729a1366a178d7d8cb741e6fd6321b0d1632133d1882b",
+  "checks": [
+    {
+      "name": "LUT unique contiguous IDs, legal payouts, positive weights",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All current report LUT hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100048 book IDs and actual payload payouts equal LUT",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Book Scatter-to-bonus rules",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Route B SQL exact weighted moments equal route A integers",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Exact 96% RTP, cap and variance match written mathematics and simulation reference",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Written maths frequencies match exact sums",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Exact 8 FS books, weight, fraction, one-in and share",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Exact 10 FS books, weight, fraction, one-in and share",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Exact 12 FS books, weight, fraction, one-in and share",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Bonus derived means and RTP contribution",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Bonus waiting quantiles and series probabilities",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 histogram complete unique IDs, nonnegative counts and current LUT columns",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 original histogram SHA256",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 route B relational join matches every route A moment and bonus count",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 true count and payout/square sums equal report",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 RTP, empirical variance, SE, z and 95/99 intervals",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 hit, max and binomial exact intervals",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 0x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 >0x-1x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 1x-5x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 5x-20x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 20x-100x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 100x-500x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 500x-1000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 1000x-5000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 5000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 all 8/10/12 bonus counts and binomial z",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "10000000 dashboard active cards exactly match raw recomputation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 histogram complete unique IDs, nonnegative counts and current LUT columns",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 original histogram SHA256",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 route B relational join matches every route A moment and bonus count",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 true count and payout/square sums equal report",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 RTP, empirical variance, SE, z and 95/99 intervals",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 hit, max and binomial exact intervals",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 0x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 >0x-1x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 1x-5x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 5x-20x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 20x-100x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 100x-500x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 500x-1000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 1000x-5000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 5000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 all 8/10/12 bonus counts and binomial z",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "50000000 dashboard active cards exactly match raw recomputation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 histogram complete unique IDs, nonnegative counts and current LUT columns",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 original histogram SHA256",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 route B relational join matches every route A moment and bonus count",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 true count and payout/square sums equal report",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 RTP, empirical variance, SE, z and 95/99 intervals",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 hit, max and binomial exact intervals",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 0x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 >0x-1x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 1x-5x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 5x-20x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 20x-100x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 100x-500x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 500x-1000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 1000x-5000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 5000x bucket",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 all 8/10/12 bonus counts and binomial z",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "100000000 dashboard active cards exactly match raw recomputation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Dashboard exact summary matches fresh integers",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Dashboard current weighted volume contains no historical simulations",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All dashboard simulation/suite IDs unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "network-http individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "network-http dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "network-logic individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "network-logic dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "network-logic executed frontend source hash still current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "autoplay individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "autoplay dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "autoplay executed frontend source hash still current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "portable individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "portable dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "cascade-engine individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "cascade-engine dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "cascade-engine executed LUT still current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "server-api individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "server-api dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "server-api executed LUT still current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-coverage source actually declares every unittest",
+      "status": "PASS",
+      "detail": [
+        "test_all_configured_bonus_lengths_have_positive_exported_weight",
+        "test_natural_five_scatter_witness_is_a_real_complete_twelve_spin_round",
+        "test_exported_bonus_trigger_matches_initial_reel_windows",
+        "test_all_exported_bonus_events_replay_and_pass_independent_mechanics",
+        "test_twelve_spins_can_be_selected_at_both_integer_ticket_boundaries",
+        "test_exact_published_rtp_and_maximum_win_contract_remain_valid",
+        "test_adding_twelve_spin_variant_preserves_total_bonus_frequency",
+        "test_falsified_eight_spin_award_on_five_scatters_is_rejected",
+        "test_removing_all_twelve_spin_books_is_rejected_even_with_valid_lut_hash",
+        "test_zero_weight_twelve_spin_books_are_rejected_with_valid_lut_hash",
+        "test_falsified_twelve_spin_coverage_claim_is_rejected"
+      ]
+    },
+    {
+      "name": "bonus12-coverage dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-coverage executed LUT still current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-api individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-api dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-frontend individual source records are unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-frontend dashboard count and passed cases equal source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bonus12-frontend executed frontend source hash still current",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "135 tests are sum of nine current suites only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Standalone data exactly matches active JSON, no external scripts/styles",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Dashboard embed JS exact data",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Every registered raw report exact across disk, manifest and standalone",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "All 139 historical report SHA256s preserved with explicit archive prefix",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Delivered standalone identical to tested standalone",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "19 game ZIP files byte-identical to current source, engine and all exports",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "Game ZIP hash equals delivery and portable run",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "All math file hashes identify current package bytes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Engine fingerprints identify current source bytes",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "limitations": [
+    "This is a fresh recalculation of original 160M histograms, not a claim of new 160M draws.",
+    "Arbitrary-precision integer aggregation and separate SQLite joins are independent calculation routes; both consume the same immutable raw evidence.",
+    "95/99 normal bands quantify sampling noise of this finite model and are not Stake certification or a universal pass criterion.",
+    "135 counts distinct checks across nine suites, with overlapping behaviors intentionally covered at several layers; it does not mean 135 disjoint requirements.",
+    "Coverage source report records suite count/status rather than 11 individual results; AST count independently matches its 11 methods.",
+    "Transport tests use localhost and a virtual wallet. Server memory is lost at restart and full replay cache holds only 100 results; tombstones prevent duplicate settlement but do not provide persistent financial history.",
+    "No live remote deployment/API claim is made by this file audit. Root audit checks official documentation and publication separately."
+  ]
+}

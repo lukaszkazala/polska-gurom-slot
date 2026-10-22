@@ -1,0 +1,298 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "method": "Real legacy app.js in a minimal DOM with virtual time and a local API double; actual current weighted cap books plus an engine-produced exact-cap boundary fixture. No visual/browser claim.",
+  "source_sha256": "77b9d7505fb12190be9fb375abd00ffb741d0cf88f8e463616fe1b35aca9ebb8",
+  "tests_run": 45,
+  "passed": 45,
+  "checks": [
+    {
+      "name": "cap pl animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap pl instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap pl skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap en animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap en instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap en skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap de animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap de instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "cap de skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100020,
+      "played": 0,
+      "awarded": 0
+    },
+    {
+      "name": "bonus_cap8 pl animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 pl instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 pl skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 en animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 en instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 en skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 de animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 de instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap8 de skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100193,
+      "played": 1,
+      "awarded": 8
+    },
+    {
+      "name": "bonus_cap10 pl animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 pl instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 pl skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 en animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 en instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 en skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 de animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 de instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap10 de skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100267,
+      "played": 1,
+      "awarded": 10
+    },
+    {
+      "name": "bonus_cap12 pl animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 pl instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 pl skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 en animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 en instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 en skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 de animated: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 de instant: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "bonus_cap12 de skip-screens: cap payout and awarded FS count",
+      "passed": true,
+      "book_id": 100342,
+      "played": 1,
+      "awarded": 12
+    },
+    {
+      "name": "synthetic exact cap pl animated: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap pl instant: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap pl skip-screens: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap en animated: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap en instant: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap en skip-screens: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap de animated: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap de instant: no reduction still states cap",
+      "passed": true
+    },
+    {
+      "name": "synthetic exact cap de skip-screens: no reduction still states cap",
+      "passed": true
+    }
+  ],
+  "status": "pass"
+}

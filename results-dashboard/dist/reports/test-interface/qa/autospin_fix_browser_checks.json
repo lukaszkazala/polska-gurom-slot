@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-10-19T16:07:02.275Z",
+  "passed": true,
+  "method": "Browser UI with the actual local Python game engine; normal-speed logic is verified separately with the virtual-clock regression suite.",
+  "series": [
+    {
+      "mode": "turbo",
+      "start_paid_rounds": 0,
+      "end_paid_rounds": 100,
+      "series_progress": "100 / 100"
+    },
+    {
+      "mode": "instant",
+      "start_paid_rounds": 100,
+      "end_paid_rounds": 200,
+      "series_progress": "100 / 100"
+    }
+  ],
+  "console_errors": [],
+  "screenshots": [
+    "autospin-100-turbo.jpg",
+    "autospin-100-instant.jpg"
+  ]
+}

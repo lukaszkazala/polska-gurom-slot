@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "math_version": "0.5.0-any-start",
+  "line_sequences_exhaustively_checked": 100000,
+  "cascade_stages_checked": 212009,
+  "line_awards_checked": 367959,
+  "complete_books_checked": 100049,
+  "rtp_exact_fraction": "24/25",
+  "total_weight": 1000000000000,
+  "max_win_one_in": "8000000",
+  "bonus_weight_by_free_spins": {
+    "10": 286875670,
+    "8": 4679041094,
+    "12": 4018776
+  },
+  "offset_winning_spins_in_bank": 56527,
+  "screenshot": {
+    "first_grid": [
+      [
+        "P1",
+        "L1",
+        "L1",
+        "L1",
+        "P3"
+      ],
+      [
+        "L3",
+        "P2",
+        "P4",
+        "P1",
+        "L1"
+      ],
+      [
+        "P4",
+        "L4",
+        "L3",
+        "L2",
+        "SCATTER"
+      ]
+    ],
+    "line_id": 4,
+    "start_reel": 1,
+    "count": 3,
+    "line_payout_units": 10,
+    "round_payout_units": 30,
+    "all_winning_lines": [
+      4,
+      12,
+      20
+    ],
+    "removed_positions": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "published_book_id": 100048
+  },
+  "elapsed_seconds": 12.93
+}

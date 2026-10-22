@@ -1,0 +1,26 @@
+[
+  {
+    "suite": "test_server",
+    "exit_code": 0,
+    "seconds": 3.234,
+    "log": "test_server_unrestricted.log"
+  },
+  {
+    "suite": "test_cascades",
+    "exit_code": 0,
+    "seconds": 0.516,
+    "log": "test_cascades_unrestricted.log"
+  },
+  {
+    "suite": "test_bonus12_api",
+    "exit_code": 0,
+    "seconds": 20.656,
+    "log": "test_bonus12_api_unrestricted.log"
+  },
+  {
+    "suite": "test_network_faults",
+    "exit_code": 0,
+    "seconds": 5.891,
+    "log": "test_network_faults_unrestricted.log"
+  }
+]

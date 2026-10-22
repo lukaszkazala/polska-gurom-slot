@@ -1,0 +1,58 @@
+PASS pl animated: capped base reports its granted payout
+PASS pl animated: bonus ends at 2/8 and explains the six unused spins
+PASS pl animated: base reaches cap before awarded bonus starts (0/8)
+PASS pl animated: exact 5000x with no reduction still reports the limit
+PASS pl instant: capped base reports its granted payout
+PASS pl instant: bonus ends at 2/8 and explains the six unused spins
+PASS pl instant: base reaches cap before awarded bonus starts (0/8)
+PASS pl instant: exact 5000x with no reduction still reports the limit
+PASS pl skip-screens: capped base reports its granted payout
+PASS pl skip-screens: bonus ends at 2/8 and explains the six unused spins
+PASS pl skip-screens: base reaches cap before awarded bonus starts (0/8)
+PASS pl skip-screens: exact 5000x with no reduction still reports the limit
+PASS en animated: capped base reports its granted payout
+PASS en animated: bonus ends at 2/8 and explains the six unused spins
+PASS en animated: base reaches cap before awarded bonus starts (0/8)
+PASS en animated: exact 5000x with no reduction still reports the limit
+PASS en instant: capped base reports its granted payout
+PASS en instant: bonus ends at 2/8 and explains the six unused spins
+PASS en instant: base reaches cap before awarded bonus starts (0/8)
+PASS en instant: exact 5000x with no reduction still reports the limit
+PASS en skip-screens: capped base reports its granted payout
+PASS en skip-screens: bonus ends at 2/8 and explains the six unused spins
+PASS en skip-screens: base reaches cap before awarded bonus starts (0/8)
+PASS en skip-screens: exact 5000x with no reduction still reports the limit
+PASS de animated: capped base reports its granted payout
+PASS de animated: bonus ends at 2/8 and explains the six unused spins
+PASS de animated: base reaches cap before awarded bonus starts (0/8)
+PASS de animated: exact 5000x with no reduction still reports the limit
+PASS de instant: capped base reports its granted payout
+PASS de instant: bonus ends at 2/8 and explains the six unused spins
+PASS de instant: base reaches cap before awarded bonus starts (0/8)
+PASS de instant: exact 5000x with no reduction still reports the limit
+PASS de skip-screens: capped base reports its granted payout
+PASS de skip-screens: bonus ends at 2/8 and explains the six unused spins
+PASS de skip-screens: base reaches cap before awarded bonus starts (0/8)
+PASS de skip-screens: exact 5000x with no reduction still reports the limit
+PASS pl: reduced line detail separates raw line win from granted stage payout
+PASS en: reduced line detail separates raw line win from granted stage payout
+PASS de: reduced line detail separates raw line win from granted stage payout
+PASS pl: cap on the final awarded free spin shows 8/8 without unused spins
+PASS en: cap on the final awarded free spin shows 8/8 without unused spins
+PASS de: cap on the final awarded free spin shows 8/8 without unused spins
+PASS Saved capped bonus replay uses its historic stake and leaves all wallet state unchanged
+43/47 cap message checks passed
+
+FAIL RGS reload resumes capped bonus at 1/8 then ends at 2/8 with one charge and settlement: No continuation while waiting: first FS checkpoint acknowledged
+FAIL pl RGS USD: cap amount uses authenticated currency and the paid stake: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+FAIL en RGS JPY: cap amount uses authenticated currency and the paid stake: The game result could not be verified. New bets are blocked. Reopen the game from the lobby.
+
+false !== true
+
+FAIL de RGS KWD: cap amount uses authenticated currency and the paid stake: Das Spielergebnis konnte nicht bestätigt werden. Neue Einsätze sind gesperrt. Öffne das Spiel erneut aus der Lobby.
+
+false !== true
+

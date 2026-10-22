@@ -1,0 +1,18 @@
+{
+  "docs\\GAME_DESIGN_DOCUMENT.md": "8631a03eb7f6058229c06ccf41919470a1fd29843a2c87ed1799a705cbc2257a",
+  "docs\\MATH_SPECIFICATION.md": "116155c29a7bb9f6c5b162dcf43f0b81b31244f020165b528bf7c39295b9f272",
+  "docs\\PAR_SHEET.md": "b2fc38fb8a9c5cdba56997f98b048b66fbcaffedd102785bccfc55757f4ece6f",
+  "PHASE2_REPORT.md": "032f6f0fb33813354c3a3fef4ff4d17a313fe8c2de90581ac05b26e8b78224fd",
+  "polska_gurom\\__init__.py": "034d25a6750a83eab7cbf6fe70dde3285f6eae41931a36f6633fe019cf5608bb",
+  "polska_gurom\\config.py": "f4eefd938c675753a21072287eeba35ec0a26d4286974228d05122f070b5783a",
+  "polska_gurom\\game.py": "2f7763c50c6b7f7e4023bfbf420736239f0dce5f55cd0e82ede1c389bb761d60",
+  "polska_gurom\\sim.py": "271b7bb8cab6fca4892a7acb1c0bb12abc48a16508c55aa5d51929fb58ba53ea",
+  "polska_gurom\\theory.py": "399a03bca96201621b273307bca51b7942cc6904944bf713145bfaf3988b6f11",
+  "pyproject.toml": "863de7a264ea817b97f54bec997faf60c4064a8ee138444f8633b8a46f1b859b",
+  "README.md": "e9f777ff338765a303ac79fad23f4cd502089426c501f6d8c37f3b81023abe4e",
+  "simulation_10000.json": "23e24b63618f3d0a029e68fc5422de69b7bdfff24ac032fafbdf409ab5ec695b",
+  "simulation_100000.json": "a26e86ae6521b1fd0c53b987b2755be99fa275599d84c9661fcc706ea00a135e",
+  "simulation_1m.json": "9d8954c88a694ca8756244ea37b9a651888e2efd87c784823c1c3f8af7a4f86b",
+  "tests\\test_math.py": "5dca01bbdd65bbe856179f52ddacd1e039b8c75f03c613e8afa0bb92bfcac17b",
+  "theory.json": "1a51499eae5309d070fe69a9f1dac2877768b40a2326c68a6b5e3c18a9179fa1"
+}

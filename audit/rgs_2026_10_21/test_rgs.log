@@ -1,0 +1,61 @@
+PASS Ordinary local launch keeps demo and requires no RGS
+PASS Reject incomplete or unsupported launch ?sessionID=…
+PASS Reject incomplete or unsupported launch ?rgs_url=host.test
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=https://host.test
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=bad.test/path
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=user@host.test
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test%23x
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test&replay=true
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test&social=true
+PASS RGS host uses HTTPS; loopback HTTP only on the exact same host and port
+PASS Unsupported launch language falls back to English
+PASS Authenticate precedes wallet calls; configured levels/default/currency are authoritative
+PASS Invalid authenticated betting configuration blocks play 12
+PASS Invalid authenticated betting configuration blocks play 13
+PASS Invalid authenticated betting configuration blocks play 14
+PASS Invalid authenticated betting configuration blocks play 15
+PASS Invalid authenticated betting configuration blocks play 16
+PASS Invalid authenticated betting configuration blocks play 17
+PASS Integer payout arithmetic remains exact above safe multiplication range
+PASS Real loss book: one debit, payout only at finish, no end for zero
+PASS Real bonus8 book: one debit, payout only at finish, no end for zero
+PASS Real cap book: one debit, payout only at finish, no end for zero
+PASS Real middle book: one debit, payout only at finish, no end for zero
+PASS Real bonus12 book: one debit, payout only at finish, no end for zero
+PASS Same result retry never issues a second play
+PASS Uncertain play lost-response recovers through authenticate without another debit
+PASS Uncertain play bad-json recovers through authenticate without another debit
+PASS Uncertain request with no identifiable round remains blocked, including after reload
+PASS Uncertain closed zero payout with no returned last round is never resent
+PASS Uncertain closed zero payout with identifiable last round can be recovered
+PASS Lost end-round response recovers settled balance without a second payout
+PASS Fresh browser resumes active authenticated round without play
+PASS A different active round cannot be ended by a stale client
+PASS Explicit insufficient rejection makes no debit
+PASS Explicit expired rejection makes no debit
+PASS Explicit invalid rejection makes no debit
+PASS Malformed or incompatible RGS result blocks settlement 36
+PASS Malformed or incompatible RGS result blocks settlement 37
+PASS Malformed or incompatible RGS result blocks settlement 38
+PASS Malformed or incompatible RGS result blocks settlement 39
+PASS Malformed or incompatible RGS result blocks settlement 40
+PASS Malformed or incompatible RGS result blocks settlement 41
+PASS Session token is absent from persisted recovery state and normalized result
+PASS Actual app.js presents and settles RGS loss using real validation
+PASS Actual app.js presents and settles RGS middle using real validation
+PASS Actual app.js presents and settles RGS bonus12 using real validation
+PASS Actual app.js presents and settles RGS cap using real validation
+PASS Actual UI keeps failed settlement pending and retries without play
+PASS Actual UI reload during 12 free spins resumes one paid round
+PASS Actual UI never automatically resends an ambiguous autoplay bet
+PASS Minimum and maximum configured stakes can be played; out-of-list stake cannot
+PASS Idle wallet polling reads platform balance
+PASS Delayed balance read cannot overwrite a newer play response
+PASS Chosen platform stake survives reload without replacing the local-demo preference
+PASS Full bonus finishes presentation before end-round is called
+PASS Currency JPY uses the platform denomination
+PASS Currency KWD uses the platform denomination
+PASS Broken cascade response never reaches end-round
+PASS RGS-only build without launch parameters makes no local API calls
+PASS Invalid RGS launch fails closed without local-demo fallback
+{"passed":true,"total":60,"failed":0}

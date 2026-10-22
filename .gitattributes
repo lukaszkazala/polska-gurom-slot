@@ -1,2 +1,4 @@
-# Keep byte-based source hashes stable across Windows and cloud checkouts.
-* text=auto eol=lf
+# Preserve exact bytes on checkout and commit, including across operating systems.
+# The selector validates SHA256 fingerprints of source files and exported weights;
+# automatic CRLF/LF conversion would invalidate an otherwise unchanged math bank.
+* -text

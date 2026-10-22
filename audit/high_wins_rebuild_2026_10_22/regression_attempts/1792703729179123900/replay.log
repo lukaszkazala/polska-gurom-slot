@@ -1,0 +1,177 @@
+PASS Local saved loss: exact replay twice, no new wallet operation
+PASS Local saved middle: exact replay twice, no new wallet operation
+PASS Local saved bonus8: exact replay twice, no new wallet operation
+PASS Local saved bonus12: exact replay twice, no new wallet operation
+PASS Local saved cap: exact replay twice, no new wallet operation
+PASS Replay ignores unrelated completed recovery progress
+PASS Main and details replay buttons use the selected saved round
+PASS Failed or malformed standalone launch stays blocked without demo fallback 27
+PASS Failed or malformed standalone launch stays blocked without demo fallback 28
+PASS Failed or malformed standalone launch stays blocked without demo fallback 29
+PASS Failed or malformed standalone launch stays blocked without demo fallback 30
+PASS Failed or malformed standalone launch stays blocked without demo fallback 31
+PASS Failed or malformed standalone launch stays blocked without demo fallback 32
+{"passed":false,"total":34,"failed":21}
+
+FAIL RGS saved loss: exact replay twice, no new wallet operation: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:82:35
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:81:5)
+FAIL RGS saved middle: exact replay twice, no new wallet operation: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:82:35
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:81:5)
+FAIL RGS saved bonus8: exact replay twice, no new wallet operation: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:82:35
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:81:5)
+FAIL RGS saved bonus12: exact replay twice, no new wallet operation: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:82:35
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:81:5)
+FAIL RGS saved cap: exact replay twice, no new wallet operation: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:82:35
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:81:5)
+FAIL Saved complete bonus remains playable offline: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:93:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:92:3)
+FAIL Saved replay is refused while pending: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:97:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:96:71)
+FAIL Saved replay is refused while auto: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:97:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:96:71)
+FAIL Saved replay is refused while busy: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:97:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:96:71)
+FAIL Saved replay is refused while walletReading: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:97:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:96:71)
+FAIL Malformed saved result is blocked before presentation 17: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:121:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:120:6)
+FAIL Malformed saved result is blocked before presentation 18: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:121:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:120:6)
+FAIL Malformed saved result is blocked before presentation 19: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:121:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:120:6)
+FAIL Malformed saved result is blocked before presentation 20: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:121:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:120:6)
+FAIL Settled RGS history survives reload without creating a new round: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 1
+
+    at saved (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:58:10)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:128:33
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:127:3)
+FAIL Standalone loss replay launches without a session or wallet: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:137:12
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:135:70)
+FAIL Standalone middle replay launches without a session or wallet: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:137:12
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:135:70)
+FAIL Standalone bonus8 replay launches without a session or wallet: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:137:12
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:135:70)
+FAIL Standalone bonus12 replay launches without a session or wallet: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:137:12
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:135:70)
+FAIL Standalone cap replay launches without a session or wallet: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:137:12
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:135:70)
+FAIL A replay link ignores a supplied session token and never authenticates it: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:160:32
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_replay.cjs:158:3)

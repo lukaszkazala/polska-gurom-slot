@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "method": "Real audio module with a simulated Web Audio graph; real app with engine fixtures and virtual time. Browser/subjective listening recorded separately.",
+  "checks": [
+    {
+      "name": "No audio before a user gesture; all six local buffers decode once",
+      "passed": true
+    },
+    {
+      "name": "Only positive net wins use fanfares; partial/break-even returns remain quiet",
+      "passed": true
+    },
+    {
+      "name": "Crossfade bonus loop; immediate master mute cuts a fanfare and persists",
+      "passed": true
+    },
+    {
+      "name": "Hidden tabs are silent; returning never replays an old cue",
+      "passed": true
+    },
+    {
+      "name": "Saved mute, missing files, unavailable storage and blocked audio are nonfatal",
+      "passed": true
+    },
+    {
+      "name": "Late buffers never play a stale win; closing page releases audio",
+      "passed": true
+    },
+    {
+      "name": "turbo partial, reduced motion false: readable AUTO hold >=900ms",
+      "passed": true
+    },
+    {
+      "name": "turbo win, reduced motion false: readable AUTO hold >=1200ms",
+      "passed": true
+    },
+    {
+      "name": "turbo big, reduced motion false: readable AUTO hold >=1800ms",
+      "passed": true
+    },
+    {
+      "name": "turbo cap, reduced motion false: readable AUTO hold >=2400ms",
+      "passed": true
+    },
+    {
+      "name": "turbo partial, reduced motion true: readable AUTO hold >=900ms",
+      "passed": true
+    },
+    {
+      "name": "turbo win, reduced motion true: readable AUTO hold >=1200ms",
+      "passed": true
+    },
+    {
+      "name": "turbo big, reduced motion true: readable AUTO hold >=1800ms",
+      "passed": true
+    },
+    {
+      "name": "turbo cap, reduced motion true: readable AUTO hold >=2400ms",
+      "passed": true
+    },
+    {
+      "name": "instant partial, reduced motion false: readable AUTO hold >=900ms",
+      "passed": true
+    },
+    {
+      "name": "instant win, reduced motion false: readable AUTO hold >=1200ms",
+      "passed": true
+    },
+    {
+      "name": "instant big, reduced motion false: readable AUTO hold >=1800ms",
+      "passed": true
+    },
+    {
+      "name": "instant cap, reduced motion false: readable AUTO hold >=2400ms",
+      "passed": true
+    },
+    {
+      "name": "instant partial, reduced motion true: readable AUTO hold >=900ms",
+      "passed": true
+    },
+    {
+      "name": "instant win, reduced motion true: readable AUTO hold >=1200ms",
+      "passed": true
+    },
+    {
+      "name": "instant big, reduced motion true: readable AUTO hold >=1800ms",
+      "passed": true
+    },
+    {
+      "name": "instant cap, reduced motion true: readable AUTO hold >=2400ms",
+      "passed": true
+    },
+    {
+      "name": "Winning cascade frames remain visible >=450ms even in turbo/reduced motion",
+      "passed": true
+    },
+    {
+      "name": "Mute remains operable during a spin, with all localized labels",
+      "passed": true
+    }
+  ]
+}

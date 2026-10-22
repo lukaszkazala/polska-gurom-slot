@@ -1,0 +1,165 @@
+{
+  "scope": "Exact current finite weighted complete-round model; no game rules or weights changed",
+  "math_version": "0.4.0-weighted",
+  "lut_sha256": "6f41f22a102a96658b8326aa500607a64eaa77df7e705e1ac217a9da2f2c58fe",
+  "total_weight": 1000000000000,
+  "bonus_weight": 4969935540,
+  "probability_fraction": "248496777/50000000000",
+  "bonus_probability": 0.00496993554,
+  "mean_paid_rounds_to_bonus": 201.2098531161231,
+  "waiting_time_quantiles": {
+    "0.5": 140,
+    "0.9": 463,
+    "0.95": 602,
+    "0.99": 925
+  },
+  "bonus_types": [
+    {
+      "scatters": 3,
+      "free_spins": 8,
+      "books": 473,
+      "weight": 4682827710,
+      "probability_fraction": "468282771/100000000000",
+      "probability": 0.00468282771,
+      "one_in": 213.5461866052723,
+      "share_of_bonuses": 0.9422310756972112
+    },
+    {
+      "scatters": 4,
+      "free_spins": 10,
+      "books": 29,
+      "weight": 287107830,
+      "probability_fraction": "28710783/100000000000",
+      "probability": 0.00028710783,
+      "one_in": 3483.011940148062,
+      "share_of_bonuses": 0.05776892430278884
+    },
+    {
+      "scatters": 5,
+      "free_spins": 12,
+      "books": 0,
+      "weight": 0,
+      "probability_fraction": "0",
+      "probability": 0.0,
+      "one_in": null,
+      "share_of_bonuses": 0.0
+    }
+  ],
+  "series_probabilities": [
+    {
+      "paid_rounds": 25,
+      "expected_bonus_count": 0.12424838850000001,
+      "probability_at_least_one_bonus": 0.1171130963857141,
+      "probability_no_bonus": 0.8828869036142859
+    },
+    {
+      "paid_rounds": 50,
+      "expected_bonus_count": 0.24849677700000003,
+      "probability_at_least_one_bonus": 0.22051071542637865,
+      "probability_no_bonus": 0.7794892845736213
+    },
+    {
+      "paid_rounds": 100,
+      "expected_bonus_count": 0.49699355400000006,
+      "probability_at_least_one_bonus": 0.39239645523490396,
+      "probability_no_bonus": 0.607603544765096
+    },
+    {
+      "paid_rounds": 200,
+      "expected_bonus_count": 0.9939871080000001,
+      "probability_at_least_one_bonus": 0.63081793238889,
+      "probability_no_bonus": 0.36918206761111005
+    },
+    {
+      "paid_rounds": 500,
+      "expected_bonus_count": 2.4849677700000004,
+      "probability_at_least_one_bonus": 0.9171864324047115,
+      "probability_no_bonus": 0.08281356759528849
+    },
+    {
+      "paid_rounds": 1000,
+      "expected_bonus_count": 4.969935540000001,
+      "probability_at_least_one_bonus": 0.9931419130221406,
+      "probability_no_bonus": 0.006858086977859417
+    }
+  ],
+  "previous_simulations_aggregated": [
+    {
+      "rounds": 10000000,
+      "bonuses": 49775,
+      "bonus_frequency": 0.0049775,
+      "one_in": 200.90406830738323,
+      "by_free_spins": {
+        "0": 9950225,
+        "10": 2950,
+        "8": 46825
+      },
+      "expected_bonuses": 49699.35540000001,
+      "binomial_z": 0.3401609464740093,
+      "histogram_file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\stake_cascades_v04\\fast_sim\\weighted_results\\outcome_counts_10000000.csv",
+      "histogram_header": [
+        "id",
+        "weight",
+        "payout_units",
+        "observed_count"
+      ]
+    },
+    {
+      "rounds": 50000000,
+      "bonuses": 247509,
+      "bonus_frequency": 0.00495018,
+      "one_in": 202.01285609816208,
+      "by_free_spins": {
+        "0": 49752491,
+        "10": 14281,
+        "8": 233228
+      },
+      "expected_bonuses": 248496.77700000003,
+      "binomial_z": -1.9864627605472456,
+      "histogram_file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\stake_cascades_v04\\fast_sim\\weighted_results\\outcome_counts_50000000.csv",
+      "histogram_header": [
+        "id",
+        "weight",
+        "payout_units",
+        "observed_count"
+      ]
+    },
+    {
+      "rounds": 100000000,
+      "bonuses": 495905,
+      "bonus_frequency": 0.00495905,
+      "one_in": 201.651525997923,
+      "by_free_spins": {
+        "0": 99504095,
+        "10": 28634,
+        "8": 467271
+      },
+      "expected_bonuses": 496993.55400000006,
+      "binomial_z": -1.5479484673407733,
+      "histogram_file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\stake_cascades_v04\\fast_sim\\weighted_results\\outcome_counts_100000000.csv",
+      "histogram_header": [
+        "id",
+        "weight",
+        "payout_units",
+        "observed_count"
+      ]
+    }
+  ],
+  "mean_awarded_free_spins_per_bonus": 8.115537848605578,
+  "bonus_with_at_least_one_expansion_probability": 0.9083665338645418,
+  "conditional_mean_credited_free_spin_return_x_bet": 45.70517928286853,
+  "free_spin_rtp_contribution": 0.22715179488,
+  "missing_declared_bonus_types": [
+    {
+      "scatters": 5,
+      "free_spins": 12,
+      "books": 0,
+      "weight": 0,
+      "probability_fraction": "0",
+      "probability": 0.0,
+      "one_in": null,
+      "share_of_bonuses": 0.0
+    }
+  ],
+  "note": "Waiting-time probabilities count independent paid rounds; free spins and cascades inside a round do not count as new trigger trials."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "math_version": "0.4.1-weighted-12fs",
+  "game_zip": "test-interface/POLSKA_GUROM_v0_4_1_12FS_FIX.zip",
+  "game_zip_sha256": "d27d3f7f35b216f8991729a1366a178d7d8cb741e6fd6321b0d1632133d1882b",
+  "dashboard_html": "audit/dashboard_delivery/POLSKA_GUROM_DASHBOARD.html",
+  "dashboard_report_count": 166,
+  "dashboard_current_regression_checks": 135,
+  "source_commit": "21551ee1339daf225588bdb84326e716349b2921",
+  "deployment_id": "appgdep_6ad73e82fe1081919bf8c95624277969",
+  "saved_version_id": "appgprj_6ad66828d1048191bdde48b33a580369~appgver_1db421b6fe4c81918235f0338f7ce501",
+  "deployment_status": "succeeded",
+  "url": "https://polska-gurom-wyniki-20261019.bronzebrook7.chatgpt.site",
+  "audience": "Existing owner-only policy retained",
+  "browser_verified": "Current hosted #bonus:24 positive-weight12FS results;53/230/374 hits in10/50/100M;local standalone report modal and135/135 test view verified",
+  "screenshot": "audit/bonus12_fix_2026_10_20/dashboard_12fs_published.png"
+}

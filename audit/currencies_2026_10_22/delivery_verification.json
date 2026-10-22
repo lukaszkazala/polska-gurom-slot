@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "date": "2026-10-22",
+  "packages": [
+    {
+      "file": "POLSKA_GUROM_RGS_FRONTEND.zip",
+      "sha256": "2681427d1f6d6fdc68616936c77bf3ce0581b18951984dabbdbb28efd3c5c0b2"
+    },
+    {
+      "file": "POLSKA_GUROM_RGS_TEST.zip",
+      "sha256": "d0f2402fd39d722e2956ea22ad0ce2ecb34d8ca270bc716120ad7867639e58f9"
+    }
+  ],
+  "package_checks": [
+    {
+      "package": "POLSKA_GUROM_RGS_FRONTEND.zip",
+      "passed": true,
+      "files": 18
+    },
+    {
+      "package": "POLSKA_GUROM_RGS_TEST.zip",
+      "passed": true,
+      "files": 31
+    }
+  ],
+  "test_reports": [
+    {
+      "file": "platform_currency_results.json",
+      "passed": true,
+      "checks": 53
+    },
+    {
+      "file": "rgs_results.json",
+      "passed": true,
+      "checks": 60
+    },
+    {
+      "file": "rgs_recovery_results.json",
+      "passed": true,
+      "checks": 33
+    },
+    {
+      "file": "audit_fixes_frontend.json",
+      "passed": true,
+      "checks": 28
+    },
+    {
+      "file": "autoplay_logic_results.json",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "file": "frontend_12fs_results.json",
+      "passed": true,
+      "checks": 7
+    },
+    {
+      "file": "any_start_frontend.json",
+      "passed": true,
+      "checks": 3
+    }
+  ],
+  "frontend_source_sha256": "f22cb4e50b1c06c346730ec4b2a0190fc31750ecb4b72fc8c0e690cb08dff855",
+  "transport_source_sha256": "004dce74c3bc66edd2066b5906e49aed2f071db2ded640aae53e070572fbe3ea",
+  "live_platform_acceptance": false
+}

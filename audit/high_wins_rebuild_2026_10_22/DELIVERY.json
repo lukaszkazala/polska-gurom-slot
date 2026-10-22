@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "math_version": "0.6.0-high-wins",
+  "same_bank_in_both_local_variants": true,
+  "tested_sources_still_current": true,
+  "all_zip_contents_match_current_files": true,
+  "protected_baseline": {
+    "unchanged_game_rules": true,
+    "config_change_only_version": true,
+    "sources_directory_present": true,
+    "sources_modified_by_task": false
+  },
+  "archives": {
+    "test-interface-any-start\\POLSKA_GUROM_TESTER.zip": {
+      "sha256": "55f170375b1b20311c4fd7d89aaffecbe9d9ffbcc62cc6ee116524b9626b7d63",
+      "bytes": 42138859
+    },
+    "test-interface\\POLSKA_GUROM_TESTER.zip": {
+      "sha256": "642f34c030ad1890305a7ea98a1ff90a25e44bcf799e1b609b0df356a6855a48",
+      "bytes": 26726221
+    },
+    "test-interface-any-start\\POLSKA_GUROM_RGS_FRONTEND.zip": {
+      "sha256": "9896f172fb5ed9f869403c6da3da93b1f94437a561bdd04ac1ac0890b15cc848",
+      "bytes": 31783533
+    },
+    "test-interface-any-start\\POLSKA_GUROM_RGS_TEST.zip": {
+      "sha256": "3417576775b00694a277131c1b774bd226a654c3649e9a3fcc792f0ffcc9637b",
+      "bytes": 31822698
+    },
+    "audit\\high_wins_rebuild_2026_10_22\\POLSKA_GUROM_MATH_v0_6_0_HIGH_WINS.zip": {
+      "sha256": "7f39e8397cec439186294597dfce8d2e1511c6d16d631d69dadb6cba3e16139d",
+      "bytes": 10319248
+    }
+  },
+  "provenance_sha256": {
+    "test-interface-any-start\\build_math.py": "c3ef945a57e4f63a2da85e3a76bee29436afc19cb27d1539fa1f7a4934df3e41",
+    "test-interface-any-start\\high_win_design.py": "7a6a6c04037e1ac3f1c9bfc7c727ce05c47645f0d3962607e9062388defcc859",
+    "audit\\high_wins_rebuild_2026_10_22\\verify_events.py": "22dbacda72ed8366dcc645c8c4e83ed18e75f004153e672d05081e59154e7056",
+    "audit\\high_wins_rebuild_2026_10_22\\RAPORT_PL.md": "1d6589807e1015ddde757029fe075f1109fb353b96e44dfa191a50fb45e7344f",
+    "audit\\high_wins_rebuild_2026_10_22\\COMPARISON.json": "db7010df3fbb9da4548cb9e5e3afffe73bf01516ed923fd16aa8795c55302442",
+    "audit\\high_wins_rebuild_2026_10_22\\tuning_targets.json": "9fd44cc71074bee8cb29c6001ed5af90c38250461ebb7fb09ba1a038c35fd22f",
+    "audit\\high_wins_rebuild_2026_10_22\\final_verification.json": "46eb23d0d1fcc66d8e6cf4048243ad23c141539cd99f20ebe8538ef5995f1db4",
+    "audit\\high_wins_rebuild_2026_10_22\\regression_summary.json": "5b89979fe87e988b9479d8722abd3bee8ff636b1c3da6d16496c51503c35298d",
+    "audit\\high_wins_rebuild_2026_10_22\\legacy_cap_regressions.json": "0d244f2244a72dd29bed3f72b2fe67360ddad7a3fa1cc588b05d41b5e9220b5f",
+    "audit\\high_wins_rebuild_2026_10_22\\browser_smoke.json": "116e62217fc0aa276e266a8fe6358ae9645c7b326b1fc81175ad7fabc7c75935",
+    "audit\\high_wins_rebuild_2026_10_22\\bonus_cap_browser.png": "1eb870ddb8c864c4de4eff4a3336ca57e3532c0f6a58fd09ad5b2c7c85e4e3a9"
+  }
+}

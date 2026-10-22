@@ -1,0 +1,100 @@
+{
+  "test_file": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\tests\\test_game.py",
+  "tests_passed": 15,
+  "test_names": [
+    "test_frozen_config_and_payline_geometry",
+    "test_strips_and_cyclic_window_generation",
+    "test_exhaustive_100000_line_sequences_against_independent_oracle",
+    "test_explicit_left_anchor_interruption_and_best_wild_once",
+    "test_every_payline_event_matches_oracle_with_overlapping_prefixes",
+    "test_total_bet_units_are_not_divided_by_twenty",
+    "test_scatter_anywhere_pays_and_awards_only_in_paid_game",
+    "test_expansion_uses_exactly_one_inner_reel_and_preserves_input",
+    "test_result_snapshot_does_not_change_if_callers_grid_changes",
+    "test_default_expansion_uses_exact_integer_threshold",
+    "test_round_history_awards_8_10_12_without_retriggers",
+    "test_history_distinguishes_equal_payment_different_expansion",
+    "test_round_cap_reconciles_base_bonus_and_every_credit",
+    "test_reachable_twelve_free_spin_maximum_witness_caps_8618_22",
+    "test_round_full_history_is_seed_deterministic"
+  ],
+  "exhaustive_single_line_sequences": 100000,
+  "exhaustive_line_mismatches": 0,
+  "seconds": 0.413292,
+  "mutations": {
+    "double_single_line_payout": {
+      "detected": true,
+      "test": "test_exhaustive_100000_line_sequences_against_independent_oracle"
+    },
+    "double_event_payments": {
+      "detected": true,
+      "test": "test_every_payline_event_matches_oracle_with_overlapping_prefixes"
+    },
+    "drop_first_line_event": {
+      "detected": true,
+      "test": "test_every_payline_event_matches_oracle_with_overlapping_prefixes"
+    },
+    "ignore_scatter": {
+      "detected": true,
+      "test": "test_scatter_anywhere_pays_and_awards_only_in_paid_game"
+    },
+    "zero_scatter_payment": {
+      "detected": true,
+      "test": "test_scatter_anywhere_pays_and_awards_only_in_paid_game"
+    },
+    "expansion_does_nothing": {
+      "detected": true,
+      "test": "test_expansion_uses_exactly_one_inner_reel_and_preserves_input"
+    },
+    "scatter_count_after_expansion": {
+      "detected": true,
+      "test": "test_expansion_uses_exactly_one_inner_reel_and_preserves_input"
+    },
+    "ignore_round_cap": {
+      "detected": true,
+      "test": "test_round_cap_reconciles_base_bonus_and_every_credit"
+    },
+    "missing_free_spin_credits": {
+      "detected": true,
+      "test": "test_round_history_awards_8_10_12_without_retriggers"
+    }
+  },
+  "all_mutations_detected": true,
+  "reachable_maximum_round_witness": {
+    "base_stops": [
+      33,
+      26,
+      20,
+      14,
+      6
+    ],
+    "free_spin_stops": [
+      21,
+      15,
+      0,
+      3,
+      30
+    ],
+    "expanding_reel_zero_based": 2,
+    "free_spins_count": 12,
+    "base_units": 5022,
+    "per_free_spin_units": 71400,
+    "raw_round_units": 861822,
+    "credited_round_units": 500000,
+    "cap_reduction_units": 361822,
+    "free_spin_credits": [
+      71400,
+      71400,
+      71400,
+      71400,
+      71400,
+      71400,
+      66578,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

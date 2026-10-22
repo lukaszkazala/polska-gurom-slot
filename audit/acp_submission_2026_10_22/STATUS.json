@@ -1,0 +1,169 @@
+{
+  "recorded_at_utc": "2026-10-22T07:45:01.840875+00:00",
+  "status": "awaiting_acp_access_and_final_release",
+  "reference_only": true,
+  "submission_ready": false,
+  "math_version": "0.5.0-any-start",
+  "mode": "base",
+  "frontend": {
+    "file": "unsubmitted_reference/POLSKA_GUROM_RGS_FRONTEND.zip",
+    "sha256": "c52258d775e16188190f6ac457746ea6cbfe55043ea9c6863669b947246eb2eb",
+    "bytes": 14427258,
+    "entries": [
+      {
+        "path": "app.js",
+        "bytes": 126036,
+        "sha256": "2e1d1c8293fe440be8e2a0fcba1f0dcb7d8f282fa00a0626ae109ff4b4cda695"
+      },
+      {
+        "path": "art-catalog.js",
+        "bytes": 2787,
+        "sha256": "6712291291d66be95c24ac0707c21d16115f78c6f7a7bac34eea8e31c7d0b9e2"
+      },
+      {
+        "path": "art-theme.css",
+        "bytes": 5570,
+        "sha256": "9ab3ff77be726cdf6ed7bb98acc3e3056d7d3bedbd4b204844a5a2892e26f831"
+      },
+      {
+        "path": "assets/art/PROVENANCE.md",
+        "bytes": 2186,
+        "sha256": "7b5cf86c3a50fa47f50c633dc1e1231599cff5d05e6f66a267fb84663c373755"
+      },
+      {
+        "path": "assets/art/husarz.png",
+        "bytes": 2192720,
+        "sha256": "3f1a54259fda32a15740799609f712fba5a430d83abde286b996599c22c5d81d"
+      },
+      {
+        "path": "assets/art/klasyczne-motywy.png",
+        "bytes": 2762645,
+        "sha256": "741ebde62656e3728fee585e31d5a43a4f0f39b3d6ccbe469c403e0ad68e603a"
+      },
+      {
+        "path": "assets/art/polskie-motywy.png",
+        "bytes": 2415691,
+        "sha256": "92e89378f4fd537e2e75e7aeec19905de7f2f2ddb123d1f5cb8b2c6628072fec"
+      },
+      {
+        "path": "assets/art/rama.png",
+        "bytes": 2185160,
+        "sha256": "90c7c12810bcd8cc97eb151fb2051918533800f8c825239602845a237f25b98b"
+      },
+      {
+        "path": "assets/art/symbole-specjalne.png",
+        "bytes": 2425507,
+        "sha256": "4c88b2839e63f9ccc122efb1558c0f863a1d6142af65e66ab5be0ef9187170de"
+      },
+      {
+        "path": "assets/art/tlo-husaria-v2.png",
+        "bytes": 2542739,
+        "sha256": "a3afc445205966cad80581fc583819f0f90646513637c45f3d2e7f5f9e542b6b"
+      },
+      {
+        "path": "assets/symbols.json",
+        "bytes": 718,
+        "sha256": "36fb74fdaf68560737140f3053e045a10bf9d1727079f6119b6dc5f8578ee02c"
+      },
+      {
+        "path": "battle-background.css",
+        "bytes": 1009,
+        "sha256": "e2f9f6abe30f0975dd41cc6ebcd43c123218b4984bd580534dea946b6df5235d"
+      },
+      {
+        "path": "game-config.json",
+        "bytes": 2507,
+        "sha256": "34c52607431b86f0649a9df70bd74c6d01f538a8901783c3506c82206cac1858"
+      },
+      {
+        "path": "game-layout.js",
+        "bytes": 4010,
+        "sha256": "bf1e4b69d9816ce25a5e8e6728049035753e2d22cc1894997d434854dc577cf5"
+      },
+      {
+        "path": "index.html",
+        "bytes": 19482,
+        "sha256": "fcaa6a1be565709acb0e0232ed60da1737ade091e3ff6f1f6e60ed4643cf7eba"
+      },
+      {
+        "path": "player-layout.css",
+        "bytes": 14358,
+        "sha256": "ca142b7f3781ebb77a038293f64ff8a92cdac17ab4d1d75127c21a2816505780"
+      },
+      {
+        "path": "rgs-client.js",
+        "bytes": 22355,
+        "sha256": "004dce74c3bc66edd2066b5906e49aed2f071db2ded640aae53e070572fbe3ea"
+      },
+      {
+        "path": "style.css",
+        "bytes": 66446,
+        "sha256": "7a8083810064c18d880377c91747501f36e9bd1ae2edb70156c3600e0680b0f6"
+      }
+    ]
+  },
+  "math": [
+    {
+      "file": "unsubmitted_reference/math/index.json",
+      "sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "bytes": 164
+    },
+    {
+      "file": "unsubmitted_reference/math/books_base.jsonl.zst",
+      "sha256": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57",
+      "bytes": 9668642
+    },
+    {
+      "file": "unsubmitted_reference/math/lookUpTable_base_0.csv",
+      "sha256": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b",
+      "bytes": 1833914
+    }
+  ],
+  "integrity_verified": true,
+  "acp": {
+    "url": "https://studio.engine.io/signin",
+    "authenticated": false,
+    "game_id": null,
+    "frontend_version_id": null,
+    "math_version_id": null,
+    "uploaded": false,
+    "validation": "not_run",
+    "review_comments": null,
+    "frontend_approval": "not_observed",
+    "math_approval": "not_observed"
+  },
+  "final_audit": {
+    "performed": false,
+    "reason": "No accepted final package or ACP evidence"
+  },
+  "evidence_limits": [
+    "47 cap-message checks explicitly bind the reference app.js hash.",
+    "The historical 275-check total contains tests against earlier app.js hashes.",
+    "Integrity verification here is not a new gameplay, browser, SDK or platform test.",
+    "Concurrent audio and publication work is absent from this reference ZIP.",
+    "Decision to rebuild high-win mathematics is recorded but not implemented in this export."
+  ],
+  "dependencies": [
+    {
+      "thread_id": "01a1628c-a5e1-76c3-b7fc-c9933dcf4772",
+      "title": "Dodaj dźwięki i wyciszenie",
+      "observed_status": "active"
+    },
+    {
+      "thread_id": "01a1628d-1c93-7db2-b7a5-f8cde0c397b4",
+      "title": "Przygotuj materiały do publikacji",
+      "observed_status": "active"
+    },
+    {
+      "thread_id": "01a1628c-e9ce-7ed0-9afa-65f9a6c4e721",
+      "title": "Przetestować telefony i przeglądarki",
+      "observed_status": "active"
+    }
+  ],
+  "evidence": [
+    "audit/cap_messages_2026_10_22/delivery_verification.json",
+    "audit/cap_messages_2026_10_22/cap_messages_results.json",
+    "audit/recovery_2026_10_22/FINAL_STATUS.json",
+    "decisions/high_wins_2026_10_22/DECYZJA_PL.md"
+  ]
+}

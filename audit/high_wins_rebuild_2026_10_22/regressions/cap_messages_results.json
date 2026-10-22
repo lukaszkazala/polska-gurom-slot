@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-10-22T21:15:47.766Z",
+  "source_sha256": "b6654dac0f418e2c802811fb943d57d8318063b8145e5b4f9f4f7550ceb5f570",
+  "method": "Actual app.js in a minimal DOM with virtual timers; real exported cap and synthetic boundary outcomes from the authoritative Python engine. No visual or live-platform coverage.",
+  "synthetic_cases": {
+    "bonus_cap": {
+      "payout_units": 500000,
+      "cap_reduction_units": 140280,
+      "awarded": 8,
+      "played": 2
+    },
+    "base_cap": {
+      "payout_units": 500000,
+      "cap_reduction_units": 14500,
+      "awarded": 8,
+      "played": 0
+    },
+    "exact_cap": {
+      "payout_units": 500000,
+      "cap_reduction_units": 0,
+      "awarded": 0,
+      "played": 0
+    },
+    "last_free_cap": {
+      "payout_units": 500000,
+      "cap_reduction_units": 140280,
+      "awarded": 8,
+      "played": 8
+    }
+  },
+  "tests_run": 47,
+  "passed": 47,
+  "checks": [
+    {
+      "name": "pl animated: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "pl animated: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "pl animated: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "pl animated: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "pl instant: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "pl instant: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "pl instant: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "pl instant: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "pl skip-screens: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "pl skip-screens: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "pl skip-screens: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "pl skip-screens: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "en animated: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "en animated: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "en animated: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "en animated: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "en instant: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "en instant: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "en instant: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "en instant: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "en skip-screens: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "en skip-screens: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "en skip-screens: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "en skip-screens: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "de animated: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "de animated: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "de animated: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "de animated: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "de instant: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "de instant: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "de instant: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "de instant: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "de skip-screens: capped base reports its granted payout",
+      "passed": true
+    },
+    {
+      "name": "de skip-screens: bonus ends at 2/8 and explains the six unused spins",
+      "passed": true
+    },
+    {
+      "name": "de skip-screens: base reaches cap before awarded bonus starts (0/8)",
+      "passed": true
+    },
+    {
+      "name": "de skip-screens: exact 5000x with no reduction still reports the limit",
+      "passed": true
+    },
+    {
+      "name": "pl: reduced line detail separates raw line win from granted stage payout",
+      "passed": true
+    },
+    {
+      "name": "en: reduced line detail separates raw line win from granted stage payout",
+      "passed": true
+    },
+    {
+      "name": "de: reduced line detail separates raw line win from granted stage payout",
+      "passed": true
+    },
+    {
+      "name": "pl: cap on the final awarded free spin shows 8/8 without unused spins",
+      "passed": true
+    },
+    {
+      "name": "en: cap on the final awarded free spin shows 8/8 without unused spins",
+      "passed": true
+    },
+    {
+      "name": "de: cap on the final awarded free spin shows 8/8 without unused spins",
+      "passed": true
+    },
+    {
+      "name": "Saved capped bonus replay uses its historic stake and leaves all wallet state unchanged",
+      "passed": true
+    },
+    {
+      "name": "RGS reload resumes capped bonus at 1/8 then ends at 2/8 with one charge and settlement",
+      "passed": true,
+      "paid_rounds": 1,
+      "settlements": 1,
+      "resumed_counter": [
+        "",
+        "",
+        "1 / 8",
+        "",
+        "1 / 8",
+        "2 / 8",
+        "2 / 8"
+      ]
+    },
+    {
+      "name": "pl RGS USD: cap amount uses authenticated currency and the paid stake",
+      "passed": true
+    },
+    {
+      "name": "en RGS JPY: cap amount uses authenticated currency and the paid stake",
+      "passed": true
+    },
+    {
+      "name": "de RGS KWD: cap amount uses authenticated currency and the paid stake",
+      "passed": true
+    }
+  ],
+  "status": "pass"
+}

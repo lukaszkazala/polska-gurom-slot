@@ -1,0 +1,43 @@
+{
+  "method": "published integer-weighted complete-round books with exact local replay",
+  "seed": 20261020,
+  "spins": 100000,
+  "rtp": 0.929898,
+  "rtp_95_percent_normal_interval": [
+    0.8763034889418045,
+    0.9834925110581955
+  ],
+  "base_rtp": 0.444234,
+  "bonus_rtp": 0.485664,
+  "hit_frequency": 0.15645,
+  "net_profit_frequency": 0.09777,
+  "positive_below_bet_frequency": 0.05231,
+  "break_even_frequency": 0.00637,
+  "bonus_frequency": 0.00469,
+  "average_bonus_payout": 103.55309168443497,
+  "variance": 74.770189909596,
+  "std_dev": 8.646975766682592,
+  "max_observed_win": 504.3,
+  "rounds_reduced_by_cap": 0,
+  "free_spins_played": 3796,
+  "expanding_wild_events": 955,
+  "wild_cell_frequency": 0.03546066666666667,
+  "scatter_cell_frequency": 0.029820666666666665,
+  "scatter_distribution": {
+    "0": 61791,
+    "1": 32178,
+    "2": 5562,
+    "3": 447,
+    "4": 22
+  },
+  "win_buckets": {
+    "0x": 84355,
+    ">0x-1x": 5231,
+    "1x-5x": 7488,
+    "5x-20x": 2370,
+    "20x-100x": 346,
+    "100x-500x": 209,
+    "500x-1000x": 1
+  },
+  "confidence_interval_note": "Empirical normal Monte Carlo interval; finite samples can vary. The exact published RTP is calculated separately from integer weights."
+}

@@ -1,3 +1,28 @@
+# Runtime caches and locally installed dependencies.
 __pycache__/
 *.pyc
+*.pyo
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 .venv/
+venv/
+node_modules/
+
+# Temporary compiler output and disposable unpacked package checks.
+.stake-math-build-*/
+portable-smoke*/
+*.zip.tmp
+
+# Temporary publication checkout; its Git history is preserved in this repo.
+/.git-publish/
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
+
+# Keep real assets, exports, ZIPs, audit logs, snapshots and vendored compiler
+# dependencies: they are part of the complete project and its evidence.

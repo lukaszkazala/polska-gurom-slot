@@ -1,0 +1,56 @@
+{
+  "exhaustive_line_cases": 100000,
+  "line_mismatches": [],
+  "uniform_l1_grid_payout": 50.0,
+  "all_wild_line_payout": 50.0,
+  "scatter_preserved_through_expansion": {
+    "payout": 1.0,
+    "line_payout": 0.0,
+    "scatter_payout": 1.0,
+    "scatter_count": 3,
+    "bonus_triggered": false,
+    "free_spins_awarded": 0,
+    "expanding_reel": 1
+  },
+  "different_expansion_events_have_equal_round_output": {
+    "reel_2": [
+      {
+        "payout": 1.0,
+        "line_payout": 0.0,
+        "scatter_payout": 1.0,
+        "scatter_count": 3,
+        "bonus_triggered": true,
+        "free_spins_awarded": 8,
+        "expanding_reel": null
+      },
+      400.0,
+      8
+    ],
+    "reel_3": [
+      {
+        "payout": 1.0,
+        "line_payout": 0.0,
+        "scatter_payout": 1.0,
+        "scatter_count": 3,
+        "bonus_triggered": true,
+        "free_spins_awarded": 8,
+        "expanding_reel": null
+      },
+      400.0,
+      8
+    ]
+  },
+  "round_cap_crossed_and_applied": {
+    "base": {
+      "payout": 324.0,
+      "line_payout": 304.0,
+      "scatter_payout": 20.0,
+      "scatter_count": 5,
+      "bonus_triggered": true,
+      "free_spins_awarded": 12,
+      "expanding_reel": null
+    },
+    "credited_bonus": 4676.0,
+    "round_total": 5000.0
+  }
+}

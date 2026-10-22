@@ -1,0 +1,8 @@
+{
+  "payload": "http://192.168.1.19:8785/__phone/start?key=wv5lVdTgW_vVHUXAXDcl6SO4A0WvlHJT",
+  "encoder": "bundled ReportLab QR encoder",
+  "error_correction": "M",
+  "modules": 37,
+  "quiet_zone_modules": 4,
+  "pixel_size": 450
+}

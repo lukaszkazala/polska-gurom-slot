@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "exported_books_checked": 100024,
+  "full_local_replay_matches_export": true,
+  "unique_complete_events": 100024,
+  "max_win_books_checked": 4,
+  "bonus_books_checked": 502,
+  "independent_oracle": {
+    "stages_checked": 143954,
+    "line_awards_checked": 124585,
+    "base_spins_checked": 100031,
+    "new_symbols_checked": 166962,
+    "transitions_checked": 39844,
+    "free_spins_checked": 4079,
+    "expansions_checked": 1027,
+    "falling_survivors_checked": 127555
+  },
+  "original_v02": {
+    "files_checked": 30,
+    "unchanged": true
+  },
+  "source_fingerprint": {
+    "config.py": "e616d57031e9a4fea36e3deaa453f11590a9890e34f7a1652882bdca0f34d287",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "9861e8b1a61a9855f920129916201c3f4e358b6239906dcbf8beed6ba9c324dc"
+  },
+  "lut_sha256": "6f41f22a102a96658b8326aa500607a64eaa77df7e705e1ac217a9da2f2c58fe",
+  "elapsed_seconds": 36.9072892999975
+}

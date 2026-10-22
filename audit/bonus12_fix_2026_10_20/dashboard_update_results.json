@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "mathVersion": "0.4.1-weighted-12fs",
+  "regressionChecks": 135,
+  "reports": 166,
+  "historicalReports": 139,
+  "simulations": 24,
+  "weightedDraws": 160000000,
+  "bonus12Books": 24,
+  "bonus12Weight": 4018776,
+  "lutSha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "preservedBaselineHashes": true
+}

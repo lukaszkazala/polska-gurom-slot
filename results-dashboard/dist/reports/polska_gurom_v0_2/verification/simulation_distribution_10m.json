@@ -1,0 +1,39 @@
+{
+  "method": "Independent histogram Monte Carlo; integer inverse-CDF samples of exhaustive windows. Not the game engine implementation.",
+  "math_config_sha256": "d79c6643b616c077afe91803cb0b96a65a7a7ef004b4d51416dad18570958148",
+  "rounds": 10000000,
+  "seed": 20261018,
+  "rtp": 0.959755673,
+  "rtp_95_percent_normal_interval": [
+    0.956585379740482,
+    0.962925966259518
+  ],
+  "base_rtp": 0.735586181,
+  "bonus_rtp": 0.224169492,
+  "variance": 26.162951247774316,
+  "std_dev": 5.114973240181645,
+  "hit_frequency": 0.2970792,
+  "hit_frequency_95_wilson_interval": [
+    0.29679604399392995,
+    0.29736251191411917
+  ],
+  "net_profit_frequency": 0.1789618,
+  "net_profit_95_wilson_interval": [
+    0.178724338942639,
+    0.17919950771733606
+  ],
+  "positive_below_bet_frequency": 0.1163434,
+  "break_even_frequency": 0.001774,
+  "bonus_frequency": 0.0051221,
+  "bonus_frequency_95_wilson_interval": [
+    0.005078044631773419,
+    0.005166535592668643
+  ],
+  "mean_bonus_given_trigger": 43.76515335506921,
+  "free_spins": 414374,
+  "expansions": 90035,
+  "cap_hits": 0,
+  "max_observed_payout": 562.64,
+  "max_observed_before_cap": 562.64,
+  "confidence_interval_note": "Normal RTP interval from empirical variance; Wilson intervals for binary events. Exact moments and cap bounds are checked separately."
+}

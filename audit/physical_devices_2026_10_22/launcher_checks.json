@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-22T09:52:05.059778+02:00",
+  "origin": "http://192.168.1.19:8785",
+  "build": {
+    "build_id": "iphone15-safari-20261022T095007",
+    "manifest_sha256": "601312412e29e69039eee70451cb1d161db7897c0e412e87bf00b31ec7bb264f",
+    "virtual_money_only": true,
+    "platform": false
+  },
+  "http_health": {
+    "ok": true,
+    "engine": "polska_gurom",
+    "math_version": "0.5.0-any-start"
+  },
+  "audio_assets": [
+    {
+      "name": "web/assets/audio/01_Karczma_Disco_BASE_120bpm_Dm.wav",
+      "http_status": 200,
+      "content_type": "audio/wav",
+      "bytes": 11289644
+    },
+    {
+      "name": "web/assets/audio/02_Szarza_Husarza_BONUS_120bpm_Dm.wav",
+      "http_status": 200,
+      "content_type": "audio/wav",
+      "bytes": 5644844
+    },
+    {
+      "name": "web/assets/audio/03_Wejscie_do_bonusu.wav",
+      "http_status": 200,
+      "content_type": "audio/wav",
+      "bytes": 705644
+    },
+    {
+      "name": "web/assets/audio/04_Wygrana.wav",
+      "http_status": 200,
+      "content_type": "audio/wav",
+      "bytes": 352844
+    },
+    {
+      "name": "web/assets/audio/05_Duza_wygrana.wav",
+      "http_status": 200,
+      "content_type": "audio/wav",
+      "bytes": 705644
+    },
+    {
+      "name": "web/assets/audio/06_Czesciowy_zwrot.wav",
+      "http_status": 200,
+      "content_type": "audio/wav",
+      "bytes": 352844
+    }
+  ],
+  "wrapper_http_tests_passed": 7,
+  "computer_to_wifi_address_http_verified": true,
+  "iphone_connectivity_verified": false,
+  "physical_tests_executed": 0,
+  "platform_verified": false
+}

@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-19T22:05:19.497684+00:00",
+  "scope": "Niezależne porównanie finalnego snapshotu dashboardu ze źródłowymi raportami i pełnym inwentarzem; brak ponownego uruchamiania testów gry i symulacji.",
+  "data_sha256": "5a3262225c2f6f6ca02e2d29d3d3553c7d5e2964e91d87863b7936281c758895",
+  "data_embed_sha256": "330112ba679077b8fe95be87cc9ccf8e6e99ecb41ce4e991e5888e7c953443e7",
+  "counts": {
+    "unique_current_regression_cases": 107,
+    "regression_suites": 6,
+    "all_displayed_suites": 17,
+    "additional_current_audit_checks": 19,
+    "historical_displayed_cases": 33,
+    "simulations": 21,
+    "evidence_reports": 139,
+    "historical_inventory_items": 125,
+    "history_phases": 10,
+    "final_weighted_draws": 160000000,
+    "natural_candidate_rounds": 160000000
+  },
+  "checks": [
+    {
+      "name": "Komplet pełnego inwentarza historycznego",
+      "passed": true,
+      "details": {
+        "inventory_items": 125,
+        "missing": []
+      }
+    },
+    {
+      "name": "Komplet wszystkich odsyłaczy faz historii",
+      "passed": true,
+      "details": {
+        "unique_phase_sourcepaths": 36,
+        "missing": []
+      }
+    },
+    {
+      "name": "Sześć zestawów regresji zawiera 107 unikalnych przypadków",
+      "passed": true,
+      "details": {
+        "decomposition": [
+          17,
+          30,
+          13,
+          27,
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Wszystkie 107 przypadków regresji zaliczone",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "21 symulacji zachowuje odrębne metody i historyczne etykiety",
+      "passed": true,
+      "details": {
+        "weighted": 3,
+        "natural": 3,
+        "calibration": 7,
+        "diagnostic": 1,
+        "historical": 7
+      }
+    },
+    {
+      "name": "160 mln końcowych losowań i 160 mln naturalnych rund mają oddzielne sumy",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "RTP i przedziały 95% dla trzech końcowych prób identyczne ze źródłem",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "139 unikalnych dowodów zamiast 138 po uzupełnieniu raportu v0.2",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "Kopie dowodów mają poprawne ścieżki i identyczne hashe",
+      "passed": true,
+      "details": {
+        "verified_reports": 139
+      }
+    },
+    {
+      "name": "Przenośny JS i pobierany JSON zawierają identyczne dane",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "Każdy dowód testu i symulacji istnieje w rejestrze",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "Kalibracje oznaczone jako strojenie, dawny generator 1 mln jako historia",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "107 regresji nie obejmuje powtórnie audytów, przeglądarki i historii",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "Nieobecny bonus 12 FS pozostaje otwartym krytycznym problemem",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "Lokalny publiczny SDK nie przedstawia zatwierdzenia przez Stake",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "Aktualne odciski kodu odpowiadają źródłom zweryfikowanym wcześniej",
+      "passed": true,
+      "details": {
+        "files": 5
+      }
+    }
+  ],
+  "fixed_findings": [
+    {
+      "id": "missing-v02-report",
+      "previous": "Raport wskazany przez fazę historii nie był skopiowany ani zapisany w rejestrze.",
+      "fix": "Dodano automatyczne zbieranie wszystkich istniejących phase.sourcepaths; polska_gurom_v0_2/VERIFICATION_REPORT.md jest dostępny i ma hash."
+    },
+    {
+      "id": "calibration-category",
+      "previous": "Raporty kalibracji i historyczna próba naturalna 1 mln miały ogólną kategorię aktualne.",
+      "fix": "Raporty calibration_*/candidate_* mają kategorię strojenie; natural_1m_trace.json ma kategorię historia."
+    }
+  ],
+  "remaining_data_gaps": [],
+  "interpretation_notes": [
+    "107 to unikalne przypadki sześciu zestawów regresji, nie suma wszystkich wierszy na ekranie Testy. Osobno pokazano 19 dodatkowych kontroli audytowych/przeglądarkowych bieżącej wersji oraz historię.",
+    "Trzy końcowe próby obejmują 160 mln losowań tabeli; naturalne pełne przebiegi 160 mln są osobną metodą. Nie łączyć ich w jedną miarę końcowej dystrybucji.",
+    "Wynik PASS dotyczy spójności dashboardu i źródeł. Otwarty błąd bonusu 12 FS i brak zatwierdzenia Stake pozostają jawne."
+  ],
+  "dashboard_review_excluded_from_game_evidence_registry": "Tak — kontrola finalnego snapshotu nie jest źródłem wyników gry; wyłączenie zapobiega zależności hashów od własnego raportu."
+}

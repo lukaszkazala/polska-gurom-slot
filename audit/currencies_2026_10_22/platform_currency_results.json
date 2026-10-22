@@ -1,0 +1,218 @@
+{
+  "passed": true,
+  "total": 53,
+  "checks": [
+    {
+      "name": "Exact display 500000 micro-units in USD",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1 micro-units in USD",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1234567 micro-units in MXN",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1000000 micro-units in JPY",
+      "passed": true
+    },
+    {
+      "name": "Exact display 500000 micro-units in JPY",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1 micro-units in JPY",
+      "passed": true
+    },
+    {
+      "name": "Exact display 500000 micro-units in KWD",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1234567 micro-units in KWD",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1 micro-units in BTC",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1 micro-units in USDT",
+      "passed": true
+    },
+    {
+      "name": "Exact display 1234567 micro-units in DOGE",
+      "passed": true
+    },
+    {
+      "name": "Exact display -1 micro-units in USD",
+      "passed": true
+    },
+    {
+      "name": "Exact display 0 micro-units in USD",
+      "passed": true
+    },
+    {
+      "name": "Exact display 0 micro-units in JPY",
+      "passed": true
+    },
+    {
+      "name": "Exact display 9007199254740991 micro-units in USD",
+      "passed": true
+    },
+    {
+      "name": "Exact display -9007199254740991 micro-units in USD",
+      "passed": true
+    },
+    {
+      "name": "Polish and German display retain every authenticated fractional unit",
+      "passed": true
+    },
+    {
+      "name": "Fractional, non-finite and unsafe micro-unit values are rejected",
+      "passed": true
+    },
+    {
+      "name": "Every fiat currency in the official Stake Engine client can display exact micro-units",
+      "passed": true
+    },
+    {
+      "name": "Authoritative currency overrides the optional URL currency hint",
+      "passed": true
+    },
+    {
+      "name": "UI USD: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI EUR: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI PLN: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI JPY: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI KWD: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI MXN: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI BTC: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI USDT: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "UI DOGE: exact balance, bet, win and history use the same platform denomination",
+      "passed": true
+    },
+    {
+      "name": "Irregular platform levels are sorted, defaulted and bounded without inventing intermediate stakes",
+      "passed": true
+    },
+    {
+      "name": "Configured minBet missing from the permitted levels blocks play",
+      "passed": true
+    },
+    {
+      "name": "Configured maxBet missing from the permitted levels blocks play",
+      "passed": true
+    },
+    {
+      "name": "A non-platform stake is rejected before sending a debit request",
+      "passed": true
+    },
+    {
+      "name": "Stake preferences are isolated by platform session and authenticated currency",
+      "passed": true
+    },
+    {
+      "name": "An obsolete saved stake falls back to the new authoritative default",
+      "passed": true
+    },
+    {
+      "name": "Updated platform levels reach the UI after settlement and replace an unavailable stake",
+      "passed": true
+    },
+    {
+      "name": "Updated platform levels reach the UI after recovery and replace an unavailable stake",
+      "passed": true
+    },
+    {
+      "name": "Autoplay stops after its accepted round when authentication removes the chosen stake",
+      "passed": true
+    },
+    {
+      "name": "RGS rules in pl remove the local PLN wallet paragraph and retain the cap rule",
+      "passed": true
+    },
+    {
+      "name": "RGS rules in en remove the local PLN wallet paragraph and retain the cap rule",
+      "passed": true
+    },
+    {
+      "name": "RGS rules in de remove the local PLN wallet paragraph and retain the cap rule",
+      "passed": true
+    },
+    {
+      "name": "A wallet currency change during a session blocks the update",
+      "passed": true
+    },
+    {
+      "name": "A persisted session currency change blocks reload with pending=false",
+      "passed": true
+    },
+    {
+      "name": "A persisted session currency change blocks reload with pending=true",
+      "passed": true
+    },
+    {
+      "name": "Social launch remains explicitly unavailable in this non-social release",
+      "passed": true
+    },
+    {
+      "name": "XSC authentication is blocked before a bet in this release",
+      "passed": true
+    },
+    {
+      "name": "XGC authentication is blocked before a bet in this release",
+      "passed": true
+    },
+    {
+      "name": "SC authentication is blocked before a bet in this release",
+      "passed": true
+    },
+    {
+      "name": "GC authentication is blocked before a bet in this release",
+      "passed": true
+    },
+    {
+      "name": "Social official jurisdictionFlags is blocked during boot and prevents play",
+      "passed": true
+    },
+    {
+      "name": "Social official jurisdictionFlags is blocked during reauthentication and prevents play",
+      "passed": true
+    },
+    {
+      "name": "Social legacy config.jurisdiction is blocked during boot and prevents play",
+      "passed": true
+    },
+    {
+      "name": "Social legacy config.jurisdiction is blocked during reauthentication and prevents play",
+      "passed": true
+    }
+  ]
+}

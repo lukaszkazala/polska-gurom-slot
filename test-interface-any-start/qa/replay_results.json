@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "total": 34,
+  "checks": [
+    {
+      "name": "Local saved loss: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "Local saved middle: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "Local saved bonus8: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "Local saved bonus12: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "Local saved cap: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "RGS saved loss: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "RGS saved middle: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "RGS saved bonus8: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "RGS saved bonus12: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "RGS saved cap: exact replay twice, no new wallet operation",
+      "passed": true
+    },
+    {
+      "name": "Saved complete bonus remains playable offline",
+      "passed": true
+    },
+    {
+      "name": "Saved replay is refused while pending",
+      "passed": true
+    },
+    {
+      "name": "Saved replay is refused while auto",
+      "passed": true
+    },
+    {
+      "name": "Saved replay is refused while busy",
+      "passed": true
+    },
+    {
+      "name": "Saved replay is refused while walletReading",
+      "passed": true
+    },
+    {
+      "name": "Replay ignores unrelated completed recovery progress",
+      "passed": true
+    },
+    {
+      "name": "Main and details replay buttons use the selected saved round",
+      "passed": true
+    },
+    {
+      "name": "Malformed saved result is blocked before presentation 17",
+      "passed": true
+    },
+    {
+      "name": "Malformed saved result is blocked before presentation 18",
+      "passed": true
+    },
+    {
+      "name": "Malformed saved result is blocked before presentation 19",
+      "passed": true
+    },
+    {
+      "name": "Malformed saved result is blocked before presentation 20",
+      "passed": true
+    },
+    {
+      "name": "Settled RGS history survives reload without creating a new round",
+      "passed": true
+    },
+    {
+      "name": "Standalone loss replay launches without a session or wallet",
+      "passed": true
+    },
+    {
+      "name": "Standalone middle replay launches without a session or wallet",
+      "passed": true
+    },
+    {
+      "name": "Standalone bonus8 replay launches without a session or wallet",
+      "passed": true
+    },
+    {
+      "name": "Standalone bonus12 replay launches without a session or wallet",
+      "passed": true
+    },
+    {
+      "name": "Standalone cap replay launches without a session or wallet",
+      "passed": true
+    },
+    {
+      "name": "Failed or malformed standalone launch stays blocked without demo fallback 27",
+      "passed": true
+    },
+    {
+      "name": "Failed or malformed standalone launch stays blocked without demo fallback 28",
+      "passed": true
+    },
+    {
+      "name": "Failed or malformed standalone launch stays blocked without demo fallback 29",
+      "passed": true
+    },
+    {
+      "name": "Failed or malformed standalone launch stays blocked without demo fallback 30",
+      "passed": true
+    },
+    {
+      "name": "Failed or malformed standalone launch stays blocked without demo fallback 31",
+      "passed": true
+    },
+    {
+      "name": "Failed or malformed standalone launch stays blocked without demo fallback 32",
+      "passed": true
+    },
+    {
+      "name": "A replay link ignores a supplied session token and never authenticates it",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+PASS Connection absent before POST: no charge; manual recovery reuses request and session
+PASS Response lost after settlement: retry displays the original round and never charges twice
+PASS Transient HTTP 408: autoplay retries the same ID and completes all 10 rounds
+PASS Transient HTTP 429: autoplay retries the same ID and completes all 10 rounds
+PASS Transient HTTP 500: autoplay retries the same ID and completes all 10 rounds
+PASS Transient HTTP 502: autoplay retries the same ID and completes all 10 rounds
+PASS Transient HTTP 503: autoplay retries the same ID and completes all 10 rounds
+PASS Persistent network-before: exactly 3 attempts, explicit stop, pending retained, manual recovery
+PASS Persistent lost-response: exactly 3 attempts, explicit stop, pending retained, manual recovery
+PASS Persistent http-429: exactly 3 attempts, explicit stop, pending retained, manual recovery
+PASS Persistent http-502: exactly 3 attempts, explicit stop, pending retained, manual recovery
+PASS fetch-stall: 15-second deadline covers transport and response body, then safe recovery
+PASS body-stall: 15-second deadline covers transport and response body, then safe recovery
+PASS Persistent transport stalls: autoplay stops after 3 timeouts without any charge
+PASS session_expired: terminal recovery error stops old-session play without a charge
+PASS session_changed: terminal recovery error stops old-session play without a charge
+PASS result_expired: terminal recovery error stops old-session play without a charge
+PASS Double-click while a response is delayed: busy guard sends exactly one request
+PASS Connection disappears after bonus result arrives: finish all 8 free spins, stop on next paid request
+PASS bad-json: rejected before clearing pending or presenting a result; exact recovery
+PASS empty-json: rejected before clearing pending or presenting a result; exact recovery
+PASS wrong-request-id: rejected before clearing pending or presenting a result; exact recovery
+PASS wrong-session-id: rejected before clearing pending or presenting a result; exact recovery
+PASS wrong-version: rejected before clearing pending or presenting a result; exact recovery
+PASS Slow response below deadline: one round and one request, without retries
+PASS Late response beyond deadline: timeout retains original ID, retry does not double-charge
+PASS Page reload with settled but unread response: recover saved request without duplicate history
+PASS Reload after autoplay round 81 outage: recover 81/100 and keep autoplay stopped
+PASS Reload after server session replacement: stale pending never executes in the new session
+PASS Symbol manifest stalls during startup: initialization ends at its 15-second deadline
+{
+  "passed": true,
+  "checks_passed": 30,
+  "checks_total": 30
+}
+

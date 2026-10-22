@@ -1,0 +1,55 @@
+PASS Exact display 500000 micro-units in USD
+PASS Exact display 1 micro-units in USD
+PASS Exact display 1234567 micro-units in MXN
+PASS Exact display 1000000 micro-units in JPY
+PASS Exact display 500000 micro-units in JPY
+PASS Exact display 1 micro-units in JPY
+PASS Exact display 500000 micro-units in KWD
+PASS Exact display 1234567 micro-units in KWD
+PASS Exact display 1 micro-units in BTC
+PASS Exact display 1 micro-units in USDT
+PASS Exact display 1234567 micro-units in DOGE
+PASS Exact display -1 micro-units in USD
+PASS Exact display 0 micro-units in USD
+PASS Exact display 0 micro-units in JPY
+PASS Exact display 9007199254740991 micro-units in USD
+PASS Exact display -9007199254740991 micro-units in USD
+PASS Polish and German display retain every authenticated fractional unit
+PASS Fractional, non-finite and unsafe micro-unit values are rejected
+PASS Every fiat currency in the official Stake Engine client can display exact micro-units
+PASS Authoritative currency overrides the optional URL currency hint
+PASS UI USD: exact balance, bet, win and history use the same platform denomination
+PASS UI EUR: exact balance, bet, win and history use the same platform denomination
+PASS UI PLN: exact balance, bet, win and history use the same platform denomination
+PASS UI JPY: exact balance, bet, win and history use the same platform denomination
+PASS UI KWD: exact balance, bet, win and history use the same platform denomination
+PASS UI MXN: exact balance, bet, win and history use the same platform denomination
+PASS UI BTC: exact balance, bet, win and history use the same platform denomination
+PASS UI USDT: exact balance, bet, win and history use the same platform denomination
+PASS UI DOGE: exact balance, bet, win and history use the same platform denomination
+PASS Irregular platform levels are sorted, defaulted and bounded without inventing intermediate stakes
+PASS Configured minBet missing from the permitted levels blocks play
+PASS Configured maxBet missing from the permitted levels blocks play
+PASS A non-platform stake is rejected before sending a debit request
+PASS Stake preferences are isolated by platform session and authenticated currency
+PASS An obsolete saved stake falls back to the new authoritative default
+PASS Updated platform levels reach the UI after settlement and replace an unavailable stake
+PASS Updated platform levels reach the UI after recovery and replace an unavailable stake
+PASS Autoplay stops after its accepted round when authentication removes the chosen stake
+PASS RGS rules in pl remove the local PLN wallet paragraph and retain the cap rule
+PASS RGS rules in en remove the local PLN wallet paragraph and retain the cap rule
+PASS RGS rules in de remove the local PLN wallet paragraph and retain the cap rule
+PASS A wallet currency change during a session blocks the update
+PASS A persisted session currency change blocks reload with pending=false
+PASS A persisted session currency change blocks reload with pending=true
+PASS Social launch remains explicitly unavailable in this non-social release
+PASS XSC authentication is blocked before a bet in this release
+PASS XGC authentication is blocked before a bet in this release
+PASS SC authentication is blocked before a bet in this release
+PASS GC authentication is blocked before a bet in this release
+PASS Social official jurisdictionFlags is blocked during boot and prevents play
+PASS Social official jurisdictionFlags is blocked during reauthentication and prevents play
+PASS Social legacy config.jurisdiction is blocked during boot and prevents play
+PASS Social legacy config.jurisdiction is blocked during reauthentication and prevents play
+{"passed":true,"total":53,"failed":0}
+

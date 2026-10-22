@@ -1,0 +1,77 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "checked_books": 100343,
+  "exact_total_weight": 1000000000000,
+  "exact_rtp_fraction": "24/25",
+  "exact_high_return_units": 2443555420320,
+  "exact_cap_total_mass": 125000,
+  "all_18_band_frequency_targets_exact": true,
+  "all_18_band_rtp_within_declared_one_percent": true,
+  "families": {
+    "0": {
+      "books": 99595,
+      "mass": 995030064460,
+      "high_books": 96,
+      "high_mass": 8455935,
+      "high_return_units": 983670379940,
+      "cap_books": 6,
+      "cap_mass": 62500,
+      "cap_during_fs_books": 0,
+      "early_cap_fs_books": 0,
+      "largest_gap_units_including_edges": 17690,
+      "distinct_high_payouts": 88,
+      "high_rtp_percentage_points_fraction": "49183518997/50000000000",
+      "high_probability_fraction": "1691187/200000000000"
+    },
+    "8": {
+      "books": 547,
+      "mass": 4679041094,
+      "high_books": 75,
+      "high_mass": 6326327,
+      "high_return_units": 729940459500,
+      "cap_books": 2,
+      "cap_mass": 31250,
+      "cap_during_fs_books": 2,
+      "early_cap_fs_books": 2,
+      "largest_gap_units_including_edges": 11000,
+      "distinct_high_payouts": 74,
+      "high_rtp_percentage_points_fraction": "1459880919/2000000000",
+      "high_probability_fraction": "6326327/1000000000000"
+    },
+    "10": {
+      "books": 103,
+      "mass": 286875670,
+      "high_books": 74,
+      "high_mass": 4215466,
+      "high_return_units": 485584830320,
+      "cap_books": 2,
+      "cap_mass": 18750,
+      "cap_during_fs_books": 2,
+      "early_cap_fs_books": 2,
+      "largest_gap_units_including_edges": 11200,
+      "distinct_high_payouts": 73,
+      "high_rtp_percentage_points_fraction": "6069810379/12500000000",
+      "high_probability_fraction": "2107733/500000000000"
+    },
+    "12": {
+      "books": 98,
+      "mass": 4018776,
+      "high_books": 74,
+      "high_mass": 2110877,
+      "high_return_units": 244359750560,
+      "cap_books": 2,
+      "cap_mass": 12500,
+      "cap_during_fs_books": 2,
+      "early_cap_fs_books": 1,
+      "largest_gap_units_including_edges": 11040,
+      "distinct_high_payouts": 73,
+      "high_rtp_percentage_points_fraction": "1527248441/6250000000",
+      "high_probability_fraction": "2110877/1000000000000"
+    }
+  },
+  "files_sha256": {
+    "selection.json": "a9d7f3b4e9a3e6e1417562045511fd662b69320eebbfcdd04646ab314ade2036",
+    "lookUpTable_base_0.csv": "b28847b42ef2f8c2458949aea46a1d37a174209f3c11f28edf6ef48c2d05727f",
+    "books_base.jsonl.zst": "77d5a172931bf4d424d574b92ce8180168d83e482eaad6cb3889ff1304c77171"
+  }
+}

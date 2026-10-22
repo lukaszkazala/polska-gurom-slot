@@ -1,0 +1,13 @@
+{
+  "unique_line_prefixes": 20,
+  "line_hit_numerator_over_36cubed": 23056,
+  "no_line_win_scatter_count_distribution_first3": {
+    "0": 17169,
+    "1": 6097,
+    "2": 334
+  },
+  "line_hit_probability": 0.4941700960219479,
+  "scatter_only_hit_probability": 0.002050915209190672,
+  "hit_probability": 0.49622101123113854,
+  "hit_probability_fraction": "370427/746496"
+}

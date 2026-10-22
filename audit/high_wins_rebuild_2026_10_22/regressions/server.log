@@ -1,0 +1,58 @@
+
+test_cap_credits_are_settled_once_at_total_bet (test_server.HTTPTests.test_cap_credits_are_settled_once_at_total_bet) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_cascade_endpoint_preserves_falls_and_charges_one_paid_round (test_server.HTTPTests.test_cascade_endpoint_preserves_falls_and_charges_one_paid_round) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_config_static_files_and_cookie (test_server.HTTPTests.test_config_static_files_and_cookie) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/config HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /../server.py HTTP/1.1" 404 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /%2e%2e/server.py HTTP/1.1" 404 -
+ok
+test_history_survives_page_reload_is_bounded_and_newest_first (test_server.HTTPTests.test_history_survives_page_reload_is_bounded_and_newest_first) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_idempotence_and_conflicting_reuse (test_server.HTTPTests.test_idempotence_and_conflicting_reuse) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_random_wallet_exact_settlement_and_session_isolation (test_server.HTTPTests.test_random_wallet_exact_settlement_and_session_isolation) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_reset_and_insufficient_funds (test_server.HTTPTests.test_reset_and_insufficient_funds) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_scenarios_replay_real_engine_without_wallet_changes (test_server.HTTPTests.test_scenarios_replay_real_engine_without_wallet_changes) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_simultaneous_retries_charge_once (test_server.HTTPTests.test_simultaneous_retries_charge_once) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:47] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:47] "GET /api/state HTTP/1.1" 200 -
+ok
+test_validation_and_cross_origin_requests_do_not_change_wallet (test_server.HTTPTests.test_validation_and_cross_origin_requests_do_not_change_wallet) ... 127.0.0.1 - - [22/Oct/2026 23:15:47] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:47] "GET /api/state HTTP/1.1" 403 -
+127.0.0.1 - - [22/Oct/2026 23:15:47] "OPTIONS /api/spin HTTP/1.1" 405 -
+127.0.0.1 - - [22/Oct/2026 23:15:47] "GET /api/state HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.238s
+
+OK

@@ -1,0 +1,118 @@
+{
+  "math_config_sha256": "d79c6643b616c077afe91803cb0b96a65a7a7ef004b4d51416dad18570958148",
+  "histogram_source": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\polska_gurom_v0_2\\verification\\joint_counts.npz",
+  "model_assumptions": {
+    "uniform_independent_reel_stops": true,
+    "expansion_independent_of_grid": true,
+    "uniform_expanding_reel_choice": true,
+    "free_spins_independent": true,
+    "retriggers_enabled": false,
+    "scatter_evaluated_before_expansion": true
+  },
+  "parameters": {
+    "payout_scale": 100,
+    "free_spin_line_multiplier": 4,
+    "expanding_probability": 0.216905037,
+    "expanding_probability_fraction": "216905037/1000000000",
+    "round_cap": 5000.0
+  },
+  "base_rtp": 0.7352578638344849,
+  "bonus_rtp": 0.22474213599223736,
+  "rtp_uncapped": 0.9599999998267222,
+  "rtp_uncapped_fraction": "501530650123874911981/522427760640000000000",
+  "rtp_capped_rounded_10_decimals": 0.9599999998,
+  "cap_bound": {
+    "method": "Outward-rounded Decimal finite MGFs; tail-integral Chernoff bound.",
+    "precision": 60,
+    "rounding": "ROUND_CEILING",
+    "t": "0.024",
+    "cap_probability_upper_bound_decimal": "1.24957233062902306146148721740518750198216036710167281004420E-47",
+    "cap_rtp_loss_upper_bound_decimal": "5.20655137762092942275619673918828125825900152959030337518417E-46",
+    "rtp_note": "Capped RTP lies between uncapped RTP minus this bound and uncapped RTP."
+  },
+  "base_standard_deviation": 2.3100947468454365,
+  "paid_round_standard_deviation_uncapped": 5.13802976275141,
+  "paid_round_variance_uncapped": 26.399349842919307,
+  "paid_round_variance_uncapped_fraction": "1441038950087184613778564129041808877587179/54586153017465026641920000000000000000000",
+  "free_spin_mean": 5.460167465653233,
+  "free_spin_standard_deviation": 16.030813212861116,
+  "mean_bonus_given_trigger": 44.17301357284393,
+  "bonus_standard_deviation_given_trigger": 45.654711471231735,
+  "positive_return_probability": 0.2970869532083524,
+  "positive_below_bet_probability": 0.1164221795669698,
+  "net_profit_probability": 0.1788952361085797,
+  "break_even_probability": 0.001769537532802859,
+  "free_spin_zero_probability": 0.6356464369915552,
+  "zero_bonus_probability_given_trigger": 0.025944058649664915,
+  "trigger_probability": 0.005087770061728395,
+  "rounds_per_bonus": 196.54976303317537,
+  "mean_free_spins_per_trigger": 8.090047393364928,
+  "max_base_by_scatter": [
+    104.55,
+    47.65,
+    40.16,
+    37.86,
+    36.18,
+    50.22
+  ],
+  "max_free_spin": 714.0,
+  "max_round_before_cap": 8618.22,
+  "payout_distribution_numerical_fft": {
+    "method": "Numerical FFT approximation before cap; negative roundoff is clipped and mass normalized.",
+    "warning": "Do not use FFT values to infer ultra-rare cap events. Use the Decimal Chernoff bound.",
+    "paid_round": {
+      "quantiles": {
+        "0.5": 0.0,
+        "0.75": 0.5,
+        "0.9": 2.4,
+        "0.95": 4.0,
+        "0.99": 12.5,
+        "0.999": 69.56,
+        "0.9999": 182.04,
+        "0.99999": 330.56
+      },
+      "probability_payout_strictly_above": {
+        "1": 0.17889523610860444,
+        "5": 0.03695739280808036,
+        "10": 0.014874660405451849,
+        "20": 0.005607481757961935,
+        "50": 0.001992298070006848,
+        "100": 0.0004840284225029618,
+        "250": 3.982255823989632e-05,
+        "500": 5.51736550084481e-07,
+        "1000": 4.68549064419162e-11
+      },
+      "numerical_negative_mass_before_clipping": 3.144598322272222e-14
+    },
+    "bonus_given_trigger": {
+      "quantiles": {
+        "0.5": 31.2,
+        "0.75": 57.84,
+        "0.9": 95.6,
+        "0.95": 129.2,
+        "0.99": 230.4,
+        "0.999": 364.84,
+        "0.9999": 502.04,
+        "0.99999": 624.64
+      },
+      "probability_payout_strictly_above": {
+        "1": 0.9731354996518746,
+        "5": 0.9105340010972579,
+        "10": 0.8301166042817983,
+        "20": 0.664260392528609,
+        "50": 0.3057895762473087,
+        "100": 0.09078189197261674,
+        "250": 0.007581381564819058,
+        "500": 0.00010396232025788421,
+        "1000": 8.787985503118199e-09
+      },
+      "numerical_negative_mass_before_clipping": 5.101493321060079e-15
+    }
+  },
+  "notes": [
+    "All payout values multiply total bet. A paid round includes its full triggered bonus.",
+    "Positive payout frequency includes returns below total bet; net-profit frequency is reported separately.",
+    "Moments before cap use exact fractions including E[XN]; cap correction is bounded separately.",
+    "No universal numeric boundary defines volatility classes; use reported SD and quantiles."
+  ]
+}

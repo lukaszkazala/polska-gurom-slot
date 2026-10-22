@@ -1,0 +1,136 @@
+{
+  "math_version": "0.6.0-high-wins",
+  "scope": "Local selector, engine, HTTP wallet, UI logic and RGS contract regressions. Minimal DOM tests do not establish browser visuals or platform approval.",
+  "passed": false,
+  "suites_run": 18,
+  "suites_passed": 7,
+  "checks": [
+    {
+      "name": "generate_current_fixtures",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.645,
+      "log": "regressions/generate_current_fixtures.log"
+    },
+    {
+      "name": "bonus12_api",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 15.127,
+      "log": "regressions/bonus12_api.log"
+    },
+    {
+      "name": "server",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 2.555,
+      "log": "regressions/server.log"
+    },
+    {
+      "name": "settlement_atomicity",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 2.137,
+      "log": "regressions/settlement_atomicity.log"
+    },
+    {
+      "name": "cascades",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.63,
+      "log": "regressions/cascades.log"
+    },
+    {
+      "name": "high_wins",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 3.879,
+      "log": "regressions/high_wins.log"
+    },
+    {
+      "name": "cap_messages",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.979,
+      "log": "regressions/cap_messages.log"
+    },
+    {
+      "name": "audit_fixes",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.416,
+      "log": "regressions/audit_fixes.log"
+    },
+    {
+      "name": "replay",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.474,
+      "log": "regressions/replay.log"
+    },
+    {
+      "name": "rgs",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.223,
+      "log": "regressions/rgs.log"
+    },
+    {
+      "name": "rgs_recovery",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.162,
+      "log": "regressions/rgs_recovery.log"
+    },
+    {
+      "name": "autoplay",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 15.28,
+      "log": "regressions/autoplay.log"
+    },
+    {
+      "name": "network_logic",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 1.595,
+      "log": "regressions/network_logic.log"
+    },
+    {
+      "name": "platform_currency",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.218,
+      "log": "regressions/platform_currency.log"
+    },
+    {
+      "name": "localization",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.725,
+      "log": "regressions/localization.log"
+    },
+    {
+      "name": "bonus12_frontend",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 4.93,
+      "log": "regressions/bonus12_frontend.log"
+    },
+    {
+      "name": "any_start_frontend",
+      "passed": true,
+      "exit_code": 0,
+      "elapsed_seconds": 0.163,
+      "log": "regressions/any_start_frontend.log"
+    },
+    {
+      "name": "high_wins_frontend",
+      "passed": false,
+      "exit_code": 1,
+      "elapsed_seconds": 0.48,
+      "log": "regressions/high_wins_frontend.log"
+    }
+  ],
+  "fixture_sha256": "b30332deaedb5d7c6eac6a7318480bc08748debc7ccb2fcdf5cb74dce373db52"
+}

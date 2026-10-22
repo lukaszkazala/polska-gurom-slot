@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-10-20",
+  "math_version": "0.4.1-weighted-12fs",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "24 zapisane serie",
+      "passed": true
+    },
+    {
+      "name": "166 dowodów",
+      "passed": true
+    },
+    {
+      "name": "11 etapów historii",
+      "passed": true
+    },
+    {
+      "name": "160 mln losowań końcowych",
+      "passed": true
+    },
+    {
+      "name": "160 mln osobnych rund generatora",
+      "passed": true
+    },
+    {
+      "name": "135 testów w dziewięciu bieżących zestawach regresji",
+      "passed": true
+    },
+    {
+      "name": "Wszystkie 135 testów zaliczone",
+      "passed": true
+    },
+    {
+      "name": "RTP 96% i brak otwartego błędu pokrycia bonusów",
+      "passed": true
+    },
+    {
+      "name": "12FS ma 24 wyniki i dodatnią masę potwierdzoną dowodami",
+      "passed": true
+    },
+    {
+      "name": "Unikalne identyfikatory serii, zestawów i raportów",
+      "passed": true
+    },
+    {
+      "name": "Każda kopia źródła jest identyczna z zachowanym oryginałem",
+      "passed": true
+    },
+    {
+      "name": "Wszystkie odsyłacze historii mają pliki",
+      "passed": true
+    },
+    {
+      "name": "Dane osadzone zgodne z JSON",
+      "passed": true
+    },
+    {
+      "name": "Polskie znaki bez znaków zastępczych",
+      "passed": true
+    },
+    {
+      "name": "Unikalne identyfikatory HTML",
+      "passed": true
+    },
+    {
+      "name": "Sześć widoków dostępnych w HTML",
+      "passed": true
+    },
+    {
+      "name": "Wszystkie zasoby strony dostępne lokalnie",
+      "passed": true
+    },
+    {
+      "name": "Dawne trzy serie ważone są w archiwum, nowe trzy dotyczą 0.4.1",
+      "passed": true
+    },
+    {
+      "name": "139 historycznych plików zachowanych osobno",
+      "passed": true
+    }
+  ],
+  "browser_checked": [],
+  "browser_scope": "Ten skrypt sprawdza strukturę, dane i pliki. Nie wykonuje testów przeglądarkowych.",
+  "limitations": [
+    "Nie uruchamiano ponownie dużych symulacji na potrzeby tej kontroli dashboardu; panel przedstawia zapisane nowe wyniki 0.4.1 i osobno historię.",
+    "Lokalne sprawdzenie dashboardu i plików matematyki nie stanowi zatwierdzenia Stake."
+  ]
+}

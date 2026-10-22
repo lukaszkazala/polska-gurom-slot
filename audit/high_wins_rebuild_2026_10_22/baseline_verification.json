@@ -1,0 +1,734 @@
+{
+  "success": true,
+  "scope": "Every exported event; independent frozen-contract interval scorer, reel reachability, cascades, settlement and exact weighted metrics; full local replay in addition.",
+  "game": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\high_wins_rebuild_2026_10_22\\baseline",
+  "bank": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\high_wins_rebuild_2026_10_22\\baseline\\stake_math",
+  "acceptance_required": false,
+  "runtime": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "zstandard": "0.25.0"
+  },
+  "exhaustive_line_sequences": 100000,
+  "source_fingerprint": {
+    "config.py": "7767db5e864a4b05c23221438dcd13339af2498597681cca50b6ee4cc10ab322",
+    "game.py": "42401e6a16c511abc9d9884a4d74b5d6643e290315ee5e63f635343665322dfb",
+    "selection.py": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6"
+  },
+  "export_sha256": {
+    "books_base.jsonl.zst": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57",
+    "index.json": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+    "lookUpTable_base_0.csv": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b",
+    "mathematics.json": "24e52274ed46b2d09d64fea31766f3488bfeba97a2c2d38a7dc2165a02bfc54e",
+    "selection.json": "4f55f32fbd3d993e7299eed1d34162fe66f1f6bb700b1727bb035e20f6560e1c"
+  },
+  "verification_script_sha256": "916d6be4d07318146d07fcf3ec02b70b884b8651e8aca0772cd399342b0f656b",
+  "metrics": {
+    "math_version": "0.5.0-any-start",
+    "book_count": 100049,
+    "total_weight": 1000000000000,
+    "rtp": {
+      "fraction": "24/25",
+      "value": 0.96
+    },
+    "variance": {
+      "fraction": "49511809959533/500000000000",
+      "value": 99.023619919066
+    },
+    "standard_deviation": 9.951061245870513,
+    "hit_frequency": {
+      "fraction": "15622691917/100000000000",
+      "value": 0.15622691917
+    },
+    "net_profit_frequency": {
+      "fraction": "24516000179/250000000000",
+      "value": 0.098064000716
+    },
+    "base_rtp": {
+      "fraction": "2280387071993/5000000000000",
+      "value": 0.4560774143986
+    },
+    "bonus_rtp": {
+      "fraction": "2519612928007/5000000000000",
+      "value": 0.5039225856014
+    },
+    "ordinary_rtp": {
+      "fraction": "584727778623/625000000000",
+      "value": 0.9355644457968
+    },
+    "high_rtp": {
+      "fraction": "15272221377/625000000000",
+      "value": 0.0244355542032
+    },
+    "high_rtp_percentage_points": 2.44355542032,
+    "high_probability": {
+      "fraction": "1117727/31250000000",
+      "value": 3.5767264e-05
+    },
+    "high_weight": 35767264,
+    "high_records": 25,
+    "high_distinct_payouts": 19,
+    "high_largest_gap_x": 1016.5,
+    "high_gaps_including_range_edges": [
+      {
+        "lower_x": 3010.9,
+        "upper_x": 4027.4,
+        "gap_x": 1016.5
+      },
+      {
+        "lower_x": 995.3,
+        "upper_x": 1986.9,
+        "gap_x": 991.6
+      },
+      {
+        "lower_x": 4029.6,
+        "upper_x": 5000.0,
+        "gap_x": 970.4
+      },
+      {
+        "lower_x": 2018.4,
+        "upper_x": 2968.3,
+        "gap_x": 949.9
+      },
+      {
+        "lower_x": 528.8,
+        "upper_x": 990.9,
+        "gap_x": 462.1
+      },
+      {
+        "lower_x": 2968.3,
+        "upper_x": 3003.4,
+        "gap_x": 35.1
+      },
+      {
+        "lower_x": 506.1,
+        "upper_x": 528.8,
+        "gap_x": 22.7
+      },
+      {
+        "lower_x": 1986.9,
+        "upper_x": 2008.3,
+        "gap_x": 21.4
+      },
+      {
+        "lower_x": 3003.4,
+        "upper_x": 3010.9,
+        "gap_x": 7.5
+      },
+      {
+        "lower_x": 2011.4,
+        "upper_x": 2018.4,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 500.0,
+        "upper_x": 504.3,
+        "gap_x": 4.3
+      },
+      {
+        "lower_x": 990.9,
+        "upper_x": 994.3,
+        "gap_x": 3.4
+      },
+      {
+        "lower_x": 2008.3,
+        "upper_x": 2011.4,
+        "gap_x": 3.1
+      },
+      {
+        "lower_x": 4027.8,
+        "upper_x": 4029.6,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 504.7,
+        "upper_x": 506.1,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 994.3,
+        "upper_x": 994.9,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 4027.4,
+        "upper_x": 4027.8,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 994.9,
+        "upper_x": 995.3,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 504.3,
+        "upper_x": 504.7,
+        "gap_x": 0.4
+      }
+    ],
+    "largest_gaps_all_payouts": [
+      {
+        "lower_x": 3010.9,
+        "upper_x": 4027.4,
+        "gap_x": 1016.5
+      },
+      {
+        "lower_x": 995.3,
+        "upper_x": 1986.9,
+        "gap_x": 991.6
+      },
+      {
+        "lower_x": 4029.6,
+        "upper_x": 5000.0,
+        "gap_x": 970.4
+      },
+      {
+        "lower_x": 2018.4,
+        "upper_x": 2968.3,
+        "gap_x": 949.9
+      },
+      {
+        "lower_x": 528.8,
+        "upper_x": 990.9,
+        "gap_x": 462.1
+      },
+      {
+        "lower_x": 422.1,
+        "upper_x": 504.3,
+        "gap_x": 82.2
+      },
+      {
+        "lower_x": 328.9,
+        "upper_x": 380.8,
+        "gap_x": 51.9
+      },
+      {
+        "lower_x": 380.8,
+        "upper_x": 422.1,
+        "gap_x": 41.3
+      },
+      {
+        "lower_x": 293.4,
+        "upper_x": 328.9,
+        "gap_x": 35.5
+      },
+      {
+        "lower_x": 2968.3,
+        "upper_x": 3003.4,
+        "gap_x": 35.1
+      },
+      {
+        "lower_x": 259.1,
+        "upper_x": 284.4,
+        "gap_x": 25.3
+      },
+      {
+        "lower_x": 506.1,
+        "upper_x": 528.8,
+        "gap_x": 22.7
+      },
+      {
+        "lower_x": 1986.9,
+        "upper_x": 2008.3,
+        "gap_x": 21.4
+      },
+      {
+        "lower_x": 3003.4,
+        "upper_x": 3010.9,
+        "gap_x": 7.5
+      },
+      {
+        "lower_x": 237.6,
+        "upper_x": 244.8,
+        "gap_x": 7.2
+      },
+      {
+        "lower_x": 2011.4,
+        "upper_x": 2018.4,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 211.4,
+        "upper_x": 218.2,
+        "gap_x": 6.8
+      },
+      {
+        "lower_x": 253.0,
+        "upper_x": 259.1,
+        "gap_x": 6.1
+      },
+      {
+        "lower_x": 198.0,
+        "upper_x": 202.1,
+        "gap_x": 4.1
+      },
+      {
+        "lower_x": 189.0,
+        "upper_x": 193.0,
+        "gap_x": 4.0
+      }
+    ],
+    "maximum_probability": {
+      "fraction": "1/8000000",
+      "value": 1.25e-07
+    },
+    "maximum_one_in": 8000000,
+    "maximum_base_weight": 125000,
+    "maximum_bonus_weight": 0,
+    "maximum_bonus_variant_weights": {
+      "8": 0,
+      "10": 0,
+      "12": 0
+    },
+    "bonus_entry_weights": {
+      "8": 4679041094,
+      "10": 286875670,
+      "12": 4018776
+    },
+    "bonus_variant_book_counts": {
+      "8": 473,
+      "10": 29,
+      "12": 24
+    },
+    "bonus_variant_rtp": {
+      "8": {
+        "fraction": "2346217605173/5000000000000",
+        "value": 0.4692435210346
+      },
+      "10": {
+        "fraction": "42704905579/1250000000000",
+        "value": 0.0341639244632
+      },
+      "12": {
+        "fraction": "1287850259/2500000000000",
+        "value": 0.0005151401036
+      }
+    },
+    "distinct_payouts": 818,
+    "cap_witnesses": [
+      {
+        "id": 100020,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 511540,
+        "cap_reduction_units": 11540,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100021,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 521140,
+        "cap_reduction_units": 21140,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100022,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 503090,
+        "cap_reduction_units": 3090,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100023,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 516250,
+        "cap_reduction_units": 16250,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      }
+    ],
+    "high_band_statistics": {
+      "[0,500)": {
+        "books": 100024,
+        "weight": 999964232736,
+        "payout_sum": 93556444579680,
+        "probability": {
+          "fraction": "31248882273/31250000000",
+          "value": 0.999964232736
+        },
+        "rtp": {
+          "fraction": "584727778623/625000000000",
+          "value": 0.9355644457968
+        }
+      },
+      "[500,750)": {
+        "books": 5,
+        "weight": 29892264,
+        "payout_sum": 1532802920320,
+        "probability": {
+          "fraction": "3736533/125000000000",
+          "value": 2.9892264e-05
+        },
+        "rtp": {
+          "fraction": "2395004563/156250000000",
+          "value": 0.0153280292032
+        }
+      },
+      "[750,1000)": {
+        "books": 4,
+        "weight": 4000000,
+        "payout_sum": 397540000000,
+        "probability": {
+          "fraction": "1/250000",
+          "value": 4e-06
+        },
+        "rtp": {
+          "fraction": "19877/5000000",
+          "value": 0.0039754
+        }
+      },
+      "[2000,2250)": {
+        "books": 3,
+        "weight": 750000,
+        "payout_sum": 150952500000,
+        "probability": {
+          "fraction": "3/4000000",
+          "value": 7.5e-07
+        },
+        "rtp": {
+          "fraction": "60381/40000000",
+          "value": 0.001509525
+        }
+      },
+      "[1750,2000)": {
+        "books": 1,
+        "weight": 250000,
+        "payout_sum": 49672500000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "19869/40000000",
+          "value": 0.000496725
+        }
+      },
+      "[3000,3250)": {
+        "books": 2,
+        "weight": 250000,
+        "payout_sum": 75178750000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "60143/80000000",
+          "value": 0.0007517875
+        }
+      },
+      "[2750,3000)": {
+        "books": 2,
+        "weight": 250000,
+        "payout_sum": 74207500000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "29683/40000000",
+          "value": 0.000742075
+        }
+      },
+      "[4000,4250)": {
+        "books": 4,
+        "weight": 250000,
+        "payout_sum": 100701250000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "80561/80000000",
+          "value": 0.0010070125
+        }
+      },
+      "5000": {
+        "books": 4,
+        "weight": 125000,
+        "payout_sum": 62500000000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        }
+      }
+    },
+    "tail_concentration": {
+      "500": {
+        "weight": 35767264,
+        "probability": {
+          "fraction": "1117727/31250000000",
+          "value": 3.5767264e-05
+        },
+        "rtp": {
+          "fraction": "15272221377/625000000000",
+          "value": 0.0244355542032
+        },
+        "share_of_total_rtp": {
+          "fraction": "5090740459/200000000000",
+          "value": 0.025453702295
+        }
+      },
+      "750": {
+        "weight": 5875000,
+        "probability": {
+          "fraction": "47/8000000",
+          "value": 5.875e-06
+        },
+        "rtp": {
+          "fraction": "364301/40000000",
+          "value": 0.009107525
+        },
+        "share_of_total_rtp": {
+          "fraction": "364301/38400000",
+          "value": 0.009487005208333333
+        }
+      },
+      "1000": {
+        "weight": 1875000,
+        "probability": {
+          "fraction": "3/1600000",
+          "value": 1.875e-06
+        },
+        "rtp": {
+          "fraction": "41057/8000000",
+          "value": 0.005132125
+        },
+        "share_of_total_rtp": {
+          "fraction": "41057/7680000",
+          "value": 0.005345963541666667
+        }
+      },
+      "1500": {
+        "weight": 1875000,
+        "probability": {
+          "fraction": "3/1600000",
+          "value": 1.875e-06
+        },
+        "rtp": {
+          "fraction": "41057/8000000",
+          "value": 0.005132125
+        },
+        "share_of_total_rtp": {
+          "fraction": "41057/7680000",
+          "value": 0.005345963541666667
+        }
+      },
+      "2000": {
+        "weight": 1625000,
+        "probability": {
+          "fraction": "13/8000000",
+          "value": 1.625e-06
+        },
+        "rtp": {
+          "fraction": "23177/5000000",
+          "value": 0.0046354
+        },
+        "share_of_total_rtp": {
+          "fraction": "23177/4800000",
+          "value": 0.004828541666666667
+        }
+      },
+      "2500": {
+        "weight": 875000,
+        "probability": {
+          "fraction": "7/8000000",
+          "value": 8.75e-07
+        },
+        "rtp": {
+          "fraction": "25007/8000000",
+          "value": 0.003125875
+        },
+        "share_of_total_rtp": {
+          "fraction": "25007/7680000",
+          "value": 0.0032561197916666667
+        }
+      },
+      "3000": {
+        "weight": 625000,
+        "probability": {
+          "fraction": "1/1600000",
+          "value": 6.25e-07
+        },
+        "rtp": {
+          "fraction": "11919/5000000",
+          "value": 0.0023838
+        },
+        "share_of_total_rtp": {
+          "fraction": "3973/1600000",
+          "value": 0.002483125
+        }
+      },
+      "3500": {
+        "weight": 375000,
+        "probability": {
+          "fraction": "3/8000000",
+          "value": 3.75e-07
+        },
+        "rtp": {
+          "fraction": "130561/80000000",
+          "value": 0.0016320125
+        },
+        "share_of_total_rtp": {
+          "fraction": "130561/76800000",
+          "value": 0.0017000130208333333
+        }
+      },
+      "4000": {
+        "weight": 375000,
+        "probability": {
+          "fraction": "3/8000000",
+          "value": 3.75e-07
+        },
+        "rtp": {
+          "fraction": "130561/80000000",
+          "value": 0.0016320125
+        },
+        "share_of_total_rtp": {
+          "fraction": "130561/76800000",
+          "value": 0.0017000130208333333
+        }
+      },
+      "4500": {
+        "weight": 125000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        },
+        "share_of_total_rtp": {
+          "fraction": "1/1536",
+          "value": 0.0006510416666666666
+        }
+      },
+      "5000": {
+        "weight": 125000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        },
+        "share_of_total_rtp": {
+          "fraction": "1/1536",
+          "value": 0.0006510416666666666
+        }
+      }
+    },
+    "high_top_record_rtp_shares": {
+      "1": {
+        "fraction": "3269393252/15272221377",
+        "value": 0.21407450634023115
+      },
+      "5": {
+        "fraction": "1368574036/2181745911",
+        "value": 0.6272838780629207
+      },
+      "10": {
+        "fraction": "1768574036/2181745911",
+        "value": 0.8106232843536655
+      },
+      "20": {
+        "fraction": "9816184043/10181480918",
+        "value": 0.9641214399023048
+      }
+    },
+    "raw_weighted_sums": {
+      "payout_sum": 96000000000000,
+      "squared_payout_sum": 999452199190660000,
+      "base_payout_sum": 45607741439860,
+      "bonus_payout_sum": 50392258560140,
+      "base_scatter_payout_sum": 619379496400,
+      "bonus_scatter_payout_sum": 18795302500,
+      "hit_weight": 156226919170,
+      "profit_weight": 98064000716,
+      "bonus_weight": 4969935540,
+      "max_weight": 125000,
+      "weighted_free_spins": 40349310764,
+      "weighted_expansions": 10269329883,
+      "capped_weight": 125000,
+      "bonus_10_payout_sum": 3416392446320,
+      "bonus_8_payout_sum": 46924352103460,
+      "max_in_base_weight": 125000,
+      "bonus_12_payout_sum": 51514010360
+    }
+  },
+  "rejection_sensitivity_checks": [
+    {
+      "mutation": "incorrect round credited total",
+      "rejected": true
+    },
+    {
+      "mutation": "incorrect scatter count",
+      "rejected": true
+    },
+    {
+      "mutation": "fractional payout event field",
+      "rejected": true
+    },
+    {
+      "mutation": "unreachable initial reel window",
+      "rejected": true
+    },
+    {
+      "mutation": "incorrect gravity movement",
+      "rejected": true
+    },
+    {
+      "mutation": "missing awarded uncapped FS",
+      "rejected": true
+    }
+  ],
+  "selector_boundaries": {
+    "intervals": 100049,
+    "tickets_checked": 200098,
+    "success": true,
+    "method": "Production interval selector at both boundaries; event reconstruction independently verified for every spec above."
+  },
+  "math_version": "0.5.0-any-start",
+  "unique_event_sequences": 100049,
+  "exported_books_checked": 100049,
+  "counts": {
+    "assertions": 17800783,
+    "refill_symbols": 492403,
+    "surviving_symbols": 1121567,
+    "transitions": 107598,
+    "stages": 212009,
+    "line_awards": 367959,
+    "base_spins": 100049,
+    "books": 100049,
+    "free_spins": 4362,
+    "expansions": 1103,
+    "partially_credited_cascades": 4
+  },
+  "elapsed_seconds": 57.5940000000046
+}

@@ -1,0 +1,64 @@
+test_01_response_dropped_after_settlement_retry_same_id (__main__.NetworkFaultTests.test_01_response_dropped_after_settlement_retry_same_id) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_02_truncated_response_retry_same_id (__main__.NetworkFaultTests.test_02_truncated_response_retry_same_id) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_03_unavailable_before_forwarding_then_recovery (__main__.NetworkFaultTests.test_03_unavailable_before_forwarding_then_recovery) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_04_gateway_503_after_settlement_then_recovery (__main__.NetworkFaultTests.test_04_gateway_503_after_settlement_then_recovery) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_05_delayed_response_client_timeout_and_retry (__main__.NetworkFaultTests.test_05_delayed_response_client_timeout_and_retry) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_06_parallel_retries_after_lost_response (__main__.NetworkFaultTests.test_06_parallel_retries_after_lost_response) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_07_connection_closes_before_headers_complete (__main__.NetworkFaultTests.test_07_connection_closes_before_headers_complete) ... 127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:14] "GET /api/state HTTP/1.1" 200 -
+ok
+test_08_connection_closes_during_request_body (__main__.NetworkFaultTests.test_08_connection_closes_during_request_body) ... 127.0.0.1 - - [22/Oct/2026 00:36:15] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:15] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:15] "GET /api/state HTTP/1.1" 200 -
+ok
+test_09_server_unavailable_then_new_instance (__main__.NetworkFaultTests.test_09_server_unavailable_then_new_instance) ... 127.0.0.1 - - [22/Oct/2026 00:36:15] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+ok
+test_10_restart_blocks_silent_resettlement_of_lost_result (__main__.NetworkFaultTests.test_10_restart_blocks_silent_resettlement_of_lost_result) ... 127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+ok
+test_11_missing_cookie_cannot_start_unrecoverable_spin (__main__.NetworkFaultTests.test_11_missing_cookie_cannot_start_unrecoverable_spin) ... 127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+ok
+test_12_recent_cache_eviction_rejects_old_id_without_charge (__main__.NetworkFaultTests.test_12_recent_cache_eviction_rejects_old_id_without_charge) ... 127.0.0.1 - - [22/Oct/2026 00:36:17] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_13_page_reload_with_same_cookie_recovers_lost_result (__main__.NetworkFaultTests.test_13_page_reload_with_same_cookie_recovers_lost_result) ... 127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_14_expired_session_rejected_before_new_settlement (__main__.NetworkFaultTests.test_14_expired_session_rejected_before_new_settlement) ... 127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_15_missing_or_mismatched_session_header_rejected (__main__.NetworkFaultTests.test_15_missing_or_mismatched_session_header_rejected) ... 127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_16_reset_blocks_retry_from_old_session_epoch (__main__.NetworkFaultTests.test_16_reset_blocks_retry_from_old_session_epoch) ... 127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+ok
+test_17_idempotency_capacity_rejects_and_explicit_reset_recovers (__main__.NetworkFaultTests.test_17_idempotency_capacity_rejects_and_explicit_reset_recovers) ... 127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 00:36:18] "GET /api/state HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 5.589s
+
+OK

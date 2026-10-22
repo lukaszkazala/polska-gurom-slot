@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-10-20T12:07:05.028Z",
+  "status": "pass",
+  "method": "Actual app.js evaluated in Node VM; actual exported positive-weight 12-FS book; minimal DOM, virtual timers and idempotent mock API. Not a browser rendering or random-frequency test.",
+  "math_version": "0.5.0-any-start",
+  "actual_export_witness": {
+    "book_id": 100024,
+    "weight": 167449
+  },
+  "source_sha256": "2234cc53eb299634dd022ef2a231f99df90d6e6031a7447ff0e0905730777359",
+  "tests_run": 7,
+  "passed": 7,
+  "checks": [
+    {
+      "name": "Actual exported 12-FS round renders through completion in normal mode",
+      "status": "pass",
+      "paid_rounds": 1,
+      "free_spins": 12,
+      "bonus_final_counter": "12 / 12"
+    },
+    {
+      "name": "Actual exported 12-FS round renders through completion in quick mode",
+      "status": "pass",
+      "paid_rounds": 1,
+      "free_spins": 12,
+      "bonus_final_counter": "12 / 12"
+    },
+    {
+      "name": "Actual exported 12-FS round renders through completion in turbo mode",
+      "status": "pass",
+      "paid_rounds": 1,
+      "free_spins": 12,
+      "bonus_final_counter": "12 / 12"
+    },
+    {
+      "name": "Actual exported 12-FS round renders through completion in instant mode",
+      "status": "pass",
+      "paid_rounds": 1,
+      "free_spins": 12,
+      "bonus_final_counter": "12 / 12"
+    },
+    {
+      "name": "100 autoplay rounds containing 12 FS each count 100 paid rounds and 1200 free spins",
+      "status": "pass",
+      "paid_rounds": 100,
+      "free_spins": 1200,
+      "requests": 100
+    },
+    {
+      "name": "Lost 12-FS reply retries the original paid round without double counting",
+      "status": "pass",
+      "paid_rounds": 100,
+      "free_spins": 1200,
+      "requests": 200,
+      "unique_charges": 100
+    },
+    {
+      "name": "STOP during the fifth free spin completes all twelve but starts no extra paid round",
+      "status": "pass",
+      "paid_rounds": 1,
+      "free_spins_completed_after_stop": 12,
+      "requests": 1
+    }
+  ]
+}

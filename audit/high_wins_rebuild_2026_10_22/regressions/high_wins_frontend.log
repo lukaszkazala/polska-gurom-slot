@@ -1,0 +1,38 @@
+PASS bonus_cap8, pl, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap8, pl, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap8, pl, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap8, en, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap8, en, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap8, en, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap8, de, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap8, de, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap8, de, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap8: saved replay preserves original paid stake and wallet
+PASS bonus_cap8: RGS reload after paid base resumes bonus with one charge and one settlement
+PASS bonus_cap8: public replay uses current 0.6.0-high-wins version without wallet requests
+PASS bonus_cap10, pl, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap10, pl, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap10, pl, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap10, en, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap10, en, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap10, en, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap10, de, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap10, de, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap10, de, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap10: saved replay preserves original paid stake and wallet
+PASS bonus_cap10: RGS reload after paid base resumes bonus with one charge and one settlement
+PASS bonus_cap10: public replay uses current 0.6.0-high-wins version without wallet requests
+PASS bonus_cap12, pl, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap12, pl, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap12, pl, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap12, en, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap12, en, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap12, en, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap12, de, animated: actual FS cap displays credited payout and original award
+PASS bonus_cap12, de, instant: actual FS cap displays credited payout and original award
+PASS bonus_cap12, de, skip-screens: actual FS cap displays credited payout and original award
+PASS bonus_cap12: saved replay preserves original paid stake and wallet
+PASS bonus_cap12: RGS reload after paid base resumes bonus with one charge and one settlement
+PASS bonus_cap12: public replay uses current 0.6.0-high-wins version without wallet requests
+36/36 actual high-win UI/RGS checks passed
+

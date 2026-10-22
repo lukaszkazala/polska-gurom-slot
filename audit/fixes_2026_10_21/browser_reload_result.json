@@ -1,0 +1,6 @@
+{
+  "bet": "10,00 zł",
+  "balance": "9990,00 zł",
+  "caption": "Bez wygranej · 0,00 zł",
+  "scope": "Native demo stake after reload; exact interrupted 12-FS resume is covered by deterministic regression"
+}

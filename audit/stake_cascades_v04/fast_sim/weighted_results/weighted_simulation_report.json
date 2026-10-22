@@ -1,0 +1,337 @@
+{
+  "created_utc": "2026-10-19T16:40:12.140331+00:00",
+  "scope": "Independent actual sampled draws from the final published weighted payout table; no animation or natural reel-generation coverage is claimed",
+  "method": "One PCG64 uniform uint64 integer ticket per paid round, exact uint64 CDF, numpy.searchsorted(side=right), outcome histogram checked against generated draw count",
+  "numpy_version": "2.2.5",
+  "source_sha256": "48c60828ed2198f623b9c1a5d36c4c20193670aa2e96af74bb9a4239b58b6a8a",
+  "lut_path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\stake_math\\lookUpTable_base_0.csv",
+  "lut_sha256": "6f41f22a102a96658b8326aa500607a64eaa77df7e705e1ac217a9da2f2c58fe",
+  "outcomes": 100024,
+  "weight_total": 1000000000000,
+  "payout_unit": "one hundredth of total bet",
+  "quantization_step_units": 10,
+  "cdf_validation": {
+    "boundary_tickets_checked": 200048,
+    "independent_bisect_probes": 10000,
+    "result": "passed"
+  },
+  "reference": {
+    "exact_rtp_fraction": "24/25",
+    "rtp": 0.96,
+    "exact_variance_fraction": "486994085036583/10000000000000",
+    "variance": 48.6994085036583,
+    "standard_deviation": 6.978496149146913,
+    "hit_frequency": 0.294489734385,
+    "max_win": 5000,
+    "max_win_probability_fraction": "1/8000000",
+    "max_win_probability": 1.25e-07
+  },
+  "runs": [
+    {
+      "rounds": 10000000,
+      "seed": 2026101901,
+      "actual_integer_tickets_drawn": 10000000,
+      "accounted_outcome_counts": 10000000,
+      "total_payout_units": 957149450,
+      "squared_payout_units_sum": 4070428769900,
+      "rtp": 0.95714945,
+      "empirical_variance": 39.788152629364696,
+      "reference_standard_error": 0.0022067942474018345,
+      "normal_95_interval_around_observed": [
+        0.9528242127538021,
+        0.9614746872461978
+      ],
+      "normal_99_interval_around_observed": [
+        0.9514651247106392,
+        0.9628337752893608
+      ],
+      "rtp_difference_from_reference": -0.0028505500000000072,
+      "z_score": -1.2917153483411956,
+      "within_95_normal_reference_band": true,
+      "within_99_normal_reference_band": true,
+      "hit_count": 2945303,
+      "hit_frequency": 0.2945303,
+      "hit_frequency_clopper_pearson_95": [
+        0.29424778751908115,
+        0.2948129314472548
+      ],
+      "max_observed_payout_units": 402710,
+      "max_win_hits": 0,
+      "max_win_expected_hits": 1.25,
+      "max_win_binomial_95_prediction_count_interval": [
+        0,
+        4
+      ],
+      "max_win_observed_rate_clopper_pearson_95": [
+        0.0,
+        3.6888787737224376e-07
+      ],
+      "win_buckets": {
+        "0x": {
+          "observed_count": 7054697,
+          "observed_frequency": 0.7054697,
+          "exact_probability": "141102053123/200000000000",
+          "expected_count": 7055102.65615
+        },
+        ">0x-1x": {
+          "observed_count": 1055703,
+          "observed_frequency": 0.1055703,
+          "exact_probability": "21133142097/200000000000",
+          "expected_count": 1056657.10485
+        },
+        "1x-5x": {
+          "observed_count": 1494529,
+          "observed_frequency": 0.1494529,
+          "exact_probability": "7467773661/50000000000",
+          "expected_count": 1493554.7322
+        },
+        "5x-20x": {
+          "observed_count": 340228,
+          "observed_frequency": 0.0340228,
+          "exact_probability": "424721583/12500000000",
+          "expected_count": 339777.2664
+        },
+        "20x-100x": {
+          "observed_count": 49519,
+          "observed_frequency": 0.0049519,
+          "exact_probability": "496003527/100000000000",
+          "expected_count": 49600.3527
+        },
+        "100x-500x": {
+          "observed_count": 5285,
+          "observed_frequency": 0.0005285,
+          "exact_probability": "52491377/100000000000",
+          "expected_count": 5249.1377
+        },
+        "500x-1000x": {
+          "observed_count": 27,
+          "observed_frequency": 2.7e-06,
+          "exact_probability": "1/250000",
+          "expected_count": 40.0
+        },
+        "1000x-5000x": {
+          "observed_count": 12,
+          "observed_frequency": 1.2e-06,
+          "exact_probability": "7/4000000",
+          "expected_count": 17.5
+        },
+        "5000x": {
+          "observed_count": 0,
+          "observed_frequency": 0.0,
+          "exact_probability": "1/8000000",
+          "expected_count": 1.25
+        }
+      },
+      "elapsed_seconds": 1.261048899999878,
+      "final_rng_state_sha256": "b90d6a1bde224b56eac7145a76bbc5a9e24446a7a2cd66980d674211d578e436",
+      "initial_rng_state_sha256": "076fd7411908db15b2bff2f6f552eef7cff43364f621ce278105b4b8ad84b85a",
+      "outcome_histogram_file": "outcome_counts_10000000.csv",
+      "outcome_histogram_sha256": "3c7f65f0e2d011aefd4691676dfc2519fd92c84f975fd42a6d6c740aa279c446"
+    },
+    {
+      "rounds": 50000000,
+      "seed": 2026101902,
+      "actual_integer_tickets_drawn": 50000000,
+      "accounted_outcome_counts": 50000000,
+      "total_payout_units": 4796239440,
+      "squared_payout_units_sum": 25507163072400,
+      "rtp": 0.959247888,
+      "empirical_variance": 50.09416963416754,
+      "reference_standard_error": 0.0009869083899091981,
+      "normal_95_interval_around_observed": [
+        0.9573135830997376,
+        0.9611821929002625
+      ],
+      "normal_99_interval_around_observed": [
+        0.9567057804493537,
+        0.9617899955506464
+      ],
+      "rtp_difference_from_reference": -0.000752111999999916,
+      "z_score": -0.7620889716715399,
+      "within_95_normal_reference_band": true,
+      "within_99_normal_reference_band": true,
+      "hit_count": 14723425,
+      "hit_frequency": 0.2944685,
+      "hit_frequency_clopper_pearson_95": [
+        0.2943421619471805,
+        0.29459486185010825
+      ],
+      "max_observed_payout_units": 500000,
+      "max_win_hits": 4,
+      "max_win_expected_hits": 6.25,
+      "max_win_binomial_95_prediction_count_interval": [
+        2,
+        12
+      ],
+      "max_win_observed_rate_clopper_pearson_95": [
+        2.1797307888884427e-08,
+        2.0483176084016784e-07
+      ],
+      "win_buckets": {
+        "0x": {
+          "observed_count": 35276575,
+          "observed_frequency": 0.7055315,
+          "exact_probability": "141102053123/200000000000",
+          "expected_count": 35275513.28075
+        },
+        ">0x-1x": {
+          "observed_count": 5284074,
+          "observed_frequency": 0.10568148,
+          "exact_probability": "21133142097/200000000000",
+          "expected_count": 5283285.52425
+        },
+        "1x-5x": {
+          "observed_count": 7466569,
+          "observed_frequency": 0.14933138,
+          "exact_probability": "7467773661/50000000000",
+          "expected_count": 7467773.661
+        },
+        "5x-20x": {
+          "observed_count": 1698866,
+          "observed_frequency": 0.03397732,
+          "exact_probability": "424721583/12500000000",
+          "expected_count": 1698886.332
+        },
+        "20x-100x": {
+          "observed_count": 247784,
+          "observed_frequency": 0.00495568,
+          "exact_probability": "496003527/100000000000",
+          "expected_count": 248001.7635
+        },
+        "100x-500x": {
+          "observed_count": 25814,
+          "observed_frequency": 0.00051628,
+          "exact_probability": "52491377/100000000000",
+          "expected_count": 26245.6885
+        },
+        "500x-1000x": {
+          "observed_count": 209,
+          "observed_frequency": 4.18e-06,
+          "exact_probability": "1/250000",
+          "expected_count": 200.0
+        },
+        "1000x-5000x": {
+          "observed_count": 105,
+          "observed_frequency": 2.1e-06,
+          "exact_probability": "7/4000000",
+          "expected_count": 87.5
+        },
+        "5000x": {
+          "observed_count": 4,
+          "observed_frequency": 8e-08,
+          "exact_probability": "1/8000000",
+          "expected_count": 6.25
+        }
+      },
+      "elapsed_seconds": 6.651146099997277,
+      "final_rng_state_sha256": "6646ffa426fa073cb9e93623b8d49bded1326e1418abdfe9eea5db0607d66862",
+      "initial_rng_state_sha256": "854b0fa537aed08c12379584c1829a5f523a927c0060dcab5cb39ef11cf66ad6",
+      "outcome_histogram_file": "outcome_counts_50000000.csv",
+      "outcome_histogram_sha256": "9c6fb238a4f9276e8eaff268021d4dbc84849d9872fb58472aa9c5258af125f4"
+    },
+    {
+      "rounds": 100000000,
+      "seed": 2026101903,
+      "actual_integer_tickets_drawn": 100000000,
+      "accounted_outcome_counts": 100000000,
+      "total_payout_units": 9602058070,
+      "squared_payout_units_sum": 52177023594500,
+      "rtp": 0.960205807,
+      "empirical_variance": 51.25502840270348,
+      "reference_standard_error": 0.0006978496149146914,
+      "normal_95_interval_around_observed": [
+        0.9588380468881421,
+        0.9615735671118579
+      ],
+      "normal_99_interval_around_observed": [
+        0.9584082655124324,
+        0.9620033484875676
+      ],
+      "rtp_difference_from_reference": 0.0002058070000000578,
+      "z_score": 0.29491597559341876,
+      "within_95_normal_reference_band": true,
+      "within_99_normal_reference_band": true,
+      "hit_count": 29455528,
+      "hit_frequency": 0.29455528,
+      "hit_frequency_clopper_pearson_95": [
+        0.2944659374417389,
+        0.2946446344515415
+      ],
+      "max_observed_payout_units": 500000,
+      "max_win_hits": 12,
+      "max_win_expected_hits": 12.5,
+      "max_win_binomial_95_prediction_count_interval": [
+        6,
+        20
+      ],
+      "max_win_observed_rate_clopper_pearson_95": [
+        6.200575257518198e-08,
+        2.0961584122343193e-07
+      ],
+      "win_buckets": {
+        "0x": {
+          "observed_count": 70544472,
+          "observed_frequency": 0.70544472,
+          "exact_probability": "141102053123/200000000000",
+          "expected_count": 70551026.5615
+        },
+        ">0x-1x": {
+          "observed_count": 10567477,
+          "observed_frequency": 0.10567477,
+          "exact_probability": "21133142097/200000000000",
+          "expected_count": 10566571.0485
+        },
+        "1x-5x": {
+          "observed_count": 14942897,
+          "observed_frequency": 0.14942897,
+          "exact_probability": "7467773661/50000000000",
+          "expected_count": 14935547.322
+        },
+        "5x-20x": {
+          "observed_count": 3396077,
+          "observed_frequency": 0.03396077,
+          "exact_probability": "424721583/12500000000",
+          "expected_count": 3397772.664
+        },
+        "20x-100x": {
+          "observed_count": 496384,
+          "observed_frequency": 0.00496384,
+          "exact_probability": "496003527/100000000000",
+          "expected_count": 496003.527
+        },
+        "100x-500x": {
+          "observed_count": 52057,
+          "observed_frequency": 0.00052057,
+          "exact_probability": "52491377/100000000000",
+          "expected_count": 52491.377
+        },
+        "500x-1000x": {
+          "observed_count": 430,
+          "observed_frequency": 4.3e-06,
+          "exact_probability": "1/250000",
+          "expected_count": 400.0
+        },
+        "1000x-5000x": {
+          "observed_count": 194,
+          "observed_frequency": 1.94e-06,
+          "exact_probability": "7/4000000",
+          "expected_count": 175.0
+        },
+        "5000x": {
+          "observed_count": 12,
+          "observed_frequency": 1.2e-07,
+          "exact_probability": "1/8000000",
+          "expected_count": 12.5
+        }
+      },
+      "elapsed_seconds": 13.158704000001308,
+      "final_rng_state_sha256": "8da758809ec4d345db7e95658638581ce1a6c1c3cfdc6a42a3a42be4290fe85c",
+      "initial_rng_state_sha256": "b18c18cea8e8517c339f78c339fab9155bc7c198c927312b7c089e82471b6cde",
+      "outcome_histogram_file": "outcome_counts_100000000.csv",
+      "outcome_histogram_sha256": "5a3df5eb3756e3a82183984d0fccf9e782237ac3e7c80198ed4b7e245648276b"
+    }
+  ],
+  "total_actual_draws": 160000000,
+  "immutable_lut_confirmed": true,
+  "interval_note": "Normal intervals describe Monte Carlo sampling uncertainty around the exact finite weighted distribution. 95% intervals may miss the reference by chance; passing a simulation is not certification."
+}

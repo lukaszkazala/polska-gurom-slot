@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-10-19T16:01:37.118Z",
+  "passed": true,
+  "checks": [
+    "10 paid rounds completed with progress 10/10",
+    "STOP prevented subsequent paid rounds",
+    "Quick and Turbo options mutually exclusive",
+    "Instant bonus scenario preserved paid-round statistics",
+    "Bonus summary survived PL/EN/DE language changes",
+    "Animated expansion bonus completed with readable bonus intro/outro",
+    "Balance and win meter matched session figures",
+    "15 symbol cells preserved",
+    "No horizontal overflow at widths 390, 768 and 1440",
+    "No browser console errors"
+  ],
+  "screenshots": [
+    "slot-desktop-autoplay.jpg",
+    "autoplay-settings-desktop.jpg",
+    "autoplay-settings-mobile.jpg",
+    "slot-mobile-autoplay.jpg",
+    "autoplay-preview.jpg"
+  ],
+  "limits": [
+    "Tab hiding was covered by independent code review; this browser did not expose a hidden tab during the visibility probe."
+  ]
+}

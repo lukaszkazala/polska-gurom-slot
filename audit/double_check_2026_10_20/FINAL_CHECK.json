@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-20T10:30:04.747296+00:00",
+  "math_version": "0.4.1-weighted-12fs",
+  "numerical_consistency": "PASS",
+  "production_stake_readiness": "INCOMPLETE",
+  "regression_passed": 135,
+  "regression_total": 135,
+  "regression_suites": [
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\cascade_engine_results.json",
+      "passed": 10,
+      "total": 10,
+      "sha256": "4353c011469d718f8a57c5b9aa50f08000419e2f571deb5d8ffc1674e08d26f2"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\server_api_results.json",
+      "passed": 10,
+      "total": 10,
+      "sha256": "4c8cccddbab6207d3135919330878d42c3b6519ff90c1f46234a1fbb5f3faed5"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\coverage_results.json",
+      "passed": 11,
+      "total": 11,
+      "sha256": "66d3bfe571355eba6a9857304d93a48b026d3260975164ad5833107998d79fd1"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\autoplay_logic_results.json",
+      "passed": 13,
+      "total": 13,
+      "sha256": "7026daa0e16bfa8e09bf4b0054b29947f3561909e7ec3e8eae8b191edcbfd624"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\network_logic_results.json",
+      "passed": 30,
+      "total": 30,
+      "sha256": "5cf35fd6ff4719b11eeedaa6a0ff6c124515f7f6c5558d2ec2d999b23e5def78"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\network_faults_results.json",
+      "passed": 17,
+      "total": 17,
+      "sha256": "f5d80e8349a9efb1045081054b8534c0f631f33578121bfe172bafe9d52cf176"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\portable_check.json",
+      "passed": 27,
+      "total": 27,
+      "sha256": "f77bf318312057ad350d8eebc4e534acbf14d2fca132126352296d10cb47a970"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\api_12fs_results.json",
+      "passed": 10,
+      "total": 10,
+      "sha256": "73894d0a986e8403597509857b0e2699d39bf1c16bac35ae0547c643152df3b3"
+    },
+    {
+      "file": "audit\\double_check_2026_10_20\\regression\\frontend_12fs_results.json",
+      "passed": 7,
+      "total": 7,
+      "sha256": "57d85df49f17583b4b209f15d55b38ef9fb2b798387b6dfd5b0a26f1db04ddce"
+    }
+  ],
+  "full_independent_books_checked": 100048,
+  "evidence_checks_passed": 100,
+  "original_rng_tickets_replayed": 160000000,
+  "new_independent_experiments": 0,
+  "deterministic_rebuild_identical": true,
+  "public_sdk_validation": "PASS",
+  "public_sdk_warnings": [],
+  "production_blockers": [
+    "RGS authentication/play/end-round/resume integration absent",
+    "Mandatory platform replay absent",
+    "RGS currency/precision/low-bet/launch configuration absent"
+  ],
+  "conditional_blockers": [
+    "Social mode localization for stake.us absent"
+  ],
+  "pending_review": [
+    "Final CDN build, mobile/mini-player, assets/audio/mute and ownership/quality review"
+  ],
+  "sampling_qualification": "Some individual bonus count intervals exceeded; all raw counts matched; original RNG replayed exactly;three RTP statistics within95%reference. Not every bonus frequency within95%.",
+  "report": "audit/double_check_2026_10_20/RAPORT_PL.md"
+}

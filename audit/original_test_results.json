@@ -1,0 +1,53 @@
+{
+  "runner": "direct plain-function invocation; pytest unavailable",
+  "results": [
+    {
+      "name": "test_bonus_no_expanding_wild",
+      "passed": true
+    },
+    {
+      "name": "test_bonus_with_expanding_wild",
+      "passed": true
+    },
+    {
+      "name": "test_complete_loss",
+      "passed": true
+    },
+    {
+      "name": "test_deterministic_simulation",
+      "passed": true
+    },
+    {
+      "name": "test_max_win_cap",
+      "passed": true
+    },
+    {
+      "name": "test_multiple_paylines_and_aggregation",
+      "passed": true
+    },
+    {
+      "name": "test_no_double_counting_best_wild_interpretation",
+      "passed": true
+    },
+    {
+      "name": "test_scatter_3_4_5",
+      "passed": true
+    },
+    {
+      "name": "test_strip_composition_and_dimensions",
+      "passed": true
+    },
+    {
+      "name": "test_three_four_five_kind",
+      "passed": true
+    },
+    {
+      "name": "test_wild_does_not_substitute_scatter",
+      "passed": true
+    },
+    {
+      "name": "test_wild_substitution",
+      "passed": true
+    }
+  ]
+}

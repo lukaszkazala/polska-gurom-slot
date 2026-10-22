@@ -1,0 +1,336 @@
+PASS Ordinary local launch keeps demo and requires no RGS
+PASS Reject incomplete or unsupported launch ?sessionID=…
+PASS Reject incomplete or unsupported launch ?rgs_url=host.test
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=https://host.test
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=bad.test/path
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=user@host.test
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test%23x
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test&replay=true
+PASS Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test&social=true
+PASS RGS host uses HTTPS; loopback HTTP only on the exact same host and port
+PASS Unsupported launch language falls back to English
+PASS Invalid authenticated betting configuration blocks play 12
+PASS Invalid authenticated betting configuration blocks play 13
+PASS Invalid authenticated betting configuration blocks play 14
+PASS Invalid authenticated betting configuration blocks play 15
+PASS Invalid authenticated betting configuration blocks play 16
+PASS Invalid authenticated betting configuration blocks play 17
+PASS Integer payout arithmetic remains exact above safe multiplication range
+PASS RGS-only build without launch parameters makes no local API calls
+PASS Invalid RGS launch fails closed without local-demo fallback
+{"passed":false,"total":63,"failed":43}
+
+FAIL Authenticate precedes wallet calls; configured levels/default/currency are authoritative: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:36:50
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:35:9)
+FAIL Real loss book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real bonus8 book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real cap book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real middle book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real bonus12 book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real bonus_cap8 book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real bonus_cap10 book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Real bonus_cap12 book: one debit, payout only at finish, no end for zero: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:50:58
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:49:58)
+FAIL Same result retry never issues a second play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:58:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:57:9)
+FAIL Uncertain play lost-response recovers through authenticate without another debit: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:63:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:62:60)
+FAIL Uncertain play bad-json recovers through authenticate without another debit: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:63:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:62:60)
+FAIL Uncertain request with no identifiable round remains blocked, including after reload: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:68:70
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:67:9)
+FAIL Uncertain closed zero payout with no returned last round is never resent: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:75:84
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:74:9)
+FAIL Uncertain closed zero payout with identifiable last round can be recovered: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:80:66
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:79:9)
+FAIL Lost end-round response recovers settled balance without a second payout: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:85:70
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:84:9)
+FAIL Fresh browser resumes active authenticated round without play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:90:90
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:89:9)
+FAIL A different active round cannot be ended by a stale client: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:95:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:94:9)
+FAIL Explicit insufficient rejection makes no debit: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:99:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:98:69)
+FAIL Explicit expired rejection makes no debit: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:99:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:98:69)
+FAIL Explicit invalid rejection makes no debit: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:99:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:98:69)
+FAIL Malformed or incompatible RGS result blocks settlement 39: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:103:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:102:188)
+FAIL Malformed or incompatible RGS result blocks settlement 40: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:103:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:102:188)
+FAIL Malformed or incompatible RGS result blocks settlement 41: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:103:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:102:188)
+FAIL Malformed or incompatible RGS result blocks settlement 42: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:103:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:102:188)
+FAIL Malformed or incompatible RGS result blocks settlement 43: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:103:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:102:188)
+FAIL Malformed or incompatible RGS result blocks settlement 44: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:103:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:102:188)
+FAIL Session token is absent from persisted recovery state and normalized result: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:107:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:106:9)
+FAIL Actual app.js presents and settles RGS loss using real validation: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:111:45
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:110:60)
+FAIL Actual app.js presents and settles RGS middle using real validation: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:111:45
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:110:60)
+FAIL Actual app.js presents and settles RGS bonus12 using real validation: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:111:45
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:110:60)
+FAIL Actual app.js presents and settles RGS cap using real validation: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:111:45
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:110:60)
+FAIL Actual UI keeps failed settlement pending and retries without play: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:117:37
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:116:3)
+FAIL Actual UI reload during 12 free spins resumes one paid round: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:122:56
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:121:3)
+FAIL Actual UI never automatically resends an ambiguous autoplay bet: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:128:37
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:127:3)
+FAIL Minimum and maximum configured stakes can be played; out-of-list stake cannot: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:133:66
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:132:9)
+FAIL Idle wallet polling reads platform balance: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:138:37
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:137:3)
+FAIL Delayed balance read cannot overwrite a newer play response: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:143:37
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:142:9)
+FAIL Chosen platform stake survives reload without replacing the local-demo preference: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:156:15
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:154:3)
+FAIL Full bonus finishes presentation before end-round is called: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:167:9
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:161:3)
+FAIL Currency JPY uses the platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:170:49
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:169:42)
+FAIL Currency KWD uses the platform denomination: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:170:49
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:169:42)
+FAIL Broken cascade response never reaches end-round: AssertionError [ERR_ASSERTION]: Nie udało się potwierdzić zgodności wyniku gry. Nowe zakłady są zablokowane. Otwórz grę ponownie z lobby.
+
+false !== true
+
+    at ui (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:21:30)
+    at async C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:176:37
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:11:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs.cjs:175:3)

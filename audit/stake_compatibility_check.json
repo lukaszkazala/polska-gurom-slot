@@ -1,0 +1,42 @@
+{
+  "sdk_source": "https://github.com/engineio/math-sdk/blob/main/utils/rgs_verification.py",
+  "reference_date": "2026-10-18",
+  "method": "Local exhaustive support compared with public SDK verify_lookup_format assertion; no remote RGS test.",
+  "payout_scale": 100,
+  "sdk_integer_payout_step": 10,
+  "local_untriggered_payout_examples_failing_step_in_multiplier_units": [
+    32,
+    48,
+    64,
+    75,
+    82,
+    92,
+    96,
+    98,
+    107,
+    108,
+    112,
+    114
+  ],
+  "local_untriggered_payout_examples_failing_step_in_total_bet_multiples": [
+    0.32,
+    0.48,
+    0.64,
+    0.75,
+    0.82,
+    0.92,
+    0.96,
+    0.98,
+    1.07,
+    1.08,
+    1.12,
+    1.14
+  ],
+  "unconditional_probability_of_untriggered_round_failing_step": 0.12913368293705227,
+  "publication_files_found": {
+    "index_json": false,
+    "books_jsonl_zst": false,
+    "lookup_csv": false
+  },
+  "status": "Local model passes its own tests; current payout lattice is incompatible with this SDK check and publication integration is absent."
+}

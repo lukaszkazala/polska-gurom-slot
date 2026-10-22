@@ -1,0 +1,48 @@
+{
+  "scope": "Actual app.js in Node VM; fresh targeted reproductions, not browser rendering",
+  "checks": [
+    {
+      "name": "A hanging artwork request has no application startup deadline",
+      "confirmed_robustness_gap": true,
+      "fault_injection": true,
+      "initialization_resolved": false,
+      "remaining_application_timeout_timers": 0,
+      "network_api_calls_completed": true
+    },
+    {
+      "name": "Historical wallet snapshot regresses the first tab after second tab advances",
+      "confirmed_bug": true,
+      "displayed_cents": 999800,
+      "actual_cents": 999300,
+      "displayed_rounds": 1,
+      "actual_rounds": 2,
+      "unique_charges": 2
+    },
+    {
+      "name": "Reload during animation forgets the stake of the settled active round",
+      "confirmed_bug": true,
+      "displayed_bet_cents": 200,
+      "last_round_bet_cents": 10000,
+      "pending_retained": false
+    },
+    {
+      "name": "Actual maximum book settles at cap and leaves a permanent cap notice",
+      "passed": true,
+      "win_cents": 1000000,
+      "cap_reduction_units": 11540,
+      "note": "Osiągnięto limit 5000×. Saldo uwzględnia tylko zaksięgowaną wypłatę. · Kaskady w rundzie: 7",
+      "last_line_label": "Osiągnięto limit 5000×. Saldo uwzględnia tylko zaksięgowaną wypłatę."
+    },
+    {
+      "name": "Malformed cascade coordinates survive validation then crash presentation",
+      "confirmed_validation_gap": true,
+      "fault_injection": true,
+      "presentation_errors": [
+        "TypeError: Cannot read properties of undefined (reading 'classList')"
+      ],
+      "pending_retained": false,
+      "recorded_as_history": 1,
+      "auto_status": "autoComplete"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[project]
+name = "polska-gurom-math"
+version = "0.2.0"
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+verification = ["numpy>=2,<3"]
+
+[tool.setuptools.packages.find]
+include = ["polska_gurom*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

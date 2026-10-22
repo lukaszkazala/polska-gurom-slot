@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-20T10:26:17.644258+00:00",
+  "numpy_version": "2.2.5",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "method": "Same original PCG64 seeds; alternate batch size1000003; np.histogram exact integer CDF edges rather than original np.searchsorted+bincount. Full streams replayed, not new independent runs.",
+  "same_stream_tickets_regenerated": 160000000,
+  "new_independent_experiments": 0,
+  "runs": [
+    {
+      "rounds": 10000000,
+      "seed": 2026102001,
+      "same_original_stream_replayed": true,
+      "counts_match_every_outcome": true,
+      "outcome_count": 100048,
+      "sum": 10000000,
+      "original_initial_rng_state_matches": true,
+      "original_final_rng_state_matches": true,
+      "mismatching_ids": [],
+      "elapsed_seconds": 0.92458440000064
+    },
+    {
+      "rounds": 50000000,
+      "seed": 2026102002,
+      "same_original_stream_replayed": true,
+      "counts_match_every_outcome": true,
+      "outcome_count": 100048,
+      "sum": 50000000,
+      "original_initial_rng_state_matches": true,
+      "original_final_rng_state_matches": true,
+      "mismatching_ids": [],
+      "elapsed_seconds": 4.455627100000129
+    },
+    {
+      "rounds": 100000000,
+      "seed": 2026102003,
+      "same_original_stream_replayed": true,
+      "counts_match_every_outcome": true,
+      "outcome_count": 100048,
+      "sum": 100000000,
+      "original_initial_rng_state_matches": true,
+      "original_final_rng_state_matches": true,
+      "mismatching_ids": [],
+      "elapsed_seconds": 9.24596819999988
+    }
+  ]
+}

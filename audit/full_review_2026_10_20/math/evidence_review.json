@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "scope": "No repeat of exhaustive bank; freshness, exact LUT totals, all bonus records, ten examples.",
+  "current_artifact_hashes_match_original_audit": {
+    "test-interface-any-start\\engine\\polska_gurom\\config.py": true,
+    "test-interface-any-start\\engine\\polska_gurom\\game.py": true,
+    "test-interface-any-start\\engine\\polska_gurom\\selection.py": true,
+    "test-interface-any-start\\stake_math\\books_base.jsonl.zst": true,
+    "test-interface-any-start\\stake_math\\index.json": true,
+    "test-interface-any-start\\stake_math\\lookUpTable_base_0.csv": true,
+    "test-interface-any-start\\stake_math\\mathematics.json": true,
+    "test-interface-any-start\\stake_math\\selection.json": true
+  },
+  "oracle_review": "All six legal length >=3 intervals enumerated independently; regular/Wild intersection and highest award, leftmost tie break. Paytable is strictly increasing per regular symbol, so shorter subsets cannot defeat a matching longer run.",
+  "fresh_lut_rtp_fraction": "24/25",
+  "fresh_lut_variance_fraction": "49511809959533/500000000000",
+  "bonus_groups": {
+    "8": {
+      "books": 473,
+      "probability": 0.004679041094,
+      "min_complete_round_bet_multiple": 5.0,
+      "max_complete_round_bet_multiple": 528.8,
+      "min_bonus_only_bet_multiple": 4.0,
+      "max_bonus_only_bet_multiple": 527.8,
+      "conditional_mean_round_bet_multiple": 102.49767420668437,
+      "conditional_mean_bonus_bet_multiple": 100.2862577198387,
+      "expansion_fraction": 0.2542283295556797,
+      "maximum_round_ids": []
+    },
+    "10": {
+      "books": 29,
+      "probability": 0.00028687567,
+      "min_complete_round_bet_multiple": 28.6,
+      "max_complete_round_bet_multiple": 237.0,
+      "min_bonus_only_bet_multiple": 23.6,
+      "max_bonus_only_bet_multiple": 232.0,
+      "conditional_mean_round_bet_multiple": 125.93793051394006,
+      "conditional_mean_bonus_bet_multiple": 119.08965463400922,
+      "expansion_fraction": 0.258620690628801,
+      "maximum_round_ids": []
+    },
+    "12": {
+      "books": 24,
+      "probability": 4.018776e-06,
+      "min_complete_round_bet_multiple": 77.0,
+      "max_complete_round_bet_multiple": 328.9,
+      "min_bonus_only_bet_multiple": 51.6,
+      "max_bonus_only_bet_multiple": 308.8,
+      "conditional_mean_round_bet_multiple": 151.58333333333334,
+      "conditional_mean_bonus_bet_multiple": 128.18333333333334,
+      "expansion_fraction": 0.22916666666666666,
+      "maximum_round_ids": []
+    }
+  },
+  "ten_example_ids_recalculated": [
+    0,
+    12,
+    15,
+    287,
+    484,
+    6507,
+    46183,
+    100020,
+    100024,
+    100048
+  ],
+  "existing_forced_check_success": true,
+  "existing_forced_sample_is_natural_candidates_not_weighted_rgs": true,
+  "monte_carlo_uncertainty": {
+    "100000": {
+      "exact_standard_error_percentage_points": 3.146801867278364,
+      "normal_95_half_width_percentage_points": 6.167731659865594,
+      "probability_of_zero_maximum_hits": 0.9875777997223362,
+      "expected_maximum_hits": 0.012499999999999999
+    },
+    "1000000": {
+      "exact_standard_error_percentage_points": 0.9951061245870512,
+      "normal_95_half_width_percentage_points": 1.9504080041906204,
+      "probability_of_zero_maximum_hits": 0.8824968956900878,
+      "expected_maximum_hits": 0.125
+    }
+  },
+  "rounds_for_95_percent_chance_of_at_least_one_maximum": 23965857,
+  "limitations": [
+    "Audit establishes payout conformance to explicit local spec, not regulatory approval.",
+    "Reel-window reachability uses configured strips; final outcome probabilities use final book weights.",
+    "Normal confidence intervals approximate a rare-tail distribution and cannot establish rare feature support."
+  ]
+}

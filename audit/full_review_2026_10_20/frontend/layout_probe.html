@@ -1,0 +1,6 @@
+<!doctype html><html lang="pl"><meta charset="utf-8"><title>Audyt rozmiarów POLSKA GUROM</title>
+<style>body{margin:8px;background:#ddd;font:14px Arial}button{padding:8px;margin:3px}iframe{border:1px solid #555;display:block;background:#161522}#size{margin:5px}</style>
+<p>Kontrola CSS w ramce przeglądarki — nie test fizycznego telefonu.</p>
+<button onclick="resizeGame(320,568)">320 × 568</button><button onclick="resizeGame(390,700)">390 × 700</button><button onclick="resizeGame(600,400)">Popout 600 × 400</button><button onclick="resizeGame(1280,720)">1280 × 720</button>
+<p id="size">390 × 700</p><iframe title="Badana gra" id="game" src="http://127.0.0.1:8795/" width="390" height="700"></iframe>
+<script>function resizeGame(w,h){const f=document.getElementById('game');f.width=w;f.height=h;document.getElementById('size').textContent=w+' × '+h;}</script>

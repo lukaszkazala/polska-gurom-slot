@@ -1,0 +1,31 @@
+{
+  "source_sha256": "aba2bc3e8d4a323157813f5a6a7ec49b3f4f58bb63742901f08a6428fdfa1af5",
+  "method": "Current InterfaceHandler._post invoked in-process with captured JSON; engine unchanged; no HTTP mocks of settlement.",
+  "immediate_retry": {
+    "same_response": true,
+    "rounds_after": 1
+  },
+  "eviction_after_100_previews": {
+    "first_round_id": "36858964-ea24-4805-ae35-30cd013a01af",
+    "retry_round_id": "d4f3aa3b-0211-4a00-8e7e-7c41bb983587",
+    "new_round_on_retry": true,
+    "paid_rounds_after": 2
+  },
+  "cached_wallet_snapshot": {
+    "cached_rounds": 1,
+    "actual_rounds": 2,
+    "cached_balance_cents": 999900,
+    "actual_balance_cents": 1000055
+  },
+  "cap_fixture": {
+    "payout_units": 500000,
+    "last_credits": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "last_spin_line_count": 17
+  }
+}

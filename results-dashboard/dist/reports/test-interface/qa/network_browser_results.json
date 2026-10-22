@@ -1,0 +1,26 @@
+{
+  "method": "Real browser UI with isolated local HTTP fault relay; no OS network changes",
+  "offline_before_recovery": {
+    "balance": "10 000,00 zł",
+    "button": "PONÓW ODCZYT",
+    "connection": "Brak połączenia",
+    "enabled": true,
+    "progress": "Autoplay przerwany · brak połączenia. Ponów odczyt rundy.0 / 10STOP AUTO",
+    "rounds": "0"
+  },
+  "timeout_before_recovery": {
+    "balance": "9996,00 zł",
+    "button": "PONÓW ODCZYT",
+    "connection": "Brak połączenia",
+    "enabled": true,
+    "rounds": "2"
+  },
+  "after_recovery_and_100_autospins": {
+    "balance": "9890,80 zł",
+    "button": "ZAKRĘĆ",
+    "connection": "Silnik połączony",
+    "enabled": true,
+    "progress": "Autoplay zakończony100 / 100STOP AUTO",
+    "rounds": "103"
+  }
+}

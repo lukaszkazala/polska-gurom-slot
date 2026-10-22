@@ -1,0 +1,20 @@
+{
+  "completed_date": "2026-10-21",
+  "version": "0.5.0-any-start",
+  "audit_completed_with_open_findings": true,
+  "production_ready": false,
+  "production_code_changed": false,
+  "issues": 9,
+  "checklist_statuses": {
+    "TAK": 35,
+    "NIE": 24,
+    "NIEZWERYFIKOWANE": 21,
+    "NIE DOTYCZY": 1
+  },
+  "full_bank_passed": true,
+  "exact_rtp": "24/25",
+  "official_sdk_status": "PASS",
+  "rebuild_identical": true,
+  "existing_regressions_passed": 100,
+  "limits": "No private ACP/uploader, real RGS wallet, physical-device or final IP clearance validation."
+}

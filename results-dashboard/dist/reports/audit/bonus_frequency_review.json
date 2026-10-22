@@ -1,0 +1,104 @@
+{
+  "total_weight": 1000000000000,
+  "all_scatter_weights": {
+    "2": 53296412096,
+    "0": 646554869645,
+    "1": 295178782719,
+    "4": 287107830,
+    "3": 4682827710
+  },
+  "types": [
+    {
+      "count": 473,
+      "weight": 4682827710,
+      "payout_sum_units": 21994241826600,
+      "bonus_sum_units": 21230336993400,
+      "scatter_count": 3,
+      "free_spins_awarded": 8,
+      "free_spins_actual": 8,
+      "probability": 0.00468282771,
+      "probability_exact": "468282771/100000000000",
+      "one_in": 213.5461866052723,
+      "average_round_win_x": 46.96786469344609,
+      "average_free_spins_win_x": 45.33657505285412
+    },
+    {
+      "count": 29,
+      "weight": 287107830,
+      "payout_sum_units": 1655523149400,
+      "bonus_sum_units": 1484842494600,
+      "scatter_count": 4,
+      "free_spins_awarded": 10,
+      "free_spins_actual": 10,
+      "probability": 0.00028710783,
+      "probability_exact": "28710783/100000000000",
+      "one_in": 3483.011940148062,
+      "average_round_win_x": 57.662068965517236,
+      "average_free_spins_win_x": 51.717241379310344
+    }
+  ],
+  "bonus_probability": 0.00496993554,
+  "one_in": 201.2098531161231,
+  "sample_probabilities": {
+    "100": {
+      "expected_count": 0.49699355400000006,
+      "at_least_one": 0.3923964552349055,
+      "no_bonus": 0.6076035447650945
+    },
+    "200": {
+      "expected_count": 0.9939871080000001,
+      "at_least_one": 0.6308179323888918,
+      "no_bonus": 0.36918206761110817
+    },
+    "500": {
+      "expected_count": 2.4849677700000004,
+      "at_least_one": 0.9171864324047125,
+      "no_bonus": 0.08281356759528744
+    },
+    "1000": {
+      "expected_count": 4.969935540000001,
+      "at_least_one": 0.9931419130221407,
+      "no_bonus": 0.006858086977859243
+    }
+  },
+  "waiting_round_quantiles": {
+    "0.5": 140,
+    "0.9": 463,
+    "0.95": 602,
+    "0.99": 925
+  },
+  "existing_test_observations": [
+    {
+      "rounds": 10000000,
+      "scatter_3_count": 46825,
+      "scatter_4_count": 2950,
+      "scatter_5_count": 0,
+      "bonus_total": 49775,
+      "bonus_percent": 0.49775,
+      "one_in": 200.90406830738323
+    },
+    {
+      "rounds": 50000000,
+      "scatter_3_count": 233228,
+      "scatter_4_count": 14281,
+      "scatter_5_count": 0,
+      "bonus_total": 247509,
+      "bonus_percent": 0.495018,
+      "one_in": 202.01285609816208
+    },
+    {
+      "rounds": 100000000,
+      "scatter_3_count": 467271,
+      "scatter_4_count": 28634,
+      "scatter_5_count": 0,
+      "bonus_total": 495905,
+      "bonus_percent": 0.495905,
+      "one_in": 201.651525997923
+    }
+  ],
+  "natural_generator_scatter_probabilities": {
+    "3": "605/124416",
+    "4": "55/248832",
+    "5": "1/248832"
+  }
+}

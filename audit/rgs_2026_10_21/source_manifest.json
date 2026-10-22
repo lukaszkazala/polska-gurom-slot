@@ -1,0 +1,18 @@
+{
+  "web/app.js": "f59c2f22b8c5cfe081d3c03dcf348ca2001d20d9a713c7274acd40a7a8f3e4f3",
+  "web/rgs-client.js": "1776b4dde99abee8b682733c4cf55d2a2f4220667ae0b23bb95278c157d2b099",
+  "web/index.html": "df1207b690c85d36eb624af8d334555aa614a4f0ced42b9a52594e2840bae5ae",
+  "web/game-config.json": "34c52607431b86f0649a9df70bd74c6d01f538a8901783c3506c82206cac1858",
+  "web/battle-background.css": "e2f9f6abe30f0975dd41cc6ebcd43c123218b4984bd580534dea946b6df5235d",
+  "build_rgs.py": "55a24e25d08680844b136b3ea18450eb3a91cd7cdcc2643ec3cbe7a48146d4fe",
+  "package_demo.py": "72aa43d228d704f2eabf36655ec142809aa30b412c4c0a26ec98f2c13830afc3",
+  "README_PL.md": "2c0630f5ae0c59bff6eb5180f1c822aa5f29020f56fe96fbc070b4396f83cd22",
+  "README_RGS_PL.md": "4d86c503e2cffc004644da09c998c66abfc6162445f786161f59c5763e3a1a39",
+  "START_RGS_TEST.cmd": "da003ee4a7f8ee93a95074a0ac123ffb23dfc58a531f4434a79c4cb2620430f1",
+  "qa/rgs_mock_server.py": "0ea6957624525a87d40d93102453da5f21c767d84e54404566f8891bfdf70105",
+  "qa/rgs_mock.cjs": "9d7608fe19dca4bff817fbc1a459d993868e1090f1c46abcb3f0981bb0d67521",
+  "qa/test_rgs.cjs": "675a3edb47c7c50f61b6b0d74e526ec39b5de4a9ff946cf62f0dc82269132e29",
+  "qa/test_rgs_http.py": "92e90cc374e90f996f802c1cc8df2ef16ad6ae436133b5011a3ea24e1833dd0d",
+  "qa/test_rgs_http.cjs": "e3074b54f091422177f67d06ad60329a87c65e1e563210245a0183710ea2ee06",
+  "qa/test_autoplay.cjs": "d11b6cff2351b83eb1dadf0dd16ae4bf89a075cefec8ac640cdf1c737ed42181"
+}

@@ -1,0 +1,14 @@
+{
+  "test-interface\\engine\\polska_gurom\\config.py": "a0ec242a1e6d69ff70b9c4f69b57bf037a33267e9360c5ca6fedb76f2752884b",
+  "test-interface\\engine\\polska_gurom\\game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+  "test-interface\\engine\\polska_gurom\\selection.py": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6",
+  "test-interface\\engine\\polska_gurom\\sim.py": "721d6afcffab894c5d0d29300a4f6b64586bf91e54a821b081cd3fdef0f05556",
+  "test-interface\\engine\\polska_gurom\\theory.py": "f495be4ea265acf15b6cd22026e96de84ef4ddaef6e56eb887229409c30aa39c",
+  "test-interface\\engine\\polska_gurom\\__init__.py": "eca968557571b57ef1226c4221f669eb9466eff60fea0220f9f44de7d26882ad",
+  "test-interface\\engine\\polska_gurom\\__main__.py": "b3185ca26ce0b7b5d9615a3497beb7ea339108c0df3a54ef4a9419f710fbb61a",
+  "test-interface\\stake_math\\books_base.jsonl.zst": "8988aa6f8cea385b5954f3d449cc5795aa3276c5e8d864315eeacfc1c47a3f81",
+  "test-interface\\stake_math\\index.json": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+  "test-interface\\stake_math\\lookUpTable_base_0.csv": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "test-interface\\stake_math\\mathematics.json": "cbf8190d3c82d62905a86d11e28cefff80078a9a7ddb4cbc1c817581913b5a2e",
+  "test-interface\\stake_math\\selection.json": "15e7543c2363f0b50866de8946bb2fa71a9c4c4fbeabf5fe0f8985c7cb177b76"
+}

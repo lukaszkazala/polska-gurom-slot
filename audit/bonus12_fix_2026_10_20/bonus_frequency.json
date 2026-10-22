@@ -1,0 +1,150 @@
+{
+  "scope": "Exact repaired finite weighted complete-round model; current new10/50/100M sampled tickets, not historical frequencies",
+  "math_version": "0.4.1-weighted-12fs",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "total_weight": 1000000000000,
+  "bonus_weight": 4969935540,
+  "probability_fraction": "248496777/50000000000",
+  "bonus_probability": 0.00496993554,
+  "mean_paid_rounds_to_bonus": 201.2098531161231,
+  "waiting_time_quantiles": {
+    "0.5": 140,
+    "0.9": 463,
+    "0.95": 602,
+    "0.99": 925
+  },
+  "bonus_types": [
+    {
+      "scatters": 3,
+      "free_spins": 8,
+      "books": 473,
+      "weight": 4679041094,
+      "probability_fraction": "2339520547/500000000000",
+      "probability": 0.004679041094,
+      "one_in": 213.71900351170544,
+      "share_of_bonuses": 0.941469171248044
+    },
+    {
+      "scatters": 4,
+      "free_spins": 10,
+      "books": 29,
+      "weight": 286875670,
+      "probability_fraction": "28687567/100000000000",
+      "probability": 0.00028687567,
+      "one_in": 3485.830638757201,
+      "share_of_bonuses": 0.057722211423289406
+    },
+    {
+      "scatters": 5,
+      "free_spins": 12,
+      "books": 24,
+      "weight": 4018776,
+      "probability_fraction": "502347/125000000000",
+      "probability": 4.018776e-06,
+      "one_in": 248831.9826733314,
+      "share_of_bonuses": 0.0008086173286666007
+    }
+  ],
+  "series_probabilities": [
+    {
+      "paid_rounds": 25,
+      "expected_bonus_count": 0.12424838850000001,
+      "probability_at_least_one_bonus": 0.1171130963857141,
+      "probability_no_bonus": 0.8828869036142859
+    },
+    {
+      "paid_rounds": 50,
+      "expected_bonus_count": 0.24849677700000003,
+      "probability_at_least_one_bonus": 0.22051071542637865,
+      "probability_no_bonus": 0.7794892845736213
+    },
+    {
+      "paid_rounds": 100,
+      "expected_bonus_count": 0.49699355400000006,
+      "probability_at_least_one_bonus": 0.39239645523490396,
+      "probability_no_bonus": 0.607603544765096
+    },
+    {
+      "paid_rounds": 200,
+      "expected_bonus_count": 0.9939871080000001,
+      "probability_at_least_one_bonus": 0.63081793238889,
+      "probability_no_bonus": 0.36918206761111005
+    },
+    {
+      "paid_rounds": 500,
+      "expected_bonus_count": 2.4849677700000004,
+      "probability_at_least_one_bonus": 0.9171864324047115,
+      "probability_no_bonus": 0.08281356759528849
+    },
+    {
+      "paid_rounds": 1000,
+      "expected_bonus_count": 4.969935540000001,
+      "probability_at_least_one_bonus": 0.9931419130221406,
+      "probability_no_bonus": 0.006858086977859417
+    }
+  ],
+  "previous_simulations_aggregated": [
+    {
+      "rounds": 10000000,
+      "bonuses": 49611,
+      "bonus_frequency": 0.0049611,
+      "one_in": 201.56820060067324,
+      "by_free_spins": {
+        "0": 9950389,
+        "8": 46769,
+        "10": 2789,
+        "12": 53
+      },
+      "expected_bonuses": 49699.35540000001,
+      "binomial_z": -0.39731925993521444,
+      "histogram_file": "audit/bonus12_fix_2026_10_20/weighted_results/outcome_counts_10000000.csv",
+      "seed": 2026102001,
+      "twelve_fs_count": 53,
+      "expected_twelve_fs_count": 40.18776
+    },
+    {
+      "rounds": 50000000,
+      "bonuses": 248648,
+      "bonus_frequency": 0.00497296,
+      "one_in": 201.0874810977768,
+      "by_free_spins": {
+        "0": 49751352,
+        "8": 234023,
+        "10": 14395,
+        "12": 230
+      },
+      "expected_bonuses": 248496.77700000003,
+      "binomial_z": 0.3041160687464531,
+      "histogram_file": "audit/bonus12_fix_2026_10_20/weighted_results/outcome_counts_50000000.csv",
+      "seed": 2026102002,
+      "twelve_fs_count": 230,
+      "expected_twelve_fs_count": 200.9388
+    },
+    {
+      "rounds": 100000000,
+      "bonuses": 496840,
+      "bonus_frequency": 0.0049684,
+      "one_in": 201.27203928830207,
+      "by_free_spins": {
+        "0": 99503160,
+        "8": 467294,
+        "10": 29172,
+        "12": 374
+      },
+      "expected_bonuses": 496993.55400000006,
+      "binomial_z": -0.21835726932621388,
+      "histogram_file": "audit/bonus12_fix_2026_10_20/weighted_results/outcome_counts_100000000.csv",
+      "seed": 2026102003,
+      "twelve_fs_count": 374,
+      "expected_twelve_fs_count": 401.8776
+    }
+  ],
+  "mean_awarded_free_spins_per_bonus": 8.118678892161245,
+  "bonus_with_at_least_one_expansion_probability": 0.9084406297953715,
+  "conditional_mean_credited_free_spin_return_x_bet": 45.71593625184121,
+  "free_spin_rtp_contribution": 0.2272052563224,
+  "missing_declared_bonus_types": [],
+  "natural_five_scatter_probability_fraction": "1/248832",
+  "probability_missing_five_scatter_in_100k": 0.6690621123798209,
+  "note": "Independent paid rounds only; free spins and cascades are parts of one paid round. Published12FS probability is quantized to integer weights. Earlier simulation reports remain historical."
+}

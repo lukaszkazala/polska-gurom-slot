@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "suites": [
+    {
+      "suite": "test_server",
+      "exit_code": 0,
+      "seconds": 3.641
+    },
+    {
+      "suite": "test_cascades",
+      "exit_code": 0,
+      "seconds": 0.641
+    },
+    {
+      "suite": "test_network_faults",
+      "exit_code": 0,
+      "seconds": 6.062
+    },
+    {
+      "suite": "test_atomicity",
+      "exit_code": 0,
+      "seconds": 2.031
+    },
+    {
+      "suite": "test_bonus12_api",
+      "exit_code": 0,
+      "seconds": 18.235
+    },
+    {
+      "suite": "test_rgs_http",
+      "exit_code": 0,
+      "seconds": 4.171
+    },
+    {
+      "suite": "test_rgs_recovery_http",
+      "exit_code": 0,
+      "seconds": 4.75
+    },
+    {
+      "suite": "test_autoplay",
+      "exit_code": 0,
+      "seconds": 18.937
+    },
+    {
+      "suite": "test_network_logic",
+      "exit_code": 0,
+      "seconds": 2.109
+    },
+    {
+      "suite": "test_bonus12_frontend",
+      "exit_code": 0,
+      "seconds": 6.859
+    },
+    {
+      "suite": "test_any_start_frontend",
+      "exit_code": 0,
+      "seconds": 0.141
+    },
+    {
+      "suite": "test_audit_fixes",
+      "exit_code": 0,
+      "seconds": 0.515
+    },
+    {
+      "suite": "test_rgs",
+      "exit_code": 0,
+      "seconds": 0.829
+    },
+    {
+      "suite": "test_rgs_recovery",
+      "exit_code": 0,
+      "seconds": 1.0
+    },
+    {
+      "suite": "test_replay",
+      "exit_code": 0,
+      "seconds": 1.484
+    },
+    {
+      "suite": "test_platform_currency",
+      "exit_code": 0,
+      "seconds": 0.484
+    }
+  ]
+}

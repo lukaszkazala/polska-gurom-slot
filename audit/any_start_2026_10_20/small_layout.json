@@ -1,0 +1,37 @@
+{
+  "page": [
+    320,
+    568
+  ],
+  "size": [
+    320,
+    568
+  ],
+  "spin": {
+    "bottom": 541.703125,
+    "height": 55,
+    "left": 249,
+    "right": 304,
+    "top": 486.703125,
+    "width": 55,
+    "x": 249,
+    "y": 486.703125
+  },
+  "utilityTargets": [
+    {
+      "height": 44,
+      "name": "Zasady gry",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Tabela wypłat",
+      "width": 44
+    },
+    {
+      "height": 44,
+      "name": "Ustawienia gry",
+      "width": 44
+    }
+  ]
+}

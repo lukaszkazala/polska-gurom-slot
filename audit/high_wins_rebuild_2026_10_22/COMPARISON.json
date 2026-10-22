@@ -1,0 +1,4435 @@
+{
+  "baseline_version": "0.5.0-any-start",
+  "new_version": "0.6.0-high-wins",
+  "baseline": {
+    "math_version": "0.5.0-any-start",
+    "book_count": 100049,
+    "total_weight": 1000000000000,
+    "rtp": {
+      "fraction": "24/25",
+      "value": 0.96
+    },
+    "variance": {
+      "fraction": "49511809959533/500000000000",
+      "value": 99.023619919066
+    },
+    "standard_deviation": 9.951061245870513,
+    "hit_frequency": {
+      "fraction": "15622691917/100000000000",
+      "value": 0.15622691917
+    },
+    "net_profit_frequency": {
+      "fraction": "24516000179/250000000000",
+      "value": 0.098064000716
+    },
+    "base_rtp": {
+      "fraction": "2280387071993/5000000000000",
+      "value": 0.4560774143986
+    },
+    "bonus_rtp": {
+      "fraction": "2519612928007/5000000000000",
+      "value": 0.5039225856014
+    },
+    "ordinary_rtp": {
+      "fraction": "584727778623/625000000000",
+      "value": 0.9355644457968
+    },
+    "high_rtp": {
+      "fraction": "15272221377/625000000000",
+      "value": 0.0244355542032
+    },
+    "high_rtp_percentage_points": 2.44355542032,
+    "high_probability": {
+      "fraction": "1117727/31250000000",
+      "value": 3.5767264e-05
+    },
+    "high_weight": 35767264,
+    "high_records": 25,
+    "high_distinct_payouts": 19,
+    "high_largest_gap_x": 1016.5,
+    "high_gaps_including_range_edges": [
+      {
+        "lower_x": 3010.9,
+        "upper_x": 4027.4,
+        "gap_x": 1016.5
+      },
+      {
+        "lower_x": 995.3,
+        "upper_x": 1986.9,
+        "gap_x": 991.6
+      },
+      {
+        "lower_x": 4029.6,
+        "upper_x": 5000.0,
+        "gap_x": 970.4
+      },
+      {
+        "lower_x": 2018.4,
+        "upper_x": 2968.3,
+        "gap_x": 949.9
+      },
+      {
+        "lower_x": 528.8,
+        "upper_x": 990.9,
+        "gap_x": 462.1
+      },
+      {
+        "lower_x": 2968.3,
+        "upper_x": 3003.4,
+        "gap_x": 35.1
+      },
+      {
+        "lower_x": 506.1,
+        "upper_x": 528.8,
+        "gap_x": 22.7
+      },
+      {
+        "lower_x": 1986.9,
+        "upper_x": 2008.3,
+        "gap_x": 21.4
+      },
+      {
+        "lower_x": 3003.4,
+        "upper_x": 3010.9,
+        "gap_x": 7.5
+      },
+      {
+        "lower_x": 2011.4,
+        "upper_x": 2018.4,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 500.0,
+        "upper_x": 504.3,
+        "gap_x": 4.3
+      },
+      {
+        "lower_x": 990.9,
+        "upper_x": 994.3,
+        "gap_x": 3.4
+      },
+      {
+        "lower_x": 2008.3,
+        "upper_x": 2011.4,
+        "gap_x": 3.1
+      },
+      {
+        "lower_x": 4027.8,
+        "upper_x": 4029.6,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 504.7,
+        "upper_x": 506.1,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 994.3,
+        "upper_x": 994.9,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 4027.4,
+        "upper_x": 4027.8,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 994.9,
+        "upper_x": 995.3,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 504.3,
+        "upper_x": 504.7,
+        "gap_x": 0.4
+      }
+    ],
+    "largest_gaps_all_payouts": [
+      {
+        "lower_x": 3010.9,
+        "upper_x": 4027.4,
+        "gap_x": 1016.5
+      },
+      {
+        "lower_x": 995.3,
+        "upper_x": 1986.9,
+        "gap_x": 991.6
+      },
+      {
+        "lower_x": 4029.6,
+        "upper_x": 5000.0,
+        "gap_x": 970.4
+      },
+      {
+        "lower_x": 2018.4,
+        "upper_x": 2968.3,
+        "gap_x": 949.9
+      },
+      {
+        "lower_x": 528.8,
+        "upper_x": 990.9,
+        "gap_x": 462.1
+      },
+      {
+        "lower_x": 422.1,
+        "upper_x": 504.3,
+        "gap_x": 82.2
+      },
+      {
+        "lower_x": 328.9,
+        "upper_x": 380.8,
+        "gap_x": 51.9
+      },
+      {
+        "lower_x": 380.8,
+        "upper_x": 422.1,
+        "gap_x": 41.3
+      },
+      {
+        "lower_x": 293.4,
+        "upper_x": 328.9,
+        "gap_x": 35.5
+      },
+      {
+        "lower_x": 2968.3,
+        "upper_x": 3003.4,
+        "gap_x": 35.1
+      },
+      {
+        "lower_x": 259.1,
+        "upper_x": 284.4,
+        "gap_x": 25.3
+      },
+      {
+        "lower_x": 506.1,
+        "upper_x": 528.8,
+        "gap_x": 22.7
+      },
+      {
+        "lower_x": 1986.9,
+        "upper_x": 2008.3,
+        "gap_x": 21.4
+      },
+      {
+        "lower_x": 3003.4,
+        "upper_x": 3010.9,
+        "gap_x": 7.5
+      },
+      {
+        "lower_x": 237.6,
+        "upper_x": 244.8,
+        "gap_x": 7.2
+      },
+      {
+        "lower_x": 2011.4,
+        "upper_x": 2018.4,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 211.4,
+        "upper_x": 218.2,
+        "gap_x": 6.8
+      },
+      {
+        "lower_x": 253.0,
+        "upper_x": 259.1,
+        "gap_x": 6.1
+      },
+      {
+        "lower_x": 198.0,
+        "upper_x": 202.1,
+        "gap_x": 4.1
+      },
+      {
+        "lower_x": 189.0,
+        "upper_x": 193.0,
+        "gap_x": 4.0
+      }
+    ],
+    "maximum_probability": {
+      "fraction": "1/8000000",
+      "value": 1.25e-07
+    },
+    "maximum_one_in": 8000000,
+    "maximum_base_weight": 125000,
+    "maximum_bonus_weight": 0,
+    "maximum_bonus_variant_weights": {
+      "8": 0,
+      "10": 0,
+      "12": 0
+    },
+    "bonus_entry_weights": {
+      "8": 4679041094,
+      "10": 286875670,
+      "12": 4018776
+    },
+    "bonus_variant_book_counts": {
+      "8": 473,
+      "10": 29,
+      "12": 24
+    },
+    "bonus_variant_rtp": {
+      "8": {
+        "fraction": "2346217605173/5000000000000",
+        "value": 0.4692435210346
+      },
+      "10": {
+        "fraction": "42704905579/1250000000000",
+        "value": 0.0341639244632
+      },
+      "12": {
+        "fraction": "1287850259/2500000000000",
+        "value": 0.0005151401036
+      }
+    },
+    "distinct_payouts": 818,
+    "cap_witnesses": [
+      {
+        "id": 100020,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 511540,
+        "cap_reduction_units": 11540,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100021,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 521140,
+        "cap_reduction_units": 21140,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100022,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 503090,
+        "cap_reduction_units": 3090,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100023,
+        "weight": 31250,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 516250,
+        "cap_reduction_units": 16250,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      }
+    ],
+    "high_band_statistics": {
+      "[0,500)": {
+        "books": 100024,
+        "weight": 999964232736,
+        "payout_sum": 93556444579680,
+        "probability": {
+          "fraction": "31248882273/31250000000",
+          "value": 0.999964232736
+        },
+        "rtp": {
+          "fraction": "584727778623/625000000000",
+          "value": 0.9355644457968
+        }
+      },
+      "[500,750)": {
+        "books": 5,
+        "weight": 29892264,
+        "payout_sum": 1532802920320,
+        "probability": {
+          "fraction": "3736533/125000000000",
+          "value": 2.9892264e-05
+        },
+        "rtp": {
+          "fraction": "2395004563/156250000000",
+          "value": 0.0153280292032
+        }
+      },
+      "[750,1000)": {
+        "books": 4,
+        "weight": 4000000,
+        "payout_sum": 397540000000,
+        "probability": {
+          "fraction": "1/250000",
+          "value": 4e-06
+        },
+        "rtp": {
+          "fraction": "19877/5000000",
+          "value": 0.0039754
+        }
+      },
+      "[2000,2250)": {
+        "books": 3,
+        "weight": 750000,
+        "payout_sum": 150952500000,
+        "probability": {
+          "fraction": "3/4000000",
+          "value": 7.5e-07
+        },
+        "rtp": {
+          "fraction": "60381/40000000",
+          "value": 0.001509525
+        }
+      },
+      "[1750,2000)": {
+        "books": 1,
+        "weight": 250000,
+        "payout_sum": 49672500000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "19869/40000000",
+          "value": 0.000496725
+        }
+      },
+      "[3000,3250)": {
+        "books": 2,
+        "weight": 250000,
+        "payout_sum": 75178750000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "60143/80000000",
+          "value": 0.0007517875
+        }
+      },
+      "[2750,3000)": {
+        "books": 2,
+        "weight": 250000,
+        "payout_sum": 74207500000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "29683/40000000",
+          "value": 0.000742075
+        }
+      },
+      "[4000,4250)": {
+        "books": 4,
+        "weight": 250000,
+        "payout_sum": 100701250000,
+        "probability": {
+          "fraction": "1/4000000",
+          "value": 2.5e-07
+        },
+        "rtp": {
+          "fraction": "80561/80000000",
+          "value": 0.0010070125
+        }
+      },
+      "5000": {
+        "books": 4,
+        "weight": 125000,
+        "payout_sum": 62500000000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        }
+      }
+    },
+    "tail_concentration": {
+      "500": {
+        "weight": 35767264,
+        "probability": {
+          "fraction": "1117727/31250000000",
+          "value": 3.5767264e-05
+        },
+        "rtp": {
+          "fraction": "15272221377/625000000000",
+          "value": 0.0244355542032
+        },
+        "share_of_total_rtp": {
+          "fraction": "5090740459/200000000000",
+          "value": 0.025453702295
+        }
+      },
+      "750": {
+        "weight": 5875000,
+        "probability": {
+          "fraction": "47/8000000",
+          "value": 5.875e-06
+        },
+        "rtp": {
+          "fraction": "364301/40000000",
+          "value": 0.009107525
+        },
+        "share_of_total_rtp": {
+          "fraction": "364301/38400000",
+          "value": 0.009487005208333333
+        }
+      },
+      "1000": {
+        "weight": 1875000,
+        "probability": {
+          "fraction": "3/1600000",
+          "value": 1.875e-06
+        },
+        "rtp": {
+          "fraction": "41057/8000000",
+          "value": 0.005132125
+        },
+        "share_of_total_rtp": {
+          "fraction": "41057/7680000",
+          "value": 0.005345963541666667
+        }
+      },
+      "1500": {
+        "weight": 1875000,
+        "probability": {
+          "fraction": "3/1600000",
+          "value": 1.875e-06
+        },
+        "rtp": {
+          "fraction": "41057/8000000",
+          "value": 0.005132125
+        },
+        "share_of_total_rtp": {
+          "fraction": "41057/7680000",
+          "value": 0.005345963541666667
+        }
+      },
+      "2000": {
+        "weight": 1625000,
+        "probability": {
+          "fraction": "13/8000000",
+          "value": 1.625e-06
+        },
+        "rtp": {
+          "fraction": "23177/5000000",
+          "value": 0.0046354
+        },
+        "share_of_total_rtp": {
+          "fraction": "23177/4800000",
+          "value": 0.004828541666666667
+        }
+      },
+      "2500": {
+        "weight": 875000,
+        "probability": {
+          "fraction": "7/8000000",
+          "value": 8.75e-07
+        },
+        "rtp": {
+          "fraction": "25007/8000000",
+          "value": 0.003125875
+        },
+        "share_of_total_rtp": {
+          "fraction": "25007/7680000",
+          "value": 0.0032561197916666667
+        }
+      },
+      "3000": {
+        "weight": 625000,
+        "probability": {
+          "fraction": "1/1600000",
+          "value": 6.25e-07
+        },
+        "rtp": {
+          "fraction": "11919/5000000",
+          "value": 0.0023838
+        },
+        "share_of_total_rtp": {
+          "fraction": "3973/1600000",
+          "value": 0.002483125
+        }
+      },
+      "3500": {
+        "weight": 375000,
+        "probability": {
+          "fraction": "3/8000000",
+          "value": 3.75e-07
+        },
+        "rtp": {
+          "fraction": "130561/80000000",
+          "value": 0.0016320125
+        },
+        "share_of_total_rtp": {
+          "fraction": "130561/76800000",
+          "value": 0.0017000130208333333
+        }
+      },
+      "4000": {
+        "weight": 375000,
+        "probability": {
+          "fraction": "3/8000000",
+          "value": 3.75e-07
+        },
+        "rtp": {
+          "fraction": "130561/80000000",
+          "value": 0.0016320125
+        },
+        "share_of_total_rtp": {
+          "fraction": "130561/76800000",
+          "value": 0.0017000130208333333
+        }
+      },
+      "4500": {
+        "weight": 125000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        },
+        "share_of_total_rtp": {
+          "fraction": "1/1536",
+          "value": 0.0006510416666666666
+        }
+      },
+      "5000": {
+        "weight": 125000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        },
+        "share_of_total_rtp": {
+          "fraction": "1/1536",
+          "value": 0.0006510416666666666
+        }
+      }
+    },
+    "high_top_record_rtp_shares": {
+      "1": {
+        "fraction": "3269393252/15272221377",
+        "value": 0.21407450634023115
+      },
+      "5": {
+        "fraction": "1368574036/2181745911",
+        "value": 0.6272838780629207
+      },
+      "10": {
+        "fraction": "1768574036/2181745911",
+        "value": 0.8106232843536655
+      },
+      "20": {
+        "fraction": "9816184043/10181480918",
+        "value": 0.9641214399023048
+      }
+    },
+    "raw_weighted_sums": {
+      "payout_sum": 96000000000000,
+      "squared_payout_sum": 999452199190660000,
+      "base_payout_sum": 45607741439860,
+      "bonus_payout_sum": 50392258560140,
+      "base_scatter_payout_sum": 619379496400,
+      "bonus_scatter_payout_sum": 18795302500,
+      "hit_weight": 156226919170,
+      "profit_weight": 98064000716,
+      "bonus_weight": 4969935540,
+      "max_weight": 125000,
+      "weighted_free_spins": 40349310764,
+      "weighted_expansions": 10269329883,
+      "capped_weight": 125000,
+      "bonus_10_payout_sum": 3416392446320,
+      "bonus_8_payout_sum": 46924352103460,
+      "max_in_base_weight": 125000,
+      "bonus_12_payout_sum": 51514010360
+    }
+  },
+  "new": {
+    "math_version": "0.6.0-high-wins",
+    "book_count": 100343,
+    "total_weight": 1000000000000,
+    "rtp": {
+      "fraction": "24/25",
+      "value": 0.96
+    },
+    "variance": {
+      "fraction": "1114329724915647/10000000000000",
+      "value": 111.4329724915647
+    },
+    "standard_deviation": 10.556181719332265,
+    "hit_frequency": {
+      "fraction": "156383939513/1000000000000",
+      "value": 0.156383939513
+    },
+    "net_profit_frequency": {
+      "fraction": "98153690211/1000000000000",
+      "value": 0.098153690211
+    },
+    "base_rtp": {
+      "fraction": "1117968837521/2500000000000",
+      "value": 0.4471875350084
+    },
+    "bonus_rtp": {
+      "fraction": "1282031162479/2500000000000",
+      "value": 0.5128124649916
+    },
+    "ordinary_rtp": {
+      "fraction": "584727778623/625000000000",
+      "value": 0.9355644457968
+    },
+    "high_rtp": {
+      "fraction": "15272221377/625000000000",
+      "value": 0.0244355542032
+    },
+    "high_rtp_percentage_points": 2.44355542032,
+    "high_probability": {
+      "fraction": "4221721/200000000000",
+      "value": 2.1108605e-05
+    },
+    "high_weight": 21108605,
+    "high_records": 319,
+    "high_distinct_payouts": 297,
+    "high_largest_gap_x": 98.6,
+    "high_gaps_including_range_edges": [
+      {
+        "lower_x": 3700.8,
+        "upper_x": 3799.4,
+        "gap_x": 98.6
+      },
+      {
+        "lower_x": 2700.0,
+        "upper_x": 2797.8,
+        "gap_x": 97.8
+      },
+      {
+        "lower_x": 1701.0,
+        "upper_x": 1796.9,
+        "gap_x": 95.9
+      },
+      {
+        "lower_x": 4201.2,
+        "upper_x": 4296.8,
+        "gap_x": 95.6
+      },
+      {
+        "lower_x": 3200.2,
+        "upper_x": 3294.9,
+        "gap_x": 94.7
+      },
+      {
+        "lower_x": 4451.4,
+        "upper_x": 4545.2,
+        "gap_x": 93.8
+      },
+      {
+        "lower_x": 3451.0,
+        "upper_x": 3544.3,
+        "gap_x": 93.3
+      },
+      {
+        "lower_x": 706.2,
+        "upper_x": 798.9,
+        "gap_x": 92.7
+      },
+      {
+        "lower_x": 1199.8,
+        "upper_x": 1291.0,
+        "gap_x": 91.2
+      },
+      {
+        "lower_x": 4711.8,
+        "upper_x": 4797.0,
+        "gap_x": 85.2
+      },
+      {
+        "lower_x": 2203.4,
+        "upper_x": 2288.6,
+        "gap_x": 85.2
+      },
+      {
+        "lower_x": 1450.5,
+        "upper_x": 1534.3,
+        "gap_x": 83.8
+      },
+      {
+        "lower_x": 3960.3,
+        "upper_x": 4027.4,
+        "gap_x": 67.1
+      },
+      {
+        "lower_x": 2463.6,
+        "upper_x": 2530.3,
+        "gap_x": 66.7
+      },
+      {
+        "lower_x": 3300.0,
+        "upper_x": 3349.8,
+        "gap_x": 49.8
+      },
+      {
+        "lower_x": 4900.6,
+        "upper_x": 4950.2,
+        "gap_x": 49.6
+      },
+      {
+        "lower_x": 1049.8,
+        "upper_x": 1099.0,
+        "gap_x": 49.2
+      },
+      {
+        "lower_x": 600.0,
+        "upper_x": 649.0,
+        "gap_x": 49.0
+      },
+      {
+        "lower_x": 3550.8,
+        "upper_x": 3599.2,
+        "gap_x": 48.4
+      },
+      {
+        "lower_x": 549.8,
+        "upper_x": 598.2,
+        "gap_x": 48.4
+      },
+      {
+        "lower_x": 1852.2,
+        "upper_x": 1900.2,
+        "gap_x": 48.0
+      },
+      {
+        "lower_x": 2850.4,
+        "upper_x": 2898.0,
+        "gap_x": 47.6
+      },
+      {
+        "lower_x": 801.8,
+        "upper_x": 849.4,
+        "gap_x": 47.6
+      },
+      {
+        "lower_x": 2601.0,
+        "upper_x": 2647.8,
+        "gap_x": 46.8
+      },
+      {
+        "lower_x": 2902.6,
+        "upper_x": 2948.9,
+        "gap_x": 46.3
+      },
+      {
+        "lower_x": 3053.2,
+        "upper_x": 3099.4,
+        "gap_x": 46.2
+      },
+      {
+        "lower_x": 2050.4,
+        "upper_x": 2096.2,
+        "gap_x": 45.8
+      },
+      {
+        "lower_x": 1553.6,
+        "upper_x": 1599.4,
+        "gap_x": 45.8
+      },
+      {
+        "lower_x": 3803.4,
+        "upper_x": 3849.0,
+        "gap_x": 45.6
+      },
+      {
+        "lower_x": 2550.6,
+        "upper_x": 2595.3,
+        "gap_x": 44.7
+      },
+      {
+        "lower_x": 852.0,
+        "upper_x": 896.6,
+        "gap_x": 44.6
+      },
+      {
+        "lower_x": 1904.2,
+        "upper_x": 1948.4,
+        "gap_x": 44.2
+      },
+      {
+        "lower_x": 3103.4,
+        "upper_x": 3147.4,
+        "gap_x": 44.0
+      },
+      {
+        "lower_x": 2099.4,
+        "upper_x": 2142.6,
+        "gap_x": 43.2
+      },
+      {
+        "lower_x": 4850.2,
+        "upper_x": 4893.3,
+        "gap_x": 43.1
+      },
+      {
+        "lower_x": 1102.8,
+        "upper_x": 1145.8,
+        "gap_x": 43.0
+      },
+      {
+        "lower_x": 900.8,
+        "upper_x": 943.8,
+        "gap_x": 43.0
+      },
+      {
+        "lower_x": 3902.2,
+        "upper_x": 3945.0,
+        "gap_x": 42.8
+      },
+      {
+        "lower_x": 4055.0,
+        "upper_x": 4096.7,
+        "gap_x": 41.7
+      },
+      {
+        "lower_x": 4102.6,
+        "upper_x": 4143.4,
+        "gap_x": 40.8
+      },
+      {
+        "lower_x": 2808.3,
+        "upper_x": 2848.6,
+        "gap_x": 40.3
+      },
+      {
+        "lower_x": 4555.4,
+        "upper_x": 4595.2,
+        "gap_x": 39.8
+      },
+      {
+        "lower_x": 995.3,
+        "upper_x": 1034.9,
+        "gap_x": 39.6
+      },
+      {
+        "lower_x": 1654.6,
+        "upper_x": 1693.3,
+        "gap_x": 38.7
+      },
+      {
+        "lower_x": 3611.4,
+        "upper_x": 3649.7,
+        "gap_x": 38.3
+      },
+      {
+        "lower_x": 1347.9,
+        "upper_x": 1386.2,
+        "gap_x": 38.3
+      },
+      {
+        "lower_x": 4359.2,
+        "upper_x": 4397.2,
+        "gap_x": 38.0
+      },
+      {
+        "lower_x": 2412.2,
+        "upper_x": 2450.2,
+        "gap_x": 38.0
+      },
+      {
+        "lower_x": 3160.3,
+        "upper_x": 3198.0,
+        "gap_x": 37.7
+      },
+      {
+        "lower_x": 664.3,
+        "upper_x": 700.8,
+        "gap_x": 36.5
+      },
+      {
+        "lower_x": 1798.6,
+        "upper_x": 1834.9,
+        "gap_x": 36.3
+      },
+      {
+        "lower_x": 954.9,
+        "upper_x": 990.9,
+        "gap_x": 36.0
+      },
+      {
+        "lower_x": 4951.0,
+        "upper_x": 4986.8,
+        "gap_x": 35.8
+      },
+      {
+        "lower_x": 3010.9,
+        "upper_x": 3046.2,
+        "gap_x": 35.3
+      },
+      {
+        "lower_x": 2968.3,
+        "upper_x": 3003.4,
+        "gap_x": 35.1
+      },
+      {
+        "lower_x": 4603.4,
+        "upper_x": 4638.2,
+        "gap_x": 34.8
+      },
+      {
+        "lower_x": 1159.2,
+        "upper_x": 1193.8,
+        "gap_x": 34.6
+      },
+      {
+        "lower_x": 3400.6,
+        "upper_x": 3434.9,
+        "gap_x": 34.3
+      },
+      {
+        "lower_x": 1953.0,
+        "upper_x": 1986.9,
+        "gap_x": 33.9
+      },
+      {
+        "lower_x": 4153.2,
+        "upper_x": 4186.8,
+        "gap_x": 33.6
+      },
+      {
+        "lower_x": 4411.4,
+        "upper_x": 4444.8,
+        "gap_x": 33.4
+      },
+      {
+        "lower_x": 1410.6,
+        "upper_x": 1443.2,
+        "gap_x": 32.6
+      },
+      {
+        "lower_x": 3650.0,
+        "upper_x": 3682.3,
+        "gap_x": 32.3
+      },
+      {
+        "lower_x": 4653.6,
+        "upper_x": 4685.0,
+        "gap_x": 31.4
+      },
+      {
+        "lower_x": 2655.2,
+        "upper_x": 2686.3,
+        "gap_x": 31.1
+      },
+      {
+        "lower_x": 3353.4,
+        "upper_x": 3384.3,
+        "gap_x": 30.9
+      },
+      {
+        "lower_x": 2160.2,
+        "upper_x": 2188.6,
+        "gap_x": 28.4
+      },
+      {
+        "lower_x": 4799.6,
+        "upper_x": 4827.4,
+        "gap_x": 27.8
+      },
+      {
+        "lower_x": 1600.2,
+        "upper_x": 1627.4,
+        "gap_x": 27.2
+      },
+      {
+        "lower_x": 3870.9,
+        "upper_x": 3897.8,
+        "gap_x": 26.9
+      },
+      {
+        "lower_x": 1301.8,
+        "upper_x": 1328.2,
+        "gap_x": 26.4
+      },
+      {
+        "lower_x": 4320.2,
+        "upper_x": 4344.6,
+        "gap_x": 24.4
+      },
+      {
+        "lower_x": 2018.4,
+        "upper_x": 2040.6,
+        "gap_x": 22.2
+      },
+      {
+        "lower_x": 2365.4,
+        "upper_x": 2386.8,
+        "gap_x": 21.4
+      },
+      {
+        "lower_x": 1986.9,
+        "upper_x": 2008.3,
+        "gap_x": 21.4
+      },
+      {
+        "lower_x": 1627.4,
+        "upper_x": 1648.6,
+        "gap_x": 21.2
+      },
+      {
+        "lower_x": 4690.8,
+        "upper_x": 4711.8,
+        "gap_x": 21.0
+      },
+      {
+        "lower_x": 528.8,
+        "upper_x": 549.2,
+        "gap_x": 20.4
+      },
+      {
+        "lower_x": 3850.8,
+        "upper_x": 3870.9,
+        "gap_x": 20.1
+      },
+      {
+        "lower_x": 2300.2,
+        "upper_x": 2320.2,
+        "gap_x": 20.0
+      },
+      {
+        "lower_x": 4029.6,
+        "upper_x": 4049.4,
+        "gap_x": 19.8
+      },
+      {
+        "lower_x": 4827.4,
+        "upper_x": 4846.2,
+        "gap_x": 18.8
+      },
+      {
+        "lower_x": 2530.3,
+        "upper_x": 2548.4,
+        "gap_x": 18.1
+      },
+      {
+        "lower_x": 1328.2,
+        "upper_x": 1346.0,
+        "gap_x": 17.8
+      },
+      {
+        "lower_x": 4302.6,
+        "upper_x": 4320.2,
+        "gap_x": 17.6
+      },
+      {
+        "lower_x": 506.1,
+        "upper_x": 523.1,
+        "gap_x": 17.0
+      },
+      {
+        "lower_x": 3682.3,
+        "upper_x": 3699.0,
+        "gap_x": 16.7
+      },
+      {
+        "lower_x": 2392.3,
+        "upper_x": 2407.8,
+        "gap_x": 15.5
+      },
+      {
+        "lower_x": 2320.2,
+        "upper_x": 2335.4,
+        "gap_x": 15.2
+      },
+      {
+        "lower_x": 1834.9,
+        "upper_x": 1850.0,
+        "gap_x": 15.1
+      },
+      {
+        "lower_x": 3434.9,
+        "upper_x": 3449.6,
+        "gap_x": 14.7
+      },
+      {
+        "lower_x": 2953.6,
+        "upper_x": 2968.3,
+        "gap_x": 14.7
+      },
+      {
+        "lower_x": 2335.4,
+        "upper_x": 2349.7,
+        "gap_x": 14.3
+      },
+      {
+        "lower_x": 2142.9,
+        "upper_x": 2157.2,
+        "gap_x": 14.3
+      },
+      {
+        "lower_x": 650.5,
+        "upper_x": 664.3,
+        "gap_x": 13.8
+      },
+      {
+        "lower_x": 2352.0,
+        "upper_x": 2365.4,
+        "gap_x": 13.4
+      },
+      {
+        "lower_x": 3384.3,
+        "upper_x": 3397.6,
+        "gap_x": 13.3
+      },
+      {
+        "lower_x": 4986.8,
+        "upper_x": 5000.0,
+        "gap_x": 13.2
+      },
+      {
+        "lower_x": 2686.3,
+        "upper_x": 2699.4,
+        "gap_x": 13.1
+      },
+      {
+        "lower_x": 1034.9,
+        "upper_x": 1046.6,
+        "gap_x": 11.7
+      },
+      {
+        "lower_x": 4639.4,
+        "upper_x": 4650.5,
+        "gap_x": 11.1
+      },
+      {
+        "lower_x": 2190.8,
+        "upper_x": 2201.8,
+        "gap_x": 11.0
+      },
+      {
+        "lower_x": 3600.6,
+        "upper_x": 3611.4,
+        "gap_x": 10.8
+      },
+      {
+        "lower_x": 2453.0,
+        "upper_x": 2463.6,
+        "gap_x": 10.6
+      },
+      {
+        "lower_x": 1534.3,
+        "upper_x": 1544.6,
+        "gap_x": 10.3
+      },
+      {
+        "lower_x": 4349.2,
+        "upper_x": 4359.2,
+        "gap_x": 10.0
+      },
+      {
+        "lower_x": 4186.8,
+        "upper_x": 4195.3,
+        "gap_x": 8.5
+      },
+      {
+        "lower_x": 1395.2,
+        "upper_x": 1403.4,
+        "gap_x": 8.2
+      },
+      {
+        "lower_x": 1291.0,
+        "upper_x": 1299.2,
+        "gap_x": 8.2
+      },
+      {
+        "lower_x": 3152.2,
+        "upper_x": 3160.3,
+        "gap_x": 8.1
+      },
+      {
+        "lower_x": 4403.4,
+        "upper_x": 4411.4,
+        "gap_x": 8.0
+      },
+      {
+        "lower_x": 3003.4,
+        "upper_x": 3010.9,
+        "gap_x": 7.5
+      },
+      {
+        "lower_x": 4143.4,
+        "upper_x": 4150.6,
+        "gap_x": 7.2
+      },
+      {
+        "lower_x": 1403.4,
+        "upper_x": 1410.6,
+        "gap_x": 7.2
+      },
+      {
+        "lower_x": 4595.2,
+        "upper_x": 4602.2,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 2288.6,
+        "upper_x": 2295.6,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 2011.4,
+        "upper_x": 2018.4,
+        "gap_x": 7.0
+      },
+      {
+        "lower_x": 2801.4,
+        "upper_x": 2808.3,
+        "gap_x": 6.9
+      },
+      {
+        "lower_x": 4548.6,
+        "upper_x": 4555.4,
+        "gap_x": 6.8
+      },
+      {
+        "lower_x": 943.8,
+        "upper_x": 950.6,
+        "gap_x": 6.8
+      },
+      {
+        "lower_x": 1544.6,
+        "upper_x": 1551.0,
+        "gap_x": 6.4
+      },
+      {
+        "lower_x": 4685.0,
+        "upper_x": 4690.8,
+        "gap_x": 5.8
+      },
+      {
+        "lower_x": 523.1,
+        "upper_x": 528.8,
+        "gap_x": 5.7
+      },
+      {
+        "lower_x": 4444.8,
+        "upper_x": 4450.4,
+        "gap_x": 5.6
+      },
+      {
+        "lower_x": 2386.8,
+        "upper_x": 2392.3,
+        "gap_x": 5.5
+      },
+      {
+        "lower_x": 3945.0,
+        "upper_x": 3950.4,
+        "gap_x": 5.4
+      },
+      {
+        "lower_x": 4195.3,
+        "upper_x": 4200.6,
+        "gap_x": 5.3
+      },
+      {
+        "lower_x": 3955.0,
+        "upper_x": 3960.3,
+        "gap_x": 5.3
+      },
+      {
+        "lower_x": 2045.2,
+        "upper_x": 2050.4,
+        "gap_x": 5.2
+      },
+      {
+        "lower_x": 701.0,
+        "upper_x": 706.2,
+        "gap_x": 5.2
+      },
+      {
+        "lower_x": 2650.2,
+        "upper_x": 2655.2,
+        "gap_x": 5.0
+      },
+      {
+        "lower_x": 1390.2,
+        "upper_x": 1395.2,
+        "gap_x": 5.0
+      },
+      {
+        "lower_x": 2595.3,
+        "upper_x": 2600.0,
+        "gap_x": 4.7
+      },
+      {
+        "lower_x": 3950.4,
+        "upper_x": 3955.0,
+        "gap_x": 4.6
+      },
+      {
+        "lower_x": 2295.6,
+        "upper_x": 2300.2,
+        "gap_x": 4.6
+      },
+      {
+        "lower_x": 1154.6,
+        "upper_x": 1159.2,
+        "gap_x": 4.6
+      },
+      {
+        "lower_x": 1145.8,
+        "upper_x": 1150.4,
+        "gap_x": 4.6
+      },
+      {
+        "lower_x": 4050.0,
+        "upper_x": 4054.4,
+        "gap_x": 4.4
+      },
+      {
+        "lower_x": 2407.8,
+        "upper_x": 2412.2,
+        "gap_x": 4.4
+      },
+      {
+        "lower_x": 4893.3,
+        "upper_x": 4897.6,
+        "gap_x": 4.3
+      },
+      {
+        "lower_x": 3544.3,
+        "upper_x": 3548.6,
+        "gap_x": 4.3
+      },
+      {
+        "lower_x": 1693.3,
+        "upper_x": 1697.6,
+        "gap_x": 4.3
+      },
+      {
+        "lower_x": 500.0,
+        "upper_x": 504.3,
+        "gap_x": 4.3
+      },
+      {
+        "lower_x": 3148.0,
+        "upper_x": 3152.2,
+        "gap_x": 4.2
+      },
+      {
+        "lower_x": 1150.4,
+        "upper_x": 1154.6,
+        "gap_x": 4.2
+      },
+      {
+        "lower_x": 4096.7,
+        "upper_x": 4100.8,
+        "gap_x": 4.1
+      },
+      {
+        "lower_x": 1386.2,
+        "upper_x": 1390.2,
+        "gap_x": 4.0
+      },
+      {
+        "lower_x": 3294.9,
+        "upper_x": 3298.6,
+        "gap_x": 3.7
+      },
+      {
+        "lower_x": 4399.8,
+        "upper_x": 4403.4,
+        "gap_x": 3.6
+      },
+      {
+        "lower_x": 4299.0,
+        "upper_x": 4302.6,
+        "gap_x": 3.6
+      },
+      {
+        "lower_x": 1099.1,
+        "upper_x": 1102.6,
+        "gap_x": 3.5
+      },
+      {
+        "lower_x": 4545.2,
+        "upper_x": 4548.6,
+        "gap_x": 3.4
+      },
+      {
+        "lower_x": 4345.8,
+        "upper_x": 4349.2,
+        "gap_x": 3.4
+      },
+      {
+        "lower_x": 1193.8,
+        "upper_x": 1197.2,
+        "gap_x": 3.4
+      },
+      {
+        "lower_x": 990.9,
+        "upper_x": 994.3,
+        "gap_x": 3.4
+      },
+      {
+        "lower_x": 951.6,
+        "upper_x": 954.9,
+        "gap_x": 3.3
+      },
+      {
+        "lower_x": 3800.2,
+        "upper_x": 3803.4,
+        "gap_x": 3.2
+      },
+      {
+        "lower_x": 4650.5,
+        "upper_x": 4653.6,
+        "gap_x": 3.1
+      },
+      {
+        "lower_x": 2008.3,
+        "upper_x": 2011.4,
+        "gap_x": 3.1
+      },
+      {
+        "lower_x": 3350.4,
+        "upper_x": 3353.4,
+        "gap_x": 3.0
+      },
+      {
+        "lower_x": 2157.2,
+        "upper_x": 2160.2,
+        "gap_x": 3.0
+      },
+      {
+        "lower_x": 2096.4,
+        "upper_x": 2099.4,
+        "gap_x": 3.0
+      },
+      {
+        "lower_x": 2450.2,
+        "upper_x": 2453.0,
+        "gap_x": 2.8
+      },
+      {
+        "lower_x": 2040.6,
+        "upper_x": 2043.4,
+        "gap_x": 2.8
+      },
+      {
+        "lower_x": 3050.5,
+        "upper_x": 3053.2,
+        "gap_x": 2.7
+      },
+      {
+        "lower_x": 1447.8,
+        "upper_x": 1450.5,
+        "gap_x": 2.7
+      },
+      {
+        "lower_x": 4397.2,
+        "upper_x": 4399.8,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 4150.6,
+        "upper_x": 4153.2,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 3897.8,
+        "upper_x": 3900.4,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 2899.6,
+        "upper_x": 2902.2,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 1650.2,
+        "upper_x": 1652.8,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 1551.0,
+        "upper_x": 1553.6,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 1443.2,
+        "upper_x": 1445.8,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 1299.2,
+        "upper_x": 1301.8,
+        "gap_x": 2.6
+      },
+      {
+        "lower_x": 896.6,
+        "upper_x": 899.1,
+        "gap_x": 2.5
+      },
+      {
+        "lower_x": 2950.2,
+        "upper_x": 2952.6,
+        "gap_x": 2.4
+      },
+      {
+        "lower_x": 1197.2,
+        "upper_x": 1199.6,
+        "gap_x": 2.4
+      },
+      {
+        "lower_x": 3048.2,
+        "upper_x": 3050.5,
+        "gap_x": 2.3
+      },
+      {
+        "lower_x": 2349.7,
+        "upper_x": 2352.0,
+        "gap_x": 2.3
+      },
+      {
+        "lower_x": 4846.2,
+        "upper_x": 4848.4,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 4296.8,
+        "upper_x": 4299.0,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 3398.4,
+        "upper_x": 3400.6,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 2797.8,
+        "upper_x": 2800.0,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 2188.6,
+        "upper_x": 2190.8,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 1046.6,
+        "upper_x": 1048.8,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 799.6,
+        "upper_x": 801.8,
+        "gap_x": 2.2
+      },
+      {
+        "lower_x": 3100.8,
+        "upper_x": 3102.9,
+        "gap_x": 2.1
+      },
+      {
+        "lower_x": 1950.9,
+        "upper_x": 1953.0,
+        "gap_x": 2.1
+      },
+      {
+        "lower_x": 3046.2,
+        "upper_x": 3048.2,
+        "gap_x": 2.0
+      },
+      {
+        "lower_x": 1902.2,
+        "upper_x": 1904.2,
+        "gap_x": 2.0
+      },
+      {
+        "lower_x": 1699.0,
+        "upper_x": 1701.0,
+        "gap_x": 2.0
+      },
+      {
+        "lower_x": 1445.8,
+        "upper_x": 1447.8,
+        "gap_x": 2.0
+      },
+      {
+        "lower_x": 4027.8,
+        "upper_x": 4029.6,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 3900.4,
+        "upper_x": 3902.2,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 2043.4,
+        "upper_x": 2045.2,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 1948.4,
+        "upper_x": 1950.2,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 1850.0,
+        "upper_x": 1851.8,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 1652.8,
+        "upper_x": 1654.6,
+        "gap_x": 1.8
+      },
+      {
+        "lower_x": 4899.0,
+        "upper_x": 4900.6,
+        "gap_x": 1.6
+      },
+      {
+        "lower_x": 4848.6,
+        "upper_x": 4850.2,
+        "gap_x": 1.6
+      },
+      {
+        "lower_x": 2898.0,
+        "upper_x": 2899.6,
+        "gap_x": 1.6
+      },
+      {
+        "lower_x": 2201.8,
+        "upper_x": 2203.4,
+        "gap_x": 1.6
+      },
+      {
+        "lower_x": 1648.6,
+        "upper_x": 1650.2,
+        "gap_x": 1.6
+      },
+      {
+        "lower_x": 4897.6,
+        "upper_x": 4899.0,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 4798.2,
+        "upper_x": 4799.6,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 3599.2,
+        "upper_x": 3600.6,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 3549.4,
+        "upper_x": 3550.8,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 3099.4,
+        "upper_x": 3100.8,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 2800.0,
+        "upper_x": 2801.4,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 2648.8,
+        "upper_x": 2650.2,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 2548.4,
+        "upper_x": 2549.8,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 1900.8,
+        "upper_x": 1902.2,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 1797.2,
+        "upper_x": 1798.6,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 1697.6,
+        "upper_x": 1699.0,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 504.7,
+        "upper_x": 506.1,
+        "gap_x": 1.4
+      },
+      {
+        "lower_x": 2948.9,
+        "upper_x": 2950.2,
+        "gap_x": 1.3
+      },
+      {
+        "lower_x": 4797.0,
+        "upper_x": 4798.2,
+        "gap_x": 1.2
+      },
+      {
+        "lower_x": 4638.2,
+        "upper_x": 4639.4,
+        "gap_x": 1.2
+      },
+      {
+        "lower_x": 4602.2,
+        "upper_x": 4603.4,
+        "gap_x": 1.2
+      },
+      {
+        "lower_x": 4344.6,
+        "upper_x": 4345.8,
+        "gap_x": 1.2
+      },
+      {
+        "lower_x": 850.2,
+        "upper_x": 851.4,
+        "gap_x": 1.2
+      },
+      {
+        "lower_x": 598.2,
+        "upper_x": 599.4,
+        "gap_x": 1.2
+      },
+      {
+        "lower_x": 899.1,
+        "upper_x": 900.2,
+        "gap_x": 1.1
+      },
+      {
+        "lower_x": 4100.8,
+        "upper_x": 4101.8,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 3699.8,
+        "upper_x": 3700.8,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 3449.6,
+        "upper_x": 3450.6,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 2952.6,
+        "upper_x": 2953.6,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 2647.8,
+        "upper_x": 2648.8,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 1346.0,
+        "upper_x": 1347.0,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 1048.8,
+        "upper_x": 1049.8,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 950.6,
+        "upper_x": 951.6,
+        "gap_x": 1.0
+      },
+      {
+        "lower_x": 1347.0,
+        "upper_x": 1347.9,
+        "gap_x": 0.9
+      },
+      {
+        "lower_x": 4101.8,
+        "upper_x": 4102.6,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3849.0,
+        "upper_x": 3849.8,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3699.0,
+        "upper_x": 3699.8,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3548.6,
+        "upper_x": 3549.4,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3397.6,
+        "upper_x": 3398.4,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3298.6,
+        "upper_x": 3299.4,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3199.4,
+        "upper_x": 3200.2,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3198.6,
+        "upper_x": 3199.4,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 2849.6,
+        "upper_x": 2850.4,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 2549.8,
+        "upper_x": 2550.6,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 849.4,
+        "upper_x": 850.2,
+        "gap_x": 0.8
+      },
+      {
+        "lower_x": 3849.8,
+        "upper_x": 3850.5,
+        "gap_x": 0.7
+      },
+      {
+        "lower_x": 1950.2,
+        "upper_x": 1950.9,
+        "gap_x": 0.7
+      },
+      {
+        "lower_x": 649.8,
+        "upper_x": 650.5,
+        "gap_x": 0.7
+      },
+      {
+        "lower_x": 4950.4,
+        "upper_x": 4951.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 4450.4,
+        "upper_x": 4451.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 4200.6,
+        "upper_x": 4201.2,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 4054.4,
+        "upper_x": 4055.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 4049.4,
+        "upper_x": 4050.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 3799.4,
+        "upper_x": 3800.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 3349.8,
+        "upper_x": 3350.4,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 3299.4,
+        "upper_x": 3300.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 3198.0,
+        "upper_x": 3198.6,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 3147.4,
+        "upper_x": 3148.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 2849.0,
+        "upper_x": 2849.6,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 2600.0,
+        "upper_x": 2600.6,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 1900.2,
+        "upper_x": 1900.8,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 1599.6,
+        "upper_x": 1600.2,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 994.3,
+        "upper_x": 994.9,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 900.2,
+        "upper_x": 900.8,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 851.4,
+        "upper_x": 852.0,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 649.0,
+        "upper_x": 649.6,
+        "gap_x": 0.6
+      },
+      {
+        "lower_x": 3102.9,
+        "upper_x": 3103.4,
+        "gap_x": 0.5
+      },
+      {
+        "lower_x": 798.9,
+        "upper_x": 799.4,
+        "gap_x": 0.5
+      },
+      {
+        "lower_x": 4451.0,
+        "upper_x": 4451.4,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 4027.4,
+        "upper_x": 4027.8,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 3450.6,
+        "upper_x": 3451.0,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 2902.2,
+        "upper_x": 2902.6,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 2848.6,
+        "upper_x": 2849.0,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 2699.4,
+        "upper_x": 2699.8,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 2600.6,
+        "upper_x": 2601.0,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 1851.8,
+        "upper_x": 1852.2,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 994.9,
+        "upper_x": 995.3,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 599.4,
+        "upper_x": 599.8,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 549.4,
+        "upper_x": 549.8,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 504.3,
+        "upper_x": 504.7,
+        "gap_x": 0.4
+      },
+      {
+        "lower_x": 3850.5,
+        "upper_x": 3850.8,
+        "gap_x": 0.3
+      },
+      {
+        "lower_x": 2142.6,
+        "upper_x": 2142.9,
+        "gap_x": 0.3
+      },
+      {
+        "lower_x": 1796.9,
+        "upper_x": 1797.2,
+        "gap_x": 0.3
+      },
+      {
+        "lower_x": 4950.2,
+        "upper_x": 4950.4,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 4848.4,
+        "upper_x": 4848.6,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 3800.0,
+        "upper_x": 3800.2,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 3649.8,
+        "upper_x": 3650.0,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 2699.8,
+        "upper_x": 2700.0,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 2096.2,
+        "upper_x": 2096.4,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 1599.4,
+        "upper_x": 1599.6,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 1199.6,
+        "upper_x": 1199.8,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 1102.6,
+        "upper_x": 1102.8,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 799.4,
+        "upper_x": 799.6,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 700.8,
+        "upper_x": 701.0,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 649.6,
+        "upper_x": 649.8,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 599.8,
+        "upper_x": 600.0,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 549.2,
+        "upper_x": 549.4,
+        "gap_x": 0.2
+      },
+      {
+        "lower_x": 3649.7,
+        "upper_x": 3649.8,
+        "gap_x": 0.1
+      },
+      {
+        "lower_x": 1099.0,
+        "upper_x": 1099.1,
+        "gap_x": 0.1
+      }
+    ],
+    "largest_gaps_all_payouts": [
+      {
+        "lower_x": 3700.8,
+        "upper_x": 3799.4,
+        "gap_x": 98.6
+      },
+      {
+        "lower_x": 2700.0,
+        "upper_x": 2797.8,
+        "gap_x": 97.8
+      },
+      {
+        "lower_x": 1701.0,
+        "upper_x": 1796.9,
+        "gap_x": 95.9
+      },
+      {
+        "lower_x": 4201.2,
+        "upper_x": 4296.8,
+        "gap_x": 95.6
+      },
+      {
+        "lower_x": 3200.2,
+        "upper_x": 3294.9,
+        "gap_x": 94.7
+      },
+      {
+        "lower_x": 4451.4,
+        "upper_x": 4545.2,
+        "gap_x": 93.8
+      },
+      {
+        "lower_x": 3451.0,
+        "upper_x": 3544.3,
+        "gap_x": 93.3
+      },
+      {
+        "lower_x": 706.2,
+        "upper_x": 798.9,
+        "gap_x": 92.7
+      },
+      {
+        "lower_x": 1199.8,
+        "upper_x": 1291.0,
+        "gap_x": 91.2
+      },
+      {
+        "lower_x": 4711.8,
+        "upper_x": 4797.0,
+        "gap_x": 85.2
+      },
+      {
+        "lower_x": 2203.4,
+        "upper_x": 2288.6,
+        "gap_x": 85.2
+      },
+      {
+        "lower_x": 1450.5,
+        "upper_x": 1534.3,
+        "gap_x": 83.8
+      },
+      {
+        "lower_x": 422.1,
+        "upper_x": 504.3,
+        "gap_x": 82.2
+      },
+      {
+        "lower_x": 3960.3,
+        "upper_x": 4027.4,
+        "gap_x": 67.1
+      },
+      {
+        "lower_x": 2463.6,
+        "upper_x": 2530.3,
+        "gap_x": 66.7
+      },
+      {
+        "lower_x": 328.9,
+        "upper_x": 380.8,
+        "gap_x": 51.9
+      },
+      {
+        "lower_x": 3300.0,
+        "upper_x": 3349.8,
+        "gap_x": 49.8
+      },
+      {
+        "lower_x": 4900.6,
+        "upper_x": 4950.2,
+        "gap_x": 49.6
+      },
+      {
+        "lower_x": 1049.8,
+        "upper_x": 1099.0,
+        "gap_x": 49.2
+      },
+      {
+        "lower_x": 600.0,
+        "upper_x": 649.0,
+        "gap_x": 49.0
+      }
+    ],
+    "maximum_probability": {
+      "fraction": "1/8000000",
+      "value": 1.25e-07
+    },
+    "maximum_one_in": 8000000,
+    "maximum_base_weight": 62500,
+    "maximum_bonus_weight": 62500,
+    "maximum_bonus_variant_weights": {
+      "8": 31250,
+      "10": 18750,
+      "12": 12500
+    },
+    "bonus_entry_weights": {
+      "8": 4679041094,
+      "10": 286875670,
+      "12": 4018776
+    },
+    "bonus_variant_book_counts": {
+      "8": 547,
+      "10": 103,
+      "12": 98
+    },
+    "bonus_variant_rtp": {
+      "8": {
+        "fraction": "235834923631/500000000000",
+        "value": 0.471669847262
+      },
+      "10": {
+        "fraction": "48120846167/1250000000000",
+        "value": 0.0384966769336
+      },
+      "12": {
+        "fraction": "661485199/250000000000",
+        "value": 0.002645940796
+      }
+    },
+    "distinct_payouts": 1096,
+    "cap_witnesses": [
+      {
+        "id": 100020,
+        "weight": 10417,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 511540,
+        "cap_reduction_units": 11540,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100021,
+        "weight": 10417,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 521140,
+        "cap_reduction_units": 21140,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100022,
+        "weight": 10417,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 503090,
+        "cap_reduction_units": 3090,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100023,
+        "weight": 10417,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 516250,
+        "cap_reduction_units": 16250,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100119,
+        "weight": 10416,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 525850,
+        "cap_reduction_units": 25850,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100120,
+        "weight": 10416,
+        "awarded_fs": 0,
+        "executed_fs": 0,
+        "unplayed_fs": 0,
+        "base_payout_units": 500000,
+        "bonus_payout_units": 0,
+        "raw_payout_units": 503450,
+        "cap_reduction_units": 3450,
+        "cap_reached_during_fs": false,
+        "final_credit_units": 500000
+      },
+      {
+        "id": 100193,
+        "weight": 15625,
+        "awarded_fs": 8,
+        "executed_fs": 1,
+        "unplayed_fs": 7,
+        "base_payout_units": 100,
+        "bonus_payout_units": 499900,
+        "raw_payout_units": 561460,
+        "cap_reduction_units": 61460,
+        "cap_reached_during_fs": true,
+        "final_credit_units": 499900
+      },
+      {
+        "id": 100194,
+        "weight": 15625,
+        "awarded_fs": 8,
+        "executed_fs": 1,
+        "unplayed_fs": 7,
+        "base_payout_units": 100,
+        "bonus_payout_units": 499900,
+        "raw_payout_units": 651060,
+        "cap_reduction_units": 151060,
+        "cap_reached_during_fs": true,
+        "final_credit_units": 499900
+      },
+      {
+        "id": 100267,
+        "weight": 9375,
+        "awarded_fs": 10,
+        "executed_fs": 1,
+        "unplayed_fs": 9,
+        "base_payout_units": 500,
+        "bonus_payout_units": 499500,
+        "raw_payout_units": 561860,
+        "cap_reduction_units": 61860,
+        "cap_reached_during_fs": true,
+        "final_credit_units": 499500
+      },
+      {
+        "id": 100268,
+        "weight": 9375,
+        "awarded_fs": 10,
+        "executed_fs": 1,
+        "unplayed_fs": 9,
+        "base_payout_units": 500,
+        "bonus_payout_units": 499500,
+        "raw_payout_units": 651460,
+        "cap_reduction_units": 151460,
+        "cap_reached_during_fs": true,
+        "final_credit_units": 499500
+      },
+      {
+        "id": 100341,
+        "weight": 6250,
+        "awarded_fs": 12,
+        "executed_fs": 12,
+        "unplayed_fs": 0,
+        "base_payout_units": 2000,
+        "bonus_payout_units": 498000,
+        "raw_payout_units": 500400,
+        "cap_reduction_units": 400,
+        "cap_reached_during_fs": true,
+        "final_credit_units": 3880
+      },
+      {
+        "id": 100342,
+        "weight": 6250,
+        "awarded_fs": 12,
+        "executed_fs": 1,
+        "unplayed_fs": 11,
+        "base_payout_units": 2000,
+        "bonus_payout_units": 498000,
+        "raw_payout_units": 563360,
+        "cap_reduction_units": 63360,
+        "cap_reached_during_fs": true,
+        "final_credit_units": 498000
+      }
+    ],
+    "high_band_statistics": {
+      "[0,500)": {
+        "books": 100024,
+        "weight": 999978891395,
+        "payout_sum": 93556444579680,
+        "probability": {
+          "fraction": "199995778279/200000000000",
+          "value": 0.999978891395
+        },
+        "rtp": {
+          "fraction": "584727778623/625000000000",
+          "value": 0.9355644457968
+        }
+      },
+      "[500,750)": {
+        "books": 21,
+        "weight": 7759154,
+        "payout_sum": 484947075350,
+        "probability": {
+          "fraction": "3879577/500000000000",
+          "value": 7.759154e-06
+        },
+        "rtp": {
+          "fraction": "9698941507/2000000000000",
+          "value": 0.0048494707535
+        }
+      },
+      "[750,1000)": {
+        "books": 20,
+        "weight": 4433802,
+        "payout_sum": 387957682640,
+        "probability": {
+          "fraction": "2216901/500000000000",
+          "value": 4.433802e-06
+        },
+        "rtp": {
+          "fraction": "4849471033/1250000000000",
+          "value": 0.0038795768264
+        }
+      },
+      "[2000,2250)": {
+        "books": 19,
+        "weight": 598240,
+        "payout_sum": 127125982520,
+        "probability": {
+          "fraction": "3739/6250000000",
+          "value": 5.9824e-07
+        },
+        "rtp": {
+          "fraction": "3178149563/2500000000000",
+          "value": 0.0012712598252
+        }
+      },
+      "[1750,2000)": {
+        "books": 17,
+        "weight": 847507,
+        "payout_sum": 158907483900,
+        "probability": {
+          "fraction": "847507/1000000000000",
+          "value": 8.47507e-07
+        },
+        "rtp": {
+          "fraction": "1589074839/1000000000000",
+          "value": 0.001589074839
+        }
+      },
+      "[3000,3250)": {
+        "books": 18,
+        "weight": 166627,
+        "payout_sum": 52070800280,
+        "probability": {
+          "fraction": "166627/1000000000000",
+          "value": 1.66627e-07
+        },
+        "rtp": {
+          "fraction": "1301770007/2500000000000",
+          "value": 0.0005207080028
+        }
+      },
+      "[2750,3000)": {
+        "books": 18,
+        "weight": 226395,
+        "payout_sum": 65088490640,
+        "probability": {
+          "fraction": "45279/200000000000",
+          "value": 2.26395e-07
+        },
+        "rtp": {
+          "fraction": "813606133/1250000000000",
+          "value": 0.0006508849064
+        }
+      },
+      "[4000,4250)": {
+        "books": 20,
+        "weight": 51705,
+        "payout_sum": 21328205940,
+        "probability": {
+          "fraction": "10341/200000000000",
+          "value": 5.1705e-08
+        },
+        "rtp": {
+          "fraction": "1066410297/5000000000000",
+          "value": 0.0002132820594
+        }
+      },
+      "5000": {
+        "books": 12,
+        "weight": 125000,
+        "payout_sum": 62500000000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        }
+      },
+      "[1000,1250)": {
+        "books": 16,
+        "weight": 2758810,
+        "payout_sum": 310366146380,
+        "probability": {
+          "fraction": "275881/100000000000",
+          "value": 2.75881e-06
+        },
+        "rtp": {
+          "fraction": "15518307319/5000000000000",
+          "value": 0.0031036614638
+        }
+      },
+      "[1250,1500)": {
+        "books": 16,
+        "weight": 1805767,
+        "payout_sum": 248292917990,
+        "probability": {
+          "fraction": "1805767/1000000000000",
+          "value": 1.805767e-06
+        },
+        "rtp": {
+          "fraction": "24829291799/10000000000000",
+          "value": 0.0024829291799
+        }
+      },
+      "[1500,1750)": {
+        "books": 16,
+        "weight": 1222365,
+        "payout_sum": 198634347240,
+        "probability": {
+          "fraction": "244473/200000000000",
+          "value": 1.222365e-06
+        },
+        "rtp": {
+          "fraction": "4965858681/2500000000000",
+          "value": 0.0019863434724
+        }
+      },
+      "[2250,2500)": {
+        "books": 16,
+        "weight": 428214,
+        "payout_sum": 101700790020,
+        "probability": {
+          "fraction": "214107/500000000000",
+          "value": 4.28214e-07
+        },
+        "rtp": {
+          "fraction": "5085039501/5000000000000",
+          "value": 0.0010170079002
+        }
+      },
+      "[2500,2750)": {
+        "books": 16,
+        "weight": 309945,
+        "payout_sum": 81360619330,
+        "probability": {
+          "fraction": "61989/200000000000",
+          "value": 3.09945e-07
+        },
+        "rtp": {
+          "fraction": "8136061933/10000000000000",
+          "value": 0.0008136061933
+        }
+      },
+      "[3250,3500)": {
+        "books": 16,
+        "weight": 123427,
+        "payout_sum": 41656633410,
+        "probability": {
+          "fraction": "123427/1000000000000",
+          "value": 1.23427e-07
+        },
+        "rtp": {
+          "fraction": "4165663341/10000000000000",
+          "value": 0.0004165663341
+        }
+      },
+      "[3500,3750)": {
+        "books": 16,
+        "weight": 91932,
+        "payout_sum": 33325324130,
+        "probability": {
+          "fraction": "22983/250000000000",
+          "value": 9.1932e-08
+        },
+        "rtp": {
+          "fraction": "3332532413/10000000000000",
+          "value": 0.0003332532413
+        }
+      },
+      "[3750,4000)": {
+        "books": 16,
+        "weight": 68801,
+        "payout_sum": 26660257400,
+        "probability": {
+          "fraction": "68801/1000000000000",
+          "value": 6.8801e-08
+        },
+        "rtp": {
+          "fraction": "133301287/500000000000",
+          "value": 0.000266602574
+        }
+      },
+      "[4250,4500)": {
+        "books": 16,
+        "weight": 39000,
+        "payout_sum": 17062575760,
+        "probability": {
+          "fraction": "39/1000000000",
+          "value": 3.9e-08
+        },
+        "rtp": {
+          "fraction": "213282197/1250000000000",
+          "value": 0.0001706257576
+        }
+      },
+      "[4500,4750)": {
+        "books": 14,
+        "weight": 29514,
+        "payout_sum": 13650052710,
+        "probability": {
+          "fraction": "14757/500000000000",
+          "value": 2.9514e-08
+        },
+        "rtp": {
+          "fraction": "1365005271/10000000000000",
+          "value": 0.0001365005271
+        }
+      },
+      "[4750,5000)": {
+        "books": 16,
+        "weight": 22400,
+        "payout_sum": 10920034680,
+        "probability": {
+          "fraction": "7/312500000",
+          "value": 2.24e-08
+        },
+        "rtp": {
+          "fraction": "273000867/2500000000000",
+          "value": 0.0001092003468
+        }
+      }
+    },
+    "tail_concentration": {
+      "500": {
+        "weight": 21108605,
+        "probability": {
+          "fraction": "4221721/200000000000",
+          "value": 2.1108605e-05
+        },
+        "rtp": {
+          "fraction": "15272221377/625000000000",
+          "value": 0.0244355542032
+        },
+        "share_of_total_rtp": {
+          "fraction": "5090740459/200000000000",
+          "value": 0.025453702295
+        }
+      },
+      "750": {
+        "weight": 13349451,
+        "probability": {
+          "fraction": "13349451/1000000000000",
+          "value": 1.3349451e-05
+        },
+        "rtp": {
+          "fraction": "195860834497/10000000000000",
+          "value": 0.0195860834497
+        },
+        "share_of_total_rtp": {
+          "fraction": "195860834497/9600000000000",
+          "value": 0.020402170260104168
+        }
+      },
+      "1000": {
+        "weight": 8915649,
+        "probability": {
+          "fraction": "8915649/1000000000000",
+          "value": 8.915649e-06
+        },
+        "rtp": {
+          "fraction": "157065066233/10000000000000",
+          "value": 0.0157065066233
+        },
+        "share_of_total_rtp": {
+          "fraction": "157065066233/9600000000000",
+          "value": 0.016360944399270834
+        }
+      },
+      "1500": {
+        "weight": 4351072,
+        "probability": {
+          "fraction": "135971/31250000000",
+          "value": 4.351072e-06
+        },
+        "rtp": {
+          "fraction": "25299789949/2500000000000",
+          "value": 0.0101199159796
+        },
+        "share_of_total_rtp": {
+          "fraction": "25299789949/2400000000000",
+          "value": 0.010541579145416667
+        }
+      },
+      "2000": {
+        "weight": 2281200,
+        "probability": {
+          "fraction": "5703/2500000000",
+          "value": 2.2812e-06
+        },
+        "rtp": {
+          "fraction": "32722488341/5000000000000",
+          "value": 0.0065444976682
+        },
+        "share_of_total_rtp": {
+          "fraction": "32722488341/4800000000000",
+          "value": 0.006817185071041666
+        }
+      },
+      "2500": {
+        "weight": 1254746,
+        "probability": {
+          "fraction": "627373/500000000000",
+          "value": 1.254746e-06
+        },
+        "rtp": {
+          "fraction": "10640574857/2500000000000",
+          "value": 0.0042562299428
+        },
+        "share_of_total_rtp": {
+          "fraction": "10640574857/2400000000000",
+          "value": 0.004433572857083333
+        }
+      },
+      "3000": {
+        "weight": 718406,
+        "probability": {
+          "fraction": "359203/500000000000",
+          "value": 7.18406e-07
+        },
+        "rtp": {
+          "fraction": "27917388431/10000000000000",
+          "value": 0.0027917388431
+        },
+        "share_of_total_rtp": {
+          "fraction": "27917388431/9600000000000",
+          "value": 0.0029080612948958334
+        }
+      },
+      "3500": {
+        "weight": 428352,
+        "probability": {
+          "fraction": "6693/15625000000",
+          "value": 4.28352e-07
+        },
+        "rtp": {
+          "fraction": "9272322531/5000000000000",
+          "value": 0.0018544645062
+        },
+        "share_of_total_rtp": {
+          "fraction": "3090774177/1600000000000",
+          "value": 0.001931733860625
+        }
+      },
+      "4000": {
+        "weight": 267619,
+        "probability": {
+          "fraction": "267619/1000000000000",
+          "value": 2.67619e-07
+        },
+        "rtp": {
+          "fraction": "12546086909/10000000000000",
+          "value": 0.0012546086909
+        },
+        "share_of_total_rtp": {
+          "fraction": "12546086909/9600000000000",
+          "value": 0.0013068840530208333
+        }
+      },
+      "4500": {
+        "weight": 176914,
+        "probability": {
+          "fraction": "88457/500000000000",
+          "value": 1.76914e-07
+        },
+        "rtp": {
+          "fraction": "8707008739/10000000000000",
+          "value": 0.0008707008739
+        },
+        "share_of_total_rtp": {
+          "fraction": "8707008739/9600000000000",
+          "value": 0.0009069800769791667
+        }
+      },
+      "5000": {
+        "weight": 125000,
+        "probability": {
+          "fraction": "1/8000000",
+          "value": 1.25e-07
+        },
+        "rtp": {
+          "fraction": "1/1600",
+          "value": 0.000625
+        },
+        "share_of_total_rtp": {
+          "fraction": "1/1536",
+          "value": 0.0006510416666666666
+        }
+      }
+    },
+    "high_top_record_rtp_shares": {
+      "1": {
+        "fraction": "547966835/8726983644",
+        "value": 0.06278994637244906
+      },
+      "5": {
+        "fraction": "23000708999/122177771016",
+        "value": 0.18825608625637721
+      },
+      "10": {
+        "fraction": "2636689637/8726983644",
+        "value": 0.30213069538783704
+      },
+      "20": {
+        "fraction": "115654912027/244355542032",
+        "value": 0.4733058684294306
+      }
+    },
+    "raw_weighted_sums": {
+      "payout_sum": 96000000000000,
+      "squared_payout_sum": 1123545724915647000,
+      "base_payout_sum": 44718753500840,
+      "bonus_payout_sum": 51281246499160,
+      "base_scatter_payout_sum": 619379496400,
+      "bonus_scatter_payout_sum": 17922022400,
+      "hit_weight": 156383939513,
+      "profit_weight": 98153690211,
+      "bonus_weight": 4969935540,
+      "max_weight": 125000,
+      "weighted_free_spins": 40348854514,
+      "weighted_expansions": 10263625764,
+      "capped_weight": 125000,
+      "bonus_10_payout_sum": 3849667693360,
+      "bonus_8_payout_sum": 47166984726200,
+      "max_in_base_weight": 62500,
+      "bonus_12_payout_sum": 264594079600,
+      "max_in_bonus_weight": 62500,
+      "max_in_bonus_8_weight": 31250,
+      "max_in_bonus_10_weight": 18750,
+      "max_in_bonus_12_weight": 12500
+    }
+  },
+  "ordinary_to_high_rtp_transfer_units": 0,
+  "high_frequency_relative_change": -0.4098345067713315,
+  "base_rtp_change_percentage_points": -0.8889879390200028,
+  "reproducibility": {
+    "passed": true,
+    "stable_file_matches": {
+      "books_base.jsonl.zst": true,
+      "index.json": true,
+      "lookUpTable_base_0.csv": true,
+      "mathematics.json": false,
+      "selection.json": true
+    },
+    "summary_note": "mathematics.json includes measured build duration and is excluded from byte-equality requirement"
+  },
+  "regressions": {
+    "math_version": "0.6.0-high-wins",
+    "scope": "Local selector, engine, HTTP wallet, UI logic and RGS contract regressions. Minimal DOM tests do not establish browser visuals or platform approval.",
+    "passed": true,
+    "suites_run": 18,
+    "suites_passed": 18,
+    "checks": [
+      {
+        "name": "generate_current_fixtures",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.645,
+        "log": "regressions/generate_current_fixtures.log"
+      },
+      {
+        "name": "bonus12_api",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.313,
+        "log": "regressions/bonus12_api.log"
+      },
+      {
+        "name": "server",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 3.663,
+        "log": "regressions/server.log"
+      },
+      {
+        "name": "settlement_atomicity",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 2.187,
+        "log": "regressions/settlement_atomicity.log"
+      },
+      {
+        "name": "cascades",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.63,
+        "log": "regressions/cascades.log"
+      },
+      {
+        "name": "high_wins",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 4.08,
+        "log": "regressions/high_wins.log"
+      },
+      {
+        "name": "cap_messages",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.098,
+        "log": "regressions/cap_messages.log"
+      },
+      {
+        "name": "audit_fixes",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.416,
+        "log": "regressions/audit_fixes.log"
+      },
+      {
+        "name": "replay",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.303,
+        "log": "regressions/replay.log"
+      },
+      {
+        "name": "rgs",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.509,
+        "log": "regressions/rgs.log"
+      },
+      {
+        "name": "rgs_recovery",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.59,
+        "log": "regressions/rgs_recovery.log"
+      },
+      {
+        "name": "autoplay",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 15.28,
+        "log": "regressions/autoplay.log"
+      },
+      {
+        "name": "network_logic",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.595,
+        "log": "regressions/network_logic.log"
+      },
+      {
+        "name": "platform_currency",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.409,
+        "log": "regressions/platform_currency.log"
+      },
+      {
+        "name": "localization",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.633,
+        "log": "regressions/localization.log"
+      },
+      {
+        "name": "bonus12_frontend",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 4.93,
+        "log": "regressions/bonus12_frontend.log"
+      },
+      {
+        "name": "any_start_frontend",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.163,
+        "log": "regressions/any_start_frontend.log"
+      },
+      {
+        "name": "high_wins_frontend",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.076,
+        "log": "regressions/high_wins_frontend.log"
+      }
+    ],
+    "fixture_sha256": "b30332deaedb5d7c6eac6a7318480bc08748debc7ccb2fcdf5cb74dce373db52",
+    "source_sha256": {
+      "engine/polska_gurom/config.py": "d0a1b09794e6d212b2296f6f9fe158bb6aa69b17754bd0d26f8480ea5b3607cf",
+      "engine/polska_gurom/game.py": "42401e6a16c511abc9d9884a4d74b5d6643e290315ee5e63f635343665322dfb",
+      "engine/polska_gurom/selection.py": "4e4c6a9e55f537d2c80389922200b0a1f30e1f7c7452c92a749e966da3d3e602",
+      "server.py": "e15a1f81a5dd1157780695c1d5b611d9337c839582bd80ff8f74a57c87e78a30",
+      "web/app.js": "b6654dac0f418e2c802811fb943d57d8318063b8145e5b4f9f4f7550ceb5f570",
+      "web/rgs-client.js": "83e4f137ca3380902aeaee05cc816ded84fbc12dda17cf2a44c5eb9b1ff1a610",
+      "web/game-config.json": "8bba1e9d99c2dd6ed6192ee8f857e0a453764c0e57dea0178766c389803c1758",
+      "stake_math/lookUpTable_base_0.csv": "b28847b42ef2f8c2458949aea46a1d37a174209f3c11f28edf6ef48c2d05727f"
+    },
+    "prior_attempt_directories": [
+      "regression_attempts/1792703729179123900",
+      "regression_attempts/1792703800019883600",
+      "regression_attempts/1792703831104725400"
+    ]
+  },
+  "independent_event_verification": {
+    "passed": true,
+    "counts": {
+      "assertions": 18522926,
+      "refill_symbols": 517434,
+      "surviving_symbols": 1142391,
+      "transitions": 110655,
+      "stages": 217537,
+      "line_awards": 396725,
+      "base_spins": 100343,
+      "books": 100343,
+      "free_spins": 6539,
+      "expansions": 1652,
+      "partially_credited_cascades": 12
+    }
+  },
+  "high_band_design": {
+    "schema": 1,
+    "math_version": "0.6.0-high-wins",
+    "baseline_math_version": "0.5.0-any-start",
+    "total_weight": 1000000000000,
+    "high_return_units": 2443555420320,
+    "high_rtp_percentage_points": 2.44355542032,
+    "ordinary_to_high_return_transfer_units": 0,
+    "design": "18 bands of 250x; non-cap RTP shares decline by factor 4/5 per band; frequency targets use band midpoints",
+    "family_percentages_per_band": {
+      "0": 40,
+      "8": 30,
+      "10": 20,
+      "12": 10
+    },
+    "cap_weights_by_awarded_fs": {
+      "0": 62500,
+      "8": 31250,
+      "10": 18750,
+      "12": 12500
+    },
+    "bonus_weights": {
+      "8": 4679041094,
+      "10": 286875670,
+      "12": 4018776
+    },
+    "bands": [
+      {
+        "lower_units": 50000,
+        "upper_units_exclusive": 75000,
+        "target_weight": 7759154,
+        "target_probability_fraction": "3879577/500000000000",
+        "target_return_units_fraction": "1816601120239257812500000/3745977788889",
+        "target_rtp_percentage_points": 0.48494711464320617,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 7759154,
+        "actual_return_units": 484947075350,
+        "actual_rtp_percentage_points": 0.48494707535,
+        "book_ids": [
+          46183,
+          100121,
+          100122,
+          100123,
+          100124,
+          100000,
+          100001,
+          100002,
+          100003,
+          100049,
+          100050,
+          100051,
+          100052,
+          100195,
+          100196,
+          100197,
+          100198,
+          100269,
+          100270,
+          100271,
+          100272
+        ],
+        "family_weights": {
+          "0": 3103661,
+          "8": 2327746,
+          "10": 1551830,
+          "12": 775917
+        }
+      },
+      {
+        "lower_units": 75000,
+        "upper_units_exclusive": 100000,
+        "target_weight": 4433802,
+        "target_probability_fraction": "2216901/500000000000",
+        "target_return_units_fraction": "1453280896191406250000000/3745977788889",
+        "target_rtp_percentage_points": 0.38795769171456496,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 4433802,
+        "actual_return_units": 387957682640,
+        "actual_rtp_percentage_points": 0.38795768264,
+        "book_ids": [
+          100004,
+          100005,
+          100006,
+          100007,
+          100053,
+          100054,
+          100055,
+          100056,
+          100125,
+          100126,
+          100127,
+          100128,
+          100199,
+          100200,
+          100201,
+          100202,
+          100273,
+          100274,
+          100275,
+          100276
+        ],
+        "family_weights": {
+          "0": 1773520,
+          "8": 1330140,
+          "10": 886760,
+          "12": 443382
+        }
+      },
+      {
+        "lower_units": 100000,
+        "upper_units_exclusive": 125000,
+        "target_weight": 2758810,
+        "target_probability_fraction": "275881/100000000000",
+        "target_return_units_fraction": "1162624716953125000000000/3745977788889",
+        "target_rtp_percentage_points": 0.31036615337165196,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 2758810,
+        "actual_return_units": 310366146380,
+        "actual_rtp_percentage_points": 0.31036614638,
+        "book_ids": [
+          100057,
+          100058,
+          100059,
+          100060,
+          100129,
+          100130,
+          100131,
+          100132,
+          100203,
+          100204,
+          100205,
+          100206,
+          100277,
+          100278,
+          100279,
+          100280
+        ],
+        "family_weights": {
+          "0": 1103524,
+          "8": 827643,
+          "10": 551762,
+          "12": 275881
+        }
+      },
+      {
+        "lower_units": 125000,
+        "upper_units_exclusive": 150000,
+        "target_weight": 1805767,
+        "target_probability_fraction": "1805767/1000000000000",
+        "target_return_units_fraction": "930099773562500000000000/3745977788889",
+        "target_rtp_percentage_points": 0.24829292269732156,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 1805767,
+        "actual_return_units": 248292917990,
+        "actual_rtp_percentage_points": 0.24829291799,
+        "book_ids": [
+          100061,
+          100062,
+          100063,
+          100064,
+          100133,
+          100134,
+          100135,
+          100136,
+          100207,
+          100208,
+          100209,
+          100210,
+          100281,
+          100282,
+          100283,
+          100284
+        ],
+        "family_weights": {
+          "0": 722306,
+          "8": 541730,
+          "10": 361153,
+          "12": 180578
+        }
+      },
+      {
+        "lower_units": 150000,
+        "upper_units_exclusive": 175000,
+        "target_weight": 1222365,
+        "target_probability_fraction": "244473/200000000000",
+        "target_return_units_fraction": "744079818850000000000000/3745977788889",
+        "target_rtp_percentage_points": 0.19863433815785725,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 1222365,
+        "actual_return_units": 198634347240,
+        "actual_rtp_percentage_points": 0.19863434724,
+        "book_ids": [
+          100065,
+          100066,
+          100067,
+          100068,
+          100137,
+          100138,
+          100139,
+          100140,
+          100211,
+          100212,
+          100213,
+          100214,
+          100285,
+          100286,
+          100287,
+          100288
+        ],
+        "family_weights": {
+          "0": 488946,
+          "8": 366709,
+          "10": 244473,
+          "12": 122237
+        }
+      },
+      {
+        "lower_units": 175000,
+        "upper_units_exclusive": 200000,
+        "target_weight": 847507,
+        "target_probability_fraction": "847507/1000000000000",
+        "target_return_units_fraction": "595263855080000000000000/3745977788889",
+        "target_rtp_percentage_points": 0.1589074705262858,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 847507,
+        "actual_return_units": 158907483900,
+        "actual_rtp_percentage_points": 0.1589074839,
+        "book_ids": [
+          100010,
+          100069,
+          100070,
+          100071,
+          100072,
+          100141,
+          100142,
+          100143,
+          100144,
+          100215,
+          100216,
+          100217,
+          100218,
+          100289,
+          100290,
+          100291,
+          100292
+        ],
+        "family_weights": {
+          "0": 339002,
+          "8": 254252,
+          "10": 169501,
+          "12": 84752
+        }
+      },
+      {
+        "lower_units": 200000,
+        "upper_units_exclusive": 225000,
+        "target_weight": 598240,
+        "target_probability_fraction": "3739/6250000000",
+        "target_return_units_fraction": "476211084064000000000000/3745977788889",
+        "target_rtp_percentage_points": 0.12712597642102863,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 598240,
+        "actual_return_units": 127125982520,
+        "actual_rtp_percentage_points": 0.12712598252,
+        "book_ids": [
+          100008,
+          100009,
+          100011,
+          100073,
+          100074,
+          100075,
+          100076,
+          100145,
+          100146,
+          100147,
+          100148,
+          100219,
+          100220,
+          100221,
+          100222,
+          100293,
+          100294,
+          100295,
+          100296
+        ],
+        "family_weights": {
+          "0": 239296,
+          "8": 179472,
+          "10": 119648,
+          "12": 59824
+        }
+      },
+      {
+        "lower_units": 225000,
+        "upper_units_exclusive": 250000,
+        "target_weight": 428214,
+        "target_probability_fraction": "214107/500000000000",
+        "target_return_units_fraction": "380968867251200000000000/3745977788889",
+        "target_rtp_percentage_points": 0.1017007811368229,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 428214,
+        "actual_return_units": 101700790020,
+        "actual_rtp_percentage_points": 0.10170079002,
+        "book_ids": [
+          100077,
+          100078,
+          100079,
+          100080,
+          100149,
+          100150,
+          100151,
+          100152,
+          100223,
+          100224,
+          100225,
+          100226,
+          100297,
+          100298,
+          100299,
+          100300
+        ],
+        "family_weights": {
+          "0": 171285,
+          "8": 128464,
+          "10": 85642,
+          "12": 42823
+        }
+      },
+      {
+        "lower_units": 250000,
+        "upper_units_exclusive": 275000,
+        "target_weight": 309945,
+        "target_probability_fraction": "61989/200000000000",
+        "target_return_units_fraction": "304775093800960000000000/3745977788889",
+        "target_rtp_percentage_points": 0.08136062490945832,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 309945,
+        "actual_return_units": 81360619330,
+        "actual_rtp_percentage_points": 0.08136061933,
+        "book_ids": [
+          100081,
+          100082,
+          100083,
+          100084,
+          100153,
+          100154,
+          100155,
+          100156,
+          100227,
+          100228,
+          100229,
+          100230,
+          100301,
+          100302,
+          100303,
+          100304
+        ],
+        "family_weights": {
+          "0": 123978,
+          "8": 92983,
+          "10": 61989,
+          "12": 30995
+        }
+      },
+      {
+        "lower_units": 275000,
+        "upper_units_exclusive": 300000,
+        "target_weight": 226395,
+        "target_probability_fraction": "45279/200000000000",
+        "target_return_units_fraction": "243820075040768000000000/3745977788889",
+        "target_rtp_percentage_points": 0.06508849992756666,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 226395,
+        "actual_return_units": 65088490640,
+        "actual_rtp_percentage_points": 0.06508849064,
+        "book_ids": [
+          100014,
+          100015,
+          100085,
+          100086,
+          100087,
+          100088,
+          100157,
+          100158,
+          100159,
+          100160,
+          100231,
+          100232,
+          100233,
+          100234,
+          100305,
+          100306,
+          100307,
+          100308
+        ],
+        "family_weights": {
+          "0": 90558,
+          "8": 67918,
+          "10": 45279,
+          "12": 22640
+        }
+      },
+      {
+        "lower_units": 300000,
+        "upper_units_exclusive": 325000,
+        "target_weight": 166627,
+        "target_probability_fraction": "166627/1000000000000",
+        "target_return_units_fraction": "195056060032614400000000/3745977788889",
+        "target_rtp_percentage_points": 0.05207079994205333,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 166627,
+        "actual_return_units": 52070800280,
+        "actual_rtp_percentage_points": 0.05207080028,
+        "book_ids": [
+          100012,
+          100013,
+          100089,
+          100090,
+          100091,
+          100092,
+          100161,
+          100162,
+          100163,
+          100164,
+          100235,
+          100236,
+          100237,
+          100238,
+          100309,
+          100310,
+          100311,
+          100312
+        ],
+        "family_weights": {
+          "0": 66650,
+          "8": 49988,
+          "10": 33325,
+          "12": 16664
+        }
+      },
+      {
+        "lower_units": 325000,
+        "upper_units_exclusive": 350000,
+        "target_weight": 123427,
+        "target_probability_fraction": "123427/1000000000000",
+        "target_return_units_fraction": "156044848026091520000000/3745977788889",
+        "target_rtp_percentage_points": 0.04165663995364266,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 123427,
+        "actual_return_units": 41656633410,
+        "actual_rtp_percentage_points": 0.04165663341,
+        "book_ids": [
+          100093,
+          100094,
+          100095,
+          100096,
+          100165,
+          100166,
+          100167,
+          100168,
+          100239,
+          100240,
+          100241,
+          100242,
+          100313,
+          100314,
+          100315,
+          100316
+        ],
+        "family_weights": {
+          "0": 49370,
+          "8": 37028,
+          "10": 24685,
+          "12": 12344
+        }
+      },
+      {
+        "lower_units": 350000,
+        "upper_units_exclusive": 375000,
+        "target_weight": 91932,
+        "target_probability_fraction": "22983/250000000000",
+        "target_return_units_fraction": "124835878420873216000000/3745977788889",
+        "target_rtp_percentage_points": 0.033325311962914134,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 91932,
+        "actual_return_units": 33325324130,
+        "actual_rtp_percentage_points": 0.03332532413,
+        "book_ids": [
+          100097,
+          100098,
+          100099,
+          100100,
+          100169,
+          100170,
+          100171,
+          100172,
+          100243,
+          100244,
+          100245,
+          100246,
+          100317,
+          100318,
+          100319,
+          100320
+        ],
+        "family_weights": {
+          "0": 36772,
+          "8": 27579,
+          "10": 18386,
+          "12": 9195
+        }
+      },
+      {
+        "lower_units": 375000,
+        "upper_units_exclusive": 400000,
+        "target_weight": 68801,
+        "target_probability_fraction": "68801/1000000000000",
+        "target_return_units_fraction": "99868702736698572800000/3745977788889",
+        "target_rtp_percentage_points": 0.026660249570331303,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 68801,
+        "actual_return_units": 26660257400,
+        "actual_rtp_percentage_points": 0.0266602574,
+        "book_ids": [
+          100101,
+          100102,
+          100103,
+          100104,
+          100173,
+          100174,
+          100175,
+          100176,
+          100247,
+          100248,
+          100249,
+          100250,
+          100321,
+          100322,
+          100323,
+          100324
+        ],
+        "family_weights": {
+          "0": 27520,
+          "8": 20640,
+          "10": 13760,
+          "12": 6881
+        }
+      },
+      {
+        "lower_units": 400000,
+        "upper_units_exclusive": 425000,
+        "target_weight": 51705,
+        "target_probability_fraction": "10341/200000000000",
+        "target_return_units_fraction": "79894962189358858240000/3745977788889",
+        "target_rtp_percentage_points": 0.021328199656265045,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 51705,
+        "actual_return_units": 21328205940,
+        "actual_rtp_percentage_points": 0.02132820594,
+        "book_ids": [
+          100016,
+          100017,
+          100018,
+          100019,
+          100105,
+          100106,
+          100107,
+          100108,
+          100177,
+          100178,
+          100179,
+          100180,
+          100251,
+          100252,
+          100253,
+          100254,
+          100325,
+          100326,
+          100327,
+          100328
+        ],
+        "family_weights": {
+          "0": 20682,
+          "8": 15511,
+          "10": 10341,
+          "12": 5171
+        }
+      },
+      {
+        "lower_units": 425000,
+        "upper_units_exclusive": 450000,
+        "target_weight": 39000,
+        "target_probability_fraction": "39/1000000000",
+        "target_return_units_fraction": "63915969751487086592000/3745977788889",
+        "target_rtp_percentage_points": 0.017062559725012034,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 39000,
+        "actual_return_units": 17062575760,
+        "actual_rtp_percentage_points": 0.01706257576,
+        "book_ids": [
+          100109,
+          100110,
+          100111,
+          100112,
+          100181,
+          100182,
+          100183,
+          100184,
+          100255,
+          100256,
+          100257,
+          100258,
+          100329,
+          100330,
+          100331,
+          100332
+        ],
+        "family_weights": {
+          "0": 15600,
+          "8": 11700,
+          "10": 7800,
+          "12": 3900
+        }
+      },
+      {
+        "lower_units": 450000,
+        "upper_units_exclusive": 475000,
+        "target_weight": 29514,
+        "target_probability_fraction": "14757/500000000000",
+        "target_return_units_fraction": "51132775801189669273600/3745977788889",
+        "target_rtp_percentage_points": 0.013650047780009628,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 29514,
+        "actual_return_units": 13650052710,
+        "actual_rtp_percentage_points": 0.01365005271,
+        "book_ids": [
+          100113,
+          100114,
+          100185,
+          100186,
+          100187,
+          100188,
+          100259,
+          100260,
+          100261,
+          100262,
+          100333,
+          100334,
+          100335,
+          100336
+        ],
+        "family_weights": {
+          "0": 11805,
+          "8": 8854,
+          "10": 5902,
+          "12": 2953
+        }
+      },
+      {
+        "lower_units": 475000,
+        "upper_units_exclusive": 500000,
+        "target_weight": 22400,
+        "target_probability_fraction": "7/312500000",
+        "target_return_units_fraction": "40906220640951735418880/3745977788889",
+        "target_rtp_percentage_points": 0.010920038224007703,
+        "rtp_relative_tolerance": 0.01,
+        "actual_weight": 22400,
+        "actual_return_units": 10920034680,
+        "actual_rtp_percentage_points": 0.01092003468,
+        "book_ids": [
+          100115,
+          100116,
+          100117,
+          100118,
+          100189,
+          100190,
+          100191,
+          100192,
+          100263,
+          100264,
+          100265,
+          100266,
+          100337,
+          100338,
+          100339,
+          100340
+        ],
+        "family_weights": {
+          "0": 8960,
+          "8": 6720,
+          "10": 4480,
+          "12": 2240
+        }
+      }
+    ],
+    "exact_moment_correction": [
+      {
+        "from": 100000,
+        "to": 100002,
+        "tickets": 508
+      },
+      {
+        "from": 100050,
+        "to": 100052,
+        "tickets": -11
+      }
+    ],
+    "high_weight": 21108605,
+    "cap_book_ids_by_awarded_fs": {
+      "0": [
+        100020,
+        100021,
+        100022,
+        100023,
+        100119,
+        100120
+      ],
+      "8": [
+        100193,
+        100194
+      ],
+      "10": [
+        100267,
+        100268
+      ],
+      "12": [
+        100341,
+        100342
+      ]
+    },
+    "candidate_count": 11889,
+    "additional_books": 294
+  },
+  "legacy_cap_tests": {
+    "math_version": "0.6.0-high-wins",
+    "method": "Real legacy app.js in a minimal DOM with virtual time and a local API double; actual current weighted cap books plus an engine-produced exact-cap boundary fixture. No visual/browser claim.",
+    "source_sha256": "77b9d7505fb12190be9fb375abd00ffb741d0cf88f8e463616fe1b35aca9ebb8",
+    "tests_run": 45,
+    "passed": 45,
+    "checks": [
+      {
+        "name": "cap pl animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap pl instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap pl skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap en animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap en instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap en skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap de animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap de instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "cap de skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100020,
+        "played": 0,
+        "awarded": 0
+      },
+      {
+        "name": "bonus_cap8 pl animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 pl instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 pl skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 en animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 en instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 en skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 de animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 de instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap8 de skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100193,
+        "played": 1,
+        "awarded": 8
+      },
+      {
+        "name": "bonus_cap10 pl animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 pl instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 pl skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 en animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 en instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 en skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 de animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 de instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap10 de skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100267,
+        "played": 1,
+        "awarded": 10
+      },
+      {
+        "name": "bonus_cap12 pl animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 pl instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 pl skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 en animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 en instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 en skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 de animated: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 de instant: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "bonus_cap12 de skip-screens: cap payout and awarded FS count",
+        "passed": true,
+        "book_id": 100342,
+        "played": 1,
+        "awarded": 12
+      },
+      {
+        "name": "synthetic exact cap pl animated: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap pl instant: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap pl skip-screens: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap en animated: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap en instant: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap en skip-screens: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap de animated: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap de instant: no reduction still states cap",
+        "passed": true
+      },
+      {
+        "name": "synthetic exact cap de skip-screens: no reduction still states cap",
+        "passed": true
+      }
+    ],
+    "status": "pass"
+  },
+  "portable_packages": [
+    {
+      "success": true,
+      "checks": [
+        {
+          "name": "zip_integrity",
+          "success": true
+        },
+        {
+          "name": "zip_no_python_cache",
+          "success": true
+        },
+        {
+          "name": "extracted_files_match_zip",
+          "success": true
+        },
+        {
+          "name": "portable_files",
+          "success": true
+        },
+        {
+          "name": "engine_bytes_match_current_reference",
+          "success": true
+        },
+        {
+          "name": "isolated_port",
+          "success": true
+        },
+        {
+          "name": "packaged_server_health",
+          "success": true
+        },
+        {
+          "name": "homepage",
+          "success": true
+        },
+        {
+          "name": "config",
+          "success": true
+        },
+        {
+          "name": "cascade_version_metadata",
+          "success": true
+        },
+        {
+          "name": "symbol_manifest",
+          "success": true
+        },
+        {
+          "name": "initial_state",
+          "success": true
+        },
+        {
+          "name": "normal_spin_wallet",
+          "success": true
+        },
+        {
+          "name": "normal_spin_idempotency",
+          "success": true
+        },
+        {
+          "name": "normal_cascade_settlement",
+          "success": true
+        },
+        {
+          "name": "request_id_conflict",
+          "success": true
+        },
+        {
+          "name": "expansion_scenario",
+          "success": true
+        },
+        {
+          "name": "scenario_preserves_wallet_statistics",
+          "success": true
+        },
+        {
+          "name": "scenario_idempotency",
+          "success": true
+        },
+        {
+          "name": "bonus_cascade_settlement",
+          "success": true
+        },
+        {
+          "name": "cascade_scenario",
+          "success": true
+        },
+        {
+          "name": "cascade_contains_falling_survivors",
+          "success": true
+        },
+        {
+          "name": "cascade_serialized_transitions",
+          "success": true
+        },
+        {
+          "name": "cascade_preserves_wallet_statistics",
+          "success": true
+        },
+        {
+          "name": "cascade_idempotency",
+          "success": true
+        },
+        {
+          "name": "recent_rounds",
+          "success": true
+        },
+        {
+          "name": "server_imports_extracted_engine",
+          "success": true
+        }
+      ],
+      "zip_file_count": 45,
+      "zip_bytes": 42138859,
+      "zip_sha256": "55f170375b1b20311c4fd7d89aaffecbe9d9ffbcc62cc6ee116524b9626b7d63",
+      "extracted_engine": "audit\\high_wins_rebuild_2026_10_22\\portable\\portable-smoke-55f170375b1b\\engine\\polska_gurom\\game.py",
+      "engine_reference": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface-any-start\\engine\\polska_gurom",
+      "engine_files_verified": 7,
+      "math_version": "0.6.0-high-wins"
+    },
+    {
+      "success": true,
+      "checks": [
+        {
+          "name": "zip_integrity",
+          "success": true
+        },
+        {
+          "name": "zip_no_python_cache",
+          "success": true
+        },
+        {
+          "name": "extracted_files_match_zip",
+          "success": true
+        },
+        {
+          "name": "portable_files",
+          "success": true
+        },
+        {
+          "name": "engine_bytes_match_current_reference",
+          "success": true
+        },
+        {
+          "name": "isolated_port",
+          "success": true
+        },
+        {
+          "name": "packaged_server_health",
+          "success": true
+        },
+        {
+          "name": "homepage",
+          "success": true
+        },
+        {
+          "name": "config",
+          "success": true
+        },
+        {
+          "name": "cascade_version_metadata",
+          "success": true
+        },
+        {
+          "name": "symbol_manifest",
+          "success": true
+        },
+        {
+          "name": "initial_state",
+          "success": true
+        },
+        {
+          "name": "normal_spin_wallet",
+          "success": true
+        },
+        {
+          "name": "normal_spin_idempotency",
+          "success": true
+        },
+        {
+          "name": "normal_cascade_settlement",
+          "success": true
+        },
+        {
+          "name": "request_id_conflict",
+          "success": true
+        },
+        {
+          "name": "expansion_scenario",
+          "success": true
+        },
+        {
+          "name": "scenario_preserves_wallet_statistics",
+          "success": true
+        },
+        {
+          "name": "scenario_idempotency",
+          "success": true
+        },
+        {
+          "name": "bonus_cascade_settlement",
+          "success": true
+        },
+        {
+          "name": "cascade_scenario",
+          "success": true
+        },
+        {
+          "name": "cascade_contains_falling_survivors",
+          "success": true
+        },
+        {
+          "name": "cascade_serialized_transitions",
+          "success": true
+        },
+        {
+          "name": "cascade_preserves_wallet_statistics",
+          "success": true
+        },
+        {
+          "name": "cascade_idempotency",
+          "success": true
+        },
+        {
+          "name": "recent_rounds",
+          "success": true
+        },
+        {
+          "name": "server_imports_extracted_engine",
+          "success": true
+        }
+      ],
+      "zip_file_count": 37,
+      "zip_bytes": 26726221,
+      "zip_sha256": "642f34c030ad1890305a7ea98a1ff90a25e44bcf799e1b609b0df356a6855a48",
+      "extracted_engine": "audit\\high_wins_rebuild_2026_10_22\\legacy_portable\\portable-smoke-642f34c030ad\\engine\\polska_gurom\\game.py",
+      "engine_reference": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface-any-start\\engine\\polska_gurom",
+      "engine_files_verified": 7,
+      "math_version": "0.6.0-high-wins"
+    }
+  ],
+  "browser_check": {
+    "passed": true,
+    "scope": "Observed actual browser render of virtual local RGS bonus_cap8; real positive-weight exported cap book",
+    "math_version": "0.6.0-high-wins",
+    "language": "pl",
+    "currency": "USD",
+    "bet": "0.50",
+    "round_win": "2500.00",
+    "balance_after": "2599.50",
+    "played_fs": 1,
+    "awarded_fs": 8,
+    "unused_fs": 7,
+    "cap_message_visible": true,
+    "credited_amount_visible": true,
+    "snapshot": "bonus_cap_browser.png"
+  }
+}

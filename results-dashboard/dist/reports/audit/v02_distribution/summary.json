@@ -1,0 +1,399 @@
+{
+  "base": {
+    "denominator": 60466176,
+    "payout_unit": "1/100 total bet",
+    "mean": 0.7352578638344849,
+    "mean_fraction": "222291157/302330880",
+    "second_raw_moment": 5.877141865733332,
+    "variance": 5.336537739402882,
+    "std_dev": 2.3100947468454365,
+    "positive_frequency": 0.2970869532083524,
+    "positive_frequency_fraction": "31187/104976",
+    "net_profit_frequency": 0.1759349723058392,
+    "break_even_frequency": 0.004729801335543363,
+    "loss_disguised_as_win_frequency": 0.1164221795669698,
+    "maximum": 104.55,
+    "maximum_by_scatter_count": {
+      "0": 104.55,
+      "1": 47.65,
+      "2": 40.16,
+      "3": 37.86,
+      "4": 36.18,
+      "5": 50.22
+    },
+    "line_maximum_by_scatter_count": {
+      "0": 104.55,
+      "1": 47.65,
+      "2": 40.16,
+      "3": 36.86,
+      "4": 31.18,
+      "5": 30.22
+    },
+    "scatter_counts": [
+      39135393,
+      17788815,
+      3234330,
+      294030,
+      13365,
+      243
+    ],
+    "line_mean": 0.7292096063756373,
+    "payout_mass": 7959
+  },
+  "forced_1": {
+    "denominator": 60466176,
+    "payout_unit": "1/100 total bet",
+    "mean": 4.252368130572703,
+    "mean_fraction": "15871879/3732480",
+    "second_raw_moment": 55.51427350418191,
+    "variance": 37.43163878627153,
+    "std_dev": 6.11814014111082,
+    "positive_frequency": 0.8543935042295382,
+    "positive_frequency_fraction": "478351/559872",
+    "net_profit_frequency": 0.6686165171086724,
+    "break_even_frequency": 0.00097075760173754,
+    "loss_disguised_as_win_frequency": 0.18480622951912817,
+    "maximum": 116.6,
+    "maximum_by_scatter_count": {
+      "0": 116.6,
+      "1": 116.6,
+      "2": 62.6,
+      "3": 43.75,
+      "4": 40.06,
+      "5": 50.22
+    },
+    "line_maximum_by_scatter_count": {
+      "0": 116.6,
+      "1": 116.6,
+      "2": 62.6,
+      "3": 42.75,
+      "4": 35.06,
+      "5": 30.22
+    },
+    "scatter_counts": [
+      39135393,
+      17788815,
+      3234330,
+      294030,
+      13365,
+      243
+    ],
+    "line_mean": 4.246319873113855,
+    "payout_mass": 12083
+  },
+  "forced_2": {
+    "denominator": 60466176,
+    "payout_unit": "1/100 total bet",
+    "mean": 4.252368130572703,
+    "mean_fraction": "15871879/3732480",
+    "second_raw_moment": 77.22139021181032,
+    "variance": 59.13875549389994,
+    "std_dev": 7.690172656962908,
+    "positive_frequency": 0.6701406750114312,
+    "positive_frequency_fraction": "375193/559872",
+    "net_profit_frequency": 0.5691675458358736,
+    "break_even_frequency": 0.01663415923639689,
+    "loss_disguised_as_win_frequency": 0.0843389699391607,
+    "maximum": 178.5,
+    "maximum_by_scatter_count": {
+      "0": 178.5,
+      "1": 178.5,
+      "2": 85.1,
+      "3": 61.12,
+      "4": 40.12,
+      "5": 52.14
+    },
+    "line_maximum_by_scatter_count": {
+      "0": 178.5,
+      "1": 178.5,
+      "2": 85.1,
+      "3": 60.12,
+      "4": 35.12,
+      "5": 32.14
+    },
+    "scatter_counts": [
+      39135393,
+      17788815,
+      3234330,
+      294030,
+      13365,
+      243
+    ],
+    "line_mean": 4.246319873113855,
+    "payout_mass": 12342
+  },
+  "forced_3": {
+    "denominator": 60466176,
+    "payout_unit": "1/100 total bet",
+    "mean": 2.474280281921582,
+    "mean_fraction": "5541121/2239488",
+    "second_raw_moment": 51.84550204133961,
+    "variance": 45.723439127833664,
+    "std_dev": 6.761910908007711,
+    "positive_frequency": 0.2970869532083524,
+    "positive_frequency_fraction": "31187/104976",
+    "net_profit_frequency": 0.2940456330494589,
+    "break_even_frequency": 0.0030413201588934615,
+    "loss_disguised_as_win_frequency": 0.0,
+    "maximum": 154.6,
+    "maximum_by_scatter_count": {
+      "0": 154.6,
+      "1": 154.6,
+      "2": 75.7,
+      "3": 63.9,
+      "4": 64.6,
+      "5": 60.1
+    },
+    "line_maximum_by_scatter_count": {
+      "0": 154.6,
+      "1": 154.6,
+      "2": 75.7,
+      "3": 62.9,
+      "4": 59.6,
+      "5": 40.1
+    },
+    "scatter_counts": [
+      39135393,
+      17788815,
+      3234330,
+      294030,
+      13365,
+      243
+    ],
+    "line_mean": 2.4682320244627345,
+    "payout_mass": 2440
+  },
+  "fs_mixture_25pct": {
+    "denominator": 725594112,
+    "payout_unit": "1/100 total bet",
+    "mean": 1.466361443131446,
+    "mean_fraction": "295550897/201553920",
+    "second_raw_moment": 19.789620212410984,
+    "variance": 17.639404330508448,
+    "std_dev": 4.199929086366631,
+    "positive_frequency": 0.37461697594370774,
+    "positive_frequency_fraction": "943819/2519424",
+    "net_profit_frequency": 0.2596037038955465,
+    "break_even_frequency": 0.005267870751409846,
+    "loss_disguised_as_win_frequency": 0.10974540129675142,
+    "maximum": 178.5,
+    "maximum_by_scatter_count": {
+      "0": 178.5,
+      "1": 178.5,
+      "2": 85.1,
+      "3": 63.9,
+      "4": 64.6,
+      "5": 60.1
+    },
+    "line_maximum_by_scatter_count": {
+      "0": 178.5,
+      "1": 178.5,
+      "2": 85.1,
+      "3": 62.9,
+      "4": 59.6,
+      "5": 40.1
+    },
+    "scatter_counts": [
+      469624716,
+      213465780,
+      38811960,
+      3528360,
+      160380,
+      2916
+    ],
+    "line_mean": 1.4603131856725984,
+    "payout_mass": 17164
+  },
+  "metadata": {
+    "reference": "D:\\Kazaluka_slots\\polska_gurom_phase2_v0.1",
+    "reference_config_sha256": "f4eefd938c675753a21072287eeba35ec0a26d4286974228d05122f070b5783a",
+    "lines": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "histogram_axes": "[line payout in units of 1/100 total bet, original scatter count]",
+    "forced_histogram_counting": "Enumerated remaining 36^4 stops; omitted reel weights 33 no-scatter, 3 one-scatter.",
+    "mixture_counting": "(9*base+forced_1+forced_2+forced_3)/(12*36^5)",
+    "elapsed_seconds": 49.04700000000048,
+    "paytable": {
+      "L1": {
+        "3": 0.16,
+        "4": 0.8,
+        "5": 2.5
+      },
+      "L2": {
+        "3": 0.25,
+        "4": 1.0,
+        "5": 3.5
+      },
+      "L3": {
+        "3": 0.3,
+        "4": 1.2,
+        "5": 4.5
+      },
+      "L4": {
+        "3": 0.4,
+        "4": 1.6,
+        "5": 6.0
+      },
+      "P1": {
+        "3": 0.6,
+        "4": 2.5,
+        "5": 10.0
+      },
+      "P2": {
+        "3": 0.8,
+        "4": 3.5,
+        "5": 15.0
+      },
+      "P3": {
+        "3": 1.2,
+        "4": 5.5,
+        "5": 25.0
+      },
+      "P4": {
+        "3": 2.0,
+        "4": 10.0,
+        "5": 50.0
+      }
+    }
+  }
+}

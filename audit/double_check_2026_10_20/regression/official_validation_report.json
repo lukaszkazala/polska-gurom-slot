@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-20T10:21:57.127780+00:00",
+  "platform_approval": "NOT_PERFORMED; local execution of public SDK functions only",
+  "runner": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\stake_cascades_v04\\official_validation\\run_official_validation.py",
+  "runner_sha256": "81bdc3d357798751aa258da4757f660b3d2c9746ef88f0622fd655dcdd35dc04",
+  "publish_directory": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\stake_math",
+  "warnings_are_not_silenced": true,
+  "modes": [
+    {
+      "name": "base",
+      "cost": 1.0,
+      "official_functions": {
+        "verify_lookup_format": "PASS",
+        "verify_books_and_payout_mults": "PASS",
+        "compare_payout_values": "PASS",
+        "get_lut_statistics": "PASS"
+      },
+      "files": {
+        "books": {
+          "path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\stake_math\\books_base.jsonl.zst",
+          "sha256": "8988aa6f8cea385b5954f3d449cc5795aa3276c5e8d864315eeacfc1c47a3f81",
+          "bytes": 5543716
+        },
+        "weights": {
+          "path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\stake_math\\lookUpTable_base_0.csv",
+          "sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+          "bytes": 1810358
+        }
+      },
+      "official_warnings": [],
+      "official_stdout": "",
+      "official_statistics_unrounded": {
+        "num_events": 100048,
+        "weight_range": 1000000000000.0,
+        "min_win": 0.0,
+        "max_win": 500000.0,
+        "min_diff": 10,
+        "average_win": 0.9600000000000002,
+        "rtp": 0.9599999999999997,
+        "std": 6.979727820824664,
+        "var": 48.716600452793806,
+        "m2m": 0,
+        "hr_max": 8000000.0,
+        "non_zero_hr": 3.396352534989201,
+        "prob_nil": 0.705566489433,
+        "num_non_zero_payouts": 29791,
+        "prob_less_bet": 0.811211700932,
+        "skew": 182.4850302071761,
+        "excess_kurtosis": 86431.83370307134,
+        "prob5k": 1.25e-07,
+        "prob10k": 0.0,
+        "etl40b": 0.22254559256650017,
+        "etl10k": 0,
+        "cvar": 130.38832729669028
+      },
+      "additional_exact_integer_checks": {
+        "status": "PASS",
+        "book_count": 100048,
+        "total_weight": 1000000000000,
+        "weight_sum_uint64": true,
+        "weights_within_float_exact_integer_range": true,
+        "weighted_payout_units_sum": 96000000000000,
+        "rtp_fraction": {
+          "numerator": 24,
+          "denominator": 25,
+          "decimal": "0.96",
+          "float": 0.96
+        },
+        "target_rtp_fraction": {
+          "numerator": 24,
+          "denominator": 25,
+          "decimal": "0.96",
+          "float": 0.96
+        },
+        "rtp_target_absolute_tolerance": "1/1000000",
+        "cost": {
+          "numerator": 1,
+          "denominator": 1,
+          "decimal": "1",
+          "float": 1.0
+        },
+        "payout_scale": 100,
+        "payout_step_units": 10,
+        "min_payout_units": 0,
+        "max_payout_units": 500000,
+        "declared_max_payout_units": 500000,
+        "nonzero_weight_books": 100048,
+        "zero_weight_books": 0,
+        "nonzero_payout_books": 29791,
+        "positive_weight_and_positive_payout_books": 29791,
+        "unique_payouts": 566,
+        "positive_probability_payouts": 566,
+        "win_probability": {
+          "numerator": 294433510567,
+          "denominator": 1000000000000,
+          "decimal": "0.294433510567",
+          "float": 0.294433510567
+        },
+        "max_win_weight": 125000,
+        "max_win_probability": {
+          "numerator": 1,
+          "denominator": 8000000,
+          "decimal": "1.25E-7",
+          "float": 1.25e-07
+        },
+        "max_win_one_in": {
+          "numerator": 8000000,
+          "denominator": 1,
+          "decimal": "8000000",
+          "float": 8000000.0
+        },
+        "max_win_one_in_strict_upper_limit": 10000000,
+        "dominant_single_book_probability": {
+          "numerator": 5031493,
+          "denominator": 500000000000,
+          "decimal": "0.000010062986",
+          "float": 1.0062986e-05
+        }
+      },
+      "additional_book_checks": {
+        "status": "PASS",
+        "book_count": 100048,
+        "total_event_count": 100048,
+        "unique_canonical_event_sequences": 100048,
+        "positive_weight_unique_event_sequences": 100048,
+        "event_type_counts": {
+          "roundResult": 100048
+        },
+        "positive_weight_max_win_ids": [
+          100020,
+          100021,
+          100022,
+          100023
+        ],
+        "scope": "ID/type/count/payout/event-sequence-diversity checks; not a cascade pay evaluator"
+      },
+      "status": "PASS"
+    }
+  ],
+  "official_source": {
+    "repository": "https://github.com/engineio/math-sdk",
+    "resolved_ref": "main",
+    "commit_sha": "a6dccd86de740cc5d318079483cb6204cc5c19bc",
+    "commit_url": "https://github.com/engineio/math-sdk/commit/a6dccd86de740cc5d318079483cb6204cc5c19bc",
+    "commit_time": "2026-09-22T01:38:30Z",
+    "retrieved_at_utc": "2026-10-19T16:30:48.021991+00:00",
+    "code_modified": false,
+    "files": [
+      {
+        "path": "vendor/utils/rgs_verification.py",
+        "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/utils/rgs_verification.py",
+        "sha256": "bc2ce5fdda73f07f53d298322b0e9f97a67425d6ad30c96a6ee24403dd2406ba",
+        "bytes": 12515
+      },
+      {
+        "path": "vendor/utils/analysis/distribution_functions.py",
+        "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/utils/analysis/distribution_functions.py",
+        "sha256": "7f9aee4989d35c0e687b4c42f9d1a226300cbcda20560e93be61f7c7b49ff0db",
+        "bytes": 6733
+      },
+      {
+        "path": "vendor/src/write_data/write_data.py",
+        "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/src/write_data/write_data.py",
+        "sha256": "61fc9b5a4193d2d3732fb5fc3561bb27ff8866a7bc5ef322c889b8f2d2044d9c",
+        "bytes": 13198
+      },
+      {
+        "path": "vendor/LICENSE",
+        "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/LICENSE",
+        "sha256": "4b66c492ce853e329249b45ca688d0417352fd279b981317b16932ba99fb2c7a",
+        "bytes": 1069
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Kazaluka\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "numpy_version": "2.2.5",
+    "zstandard_version": "0.25.0",
+    "dependency_directory": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\stake_cascades_v04\\dependencies",
+    "official_module": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\stake_cascades_v04\\official_validation\\vendor\\utils\\rgs_verification.py",
+    "official_sources_verified_sha256": true,
+    "official_code_modified_or_stubbed": false
+  },
+  "index_sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+  "mode_rtp_difference_requirement_fraction": "0.005",
+  "completed_at_utc": "2026-10-20T10:22:03.838242+00:00",
+  "elapsed_seconds": 6.715020999999979
+}

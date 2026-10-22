@@ -1,0 +1,75 @@
+/* Integrated game canvas. Operator navigation is outside this game. */
+.replay-toolbar{display:flex;justify-content:center;align-items:center;gap:12px;flex-shrink:0;min-height:27px;font-size:10px;color:#f2d59c}
+.replay-toolbar .text-button{font-size:11px;padding:5px 10px;min-height:27px}
+.replay-summary{flex-shrink:0;text-align:center;color:#e7d2ac;font-size:11px;margin:3px 0;line-height:1.4}
+.player-view .spin-button.replay-control #spin-label{position:static;clip-path:none;width:auto;height:auto;margin:0;overflow:visible;white-space:normal;line-height:1.25;font-size:9px;text-align:center;letter-spacing:0}
+.player-view .spin-button.replay-control svg{display:none}
+.player-view .replay-view .cabinet-meter .meter-item:first-child,.player-view .replay-view .auto-control,.player-view .replay-view .bet-stepper>button,.player-view .replay-view #speed-button{display:none}
+.player-view .replay-view .cabinet-meter{justify-content:flex-end}
+.player-view .replay-view .bet-stepper{justify-content:center}
+@media(max-width:680px){.replay-toolbar{gap:5px;min-height:25px;font-size:8px}.replay-toolbar .text-button{font-size:10px}.replay-summary{font-size:9px}.player-view .replay-view .game-controls{justify-content:flex-end;gap:18px}.player-view .replay-view .replay-toolbar{flex-wrap:wrap}}
+.player-view #reconnect-button{align-self:center;flex-shrink:0;min-height:36px;padding:7px 16px;margin:3px 0;font-size:12px}
+body.player-view{min-width:320px;background:radial-gradient(ellipse at 50% 25%,#32222c 0,#13121b 58%,#080c13 100%)}
+.player-view .app-shell{padding:10px;max-width:none;width:100%;min-height:100dvh;display:grid;place-items:center}
+.player-view main{width:min(1440px,100%)}
+.player-view .topbar,.player-view .page-heading,.player-view .stats-strip,.player-view .site-footer{display:none!important}
+.player-view .game-layout{display:block;width:100%;margin:0}
+.player-view .game-column{width:100%}
+.player-view .slot-cabinet{position:relative;height:calc(100dvh - 20px);min-height:510px;max-height:920px;display:flex;flex-direction:column;padding:8px 14px 0;background:radial-gradient(ellipse at 50% 10%,#563a2f77,transparent 60%),linear-gradient(150deg,#251722,#15121c 60%,#211725);border:1px solid #b18a4f88;border-radius:14px;box-shadow:0 20px 75px #000b,0 1px 1px #ffe1a333 inset;overflow:hidden}
+.player-view .cabinet-header{justify-content:center;padding:1px 150px 6px;min-height:42px;gap:18px;flex-shrink:0}
+.player-view .cabinet-title{font-family:Georgia,serif;font-size:clamp(20px,2.3vw,34px);letter-spacing:3px;text-shadow:0 2px 0 #341e12,0 0 20px #f7cf9022;white-space:nowrap}
+.player-view .cabinet-meta{font-size:10px;color:#b7a789;white-space:nowrap}
+.player-demo-label{position:absolute;top:17px;left:21px;color:#cebb9a;font-size:10px;letter-spacing:2px}
+.player-view .bonus-bar{background:transparent;border:0;justify-content:center;margin:0;padding:2px 0;min-height:24px;font-size:12px;color:#e7d2ac;flex-shrink:0}
+.player-view .bonus-counter{margin-left:10px;font-size:12px}
+.player-view .cascade-indicator{position:absolute;right:21px;top:15px;font-size:9px;padding:4px 6px;margin:0;border:0;background:#0002;max-width:160px}
+.player-view .cascade-indicator strong{font-size:10px}
+.player-view .cabinet-playfield{flex:1;min-height:0;margin:6px 0 0;grid-template-columns:136px minmax(0,1fr);gap:14px;display:grid}
+.player-view .feature-rail{display:grid;padding:0 0 17px;grid-template-columns:minmax(0,1fr);grid-template-rows:repeat(3,minmax(0,1fr));gap:12px}
+.player-view .feature-card{background:radial-gradient(ellipse at 50% 0,#aa79482b,transparent),linear-gradient(145deg,#39252c,#181621);border:2px solid #a47a45;box-shadow:0 0 0 2px #171117,0 0 0 3px #594426;min-height:0;border-radius:5px}
+.player-view .feature-card strong{font-family:Georgia,serif;font-size:clamp(24px,2.3vw,32px);color:#efc988;text-shadow:0 2px 1px #432715}
+.player-view .feature-kicker{font-size:10px;letter-spacing:.7px}.player-view .feature-card small{font-size:11px;max-width:116px}
+.player-view .cabinet-playfield>.reel-surround{margin:0;min-height:0;border-width:25px;border-image-width:25px;display:flex;flex-direction:column;height:100%;padding:0}
+.player-view .reels-stage{flex:1;min-height:0}
+.player-view .cabinet-playfield .reel-grid{height:100%!important;max-height:none!important;aspect-ratio:auto;grid-template-rows:repeat(3,minmax(0,1fr));gap:0;padding:0;background:radial-gradient(ellipse at 50% 35%,#3b2435,#171520 70%)}
+.player-view .symbol-cell{background:transparent;border-radius:0;border:0;min-height:0;box-shadow:none}
+.player-view .symbol-cell:not(:nth-child(5n)){border-right:1px solid #bd945b44}
+.player-view .symbol-cell .symbol-art{height:87%;width:88%;max-width:190px;filter:drop-shadow(0 4px 5px #0009)}
+.player-view .symbol-name{display:none}
+.player-view .symbol-cell.winning{background:radial-gradient(ellipse,#d9ab512b,transparent 75%);box-shadow:0 0 0 1px #efcb82aa inset}
+.player-view .symbol-cell.dimmed{opacity:.38}
+.player-view .reel-bottom-label{height:16px;flex-shrink:0;background:#17121b;font-size:8px;color:#b49c73}
+.player-view .bonus-announcement{inset:0 0 17px 150px}
+.player-view .win-display{min-height:40px;padding:5px 4px;gap:0;flex-shrink:0;line-height:1.3}
+.player-view .win-display h2{font-size:18px;letter-spacing:0}.player-view .win-display p{font-size:10px;margin:2px 0 0}.player-view .win-accent{display:none}
+.player-view .round-note{max-width:100%;font-size:9px!important}
+.player-view .win-lines{padding:0;min-height:0;max-height:25px;overflow:auto;flex-shrink:0}
+.player-bottom-bar{display:flex;align-items:center;gap:16px;min-height:91px;flex-shrink:0;border-top:1px solid #c8a36444;background:linear-gradient(180deg,#231923cc,#12111bcc);margin:4px -14px 0;padding:8px 18px}
+.player-utilities{display:flex;gap:5px;align-items:center;flex-shrink:0}
+.player-view .player-utilities .utility-button{display:grid;place-items:center;width:34px;height:38px;min-height:0;min-width:0;border:1px solid #9b805133;border-radius:50%;padding:7px;background:#211a25;color:#e6d3b3;flex-shrink:0}
+.player-view .player-utilities svg{width:19px;height:19px}
+.player-view #paytable-toggle span{display:none}.player-view #paytable-toggle{margin:0}.player-view #paytable-toggle>svg{display:block}
+.player-view .cabinet-meter{display:flex;flex:1;gap:24px;border:0;margin:0;padding:0;background:none;box-shadow:none;justify-content:flex-start;min-width:0}
+.player-view .meter-item{min-width:0}.player-view .meter-item:nth-child(2){display:none}.player-view .meter-item>span{font-size:9px;letter-spacing:.5px;white-space:nowrap}.player-view .meter-item>strong{font-size:20px;white-space:nowrap;color:#f2d59c}
+.player-view .game-controls{display:flex;gap:12px;align-items:center;padding:0;flex-shrink:0;margin:0}
+.player-view .bet-control,.player-view .auto-control{grid-row:auto}.player-view .bet-control>label{font-size:9px;letter-spacing:.6px;margin:0 0 3px}.player-view .auto-control>label{display:none}
+.player-view .bet-stepper{width:142px;height:42px;border:1px solid #caa36555;border-radius:6px;background:#191622}.player-view .bet-stepper>button{width:28px}.player-view .bet-stepper strong{font-size:16px}
+.player-view .spin-button{position:relative;display:grid;place-items:center;width:72px;height:72px;padding:12px;border:3px solid #ffe8b3;border-radius:50%;background:linear-gradient(135deg,#ffe9b0,#c18a43);box-shadow:0 0 0 3px #50371d,0 4px 12px #0009;order:4}
+.player-view .spin-button svg{width:36px;height:36px;stroke-width:2.1}.player-view #spin-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.player-view .auto-control{order:3}.player-view .auto-row{height:44px}.player-view .auto-settings-button,.player-view .auto-row>.auto-settings-button{width:70px;height:44px;font-size:9px;padding:5px;gap:3px;border-radius:6px;background:#211a28;border:1px solid #caa36566}
+.player-view .speed-button{position:static;order:2;width:70px;height:44px;font-size:9px;margin:0;flex-direction:column;border:1px solid #caa36544;border-radius:6px;background:#211a28;padding:5px}
+.player-view .autoplay-progress{margin:0 -14px;padding:5px 16px;border:0;border-top:1px solid #a7854c33;min-height:28px;font-size:10px}
+.player-dialog{width:min(660px,calc(100vw - 28px));max-height:88dvh;background:linear-gradient(145deg,#302330,#171722);border-color:#aa824e77}
+.player-view .player-dialog .paytable-panel{display:block!important;position:static;width:100%;padding:0;border:0;box-shadow:none;background:none;margin:0}
+.player-view .player-dialog .panel-heading{display:none}.player-view .player-dialog .paytable{width:100%}.player-view .player-dialog .paytable-token+span{font-size:13px}
+.player-view .player-dialog .theme-toolbar{display:flex;flex-wrap:wrap;margin:12px 0;padding:12px}.player-view .player-dialog .theme-toolbar p{display:block;flex-basis:100%;order:3;font-size:11px}.player-view .player-dialog .language-field{display:flex;margin:16px 0;width:110px;min-height:42px}
+.player-view .player-dialog .history-section{margin:15px 0}.player-view .player-dialog .testing-tools{margin:14px 0}.player-view [hidden]{display:none!important}
+@media(max-width:1000px){.player-view .cabinet-meta{display:none}.player-view .cabinet-playfield{grid-template-columns:108px minmax(0,1fr);gap:10px}.player-view .feature-card strong{font-size:26px}.player-view .feature-kicker{font-size:8px}.player-view .feature-card small{font-size:9px}.player-bottom-bar{gap:10px;padding:8px 12px}.player-utilities{gap:3px}.player-view .player-utilities .utility-button{width:29px;height:33px;padding:5px}.player-view .cabinet-meter{gap:12px}.player-view .meter-item>strong{font-size:17px}.player-view .game-controls{gap:8px}.player-view .bet-stepper{width:118px}.player-view .bet-stepper strong{font-size:13px}.player-view .speed-button{width:55px}.player-view .auto-settings-button,.player-view .auto-row>.auto-settings-button{width:56px}.player-view .spin-button{width:65px;height:65px}.player-view .bonus-announcement{left:118px}}
+@media(max-width:680px){.player-view .app-shell{padding:5px}.player-view .slot-cabinet{height:calc(100dvh - 10px);min-height:510px;max-height:900px;padding:10px 8px 0;border-radius:8px}.player-view .cabinet-header{padding:0 32px 6px;min-height:35px}.player-view .cabinet-title{font-size:20px;letter-spacing:1.5px}.player-demo-label{left:12px;top:16px;font-size:7px;letter-spacing:1px}.player-view .bonus-bar{font-size:10px;min-height:26px;line-height:1.4}.player-view .cascade-indicator{position:static;margin:0 3px;padding:3px 7px;max-width:none;font-size:9px;min-height:24px;flex-shrink:0}.player-view .cabinet-playfield{display:block;margin:5px 0 0;min-height:0}.player-view .feature-rail{display:none}.player-view .cabinet-playfield>.reel-surround{height:100%;border-width:16px;border-image-width:16px}.player-view .symbol-cell .symbol-art{width:94%;height:87%;max-width:none}.player-view .reel-bottom-label{height:14px}.player-view .win-display{min-height:44px;padding:4px 0}.player-view .win-display h2{font-size:15px}.player-view .win-display p{font-size:9px}.player-view .bonus-announcement{left:0;bottom:14px}.player-bottom-bar{position:relative;display:grid;grid-template-columns:1fr;gap:8px;margin:4px -8px 0;padding:8px 10px 10px;min-height:130px}.player-view .cabinet-meter{display:flex;justify-content:space-between;padding:0 4px 0 88px;width:100%;gap:6px}.player-view .meter-item>span{font-size:8px;letter-spacing:0}.player-view .meter-item>strong{font-size:16px}.player-utilities{position:absolute;left:9px;top:13px;gap:2px}.player-view .player-utilities .utility-button{width:25px;height:29px;padding:5px}.player-view .player-utilities svg{width:16px;height:16px}.player-view .game-controls{display:flex;width:100%;justify-content:space-between;gap:5px}.player-view .bet-stepper{width:119px;height:39px}.player-view .bet-control>label{font-size:8px}.player-view .bet-stepper strong{font-size:14px}.player-view .speed-button{width:48px;height:40px;font-size:8px}.player-view .auto-settings-button,.player-view .auto-row>.auto-settings-button{width:51px;height:40px;font-size:8px}.player-view .auto-row{height:40px}.player-view .spin-button{width:60px;height:60px;border-width:2px;flex-shrink:0}.player-view .spin-button svg{width:31px;height:31px}.player-view .autoplay-progress{margin:0 -8px;padding:5px 10px}.player-view .win-lines{max-height:22px}.player-view .player-dialog .theme-toolbar{margin:12px 0}.player-view .player-dialog .catalog-card .symbol-art{height:85px}}
+@media(max-width:360px){.player-view .cabinet-title{font-size:17px}.player-view .bet-stepper{width:105px}.player-view .game-controls{gap:4px}.player-view .speed-button{width:41px}.player-view .auto-settings-button,.player-view .auto-row>.auto-settings-button{width:43px}.player-view .meter-item>strong{font-size:14px}.player-view .cabinet-meter{padding-left:82px}.player-view .spin-button{width:55px;height:55px}}
+@media(max-width:680px){.player-view .slot-cabinet{height:auto;min-height:0;max-height:calc(100dvh - 10px)}.player-view .cabinet-playfield{flex:none;height:min(calc((100vw - 60px) * .8 + 46px),calc(100dvh - 280px))}}
+.player-view .spin-button.retry-state #spin-label,.player-view .spin-button.auto-running #spin-label{position:static;clip-path:none;width:auto;height:auto;margin:0;overflow:visible;white-space:normal;line-height:1.35;font-size:9px;text-align:center;letter-spacing:0}
+.player-view .spin-button.retry-state svg,.player-view .spin-button.auto-running svg{display:none}
+.player-view .spin-button.auto-running{background:linear-gradient(135deg,#81433e,#4b222c);color:#ffe7b2}
+@media(max-width:680px){.player-view .player-utilities .utility-button{width:44px;height:44px;padding:10px}.player-view .player-utilities svg{width:20px;height:20px}.player-utilities{left:8px;top:10px;gap:0}.player-view .cabinet-meter{padding-left:138px}.player-view .bet-stepper{width:132px;height:44px}.player-view .bet-stepper>button{width:40px}.player-view .bet-stepper strong{font-size:13px}}
+@media(max-width:360px){.player-view .cabinet-meter{padding-left:136px}.player-view .bet-stepper{width:125px}}

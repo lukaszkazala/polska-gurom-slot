@@ -1,0 +1,46 @@
+{
+  "method": "Actual natural full-grid 20-line cascade model; compiled independent C# implementation; SplitMix64 with unbiased rejection sampling",
+  "seed": 2026101991,
+  "rounds": 10000000,
+  "totalUnits": 844771710,
+  "rtp": 0.84477171,
+  "baseRtp": 0.7269126300000001,
+  "bonusRtp": 0.11785907999999999,
+  "variance": 10.989772146983677,
+  "standardDeviation": 3.315082524913019,
+  "normal95Interval": [
+    0.8427170005636111,
+    0.8468264194363888
+  ],
+  "hitFrequency": 0.2971587,
+  "netProfitFrequency": 0.1700342,
+  "bonusFrequency": 0.0050859,
+  "freeSpins": 411490,
+  "expansions": 0,
+  "maximumUnits": 39820,
+  "capHits": 0,
+  "guardHits": 0,
+  "baseCascadeFrequency": 0.2939986,
+  "totalStages": 14323076,
+  "scatter": [
+    6474108,
+    2940656,
+    534377,
+    48603,
+    2203,
+    53
+  ],
+  "buckets": [
+    7028413,
+    1068452,
+    1501451,
+    356676,
+    44107,
+    901,
+    0,
+    0,
+    0
+  ],
+  "elapsedSeconds": 16.0619464,
+  "traces": []
+}

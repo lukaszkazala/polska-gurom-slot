@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-19T17:23:00.195635+00:00",
+  "new_fault_checks": 47,
+  "http_tcp_checks": 17,
+  "frontend_fault_checks": 30,
+  "previous_autoplay_checks": 13,
+  "http_regression_tests": 10,
+  "portable_checks": 27,
+  "browser": {
+    "method": "Real browser UI with isolated local HTTP fault relay; no OS network changes",
+    "offline_before_recovery": {
+      "balance": "10 000,00 zł",
+      "button": "PONÓW ODCZYT",
+      "connection": "Brak połączenia",
+      "enabled": true,
+      "progress": "Autoplay przerwany · brak połączenia. Ponów odczyt rundy.0 / 10STOP AUTO",
+      "rounds": "0"
+    },
+    "timeout_before_recovery": {
+      "balance": "9996,00 zł",
+      "button": "PONÓW ODCZYT",
+      "connection": "Brak połączenia",
+      "enabled": true,
+      "rounds": "2"
+    },
+    "after_recovery_and_100_autospins": {
+      "balance": "9890,80 zł",
+      "button": "ZAKRĘĆ",
+      "connection": "Silnik połączony",
+      "enabled": true,
+      "progress": "Autoplay zakończony100 / 100STOP AUTO",
+      "rounds": "103"
+    }
+  },
+  "browser_actual_requests": 109,
+  "browser_distinct_paid_rounds": 103,
+  "browser_accounting_matches_unique_request_ids": true,
+  "source_sha256": {
+    "app.js": "28862cdbdfbbd571801480f813d7bc4873bcd5bc3e057ed59f014884dc145e26",
+    "server.py": "e021269262e9713998036cdacfcdbd3d1343cc5ef3ebb176d51eabfae82c7848"
+  },
+  "math_source_fingerprint_verified": {
+    "config.py": "e616d57031e9a4fea36e3deaa453f11590a9890e34f7a1652882bdca0f34d287",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "9861e8b1a61a9855f920129916201c3f4e358b6239906dcbf8beed6ba9c324dc"
+  },
+  "exact_rtp": "24/25",
+  "archive": {
+    "path": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\POLSKA_GUROM_v0_4_NETWORK_FIX.zip",
+    "sha256": "36a12d935d203560fefa9ca2d1ef26cadfbd652c31ff61ea4a7f3cb10c841d59",
+    "bytes": 6125736
+  },
+  "scope": "Isolated loopback transport faults and frontend logic. Computer Wi-Fi/WAN and live Stake RGS were not changed or tested.",
+  "remaining_limits": [
+    "Local virtual wallet/history are memory-only and are lost on process restart.",
+    "Only last100 full round responses are replayable; older processed IDs are rejected without a debit.",
+    "Pending survives same-tab reload only when sessionStorage is available; browser storage clearing is not durable recovery."
+  ]
+}

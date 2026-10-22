@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "math_config_sha256": "d79c6643b616c077afe91803cb0b96a65a7a7ef004b4d51416dad18570958148",
+  "histogram_total_natural_grids": 60466176,
+  "fresh_histogram_arrays_equal_previous": {
+    "base": true,
+    "forced_1": true,
+    "forced_2": true,
+    "forced_3": true
+  },
+  "independent_natural_base_checks": 1000,
+  "independent_natural_forced_free_spin_checks": 3000,
+  "untriggered_rounds_payout_hundredths_not_divisible_by_ten": {
+    "count": 7808220,
+    "denominator": 60466176,
+    "probability_fraction": "216895/1679616",
+    "probability": 0.12913368293705227,
+    "first_examples_units_and_counts": [
+      [
+        32,
+        1840530
+      ],
+      [
+        48,
+        570177
+      ],
+      [
+        64,
+        203535
+      ],
+      [
+        75,
+        187488
+      ],
+      [
+        82,
+        23400
+      ],
+      [
+        92,
+        9936
+      ],
+      [
+        96,
+        1169033
+      ],
+      [
+        98,
+        2160
+      ],
+      [
+        107,
+        20736
+      ],
+      [
+        108,
+        2160
+      ],
+      [
+        112,
+        321909
+      ],
+      [
+        114,
+        2304
+      ],
+      [
+        122,
+        17352
+      ],
+      [
+        123,
+        2268
+      ],
+      [
+        125,
+        476748
+      ],
+      [
+        128,
+        72360
+      ],
+      [
+        132,
+        7632
+      ],
+      [
+        135,
+        2520
+      ],
+      [
+        139,
+        4788
+      ],
+      [
+        144,
+        41952
+      ]
+    ],
+    "note": "Exact lower bound for all paid rounds. Triggered final bonus distributions are not needed to prove the format conflict."
+  },
+  "independent_decimal_chernoff_probability_upper_bounds": {
+    "1000": {
+      "t": "0.020",
+      "probability_upper_bound": "1.90166148774951393609351582122589056448853408396636852789910E-9",
+      "one_million_round_union_bound": "0.00190166148774951393609351582122589056448853408396636852789910"
+    },
+    "5000": {
+      "t": "0.024",
+      "probability_upper_bound": "1.24957233062902306146148721740518750198216036710167281004420E-47",
+      "one_million_round_union_bound": "1.24957233062902306146148721740518750198216036710167281004420E-41"
+    }
+  },
+  "probability_bounds_precision": 60,
+  "probability_bounds_rounding": "ROUND_CEILING, exp.next_plus"
+}

@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/engineio/math-sdk",
+  "resolved_ref": "main",
+  "commit_sha": "a6dccd86de740cc5d318079483cb6204cc5c19bc",
+  "commit_url": "https://github.com/engineio/math-sdk/commit/a6dccd86de740cc5d318079483cb6204cc5c19bc",
+  "commit_time": "2026-09-22T01:38:30Z",
+  "retrieved_at_utc": "2026-10-19T16:30:48.021991+00:00",
+  "code_modified": false,
+  "files": [
+    {
+      "path": "vendor/utils/rgs_verification.py",
+      "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/utils/rgs_verification.py",
+      "sha256": "bc2ce5fdda73f07f53d298322b0e9f97a67425d6ad30c96a6ee24403dd2406ba",
+      "bytes": 12515
+    },
+    {
+      "path": "vendor/utils/analysis/distribution_functions.py",
+      "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/utils/analysis/distribution_functions.py",
+      "sha256": "7f9aee4989d35c0e687b4c42f9d1a226300cbcda20560e93be61f7c7b49ff0db",
+      "bytes": 6733
+    },
+    {
+      "path": "vendor/src/write_data/write_data.py",
+      "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/src/write_data/write_data.py",
+      "sha256": "61fc9b5a4193d2d3732fb5fc3561bb27ff8866a7bc5ef322c889b8f2d2044d9c",
+      "bytes": 13198
+    },
+    {
+      "path": "vendor/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/engineio/math-sdk/a6dccd86de740cc5d318079483cb6204cc5c19bc/LICENSE",
+      "sha256": "4b66c492ce853e329249b45ca688d0417352fd279b981317b16932ba99fb2c7a",
+      "bytes": 1069
+    }
+  ]
+}

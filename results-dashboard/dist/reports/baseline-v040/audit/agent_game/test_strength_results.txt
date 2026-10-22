@@ -1,0 +1,3 @@
+double_line_payout: all 12 existing test functions pass.
+zero_scatter_payout: all 12 existing test functions pass.
+expansion_does_nothing: all 12 existing test functions pass.

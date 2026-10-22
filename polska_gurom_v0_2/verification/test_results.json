@@ -1,0 +1,107 @@
+{
+  "passed": 20,
+  "total": 20,
+  "seconds": 0.9840000000003783,
+  "results": [
+    {
+      "file": "test_game.py",
+      "test": "test_default_expansion_uses_exact_integer_threshold",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_every_payline_event_matches_oracle_with_overlapping_prefixes",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_exhaustive_100000_line_sequences_against_independent_oracle",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_expansion_uses_exactly_one_inner_reel_and_preserves_input",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_explicit_left_anchor_interruption_and_best_wild_once",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_frozen_config_and_payline_geometry",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_history_distinguishes_equal_payment_different_expansion",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_reachable_twelve_free_spin_maximum_witness_caps_8618_22",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_result_snapshot_does_not_change_if_callers_grid_changes",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_round_cap_reconciles_base_bonus_and_every_credit",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_round_full_history_is_seed_deterministic",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_round_history_awards_8_10_12_without_retriggers",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_scatter_anywhere_pays_and_awards_only_in_paid_game",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_strips_and_cyclic_window_generation",
+      "passed": true
+    },
+    {
+      "file": "test_game.py",
+      "test": "test_total_bet_units_are_not_divided_by_twenty",
+      "passed": true
+    },
+    {
+      "file": "test_math.py",
+      "test": "test_exact_first_moments_match_independent_frozen_results",
+      "passed": true
+    },
+    {
+      "file": "test_math.py",
+      "test": "test_full_distribution_report_is_current_and_meets_targets",
+      "passed": true
+    },
+    {
+      "file": "test_math.py",
+      "test": "test_invalid_inputs_fail_before_settlement",
+      "passed": true
+    },
+    {
+      "file": "test_math.py",
+      "test": "test_model_assumptions_cannot_be_changed_silently",
+      "passed": true
+    },
+    {
+      "file": "test_math.py",
+      "test": "test_scatter_distribution_is_exact_binomial_window_probability",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "valid_probability": 1.0,
+  "invalid_probability": 1.5,
+  "theory_rtp_at_1": 0.8961413837739806,
+  "theory_rtp_at_1_5": 0.9566245449949995,
+  "same_engine_output_at_1_and_1_5": true
+}

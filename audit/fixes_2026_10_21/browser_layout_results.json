@@ -1,0 +1,255 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 320,
+      "height": 568,
+      "buttons": [
+        {
+          "bottom": 536.296875,
+          "id": "bet-decrease",
+          "right": 49.5625,
+          "top": 494.296875,
+          "x": 17
+        },
+        {
+          "bottom": 536.296875,
+          "id": "bet-increase",
+          "right": 140,
+          "top": 494.296875,
+          "x": 107.453125
+        },
+        {
+          "bottom": 535.296875,
+          "id": "spin-button",
+          "right": 304,
+          "top": 480.296875,
+          "x": 249
+        },
+        {
+          "bottom": 527.796875,
+          "id": "auto-button",
+          "right": 241,
+          "top": 487.796875,
+          "x": 198
+        }
+      ],
+      "cards": [
+        {
+          "client": 0,
+          "scroll": 0
+        },
+        {
+          "client": 0,
+          "scroll": 0
+        },
+        {
+          "client": 0,
+          "scroll": 0
+        }
+      ],
+      "railColumns": "minmax(0px, 1fr)",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 700,
+      "buttons": [
+        {
+          "bottom": 631.1875,
+          "id": "bet-decrease",
+          "right": 53.0625,
+          "top": 589.1875,
+          "x": 17
+        },
+        {
+          "bottom": 631.1875,
+          "id": "bet-increase",
+          "right": 147,
+          "top": 589.1875,
+          "x": 110.953125
+        },
+        {
+          "bottom": 632.6875,
+          "id": "spin-button",
+          "right": 374,
+          "top": 572.6875,
+          "x": 314
+        },
+        {
+          "bottom": 622.6875,
+          "id": "auto-button",
+          "right": 291.671875,
+          "top": 582.6875,
+          "x": 240.671875
+        }
+      ],
+      "cards": [
+        {
+          "client": 0,
+          "scroll": 0
+        },
+        {
+          "client": 0,
+          "scroll": 0
+        },
+        {
+          "client": 0,
+          "scroll": 0
+        }
+      ],
+      "railColumns": "minmax(0px, 1fr)",
+      "passed": true
+    },
+    {
+      "width": 600,
+      "height": 400,
+      "buttons": [
+        {
+          "bottom": 391.6875,
+          "id": "bet-decrease",
+          "right": 53.0625,
+          "top": 349.6875,
+          "x": 17
+        },
+        {
+          "bottom": 391.6875,
+          "id": "bet-increase",
+          "right": 147,
+          "top": 349.6875,
+          "x": 110.953125
+        },
+        {
+          "bottom": 393.1875,
+          "id": "spin-button",
+          "right": 584,
+          "top": 333.1875,
+          "x": 524
+        },
+        {
+          "bottom": 383.1875,
+          "id": "auto-button",
+          "right": 431.671875,
+          "top": 343.1875,
+          "x": 380.671875
+        }
+      ],
+      "cards": [
+        {
+          "client": 0,
+          "scroll": 0
+        },
+        {
+          "client": 0,
+          "scroll": 0
+        },
+        {
+          "client": 0,
+          "scroll": 0
+        }
+      ],
+      "railColumns": "minmax(0px, 1fr)",
+      "passed": true
+    },
+    {
+      "width": 802,
+      "height": 829,
+      "buttons": [
+        {
+          "bottom": 801.25,
+          "id": "bet-decrease",
+          "right": 490,
+          "top": 761.25,
+          "x": 462
+        },
+        {
+          "bottom": 801.25,
+          "id": "bet-increase",
+          "right": 578,
+          "top": 761.25,
+          "x": 550
+        },
+        {
+          "bottom": 805.5,
+          "id": "spin-button",
+          "right": 779,
+          "top": 740.5,
+          "x": 714
+        },
+        {
+          "bottom": 795,
+          "id": "auto-button",
+          "right": 706,
+          "top": 751,
+          "x": 650
+        }
+      ],
+      "cards": [
+        {
+          "client": 104,
+          "scroll": 104
+        },
+        {
+          "client": 104,
+          "scroll": 104
+        },
+        {
+          "client": 104,
+          "scroll": 104
+        }
+      ],
+      "railColumns": "108px",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "buttons": [
+        {
+          "bottom": 692.25,
+          "id": "bet-decrease",
+          "right": 890,
+          "top": 652.25,
+          "x": 862
+        },
+        {
+          "bottom": 692.25,
+          "id": "bet-increase",
+          "right": 1002,
+          "top": 652.25,
+          "x": 974
+        },
+        {
+          "bottom": 700,
+          "id": "spin-button",
+          "right": 1251,
+          "top": 628,
+          "x": 1179
+        },
+        {
+          "bottom": 686,
+          "id": "auto-button",
+          "right": 1167,
+          "top": 642,
+          "x": 1097
+        }
+      ],
+      "cards": [
+        {
+          "client": 132,
+          "scroll": 132
+        },
+        {
+          "client": 132,
+          "scroll": 132
+        },
+        {
+          "client": 132,
+          "scroll": 132
+        }
+      ],
+      "railColumns": "136px",
+      "passed": true
+    }
+  ]
+}

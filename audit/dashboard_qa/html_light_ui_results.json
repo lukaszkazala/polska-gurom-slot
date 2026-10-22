@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-20",
+  "scope": "New single-file HTML dashboard; these checks are separate from the 107 saved game regression tests.",
+  "functional_checks": [
+    {"name": "Embedded SDK report preview opens", "status": "pass"},
+    {"name": "Report download uses embedded Blob URL", "status": "pass"},
+    {"name": "Bonus calculator shows 91.72% for 500 rounds", "status": "pass"},
+    {"name": "All simulations filter shows 21 records", "status": "pass"},
+    {"name": "Embedded game image loads from Blob with width1265px", "status": "pass"}
+  ],
+  "source_checks": "check_standalone.py verifies all139embedded reports retain their exact original SHA256 and the standalone has no external script or style dependencies.",
+  "new_large_simulations_run": false
+}

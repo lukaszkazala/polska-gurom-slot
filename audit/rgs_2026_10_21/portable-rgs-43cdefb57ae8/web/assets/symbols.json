@@ -1,0 +1,12 @@
+{
+  "L1": {"pl": "Diament", "en": "Diamond", "de": "Diamant", "image": null},
+  "L2": {"pl": "Pik", "en": "Spade", "de": "Pik", "image": null},
+  "L3": {"pl": "Serce", "en": "Heart", "de": "Herz", "image": null},
+  "L4": {"pl": "Trefl", "en": "Club", "de": "Kreuz", "image": null},
+  "P1": {"pl": "Lilia", "en": "Lily", "de": "Lilie", "image": null},
+  "P2": {"pl": "Kielich", "en": "Goblet", "de": "Kelch", "image": null},
+  "P3": {"pl": "Korona", "en": "Crown", "de": "Krone", "image": null},
+  "P4": {"pl": "Husarz", "en": "Hussar", "de": "Husar", "image": null},
+  "WILD": {"pl": "Wild", "en": "Wild", "de": "Wild", "image": null},
+  "SCATTER": {"pl": "Scatter", "en": "Scatter", "de": "Scatter", "image": null}
+}

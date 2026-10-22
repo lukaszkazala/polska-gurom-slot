@@ -1,0 +1,258 @@
+{
+  "passed": true,
+  "total": 63,
+  "checks": [
+    {
+      "name": "Ordinary local launch keeps demo and requires no RGS",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?rgs_url=host.test",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…&rgs_url=https://host.test",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…&rgs_url=bad.test/path",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…&rgs_url=user@host.test",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test%23x",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test&replay=true",
+      "passed": true
+    },
+    {
+      "name": "Reject incomplete or unsupported launch ?sessionID=…&rgs_url=host.test&social=true",
+      "passed": true
+    },
+    {
+      "name": "RGS host uses HTTPS; loopback HTTP only on the exact same host and port",
+      "passed": true
+    },
+    {
+      "name": "Unsupported launch language falls back to English",
+      "passed": true
+    },
+    {
+      "name": "Authenticate precedes wallet calls; configured levels/default/currency are authoritative",
+      "passed": true
+    },
+    {
+      "name": "Invalid authenticated betting configuration blocks play 12",
+      "passed": true
+    },
+    {
+      "name": "Invalid authenticated betting configuration blocks play 13",
+      "passed": true
+    },
+    {
+      "name": "Invalid authenticated betting configuration blocks play 14",
+      "passed": true
+    },
+    {
+      "name": "Invalid authenticated betting configuration blocks play 15",
+      "passed": true
+    },
+    {
+      "name": "Invalid authenticated betting configuration blocks play 16",
+      "passed": true
+    },
+    {
+      "name": "Invalid authenticated betting configuration blocks play 17",
+      "passed": true
+    },
+    {
+      "name": "Integer payout arithmetic remains exact above safe multiplication range",
+      "passed": true
+    },
+    {
+      "name": "Real loss book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real bonus8 book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real cap book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real middle book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real bonus12 book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real bonus_cap8 book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real bonus_cap10 book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Real bonus_cap12 book: one debit, payout only at finish, no end for zero",
+      "passed": true
+    },
+    {
+      "name": "Same result retry never issues a second play",
+      "passed": true
+    },
+    {
+      "name": "Uncertain play lost-response recovers through authenticate without another debit",
+      "passed": true
+    },
+    {
+      "name": "Uncertain play bad-json recovers through authenticate without another debit",
+      "passed": true
+    },
+    {
+      "name": "Uncertain request with no identifiable round remains blocked, including after reload",
+      "passed": true
+    },
+    {
+      "name": "Uncertain closed zero payout with no returned last round is never resent",
+      "passed": true
+    },
+    {
+      "name": "Uncertain closed zero payout with identifiable last round can be recovered",
+      "passed": true
+    },
+    {
+      "name": "Lost end-round response recovers settled balance without a second payout",
+      "passed": true
+    },
+    {
+      "name": "Fresh browser resumes active authenticated round without play",
+      "passed": true
+    },
+    {
+      "name": "A different active round cannot be ended by a stale client",
+      "passed": true
+    },
+    {
+      "name": "Explicit insufficient rejection makes no debit",
+      "passed": true
+    },
+    {
+      "name": "Explicit expired rejection makes no debit",
+      "passed": true
+    },
+    {
+      "name": "Explicit invalid rejection makes no debit",
+      "passed": true
+    },
+    {
+      "name": "Malformed or incompatible RGS result blocks settlement 39",
+      "passed": true
+    },
+    {
+      "name": "Malformed or incompatible RGS result blocks settlement 40",
+      "passed": true
+    },
+    {
+      "name": "Malformed or incompatible RGS result blocks settlement 41",
+      "passed": true
+    },
+    {
+      "name": "Malformed or incompatible RGS result blocks settlement 42",
+      "passed": true
+    },
+    {
+      "name": "Malformed or incompatible RGS result blocks settlement 43",
+      "passed": true
+    },
+    {
+      "name": "Malformed or incompatible RGS result blocks settlement 44",
+      "passed": true
+    },
+    {
+      "name": "Session token is absent from persisted recovery state and normalized result",
+      "passed": true
+    },
+    {
+      "name": "Actual app.js presents and settles RGS loss using real validation",
+      "passed": true
+    },
+    {
+      "name": "Actual app.js presents and settles RGS middle using real validation",
+      "passed": true
+    },
+    {
+      "name": "Actual app.js presents and settles RGS bonus12 using real validation",
+      "passed": true
+    },
+    {
+      "name": "Actual app.js presents and settles RGS cap using real validation",
+      "passed": true
+    },
+    {
+      "name": "Actual UI keeps failed settlement pending and retries without play",
+      "passed": true
+    },
+    {
+      "name": "Actual UI reload during 12 free spins resumes one paid round",
+      "passed": true
+    },
+    {
+      "name": "Actual UI never automatically resends an ambiguous autoplay bet",
+      "passed": true
+    },
+    {
+      "name": "Minimum and maximum configured stakes can be played; out-of-list stake cannot",
+      "passed": true
+    },
+    {
+      "name": "Idle wallet polling reads platform balance",
+      "passed": true
+    },
+    {
+      "name": "Delayed balance read cannot overwrite a newer play response",
+      "passed": true
+    },
+    {
+      "name": "Chosen platform stake survives reload without replacing the local-demo preference",
+      "passed": true
+    },
+    {
+      "name": "Full bonus finishes presentation before end-round is called",
+      "passed": true
+    },
+    {
+      "name": "Currency JPY uses the platform denomination",
+      "passed": true
+    },
+    {
+      "name": "Currency KWD uses the platform denomination",
+      "passed": true
+    },
+    {
+      "name": "Broken cascade response never reaches end-round",
+      "passed": true
+    },
+    {
+      "name": "RGS-only build without launch parameters makes no local API calls",
+      "passed": true
+    },
+    {
+      "name": "Invalid RGS launch fails closed without local-demo fallback",
+      "passed": true
+    }
+  ]
+}

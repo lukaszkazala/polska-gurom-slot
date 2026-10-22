@@ -1,0 +1,51 @@
+{
+  "version": "0.5.0-any-start",
+  "rebuild_checks": {
+    "books_base.jsonl.zst": {
+      "matches": true,
+      "comparison": "byte-for-byte",
+      "original_sha256": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57",
+      "rebuilt_sha256": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57"
+    },
+    "index.json": {
+      "matches": true,
+      "comparison": "byte-for-byte",
+      "original_sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "rebuilt_sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e"
+    },
+    "lookUpTable_base_0.csv": {
+      "matches": true,
+      "comparison": "byte-for-byte",
+      "original_sha256": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b",
+      "rebuilt_sha256": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b"
+    },
+    "mathematics.json": {
+      "matches": true,
+      "comparison": "all JSON values except elapsed_seconds",
+      "original_sha256": "24e52274ed46b2d09d64fea31766f3488bfeba97a2c2d38a7dc2165a02bfc54e",
+      "rebuilt_sha256": "034bb930fe68c50774410b169b6e14a09e3c6c2948a055d3625b7a7898fbee25"
+    },
+    "selection.json": {
+      "matches": true,
+      "comparison": "byte-for-byte",
+      "original_sha256": "4f55f32fbd3d993e7299eed1d34162fe66f1f6bb700b1727bb035e20f6560e1c",
+      "rebuilt_sha256": "4f55f32fbd3d993e7299eed1d34162fe66f1f6bb700b1727bb035e20f6560e1c"
+    }
+  },
+  "rebuild_identical": true,
+  "package": {
+    "crc_error": null,
+    "file_count": 29,
+    "duplicate_paths": 0,
+    "all_packaged_files_match_audited_source": true,
+    "has_start_ux": false,
+    "has_start": true,
+    "has_build_math": false,
+    "has_test_suite": false,
+    "sha256": "7f93e15007ba25d4faa486ff9597e8761fe9b6177fc0de59ba35f13450d749ec",
+    "bytes": 22200005
+  },
+  "source_unchanged": true,
+  "elapsed_seconds": 44.22884770000019,
+  "note": "New audit demo archive, not proof of an earlier delivered or uploaded ZIP."
+}

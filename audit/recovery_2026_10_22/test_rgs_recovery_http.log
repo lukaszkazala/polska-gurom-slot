@@ -1,0 +1,11 @@
+test_authentication_connection_lost (__main__.RecoveryHttpTests.test_authentication_connection_lost) ... ok
+test_checkpoint_committed_response_lost (__main__.RecoveryHttpTests.test_checkpoint_committed_response_lost) ... ok
+test_checkpoint_request_not_received (__main__.RecoveryHttpTests.test_checkpoint_request_not_received) ... ok
+test_fresh_browser_without_old_local_storage (__main__.RecoveryHttpTests.test_fresh_browser_without_old_local_storage) ... ok
+test_settlement_committed_response_lost (__main__.RecoveryHttpTests.test_settlement_committed_response_lost) ... ok
+test_settlement_request_not_received (__main__.RecoveryHttpTests.test_settlement_request_not_received) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.402s
+
+OK

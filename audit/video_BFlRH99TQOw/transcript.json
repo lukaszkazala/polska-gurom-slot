@@ -1,0 +1,357 @@
+[
+  {
+    "text": "the premise of slots is simple player",
+    "start": 0.56,
+    "duration": 4.04
+  },
+  {
+    "text": "credit and the Machine will randomly",
+    "start": 2.919,
+    "duration": 4.52
+  },
+  {
+    "text": "choose a combination of symbols if the",
+    "start": 4.6,
+    "duration": 5.4
+  },
+  {
+    "text": "symbols match you get a payout and the",
+    "start": 7.439,
+    "duration": 4.041
+  },
+  {
+    "text": "value of the payout depends on the",
+    "start": 10.0,
+    "duration": 4.32
+  },
+  {
+    "text": "symbols that come up in this video we",
+    "start": 11.48,
+    "duration": 4.76
+  },
+  {
+    "text": "will be working with the following pay",
+    "start": 14.32,
+    "duration": 4.799
+  },
+  {
+    "text": "table this slot machine has three reels",
+    "start": 16.24,
+    "duration": 6.44
+  },
+  {
+    "text": "with 20 possible results on each",
+    "start": 19.119,
+    "duration": 7.32
+  },
+  {
+    "text": "reel some results give two symbols for",
+    "start": 22.68,
+    "duration": 6.2
+  },
+  {
+    "text": "example seven and orange both of which",
+    "start": 26.439,
+    "duration": 5.601
+  },
+  {
+    "text": "can be used in making a",
+    "start": 28.88,
+    "duration": 6.04
+  },
+  {
+    "text": "line the prize money increases linearly",
+    "start": 32.04,
+    "duration": 5.28
+  },
+  {
+    "text": "with the amount of credits played we",
+    "start": 34.92,
+    "duration": 4.319
+  },
+  {
+    "text": "have the following frequency table for",
+    "start": 37.32,
+    "duration": 4.8
+  },
+  {
+    "text": "each symbol meaning that real one has 21",
+    "start": 39.239,
+    "duration": 5.961
+  },
+  {
+    "text": "different symbols Real 2 has 24 and real",
+    "start": 42.12,
+    "duration": 6.24
+  },
+  {
+    "text": "3 has 23 the number of ways to get",
+    "start": 45.2,
+    "duration": 5.519
+  },
+  {
+    "text": "certain lines is given by the frequency",
+    "start": 48.36,
+    "duration": 4.64
+  },
+  {
+    "text": "of symbol in real one times the",
+    "start": 50.719,
+    "duration": 4.601
+  },
+  {
+    "text": "frequency of the symbol in Real 2 times",
+    "start": 53.0,
+    "duration": 4.84
+  },
+  {
+    "text": "the frequency of the symbol in real 3",
+    "start": 55.32,
+    "duration": 4.32
+  },
+  {
+    "text": "for example the number of ways to get",
+    "start": 57.84,
+    "duration": 7.12
+  },
+  {
+    "text": "three sens is 1 * 1 * 1 which is equal",
+    "start": 59.64,
+    "duration": 7.72
+  },
+  {
+    "text": "to 1 and the number of ways to get melon",
+    "start": 64.96,
+    "duration": 4.64
+  },
+  {
+    "text": "melon bar is",
+    "start": 67.36,
+    "duration": 6.88
+  },
+  {
+    "text": "2 * 2 * 1 which is equal to",
+    "start": 69.6,
+    "duration": 6.879
+  },
+  {
+    "text": "4 doing this for each winning",
+    "start": 74.24,
+    "duration": 5.44
+  },
+  {
+    "text": "combination we get the following results",
+    "start": 76.479,
+    "duration": 5.28
+  },
+  {
+    "text": "by multiplying the payout by the number",
+    "start": 79.68,
+    "duration": 6.479
+  },
+  {
+    "text": "of combinations we get the overall",
+    "start": 81.759,
+    "duration": 4.4
+  },
+  {
+    "text": "return from this we can see that the",
+    "start": 88.159,
+    "duration": 5.6
+  },
+  {
+    "text": "total number of ways to win is equal to",
+    "start": 90.72,
+    "duration": 7.6
+  },
+  {
+    "text": "1,73 and the total return is",
+    "start": 93.759,
+    "duration": 4.561
+  },
+  {
+    "text": "7,556 20 results on each reel gives 20 *",
+    "start": 102.2,
+    "duration": 7.279
+  },
+  {
+    "text": "20 * 20 which is equal to 8,000",
+    "start": 106.399,
+    "duration": 4.201
+  },
+  {
+    "text": "different",
+    "start": 109.479,
+    "duration": 3.481
+  },
+  {
+    "text": "combinations therefore the probability",
+    "start": 110.6,
+    "duration": 4.6
+  },
+  {
+    "text": "of getting a line is equal to",
+    "start": 112.96,
+    "duration": 5.839
+  },
+  {
+    "text": "173 over 8,000 which is approximately",
+    "start": 115.2,
+    "duration": 7.72
+  },
+  {
+    "text": "13.4 1% and the expected return is equal",
+    "start": 118.799,
+    "duration": 5.481
+  },
+  {
+    "text": "to",
+    "start": 122.92,
+    "duration": 4.839
+  },
+  {
+    "text": "7,556 over 8,000 which is approximately",
+    "start": 124.28,
+    "duration": 5.84
+  },
+  {
+    "text": "equal to",
+    "start": 127.759,
+    "duration": 5.041
+  },
+  {
+    "text": "94.4% this means for these slots to be",
+    "start": 130.12,
+    "duration": 5.399
+  },
+  {
+    "text": "statistically worth it the input credit",
+    "start": 132.8,
+    "duration": 4.799
+  },
+  {
+    "text": "should be less than",
+    "start": 135.519,
+    "duration": 5.72
+  },
+  {
+    "text": "94.4% of what it currently is I.E 1",
+    "start": 137.599,
+    "duration": 6.521
+  },
+  {
+    "text": "pound should go down to",
+    "start": 141.239,
+    "duration": 5.161
+  },
+  {
+    "text": "94 there are lots of different types of",
+    "start": 144.12,
+    "duration": 4.119
+  },
+  {
+    "text": "slot machines with different ways of",
+    "start": 146.4,
+    "duration": 4.28
+  },
+  {
+    "text": "winning many slot machines have five",
+    "start": 148.239,
+    "duration": 4.881
+  },
+  {
+    "text": "reels instead of three which increases",
+    "start": 150.68,
+    "duration": 4.44
+  },
+  {
+    "text": "the number of combinations for a 20",
+    "start": 153.12,
+    "duration": 5.24
+  },
+  {
+    "text": "symbol reel machine to 20 to the^ of 5",
+    "start": 155.12,
+    "duration": 6.72
+  },
+  {
+    "text": "which is equal to 3,200,000 to",
+    "start": 158.36,
+    "duration": 5.239
+  },
+  {
+    "text": "compensate for this there are added ways",
+    "start": 161.84,
+    "duration": 5.039
+  },
+  {
+    "text": "of winning for example diagonal",
+    "start": 163.599,
+    "duration": 5.441
+  },
+  {
+    "text": "matches every slot machine has a",
+    "start": 166.879,
+    "duration": 4.121
+  },
+  {
+    "text": "predetermined payout",
+    "start": 169.04,
+    "duration": 4.08
+  },
+  {
+    "text": "percentage the longer you play at a",
+    "start": 171.0,
+    "duration": 4.4
+  },
+  {
+    "text": "machine the close to the actual payout",
+    "start": 173.12,
+    "duration": 5.039
+  },
+  {
+    "text": "comes to the theoretical",
+    "start": 175.4,
+    "duration": 5.32
+  },
+  {
+    "text": "payout casinos used usually give the",
+    "start": 178.159,
+    "duration": 4.921
+  },
+  {
+    "text": "flashy extravagant machines the lowest",
+    "start": 180.72,
+    "duration": 4.64
+  },
+  {
+    "text": "payout percentage is the extra features",
+    "start": 183.08,
+    "duration": 4.239
+  },
+  {
+    "text": "take up more time in which the player",
+    "start": 185.36,
+    "duration": 4.519
+  },
+  {
+    "text": "isn't spending money but it's probably",
+    "start": 187.319,
+    "duration": 4.041
+  },
+  {
+    "text": "best to stay away from the simple",
+    "start": 189.879,
+    "duration": 3.521
+  },
+  {
+    "text": "machines as playing slots is about",
+    "start": 191.36,
+    "duration": 5.36
+  },
+  {
+    "text": "having fun",
+    "start": 193.4,
+    "duration": 3.32
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "base_line_rtp": 0.7384817257172009,
+  "expanded_line_by_reel": [
+    4.281968021262003,
+    4.281968021262003,
+    2.4682320244627345
+  ],
+  "expanded_line_average": 3.6773893556622466,
+  "scatter_rtp": 0.006048257458847736,
+  "bonus_frequency": 0.005087770061728395,
+  "frequency_reciprocal": 196.54976303317537,
+  "expected_fs_unconditional": 0.04116030092592592,
+  "average_fs_per_bonus": 8.090047393364928,
+  "free_spin_ev": 1.47925689066231,
+  "bonus_ev_per_bonus": 11.967258352419732,
+  "bonus_rtp": 0.06088665876641019,
+  "total_rtp": 0.8054166419424589,
+  "rtp_fraction": "448823480141/557256278016",
+  "rtp_with_expansion_100pct": 0.8961413837739872,
+  "required_expansion_probability_for_96pct": 1.527904088814564,
+  "base_maximum_by_scatter": [
+    168.0,
+    96.0,
+    77.5,
+    51.2,
+    35.0,
+    47.5
+  ],
+  "base_witness_base_equivalent_stops": [
+    [
+      21,
+      21,
+      21,
+      21,
+      21
+    ],
+    [
+      21,
+      21,
+      21,
+      21,
+      33
+    ],
+    [
+      33,
+      21,
+      21,
+      21,
+      33
+    ],
+    [
+      33,
+      21,
+      33,
+      21,
+      33
+    ],
+    [
+      33,
+      33,
+      4,
+      33,
+      33
+    ],
+    [
+      33,
+      33,
+      33,
+      33,
+      33
+    ]
+  ],
+  "free_spin_expanded_maximum_by_reel": [
+    175.1,
+    249.15,
+    172.0
+  ],
+  "free_spin_witness_base_equivalent_stops": [
+    [
+      21,
+      33,
+      21,
+      21,
+      21
+    ],
+    [
+      21,
+      22,
+      33,
+      22,
+      21
+    ],
+    [
+      21,
+      21,
+      21,
+      33,
+      21
+    ]
+  ],
+  "free_spin_maximum": 249.15,
+  "round_maximum_by_trigger_scatter": [
+    168.0,
+    96.0,
+    77.5,
+    2044.4,
+    2526.5,
+    3037.3
+  ],
+  "round_maximum": 3037.3
+}

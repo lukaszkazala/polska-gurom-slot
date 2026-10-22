@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1040" viewBox="0 0 1520 1040" role="img" aria-labelledby="title desc"><title id="title">Polska Gurom — koncepcja UX v1</title><desc id="desc">Makieta ekranu komputera i telefonu z planszą 5 na 3, saldem demonstracyjnym, stawką, obrotem oraz dostępem do zasad i dźwięku.</desc>
+<rect x="0" y="0" width="1520" height="1040" rx="0" fill="#eeeae3" stroke="none"/>
+<text x="52" y="59" font-family="Arial, sans-serif" font-size="18" fill="#6f6557" font-weight="700" text-anchor="start">POLSKA GUROM / UX 01</text>
+<text x="52" y="106" font-family="Arial, sans-serif" font-size="36" fill="#182335" font-weight="700" text-anchor="start">Gra na pierwszym planie.</text>
+<text x="52" y="140" font-family="Arial, sans-serif" font-size="17" fill="#635e56" font-weight="400" text-anchor="start">Koncepcja dla Stake Engine • komputer + telefon • 20.10.2026</text>
+<text x="52" y="194" font-family="Arial, sans-serif" font-size="13" fill="#6f6557" font-weight="700" text-anchor="start">KOMPUTER</text>
+<text x="1110" y="194" font-family="Arial, sans-serif" font-size="13" fill="#6f6557" font-weight="700" text-anchor="start">TELEFON / UKŁAD 390 × 780</text>
+<rect x="52" y="216" width="995" height="638" rx="22" fill="#0d1525" stroke="none"/>
+<text x="83" y="258" font-family="Arial, sans-serif" font-size="21" fill="#e5bc73" font-weight="700" text-anchor="start">POLSKA GUROM</text>
+<text x="83" y="282" font-family="Arial, sans-serif" font-size="10" fill="#b8c4d8" font-weight="700" text-anchor="start">DEMO • ŚRODKI TESTOWE</text>
+<rect x="844" y="237" width="74" height="44" rx="10" fill="#223049" stroke="none"/>
+<text x="881.0" y="262.85" font-family="Arial, sans-serif" font-size="11" fill="#eaf0f8" font-weight="700" text-anchor="middle">Dźwięk</text>
+<rect x="929" y="237" width="87" height="44" rx="10" fill="#223049" stroke="none"/>
+<text x="972.5" y="263.2" font-family="Arial, sans-serif" font-size="12" fill="#eaf0f8" font-weight="700" text-anchor="middle">Zasady</text>
+<rect x="83" y="304" width="933" height="45" rx="10" fill="#1b293d" stroke="none"/>
+<text x="105" y="333" font-family="Arial, sans-serif" font-size="14" fill="#eaf0f8" font-weight="400" text-anchor="start">20 linii • kaskady</text>
+<text x="995" y="333" font-family="Arial, sans-serif" font-size="14" fill="#c5cddd" font-weight="400" text-anchor="end">3 / 4 / 5 Scatterów → 8 / 10 / 12 obrotów</text>
+<rect x="206" y="365" width="685" height="283" rx="14" fill="#0a1221" stroke="#736044"/>
+<rect x="214.0" y="373.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(243.01,380.01) scale(0.7098)" fill="#8bd5cc" color="#8bd5cc"><path d="M50 9 81 50 50 91 19 50Z"/></g>
+<rect x="349.0" y="373.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(378.01,380.01) scale(0.7098)" fill="#e5bc73" color="#e5bc73"><path d="M16 30 34 44 50 17 66 44 84 30 76 76H24Z"/><path d="M25 85h50" fill="none" stroke="currentColor" stroke-width="5"/></g>
+<rect x="484.0" y="373.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(513.01,380.01) scale(0.7098)" fill="#c5b1ec" color="#c5b1ec"><path d="M25 17h50v40Q75 76 50 90 25 76 25 57Z" fill="none" stroke="currentColor" stroke-width="5"/><path d="M50 28 63 63 50 55 37 63Z"/></g>
+<rect x="619.0" y="373.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(648.01,380.01) scale(0.7098)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<rect x="754.0" y="373.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(783.01,380.01) scale(0.7098)" fill="#d7c99c" color="#d7c99c"><circle cx="50" cy="50" r="31" fill="none" stroke="currentColor" stroke-width="6"/><path d="m50 25 8 16 18 3-13 13 3 18-16-9-16 9 3-18-13-13 18-3Z"/></g>
+<rect x="214.0" y="464.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(243.01,471.01) scale(0.7098)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<rect x="349.0" y="464.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(378.01,471.01) scale(0.7098)" fill="#c5b1ec" color="#c5b1ec"><path d="M25 17h50v40Q75 76 50 90 25 76 25 57Z" fill="none" stroke="currentColor" stroke-width="5"/><path d="M50 28 63 63 50 55 37 63Z"/></g>
+<rect x="484.0" y="464.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(513.01,471.01) scale(0.7098)" fill="#e5bc73" color="#e5bc73"><path d="m50 9 12 27 29 3-22 20 6 31-25-16-25 16 6-31L9 39l29-3Z"/></g>
+<rect x="619.0" y="464.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(648.01,471.01) scale(0.7098)" fill="#8bd5cc" color="#8bd5cc"><path d="M50 9 81 50 50 91 19 50Z"/></g>
+<rect x="754.0" y="464.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(783.01,471.01) scale(0.7098)" fill="#e5bc73" color="#e5bc73"><path d="M16 30 34 44 50 17 66 44 84 30 76 76H24Z"/><path d="M25 85h50" fill="none" stroke="currentColor" stroke-width="5"/></g>
+<rect x="214.0" y="555.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(243.01,562.01) scale(0.7098)" fill="#e5bc73" color="#e5bc73"><path d="M16 30 34 44 50 17 66 44 84 30 76 76H24Z"/><path d="M25 85h50" fill="none" stroke="currentColor" stroke-width="5"/></g>
+<rect x="349.0" y="555.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(378.01,562.01) scale(0.7098)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<rect x="484.0" y="555.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(513.01,562.01) scale(0.7098)" fill="#8bd5cc" color="#8bd5cc"><path d="M50 9 81 50 50 91 19 50Z"/></g>
+<rect x="619.0" y="555.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(648.01,562.01) scale(0.7098)" fill="#c5b1ec" color="#c5b1ec"><path d="M25 17h50v40Q75 76 50 90 25 76 25 57Z" fill="none" stroke="currentColor" stroke-width="5"/><path d="M50 28 63 63 50 55 37 63Z"/></g>
+<rect x="754.0" y="555.0" width="129.0" height="85.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(783.01,562.01) scale(0.7098)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<text x="549" y="680" font-family="Arial, sans-serif" font-size="15" fill="#c5cddd" font-weight="400" text-anchor="middle">Wybierz stawkę i rozpocznij rundę.</text>
+<text x="83" y="720" font-family="Arial, sans-serif" font-size="11" fill="#abb9ce" font-weight="700" text-anchor="start">SALDO TESTOWE</text>
+<text x="83" y="752" font-family="Arial, sans-serif" font-size="24" fill="#eaf0f8" font-weight="700" text-anchor="start">1 000,00 USD</text>
+<text x="316" y="720" font-family="Arial, sans-serif" font-size="11" fill="#abb9ce" font-weight="700" text-anchor="start">STAWKA</text>
+<rect x="316" y="733" width="44" height="46" rx="10" fill="#223049" stroke="none"/>
+<text x="338.0" y="763.7" font-family="Arial, sans-serif" font-size="22" fill="#eaf0f8" font-weight="700" text-anchor="middle">−</text>
+<text x="418" y="762" font-family="Arial, sans-serif" font-size="18" fill="#eaf0f8" font-weight="700" text-anchor="middle">1,00 USD</text>
+<rect x="479" y="733" width="44" height="46" rx="10" fill="#223049" stroke="none"/>
+<text x="501.0" y="763.7" font-family="Arial, sans-serif" font-size="22" fill="#eaf0f8" font-weight="700" text-anchor="middle">+</text>
+<text x="578" y="720" font-family="Arial, sans-serif" font-size="11" fill="#abb9ce" font-weight="700" text-anchor="start">WYPŁATA RUNDY</text>
+<text x="578" y="752" font-family="Arial, sans-serif" font-size="24" fill="#eaf0f8" font-weight="700" text-anchor="start">0,00 USD</text>
+<rect x="798" y="718" width="218" height="64" rx="10" fill="#e5bc73" stroke="none"/>
+<text x="907.0" y="756.65" font-family="Arial, sans-serif" font-size="19" fill="#152035" font-weight="700" text-anchor="middle">ZAKRĘĆ</text>
+<text x="83" y="817" font-family="Arial, sans-serif" font-size="12" fill="#abb9ce" font-weight="400" text-anchor="start">RTP 96% • maks. 5000× • tabela wypłat w zasadach</text>
+<rect x="929" y="795" width="87" height="40" rx="10" fill="#223049" stroke="none"/>
+<text x="972.5" y="819.2" font-family="Arial, sans-serif" font-size="12" fill="#eaf0f8" font-weight="700" text-anchor="middle">Opcje</text>
+<g transform="translate(1100,216) scale(.86)">
+<rect x="0" y="0" width="390" height="780" rx="24" fill="#0d1525" stroke="none"/>
+<text x="20" y="35" font-family="Arial, sans-serif" font-size="19" fill="#e5bc73" font-weight="700" text-anchor="start">POLSKA GUROM</text>
+<text x="20" y="57" font-family="Arial, sans-serif" font-size="10" fill="#b8c4d8" font-weight="700" text-anchor="start">DEMO • ŚRODKI TESTOWE</text>
+<rect x="273" y="16" width="48" height="44" rx="10" fill="#223049" stroke="none"/>
+<text x="297.0" y="45.0" font-family="Arial, sans-serif" font-size="20" fill="#eaf0f8" font-weight="700" text-anchor="middle">♪</text>
+<rect x="329" y="16" width="44" height="44" rx="10" fill="#223049" stroke="none"/>
+<text x="351.0" y="45.0" font-family="Arial, sans-serif" font-size="20" fill="#eaf0f8" font-weight="700" text-anchor="middle">i</text>
+<rect x="16" y="81" width="358" height="42" rx="10" fill="#1b293d" stroke="none"/>
+<text x="32" y="108" font-family="Arial, sans-serif" font-size="13" fill="#eaf0f8" font-weight="400" text-anchor="start">20 linii • kaskady</text>
+<text x="358" y="108" font-family="Arial, sans-serif" font-size="13" fill="#e5bc73" font-weight="700" text-anchor="end">Bonus 8–12</text>
+<rect x="16" y="142" width="358" height="301" rx="14" fill="#0a1221" stroke="#736044"/>
+<rect x="24.0" y="150.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(31.44,171.14000000000001) scale(0.4871999999999999)" fill="#8bd5cc" color="#8bd5cc"><path d="M50 9 81 50 50 91 19 50Z"/></g>
+<rect x="93.6" y="150.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(101.03999999999999,171.14000000000001) scale(0.4871999999999999)" fill="#e5bc73" color="#e5bc73"><path d="M16 30 34 44 50 17 66 44 84 30 76 76H24Z"/><path d="M25 85h50" fill="none" stroke="currentColor" stroke-width="5"/></g>
+<rect x="163.2" y="150.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(170.64,171.14000000000001) scale(0.4871999999999999)" fill="#c5b1ec" color="#c5b1ec"><path d="M25 17h50v40Q75 76 50 90 25 76 25 57Z" fill="none" stroke="currentColor" stroke-width="5"/><path d="M50 28 63 63 50 55 37 63Z"/></g>
+<rect x="232.79999999999998" y="150.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(240.23999999999998,171.14000000000001) scale(0.4871999999999999)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<rect x="302.4" y="150.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(309.84,171.14000000000001) scale(0.4871999999999999)" fill="#d7c99c" color="#d7c99c"><circle cx="50" cy="50" r="31" fill="none" stroke="currentColor" stroke-width="6"/><path d="m50 25 8 16 18 3-13 13 3 18-16-9-16 9 3-18-13-13 18-3Z"/></g>
+<rect x="24.0" y="247.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(31.44,268.14) scale(0.4871999999999999)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<rect x="93.6" y="247.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(101.03999999999999,268.14) scale(0.4871999999999999)" fill="#c5b1ec" color="#c5b1ec"><path d="M25 17h50v40Q75 76 50 90 25 76 25 57Z" fill="none" stroke="currentColor" stroke-width="5"/><path d="M50 28 63 63 50 55 37 63Z"/></g>
+<rect x="163.2" y="247.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(170.64,268.14) scale(0.4871999999999999)" fill="#e5bc73" color="#e5bc73"><path d="m50 9 12 27 29 3-22 20 6 31-25-16-25 16 6-31L9 39l29-3Z"/></g>
+<rect x="232.79999999999998" y="247.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(240.23999999999998,268.14) scale(0.4871999999999999)" fill="#8bd5cc" color="#8bd5cc"><path d="M50 9 81 50 50 91 19 50Z"/></g>
+<rect x="302.4" y="247.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(309.84,268.14) scale(0.4871999999999999)" fill="#e5bc73" color="#e5bc73"><path d="M16 30 34 44 50 17 66 44 84 30 76 76H24Z"/><path d="M25 85h50" fill="none" stroke="currentColor" stroke-width="5"/></g>
+<rect x="24.0" y="344.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(31.44,365.14) scale(0.4871999999999999)" fill="#e5bc73" color="#e5bc73"><path d="M16 30 34 44 50 17 66 44 84 30 76 76H24Z"/><path d="M25 85h50" fill="none" stroke="currentColor" stroke-width="5"/></g>
+<rect x="93.6" y="344.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(101.03999999999999,365.14) scale(0.4871999999999999)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<rect x="163.2" y="344.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(170.64,365.14) scale(0.4871999999999999)" fill="#8bd5cc" color="#8bd5cc"><path d="M50 9 81 50 50 91 19 50Z"/></g>
+<rect x="232.79999999999998" y="344.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(240.23999999999998,365.14) scale(0.4871999999999999)" fill="#c5b1ec" color="#c5b1ec"><path d="M25 17h50v40Q75 76 50 90 25 76 25 57Z" fill="none" stroke="currentColor" stroke-width="5"/><path d="M50 28 63 63 50 55 37 63Z"/></g>
+<rect x="302.4" y="344.0" width="63.599999999999994" height="91.0" rx="8" fill="#17243a" stroke="none"/>
+<g transform="translate(309.84,365.14) scale(0.4871999999999999)" fill="#dd8eac" color="#dd8eac"><path d="M50 83 18 51C0 22 30 6 50 29 70 6 100 22 82 51Z"/></g>
+<text x="195" y="476" font-family="Arial, sans-serif" font-size="15" fill="#c5cddd" font-weight="400" text-anchor="middle">Wybierz stawkę i zakręć.</text>
+<rect x="16" y="498" width="358" height="73" rx="10" fill="#1b293d" stroke="none"/>
+<text x="30" y="520" font-family="Arial, sans-serif" font-size="10" fill="#abb9ce" font-weight="700" text-anchor="start">SALDO TESTOWE</text>
+<text x="30" y="548" font-family="Arial, sans-serif" font-size="20" fill="#eaf0f8" font-weight="700" text-anchor="start">1 000,00 USD</text>
+<text x="222" y="520" font-family="Arial, sans-serif" font-size="10" fill="#abb9ce" font-weight="700" text-anchor="start">WYPŁATA RUNDY</text>
+<text x="222" y="548" font-family="Arial, sans-serif" font-size="20" fill="#eaf0f8" font-weight="700" text-anchor="start">0,00 USD</text>
+<text x="20" y="597" font-family="Arial, sans-serif" font-size="10" fill="#abb9ce" font-weight="700" text-anchor="start">STAWKA</text>
+<rect x="16" y="609" width="44" height="56" rx="10" fill="#223049" stroke="none"/>
+<text x="38.0" y="644.7" font-family="Arial, sans-serif" font-size="22" fill="#eaf0f8" font-weight="700" text-anchor="middle">−</text>
+<text x="112" y="643" font-family="Arial, sans-serif" font-size="16" fill="#eaf0f8" font-weight="700" text-anchor="middle">1,00 USD</text>
+<rect x="164" y="609" width="44" height="56" rx="10" fill="#223049" stroke="none"/>
+<text x="186.0" y="644.7" font-family="Arial, sans-serif" font-size="22" fill="#eaf0f8" font-weight="700" text-anchor="middle">+</text>
+<rect x="218" y="609" width="156" height="56" rx="10" fill="#e5bc73" stroke="none"/>
+<text x="296.0" y="643.3" font-family="Arial, sans-serif" font-size="18" fill="#152035" font-weight="700" text-anchor="middle">ZAKRĘĆ</text>
+<rect x="16" y="684" width="169" height="44" rx="10" fill="#223049" stroke="none"/>
+<text x="100.5" y="710.55" font-family="Arial, sans-serif" font-size="13" fill="#eaf0f8" font-weight="700" text-anchor="middle">Zasady i wypłaty</text>
+<rect x="195" y="684" width="179" height="44" rx="10" fill="#223049" stroke="none"/>
+<text x="284.5" y="710.55" font-family="Arial, sans-serif" font-size="13" fill="#eaf0f8" font-weight="700" text-anchor="middle">Opcje</text>
+<text x="195" y="755" font-family="Arial, sans-serif" font-size="12" fill="#abb9ce" font-weight="400" text-anchor="middle">RTP 96% • maks. 5000×</text>
+</g>
+<text x="52" y="910" font-family="Arial, sans-serif" font-size="18" fill="#182335" font-weight="700" text-anchor="start">01 / Mniej przewijania</text>
+<text x="52" y="939" font-family="Arial, sans-serif" font-size="15" fill="#635e56" font-weight="400" text-anchor="start">Plansza, saldo, stawka i obrót w jednym widoku.</text>
+<text x="552" y="910" font-family="Arial, sans-serif" font-size="18" fill="#182335" font-weight="700" text-anchor="start">02 / Czytelne wyniki</text>
+<text x="552" y="939" font-family="Arial, sans-serif" font-size="15" fill="#635e56" font-weight="400" text-anchor="start">Stawka i wypłata opisane osobno.</text>
+<text x="1110" y="927" font-family="Arial, sans-serif" font-size="18" fill="#182335" font-weight="700" text-anchor="start">03 / Własny charakter</text>
+<text x="1110" y="956" font-family="Arial, sans-serif" font-size="15" fill="#635e56" font-weight="400" text-anchor="start">Granat, złoto i geometria.</text>
+<text x="52" y="1000" font-family="Arial, sans-serif" font-size="13" fill="#6f6557" font-weight="400" text-anchor="start">MAKIETA STATYCZNA • nazwa i symbole robocze • kwoty przykładowe • bez zatwierdzenia prawnego lub platformowego</text>
+</svg>

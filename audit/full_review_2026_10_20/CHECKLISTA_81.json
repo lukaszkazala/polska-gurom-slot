@@ -1,0 +1,488 @@
+[
+  {
+    "id": "G01",
+    "requirement": "Plansza 5×3 i dokładnie 20 aktywnych linii; definicje współrzędnych identyczne w silniku, zdarzeniach, grafice i zasadach.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G02",
+    "requirement": "Wygrywa co najmniej 3 kolejnych pasujących symboli na linii, od dowolnego bębna: 1–3, 2–4 albo 3–5. Cztery i pięć symboli mają jednoznaczne wypłaty.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G03",
+    "requirement": "Jedna linia wypłaca jeden najwyższy wynik. Zdefiniować rozstrzyganie remisów i dopasowań z Wildem; suma kilku możliwych fragmentów nie może zastąpić tej reguły.",
+    "status": "NIE",
+    "evidence_or_reason": "B07: algorytm poprawny, reguły remisów/samych Wildów niewyjaśnione graczowi."
+  },
+  {
+    "id": "G04",
+    "requirement": "Ten sam symbol może uczestniczyć w wielu liniach. W kaskadzie każde wygrywające pole usuwa się tylko raz.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G05",
+    "requirement": "Tabela wypłat jednoznacznie wskazuje, czy wartości odnoszą się do całej stawki czy stawki na linię. Sprawdzić przykład: przy stawce 2 PLN trzy obwarzanki na jednej linii płacą 0,20 PLN; całkowita wygrana konkretnej planszy może obejmować dodatkowe linie.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G06",
+    "requirement": "Dla Wilda opisać zastępowane symbole, wykluczenie Scattera, własne wypłaty lub ich brak oraz układ samych Wildów.",
+    "status": "NIE",
+    "evidence_or_reason": "B07: algorytm poprawny, reguły remisów/samych Wildów niewyjaśnione graczowi."
+  },
+  {
+    "id": "G07",
+    "requirement": "Scatter jest oceniany na początkowej planszy, przed ekspansją Wilda. Sprawdzić mapowanie liczby Scatterów na 8/10/12 darmowych obrotów i każdą wypłatę Scattera.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G08",
+    "requirement": "Uzupełnienia kaskad nie zawierają Scatterów; bonus nie przyznaje kolejnych darmowych obrotów.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G09",
+    "requirement": "W bonusie ekspansja Wilda może nastąpić raz na początku darmowego obrotu; ustalić wybór bębna, zakres ekspansji i późniejsze zachowanie Wildów w kaskadach.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G10",
+    "requirement": "Mnożnik ×4 dotyczy wyłącznie wygranych liniowych w bonusie, także jego kaskad; nie mnoży ponownie sumy bonusu ani wypłat Scattera.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G11",
+    "requirement": "Jedna płatna runda zawiera obrót bazowy, wszystkie jego kaskady i cały bonus. Nie pobiera się kolejnych stawek za te elementy.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G12",
+    "requirement": "Limit 5000× dotyczy sumy całej rundy. Osiągnięcie limitu kończy rundę, nawet jeśli zostały darmowe obroty. Interfejs musi wyraźnie wyjaśniać takie zakończenie.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Cap rozlicza poprawnie; forced bonus-cap PASS, lecz bank nie ma bonus-cap i UI liczy wykonane FS, nie opisuje przerwanych przydzielonych FS."
+  },
+  {
+    "id": "G13",
+    "requirement": "Cele eksportu: RTP 96%, maksimum 5000×, częstość maksimum 1:8 000 000, krok wypłat 0,1×. Wszystko przeliczyć z finalnych wag.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G14",
+    "requirement": "Brak zakupu bonusu i Double Chance. Nie mogą pozostać aktywne przyciski lub opisy sugerujące te funkcje.",
+    "status": "TAK",
+    "evidence_or_reason": "Jeden tryb base, koszt 1; brak zakupu bonusu i Double Chance w aktualnym UI."
+  },
+  {
+    "id": "G15",
+    "requirement": "Trzy zestawy wyglądu przedstawiają te same kody i wypłaty. Katalog 18 ilustracji nie oznacza 18 losowanych typów symboli jednocześnie.",
+    "status": "TAK",
+    "evidence_or_reason": "Kod, pełny bank i niezależny kalkulator; zakres lokalny v0.5."
+  },
+  {
+    "id": "G16",
+    "requirement": "Ujednolicić GDD, README, konfigurację i zasady. Usunąć z aktywnej instrukcji sprzeczne liczby rund, wersje silnika oraz historyczne przypisania symboli.",
+    "status": "NIE",
+    "evidence_or_reason": "B08: README nadal miesza wersje i polecenia kompilatorów."
+  },
+  {
+    "id": "SE01",
+    "requirement": "Wyliczyć RTP każdego płatnego trybu z jego rzeczywistych wag i kosztu; wymagany zakres 90–98%. Przy wielu trybach uwzględnić ograniczenie różnic opisane w dokumentacji jako 0,5 punktu procentowego względem wskazanego RTP bazowego.",
+    "status": "TAK",
+    "evidence_or_reason": "Dokładne wagi i publiczny SDK PASS; jeden tryb base, koszt 1, eksport 100049 rekordów."
+  },
+  {
+    "id": "SE02",
+    "requirement": "Koszt trybu i realnie osiągalna maksymalna wygrana zgadzają się z informacjami gracza.",
+    "status": "TAK",
+    "evidence_or_reason": "Dokładne wagi i publiczny SDK PASS; jeden tryb base, koszt 1, eksport 100049 rekordów."
+  },
+  {
+    "id": "W01",
+    "requirement": "Oceniać częstość maksimum, hit rate, zmienność i różnorodność rezultatów. Dokumentacja matematyczna podaje zwykle maksimum częstsze niż 1:10 mln, zależnie od kwoty, a oficjalna checklista 1:20 mln lub częściej; tę rozbieżność zachować w raporcie.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Statystyki policzone, max 1:8 mln spełnia oba publiczne progi; jakość dziur i ogona pozostaje do oceny platformy."
+  },
+  {
+    "id": "W02",
+    "requirement": "Wytyczne dla slotów wskazują 100 tys.–1 mln symulacji i trafienie dodatniej wypłaty częstsze niż 1:20. To nie dowód poprawności rzadkich zdarzeń ani gwarancja akceptacji.",
+    "status": "TAK",
+    "evidence_or_reason": "100k pełnych ważonych rund, 1 mln losowań wag; trafienie dodatnie 1:6,40095."
+  },
+  {
+    "id": "W03",
+    "requirement": "Podać liczbę rekordów z dodatnią wagą, udział płatnych rezultatów, największe prawdopodobieństwo pojedynczego rekordu i rozkład przedziałów wypłat. Sprawdzić brak nieuzasadnionych luk do maksimum.",
+    "status": "TAK",
+    "evidence_or_reason": "Policzono dodatnie wagi, udział płatnych rekordów, dominację i przedziały; ujawniono znaczne dziury wysokich wypłat."
+  },
+  {
+    "id": "QA01",
+    "requirement": "Niezależny kalkulator odtwarza wypłaty z plansz, zasad i tabeli, zamiast ufać zapisanej sumie z generatora. Sprawdzić wszystkie rekordy finalnego banku, jeżeli wykonalne.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA02",
+    "requirement": "Dla wag w_i, wypłat m_i w jednostkach mnożnika stawki i kosztu trybu c: RTP = Σ(w_i × m_i) / (Σw_i × c). Jeżeli CSV zapisuje mnożnik w skali 100, najpierw podzielić go przez 100.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA03",
+    "requirement": "Osobno raportować: wygraną >0, zwrot części stawki, zwrot równy kosztowi i wygraną przewyższającą koszt. Dodatnia wypłata nie zawsze oznacza zysk.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA04",
+    "requirement": "Obliczyć częstości bonusu, wariantów 8/10/12, ekspansji Wilda i długości kaskad z końcowych wag. Prawdopodobieństwa generatora kandydatów nie muszą być rozkładem RGS.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA05",
+    "requirement": "Każdy reklamowany wariant ma co najmniej jeden poprawny rekord z dodatnią wagą. Samo istnienie scenariusza demonstracyjnego nie wystarcza.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA06",
+    "requirement": "Zbadać wkład bazy, Scatterów, bonusu i maksimum w RTP oraz koncentrację RTP w najrzadszych wynikach. Podać wariancję i przedziały niepewności symulacji.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA07",
+    "requirement": "Symulator losuje według finalnych wag. Częstość 1:8 mln sprawdzić analitycznie; nie wymagać przypadkowego trafienia w małej próbce.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "QA08",
+    "requirement": "Historia gracza, saldo, wcześniejsze przegrane, tempo, skin i urządzenie nie zmieniają wag ani wyniku.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełny bank, exact rational metrics, 8/10/12 FS z dodatnią wagą, granice selektora i analiza kodu selekcji."
+  },
+  {
+    "id": "SE03",
+    "requirement": "Dostarczyć `index.json` oraz dla każdego trybu wskazane pliki wag CSV i wyników `.jsonl.zst`. Manifest zawiera nazwę, koszt i właściwe ścieżki.",
+    "status": "TAK",
+    "evidence_or_reason": "Dokładne wagi i publiczny SDK PASS; jeden tryb base, koszt 1, eksport 100049 rekordów."
+  },
+  {
+    "id": "SE04",
+    "requirement": "CSV ma wymagane trzy pola bez nagłówka: ID, wagę i wypłatę; sprawdzić dozwolone zakresy całkowite i sumę wag.",
+    "status": "TAK",
+    "evidence_or_reason": "Dokładne wagi i publiczny SDK PASS; jeden tryb base, koszt 1, eksport 100049 rekordów."
+  },
+  {
+    "id": "SE05",
+    "requirement": "Każda linia książki jest poprawnym JSON z `id`, `events`, `payoutMultiplier`. Wypłaty CSV i książki są identyczne.",
+    "status": "TAK",
+    "evidence_or_reason": "Dokładne wagi i publiczny SDK PASS; jeden tryb base, koszt 1, eksport 100049 rekordów."
+  },
+  {
+    "id": "QA09",
+    "requirement": "Brak brakujących ID, duplikatów i przesunięcia indeksów. Konwencję ID potwierdzić aktualnym uploaderem; nie zakładać jej z pojedynczego przykładu.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Brak duplikatów/przesunięć; lokalny publiczny SDK akceptuje ID od zera. Aktualny prywatny uploader nie został sprawdzony."
+  },
+  {
+    "id": "QA10",
+    "requirement": "Rozdzielić skalę 100 dla wypłat eksportu od skali 1 000 000 dla kwot portfela. Sprawdzić krok dodatnich wypłat aktualnym walidatorem SDK i uploaderem.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Eksport scale100 i krok10 poprawne; produkcyjne kwoty portfela scale1000000 niewdrożone."
+  },
+  {
+    "id": "QA11",
+    "requirement": "Przejście publicznego walidatora zapisać z jego wersją; dodatkowo wykonać upload i analizę ACP. Kryteria ocen gwiazdkowych nie zastępują ogólnych wymagań approval.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Publiczny SDK commit a6dccd86… PASS; brak uploadu i analizy ACP."
+  },
+  {
+    "id": "QA12",
+    "requirement": "Każdy rekord opisuje pełną rundę: plansze, Wildy, wygrane, usunięcia, opadanie, uzupełnienia, bonus i zakończenie. Frontend nie dolosowuje brakujących rozstrzygnięć.",
+    "status": "TAK",
+    "evidence_or_reason": "Cały bank ma kompletne dane i poprawne przejścia, sumy i cap; wykonano exact replay selektora. B05 dotyczy odporności UI na podmienioną odpowiedź."
+  },
+  {
+    "id": "QA13",
+    "requirement": "Kolejność zdarzeń i współrzędne mają jeden kontrakt. Stan po opadaniu wynika ze stanu poprzedniego, a wyświetlone linie rzeczywiście istnieją na planszy.",
+    "status": "TAK",
+    "evidence_or_reason": "Cały bank ma kompletne dane i poprawne przejścia, sumy i cap; wykonano exact replay selektora. B05 dotyczy odporności UI na podmienioną odpowiedź."
+  },
+  {
+    "id": "QA14",
+    "requirement": "Suma faktycznie uznanych wypłat zdarzeń równa się payout książki i RGS. Przy limicie rozdzielić surowe należności od faktycznej wypłaty.",
+    "status": "TAK",
+    "evidence_or_reason": "Cały bank ma kompletne dane i poprawne przejścia, sumy i cap; wykonano exact replay selektora. B05 dotyczy odporności UI na podmienioną odpowiedź."
+  },
+  {
+    "id": "QA15",
+    "requirement": "Finalny ZIP, frontend i matematyka mają zgodne wersje oraz manifest skrótów. Sprawdzać paczkę dostarczaną, a nie wyłącznie katalog roboczy.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Źródła/bank i nowy audytowy ZIP zgodne, rebuild identyczny; brak identyfikacji finalnej paczki produkcyjnej dostarczonej do ACP."
+  },
+  {
+    "id": "SE06",
+    "requirement": "Finalna gra jest statycznym buildem; sesje i transakcje obsługuje RGS. Lokalny serwer Python i fikcyjne saldo są narzędziami testowymi.",
+    "status": "NIE",
+    "evidence_or_reason": "Lokalny Python i /api/*; brak produkcyjnego RGS, authenticate/play/end-round i stawek z auth."
+  },
+  {
+    "id": "SE07",
+    "requirement": "Odczytać parametry uruchomienia, w tym `sessionID`, `rgs_url`, `lang`, `device`; adres RGS nie jest wpisany na stałe.",
+    "status": "NIE",
+    "evidence_or_reason": "Lokalny Python i /api/*; brak produkcyjnego RGS, authenticate/play/end-round i stawek z auth."
+  },
+  {
+    "id": "SE08",
+    "requirement": "W zwykłej grze najpierw authenticate, potem play i zamknięcie rundy zgodnie z aktualnym kontraktem. Cały bonus należy do tej samej płatnej rundy.",
+    "status": "NIE",
+    "evidence_or_reason": "Lokalny Python i /api/*; brak produkcyjnego RGS, authenticate/play/end-round i stawek z auth."
+  },
+  {
+    "id": "SE09",
+    "requirement": "Udostępnić stawki, minimum, maksimum, domyślną wartość i krok z uwierzytelnienia; stosować rzeczywiste nazwy pól aktualnego API.",
+    "status": "NIE",
+    "evidence_or_reason": "Lokalny Python i /api/*; brak produkcyjnego RGS, authenticate/play/end-round i stawek z auth."
+  },
+  {
+    "id": "QA16",
+    "requirement": "Rozliczenia w jednostkach całkowitych API; sprawdzić precyzję i format USD, JPY, MXN, walut cyfrowych i tokenów. Saldo nie może być źródłem wyliczania wyniku.",
+    "status": "NIE",
+    "evidence_or_reason": "Waluta PLN wpisana w UI i pełne stawki PLN; brak wielowalutowego kontraktu portfela RGS."
+  },
+  {
+    "id": "QA17",
+    "requirement": "Przy wznowieniu odtworzyć aktywną rundę i jej stawkę z RGS. Pamięć przeglądarki może wspierać prezentację, lecz nie rozstrzyga stanu finansowego.",
+    "status": "NIE",
+    "evidence_or_reason": "B03: odświeżenie nie zachowuje widocznej stawki; produkcyjne wznowienie RGS nie istnieje."
+  },
+  {
+    "id": "QA18",
+    "requirement": "Utrata odpowiedzi play nie uruchamia nowego płatnego obrotu. Stan rozstrzygać udokumentowaną ścieżką recovery RGS; lokalny request ID nie dowodzi idempotencji produkcyjnego API.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Lokalny retry zwykle bezpieczny; B01 ujawnia lukę zapisu. Brak produkcyjnej ścieżki recovery RGS."
+  },
+  {
+    "id": "QA19",
+    "requirement": "Przetestować utratę połączenia przed i po play oraz przed i po end-round, reload w bonusie, błędy 4xx/5xx, wygaśniętą sesję i brak salda.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Lokalne testy HTTP/network PASS; end-round, sesje i awarie produkcyjnego RGS nie są dostępne."
+  },
+  {
+    "id": "QA20",
+    "requirement": "Podwójny klik, spacja trzymana wciśnięta i wiele kart nie powodują równoległych, niekontrolowanych zakładów ani podwójnych wypłat.",
+    "status": "NIE",
+    "evidence_or_reason": "Równoległe obciążenia lokalne rozliczane poprawnie; B01/B02 pozostają otwarte dla awarii i dwóch kart."
+  },
+  {
+    "id": "QA21",
+    "requirement": "Blokować nowe zakłady, gdy stan poprzedniej rundy jest nieznany. Odrzucona stawka lub awaria nie może wyglądać jak przegrana.",
+    "status": "NIE",
+    "evidence_or_reason": "UI zachowuje pending przy błędach transportu, lecz B05: wadliwe pozycje mogą przejść walidację i utracić pending przed prezentacją."
+  },
+  {
+    "id": "QA22",
+    "requirement": "Nie ujawniać tokenów sesji w logach i błędach; sprawdzić produkcyjną konsolę oraz ruch sieciowy.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "W testowanej konsoli brak ostrzeżeń/błędów przy zwykłym UI; brak produkcyjnych tokenów/RGS do sprawdzenia."
+  },
+  {
+    "id": "SE10",
+    "requirement": "Informacje w grze zawierają pełne zasady, wszystkie wypłaty, symbole specjalne i ich wartości, warunki bonusu, koszty, RTP oraz maksimum dla każdego trybu.",
+    "status": "NIE",
+    "evidence_or_reason": "Tabela/RTP/max dostępne, ale B07: niepełne zasady Wildów i remisów."
+  },
+  {
+    "id": "SE11",
+    "requirement": "Widoczne są saldo, stawka i końcowa wygrana; przy wielu wygrywających działaniach suma narasta do prawidłowej wartości.",
+    "status": "NIE",
+    "evidence_or_reason": "Prawidłowe sumy wygranych, lecz B02: historyczne saldo może zastąpić bieżące."
+  },
+  {
+    "id": "SE12",
+    "requirement": "Dostępne są opis przycisków, wyciszenie i obsługa spacji; autoplay ma osobny krok potwierdzenia startu.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Spacja i potwierdzenie AUTO sprawdzone. Aktualny frontend nie zawiera aktywnego audio/mute; test docelowego dźwięku niemożliwy."
+  },
+  {
+    "id": "SE13",
+    "requirement": "Jeśli dodamy tryb kosztujący ponad 2×, wymaga potwierdzenia. Obecnie oznaczyć jako nie dotyczy po sprawdzeniu braku takich trybów.",
+    "status": "NIE DOTYCZY",
+    "evidence_or_reason": "Jeden tryb base kosztujący 1×; brak trybu kosztującego ponad2×."
+  },
+  {
+    "id": "SE14",
+    "requirement": "Cała gra działa na desktopie, telefonie i popout S/M; plansza nie jest deformowana, przyciski i tekst pozostają dostępne.",
+    "status": "NIE",
+    "evidence_or_reason": "B04 przy802px; sprawdzono dodatkowo320×568,390×700,600×400 i1280×720. Brak fizycznego telefonu i rzeczywistego popout platformy."
+  },
+  {
+    "id": "SE15",
+    "requirement": "Także w fastplay można odczytać kwoty, zwycięskie symbole i komunikaty. Tryb błyskawiczny wymaga osobnej oceny czytelności.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Logika normal/quick/turbo/instant przechodzi; pełnej oceny czytelności kwot i kombinacji przy maksymalnym tempie nie zakończono."
+  },
+  {
+    "id": "SE16",
+    "requirement": "Brak brakujących zasobów; własne grafiki, animacje i audio. Obrazy i fonty dostarczane z CDN platformy, bez pobierania z niedozwolonych źródeł zewnętrznych.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Testowane zasoby lokalne kompletne; hosting/CDN produkcji i prawa do finalnych materiałów niepotwierdzone."
+  },
+  {
+    "id": "SE17",
+    "requirement": "Angielski działa; nieobsługiwany parametr języka nie psuje napisów. Dodatkowe PL/DE mają zgodne znaczenie zasad i kwot.",
+    "status": "NIE",
+    "evidence_or_reason": "Wybór EN działa, lecz lang z adresu uruchomienia jest ignorowany; brak kompletnego kontraktu językowego platformy."
+  },
+  {
+    "id": "QA23",
+    "requirement": "Zmiana języka, tempa, rozmiaru lub skina nie zmienia bieżącego wyniku, stawki i licznika. Rozważyć blokadę skina do końca rundy.",
+    "status": "TAK",
+    "evidence_or_reason": "Ustawienia prezentacji nie wpływają na selekcję matematyki; skin jest mapowaniem tych samych kodów. Nie jest to pełna macierz zmian na każdym etapie bonusu."
+  },
+  {
+    "id": "QA24",
+    "requirement": "STOP AUTO zatrzymuje dalsze płatne rundy po dokończeniu bieżącej wraz z bonusem. Po awarii seria nie startuje samoczynnie.",
+    "status": "TAK",
+    "evidence_or_reason": "13 testów AUTO i30 network VM obejmują STOP po bieżącej rundzie, retry i brak automatycznego restartu po awarii."
+  },
+  {
+    "id": "QA25",
+    "requirement": "Przy maksimum pokazywać faktycznie wypłaconą kwotę i trwałą informację o limicie. Podgląd linii nie może sugerować wypłaty ponad limit.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Prawdziwa runda max: kwota i trwała informacja poprawne. Podgląd linii pokazuje wartości surowe bez rozdziału części objętej cap; ocena komunikacji pozostaje otwarta."
+  },
+  {
+    "id": "QA26",
+    "requirement": "Efekty rozróżniają częściowy zwrot od zysku; wielka celebracja nie powinna sugerować zysku przy wypłacie mniejszej niż koszt.",
+    "status": "TAK",
+    "evidence_or_reason": "UI rozróżnia przegraną, częściowy zwrot, zwrot stawki i zysk; scenariusz0,60PLN przy2PLN pokazuje częściowy zwrot."
+  },
+  {
+    "id": "QA27",
+    "requirement": "Sprawdzić dotyk, poziom/pion, małe ekrany, zoom, klawiaturę w polach, brak dźwięku przed gestem użytkownika, wyciszenie i powrót z tła.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Viewporty, przewijanie tabeli i dostępne kontrolki sprawdzone; brak pełnych testów dotyku, tła na fizycznym urządzeniu i docelowego audio."
+  },
+  {
+    "id": "QA28",
+    "requirement": "Scenariusze studyjne i możliwość podmiany grafik są wyłączone w paczce produkcyjnej lub bezpiecznie odizolowane od rozliczeń.",
+    "status": "TAK",
+    "evidence_or_reason": "Scenariusze są oznaczone i nie obciążają salda; tools ukryte bez studio. To izolacja lokalnego demo, brak zatwierdzonej paczki produkcyjnej."
+  },
+  {
+    "id": "SE18",
+    "requirement": "Obsłużyć `replay=true` oraz game/version/mode/event/rgs_url i pobrać właściwy historyczny wynik przez endpoint replay.",
+    "status": "NIE",
+    "evidence_or_reason": "Brak trybu replay platformy. replay=true jest ignorowane; dostępne pozostają zwykłe SPIN/AUTO i portfel demo."
+  },
+  {
+    "id": "SE19",
+    "requirement": "Replay działa bez sesji i wywołań portfela. Nie pozwala uruchomić zwykłej gry, stawki ani autoplay.",
+    "status": "NIE",
+    "evidence_or_reason": "Brak trybu replay platformy. replay=true jest ignorowane; dostępne pozostają zwykłe SPIN/AUTO i portfel demo."
+  },
+  {
+    "id": "SE20",
+    "requirement": "Są ładowanie, błąd, rozpoczęcie, pełny przebieg z efektami, wynik i ponowne odtworzenie.",
+    "status": "NIE",
+    "evidence_or_reason": "Brak trybu replay platformy. replay=true jest ignorowane; dostępne pozostają zwykłe SPIN/AUTO i portfel demo."
+  },
+  {
+    "id": "SE21",
+    "requirement": "Obsłużyć opcjonalne amount/currency/lang/device/social. Wyraźnie pokazać stawkę bazową, mnożnik kosztu, rzeczywisty koszt i wygraną.",
+    "status": "NIE",
+    "evidence_or_reason": "Brak trybu replay platformy. replay=true jest ignorowane; dostępne pozostają zwykłe SPIN/AUTO i portfel demo."
+  },
+  {
+    "id": "SE22",
+    "requirement": "Przygotować ID przegranej, zwykłej wygranej, dużej wygranej, maksimum i bonusu dla każdego właściwego trybu.",
+    "status": "NIE",
+    "evidence_or_reason": "Brak trybu replay platformy. replay=true jest ignorowane; dostępne pozostają zwykłe SPIN/AUTO i portfel demo."
+  },
+  {
+    "id": "QA29",
+    "requirement": "Dodać ID bonusów 8/10/12, kaskad od środkowego/prawego bębna, ekspansji Wilda i limitu osiągniętego w bonusie. Powtórne replay nie zmienia wyniku ani salda.",
+    "status": "NIE",
+    "evidence_or_reason": "Brak replay i brak bonus-cap w banku. Są dodatnie rekordy8/10/12FS, middle i max bazy."
+  },
+  {
+    "id": "QA30",
+    "requirement": "Stare replay korzysta z właściwej wersji matematyki i zgodnej prezentacji; aktualizacja nie interpretuje starego wyniku według nowych reguł.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Brak wersjonowanego odtwarzania historycznych wyników RGS."
+  },
+  {
+    "id": "SE23",
+    "requirement": "Dla Stake.us `social=true` włącza angielski i pełny słownik zamian w przyciskach, zasadach, obrazach, błędach, autoplay i replay.",
+    "status": "NIE",
+    "evidence_or_reason": "social=true ignorowane, brak pełnych zamian słownika i obsługi SC/GC; waluta stale PLN."
+  },
+  {
+    "id": "SE24",
+    "requirement": "Obsłużyć SC/GC bez znaku dolara, prawidłowo mapując kody API. Testować właściwy szablon stawek dla rynku US.",
+    "status": "NIE",
+    "evidence_or_reason": "social=true ignorowane, brak pełnych zamian słownika i obsługi SC/GC; waluta stale PLN."
+  },
+  {
+    "id": "SE25",
+    "requirement": "Zakłady są niezależne; brak jackpotu, gamble, kontynuacji między zakładami i wcześniejszego cashoutu. Bezstanowość nie zabrania sekwencji bonusowej w jednej rundzie.",
+    "status": "TAK",
+    "evidence_or_reason": "Pełna runda stanowi jeden niezależnie wybrany book; brak jackpot/gamble/continuation/cashout w aktualnym silniku."
+  },
+  {
+    "id": "SE26",
+    "requirement": "Oryginalna gra, unikalna nazwa, prawa do grafik/fontów/muzyki i brak niedozwolonego brandingu. Brak treści obraźliwych oraz kierowanych do nieletnich.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Jest opis pochodzenia grafik. Nie wykonano prawnego clearance, weryfikacji unikalności nazwy ani pełnego przeglądu treści."
+  },
+  {
+    "id": "QA31",
+    "requirement": "Dla polskiej tematyki sprawdzić konkretne źródła ilustracji, znaków, strojów i odniesień do malarstwa. Samo wygenerowanie obrazu nie zastępuje sprawdzenia finalnego projektu.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Jest opis pochodzenia grafik. Nie wykonano prawnego clearance, weryfikacji unikalności nazwy ani pełnego przeglądu treści."
+  },
+  {
+    "id": "SE27",
+    "requirement": "Dostępny disclaimer dotyczący awarii, połączenia, wznowienia rund, długoterminowego RTP, ilustracyjnych animacji i rozstrzygnięcia RGS; prawa autorskie opisane zgodnie z faktycznym uprawnieniem.",
+    "status": "NIE",
+    "evidence_or_reason": "Zasady mają notę o RTP/demo; brak kompletnego docelowego disclaimeru o awariach/recovery/rozstrzygnięciu RGS."
+  },
+  {
+    "id": "SE28",
+    "requirement": "Kafelek gry spełnia aktualne wymagania edytora, czytelności tytułu i obszaru grafiki; poprawne logo dostawcy.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Brak dostępu do finalnego zgłoszenia, kafelka i stanów Approved/Active w ACP; brak dowodu zamrożenia/akceptacji konkretnej wersji."
+  },
+  {
+    "id": "SE29",
+    "requirement": "Zgłoszenie obejmuje konkretną finalną wersję frontendu i matematyki oraz krótki opis motywu i mechanik do promocji.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Brak dostępu do finalnego zgłoszenia, kafelka i stanów Approved/Active w ACP; brak dowodu zamrożenia/akceptacji konkretnej wersji."
+  },
+  {
+    "id": "SE30",
+    "requirement": "Potwierdzić w ACP statusy frontend/math Approved i Active, właściwe szablony stawek i finalne uruchomienie. Lokalne testy nie nadają tych statusów.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Brak dostępu do finalnego zgłoszenia, kafelka i stanów Approved/Active w ACP; brak dowodu zamrożenia/akceptacji konkretnej wersji."
+  },
+  {
+    "id": "SE31",
+    "requirement": "Zamrozić matematykę i mechaniki przed approval. Aktualne zasady dopuszczają po akceptacji małe poprawki wizualne; inne zmiany wymagają uzgodnienia z platformą.",
+    "status": "NIEZWERYFIKOWANE",
+    "evidence_or_reason": "Brak dostępu do finalnego zgłoszenia, kafelka i stanów Approved/Active w ACP; brak dowodu zamrożenia/akceptacji konkretnej wersji."
+  }
+]

@@ -1,0 +1,15 @@
+test_actual_fall_with_holes_above_and_below_survivors (__main__.CascadeTests.test_actual_fall_with_holes_above_and_below_survivors) ... ok
+test_duplicates_remove_one_cell_and_survivor_order_is_stable (__main__.CascadeTests.test_duplicates_remove_one_cell_and_survivor_order_is_stable) ... ok
+test_emergency_limit_is_explicit_and_stops_before_removal (__main__.CascadeTests.test_emergency_limit_is_explicit_and_stops_before_removal) ... ok
+test_free_spin_multiplier_cascades_and_expansion_only_once (__main__.CascadeTests.test_free_spin_multiplier_cascades_and_expansion_only_once) ... ok
+test_limit_caps_stage_after_scatter_before_any_removal (__main__.CascadeTests.test_limit_caps_stage_after_scatter_before_any_removal) ... ok
+test_overlapping_lines_remove_union_once_and_award_new_wins (__main__.CascadeTests.test_overlapping_lines_remove_union_once_and_award_new_wins) ... ok
+test_round_cap_applies_across_base_and_free_spins (__main__.CascadeTests.test_round_cap_applies_across_base_and_free_spins) ... ok
+test_scatter_count_before_free_spin_expansion (__main__.CascadeTests.test_scatter_count_before_free_spin_expansion) ... ok
+test_scatter_is_initial_only_and_never_spawned (__main__.CascadeTests.test_scatter_is_initial_only_and_never_spawned) ... ok
+test_seeded_rounds_are_repeatable_and_settlement_matches_animation (__main__.CascadeTests.test_seeded_rounds_are_repeatable_and_settlement_matches_animation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.355s
+
+OK

@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "math_version": "0.4.1-weighted-12fs",
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "tests_run": 10,
+  "passed": 10,
+  "tests": [
+    {
+      "name": "test_server.HTTPTests.test_cap_credits_are_settled_once_at_total_bet",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_cascade_endpoint_preserves_falls_and_charges_one_paid_round",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_config_static_files_and_cookie",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_history_survives_page_reload_is_bounded_and_newest_first",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_idempotence_and_conflicting_reuse",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_random_wallet_exact_settlement_and_session_isolation",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_reset_and_insufficient_funds",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_scenarios_replay_real_engine_without_wallet_changes",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_simultaneous_retries_charge_once",
+      "status": "pass"
+    },
+    {
+      "name": "test_server.HTTPTests.test_validation_and_cross_origin_requests_do_not_change_wallet",
+      "status": "pass"
+    }
+  ],
+  "failures": 0,
+  "errors": 0
+}

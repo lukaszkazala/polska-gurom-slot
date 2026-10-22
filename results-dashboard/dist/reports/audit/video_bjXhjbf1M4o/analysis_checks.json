@@ -1,0 +1,58 @@
+{
+  "analysis_date": "2026-10-18",
+  "video_id": "bjXhjbf1M4o",
+  "caption_language": "en",
+  "caption_kind": "auto-generated",
+  "caption_segments": 663,
+  "last_caption_end_seconds": 1440.44,
+  "transcript_sha256": "992affd62ffe393e7eae95fd2157bfa00cc75880de16a3d64137c480edda0a5e",
+  "source_paper_sha256": "e0781f615a786c256656a0eeca035bf014a523ed6237cfab74bc4c029918cee8",
+  "project_math_config_sha256": "d79c6643b616c077afe91803cb0b96a65a7a7ef004b4d51416dad18570958148",
+  "project_source_hashes": {
+    "polska_gurom_v0_2/polska_gurom/config.py": "363da616865d228043dfacb298316ee0cd5ec181c97be2daae9d65e72d050d6d",
+    "polska_gurom_v0_2/polska_gurom/game.py": "824ac9a83e779e607e0a75b8f3a7440957a14251479ac75078323005c2aa92b9",
+    "polska_gurom_v0_2/polska_gurom/theory.py": "3db12a4d025132a3c1b999caf95d4aabe48faec62695deeb5124d6a224d96f11",
+    "polska_gurom_v0_2/tools/verify_math.py": "213336e5ab1468f373ac5da051000883d879261a4e2af01a370dc3e08848eeba",
+    "polska_gurom_v0_2/tools/math_config.py": "ded4081f8d327ad69e64b1fbb09476237a5690fc21a069cc286a033c3916e0a9",
+    "polska_gurom_v0_2/verification/joint_counts.npz": "b6dba79466abdb6efbf88b8a43f221f8338245efab83584c4282e9f293474797",
+    "polska_gurom_v0_2/README.md": "5a6e9ba47f230266851c80d4d9fa77e64fd97bf9f770653830ba26b6b62dab0c",
+    "polska_gurom_v0_2/docs/PAR_SHEET.md": "1b8c82c29472f80b7cc7e1fc2f51e7131f77cb4f32992701068edfebb9c48d9b",
+    "polska_gurom_v0_2/docs/MATH_SPECIFICATION.md": "694912b865f3e8ded6a17edd7e351e6bda615a936523ec983074a5765251f970",
+    "polska_gurom_v0_2/docs/GAME_DESIGN_DOCUMENT.md": "24706bec3863d6208648e84b14c3f8ce9b7e9ab0c8ee014d99daec5bbd2f8adf"
+  },
+  "independent_verifier_matches_current_theory": true,
+  "paper_example": {
+    "combinations": 373248,
+    "jackpot_outcomes": 8,
+    "jackpot_probability_fraction": "1/46656",
+    "jackpot_probability_percent": 0.0021433470507544582,
+    "mean_spins_per_jackpot": 46656.0,
+    "zero_payout_probability": 0.8571459190672154,
+    "single_cherry_probability": 0.05079732510288066
+  },
+  "project_no_bonus_probability": {
+    "100": 0.6004501331237292,
+    "200": 0.36054036236830417,
+    "500": 0.07805212425147176,
+    "1000": 0.006092134100167186
+  },
+  "project_combinations": 60466176,
+  "probability_one_specified_grid_seen_after_10m_spins": 0.15242989064530912,
+  "same_rtp_different_volatility_examples": [
+    {
+      "name": "A",
+      "hit_probability": 0.5,
+      "award_x": 1.92,
+      "rtp": 0.96,
+      "standard_deviation_x": 0.96
+    },
+    {
+      "name": "B",
+      "hit_probability": 0.01,
+      "award_x": 96.0,
+      "rtp": 0.96,
+      "standard_deviation_x": 9.551879396223551
+    }
+  ],
+  "positive_payout_fraction_that_is_below_bet": 0.3918791394562549
+}

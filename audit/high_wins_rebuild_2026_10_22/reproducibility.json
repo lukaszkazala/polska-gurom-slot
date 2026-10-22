@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "stable_file_matches": {
+    "books_base.jsonl.zst": true,
+    "index.json": true,
+    "lookUpTable_base_0.csv": true,
+    "mathematics.json": false,
+    "selection.json": true
+  },
+  "summary_note": "mathematics.json includes measured build duration and is excluded from byte-equality requirement"
+}

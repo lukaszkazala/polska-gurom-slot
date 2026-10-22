@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-10-20",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "21 zapisanych serii",
+      "passed": true
+    },
+    {
+      "name": "139 dowodów",
+      "passed": true
+    },
+    {
+      "name": "10 etapów historycznych",
+      "passed": true
+    },
+    {
+      "name": "160 mln losowań końcowych",
+      "passed": true
+    },
+    {
+      "name": "160 mln osobnych rund generatora",
+      "passed": true
+    },
+    {
+      "name": "107 testów w sześciu zestawach regresji",
+      "passed": true
+    },
+    {
+      "name": "Wszystkie 107 testów zaliczone",
+      "passed": true
+    },
+    {
+      "name": "RTP 96% i jawny otwarty problem",
+      "passed": true
+    },
+    {
+      "name": "Brak 12FS pokazany zgodnie ze źródłem",
+      "passed": true
+    },
+    {
+      "name": "Unikalne identyfikatory serii, zestawów i raportów",
+      "passed": true
+    },
+    {
+      "name": "Każda kopia źródła jest identyczna bajtowo",
+      "passed": true
+    },
+    {
+      "name": "Wszystkie odsyłacze historii mają pliki",
+      "passed": true
+    },
+    {
+      "name": "Dane osadzone zgodne z JSON",
+      "passed": true
+    },
+    {
+      "name": "Polskie znaki bez znaków zastępczych",
+      "passed": true
+    },
+    {
+      "name": "Unikalne identyfikatory HTML",
+      "passed": true
+    },
+    {
+      "name": "Sześć widoków dostępnych w HTML",
+      "passed": true
+    },
+    {
+      "name": "Wszystkie zasoby strony dostępne lokalnie",
+      "passed": true
+    }
+  ],
+  "browser_checked": [
+    "Wykres końcowych wag i generatora, wybór serii oraz szczegóły",
+    "Filtry: 21 wszystkich i 7 historycznych symulacji",
+    "Kalkulator bonusu: 500 rund daje 91,72%",
+    "11 bieżących i 6 historycznych zestawów kontroli",
+    "Wyszukiwanie 408 i szczegóły przypadku",
+    "10 etapów historii i ich źródła",
+    "Wyszukiwanie i kategorie 139 raportów",
+    "Podgląd Markdown, JSON i obrazu źródłowego",
+    "Widoki 1440 i 390 px, menu mobilne i brak przepełnienia strony"
+  ],
+  "limitations": [
+    "Nie uruchamiano ponownie dużych symulacji; dashboard przedstawia zapisane wyniki.",
+    "Brak 12 FS pozostaje błędem gry; dashboard go nie naprawia."
+  ]
+}

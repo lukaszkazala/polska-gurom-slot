@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "server_integration_tests": 9,
+  "checks": {
+    "normal_spin_wallet": true,
+    "win_scenario_without_wallet_changes": true,
+    "ten_free_spins_with_expansion": true,
+    "autoplay": true,
+    "languages_pl_en_de": true,
+    "mobile_layout_390px_without_horizontal_overflow": true,
+    "mobile_paytable": true,
+    "graphics_upload": true,
+    "json_download_100_rounds_valid": true,
+    "json_wallet_matches_session": true,
+    "history_after_reload": true,
+    "three_symbol_win_highlights_exactly_three_paid_cells": true,
+    "browser_console_errors": 0
+  },
+  "screenshot": "podglad-interfejsu.jpg",
+  "note": "Scenariusze odtwarzają wyniki istniejącego silnika bez modyfikacji prawdopodobieństw."
+}

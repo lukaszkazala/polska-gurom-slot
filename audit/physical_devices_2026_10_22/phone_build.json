@@ -1,0 +1,164 @@
+{
+  "build_id": "iphone15-safari-20261022T095007",
+  "created_at": "2026-10-22T09:50:07.308287+02:00",
+  "build_directory": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\audit\\physical_devices_2026_10_22\\iphone15-safari-20261022T095007",
+  "manifest_sha256": "601312412e29e69039eee70451cb1d161db7897c0e412e87bf00b31ec7bb264f",
+  "source_stable_during_copy": true,
+  "files": {
+    "server.py": {
+      "sha256": "e15a1f81a5dd1157780695c1d5b611d9337c839582bd80ff8f74a57c87e78a30",
+      "bytes": 19950
+    },
+    "web/app.js": {
+      "sha256": "b6654dac0f418e2c802811fb943d57d8318063b8145e5b4f9f4f7550ceb5f570",
+      "bytes": 127795
+    },
+    "web/art-catalog.js": {
+      "sha256": "6712291291d66be95c24ac0707c21d16115f78c6f7a7bac34eea8e31c7d0b9e2",
+      "bytes": 2787
+    },
+    "web/art-theme.css": {
+      "sha256": "9ab3ff77be726cdf6ed7bb98acc3e3056d7d3bedbd4b204844a5a2892e26f831",
+      "bytes": 5570
+    },
+    "web/assets/art/husarz.png": {
+      "sha256": "3f1a54259fda32a15740799609f712fba5a430d83abde286b996599c22c5d81d",
+      "bytes": 2192720
+    },
+    "web/assets/art/klasyczne-motywy.png": {
+      "sha256": "741ebde62656e3728fee585e31d5a43a4f0f39b3d6ccbe469c403e0ad68e603a",
+      "bytes": 2762645
+    },
+    "web/assets/art/polskie-motywy.png": {
+      "sha256": "92e89378f4fd537e2e75e7aeec19905de7f2f2ddb123d1f5cb8b2c6628072fec",
+      "bytes": 2415691
+    },
+    "web/assets/art/PROVENANCE.md": {
+      "sha256": "7b5cf86c3a50fa47f50c633dc1e1231599cff5d05e6f66a267fb84663c373755",
+      "bytes": 2186
+    },
+    "web/assets/art/rama.png": {
+      "sha256": "90c7c12810bcd8cc97eb151fb2051918533800f8c825239602845a237f25b98b",
+      "bytes": 2185160
+    },
+    "web/assets/art/symbole-specjalne.png": {
+      "sha256": "4c88b2839e63f9ccc122efb1558c0f863a1d6142af65e66ab5be0ef9187170de",
+      "bytes": 2425507
+    },
+    "web/assets/art/tlo-husaria-v2.png": {
+      "sha256": "a3afc445205966cad80581fc583819f0f90646513637c45f3d2e7f5f9e542b6b",
+      "bytes": 2542739
+    },
+    "web/assets/audio/01_Karczma_Disco_BASE_120bpm_Dm.wav": {
+      "sha256": "774d0b9894668d102b7ee61b695831ba8281a291f1cfa3c2d430fe9a46446a16",
+      "bytes": 11289644
+    },
+    "web/assets/audio/02_Szarza_Husarza_BONUS_120bpm_Dm.wav": {
+      "sha256": "d97131d77e022855caac0e3107a2a0f6dac2503d41e774e2a981022a18b81c0c",
+      "bytes": 5644844
+    },
+    "web/assets/audio/03_Wejscie_do_bonusu.wav": {
+      "sha256": "4511ae1dd1f794eb705c7f3244c5578d704b2a43cdf66f355d048a672fd909c2",
+      "bytes": 705644
+    },
+    "web/assets/audio/04_Wygrana.wav": {
+      "sha256": "4cd4825f1b03e078f0269a5c00a3d9ad1d77fb2102ea19b23f5bc1df86c04d8d",
+      "bytes": 352844
+    },
+    "web/assets/audio/05_Duza_wygrana.wav": {
+      "sha256": "e221d36edd4175caa09ba2f3f9f3f9a162a004519d92936e19a4fab3f41099a8",
+      "bytes": 705644
+    },
+    "web/assets/audio/06_Czesciowy_zwrot.wav": {
+      "sha256": "97c17130cc17eb70807ccaa7cd24ce78b01523c979b09daee265f688c939f93a",
+      "bytes": 352844
+    },
+    "web/assets/symbols.json": {
+      "sha256": "36fb74fdaf68560737140f3053e045a10bf9d1727079f6119b6dc5f8578ee02c",
+      "bytes": 718
+    },
+    "web/audio.js": {
+      "sha256": "8a859288390a6233d8b3f0937d23184502a5caa4ec275d656bbd9e2b18243957",
+      "bytes": 4894
+    },
+    "web/battle-background.css": {
+      "sha256": "e2f9f6abe30f0975dd41cc6ebcd43c123218b4984bd580534dea946b6df5235d",
+      "bytes": 1009
+    },
+    "web/game-config.json": {
+      "sha256": "34c52607431b86f0649a9df70bd74c6d01f538a8901783c3506c82206cac1858",
+      "bytes": 2507
+    },
+    "web/game-layout.js": {
+      "sha256": "bf1e4b69d9816ce25a5e8e6728049035753e2d22cc1894997d434854dc577cf5",
+      "bytes": 4010
+    },
+    "web/index.html": {
+      "sha256": "ba3fddc175d4fe56a065bb32a72d5ebfc1bfa18269d66f5da42b185da0b700d7",
+      "bytes": 20035
+    },
+    "web/player-layout.css": {
+      "sha256": "38ce5b76c3120476c2f477353d88375e026691773c37da994129a08ac1e1f57a",
+      "bytes": 15873
+    },
+    "web/rgs-client.js": {
+      "sha256": "004dce74c3bc66edd2066b5906e49aed2f071db2ded640aae53e070572fbe3ea",
+      "bytes": 22355
+    },
+    "web/style.css": {
+      "sha256": "7a8083810064c18d880377c91747501f36e9bd1ae2edb70156c3600e0680b0f6",
+      "bytes": 66446
+    },
+    "engine/polska_gurom/__init__.py": {
+      "sha256": "eca968557571b57ef1226c4221f669eb9466eff60fea0220f9f44de7d26882ad",
+      "bytes": 54
+    },
+    "engine/polska_gurom/__main__.py": {
+      "sha256": "b3185ca26ce0b7b5d9615a3497beb7ea339108c0df3a54ef4a9419f710fbb61a",
+      "bytes": 1489
+    },
+    "engine/polska_gurom/config.py": {
+      "sha256": "7767db5e864a4b05c23221438dcd13339af2498597681cca50b6ee4cc10ab322",
+      "bytes": 3466
+    },
+    "engine/polska_gurom/game.py": {
+      "sha256": "42401e6a16c511abc9d9884a4d74b5d6643e290315ee5e63f635343665322dfb",
+      "bytes": 12661
+    },
+    "engine/polska_gurom/selection.py": {
+      "sha256": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6",
+      "bytes": 5258
+    },
+    "engine/polska_gurom/sim.py": {
+      "sha256": "721d6afcffab894c5d0d29300a4f6b64586bf91e54a821b081cd3fdef0f05556",
+      "bytes": 3920
+    },
+    "engine/polska_gurom/theory.py": {
+      "sha256": "fb87be34318902a31abb8fd7ee34264772360b2d123f56ed4a2dd81fabef65a4",
+      "bytes": 5847
+    },
+    "stake_math/books_base.jsonl.zst": {
+      "sha256": "78507157eb412b0b9d7258b86312292dd87f2cfb7a5d3cb44b14b9c5a233ec57",
+      "bytes": 9668642
+    },
+    "stake_math/index.json": {
+      "sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "bytes": 164
+    },
+    "stake_math/lookUpTable_base_0.csv": {
+      "sha256": "d15fb64fe8435566598dbdfafe64b6215f376a1ed4d7d93545cc8eb3ac57983b",
+      "bytes": 1833914
+    },
+    "stake_math/mathematics.json": {
+      "sha256": "24e52274ed46b2d09d64fea31766f3488bfeba97a2c2d38a7dc2165a02bfc54e",
+      "bytes": 14452
+    },
+    "stake_math/selection.json": {
+      "sha256": "4f55f32fbd3d993e7299eed1d34162fe66f1f6bb700b1727bb035e20f6560e1c",
+      "bytes": 1495802
+    }
+  },
+  "platform_verified": false,
+  "physical_tests_executed": 0,
+  "note": "Separate local demo snapshot, including concurrently added audio. Not a production release or platform acceptance."
+}

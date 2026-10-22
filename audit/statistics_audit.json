@@ -1,0 +1,21 @@
+{
+  "spins": 100000,
+  "seed": 20261015,
+  "float_buckets": {
+    ">0x-1x": 28952,
+    "0x": 50451,
+    "1x-5x": 17526,
+    "5x-20x": 2802,
+    "20x-100x": 269
+  },
+  "exact_buckets": {
+    ">0x-1x": 28952,
+    "0x": 50451,
+    "1x-5x": 17526,
+    "5x-20x": 2802,
+    "20x-100x": 269
+  },
+  "examples": [],
+  "payout_mismatches_at_cent_precision": 0,
+  "wrong_bucket_count": 0
+}

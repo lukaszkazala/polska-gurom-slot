@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "checks_total": 28,
+  "checks_passed": 28,
+  "checks": [
+    {
+      "name": "Real loss round passes full validation and exact presentation",
+      "passed": true,
+      "payout_units": 0
+    },
+    {
+      "name": "Real bonus8 round passes full validation and exact presentation",
+      "passed": true,
+      "payout_units": 11640
+    },
+    {
+      "name": "Real cap round passes full validation and exact presentation",
+      "passed": true,
+      "payout_units": 500000
+    },
+    {
+      "name": "Real middle round passes full validation and exact presentation",
+      "passed": true,
+      "payout_units": 30
+    },
+    {
+      "name": "Real bonus12 round passes full validation and exact presentation",
+      "passed": true,
+      "payout_units": 15990
+    },
+    {
+      "name": "Recovery after a second tab uses the current wallet without charging again",
+      "passed": true,
+      "current_wallet_cents": 999300,
+      "immutable_round_wallet_cents": 999800
+    },
+    {
+      "name": "Wallet http-404 after settlement preserves the original paid request",
+      "passed": true,
+      "unique_charges": 1
+    },
+    {
+      "name": "Wallet fetch-stall after settlement preserves the original paid request",
+      "passed": true,
+      "unique_charges": 1
+    },
+    {
+      "name": "Reload during base presentation retains stake and the same paid request",
+      "passed": true,
+      "bet_cents": 10000,
+      "unique_charges": 1
+    },
+    {
+      "name": "Reload after four bonus spins resumes at the fifth and leaves AUTO stopped",
+      "passed": true,
+      "unique_charges": 1,
+      "resumed_progress": [
+        "",
+        "4 / 12",
+        "5 / 12",
+        "6 / 12",
+        "7 / 12",
+        "8 / 12",
+        "9 / 12",
+        "10 / 12",
+        "11 / 12",
+        "12 / 12",
+        "12 / 12"
+      ]
+    },
+    {
+      "name": "Reject removed row outside board before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject malformed position before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject duplicate removed position before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject missing removal before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject movement outside board before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject fractional movement source before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject missing movement before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject incorrect moving symbol before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject incorrect stage sum before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject incorrect bonus aggregate before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject incorrect cap reduction before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject missing cascade data before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Reject empty cascade data before presenting or clearing pending",
+      "passed": true,
+      "unique_charges": 1,
+      "pending_preserved": true
+    },
+    {
+      "name": "Artwork stall falls back and leaves the game usable",
+      "passed": true,
+      "startup_ms": 15000,
+      "play_enabled": true
+    },
+    {
+      "name": "Artwork error falls back and leaves the game usable",
+      "passed": true,
+      "startup_ms": 0,
+      "play_enabled": true
+    },
+    {
+      "name": "Rules in pl explain all-WILD payouts and tie removal",
+      "passed": true,
+      "explained": true
+    },
+    {
+      "name": "Rules in en explain all-WILD payouts and tie removal",
+      "passed": true,
+      "explained": true
+    },
+    {
+      "name": "Rules in de explain all-WILD payouts and tie removal",
+      "passed": true,
+      "explained": true
+    }
+  ]
+}

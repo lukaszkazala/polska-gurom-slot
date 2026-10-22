@@ -1,0 +1,42 @@
+
+test_actual_high_wins_replay_at_both_ticket_edges (__main__.HighWinRegressions.test_actual_high_wins_replay_at_both_ticket_edges) ... ok
+test_cap_mass_and_actual_free_spin_termination (__main__.HighWinRegressions.test_cap_mass_and_actual_free_spin_termination) ... ok
+test_every_integer_ticket_boundary_selects_correct_book (__main__.HighWinRegressions.test_every_integer_ticket_boundary_selects_correct_book) ... ok
+test_http_cap_settles_once_for_paid_round_and_retries (__main__.HighWinRegressions.test_http_cap_settles_once_for_paid_round_and_retries) ... ERROR
+
+======================================================================
+ERROR: test_http_cap_settles_once_for_paid_round_and_retries (__main__.HighWinRegressions.test_http_cap_settles_once_for_paid_round_and_retries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\audit\high_wins_rebuild_2026_10_22\test_high_wins.py", line 143, in test_http_cap_settles_once_for_paid_round_and_retries
+    before = client.state()
+             ^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 56, in state
+    status, body, _ = self.request("GET", "/api/state")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\test_server.py", line 34, in request
+    connection.request(method, path, body=raw, headers=extra)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1336, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1382, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1091, in _send_output
+    self.send(msg)
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1035, in send
+    self.connect()
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1001, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Kazaluka\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] Zosta³a podjêta próba uzyskania dostêpu do gniazda w sposób zabroniony przez
+przypisane do niego uprawnienia dostêpu
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.354s
+
+FAILED (errors=1)

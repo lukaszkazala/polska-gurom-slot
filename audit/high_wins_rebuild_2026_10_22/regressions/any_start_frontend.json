@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "math_version": "0.6.0-high-wins",
+  "checks": [
+    "Only reels 2–4 highlight, with the line drawn at the actual winning offset",
+    "Real shifted round settles one 2 PLN bet and the complete 0.60 PLN award",
+    "An out-of-bounds winning offset is rejected and preserves a retry of the same round"
+  ]
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22%3E%3Crect width=%2240%22 height=%2240%22 rx=%2210%22 fill=%22%232568d8%22/%3E%3Cpath d=%22M10 28V18m10 10V10m10 18V14%22 stroke=%22white%22 stroke-width=%224%22 stroke-linecap=%22round%22/%3E%3C/svg%3E">
+  <meta name="description" content="Wszystkie wyniki analiz i testów Polska Gurom: RTP, symulacje, bonusy, autospin i odporność na awarie.">
+  <title>Polska Gurom — dashboard wyników</title>
+  <link rel="stylesheet" href="style.css?v=bde84027b760">
+  <script src="data-embed.js?v=0b61d3bcb340" defer></script><script src="app.js?v=13c8f2c2ae5d" defer></script>
+</head>
+<body>
+<svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v16h17M8 15l4-5 4 2 5-7"/></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><path d="M4 11v10h16V11M3 7h18v4H3zM12 7v14M12 7C4 8 4 1 8 3l4 4Zm0 0c8 1 8-6 4-4l-4 4Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 2 8 3v7c0 5-8 10-8 10S4 17 4 12V5l8-3Z"/><path d="m8 12 3 3 5-6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5M8 12h8M8 16h6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+  <symbol id="i-warn" viewBox="0 0 24 24"><path d="m12 3 10 18H2L12 3Z"/><path d="M12 9v5m0 3v.1"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.1"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+</defs></svg>
+<a class="skip-link" href="#main">Przejdź do wyników</a>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#overview" aria-label="Polska Gurom — przegląd wyników"><span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="m6 11 8 7 6-11 6 11 8-7-3 19H9Z"/><path d="M12 34h16"/></svg></span><span>POLSKA <b>GUROM</b><small>WYNIKI GRY</small></span></a>
+  <div class="workspace-label">PROJEKT <span>PG / 01</span></div>
+  <nav class="nav" aria-label="Główna nawigacja">
+    <a href="#overview" data-view="overview" class="nav-link active"><svg><use href="#i-grid"/></svg>Przegląd<span class="nav-dot"></span></a>
+    <a href="#simulations" data-view="simulations" class="nav-link"><svg><use href="#i-chart"/></svg>Symulacje</a>
+    <a href="#bonus" data-view="bonus" class="nav-link"><svg><use href="#i-gift"/></svg>Bonusy<span class="nav-count warning" id="bonus-nav-warning">1</span></a>
+    <a href="#tests" data-view="tests" class="nav-link"><svg><use href="#i-shield"/></svg>Testy i awarie</a>
+    <a href="#history" data-view="history" class="nav-link"><svg><use href="#i-clock"/></svg>Historia projektu</a>
+    <a href="#reports" data-view="reports" class="nav-link"><svg><use href="#i-file"/></svg>Wszystkie raporty<span class="nav-count" id="report-nav-count">—</span></a>
+  </nav>
+  <div class="sidebar-note"><span class="status-dot"></span><span>Aktualny model<strong id="model-version">Wczytuję…</strong></span></div>
+  <div class="sidebar-bottom"><span>POLSKA GUROM</span><p>Wszystkie wyniki<br>w jednym miejscu.</p><small>POLSKA GUROM STUDIO</small></div>
+</aside>
+<div class="app-content">
+  <header class="topbar"><div class="breadcrumb"><button class="icon-button mobile-menu" id="menu-toggle" aria-controls="sidebar" aria-label="Otwórz nawigację" aria-expanded="false"><svg><use href="#i-menu"/></svg></button><span>Dashboard</span><span class="slash">/</span><strong id="breadcrumb-view">Przegląd</strong></div><div class="topbar-actions"><span class="snapshot"><span></span>Stan na <time id="snapshot-date">19.10.2026</time></span><a class="button subtle" data-download-html href="dashboard.html" download="POLSKA_GUROM_DASHBOARD.html" aria-label="Pobierz cały dashboard HTML"><svg><use href="#i-download"/></svg><span>Pobierz HTML</span></a></div></header>
+  <main id="main" tabindex="-1">
+    <section class="view active" id="view-overview" aria-labelledby="overview-title">
+      <div class="page-heading"><div><div class="eyebrow"><span></span>POLSKA GUROM</div><h1 id="overview-title">Wyniki gry</h1><p>RTP, bonusy i testy. Zobacz najważniejsze liczby lub przejdź do szczegółów.</p></div><div class="heading-badge"><svg><use href="#i-info"/></svg><span>Analizy lokalne<small>Bez zatwierdzenia platformy</small></span></div></div>
+      <div class="metrics-grid" id="overview-metrics"><div class="loading-card">Wczytuję wyniki…</div></div>
+      <div class="finding-banner" id="coverage-banner"><div class="finding-icon"><svg><use href="#i-warn"/></svg></div><div><span class="mini-label">DO POPRAWY W AKTUALNYM MODELU</span><h2>Bonus 12 darmowych obrotów nie występuje w wynikach.</h2><p>Zasady przewidują 5 Scatterów, ale w końcowej tabeli nie ma takiej rundy.</p></div><a href="#bonus" class="text-link">Zobacz analizę <svg><use href="#i-arrow"/></svg></a></div>
+      <div class="overview-grid"><article class="panel chart-panel"><div class="panel-heading"><div><span class="mini-label">DUŻE SYMULACJE</span><h2>RTP w kolejnych seriach</h2></div><select id="overview-model" aria-label="Model na wykresie RTP"><option value="weighted">Końcowy rozkład gry</option><option value="natural">Generator kandydatów</option></select></div><div class="chart-legend"><span><i class="gold"></i>Zmierzony RTP</span><span><i class="dashed"></i>Cel 96%</span><span><i class="range"></i>Przedział 95%</span></div><div id="overview-chart" class="rtp-chart"></div><div class="chart-caption" id="chart-caption"></div><div class="selected-run" id="selected-run"></div></article>
+      <article class="panel verification-panel"><div class="panel-heading"><div><span class="mini-label">BIEŻĄCY STAN</span><h2>Kontrola jakości</h2></div><span class="badge amber" id="coverage-status">Wczytuję…</span></div><div id="quality-list" class="quality-list"></div><div class="panel-note">Testy wykonano lokalnie. Zatwierdzenie przez Stake nie było wykonywane.</div><a class="text-link" href="#tests">Przejrzyj testy <svg><use href="#i-arrow"/></svg></a></article></div>
+      <div class="overview-bottom"><article class="panel"><div class="panel-heading"><div><span class="mini-label">CO SPRAWDZILIŚMY</span><h2>Od matematyki do utraty połączenia</h2></div><a href="#history" class="text-link">Cała historia <svg><use href="#i-arrow"/></svg></a></div><div class="milestone-grid" id="milestones"></div></article></div>
+      <article class="panel math-panel"><div class="panel-heading"><div><span class="mini-label">DOKŁADNY ROZKŁAD AKTUALNEJ GRY</span><h2>Najważniejsze parametry matematyki</h2></div><button class="text-link" data-evidence="test-interface/stake_math/mathematics.json">Pełne parametry <svg><use href="#i-arrow"/></svg></button></div><div id="math-facts"></div><p class="panel-note">Płatna runda obejmuje wszystkie kaskady i ewentualny bonus. Częstość wypłaty obejmuje również zwroty niższe od stawki; zysk oznacza wypłatę większą od stawki.</p></article>
+    </section>
+    <section class="view" id="view-simulations" aria-labelledby="simulations-title" hidden>
+      <div class="page-heading"><div><div class="eyebrow"><span></span>MATEMATYKA / SYMULACJE</div><h1 id="simulations-title">Symulacje</h1><p>Końcowe losowania, generator kandydatów i wcześniejsze strojenie matematyki.</p></div><button class="button subtle" id="export-simulations"><svg><use href="#i-download"/></svg>Eksport CSV</button></div>
+      <div class="scope-note"><svg><use href="#i-info"/></svg><p><strong>Porównuj te same modele.</strong> Losowania końcowych wag sprawdzają rozkład używany w grze. Pełne symulacje generatora sprawdzają tworzenie kandydatów. Starsze wersje mają własne parametry.</p></div>
+      <div class="filter-bar" id="simulation-filters"><button class="filter-button active" data-sim-filter="weighted">Końcowy rozkład</button><button class="filter-button" data-sim-filter="natural">Generator</button><button class="filter-button" data-sim-filter="calibration">Strojenie</button><button class="filter-button" data-sim-filter="historical">Archiwum</button><button class="filter-button" data-sim-filter="all">Wszystkie</button></div>
+      <article class="panel"><div class="panel-heading"><div><span class="mini-label" id="sim-count"></span><h2>Serie i parametry</h2></div></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Seria / model</th><th>Płatne rundy</th><th>Zmierzony RTP</th><th>Różnica od celu</th><th>Maks. wygrana</th><th></th></tr></thead><tbody id="simulations-body"></tbody></table></div><p class="table-footnote">Przedziały i seedy są dostępne w szczegółach każdej serii. Wyniki losowe mogą odbiegać od dokładnego RTP.</p></article>
+    </section>
+    <section class="view" id="view-bonus" aria-labelledby="bonus-title" hidden>
+      <div class="page-heading"><div><div class="eyebrow"><span></span>MECHANIKA / DARMOWE OBROTY</div><h1 id="bonus-title">Jak często trafia bonus?</h1><p>Częstości wyliczone ze wszystkich końcowych wag aktualnej gry.</p></div><span class="badge amber large" id="bonus-status">Wczytuję…</span></div>
+      <div class="metrics-grid three" id="bonus-metrics"></div>
+      <div class="bonus-grid"><article class="panel"><div class="panel-heading"><div><span class="mini-label">PRAWDOPODOBIEŃSTWO SERII</span><h2>Bonus w wybranej liczbie rund</h2></div></div><div class="range-heading"><label for="bonus-rounds">Liczba płatnych rund</label><div class="number-input"><input id="bonus-rounds-number" type="number" min="1" max="1000" value="100" aria-label="Liczba płatnych rund"><span>rund</span></div></div><input id="bonus-rounds" class="bonus-range" type="range" min="1" max="1000" value="100"><div class="range-labels"><span>1</span><span>500</span><span>1000</span></div><div class="round-presets"><button data-rounds="100" class="active">100</button><button data-rounds="200">200</button><button data-rounds="500">500</button><button data-rounds="1000">1000</button></div><div id="bonus-probability"></div><div class="probability-bar" aria-hidden="true"><span id="probability-fill"></span></div><div class="probability-legend"><span><i class="gold"></i>Co najmniej jeden bonus</span><span><i></i>Bez bonusu</span></div><p class="panel-note">To prawdopodobieństwo, bez gwarancji dla konkretnej sesji. Poprzednie wyniki nie podnoszą szansy następnej rundy.</p></article>
+      <article class="panel"><div class="panel-heading"><div><span class="mini-label">WARIANTY BONUSU</span><h2>8, 10 i 12 darmowych obrotów</h2></div></div><div id="bonus-types" class="bonus-types"></div><div class="panel-note amber-note" id="bonus-coverage-note"><svg><use href="#i-warn"/></svg><p><strong>Wykryta luka w pokryciu zasad.</strong> Wariant 12 obrotów jest zadeklarowany w konfiguracji, ale ma zero wyników w eksporcie. Wymaga poprawki zestawu wyników i ponownej kontroli wag.</p></div></article></div>
+      <article class="panel"><div class="panel-heading"><div><span class="mini-label">AKTUALNE LOSOWANIA PO NAPRAWIE 12FS</span><h2>Bonusy w seriach 10, 50 i 100 mln</h2></div><button class="text-link" id="open-bonus-evidence">Pełny raport <svg><use href="#i-arrow"/></svg></button></div><div class="table-scroll"><table class="data-table"><thead><tr><th>Płatne rundy</th><th>Trafione bonusy</th><th>Zmierzona częstość</th><th>Średni odstęp w próbie</th><th>Bonusy 12 FS</th></tr></thead><tbody id="bonus-runs-body"></tbody></table></div></article>
+    </section>
+    <section class="view" id="view-tests" aria-labelledby="tests-title" hidden>
+      <div class="page-heading"><div><div class="eyebrow"><span></span>WERYFIKACJA / ZACHOWANIE GRY</div><h1 id="tests-title">Testy i awarie</h1><p>Scenariusze, warstwa sprawdzenia i dowody — także dla przerwanych połączeń.</p></div></div>
+      <div class="test-summary" id="test-summary"></div>
+      <div class="test-toolbar"><div class="filter-bar" id="test-filters"><button class="filter-button active" data-test-filter="current">Aktualne</button><button class="filter-button" data-test-filter="network">Sieć i awarie</button><button class="filter-button" data-test-filter="historical">Wcześniejsze</button><button class="filter-button" data-test-filter="all">Wszystkie</button></div><label class="search-field"><svg><use href="#i-search"/></svg><input type="search" id="test-search" placeholder="Szukaj scenariusza, np. timeout…" aria-label="Szukaj testu"></label></div>
+      <div id="test-suites" class="test-suites"></div>
+      <div class="scope-note bottom-note"><svg><use href="#i-info"/></svg><p>Restart lokalnego serwera usuwa wirtualny portfel i historię z pamięci. Stare żądanie jest blokowane przed ponownym rozliczeniem. To testy lokalne, bez rzeczywistego portfela Stake.</p></div>
+    </section>
+    <section class="view" id="view-history" aria-labelledby="history-title" hidden>
+      <div class="page-heading"><div><div class="eyebrow"><span></span>ARCHIWUM / KOLEJNE ETAPY</div><h1 id="history-title">Historia projektu</h1><p>Wyniki wcześniejszych modeli zachowane z ich kontekstem i ograniczeniami.</p></div><span class="badge neutral">Archiwum badań</span></div>
+      <div class="scope-note"><svg><use href="#i-clock"/></svg><p>Starsze RTP i wyniki testów dotyczą konkretnej wersji. Nie przenoszą się automatycznie na aktualną grę z kaskadami i ważonymi wynikami.</p></div><div id="history-timeline" class="history-timeline"></div>
+    </section>
+    <section class="view" id="view-reports" aria-labelledby="reports-title" hidden>
+      <div class="page-heading"><div><div class="eyebrow"><span></span>BIBLIOTEKA / DOWODY ŹRÓDŁOWE</div><h1 id="reports-title">Raporty źródłowe</h1><p>Otwórz podsumowanie, sprawdź źródło lub pobierz pełny plik.</p></div><button class="button subtle export-data" aria-label="Pobierz dane JSON"><svg><use href="#i-download"/></svg>Zbiorcze dane JSON</button></div>
+      <div class="reports-toolbar"><label class="search-field wide"><svg><use href="#i-search"/></svg><input type="search" id="report-search" placeholder="Szukaj raportu, tematu lub nazwy pliku…" aria-label="Szukaj raportu"></label><select id="report-category" aria-label="Kategoria raportu"><option value="all">Wszystkie kategorie</option></select><span class="results-count" id="report-count"></span></div><div id="reports-grid" class="reports-grid"></div>
+    </section>
+    <footer class="page-footer"><span><b>PG</b> POLSKA GUROM <i>WYNIKI</i></span><p>Dane z zapisanych analiz. <span id="footer-report-count"></span> raportów źródłowych.</p><button class="text-link" id="about-data">O danych <svg><use href="#i-info"/></svg></button></footer>
+  </main>
+</div>
+<dialog id="detail-dialog" class="detail-dialog"><div class="dialog-header"><div><span class="mini-label" id="dialog-eyebrow">SZCZEGÓŁY</span><h2 id="dialog-title"></h2></div><button class="icon-button" id="close-dialog" aria-label="Zamknij szczegóły"><svg><use href="#i-close"/></svg></button></div><div class="dialog-body" id="dialog-body"></div><div class="dialog-footer"><span id="dialog-footnote"></span><a id="dialog-download" class="button subtle" download><svg><use href="#i-download"/></svg>Pobierz źródło</a></div></dialog>
+<div class="toast" role="status" id="toast" hidden></div>
+<noscript><div class="noscript">Włącz JavaScript, aby korzystać z filtrów i wykresów dashboardu. Raporty znajdują się w folderze reports.</div></noscript>
+</body></html>

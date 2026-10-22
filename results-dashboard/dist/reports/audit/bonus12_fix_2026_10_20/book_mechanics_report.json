@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "exported_books_checked": 100048,
+  "full_local_replay_matches_export": true,
+  "unique_complete_events": 100048,
+  "max_win_books_checked": 4,
+  "bonus_books_checked": 526,
+  "independent_oracle": {
+    "stages_checked": 144418,
+    "line_awards_checked": 125184,
+    "base_spins_checked": 100055,
+    "new_symbols_checked": 167747,
+    "transitions_checked": 39996,
+    "free_spins_checked": 4367,
+    "expansions_checked": 1103,
+    "falling_survivors_checked": 128027
+  },
+  "original_v02": {
+    "files_checked": 30,
+    "unchanged": true
+  },
+  "source_fingerprint": {
+    "config.py": "a0ec242a1e6d69ff70b9c4f69b57bf037a33267e9360c5ca6fedb76f2752884b",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6"
+  },
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "elapsed_seconds": 52.226700000000164,
+  "math_version": "0.4.1-weighted-12fs",
+  "scope": "Current 0.4.1 bank after real 12FS feature coverage repair; full replay and independent mechanics, not platform approval",
+  "validation_source": "audit/stake_cascades_v04/verify_book_mechanics.py reused with new audit output only",
+  "bonus_book_counts": {
+    "8": 473,
+    "10": 29,
+    "12": 24
+  },
+  "twelve_free_spin_books_checked": 24
+}

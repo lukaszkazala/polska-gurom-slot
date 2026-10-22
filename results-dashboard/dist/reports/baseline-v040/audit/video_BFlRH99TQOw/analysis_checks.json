@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-18",
+  "video_id": "BFlRH99TQOw",
+  "visual_observation_times_seconds": [
+    19,
+    39,
+    97,
+    127
+  ],
+  "transcript_sha256": "ea09234bc5735bdffaa934ea345f86d51d8301bed3adddfeb18dcbb8ed1c9a0d",
+  "frequency_table": {
+    "seven": [
+      1,
+      1,
+      1
+    ],
+    "bar": [
+      3,
+      2,
+      1
+    ],
+    "melon": [
+      2,
+      2,
+      2
+    ],
+    "bell": [
+      1,
+      5,
+      8
+    ],
+    "plum": [
+      7,
+      3,
+      3
+    ],
+    "orange": [
+      5,
+      5,
+      4
+    ],
+    "cherry": [
+      2,
+      6,
+      0
+    ],
+    "lemon": [
+      0,
+      0,
+      4
+    ]
+  },
+  "symbol_label_totals": [
+    21,
+    24,
+    23
+  ],
+  "stops_per_reel_as_stated_in_video": 20,
+  "table_rows": [
+    {
+      "pattern": "seven seven seven",
+      "payout": 200,
+      "count": 1,
+      "row_return": 200
+    },
+    {
+      "pattern": "bar bar bar",
+      "payout": 100,
+      "count": 6,
+      "row_return": 600
+    },
+    {
+      "pattern": "melon melon melon",
+      "payout": 100,
+      "count": 8,
+      "row_return": 800
+    },
+    {
+      "pattern": "melon melon bar",
+      "payout": 100,
+      "count": 4,
+      "row_return": 400
+    },
+    {
+      "pattern": "bell bell bell",
+      "payout": 18,
+      "count": 40,
+      "row_return": 720
+    },
+    {
+      "pattern": "bell bell bar",
+      "payout": 18,
+      "count": 5,
+      "row_return": 90
+    },
+    {
+      "pattern": "plum plum plum",
+      "payout": 14,
+      "count": 63,
+      "row_return": 882
+    },
+    {
+      "pattern": "plum plum bar",
+      "payout": 14,
+      "count": 21,
+      "row_return": 294
+    },
+    {
+      "pattern": "orange orange orange",
+      "payout": 10,
+      "count": 100,
+      "row_return": 1000
+    },
+    {
+      "pattern": "orange orange bar",
+      "payout": 10,
+      "count": 25,
+      "row_return": 250
+    },
+    {
+      "pattern": "cherry cherry any",
+      "payout": 5,
+      "count": 240,
+      "row_return": 1200
+    },
+    {
+      "pattern": "cherry non-cherry any",
+      "payout": 2,
+      "count": 560,
+      "row_return": 1120
+    }
+  ],
+  "stop_combinations_three_reels": 8000,
+  "sum_of_displayed_row_counts": 1073,
+  "sum_of_displayed_row_returns": 7556,
+  "row_count_ratio_percent": 13.4125,
+  "distinct_hit_count_independently_certified": false,
+  "reason": "Dual-symbol stop mapping and payout priority are not fully specified by the marginal table.",
+  "rtp_from_row_return_sum_fraction": "1889/2000",
+  "rtp_from_row_return_sum_percent": 94.45,
+  "house_edge_if_this_aggregate_is_actual_settlement": 0.0555,
+  "fixed_absolute_prizes_new_cost_0_94": {
+    "expected_payout": 0.9445,
+    "expected_net": 0.0045,
+    "rtp_percent": 100.47872340425532
+  },
+  "proportionally_scaled_prizes_new_cost_0_94": {
+    "expected_payout": 0.88783,
+    "expected_net": -0.05217,
+    "rtp_percent": 94.45
+  },
+  "stop_combinations_five_reels": 3200000,
+  "project_stop_combinations": 60466176,
+  "project_math_config_sha256": "d79c6643b616c077afe91803cb0b96a65a7a7ef004b4d51416dad18570958148",
+  "current_first_moments_match_previously_verified_distribution": true,
+  "project_rtp_uncapped": 0.9599999998267222,
+  "project_positive_payout_probability": 0.2970869532083524,
+  "project_net_profit_probability": 0.1788952361085797,
+  "project_source_hashes": {
+    "polska_gurom_v0_2/polska_gurom/config.py": "363da616865d228043dfacb298316ee0cd5ec181c97be2daae9d65e72d050d6d",
+    "polska_gurom_v0_2/polska_gurom/game.py": "824ac9a83e779e607e0a75b8f3a7440957a14251479ac75078323005c2aa92b9",
+    "polska_gurom_v0_2/polska_gurom/theory.py": "3db12a4d025132a3c1b999caf95d4aabe48faec62695deeb5124d6a224d96f11",
+    "polska_gurom_v0_2/docs/PAR_SHEET.md": "1b8c82c29472f80b7cc7e1fc2f51e7131f77cb4f32992701068edfebb9c48d9b",
+    "polska_gurom_v0_2/docs/MATH_SPECIFICATION.md": "694912b865f3e8ded6a17edd7e351e6bda615a936523ec983074a5765251f970",
+    "polska_gurom_v0_2/docs/GAME_DESIGN_DOCUMENT.md": "24706bec3863d6208648e84b14c3f8ce9b7e9ab0c8ee014d99daec5bbd2f8adf",
+    "polska_gurom_v0_2/README.md": "5a6e9ba47f230266851c80d4d9fa77e64fd97bf9f770653830ba26b6b62dab0c"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "date": "2026-10-21",
+  "scope": "RGS client implementation and local contract tests; no connection to the real Stake environment",
+  "regression_suites": 12,
+  "original_and_fixes_tests": 134,
+  "new_rgs_logic_tests": 60,
+  "new_rgs_http_tests": 5,
+  "total_tests": 199,
+  "local_books_validated": 100049,
+  "synthetic_rgs_books_validated": 100049,
+  "package_checks": 124,
+  "engine_and_math_unchanged": true,
+  "live_rgs_verified": false,
+  "packages": {
+    "POLSKA_GUROM_RGS_FRONTEND.zip": {
+      "sha256": "14f5ab18f9d1d4277caa27700a2bb8e4fe54d0d175d8c52386807ffc0ea5cef0",
+      "files": 18,
+      "bytes": 14417973
+    },
+    "POLSKA_GUROM_RGS_TEST.zip": {
+      "sha256": "43cdefb57ae8451b6371b9ecfadc9d99a092246373ae6d50c879850c32097d22",
+      "files": 30,
+      "bytes": 14448888
+    },
+    "POLSKA_GUROM_TESTER.zip": {
+      "sha256": "b487aca4eb5656eef96fea67cb8b7cd7cadc7059404a8ac5487d66753d39019d",
+      "files": 35,
+      "bytes": 24697448
+    }
+  }
+}

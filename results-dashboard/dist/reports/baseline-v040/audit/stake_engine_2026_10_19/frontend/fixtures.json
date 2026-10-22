@@ -1,0 +1,4110 @@
+{
+  "config": {
+    "symbols": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "WILD",
+      "SCATTER"
+    ],
+    "paylines": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "paytable_units": {
+      "L1": {
+        "3": 16,
+        "4": 80,
+        "5": 250
+      },
+      "L2": {
+        "3": 25,
+        "4": 100,
+        "5": 350
+      },
+      "L3": {
+        "3": 30,
+        "4": 120,
+        "5": 450
+      },
+      "L4": {
+        "3": 40,
+        "4": 160,
+        "5": 600
+      },
+      "P1": {
+        "3": 60,
+        "4": 250,
+        "5": 1000
+      },
+      "P2": {
+        "3": 80,
+        "4": 350,
+        "5": 1500
+      },
+      "P3": {
+        "3": 120,
+        "4": 550,
+        "5": 2500
+      },
+      "P4": {
+        "3": 200,
+        "4": 1000,
+        "5": 5000
+      }
+    },
+    "scatter_paytable_units": {
+      "3": 100,
+      "4": 500,
+      "5": 2000
+    },
+    "free_spins": {
+      "3": 8,
+      "4": 10,
+      "5": 12
+    },
+    "payout_scale": 100,
+    "max_win_units": 500000,
+    "fs_line_multiplier": 4,
+    "bet_options_cents": [
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "initial_balance_cents": 1000000
+  },
+  "cap": {
+    "round_id": "4bb42835-7557-43ed-9eb4-d8c70efb2d1d",
+    "mode": "random",
+    "is_scenario": false,
+    "created_at": "2026-10-19T10:15:48.383Z",
+    "bet_cents": 100,
+    "balance_before_cents": 1000000,
+    "balance_cents": 1499900,
+    "win_cents": 500000,
+    "round": {
+      "base": {
+        "grid": [
+          [
+            "P3",
+            "P3",
+            "P3",
+            "P3",
+            "P3"
+          ],
+          [
+            "L1",
+            "L1",
+            "L1",
+            "L1",
+            "L1"
+          ],
+          [
+            "SCATTER",
+            "SCATTER",
+            "SCATTER",
+            "SCATTER",
+            "SCATTER"
+          ]
+        ],
+        "evaluation_grid": [
+          [
+            "P3",
+            "P3",
+            "P3",
+            "P3",
+            "P3"
+          ],
+          [
+            "L1",
+            "L1",
+            "L1",
+            "L1",
+            "L1"
+          ],
+          [
+            "SCATTER",
+            "SCATTER",
+            "SCATTER",
+            "SCATTER",
+            "SCATTER"
+          ]
+        ],
+        "line_wins": [
+          {
+            "line_id": 1,
+            "rows": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "symbol": "L1",
+            "count": 5,
+            "payout_units": 250,
+            "line_multiplier": 1
+          },
+          {
+            "line_id": 2,
+            "rows": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "symbol": "L1",
+            "count": 3,
+            "payout_units": 16,
+            "line_multiplier": 1
+          },
+          {
+            "line_id": 3,
+            "rows": [
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "symbol": "L1",
+            "count": 3,
+            "payout_units": 16,
+            "line_multiplier": 1
+          },
+          {
+            "line_id": 4,
+            "rows": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "symbol": "P3",
+            "count": 5,
+            "payout_units": 2500,
+            "line_multiplier": 1
+          },
+          {
+            "line_id": 6,
+            "rows": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "symbol": "P3",
+            "count": 3,
+            "payout_units": 120,
+            "line_multiplier": 1
+          },
+          {
+            "line_id": 16,
+            "rows": [
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "symbol": "P3",
+            "count": 3,
+            "payout_units": 120,
+            "line_multiplier": 1
+          }
+        ],
+        "line_payout_units": 3022,
+        "scatter_payout_units": 2000,
+        "raw_payout_units": 5022,
+        "payout_units": 5022,
+        "scatter_count": 5,
+        "bonus_triggered": true,
+        "free_spins_awarded": 12,
+        "expanding_reel": null,
+        "line_multiplier": 1
+      },
+      "free_spins": [
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        },
+        {
+          "grid": [
+            [
+              "P3",
+              "L2",
+              "P4",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "L2",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "L1",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "evaluation_grid": [
+            [
+              "P3",
+              "L2",
+              "WILD",
+              "L2",
+              "P3"
+            ],
+            [
+              "L2",
+              "WILD",
+              "WILD",
+              "WILD",
+              "L2"
+            ],
+            [
+              "WILD",
+              "L4",
+              "WILD",
+              "L4",
+              "WILD"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 1,
+              "rows": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 2,
+              "rows": [
+                1,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 3,
+              "rows": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 5,
+              "rows": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "symbol": "L4",
+              "count": 5,
+              "payout_units": 2400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 7,
+              "rows": [
+                2,
+                2,
+                2,
+                1,
+                1
+              ],
+              "symbol": "L4",
+              "count": 4,
+              "payout_units": 640,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 8,
+              "rows": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 9,
+              "rows": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 10,
+              "rows": [
+                0,
+                1,
+                1,
+                2,
+                2
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 11,
+              "rows": [
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "symbol": "P4",
+              "count": 3,
+              "payout_units": 800,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 13,
+              "rows": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "L2",
+              "count": 3,
+              "payout_units": 100,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 14,
+              "rows": [
+                1,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 15,
+              "rows": [
+                1,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "L2",
+              "count": 4,
+              "payout_units": 400,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 17,
+              "rows": [
+                0,
+                1,
+                2,
+                1,
+                0
+              ],
+              "symbol": "P3",
+              "count": 5,
+              "payout_units": 10000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 18,
+              "rows": [
+                2,
+                1,
+                0,
+                1,
+                2
+              ],
+              "symbol": "P4",
+              "count": 5,
+              "payout_units": 20000,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 19,
+              "rows": [
+                0,
+                1,
+                2,
+                2,
+                1
+              ],
+              "symbol": "P3",
+              "count": 3,
+              "payout_units": 480,
+              "line_multiplier": 4
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L2",
+              "count": 5,
+              "payout_units": 1400,
+              "line_multiplier": 4
+            }
+          ],
+          "line_payout_units": 71400,
+          "scatter_payout_units": 0,
+          "raw_payout_units": 71400,
+          "payout_units": 71400,
+          "scatter_count": 0,
+          "bonus_triggered": false,
+          "free_spins_awarded": 0,
+          "expanding_reel": 2,
+          "line_multiplier": 4
+        }
+      ],
+      "free_spin_credits": [
+        71400,
+        71400,
+        71400,
+        71400,
+        71400,
+        71400,
+        66578,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_payout_units": 861822,
+      "payout_units": 500000,
+      "bonus_payout_units": 494978,
+      "cap_reduction_units": 361822
+    },
+    "stats": {
+      "rounds": 1,
+      "total_bet_cents": 100,
+      "total_win_cents": 500000
+    }
+  },
+  "history": {
+    "round_id": "5af0305c-8228-4ba9-bd92-b31db56d782c",
+    "mode": "random",
+    "is_scenario": false,
+    "created_at": "2026-10-19T10:15:48.381Z",
+    "bet_cents": 100,
+    "balance_before_cents": 1000000,
+    "balance_cents": 999900,
+    "win_cents": 0,
+    "round": {
+      "base": {
+        "grid": [
+          [
+            "L2",
+            "P1",
+            "L2",
+            "P4",
+            "L2"
+          ],
+          [
+            "P3",
+            "L3",
+            "P2",
+            "L3",
+            "WILD"
+          ],
+          [
+            "L1",
+            "P4",
+            "L4",
+            "P1",
+            "L4"
+          ]
+        ],
+        "evaluation_grid": [
+          [
+            "L2",
+            "P1",
+            "L2",
+            "P4",
+            "L2"
+          ],
+          [
+            "P3",
+            "L3",
+            "P2",
+            "L3",
+            "WILD"
+          ],
+          [
+            "L1",
+            "P4",
+            "L4",
+            "P1",
+            "L4"
+          ]
+        ],
+        "line_wins": [],
+        "line_payout_units": 0,
+        "scatter_payout_units": 0,
+        "raw_payout_units": 0,
+        "payout_units": 0,
+        "scatter_count": 0,
+        "bonus_triggered": false,
+        "free_spins_awarded": 0,
+        "expanding_reel": null,
+        "line_multiplier": 1
+      },
+      "free_spins": [],
+      "free_spin_credits": [],
+      "raw_payout_units": 0,
+      "payout_units": 0,
+      "bonus_payout_units": 0,
+      "cap_reduction_units": 0
+    },
+    "stats": {
+      "rounds": 1,
+      "total_bet_cents": 100,
+      "total_win_cents": 0
+    }
+  },
+  "symbols": {
+    "L1": {
+      "pl": "Diament",
+      "en": "Diamond",
+      "de": "Diamant",
+      "image": null
+    },
+    "L2": {
+      "pl": "Pik",
+      "en": "Spade",
+      "de": "Pik",
+      "image": null
+    },
+    "L3": {
+      "pl": "Serce",
+      "en": "Heart",
+      "de": "Herz",
+      "image": null
+    },
+    "L4": {
+      "pl": "Trefl",
+      "en": "Club",
+      "de": "Kreuz",
+      "image": null
+    },
+    "P1": {
+      "pl": "Lilia",
+      "en": "Lily",
+      "de": "Lilie",
+      "image": null
+    },
+    "P2": {
+      "pl": "Kielich",
+      "en": "Goblet",
+      "de": "Kelch",
+      "image": null
+    },
+    "P3": {
+      "pl": "Korona",
+      "en": "Crown",
+      "de": "Krone",
+      "image": null
+    },
+    "P4": {
+      "pl": "Husarz",
+      "en": "Hussar",
+      "de": "Husar",
+      "image": null
+    },
+    "WILD": {
+      "pl": "Wild",
+      "en": "Wild",
+      "de": "Wild",
+      "image": null
+    },
+    "SCATTER": {
+      "pl": "Scatter",
+      "en": "Scatter",
+      "de": "Scatter",
+      "image": null
+    }
+  }
+}

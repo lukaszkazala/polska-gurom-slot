@@ -1,0 +1,34 @@
+PASS Checkpoint uses authenticated bet/event with no amount or new play
+PASS New browser state resumes server checkpoint without local recovery storage
+PASS Zero payout auto-closed round never sends bet/event or end-round
+PASS Duplicate or older checkpoints do not move progress backwards
+PASS More advanced server checkpoint wins over older local checkpoint
+PASS Local completed presentation survives lost checkpoint acknowledgement
+PASS Lost event response remains recoverable even after losing all browser storage
+PASS Checkpoint not reaching server preserves local completed progress
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 8
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 9
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 10
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 11
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 12
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 13
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 14
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 15
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 16
+PASS Malformed or foreign server checkpoint cannot skip unshown bonus 17
+PASS Unconfirmed event echo is rejected and round is not settled
+PASS Same betID with changed authoritative outcome cannot settle cached result
+PASS Object key order differences do not change the authoritative outcome
+PASS Expired session while recovering does not discard uncertain paid intent
+PASS Concurrent finish requests cannot issue two end-round calls
+PASS Settlement network-before retries by recovery, never by new play
+PASS Settlement 500 retries by recovery, never by new play
+PASS Settlement lost-response retries by recovery, never by new play
+PASS Settlement bad-json retries by recovery, never by new play
+PASS Initial authentication failure offers reconnect without duplicate handlers or cells
+PASS Bonus pauses at fourth free spin after event network-before and resumes safely
+PASS Bonus pauses at fourth free spin after event lost-response and resumes safely
+PASS Fresh UI without old browser storage resumes fifth free spin from RGS event
+PASS Changed permitted stakes do not discard already paid active bonus
+PASS Offline recovery authentication preserves UI intent until reconnect
+{"passed":true,"total":33,"failed":0}

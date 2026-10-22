@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "sourceReports": 166,
+  "copiesByteIdentical": true,
+  "embeddedDataMatchesJson": true,
+  "externalScriptOrStyleDependencies": 0,
+  "singleFileBytes": 8064900,
+  "bundleCompression": "gzip+base64; all raw report bytes preserved",
+  "mathVersion": "0.4.1-weighted-12fs"
+}

@@ -1,0 +1,295 @@
+{
+  "passed": true,
+  "method": "Real app.js and rgs-client.js; deterministic minimal DOM with mock API. Amount and language logic, not browser layout or live platform acceptance.",
+  "checks": [
+    {
+      "name": "Demo launch lang=\"pl\" selects pl before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"pl\" selects pl before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"en\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"en\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"de\" selects de before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"de\" selects de before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"PL\" selects pl before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"PL\" selects pl before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"pl-PL\" selects pl before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"pl-PL\" selects pl before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"en_US\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"en_US\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"de-DE\" selects de before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"de-DE\" selects de before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"  DE  \" selects de before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"  DE  \" selects de before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"fr\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"fr\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"__proto__\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"__proto__\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo launch lang=\"constructor\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "RGS launch lang=\"constructor\" selects en before requests",
+      "passed": true
+    },
+    {
+      "name": "Demo without lang uses saved de as de",
+      "passed": true
+    },
+    {
+      "name": "Demo without lang uses saved en as en",
+      "passed": true
+    },
+    {
+      "name": "Demo without lang uses saved invalid as pl",
+      "passed": true
+    },
+    {
+      "name": "Demo without lang uses saved constructor as pl",
+      "passed": true
+    },
+    {
+      "name": "Demo without lang uses saved null as pl",
+      "passed": true
+    },
+    {
+      "name": "RGS without lang defaults to English despite saved Polish",
+      "passed": true
+    },
+    {
+      "name": "Invalid or unsupported launch keeps its language: de",
+      "passed": true
+    },
+    {
+      "name": "Invalid or unsupported launch keeps its language: en",
+      "passed": true
+    },
+    {
+      "name": "Invalid or unsupported launch keeps its language: de",
+      "passed": true
+    },
+    {
+      "name": "Invalid or unsupported launch keeps its language: en",
+      "passed": true
+    },
+    {
+      "name": "Invalid or unsupported launch keeps its language: de",
+      "passed": true
+    },
+    {
+      "name": "Demo reconnect retains manually selected language",
+      "passed": true
+    },
+    {
+      "name": "RGS reconnect retains manually selected language",
+      "passed": true
+    },
+    {
+      "name": "Complete UI dictionaries and DOM translation keys in pl",
+      "passed": true,
+      "translation_keys": 195
+    },
+    {
+      "name": "Complete UI dictionaries and DOM translation keys in en",
+      "passed": true,
+      "translation_keys": 195
+    },
+    {
+      "name": "Complete UI dictionaries and DOM translation keys in de",
+      "passed": true,
+      "translation_keys": 195
+    },
+    {
+      "name": "Amounts in pl/PLN retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 PLN",
+      "maximum_safe_amount": "9 007 199 254,740991 PLN"
+    },
+    {
+      "name": "Amounts in pl/USD retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 USD",
+      "maximum_safe_amount": "9 007 199 254,740991 USD"
+    },
+    {
+      "name": "Amounts in pl/EUR retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 EUR",
+      "maximum_safe_amount": "9 007 199 254,740991 EUR"
+    },
+    {
+      "name": "Amounts in pl/JPY retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 JPY",
+      "maximum_safe_amount": "9 007 199 254,740991 JPY"
+    },
+    {
+      "name": "Amounts in pl/KWD retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 KWD",
+      "maximum_safe_amount": "9 007 199 254,740991 KWD"
+    },
+    {
+      "name": "Amounts in en/PLN retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "PLN 0.000001",
+      "maximum_safe_amount": "PLN 9,007,199,254.740991"
+    },
+    {
+      "name": "Amounts in en/USD retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "USD 0.000001",
+      "maximum_safe_amount": "USD 9,007,199,254.740991"
+    },
+    {
+      "name": "Amounts in en/EUR retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "EUR 0.000001",
+      "maximum_safe_amount": "EUR 9,007,199,254.740991"
+    },
+    {
+      "name": "Amounts in en/JPY retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "JPY 0.000001",
+      "maximum_safe_amount": "JPY 9,007,199,254.740991"
+    },
+    {
+      "name": "Amounts in en/KWD retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "KWD 0.000001",
+      "maximum_safe_amount": "KWD 9,007,199,254.740991"
+    },
+    {
+      "name": "Amounts in de/PLN retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 PLN",
+      "maximum_safe_amount": "9.007.199.254,740991 PLN"
+    },
+    {
+      "name": "Amounts in de/USD retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 USD",
+      "maximum_safe_amount": "9.007.199.254,740991 USD"
+    },
+    {
+      "name": "Amounts in de/EUR retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 EUR",
+      "maximum_safe_amount": "9.007.199.254,740991 EUR"
+    },
+    {
+      "name": "Amounts in de/JPY retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 JPY",
+      "maximum_safe_amount": "9.007.199.254,740991 JPY"
+    },
+    {
+      "name": "Amounts in de/KWD retain currency precision and nonzero micro units",
+      "passed": true,
+      "one_micro_unit": "0,000001 KWD",
+      "maximum_safe_amount": "9.007.199.254,740991 KWD"
+    },
+    {
+      "name": "Demo amounts retain PLN formatting in pl",
+      "passed": true
+    },
+    {
+      "name": "Demo amounts retain PLN formatting in en",
+      "passed": true
+    },
+    {
+      "name": "Demo amounts retain PLN formatting in de",
+      "passed": true
+    },
+    {
+      "name": "Server error codes and unknown error details are localized in pl",
+      "passed": true
+    },
+    {
+      "name": "Server error codes and unknown error details are localized in en",
+      "passed": true
+    },
+    {
+      "name": "Server error codes and unknown error details are localized in de",
+      "passed": true
+    },
+    {
+      "name": "Reset message formats the actual returned balance in pl",
+      "passed": true
+    },
+    {
+      "name": "Reset message formats the actual returned balance in en",
+      "passed": true
+    },
+    {
+      "name": "Reset message formats the actual returned balance in de",
+      "passed": true
+    }
+  ]
+}

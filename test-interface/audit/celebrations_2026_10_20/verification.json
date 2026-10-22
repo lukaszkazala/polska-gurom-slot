@@ -1,0 +1,12 @@
+{
+  "engine_and_server_unchanged": {
+    "engine\\polska_gurom\\config.py": true,
+    "engine\\polska_gurom\\game.py": true,
+    "engine\\polska_gurom\\selection.py": true,
+    "server.py": true
+  },
+  "module_tests": "pass: thresholds, exact supplied value, skip, replacement, hidden cleanup, reduced motion, timeout cleanup",
+  "frontend_regression": "13 autoplay/retry/settlement checks passed; 3 any-start checks passed",
+  "browser": "8-FS real test scenario completed: 148.20 PLN total, 136.80 PLN bonus, no console errors; desktop and 320px mobile previews inspected",
+  "math_version": "0.5.0-any-start"
+}

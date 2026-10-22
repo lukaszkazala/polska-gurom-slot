@@ -1,0 +1,9 @@
+{
+  "pid": 22360,
+  "origin": "http://192.168.1.19:8785",
+  "build_id": "iphone15-safari-20261022T095007",
+  "access_url": "http://192.168.1.19:8785/__phone/start?key=wv5lVdTgW_vVHUXAXDcl6SO4A0WvlHJT",
+  "device": "iPhone 15",
+  "browser": "Safari",
+  "state": "running"
+}

@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "rounds": 10000,
+  "scope": "Independent line, movement and settlement invariants; diagnostic random sample only.",
+  "rtp_notice": "Empirical result from this small sample is not theoretical RTP, a 96% claim, or certification.",
+  "original_v0_2": {
+    "files_checked": 30,
+    "unchanged": true
+  },
+  "forced_cases": {
+    "forced_base_limits": 5,
+    "forced_free_limits": 3,
+    "scatter_before_expansion": true,
+    "partial_final_award": true,
+    "full_round_base_cap": true,
+    "full_round_bonus_cap": true
+  },
+  "deterministic_seeds": {
+    "first": 0,
+    "last": 9999
+  },
+  "bonus_rounds": 59,
+  "base_rounds_with_cascades": 6162,
+  "empirical_rtp_percent": 220.539,
+  "empirical_base_return_percent": 167.095,
+  "empirical_bonus_return_percent": 53.444,
+  "maximum_observed_bet_multiple": 293.1,
+  "counts": {
+    "stages_checked": 21340,
+    "line_awards_checked": 36681,
+    "base_spins_checked": 10007,
+    "new_symbols_checked": 49135,
+    "transitions_checked": 10846,
+    "free_spins_checked": 487,
+    "expansions_checked": 115,
+    "falling_survivors_checked": 31348
+  },
+  "elapsed_seconds": 8.985
+}

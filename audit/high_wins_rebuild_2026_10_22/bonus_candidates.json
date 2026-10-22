@@ -1,0 +1,4157 @@
+{
+  "candidate_count": 11016,
+  "unique_rounds": 7752,
+  "unique_high_rounds": 6349,
+  "legal_rng_draws_checked": 1252678,
+  "variants": {
+    "8": {
+      "distinct_high_payouts": 1291,
+      "largest_gap_units": 7680,
+      "largest_gaps_units": [
+        [
+          7680,
+          228860,
+          236540
+        ],
+        [
+          7640,
+          130980,
+          138620
+        ],
+        [
+          5080,
+          144580,
+          149660
+        ],
+        [
+          4240,
+          466940,
+          471180
+        ],
+        [
+          4240,
+          236540,
+          240780
+        ]
+      ],
+      "cap_sequences": 350,
+      "example_cap": {
+        "spec": {
+          "recipe": {
+            "name": "bonus_wild_refill",
+            "stops": [
+              35,
+              28,
+              17,
+              16,
+              31
+            ],
+            "free_spin_stops": [
+              4,
+              33,
+              27,
+              19,
+              11
+            ],
+            "wild_refill_limit": 29,
+            "expanding_reel": null,
+            "fallback_seed": 20261022
+          }
+        },
+        "fs": 8,
+        "payout_units": 500000,
+        "event_sha256": "a2a6c4727868d16eca954fe905c3cbadb60520f744db6cfb5aa51a69b6df0453",
+        "free_spins_played": 1,
+        "cap_reduction_units": 61460
+      }
+    },
+    "10": {
+      "distinct_high_payouts": 1326,
+      "largest_gap_units": 7680,
+      "largest_gaps_units": [
+        [
+          7680,
+          233540,
+          241220
+        ],
+        [
+          5760,
+          139020,
+          144780
+        ],
+        [
+          4320,
+          134700,
+          139020
+        ],
+        [
+          4280,
+          150060,
+          154340
+        ],
+        [
+          4040,
+          216140,
+          220180
+        ]
+      ],
+      "cap_sequences": 379,
+      "example_cap": {
+        "spec": {
+          "recipe": {
+            "name": "bonus_wild_refill",
+            "stops": [
+              35,
+              28,
+              17,
+              16,
+              8
+            ],
+            "free_spin_stops": [
+              4,
+              33,
+              27,
+              19,
+              11
+            ],
+            "wild_refill_limit": 29,
+            "expanding_reel": null,
+            "fallback_seed": 20261022
+          }
+        },
+        "fs": 10,
+        "payout_units": 500000,
+        "event_sha256": "ba7fd7cbedbcf77d179b8c9d591eea4bf73d626a1f951dc53d9f245e3b2fdc24",
+        "free_spins_played": 1,
+        "cap_reduction_units": 61860
+      }
+    },
+    "12": {
+      "distinct_high_payouts": 1299,
+      "largest_gap_units": 7680,
+      "largest_gaps_units": [
+        [
+          7680,
+          238680,
+          246360
+        ],
+        [
+          5000,
+          150360,
+          155360
+        ],
+        [
+          4800,
+          139520,
+          144320
+        ],
+        [
+          4000,
+          469080,
+          473080
+        ],
+        [
+          3480,
+          235200,
+          238680
+        ]
+      ],
+      "cap_sequences": 421,
+      "example_cap": {
+        "spec": {
+          "recipe": {
+            "name": "bonus_wild_refill",
+            "stops": [
+              35,
+              27,
+              22,
+              15,
+              8
+            ],
+            "free_spin_stops": [
+              4,
+              33,
+              27,
+              19,
+              11
+            ],
+            "wild_refill_limit": 29,
+            "expanding_reel": null,
+            "fallback_seed": 20261022
+          }
+        },
+        "fs": 12,
+        "payout_units": 500000,
+        "event_sha256": "fd58c68075423e837c909ddebd5d521f72c46ab506b5ae5f4fdfd6fb83c70d71",
+        "free_spins_played": 1,
+        "cap_reduction_units": 63360
+      }
+    }
+  },
+  "elapsed_seconds": 33.985359899998,
+  "candidates": [
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 2,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 62340,
+      "event_sha256": "9eb3ba69478633646e62ad3e1abddc53208b95d67674b60b2341829011606fa3",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 10,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 62700,
+      "event_sha256": "971f52f1ff1eef15eb3b08b3f07d6b0a7cb1383f5709b844c1a12b89c7bda061",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 87300,
+      "event_sha256": "912d1b40c597861340f97799811d027e5d02729217669012f3a53312e10ec07d",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 87940,
+      "event_sha256": "2a2e2b223097cca649da3f9a9d65b0fcd6e0bd7cb65b6bf78c9eb1099199065d",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 111620,
+      "event_sha256": "84c23cb24750603834f8bab205bc5f12d22e923c7d502b0d43f1aebea3799d6f",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 112980,
+      "event_sha256": "d04d7c899fd59b0082a0eb9d1423fbd60ba261bd2fa2b7943ce8071108e21d9b",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 130980,
+      "event_sha256": "07e278d121365fb07a741ab41af3f8995ac48b8dc545e9bc59c69b5eb5dee710",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 138620,
+      "event_sha256": "4a336f239f7f04918ec9c743d9320db4133ac717c703ba007f5a5e43504d9404",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": 2,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 161140,
+      "event_sha256": "a2b48a2266e5d8ae3daa22dc939fe5db8967c1c0c816b43cb653df2cdd428b81",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 163620,
+      "event_sha256": "0cd743b353d955fdd7f560e2b808092294b7bd03efbda5465e88f580943b1475",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 187300,
+      "event_sha256": "f321b9f24877ec9480e04e56f458cecd4ffd6ea0b25ecf58d1d2ff22e7a206ab",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 187780,
+      "event_sha256": "d2d1fad26558c2e376ce609e90b6781486ddbdcb90e467de89efafbc5ce0540a",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 20,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 211820,
+      "event_sha256": "6bbb3a13c1df9be08513045413e1354ce9b5b44f5dd2a357da263406e14867f7",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 214260,
+      "event_sha256": "cfbf60430ab8660e7da324acf904af9733150182db4aaf228d5386492a4121e0",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 20,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 236540,
+      "event_sha256": "10e08b3d2d326d3bfdc294137f0366f68c5ddcbd02fc22caccdab34b2d805bb1",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 19,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 240780,
+      "event_sha256": "68582a36ac2d19a894b109678b65952cc9f2ddf14b8402aad7b01f65d2be1f1b",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 262420,
+      "event_sha256": "78e0c6e7ab5180b8557d9f1f20b7158e9af18548dec724e329f649ce7271a1ac",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 14,
+          "expanding_reel": 2,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 262780,
+      "event_sha256": "f1db2b59890b926a0606c2c74dfaaaaea62127b35f724818cc322e36fb49c7ff",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 21,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 286540,
+      "event_sha256": "661d024b537ca62817d0e3a3f8383d9dc0d333875e4b3d3d44aabd39615f614b",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 21,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 287780,
+      "event_sha256": "5109da3d19e50eddb560f392478000dbae78e4fc48590c103b68c32934953158",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 29,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 312140,
+      "event_sha256": "cc7ed9313440bc1e1aac0d78f702d79999e59bf9d69e08d0ac60c6e4598d58c1",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 26,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 313420,
+      "event_sha256": "1a1856aac47ac6797c9291ae036643023fa1342ef58153d5b7536ed928c73504",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 21,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 337420,
+      "event_sha256": "3a13643cd407c1e1d1d25c3dfd2aee43f2b898cc8c8e15e80299a64a7b5e3a6b",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 19,
+          "expanding_reel": 2,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 337700,
+      "event_sha256": "0762caf7856092c834066f516ae7d4e2c601f7414bb11d15abb9d90d86e086bd",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 21,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 362460,
+      "event_sha256": "f47ea46b6b9148abe01f5749fbadfb5f2223b011d8432e6f828b2712c4f6736b",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            12
+          ],
+          "wild_refill_limit": 19,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 362700,
+      "event_sha256": "2d44d1e347ec73f7fd6a3a2f2a9be765e9c05461074cd2d8dd4ff4756c2d3ee9",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 387100,
+      "event_sha256": "879532c265224061940e0a554c382357504b2b338dba8589716d7c0e4f47a4b5",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 387580,
+      "event_sha256": "30ae84f964001ae907952577e72dda7ea0e8e9a96fefa503822b0161c86ee805",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 411860,
+      "event_sha256": "b65361f16e26df16266b4a6adfd2d33e3133d2af9db910b54a8634b4f4b95e18",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 25,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 413860,
+      "event_sha256": "b79c0026c516084c3c43733a6302c47d07937b3fe81c17178a94f51c31493fc1",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 33,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 436620,
+      "event_sha256": "49b59114a6a9bbd8257333de61c8867a2200306ab90286b7e1b83766dc10212e",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 31,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 437580,
+      "event_sha256": "9feb2bd6de43b1fd1a17e8b2a61db667dd688520df08aaa9b9107d3d77604558",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 39,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 460340,
+      "event_sha256": "8108e7fe74a4b829832d8da3bf2423dd863e6cd59fe69b1485fe6ce5e501c32d",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 45,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 463260,
+      "event_sha256": "bddacd7241be22b3713de2207e750dbf0641f203b77743dd0735f44a9b68ea01",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": 2,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 487420,
+      "event_sha256": "d154d1511dea98399efda33bd33d93fc1c6e040d832082dd63bf45563badd9ce",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 37,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 8,
+      "payout_units": 487660,
+      "event_sha256": "7df6562a2f2f92ce2842d9d0bfebe6463e5860bcf1ac325dec27812b36720b48",
+      "free_spins_played": 8,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 29,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 500000,
+      "event_sha256": "2031655e2329b572431c115179bd6289be6f58325e89b0735612048e6f0cde1c",
+      "free_spins_played": 1,
+      "cap_reduction_units": 63980
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            31
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 28,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 8,
+      "payout_units": 500000,
+      "event_sha256": "37b13e065edc2f2a1bf959525c032c04a697b973d5e57e39e643b9da4b8e81da",
+      "free_spins_played": 3,
+      "cap_reduction_units": 620
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 2,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 62220,
+      "event_sha256": "f1db17bfec64c87677060c8aef31b4f7b4ac05582be0f0faa52c8ca4586d7811",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            12
+          ],
+          "wild_refill_limit": 2,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 62780,
+      "event_sha256": "cd95d05ef3668297e495486d54172e2f5735ebd2553c7764ca6b210d7284e171",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 87460,
+      "event_sha256": "3624bc1c9fd7c366bd51a6e4100dadc6db7220a6c0f1204dd038130260430a1b",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 9,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 87540,
+      "event_sha256": "dd2eba98a212026d95eaa2ba11c27b491049cc92d99a43ab20788ebfca9737cf",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 112420,
+      "event_sha256": "95e067fcab7a6a7a993f2ccb49af43523ac06b6056c000d24f6b01ca0acee9fb",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 112780,
+      "event_sha256": "317a98f63865d5306fd6b9e57fabeea26911e82ae2f8391cd8c0bfa38fe94bf5",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 134700,
+      "event_sha256": "9d7a270b5b59f0c7add26a80873d2e0b44e50853277124029e63896d3e47ffc5",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 139020,
+      "event_sha256": "94cafde75d3a57476babf05a1b45b517b57ec7809190d8c9816674baf4858309",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 161820,
+      "event_sha256": "e6e1de47192ee62e246001fb96fba6e2e311b2c4a095097c59c4bed6727424f0",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 163500,
+      "event_sha256": "b26edb5f39018f31304dd2fba01e6f87c727ba273cfa3eb35832eefe501b9e49",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 14,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 186900,
+      "event_sha256": "4feb3a3195646ee55b351d65c47734e0b32cdf0400ca2c4f763b7d1677790e14",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 187900,
+      "event_sha256": "80bbced691f64395470e59d8c1e5fb4c524645e9aef73b4b468d255287e7140b",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 211380,
+      "event_sha256": "301082c3aab7d469c910187423acc1df116e134a179f0cf727af1066722c4fd8",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 22,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 212660,
+      "event_sha256": "11d874b82dcb0cbcb25b8143f597a04ba9e5beb79dc9d815fee7eb6ee1b9bc63",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 19,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 233540,
+      "event_sha256": "ca73bd14859cea9c1db0efabe9fc79c8a9295b63fe6cc5acfea8b19f21b95087",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 20,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 241220,
+      "event_sha256": "224c2e1df8048a800c1c155e7a4b0b7b9861c8b9736ea16af5676656d12cc742",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 262460,
+      "event_sha256": "e73884fb4a9ecdb7d69e6beb60e7d8559508a612b1282e4aff820502920c2870",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 16,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 262540,
+      "event_sha256": "7167bb3bc5984dbe12de159f887ae2fdfcdab9a01e04ab13f0dc6bfe660dc42c",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 21,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 286700,
+      "event_sha256": "4adb9a84f33e3a35874a8653df0536d20d45cceac72fdc41d0a9cc9996dd2a6e",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 287700,
+      "event_sha256": "3743f401ce4a2b257f36f38916acec6efc14bc7c144eff82952be4dfa393beec",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 35,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 312460,
+      "event_sha256": "69108f553ef917c6453e21aa71967f1b0fdbd9c49c1f76421f241542b81b9b84",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 312540,
+      "event_sha256": "8f15a5b9ccbd280b4ade675118286c50798aaf911be3809fbda57d296aff8099",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 337060,
+      "event_sha256": "585e76b1aeb99db02cfc1bdd38f3089371af726fb4cafe0a7f9f0aeb617d60a3",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 337580,
+      "event_sha256": "5e52cadc6051c5640e838ce7d0322dd8e10d8541c25261eadd9c1e03a0d0e115",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 23,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 362460,
+      "event_sha256": "ce4f41527bc7e6dfb33355163912669a468a11020c4bcd00b09138035203e80c",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 18,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 362700,
+      "event_sha256": "a455e3a8e292745473e4ae2917b69eef5765a38da5301821eeb04ab347478b18",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 386900,
+      "event_sha256": "8878cc343a5b834ecaa19fd6e6fb0ea790f60282d5b9a5db8e9cfa74ce0298f9",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 388060,
+      "event_sha256": "bb956310bf5d4dfc87ae6cd4e5be9a206bba66673baccfad9841fe39b4f47b0b",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 412180,
+      "event_sha256": "286ca77d95ab0c3f8b2bba56e74127134e425660a061f664c8935edbfb1606e2",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 412620,
+      "event_sha256": "b5db0b3d560c0cfa6e2129f13d47cd0469e1e4f235a9e555ca42a34d3b1d0380",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 26,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 436300,
+      "event_sha256": "371293e25ebcdc624a5e89909ae6b96ec9cae71cacf76f506523a5d5e17b9aae",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 437660,
+      "event_sha256": "bd295c79e87a3f272cfa5b1cbe00e8785197d6f7768eab83736684f508ca293e",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 43,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 460860,
+      "event_sha256": "c0e955b52dfe263229d48ad442c883024acd66e7bd71985f0d6aa07b14acf636",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 33,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 463940,
+      "event_sha256": "e8ba4baf2121fd98815a19f575a9c33c372f4ade0fdddf57a338563da3e910d4",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 28,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 487460,
+      "event_sha256": "a19b39532c5727c196b12863121715b42bff372ecb16efd02c6e4d08b47f4d58",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 36,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 10,
+      "payout_units": 487700,
+      "event_sha256": "25d23e9f56e74ba4ba58a0a3d56e1fe52ef7803b2a75a5a5030245fa312e819e",
+      "free_spins_played": 10,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 29,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 500000,
+      "event_sha256": "c3968ad7e1718a0dc57af3a4dab49ac750e1ad6013c7b830c21042a88802423b",
+      "free_spins_played": 1,
+      "cap_reduction_units": 64380
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            28,
+            17,
+            16,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 28,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 10,
+      "payout_units": 500000,
+      "event_sha256": "8431f8fc8bbc4b6e9194751e7f4acc06379e922409f49f84f0ec3f91238e4c07",
+      "free_spins_played": 3,
+      "cap_reduction_units": 1020
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 5,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 62480,
+      "event_sha256": "5b9c516a34349e95d4c75770db9eb6ecece0cdef285c1cad406563cc28d13da1",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 5,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 62680,
+      "event_sha256": "d73f6c4ca8609b3e0a1d30836d019ab34da7e6b5519aed06525207356cbe0764",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 8,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 87160,
+      "event_sha256": "14aafb5209ef575ee440fc9646ecbf3074972e8837dcf8bf2769eb10ba7ca5d2",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 87560,
+      "event_sha256": "f382a7d8b182d057332407699ff86ba4b91e312ec59df625aadaacd11fe0d597",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 112280,
+      "event_sha256": "a5367f11ad64ce33ba181cc34db508543b48731e7e82d978473f2c619d9c190d",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 10,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 112760,
+      "event_sha256": "dc1b57e5ebdbb9296956eb66983f1ec58fff987b639057080c83a2aabed13fbc",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            12
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 137360,
+      "event_sha256": "c74473d6c2ac56b36b5575e84b928fd7b1dd7fbcef4ef6e218fd77a2ec9eb911",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 139520,
+      "event_sha256": "792dc9ef6b1a8a39beb00ffc953c2cc1013d2a3f74264d49e9ba82f4f1a8f3a6",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 162000,
+      "event_sha256": "dfde24046a34a13655c014990807955c3a877b0aec1a0a4b644a0ac8c94cc4bd",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": 2,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 163040,
+      "event_sha256": "c725f64991e87d6c7a59b0cdd1f6b3bdb9da8d4b6815ec78b914d65c62f6d256",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 12,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 187280,
+      "event_sha256": "a1ad8cc11f43b9cbf04d13253c0e3c3baff74b56dc1f2acaadbc945fbe3a59ed",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 11,
+          "expanding_reel": 2,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 187680,
+      "event_sha256": "1f22990d421ce53ca5d07d7235f0c35083a301d56ae4efa9870e00f30feaa3b8",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 19,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 212000,
+      "event_sha256": "4d7c1b28eaebec738ce53c4924f8a965c78f4b13851f099ba482d4e37f55a995",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 13,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 214040,
+      "event_sha256": "a6a07739c9065598d6a118fd9686171a92ae4b9632fc2785b015ede81e150358",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 235200,
+      "event_sha256": "71aa91e26b183cc91379faf307621b0a575ac98cae418c2eea5e2f95d4f8669e",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 19,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 238680,
+      "event_sha256": "a396c3a4815d1b544a7f20c02d54c1fb18cef7a030d71d8e055cdf94d0f2f94c",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 23,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 262440,
+      "event_sha256": "ad431f0023453ce3ef4bcc70576aca9dacc80c26762f038e74f48b6e95367024",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 22,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 262520,
+      "event_sha256": "9130a16a9733c93fcebdd8036c66aa6937fb513bdbd92bcc67ab029591bae3f9",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 15,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 286800,
+      "event_sha256": "524d0016f53cbc0d36fa570b1d4b9e4a5623a36ccc200cc9e461557a393e07e8",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            12
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 287800,
+      "event_sha256": "7b4ac58dc8953749058a41ed86815677cf316cbaec81eac103265e9a61931e71",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 22,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 311480,
+      "event_sha256": "06be0c525ccca4e16327c74914e610b9221c44cd1c6e8eb333a7ea4597ab15b7",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 22,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 312760,
+      "event_sha256": "91da2106e8a51349a66c3409c72b9d77a957a0695d5062e66d48996533f5d788",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 26,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 337440,
+      "event_sha256": "581cb5a67bd36b0161d5330075803cd7d0701b18c9b96ac62bc0aa23584a7061",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 26,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 337520,
+      "event_sha256": "506791e83fefa9e13deddcfcd41c292a47a8c38070758afe4e4d419e52835f94",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 16,
+          "expanding_reel": 2,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 362400,
+      "event_sha256": "3c7d1f107452945d01e4f3ab9c79f011aa26deb0971c8953be4a087c82b13a3d",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            11
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": 1,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 362520,
+      "event_sha256": "452c3e20ecca60c78789ef4537ca0748d0ec16f59a8e04d77fb2a11618c1cb4f",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 387360,
+      "event_sha256": "1d36c38a85f4dbf9514e8aabbda2cf004e1d180df0fc514afd22f615f800bab2",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            12
+          ],
+          "wild_refill_limit": 17,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 387920,
+      "event_sha256": "b13eb0e30da76ebcb7c78cd286a1015270e3cbdff6f4f77fc47978294b2076bc",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 25,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 412280,
+      "event_sha256": "356a247be957c749372ffe2ee606fc792141020335028e996e8c42e43cfad46c",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            13
+          ],
+          "wild_refill_limit": 24,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 412560,
+      "event_sha256": "34f4a883d556f800214092e0cc9ab21464f6f3adb212d4f30f0b64f84355c2e7",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            13
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 436960,
+      "event_sha256": "a1d2052c3d6de985ff8a4822deb6d6c7fafc58db4c0fc7a8a6530dec2c3d9178",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            20,
+            12
+          ],
+          "wild_refill_limit": 27,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 437520,
+      "event_sha256": "f3c2c0497b2d8f2a34c77aed17fb68812c1fb6b549454ea5744c8cd78e3e3e87",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            13
+          ],
+          "wild_refill_limit": 30,
+          "expanding_reel": null,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 461240,
+      "event_sha256": "92e6cf119cbceab9c58ff5bf5999da4643d77676b98dd464467875169cf778f1",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 42,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 462760,
+      "event_sha256": "7a0905ae9053de3dcb2ff9bb9895752092a1496f0d558d5eddc8def9f96c76a5",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            21,
+            11
+          ],
+          "wild_refill_limit": 32,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 487440,
+      "event_sha256": "e33655051cdc8273433d8b6e3b5b6adbdaa13062695b608850078686480696ff",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            12
+          ],
+          "wild_refill_limit": 35,
+          "expanding_reel": null,
+          "fallback_seed": 20261023
+        }
+      },
+      "fs": 12,
+      "payout_units": 487560,
+      "event_sha256": "378d37153ad4be52eb7a5aac0f10d4f2faa05a542fea213f3a73805d00318640",
+      "free_spins_played": 12,
+      "cap_reduction_units": 0
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 29,
+          "expanding_reel": 1,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 500000,
+      "event_sha256": "9b35f662672766373d547ba4709c9886a2b446db7abf2c13a52cc0cf4b03b15c",
+      "free_spins_played": 1,
+      "cap_reduction_units": 65880
+    },
+    {
+      "spec": {
+        "recipe": {
+          "name": "bonus_wild_refill",
+          "stops": [
+            35,
+            27,
+            22,
+            15,
+            8
+          ],
+          "free_spin_stops": [
+            4,
+            33,
+            27,
+            19,
+            11
+          ],
+          "wild_refill_limit": 28,
+          "expanding_reel": 3,
+          "fallback_seed": 20261022
+        }
+      },
+      "fs": 12,
+      "payout_units": 500000,
+      "event_sha256": "179154a80b0fb2dbc93d6b1a6b215c086b77cbf1ef3e8c795a8bd6d53b48fe96",
+      "free_spins_played": 3,
+      "cap_reduction_units": 2520
+    }
+  ],
+  "catalog_count": 114,
+  "band_summaries": [
+    {
+      "fs": 8,
+      "lower_units": 50000,
+      "upper_units_exclusive": 75000,
+      "candidate_count": 187,
+      "min_units": 50020,
+      "max_units": 73820,
+      "selected_payout_units": [
+        62340,
+        62700
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 75000,
+      "upper_units_exclusive": 100000,
+      "candidate_count": 77,
+      "min_units": 75500,
+      "max_units": 99980,
+      "selected_payout_units": [
+        87300,
+        87940
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 100000,
+      "upper_units_exclusive": 125000,
+      "candidate_count": 80,
+      "min_units": 100060,
+      "max_units": 124540,
+      "selected_payout_units": [
+        111620,
+        112980
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 125000,
+      "upper_units_exclusive": 150000,
+      "candidate_count": 25,
+      "min_units": 125140,
+      "max_units": 149660,
+      "selected_payout_units": [
+        130980,
+        138620
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 150000,
+      "upper_units_exclusive": 175000,
+      "candidate_count": 62,
+      "min_units": 150740,
+      "max_units": 174180,
+      "selected_payout_units": [
+        161140,
+        163620
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 175000,
+      "upper_units_exclusive": 200000,
+      "candidate_count": 65,
+      "min_units": 175420,
+      "max_units": 198660,
+      "selected_payout_units": [
+        187300,
+        187780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 200000,
+      "upper_units_exclusive": 225000,
+      "candidate_count": 22,
+      "min_units": 200860,
+      "max_units": 224060,
+      "selected_payout_units": [
+        211820,
+        214260
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 225000,
+      "upper_units_exclusive": 250000,
+      "candidate_count": 47,
+      "min_units": 225260,
+      "max_units": 249420,
+      "selected_payout_units": [
+        236540,
+        240780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 250000,
+      "upper_units_exclusive": 275000,
+      "candidate_count": 177,
+      "min_units": 250020,
+      "max_units": 274780,
+      "selected_payout_units": [
+        262420,
+        262780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 275000,
+      "upper_units_exclusive": 300000,
+      "candidate_count": 118,
+      "min_units": 275140,
+      "max_units": 299180,
+      "selected_payout_units": [
+        286540,
+        287780
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 300000,
+      "upper_units_exclusive": 325000,
+      "candidate_count": 54,
+      "min_units": 300100,
+      "max_units": 324220,
+      "selected_payout_units": [
+        312140,
+        313420
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 325000,
+      "upper_units_exclusive": 350000,
+      "candidate_count": 127,
+      "min_units": 325580,
+      "max_units": 349980,
+      "selected_payout_units": [
+        337420,
+        337700
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 350000,
+      "upper_units_exclusive": 375000,
+      "candidate_count": 254,
+      "min_units": 350140,
+      "max_units": 374980,
+      "selected_payout_units": [
+        362460,
+        362700
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 375000,
+      "upper_units_exclusive": 400000,
+      "candidate_count": 82,
+      "min_units": 375180,
+      "max_units": 399780,
+      "selected_payout_units": [
+        387100,
+        387580
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 400000,
+      "upper_units_exclusive": 425000,
+      "candidate_count": 60,
+      "min_units": 400180,
+      "max_units": 424660,
+      "selected_payout_units": [
+        411860,
+        413860
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 425000,
+      "upper_units_exclusive": 450000,
+      "candidate_count": 55,
+      "min_units": 425340,
+      "max_units": 449700,
+      "selected_payout_units": [
+        436620,
+        437580
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 450000,
+      "upper_units_exclusive": 475000,
+      "candidate_count": 31,
+      "min_units": 451140,
+      "max_units": 474940,
+      "selected_payout_units": [
+        460340,
+        463260
+      ]
+    },
+    {
+      "fs": 8,
+      "lower_units": 475000,
+      "upper_units_exclusive": 500000,
+      "candidate_count": 177,
+      "min_units": 475020,
+      "max_units": 499900,
+      "selected_payout_units": [
+        487420,
+        487660
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 50000,
+      "upper_units_exclusive": 75000,
+      "candidate_count": 226,
+      "min_units": 50060,
+      "max_units": 74060,
+      "selected_payout_units": [
+        62220,
+        62780
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 75000,
+      "upper_units_exclusive": 100000,
+      "candidate_count": 71,
+      "min_units": 75340,
+      "max_units": 99740,
+      "selected_payout_units": [
+        87460,
+        87540
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 100000,
+      "upper_units_exclusive": 125000,
+      "candidate_count": 84,
+      "min_units": 100460,
+      "max_units": 124660,
+      "selected_payout_units": [
+        112420,
+        112780
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 125000,
+      "upper_units_exclusive": 150000,
+      "candidate_count": 29,
+      "min_units": 125540,
+      "max_units": 148300,
+      "selected_payout_units": [
+        134700,
+        139020
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 150000,
+      "upper_units_exclusive": 175000,
+      "candidate_count": 53,
+      "min_units": 150060,
+      "max_units": 174940,
+      "selected_payout_units": [
+        161820,
+        163500
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 175000,
+      "upper_units_exclusive": 200000,
+      "candidate_count": 75,
+      "min_units": 175420,
+      "max_units": 199060,
+      "selected_payout_units": [
+        186900,
+        187900
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 200000,
+      "upper_units_exclusive": 225000,
+      "candidate_count": 19,
+      "min_units": 201260,
+      "max_units": 224900,
+      "selected_payout_units": [
+        211380,
+        212660
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 225000,
+      "upper_units_exclusive": 250000,
+      "candidate_count": 32,
+      "min_units": 225060,
+      "max_units": 249900,
+      "selected_payout_units": [
+        233540,
+        241220
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 250000,
+      "upper_units_exclusive": 275000,
+      "candidate_count": 167,
+      "min_units": 250140,
+      "max_units": 274900,
+      "selected_payout_units": [
+        262460,
+        262540
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 275000,
+      "upper_units_exclusive": 300000,
+      "candidate_count": 133,
+      "min_units": 275260,
+      "max_units": 299900,
+      "selected_payout_units": [
+        286700,
+        287700
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 300000,
+      "upper_units_exclusive": 325000,
+      "candidate_count": 62,
+      "min_units": 300500,
+      "max_units": 324780,
+      "selected_payout_units": [
+        312460,
+        312540
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 325000,
+      "upper_units_exclusive": 350000,
+      "candidate_count": 105,
+      "min_units": 326580,
+      "max_units": 349780,
+      "selected_payout_units": [
+        337060,
+        337580
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 350000,
+      "upper_units_exclusive": 375000,
+      "candidate_count": 244,
+      "min_units": 350100,
+      "max_units": 374860,
+      "selected_payout_units": [
+        362460,
+        362700
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 375000,
+      "upper_units_exclusive": 400000,
+      "candidate_count": 113,
+      "min_units": 375180,
+      "max_units": 398540,
+      "selected_payout_units": [
+        386900,
+        388060
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 400000,
+      "upper_units_exclusive": 425000,
+      "candidate_count": 57,
+      "min_units": 401020,
+      "max_units": 424380,
+      "selected_payout_units": [
+        412180,
+        412620
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 425000,
+      "upper_units_exclusive": 450000,
+      "candidate_count": 55,
+      "min_units": 425180,
+      "max_units": 449820,
+      "selected_payout_units": [
+        436300,
+        437660
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 450000,
+      "upper_units_exclusive": 475000,
+      "candidate_count": 30,
+      "min_units": 450580,
+      "max_units": 474900,
+      "selected_payout_units": [
+        460860,
+        463940
+      ]
+    },
+    {
+      "fs": 10,
+      "lower_units": 475000,
+      "upper_units_exclusive": 500000,
+      "candidate_count": 147,
+      "min_units": 475700,
+      "max_units": 499860,
+      "selected_payout_units": [
+        487460,
+        487700
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 50000,
+      "upper_units_exclusive": 75000,
+      "candidate_count": 276,
+      "min_units": 50080,
+      "max_units": 74920,
+      "selected_payout_units": [
+        62480,
+        62680
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 75000,
+      "upper_units_exclusive": 100000,
+      "candidate_count": 85,
+      "min_units": 75040,
+      "max_units": 99600,
+      "selected_payout_units": [
+        87160,
+        87560
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 100000,
+      "upper_units_exclusive": 125000,
+      "candidate_count": 94,
+      "min_units": 100120,
+      "max_units": 124680,
+      "selected_payout_units": [
+        112280,
+        112760
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 125000,
+      "upper_units_exclusive": 150000,
+      "candidate_count": 33,
+      "min_units": 126960,
+      "max_units": 149000,
+      "selected_payout_units": [
+        137360,
+        139520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 150000,
+      "upper_units_exclusive": 175000,
+      "candidate_count": 41,
+      "min_units": 150360,
+      "max_units": 174000,
+      "selected_payout_units": [
+        162000,
+        163040
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 175000,
+      "upper_units_exclusive": 200000,
+      "candidate_count": 77,
+      "min_units": 175040,
+      "max_units": 199920,
+      "selected_payout_units": [
+        187280,
+        187680
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 200000,
+      "upper_units_exclusive": 225000,
+      "candidate_count": 26,
+      "min_units": 201120,
+      "max_units": 223480,
+      "selected_payout_units": [
+        212000,
+        214040
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 225000,
+      "upper_units_exclusive": 250000,
+      "candidate_count": 20,
+      "min_units": 226160,
+      "max_units": 249560,
+      "selected_payout_units": [
+        235200,
+        238680
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 250000,
+      "upper_units_exclusive": 275000,
+      "candidate_count": 148,
+      "min_units": 250480,
+      "max_units": 274920,
+      "selected_payout_units": [
+        262440,
+        262520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 275000,
+      "upper_units_exclusive": 300000,
+      "candidate_count": 153,
+      "min_units": 275280,
+      "max_units": 299200,
+      "selected_payout_units": [
+        286800,
+        287800
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 300000,
+      "upper_units_exclusive": 325000,
+      "candidate_count": 68,
+      "min_units": 300040,
+      "max_units": 324760,
+      "selected_payout_units": [
+        311480,
+        312760
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 325000,
+      "upper_units_exclusive": 350000,
+      "candidate_count": 96,
+      "min_units": 325560,
+      "max_units": 348720,
+      "selected_payout_units": [
+        337440,
+        337520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 350000,
+      "upper_units_exclusive": 375000,
+      "candidate_count": 228,
+      "min_units": 350080,
+      "max_units": 374840,
+      "selected_payout_units": [
+        362400,
+        362520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 375000,
+      "upper_units_exclusive": 400000,
+      "candidate_count": 141,
+      "min_units": 375120,
+      "max_units": 399920,
+      "selected_payout_units": [
+        387360,
+        387920
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 400000,
+      "upper_units_exclusive": 425000,
+      "candidate_count": 55,
+      "min_units": 400320,
+      "max_units": 424880,
+      "selected_payout_units": [
+        412280,
+        412560
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 425000,
+      "upper_units_exclusive": 450000,
+      "candidate_count": 49,
+      "min_units": 425760,
+      "max_units": 449920,
+      "selected_payout_units": [
+        436960,
+        437520
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 450000,
+      "upper_units_exclusive": 475000,
+      "candidate_count": 41,
+      "min_units": 450840,
+      "max_units": 473640,
+      "selected_payout_units": [
+        461240,
+        462760
+      ]
+    },
+    {
+      "fs": 12,
+      "lower_units": 475000,
+      "upper_units_exclusive": 500000,
+      "candidate_count": 112,
+      "min_units": 476760,
+      "max_units": 499960,
+      "selected_payout_units": [
+        487440,
+        487560
+      ]
+    }
+  ],
+  "catalog_largest_gaps_units": {
+    "8": 24760,
+    "10": 24880,
+    "12": 24880
+  },
+  "catalog_method": "Nearest payout below and above each 250x band midpoint, two FS cap witnesses with different expansion reels, then fill any remaining gap larger than 250x"
+}

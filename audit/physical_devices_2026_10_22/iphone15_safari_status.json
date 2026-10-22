@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-10-22T09:54:17.375796+02:00",
+  "device": {
+    "model": "iPhone 15",
+    "browser": "Safari",
+    "same_wifi_as_computer": true,
+    "ios_version": null,
+    "safari_version": null,
+    "source": "user confirmation"
+  },
+  "build_id": "iphone15-safari-20261022T095007",
+  "manifest_sha256": "601312412e29e69039eee70451cb1d161db7897c0e412e87bf00b31ec7bb264f",
+  "origin": "http://192.168.1.19:8785",
+  "server_state_at_last_check": "running",
+  "computer_http_check_passed": true,
+  "local_wrapper_tests_passed": 7,
+  "iphone_reachability_confirmed": false,
+  "physical_tests_executed": 0,
+  "platform_access": false,
+  "audio_present_in_frozen_build": true,
+  "physical_audio_test_passed": false,
+  "status": "READY_FOR_FIRST_MANUAL_IPHONE_CONNECTION",
+  "manual_guide": "IPHONE15_SAFARI_PL.md",
+  "qr_file": "IPHONE15_QR.png"
+}

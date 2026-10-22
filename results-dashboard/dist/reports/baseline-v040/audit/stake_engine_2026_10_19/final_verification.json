@@ -1,0 +1,9 @@
+{
+  "implementation_source_hashes_unchanged": true,
+  "source_files_checked": 39,
+  "changed_files": [],
+  "report_local_links_checked": 28,
+  "missing_link_targets": [],
+  "live_browser_check": "Not completed: local loopback unreachable from available browser",
+  "remote_stake_validation": "Not performed"
+}

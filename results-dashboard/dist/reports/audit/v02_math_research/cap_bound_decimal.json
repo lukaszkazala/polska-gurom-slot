@@ -1,0 +1,11 @@
+{
+  "t": "0.024",
+  "precision": 60,
+  "rounding": "ROUND_CEILING",
+  "free_spin_mgf_upper": "6.87394007030572695075546568087226859273640275813456109826240",
+  "triggered_round_mgf_upper": "162966.833977613759377696914114890750024689812508730041941063",
+  "cap_probability_upper_bound": "1.24957233062902306146148721740518750198216036710167281004416E-47",
+  "cap_rtp_loss_upper_bound": "5.206551377620929422756196739188281258259001529590303375184E-46",
+  "conservative_joint_upper_bound": "1e-40",
+  "method": "Outward-rounded Decimal finite MGFs, tail integral Chernoff bound. exp().next_plus() bounds correctly rounded exp upward."
+}

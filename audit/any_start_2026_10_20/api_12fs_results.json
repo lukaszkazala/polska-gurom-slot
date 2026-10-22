@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-20T12:03:43.338851+00:00",
+  "status": "pass",
+  "math_version": "0.5.0-any-start",
+  "tests_run": 10,
+  "passed": 10,
+  "skipped": 0,
+  "require_exported": true,
+  "scope": "Real HTTP against production handler and selector with isolated reachable one-book fixture; final test uses real export",
+  "checks": [
+    {
+      "name": "__main__.Bonus12Tests.test_01_five_scatter_recipe_plays_twelve_reachable_free_spins",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_02_production_selector_replays_complete_fixture_book",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_03_http_settles_all_twelve_spins_with_one_bet",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_04_lost_reply_retry_keeps_round_id_and_single_charge",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_05_concurrent_same_id_retries_settle_only_once",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_06_state_restores_complete_twelve_spin_book",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_07_conflicting_retry_cannot_charge_another_bet",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_08_global_cap_also_bounds_five_scatter_round_and_its_retry",
+      "status": "pass"
+    },
+    {
+      "name": "__main__.Bonus12Tests.test_09_old_session_cannot_replay_book_into_reset_wallet",
+      "status": "pass"
+    },
+    {
+      "evidence": "actual_export_12fs_witness",
+      "book_id": 100024,
+      "weight": 167449,
+      "math_version": "0.5.0-any-start",
+      "played_free_spins": 12,
+      "payout_units": 15990
+    },
+    {
+      "name": "__main__.PublishedDistributionTests.test_10_published_distribution_contains_positive_weight_twelve_spin_book",
+      "status": "pass"
+    }
+  ]
+}

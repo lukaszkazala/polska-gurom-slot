@@ -1,0 +1,16 @@
+test_adding_twelve_spin_variant_preserves_total_bonus_frequency (__main__.BonusCoverageTests.test_adding_twelve_spin_variant_preserves_total_bonus_frequency) ... ok
+test_all_configured_bonus_lengths_have_positive_exported_weight (__main__.BonusCoverageTests.test_all_configured_bonus_lengths_have_positive_exported_weight) ... ok
+test_all_exported_bonus_events_replay_and_pass_independent_mechanics (__main__.BonusCoverageTests.test_all_exported_bonus_events_replay_and_pass_independent_mechanics) ... ok
+test_exact_published_rtp_and_maximum_win_contract_remain_valid (__main__.BonusCoverageTests.test_exact_published_rtp_and_maximum_win_contract_remain_valid) ... ok
+test_exported_bonus_trigger_matches_initial_reel_windows (__main__.BonusCoverageTests.test_exported_bonus_trigger_matches_initial_reel_windows) ... ok
+test_falsified_eight_spin_award_on_five_scatters_is_rejected (__main__.BonusCoverageTests.test_falsified_eight_spin_award_on_five_scatters_is_rejected) ... ok
+test_falsified_twelve_spin_coverage_claim_is_rejected (__main__.BonusCoverageTests.test_falsified_twelve_spin_coverage_claim_is_rejected) ... ok
+test_natural_five_scatter_witness_is_a_real_complete_twelve_spin_round (__main__.BonusCoverageTests.test_natural_five_scatter_witness_is_a_real_complete_twelve_spin_round) ... ok
+test_removing_all_twelve_spin_books_is_rejected_even_with_valid_lut_hash (__main__.BonusCoverageTests.test_removing_all_twelve_spin_books_is_rejected_even_with_valid_lut_hash) ... ok
+test_twelve_spins_can_be_selected_at_both_integer_ticket_boundaries (__main__.BonusCoverageTests.test_twelve_spins_can_be_selected_at_both_integer_ticket_boundaries) ... ok
+test_zero_weight_twelve_spin_books_are_rejected_with_valid_lut_hash (__main__.BonusCoverageTests.test_zero_weight_twelve_spin_books_are_rejected_with_valid_lut_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 5.974s
+
+OK

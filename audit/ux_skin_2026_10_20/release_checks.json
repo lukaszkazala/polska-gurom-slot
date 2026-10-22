@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "math_files_unchanged": 12,
+  "themes": 3,
+  "artwork_catalog": 18,
+  "game_symbols_per_theme": 10,
+  "browser_checks": "18 catalogue entries, 15 visible sprites and clipping paths, 8 payout rows, 10 active artwork entries per theme; all payout cells identical across themes",
+  "release": "C:\\Users\\Kazaluka\\.codex\\.chatgpt-projects\\g-p-6ad10d7dc94881919023097cba0cf4b4\\test-interface\\POLSKA_GUROM_UX_18_SYMBOLI.zip",
+  "release_bytes": 15631231,
+  "sha256": "7782b8a949e4a731fabccb9d784fd8dd23fec2dccbd0481dde49ab1bdd6851c2"
+}

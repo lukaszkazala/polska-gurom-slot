@@ -1,0 +1,39 @@
+
+test_asdict_failure_leaves_wallet_and_idempotency_unchanged (__main__.AtomicSettlementTests.test_asdict_failure_leaves_wallet_and_idempotency_unchanged) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] Internal request error on /api/spin
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_cache_insert_failure_rolls_back_partial_entry (__main__.AtomicSettlementTests.test_cache_insert_failure_rolls_back_partial_entry) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] Internal request error on /api/spin
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_json_encoding_failure_occurs_before_commit (__main__.AtomicSettlementTests.test_json_encoding_failure_occurs_before_commit) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] Internal request error on /api/spin
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_output_failure_after_commit_keeps_exact_result_for_retry (__main__.AtomicSettlementTests.test_output_failure_after_commit_keeps_exact_result_for_retry) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] Internal request error on /api/spin
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_processed_id_failure_rolls_back_both_cache_and_wallet (__main__.AtomicSettlementTests.test_processed_id_failure_rolls_back_both_cache_and_wallet) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] Internal request error on /api/spin
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+ok
+test_wallet_endpoint_is_current_after_historical_result_retry (__main__.AtomicSettlementTests.test_wallet_endpoint_is_current_after_historical_result_retry) ... 127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [22/Oct/2026 23:15:46] "GET /api/wallet HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.759s
+
+OK

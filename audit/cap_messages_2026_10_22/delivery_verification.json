@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "date": "2026-10-22",
+  "math_version": "0.5.0-any-start",
+  "frontend_source_sha256": "2e1d1c8293fe440be8e2a0fcba1f0dcb7d8f282fa00a0626ae109ff4b4cda695",
+  "layout_source_sha256": "ca142b7f3781ebb77a038293f64ff8a92cdac17ab4d1d75127c21a2816505780",
+  "tests_passed": 275,
+  "reports": [
+    {
+      "file": "cap_messages_results.json",
+      "checks": 47,
+      "passed": true
+    },
+    {
+      "file": "audit_fixes_frontend.json",
+      "checks": 28,
+      "passed": true
+    },
+    {
+      "file": "rgs_results.json",
+      "checks": 60,
+      "passed": true
+    },
+    {
+      "file": "rgs_recovery_results.json",
+      "checks": 33,
+      "passed": true
+    },
+    {
+      "file": "replay_results.json",
+      "checks": 34,
+      "passed": true
+    },
+    {
+      "file": "platform_currency_results.json",
+      "checks": 53,
+      "passed": true
+    },
+    {
+      "file": "autoplay_logic_results.json",
+      "checks": 13,
+      "passed": true
+    },
+    {
+      "file": "frontend_12fs_results.json",
+      "checks": 7,
+      "passed": true
+    }
+  ],
+  "packages": [
+    {
+      "file": "POLSKA_GUROM_RGS_FRONTEND.zip",
+      "sha256": "c52258d775e16188190f6ac457746ea6cbfe55043ea9c6863669b947246eb2eb",
+      "files": 18,
+      "current_frontend": true
+    },
+    {
+      "file": "POLSKA_GUROM_RGS_TEST.zip",
+      "sha256": "b869d9f030b4f6e1b3fc4f1375c9cd8f30492a2599850eab50a23af85bdd4e23",
+      "files": 32,
+      "current_frontend": true
+    },
+    {
+      "file": "POLSKA_GUROM_TESTER.zip",
+      "sha256": "94e23e1003e8b4a4d5a6c24113aa7b8cc91c0b2c56ac946de3ccc7adf0e08fe2",
+      "files": 37,
+      "current_frontend": true
+    }
+  ],
+  "browser_visual_qa": "unavailable: in-app browser could not reach the local test server (ERR_CONNECTION_TIMED_OUT)",
+  "live_platform_tested": false
+}

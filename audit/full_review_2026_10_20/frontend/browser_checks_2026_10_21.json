@@ -1,0 +1,52 @@
+{
+  "version": "0.5.0-any-start",
+  "date": "2026-10-21",
+  "method": "Actual IAB browser and original local demo, explicit viewport override; no physical touch device or production RGS",
+  "checks": [
+    {
+      "size": [
+        320,
+        568
+      ],
+      "result": "Controls visible, EN amounts retain 7px gap at initial balance"
+    },
+    {
+      "size": [
+        390,
+        700
+      ],
+      "result": "Controls, scrollable paytable and autoplay confirmation accessible"
+    },
+    {
+      "size": [
+        600,
+        400
+      ],
+      "result": "Controls visible; reel area is very short, readability needs product review"
+    },
+    {
+      "size": [
+        802,
+        829
+      ],
+      "result": "FAIL feature rail has three 28px columns in 108px; card content clipped",
+      "card_width": 28,
+      "card_client_width": 24,
+      "card_scroll_widths": [
+        38,
+        38,
+        72
+      ]
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "result": "Desktop board and controls visible"
+    }
+  ],
+  "assets": "No missing artwork observed on tested screens",
+  "original_frame_protection": "Original local server denies embedding using X-Frame-Options DENY; initial fixture only tests CSS. Final viewport checks use original server directly.",
+  "viewport_restored": true
+}

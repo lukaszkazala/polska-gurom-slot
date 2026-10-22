@@ -1,0 +1,18 @@
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /__audit HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /art-theme.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /player-layout.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /art-catalog.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /game-layout.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /assets/art/rama.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /assets/symbols.json HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /api/config HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /api/state HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] code 404, message File not found
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /assets/art/polskie-motywy.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /assets/art/husarz.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /assets/art/klasyczne-motywy.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 22:37:55] "GET /assets/art/symbole-specjalne.png HTTP/1.1" 200 -

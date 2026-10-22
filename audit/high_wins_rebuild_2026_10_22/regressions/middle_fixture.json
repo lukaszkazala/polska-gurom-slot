@@ -1,0 +1,274 @@
+{
+  "scope": "Current positive-weight exported round; selected by manifest feature metadata",
+  "math_version": "0.6.0-high-wins",
+  "book_id": 100048,
+  "round": {
+    "base": {
+      "grid": [
+        [
+          "P1",
+          "L1",
+          "L1",
+          "L1",
+          "P3"
+        ],
+        [
+          "L3",
+          "P2",
+          "P4",
+          "P1",
+          "L1"
+        ],
+        [
+          "P4",
+          "L4",
+          "L3",
+          "L2",
+          "SCATTER"
+        ]
+      ],
+      "evaluation_grid": [
+        [
+          "P1",
+          "L1",
+          "L1",
+          "L1",
+          "P3"
+        ],
+        [
+          "L3",
+          "P2",
+          "P4",
+          "P1",
+          "L1"
+        ],
+        [
+          "P4",
+          "L4",
+          "L3",
+          "L2",
+          "SCATTER"
+        ]
+      ],
+      "line_wins": [
+        {
+          "line_id": 4,
+          "rows": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 10,
+          "line_multiplier": 1,
+          "start_reel": 1
+        },
+        {
+          "line_id": 12,
+          "rows": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 10,
+          "line_multiplier": 1,
+          "start_reel": 2
+        },
+        {
+          "line_id": 20,
+          "rows": [
+            2,
+            1,
+            0,
+            0,
+            1
+          ],
+          "symbol": "L1",
+          "count": 3,
+          "payout_units": 10,
+          "line_multiplier": 1,
+          "start_reel": 2
+        }
+      ],
+      "line_payout_units": 30,
+      "scatter_payout_units": 0,
+      "raw_payout_units": 30,
+      "payout_units": 30,
+      "scatter_count": 1,
+      "bonus_triggered": false,
+      "free_spins_awarded": 0,
+      "expanding_reel": null,
+      "line_multiplier": 1,
+      "cascades": [
+        {
+          "evaluation_grid": [
+            [
+              "P1",
+              "L1",
+              "L1",
+              "L1",
+              "P3"
+            ],
+            [
+              "L3",
+              "P2",
+              "P4",
+              "P1",
+              "L1"
+            ],
+            [
+              "P4",
+              "L4",
+              "L3",
+              "L2",
+              "SCATTER"
+            ]
+          ],
+          "line_wins": [
+            {
+              "line_id": 4,
+              "rows": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "symbol": "L1",
+              "count": 3,
+              "payout_units": 10,
+              "line_multiplier": 1,
+              "start_reel": 1
+            },
+            {
+              "line_id": 12,
+              "rows": [
+                1,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L1",
+              "count": 3,
+              "payout_units": 10,
+              "line_multiplier": 1,
+              "start_reel": 2
+            },
+            {
+              "line_id": 20,
+              "rows": [
+                2,
+                1,
+                0,
+                0,
+                1
+              ],
+              "symbol": "L1",
+              "count": 3,
+              "payout_units": 10,
+              "line_multiplier": 1,
+              "start_reel": 2
+            }
+          ],
+          "line_payout_units": 30,
+          "payout_units": 30,
+          "removed_positions": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "movements": [
+            {
+              "symbol": "P1",
+              "from_row": -1,
+              "to_row": 0,
+              "reel": 1
+            },
+            {
+              "symbol": "P3",
+              "from_row": -1,
+              "to_row": 0,
+              "reel": 2
+            },
+            {
+              "symbol": "L3",
+              "from_row": -1,
+              "to_row": 0,
+              "reel": 3
+            },
+            {
+              "symbol": "L2",
+              "from_row": -1,
+              "to_row": 0,
+              "reel": 4
+            },
+            {
+              "symbol": "P3",
+              "from_row": 0,
+              "to_row": 1,
+              "reel": 4
+            }
+          ]
+        },
+        {
+          "evaluation_grid": [
+            [
+              "P1",
+              "P1",
+              "P3",
+              "L3",
+              "L2"
+            ],
+            [
+              "L3",
+              "P2",
+              "P4",
+              "P1",
+              "P3"
+            ],
+            [
+              "P4",
+              "L4",
+              "L3",
+              "L2",
+              "SCATTER"
+            ]
+          ],
+          "line_wins": [],
+          "line_payout_units": 0,
+          "payout_units": 0,
+          "removed_positions": [],
+          "movements": []
+        }
+      ],
+      "cascade_limit_reached": false
+    },
+    "free_spins": [],
+    "free_spin_credits": [],
+    "raw_payout_units": 30,
+    "payout_units": 30,
+    "bonus_payout_units": 0,
+    "cap_reduction_units": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "suites": [
+    {
+      "suite": "test_server",
+      "exit_code": 0,
+      "seconds": 3.406
+    },
+    {
+      "suite": "test_cascades",
+      "exit_code": 0,
+      "seconds": 0.625
+    },
+    {
+      "suite": "test_network_faults",
+      "exit_code": 0,
+      "seconds": 5.797
+    },
+    {
+      "suite": "test_atomicity",
+      "exit_code": 0,
+      "seconds": 1.703
+    },
+    {
+      "suite": "test_bonus12_api",
+      "exit_code": 0,
+      "seconds": 21.75
+    },
+    {
+      "suite": "test_autoplay",
+      "exit_code": 0,
+      "seconds": 8.5
+    },
+    {
+      "suite": "test_network_logic",
+      "exit_code": 0,
+      "seconds": 1.156
+    },
+    {
+      "suite": "test_bonus12_frontend",
+      "exit_code": 0,
+      "seconds": 3.203
+    },
+    {
+      "suite": "test_any_start_frontend",
+      "exit_code": 0,
+      "seconds": 0.11
+    },
+    {
+      "suite": "test_audit_fixes",
+      "exit_code": 0,
+      "seconds": 0.296
+    }
+  ]
+}

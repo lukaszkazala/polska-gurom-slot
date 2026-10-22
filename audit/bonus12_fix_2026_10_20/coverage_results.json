@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "tests_run": 11,
+  "failures": [],
+  "errors": [],
+  "elapsed_seconds": 7.439313399999719,
+  "math_version": "0.4.1-weighted-12fs",
+  "source_fingerprint": {
+    "config.py": "a0ec242a1e6d69ff70b9c4f69b57bf037a33267e9360c5ca6fedb76f2752884b",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "a553f6662c6ce554caac815811a24e42b32747cd173eafc7791f656b0d251bf6"
+  },
+  "lut_sha256": "c0d3d55fcac1c152ac8e8fe07ea08b4c2c9c9e6a3b29861dd9dddae79c67c51d",
+  "bonus_book_counts": {
+    "10": 29,
+    "8": 473,
+    "12": 24
+  },
+  "bonus_integer_weight": {
+    "10": 286875670,
+    "8": 4679041094,
+    "12": 4018776
+  },
+  "independent_oracle": {
+    "stages_checked": 7273,
+    "line_awards_checked": 9040,
+    "base_spins_checked": 527,
+    "expansions_checked": 1104,
+    "new_symbols_checked": 11387,
+    "falling_survivors_checked": 7532,
+    "transitions_checked": 2372,
+    "free_spins_checked": 4374
+  },
+  "natural_witness_seed": 650496
+}

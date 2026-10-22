@@ -1,0 +1,220 @@
+{
+  "math_version": "0.4.0-weighted",
+  "mode": "base",
+  "cost": 1,
+  "selection": "unbiased integer ticket in published complete-round lookup table",
+  "book_count": 100024,
+  "unique_event_sequences": 100024,
+  "natural_candidate_books": 100000,
+  "last_natural_seed": 100104,
+  "candidate_sample_rtp": 0.9504349999999999,
+  "total_weight": 1000000000000,
+  "weighted_payout_units_sum": 96000000000000,
+  "rtp_exact_fraction": "24/25",
+  "rtp": 0.96,
+  "payout_scale": 100,
+  "payout_step_units": 10,
+  "max_win": 5000,
+  "max_win_weight": 125000,
+  "max_win_one_in": 8000000,
+  "hit_frequency": 0.294489734385,
+  "net_profit_frequency": 0.16888488012,
+  "bonus_frequency": 0.00496993554,
+  "expansions_per_paid_round": 0.01015767702,
+  "standard_deviation": 6.978496149146913,
+  "variance_fraction": "486994085036583/10000000000000",
+  "largest_single_book_probability": 1.0041851e-05,
+  "distinct_payouts": 550,
+  "rare_groups": [
+    {
+      "target_units": 50000,
+      "group_weight": 20000000,
+      "books": [
+        {
+          "id": 100000,
+          "payout_units": 49890,
+          "weight": 5000000
+        },
+        {
+          "id": 100001,
+          "payout_units": 49750,
+          "weight": 5000000
+        },
+        {
+          "id": 100002,
+          "payout_units": 49710,
+          "weight": 5000000
+        },
+        {
+          "id": 100003,
+          "payout_units": 49710,
+          "weight": 5000000
+        }
+      ]
+    },
+    {
+      "target_units": 100000,
+      "group_weight": 4000000,
+      "books": [
+        {
+          "id": 100004,
+          "payout_units": 99300,
+          "weight": 1000000
+        },
+        {
+          "id": 100005,
+          "payout_units": 99300,
+          "weight": 1000000
+        },
+        {
+          "id": 100006,
+          "payout_units": 98940,
+          "weight": 1000000
+        },
+        {
+          "id": 100007,
+          "payout_units": 98710,
+          "weight": 1000000
+        }
+      ]
+    },
+    {
+      "target_units": 200000,
+      "group_weight": 1000000,
+      "books": [
+        {
+          "id": 100008,
+          "payout_units": 200110,
+          "weight": 250000
+        },
+        {
+          "id": 100009,
+          "payout_units": 200830,
+          "weight": 250000
+        },
+        {
+          "id": 100010,
+          "payout_units": 201110,
+          "weight": 250000
+        },
+        {
+          "id": 100011,
+          "payout_units": 198500,
+          "weight": 250000
+        }
+      ]
+    },
+    {
+      "target_units": 300000,
+      "group_weight": 500000,
+      "books": [
+        {
+          "id": 100012,
+          "payout_units": 300310,
+          "weight": 125000
+        },
+        {
+          "id": 100013,
+          "payout_units": 300900,
+          "weight": 125000
+        },
+        {
+          "id": 100014,
+          "payout_units": 297840,
+          "weight": 125000
+        },
+        {
+          "id": 100015,
+          "payout_units": 296830,
+          "weight": 125000
+        }
+      ]
+    },
+    {
+      "target_units": 400000,
+      "group_weight": 250000,
+      "books": [
+        {
+          "id": 100016,
+          "payout_units": 402710,
+          "weight": 62500
+        },
+        {
+          "id": 100017,
+          "payout_units": 402710,
+          "weight": 62500
+        },
+        {
+          "id": 100018,
+          "payout_units": 402750,
+          "weight": 62500
+        },
+        {
+          "id": 100019,
+          "payout_units": 402930,
+          "weight": 62500
+        }
+      ]
+    },
+    {
+      "target_units": 500000,
+      "group_weight": 125000,
+      "books": [
+        {
+          "id": 100020,
+          "payout_units": 500000,
+          "weight": 31250
+        },
+        {
+          "id": 100021,
+          "payout_units": 500000,
+          "weight": 31250
+        },
+        {
+          "id": 100022,
+          "payout_units": 500000,
+          "weight": 31250
+        },
+        {
+          "id": 100023,
+          "payout_units": 500000,
+          "weight": 31250
+        }
+      ]
+    }
+  ],
+  "ordinary_positive_book_weight": 9900270,
+  "correction_book_ids": [
+    74,
+    336
+  ],
+  "correction_additional_weights": [
+    128775,
+    0
+  ],
+  "source_fingerprint": {
+    "config.py": "e616d57031e9a4fea36e3deaa453f11590a9890e34f7a1652882bdca0f34d287",
+    "game.py": "7d36c2bea039128e1a958a99f0bb5401bf395b59118e48016cd88bb5fe6d65ef",
+    "selection.py": "9861e8b1a61a9855f920129916201c3f4e358b6239906dcbf8beed6ba9c324dc"
+  },
+  "elapsed_seconds": 20.606917000000976,
+  "platform_approval": "Not performed; export and public SDK validation are local",
+  "files": {
+    "index.json": {
+      "sha256": "5b2e930c746350b937e30430c61b4dd32c161c6506d2338079fc902fd490a13e",
+      "bytes": 164
+    },
+    "books_base.jsonl.zst": {
+      "sha256": "50643905fb81da3096a3c741da20572dce8de141fd676cc6a04fe78a0e816418",
+      "bytes": 5523545
+    },
+    "lookUpTable_base_0.csv": {
+      "sha256": "6f41f22a102a96658b8326aa500607a64eaa77df7e705e1ac217a9da2f2c58fe",
+      "bytes": 1809871
+    },
+    "selection.json": {
+      "sha256": "924e62e599f2fdeebf38fd315cea629a9c40e79fd029e259fb3dbe68c1070ea0",
+      "bytes": 1491984
+    }
+  }
+}

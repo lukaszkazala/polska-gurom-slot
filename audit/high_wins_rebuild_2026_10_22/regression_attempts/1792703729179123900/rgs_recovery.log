@@ -1,0 +1,256 @@
+{"passed":false,"total":33,"failed":33}
+
+FAIL Checkpoint uses authenticated bet/event with no amount or new play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:28:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:27:9)
+    at Object.<anonymous> (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:147:1)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+FAIL New browser state resumes server checkpoint without local recovery storage: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:34:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:33:9)
+FAIL Zero payout auto-closed round never sends bet/event or end-round: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:40:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:39:9)
+FAIL Duplicate or older checkpoints do not move progress backwards: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:44:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:43:9)
+FAIL More advanced server checkpoint wins over older local checkpoint: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:48:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:47:9)
+FAIL Local completed presentation survives lost checkpoint acknowledgement: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:52:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:51:9)
+FAIL Lost event response remains recoverable even after losing all browser storage: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:57:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:56:9)
+FAIL Checkpoint not reaching server preserves local completed progress: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:61:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:60:9)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 8: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 9: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 10: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 11: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 12: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 13: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 14: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 15: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 16: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Malformed or foreign server checkpoint cannot skip unshown bonus 17: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:67:23
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:66:11)
+FAIL Unconfirmed event echo is rejected and round is not settled: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:72:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:71:9)
+FAIL Same betID with changed authoritative outcome cannot settle cached result: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:76:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:75:9)
+FAIL Object key order differences do not change the authoritative outcome: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:80:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:79:9)
+FAIL Expired session while recovering does not discard uncertain paid intent: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:85:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:84:9)
+FAIL Concurrent finish requests cannot issue two end-round calls: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:90:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:89:9)
+FAIL Settlement network-before retries by recovery, never by new play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:97:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:96:85)
+FAIL Settlement 500 retries by recovery, never by new play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:97:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:96:85)
+FAIL Settlement lost-response retries by recovery, never by new play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:97:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:96:85)
+FAIL Settlement bad-json retries by recovery, never by new play: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:97:21
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:96:85)
+FAIL Initial authentication failure offers reconnect without duplicate handlers or cells: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+false !== true
+
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:108:12
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:103:3)
+FAIL Bonus pauses at fourth free spin after event network-before and resumes safely: TypeError: Cannot read properties of null (reading 'freeCompleted')
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:118:39
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:111:60)
+FAIL Bonus pauses at fourth free spin after event lost-response and resumes safely: TypeError: Cannot read properties of null (reading 'freeCompleted')
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:118:39
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:111:60)
+FAIL Fresh UI without old browser storage resumes fifth free spin from RGS event: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:124:25
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:123:9)
+FAIL Changed permitted stakes do not discard already paid active bonus: Error: rgs_incompatible_math
+    at failure (evalmachine.<anonymous>:9:19)
+    at requireThat (evalmachine.<anonymous>:12:27)
+    at Client.boot (evalmachine.<anonymous>:212:7)
+    at started (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:19:68)
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:130:25
+    at check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:15)
+    at main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:129:9)
+FAIL Offline recovery authentication preserves UI intent until reconnect: TypeError: Cannot read properties of null (reading 'request_id')
+    at C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:137:108
+    at async check (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:10:9)
+    at async main (C:\Users\Kazaluka\.codex\.chatgpt-projects\g-p-6ad10d7dc94881919023097cba0cf4b4\test-interface-any-start\qa\test_rgs_recovery.cjs:135:3)

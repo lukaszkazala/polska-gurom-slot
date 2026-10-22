@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "tests": 6,
+  "scenarios": [
+    {
+      "passed": true,
+      "fault": "auth-before",
+      "resumed_after_free_spins": 4,
+      "charges": 1,
+      "settlements": 1,
+      "end_calls": 1
+    },
+    {
+      "passed": true,
+      "fault": "event-lost",
+      "resumed_after_free_spins": 4,
+      "charges": 1,
+      "settlements": 1,
+      "end_calls": 1
+    },
+    {
+      "passed": true,
+      "fault": "event-before",
+      "resumed_after_free_spins": 4,
+      "charges": 1,
+      "settlements": 1,
+      "end_calls": 1
+    },
+    {
+      "passed": true,
+      "fault": "none",
+      "resumed_after_free_spins": 4,
+      "charges": 1,
+      "settlements": 1,
+      "end_calls": 1
+    },
+    {
+      "passed": true,
+      "fault": "end-lost",
+      "resumed_after_free_spins": 4,
+      "charges": 1,
+      "settlements": 1,
+      "end_calls": 1
+    },
+    {
+      "passed": true,
+      "fault": "end-before",
+      "resumed_after_free_spins": 4,
+      "charges": 1,
+      "settlements": 1,
+      "end_calls": 2
+    }
+  ]
+}

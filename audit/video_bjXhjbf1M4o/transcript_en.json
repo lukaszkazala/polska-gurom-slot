@@ -1,0 +1,3317 @@
+[
+  {
+    "text": "all right welcome to the gamble smart",
+    "start": 0.16,
+    "duration": 2.96
+  },
+  {
+    "text": "Channel my name is Mark and today we are",
+    "start": 1.319,
+    "duration": 4.281
+  },
+  {
+    "text": "talking about how SL machines actually",
+    "start": 3.12,
+    "duration": 4.279
+  },
+  {
+    "text": "work okay we're going to do a lot of",
+    "start": 5.6,
+    "duration": 3.16
+  },
+  {
+    "text": "Hands-On stuff today we're going to show",
+    "start": 7.399,
+    "duration": 2.521
+  },
+  {
+    "text": "you some reels we're going to show you",
+    "start": 8.76,
+    "duration": 3.16
+  },
+  {
+    "text": "some documentation and we're also going",
+    "start": 9.92,
+    "duration": 3.48
+  },
+  {
+    "text": "to talk about a lot of other things like",
+    "start": 11.92,
+    "duration": 4.119
+  },
+  {
+    "text": "progressives how do they work how do the",
+    "start": 13.4,
+    "duration": 4.08
+  },
+  {
+    "text": "uh bonus rounds work are they",
+    "start": 16.039,
+    "duration": 3.921
+  },
+  {
+    "text": "predetermined as well as volatility this",
+    "start": 17.48,
+    "duration": 4.24
+  },
+  {
+    "text": "is your One-Stop Shop video that will",
+    "start": 19.96,
+    "duration": 4.319
+  },
+  {
+    "text": "teach you all about how slot machines",
+    "start": 21.72,
+    "duration": 4.68
+  },
+  {
+    "text": "really work I am a slot technician I've",
+    "start": 24.279,
+    "duration": 3.881
+  },
+  {
+    "text": "also worked very closely with people",
+    "start": 26.4,
+    "duration": 3.199
+  },
+  {
+    "text": "that have written the math for these",
+    "start": 28.16,
+    "duration": 2.32
+  },
+  {
+    "text": "games",
+    "start": 29.599,
+    "duration": 2.84
+  },
+  {
+    "text": "as well as producers of the games",
+    "start": 30.48,
+    "duration": 3.96
+  },
+  {
+    "text": "themselves so a lot of good information",
+    "start": 32.439,
+    "duration": 4.201
+  },
+  {
+    "text": "in this video we hope you stay tuned we",
+    "start": 34.44,
+    "duration": 4.0
+  },
+  {
+    "text": "do have chapter markers Down Below in",
+    "start": 36.64,
+    "duration": 3.56
+  },
+  {
+    "text": "case you you know want to skip around to",
+    "start": 38.44,
+    "duration": 3.48
+  },
+  {
+    "text": "certain parts but we do encourage you to",
+    "start": 40.2,
+    "duration": 4.0
+  },
+  {
+    "text": "watch the full thing so you have a good",
+    "start": 41.92,
+    "duration": 4.04
+  },
+  {
+    "text": "understanding of how Sal machines work",
+    "start": 44.2,
+    "duration": 4.12
+  },
+  {
+    "text": "because as we say on this channel we",
+    "start": 45.96,
+    "duration": 4.2
+  },
+  {
+    "text": "feel if you're properly educated about",
+    "start": 48.32,
+    "duration": 3.36
+  },
+  {
+    "text": "how all this stuff works you will make",
+    "start": 50.16,
+    "duration": 2.64
+  },
+  {
+    "text": "better decisions when you're in the",
+    "start": 51.68,
+    "duration": 3.039
+  },
+  {
+    "text": "casino so without further Ado we're",
+    "start": 52.8,
+    "duration": 3.599
+  },
+  {
+    "text": "going to have a fun time this video hope",
+    "start": 54.719,
+    "duration": 4.201
+  },
+  {
+    "text": "you can learn a lot let's get",
+    "start": 56.399,
+    "duration": 5.521
+  },
+  {
+    "text": "started",
+    "start": 58.92,
+    "duration": 3.0
+  },
+  {
+    "text": "[Applause]",
+    "start": 63.59,
+    "duration": 13.209
+  },
+  {
+    "text": "[Music]",
+    "start": 65.59,
+    "duration": 12.73
+  },
+  {
+    "text": "all right as usual if you are new here",
+    "start": 76.799,
+    "duration": 2.881
+  },
+  {
+    "text": "we certainly want to welcome you to the",
+    "start": 78.32,
+    "duration": 2.88
+  },
+  {
+    "text": "gamble smart Channel we are here to",
+    "start": 79.68,
+    "duration": 3.92
+  },
+  {
+    "text": "educate you to become better gamblers",
+    "start": 81.2,
+    "duration": 4.2
+  },
+  {
+    "text": "and that is by teaching you how this",
+    "start": 83.6,
+    "duration": 4.12
+  },
+  {
+    "text": "stuff works and let you focus on stuff",
+    "start": 85.4,
+    "duration": 4.24
+  },
+  {
+    "text": "that you actually have control over and",
+    "start": 87.72,
+    "duration": 3.52
+  },
+  {
+    "text": "today today's video is all going to be",
+    "start": 89.64,
+    "duration": 3.479
+  },
+  {
+    "text": "about how slot machines actually work",
+    "start": 91.24,
+    "duration": 3.919
+  },
+  {
+    "text": "and with some advice towards the end on",
+    "start": 93.119,
+    "duration": 3.881
+  },
+  {
+    "text": "what to look for and what the things are",
+    "start": 95.159,
+    "duration": 3.92
+  },
+  {
+    "text": "that you can do to help better increase",
+    "start": 97.0,
+    "duration": 4.24
+  },
+  {
+    "text": "your chances of walking away with cash",
+    "start": 99.079,
+    "duration": 3.36
+  },
+  {
+    "text": "okay cuz that's what we're all about",
+    "start": 101.24,
+    "duration": 3.479
+  },
+  {
+    "text": "here so if you are new here hit a",
+    "start": 102.439,
+    "duration": 3.841
+  },
+  {
+    "text": "subscribe thumbs up if you like this",
+    "start": 104.719,
+    "duration": 3.321
+  },
+  {
+    "text": "kind of video and then also ring that",
+    "start": 106.28,
+    "duration": 3.6
+  },
+  {
+    "text": "Bell for notifications CU we do go live",
+    "start": 108.04,
+    "duration": 3.6
+  },
+  {
+    "text": "from time to time most of the time",
+    "start": 109.88,
+    "duration": 4.0
+  },
+  {
+    "text": "unannounced so there you go all right",
+    "start": 111.64,
+    "duration": 4.399
+  },
+  {
+    "text": "let's jump in again we have chapter",
+    "start": 113.88,
+    "duration": 3.599
+  },
+  {
+    "text": "markers down below if you want to jump",
+    "start": 116.039,
+    "duration": 3.241
+  },
+  {
+    "text": "around that's totally cool but we hope",
+    "start": 117.479,
+    "duration": 2.92
+  },
+  {
+    "text": "you stay through the whole thing right",
+    "start": 119.28,
+    "duration": 2.159
+  },
+  {
+    "text": "so the first thing we're going to talk",
+    "start": 120.399,
+    "duration": 3.441
+  },
+  {
+    "text": "about is RNG or random number generator",
+    "start": 121.439,
+    "duration": 4.081
+  },
+  {
+    "text": "you've probably heard this before",
+    "start": 123.84,
+    "duration": 3.48
+  },
+  {
+    "text": "there's a big debate of whether slot",
+    "start": 125.52,
+    "duration": 3.4
+  },
+  {
+    "text": "machines are truly random or not and",
+    "start": 127.32,
+    "duration": 2.76
+  },
+  {
+    "text": "we're going to get into that in this",
+    "start": 128.92,
+    "duration": 2.92
+  },
+  {
+    "text": "video so you understand really what the",
+    "start": 130.08,
+    "duration": 3.56
+  },
+  {
+    "text": "answer is to that CU it's not as simple",
+    "start": 131.84,
+    "duration": 4.6
+  },
+  {
+    "text": "as what a lot of people think but it is",
+    "start": 133.64,
+    "duration": 4.08
+  },
+  {
+    "text": "true that when these machines are",
+    "start": 136.44,
+    "duration": 3.28
+  },
+  {
+    "text": "powered on they have random number",
+    "start": 137.72,
+    "duration": 3.599
+  },
+  {
+    "text": "generators constantly running these are",
+    "start": 139.72,
+    "duration": 3.28
+  },
+  {
+    "text": "for class three machines like what you",
+    "start": 141.319,
+    "duration": 3.721
+  },
+  {
+    "text": "see behind me what you find in most",
+    "start": 143.0,
+    "duration": 4.2
+  },
+  {
+    "text": "casinos so as soon as they're powered on",
+    "start": 145.04,
+    "duration": 3.68
+  },
+  {
+    "text": "they are cycling through thousands and",
+    "start": 147.2,
+    "duration": 3.84
+  },
+  {
+    "text": "thousands and thousands of numbers every",
+    "start": 148.72,
+    "duration": 5.12
+  },
+  {
+    "text": "millisecond incredibly fast and that is",
+    "start": 151.04,
+    "duration": 5.199
+  },
+  {
+    "text": "there for one reason and one reason only",
+    "start": 153.84,
+    "duration": 5.759
+  },
+  {
+    "text": "so that is that nobody the casino the",
+    "start": 156.239,
+    "duration": 5.64
+  },
+  {
+    "text": "manufacturer you cannot predict what is",
+    "start": 159.599,
+    "duration": 4.481
+  },
+  {
+    "text": "going to come up on that next spin it",
+    "start": 161.879,
+    "duration": 4.28
+  },
+  {
+    "text": "has to be true and fair for everybody",
+    "start": 164.08,
+    "duration": 4.48
+  },
+  {
+    "text": "that's playing so those myths out there",
+    "start": 166.159,
+    "duration": 4.8
+  },
+  {
+    "text": "that they will be able to change the RNG",
+    "start": 168.56,
+    "duration": 3.959
+  },
+  {
+    "text": "based on if you have your player card in",
+    "start": 170.959,
+    "duration": 3.64
+  },
+  {
+    "text": "or not or if you wait 5 minutes before",
+    "start": 172.519,
+    "duration": 4.841
+  },
+  {
+    "text": "playing all that stuff is false okay the",
+    "start": 174.599,
+    "duration": 5.801
+  },
+  {
+    "text": "RNG is there to prevent any any kind of",
+    "start": 177.36,
+    "duration": 5.159
+  },
+  {
+    "text": "future outcome predictions okay and that",
+    "start": 180.4,
+    "duration": 4.24
+  },
+  {
+    "text": "is by law and there is a lot of",
+    "start": 182.519,
+    "duration": 3.8
+  },
+  {
+    "text": "compliance and audence that goes into",
+    "start": 184.64,
+    "duration": 3.679
+  },
+  {
+    "text": "that before a game even hits the casino",
+    "start": 186.319,
+    "duration": 5.121
+  },
+  {
+    "text": "floor okay so that is what the RNG is is",
+    "start": 188.319,
+    "duration": 5.441
+  },
+  {
+    "text": "it truly random we're going to get into",
+    "start": 191.44,
+    "duration": 4.04
+  },
+  {
+    "text": "that next all right so we talked about",
+    "start": 193.76,
+    "duration": 4.039
+  },
+  {
+    "text": "an RNG and a random number generator but",
+    "start": 195.48,
+    "duration": 4.28
+  },
+  {
+    "text": "what does that actually do like it picks",
+    "start": 197.799,
+    "duration": 3.921
+  },
+  {
+    "text": "a number okay fine now what does it do",
+    "start": 199.76,
+    "duration": 4.119
+  },
+  {
+    "text": "with it it looks it up on what's called",
+    "start": 201.72,
+    "duration": 5.079
+  },
+  {
+    "text": "a virtual real table okay and a virtual",
+    "start": 203.879,
+    "duration": 4.92
+  },
+  {
+    "text": "real table is imagine a real strip right",
+    "start": 206.799,
+    "duration": 5.44
+  },
+  {
+    "text": "here has 22 positions on it okay virtual",
+    "start": 208.799,
+    "duration": 6.321
+  },
+  {
+    "text": "real strip can have many many more okay",
+    "start": 212.239,
+    "duration": 6.0
+  },
+  {
+    "text": "and most do with very few exceptions",
+    "start": 215.12,
+    "duration": 5.119
+  },
+  {
+    "text": "they all typically have more than 22",
+    "start": 218.239,
+    "duration": 4.521
+  },
+  {
+    "text": "stops on it uh the simplest of games",
+    "start": 220.239,
+    "duration": 5.801
+  },
+  {
+    "text": "like Double Diamond has 72 instead of 22",
+    "start": 222.76,
+    "duration": 6.0
+  },
+  {
+    "text": "so 72 on the virtual table but games",
+    "start": 226.04,
+    "duration": 5.08
+  },
+  {
+    "text": "like huff and more puff have thousands",
+    "start": 228.76,
+    "duration": 5.36
+  },
+  {
+    "text": "okay lots to choose from so let's break",
+    "start": 231.12,
+    "duration": 5.24
+  },
+  {
+    "text": "it down and explain what exactly is a",
+    "start": 234.12,
+    "duration": 4.839
+  },
+  {
+    "text": "virtual real strip and how it ties into",
+    "start": 236.36,
+    "duration": 4.12
+  },
+  {
+    "text": "this which is actually what you see on",
+    "start": 238.959,
+    "duration": 2.761
+  },
+  {
+    "text": "the slot machine all right I'm going to",
+    "start": 240.48,
+    "duration": 2.759
+  },
+  {
+    "text": "put something scary looking on the uh",
+    "start": 241.72,
+    "duration": 2.92
+  },
+  {
+    "text": "screen here but I'm going to explain",
+    "start": 243.239,
+    "duration": 2.881
+  },
+  {
+    "text": "exactly what this means and what's going",
+    "start": 244.64,
+    "duration": 3.48
+  },
+  {
+    "text": "on here so if you look at this table",
+    "start": 246.12,
+    "duration": 4.24
+  },
+  {
+    "text": "here the leftmost column the random",
+    "start": 248.12,
+    "duration": 3.64
+  },
+  {
+    "text": "number generator that is what we just",
+    "start": 250.36,
+    "duration": 3.239
+  },
+  {
+    "text": "talked about okay so on the game of",
+    "start": 251.76,
+    "duration": 3.72
+  },
+  {
+    "text": "Double Diamond it will pick a number",
+    "start": 253.599,
+    "duration": 4.841
+  },
+  {
+    "text": "between 1 and 72 for each of the reels",
+    "start": 255.48,
+    "duration": 5.08
+  },
+  {
+    "text": "on the machine so Double Diamond is a",
+    "start": 258.44,
+    "duration": 3.88
+  },
+  {
+    "text": "three real machine so there'll be three",
+    "start": 260.56,
+    "duration": 4.04
+  },
+  {
+    "text": "picks from the random number generator",
+    "start": 262.32,
+    "duration": 4.8
+  },
+  {
+    "text": "based on what it picks is the second",
+    "start": 264.6,
+    "duration": 4.8
+  },
+  {
+    "text": "column here so let's say that it picks a",
+    "start": 267.12,
+    "duration": 5.16
+  },
+  {
+    "text": "number 27 that belongs to a Double",
+    "start": 269.4,
+    "duration": 4.92
+  },
+  {
+    "text": "Diamond symbol and you will see a Double",
+    "start": 272.28,
+    "duration": 5.199
+  },
+  {
+    "text": "Diamond symbol land on the payline okay",
+    "start": 274.32,
+    "duration": 4.879
+  },
+  {
+    "text": "now let's look at number let's say it",
+    "start": 277.479,
+    "duration": 5.361
+  },
+  {
+    "text": "picks 38 well let's go down here 38 is a",
+    "start": 279.199,
+    "duration": 5.72
+  },
+  {
+    "text": "blank so you can see here it falls",
+    "start": 282.84,
+    "duration": 5.32
+  },
+  {
+    "text": "within uh the column here",
+    "start": 284.919,
+    "duration": 6.28
+  },
+  {
+    "text": "and that equates to position 11 on the",
+    "start": 288.16,
+    "duration": 5.759
+  },
+  {
+    "text": "actual reel itself which is a blank okay",
+    "start": 291.199,
+    "duration": 6.801
+  },
+  {
+    "text": "so let's say it picks 55 55 is also a",
+    "start": 293.919,
+    "duration": 6.041
+  },
+  {
+    "text": "blank so do you see what's going on on",
+    "start": 298.0,
+    "duration": 4.36
+  },
+  {
+    "text": "here RNG is picking a number between 1",
+    "start": 299.96,
+    "duration": 4.04
+  },
+  {
+    "text": "and 72 and then it's going to fall",
+    "start": 302.36,
+    "duration": 4.2
+  },
+  {
+    "text": "within one of these ranges on the chart",
+    "start": 304.0,
+    "duration": 5.039
+  },
+  {
+    "text": "here and then that is going to equate to",
+    "start": 306.56,
+    "duration": 4.76
+  },
+  {
+    "text": "what you actually see on the Reel",
+    "start": 309.039,
+    "duration": 4.961
+  },
+  {
+    "text": "whenever it lands on that position okay",
+    "start": 311.32,
+    "duration": 5.599
+  },
+  {
+    "text": "that is how a slot machine works at its",
+    "start": 314.0,
+    "duration": 6.039
+  },
+  {
+    "text": "very core okay so try to keep that in",
+    "start": 316.919,
+    "duration": 5.641
+  },
+  {
+    "text": "mind that there it's a lot of people",
+    "start": 320.039,
+    "duration": 4.361
+  },
+  {
+    "text": "think that there's some crazy Advanced",
+    "start": 322.56,
+    "duration": 3.759
+  },
+  {
+    "text": "algorithms going on and it really isn't",
+    "start": 324.4,
+    "duration": 4.68
+  },
+  {
+    "text": "it's simple math it's very simple math",
+    "start": 326.319,
+    "duration": 3.961
+  },
+  {
+    "text": "the RNG",
+    "start": 329.08,
+    "duration": 3.119
+  },
+  {
+    "text": "picks from something and that results",
+    "start": 330.28,
+    "duration": 4.199
+  },
+  {
+    "text": "into what you actually see it's exactly",
+    "start": 332.199,
+    "duration": 4.041
+  },
+  {
+    "text": "the same of picking an ace of clubs out",
+    "start": 334.479,
+    "duration": 4.121
+  },
+  {
+    "text": "of a deck of cards one in 52 chance",
+    "start": 336.24,
+    "duration": 4.679
+  },
+  {
+    "text": "right so it's the same thing with the",
+    "start": 338.6,
+    "duration": 4.039
+  },
+  {
+    "text": "slot machine now the more complicated",
+    "start": 340.919,
+    "duration": 3.12
+  },
+  {
+    "text": "the slot machines like we talked about",
+    "start": 342.639,
+    "duration": 3.041
+  },
+  {
+    "text": "with huff and more puff this table's",
+    "start": 344.039,
+    "duration": 4.321
+  },
+  {
+    "text": "going to be a lot bigger but in the end",
+    "start": 345.68,
+    "duration": 4.56
+  },
+  {
+    "text": "that is all that is going on RNG is",
+    "start": 348.36,
+    "duration": 3.44
+  },
+  {
+    "text": "picking something on here and then it",
+    "start": 350.24,
+    "duration": 3.44
+  },
+  {
+    "text": "translates to what you actually see on",
+    "start": 351.8,
+    "duration": 3.44
+  },
+  {
+    "text": "the machine okay all right I hope I",
+    "start": 353.68,
+    "duration": 3.44
+  },
+  {
+    "text": "didn't lose a lot of you there math can",
+    "start": 355.24,
+    "duration": 3.84
+  },
+  {
+    "text": "be very tricky sometimes and I know it's",
+    "start": 357.12,
+    "duration": 4.6
+  },
+  {
+    "text": "not per favorite subject right but I'm",
+    "start": 359.08,
+    "duration": 4.32
+  },
+  {
+    "text": "going to show one more thing hang in",
+    "start": 361.72,
+    "duration": 3.08
+  },
+  {
+    "text": "there hang in there we're going to talk",
+    "start": 363.4,
+    "duration": 3.359
+  },
+  {
+    "text": "a little bit about probabilities okay so",
+    "start": 364.8,
+    "duration": 3.239
+  },
+  {
+    "text": "I'm going to put another chart up on the",
+    "start": 366.759,
+    "duration": 3.72
+  },
+  {
+    "text": "screen here so what this is actually",
+    "start": 368.039,
+    "duration": 5.201
+  },
+  {
+    "text": "showing you is the probability of each",
+    "start": 370.479,
+    "duration": 4.601
+  },
+  {
+    "text": "possible outcome on the Double Diamond",
+    "start": 373.24,
+    "duration": 4.32
+  },
+  {
+    "text": "machine so if you look here uh row",
+    "start": 375.08,
+    "duration": 5.16
+  },
+  {
+    "text": "number one is saying that there's an",
+    "start": 377.56,
+    "duration": 5.44
+  },
+  {
+    "text": "85.7% chance that when you spin on a",
+    "start": 380.24,
+    "duration": 4.6
+  },
+  {
+    "text": "Double Diamond machine it will result in",
+    "start": 383.0,
+    "duration": 4.72
+  },
+  {
+    "text": "nothing the money goes to the casino",
+    "start": 384.84,
+    "duration": 5.52
+  },
+  {
+    "text": "okay but here's the distribution of all",
+    "start": 387.72,
+    "duration": 5.199
+  },
+  {
+    "text": "the other winds so a single Cherry is",
+    "start": 390.36,
+    "duration": 5.119
+  },
+  {
+    "text": "going to be there's 18,9 60",
+    "start": 392.919,
+    "duration": 4.68
+  },
+  {
+    "text": "possibilities of that so basically you",
+    "start": 395.479,
+    "duration": 4.601
+  },
+  {
+    "text": "have a 5% chance of getting a cherry",
+    "start": 397.599,
+    "duration": 4.681
+  },
+  {
+    "text": "whenever you spin on a Double Diamond",
+    "start": 400.08,
+    "duration": 4.16
+  },
+  {
+    "text": "machine but what about getting the big",
+    "start": 402.28,
+    "duration": 5.84
+  },
+  {
+    "text": "one the big top one that is a",
+    "start": 404.24,
+    "duration": 7.16
+  },
+  {
+    "text": "0.00002 or",
+    "start": 408.12,
+    "duration": 3.28
+  },
+  {
+    "text": "0.002% chance of getting it so very hard",
+    "start": 412.039,
+    "duration": 6.481
+  },
+  {
+    "text": "so it's basically eight out of",
+    "start": 415.28,
+    "duration": 6.84
+  },
+  {
+    "text": "373,000 48 spins okay so I'll put the",
+    "start": 418.52,
+    "duration": 5.28
+  },
+  {
+    "text": "math up here on the screen but that is",
+    "start": 422.12,
+    "duration": 3.56
+  },
+  {
+    "text": "the odds of getting three double",
+    "start": 423.8,
+    "duration": 4.16
+  },
+  {
+    "text": "diamonds on the machine so what does all",
+    "start": 425.68,
+    "duration": 4.239
+  },
+  {
+    "text": "this mean again this is just showing you",
+    "start": 427.96,
+    "duration": 4.2
+  },
+  {
+    "text": "that there's no crazy algorithms going",
+    "start": 429.919,
+    "duration": 4.801
+  },
+  {
+    "text": "on on a slot machine it's pure math it's",
+    "start": 432.16,
+    "duration": 4.36
+  },
+  {
+    "text": "pure math and probability just like you",
+    "start": 434.72,
+    "duration": 4.0
+  },
+  {
+    "text": "would find on a roulette table okay all",
+    "start": 436.52,
+    "duration": 4.079
+  },
+  {
+    "text": "right let's jump into the next topic",
+    "start": 438.72,
+    "duration": 3.52
+  },
+  {
+    "text": "enough math for now all right",
+    "start": 440.599,
+    "duration": 4.04
+  },
+  {
+    "text": "considering what we just talked about",
+    "start": 442.24,
+    "duration": 4.72
+  },
+  {
+    "text": "let's talk about balancing okay this is",
+    "start": 444.639,
+    "duration": 4.041
+  },
+  {
+    "text": "something that comes up a lot I've seen",
+    "start": 446.96,
+    "duration": 4.4
+  },
+  {
+    "text": "a lot of people talk about how uh the",
+    "start": 448.68,
+    "duration": 4.16
+  },
+  {
+    "text": "casino needs to make sure that the",
+    "start": 451.36,
+    "duration": 3.08
+  },
+  {
+    "text": "machines are always in balance that",
+    "start": 452.84,
+    "duration": 3.039
+  },
+  {
+    "text": "they're meeting their revenue goals and",
+    "start": 454.44,
+    "duration": 3.439
+  },
+  {
+    "text": "all this kind of stuff and I'm here to",
+    "start": 455.879,
+    "duration": 3.72
+  },
+  {
+    "text": "tell you that slot machines do not",
+    "start": 457.879,
+    "duration": 4.44
+  },
+  {
+    "text": "actively balance and what I mean by that",
+    "start": 459.599,
+    "duration": 4.72
+  },
+  {
+    "text": "is that they don't look to see what has",
+    "start": 462.319,
+    "duration": 4.081
+  },
+  {
+    "text": "happened in the past and changes their",
+    "start": 464.319,
+    "duration": 5.041
+  },
+  {
+    "text": "algorithm or output to make it more",
+    "start": 466.4,
+    "duration": 5.04
+  },
+  {
+    "text": "balanced in the future okay if you",
+    "start": 469.36,
+    "duration": 4.2
+  },
+  {
+    "text": "listen to what we just talked about with",
+    "start": 471.44,
+    "duration": 4.64
+  },
+  {
+    "text": "probability uh that's not possible and",
+    "start": 473.56,
+    "duration": 4.84
+  },
+  {
+    "text": "it's not even necessary because over the",
+    "start": 476.08,
+    "duration": 4.559
+  },
+  {
+    "text": "life of the machine around 10 million",
+    "start": 478.4,
+    "duration": 4.199
+  },
+  {
+    "text": "pulls or so all of those combinations",
+    "start": 480.639,
+    "duration": 4.041
+  },
+  {
+    "text": "are going to play out and it will equate",
+    "start": 482.599,
+    "duration": 3.88
+  },
+  {
+    "text": "to whatever the payback percentage is on",
+    "start": 484.68,
+    "duration": 4.519
+  },
+  {
+    "text": "the machine it happens naturally okay so",
+    "start": 486.479,
+    "duration": 4.961
+  },
+  {
+    "text": "whenever you hear somebody say well I",
+    "start": 489.199,
+    "duration": 3.641
+  },
+  {
+    "text": "saw somebody just put a ton of money",
+    "start": 491.44,
+    "duration": 3.039
+  },
+  {
+    "text": "into this machine that means it needs to",
+    "start": 492.84,
+    "duration": 3.799
+  },
+  {
+    "text": "start paying back to stay in Balance",
+    "start": 494.479,
+    "duration": 4.28
+  },
+  {
+    "text": "it's completely false it does not change",
+    "start": 496.639,
+    "duration": 5.321
+  },
+  {
+    "text": "the programming is already in place okay",
+    "start": 498.759,
+    "duration": 5.481
+  },
+  {
+    "text": "that is what we just talked about so",
+    "start": 501.96,
+    "duration": 4.679
+  },
+  {
+    "text": "balancing again it will happen naturally",
+    "start": 504.24,
+    "duration": 4.239
+  },
+  {
+    "text": "over the time we don't want you to get",
+    "start": 506.639,
+    "duration": 3.801
+  },
+  {
+    "text": "confused thinking that you know there's",
+    "start": 508.479,
+    "duration": 3.28
+  },
+  {
+    "text": "something on the machine that's going to",
+    "start": 510.44,
+    "duration": 3.399
+  },
+  {
+    "text": "tell you or suggest to you that it is in",
+    "start": 511.759,
+    "duration": 4.561
+  },
+  {
+    "text": "a paying mode or a losing mode cuz",
+    "start": 513.839,
+    "duration": 4.601
+  },
+  {
+    "text": "there's not there is no such thing as a",
+    "start": 516.32,
+    "duration": 4.599
+  },
+  {
+    "text": "hot and a cold machine based on the",
+    "start": 518.44,
+    "duration": 4.8
+  },
+  {
+    "text": "program it doesn't purposely do that",
+    "start": 520.919,
+    "duration": 4.401
+  },
+  {
+    "text": "does it feel that way sometimes yes but",
+    "start": 523.24,
+    "duration": 4.0
+  },
+  {
+    "text": "that is just probability that's how it",
+    "start": 525.32,
+    "duration": 4.48
+  },
+  {
+    "text": "works okay it's not because the machine",
+    "start": 527.24,
+    "duration": 4.76
+  },
+  {
+    "text": "is intentionally doing that you will see",
+    "start": 529.8,
+    "duration": 4.479
+  },
+  {
+    "text": "Cycles you will feel cycles that it's",
+    "start": 532.0,
+    "duration": 4.48
+  },
+  {
+    "text": "winning or it's losing but that does not",
+    "start": 534.279,
+    "duration": 3.761
+  },
+  {
+    "text": "give you any indication on what it's",
+    "start": 536.48,
+    "duration": 4.24
+  },
+  {
+    "text": "going to do next on the next spin okay",
+    "start": 538.04,
+    "duration": 4.799
+  },
+  {
+    "text": "so that is how balancing works on the",
+    "start": 540.72,
+    "duration": 4.48
+  },
+  {
+    "text": "machine it's passively balanced meaning",
+    "start": 542.839,
+    "duration": 4.721
+  },
+  {
+    "text": "it doesn't actively do so okay let's get",
+    "start": 545.2,
+    "duration": 3.96
+  },
+  {
+    "text": "on to the next topic all right guys so I",
+    "start": 547.56,
+    "duration": 3.279
+  },
+  {
+    "text": "applaud you if you've made it this far",
+    "start": 549.16,
+    "duration": 2.88
+  },
+  {
+    "text": "you've made it through all the math",
+    "start": 550.839,
+    "duration": 2.361
+  },
+  {
+    "text": "we're not going to talk about math",
+    "start": 552.04,
+    "duration": 3.88
+  },
+  {
+    "text": "anymore I promise but it is going to",
+    "start": 553.2,
+    "duration": 4.079
+  },
+  {
+    "text": "help you to understand what's coming up",
+    "start": 555.92,
+    "duration": 2.599
+  },
+  {
+    "text": "next and we're going to talk about",
+    "start": 557.279,
+    "duration": 2.68
+  },
+  {
+    "text": "different features that you might find",
+    "start": 558.519,
+    "duration": 3.361
+  },
+  {
+    "text": "on a slot machine and how they actually",
+    "start": 559.959,
+    "duration": 4.281
+  },
+  {
+    "text": "work so the number one is the pick a",
+    "start": 561.88,
+    "duration": 6.079
+  },
+  {
+    "text": "bonus okay uh let's see daning drums you",
+    "start": 564.24,
+    "duration": 6.48
+  },
+  {
+    "text": "have to pick three the food babies it",
+    "start": 567.959,
+    "duration": 4.841
+  },
+  {
+    "text": "results in some kind of progressive win",
+    "start": 570.72,
+    "duration": 3.72
+  },
+  {
+    "text": "okay and a lot of people ask well how",
+    "start": 572.8,
+    "duration": 3.36
+  },
+  {
+    "text": "can it be random if it's always the mini",
+    "start": 574.44,
+    "duration": 4.04
+  },
+  {
+    "text": "it's always seems to be the Min of",
+    "start": 576.16,
+    "duration": 4.0
+  },
+  {
+    "text": "course they're going to wait it to those",
+    "start": 578.48,
+    "duration": 3.88
+  },
+  {
+    "text": "smaller amounts okay same on Wheel of",
+    "start": 580.16,
+    "duration": 3.52
+  },
+  {
+    "text": "Fortune when you're spinning the wheel",
+    "start": 582.36,
+    "duration": 3.96
+  },
+  {
+    "text": "it's going to heavily waight those lower",
+    "start": 583.68,
+    "duration": 5.88
+  },
+  {
+    "text": "amounts the 30 the 35 the 40 okay it's",
+    "start": 586.32,
+    "duration": 4.959
+  },
+  {
+    "text": "not a random spin like you find on the",
+    "start": 589.56,
+    "duration": 4.48
+  },
+  {
+    "text": "game show okay so what is actually going",
+    "start": 591.279,
+    "duration": 4.881
+  },
+  {
+    "text": "on here is there still an RNG is there",
+    "start": 594.04,
+    "duration": 3.64
+  },
+  {
+    "text": "still a random number generator yes",
+    "start": 596.16,
+    "duration": 3.919
+  },
+  {
+    "text": "there is but what it's picking from is",
+    "start": 597.68,
+    "duration": 5.12
+  },
+  {
+    "text": "different so imagine a box I got a box",
+    "start": 600.079,
+    "duration": 5.281
+  },
+  {
+    "text": "full of pingpong balls here okay this is",
+    "start": 602.8,
+    "duration": 4.24
+  },
+  {
+    "text": "exactly what's going on so there's a",
+    "start": 605.36,
+    "duration": 3.8
+  },
+  {
+    "text": "bunch of pingpong balls in here let's",
+    "start": 607.04,
+    "duration": 4.919
+  },
+  {
+    "text": "say that only one of them is the grand",
+    "start": 609.16,
+    "duration": 4.72
+  },
+  {
+    "text": "so the RNG basically reaches down and",
+    "start": 611.959,
+    "duration": 4.361
+  },
+  {
+    "text": "pulls out a ball and if it's the grand",
+    "start": 613.88,
+    "duration": 5.68
+  },
+  {
+    "text": "you get awarded the grand but this is",
+    "start": 616.32,
+    "duration": 7.12
+  },
+  {
+    "text": "going to be filled mostly I'd say 98 out",
+    "start": 619.56,
+    "duration": 5.839
+  },
+  {
+    "text": "of 100 with the minor and the mini okay",
+    "start": 623.44,
+    "duration": 4.36
+  },
+  {
+    "text": "and those top two are going to be harder",
+    "start": 625.399,
+    "duration": 4.44
+  },
+  {
+    "text": "to pick from it so it's still random you",
+    "start": 627.8,
+    "duration": 3.599
+  },
+  {
+    "text": "don't know if you're going to get it or",
+    "start": 629.839,
+    "duration": 5.12
+  },
+  {
+    "text": "not but it's just having to pick from a",
+    "start": 631.399,
+    "duration": 5.88
+  },
+  {
+    "text": "big bucket of balls and only a couple of",
+    "start": 634.959,
+    "duration": 5.041
+  },
+  {
+    "text": "them are the top winning prizes okay",
+    "start": 637.279,
+    "duration": 4.24
+  },
+  {
+    "text": "same with the wheel spin on Wheel of",
+    "start": 640.0,
+    "duration": 3.56
+  },
+  {
+    "text": "Fortune getting that th000 credits same",
+    "start": 641.519,
+    "duration": 4.281
+  },
+  {
+    "text": "thing imagine a big bowl of balls and",
+    "start": 643.56,
+    "duration": 3.959
+  },
+  {
+    "text": "only one of them is the Thousand but a",
+    "start": 645.8,
+    "duration": 5.039
+  },
+  {
+    "text": "lot of them are the 30s and 45s and 35s",
+    "start": 647.519,
+    "duration": 5.361
+  },
+  {
+    "text": "Etc okay so when you get the pick a",
+    "start": 650.839,
+    "duration": 5.281
+  },
+  {
+    "text": "bonus that is what is going on so does",
+    "start": 652.88,
+    "duration": 4.8
+  },
+  {
+    "text": "that mean it's",
+    "start": 656.12,
+    "duration": 4.76
+  },
+  {
+    "text": "predetermined yes it is in that case it",
+    "start": 657.68,
+    "duration": 4.68
+  },
+  {
+    "text": "is predetermined whenever you hit the",
+    "start": 660.88,
+    "duration": 3.88
+  },
+  {
+    "text": "spin button the only time that it is not",
+    "start": 662.36,
+    "duration": 4.36
+  },
+  {
+    "text": "predetermined is that after you get done",
+    "start": 664.76,
+    "duration": 4.319
+  },
+  {
+    "text": "picking it flips everything over so you",
+    "start": 666.72,
+    "duration": 4.559
+  },
+  {
+    "text": "can see where everything was if it does",
+    "start": 669.079,
+    "duration": 5.641
+  },
+  {
+    "text": "show you that in most instances on 99%",
+    "start": 671.279,
+    "duration": 4.841
+  },
+  {
+    "text": "of the games out there that means that",
+    "start": 674.72,
+    "duration": 3.64
+  },
+  {
+    "text": "you are in control not many are out",
+    "start": 676.12,
+    "duration": 3.839
+  },
+  {
+    "text": "there quick hits is a good example of it",
+    "start": 678.36,
+    "duration": 2.919
+  },
+  {
+    "text": "whenever you get the quick hits and you",
+    "start": 679.959,
+    "duration": 3.12
+  },
+  {
+    "text": "have to pick between three different",
+    "start": 681.279,
+    "duration": 4.441
+  },
+  {
+    "text": "types of free games and multiplier that",
+    "start": 683.079,
+    "duration": 4.44
+  },
+  {
+    "text": "shows you where everything else was",
+    "start": 685.72,
+    "duration": 3.96
+  },
+  {
+    "text": "which means it was not preat deted you",
+    "start": 687.519,
+    "duration": 4.241
+  },
+  {
+    "text": "were in control but most games",
+    "start": 689.68,
+    "duration": 3.44
+  },
+  {
+    "text": "especially ones picking for a",
+    "start": 691.76,
+    "duration": 3.12
+  },
+  {
+    "text": "progressive or something like that it's",
+    "start": 693.12,
+    "duration": 3.36
+  },
+  {
+    "text": "going to be predetermined all right",
+    "start": 694.88,
+    "duration": 3.72
+  },
+  {
+    "text": "we've talked about pick a bonus but",
+    "start": 696.48,
+    "duration": 4.12
+  },
+  {
+    "text": "let's talk about free games okay this is",
+    "start": 698.6,
+    "duration": 4.12
+  },
+  {
+    "text": "the other kind of popular uh bonus round",
+    "start": 700.6,
+    "duration": 3.799
+  },
+  {
+    "text": "that you get you get 10 free games 12",
+    "start": 702.72,
+    "duration": 4.0
+  },
+  {
+    "text": "free games whatever the case may be is",
+    "start": 704.399,
+    "duration": 3.961
+  },
+  {
+    "text": "that predetermined and the answer to",
+    "start": 706.72,
+    "duration": 4.919
+  },
+  {
+    "text": "that is no those still play out randomly",
+    "start": 708.36,
+    "duration": 5.4
+  },
+  {
+    "text": "just like they would regular spins but",
+    "start": 711.639,
+    "duration": 4.161
+  },
+  {
+    "text": "there are some changes that take place",
+    "start": 713.76,
+    "duration": 4.8
+  },
+  {
+    "text": "on most games okay and it will actually",
+    "start": 715.8,
+    "duration": 4.039
+  },
+  {
+    "text": "say this in the game game rules if you",
+    "start": 718.56,
+    "duration": 3.44
+  },
+  {
+    "text": "look at it but a lot of games what the",
+    "start": 719.839,
+    "duration": 4.601
+  },
+  {
+    "text": "RNG is picking from and again if you",
+    "start": 722.0,
+    "duration": 4.44
+  },
+  {
+    "text": "were here for part of the early part of",
+    "start": 724.44,
+    "duration": 3.32
+  },
+  {
+    "text": "this video you understand what I'm",
+    "start": 726.44,
+    "duration": 3.72
+  },
+  {
+    "text": "saying during the bonus games what the",
+    "start": 727.76,
+    "duration": 5.56
+  },
+  {
+    "text": "RNG is picking from has changed okay so",
+    "start": 730.16,
+    "duration": 5.479
+  },
+  {
+    "text": "the virtual tables are different the",
+    "start": 733.32,
+    "duration": 4.24
+  },
+  {
+    "text": "physical reels could be different also",
+    "start": 735.639,
+    "duration": 4.32
+  },
+  {
+    "text": "especially like on the video style games",
+    "start": 737.56,
+    "duration": 4.16
+  },
+  {
+    "text": "uh Thunder cashe is a good example of",
+    "start": 739.959,
+    "duration": 3.361
+  },
+  {
+    "text": "this and I'll put a little screen so you",
+    "start": 741.72,
+    "duration": 3.559
+  },
+  {
+    "text": "can see thunder cash during the bonus",
+    "start": 743.32,
+    "duration": 4.24
+  },
+  {
+    "text": "rounds has stacked symbols okay where",
+    "start": 745.279,
+    "duration": 4.281
+  },
+  {
+    "text": "during normal play you do not have stack",
+    "start": 747.56,
+    "duration": 4.88
+  },
+  {
+    "text": "symbols and so during free games what",
+    "start": 749.56,
+    "duration": 5.56
+  },
+  {
+    "text": "you actually see could be different and",
+    "start": 752.44,
+    "duration": 4.839
+  },
+  {
+    "text": "what the RNG is picking from could be",
+    "start": 755.12,
+    "duration": 4.92
+  },
+  {
+    "text": "different also okay so free games could",
+    "start": 757.279,
+    "duration": 4.841
+  },
+  {
+    "text": "be different from the original ones it",
+    "start": 760.04,
+    "duration": 4.239
+  },
+  {
+    "text": "it really depends on the game but the",
+    "start": 762.12,
+    "duration": 3.76
+  },
+  {
+    "text": "important thing for you to realize is",
+    "start": 764.279,
+    "duration": 4.201
+  },
+  {
+    "text": "that every spin is still an RNG random",
+    "start": 765.88,
+    "duration": 5.0
+  },
+  {
+    "text": "event and it's not predetermined on what",
+    "start": 768.48,
+    "duration": 4.159
+  },
+  {
+    "text": "the end result is going to be all right",
+    "start": 770.88,
+    "duration": 3.079
+  },
+  {
+    "text": "let's talk about progressives and the",
+    "start": 772.639,
+    "duration": 2.801
+  },
+  {
+    "text": "two types that are out there okay so",
+    "start": 773.959,
+    "duration": 3.161
+  },
+  {
+    "text": "there's the standard Progressive and",
+    "start": 775.44,
+    "duration": 3.399
+  },
+  {
+    "text": "then there's the must hit by or must-win",
+    "start": 777.12,
+    "duration": 3.92
+  },
+  {
+    "text": "by Progressive okay let's tackle the",
+    "start": 778.839,
+    "duration": 3.761
+  },
+  {
+    "text": "standard Progressive first this is what",
+    "start": 781.04,
+    "duration": 4.239
+  },
+  {
+    "text": "you find on 90% of the games out there",
+    "start": 782.6,
+    "duration": 5.64
+  },
+  {
+    "text": "and here's how those play out so those",
+    "start": 785.279,
+    "duration": 5.521
+  },
+  {
+    "text": "each spin has an equal chance of hitting",
+    "start": 788.24,
+    "duration": 4.08
+  },
+  {
+    "text": "that Progressive so it doesn't matter if",
+    "start": 790.8,
+    "duration": 3.479
+  },
+  {
+    "text": "it's capped out it doesn't matter if",
+    "start": 792.32,
+    "duration": 4.079
+  },
+  {
+    "text": "it's just reset or anything every single",
+    "start": 794.279,
+    "duration": 4.041
+  },
+  {
+    "text": "spin has the same odds of hitting that",
+    "start": 796.399,
+    "duration": 3.88
+  },
+  {
+    "text": "Progressive and I know a lot of people",
+    "start": 798.32,
+    "duration": 4.28
+  },
+  {
+    "text": "feel that because a progressive is maxed",
+    "start": 800.279,
+    "duration": 4.641
+  },
+  {
+    "text": "out or capped which means it's stuck at",
+    "start": 802.6,
+    "duration": 4.679
+  },
+  {
+    "text": "10,000 that it means it's due to pay out",
+    "start": 804.92,
+    "duration": 4.24
+  },
+  {
+    "text": "anytime soon completely false on the",
+    "start": 807.279,
+    "duration": 4.041
+  },
+  {
+    "text": "those games okay it continues to build",
+    "start": 809.16,
+    "duration": 4.72
+  },
+  {
+    "text": "behind the scenes it's just maxed out at",
+    "start": 811.32,
+    "duration": 5.28
+  },
+  {
+    "text": "that 10,000 okay so don't play a game",
+    "start": 813.88,
+    "duration": 4.56
+  },
+  {
+    "text": "because you feel like you have an edge",
+    "start": 816.6,
+    "duration": 4.12
+  },
+  {
+    "text": "because it's maxed out play it because",
+    "start": 818.44,
+    "duration": 3.6
+  },
+  {
+    "text": "it's maxed out and if you're going to",
+    "start": 820.72,
+    "duration": 2.72
+  },
+  {
+    "text": "hit the progressive wouldn't you rather",
+    "start": 822.04,
+    "duration": 4.159
+  },
+  {
+    "text": "hit the one that's the highest I would",
+    "start": 823.44,
+    "duration": 4.199
+  },
+  {
+    "text": "but it doesn't give you any better odds",
+    "start": 826.199,
+    "duration": 3.401
+  },
+  {
+    "text": "all right next one is the must hit by or",
+    "start": 827.639,
+    "duration": 4.76
+  },
+  {
+    "text": "must-win by these must specifically say",
+    "start": 829.6,
+    "duration": 4.799
+  },
+  {
+    "text": "it next to the progressive or in the",
+    "start": 832.399,
+    "duration": 3.761
+  },
+  {
+    "text": "game rules so if you don't see that",
+    "start": 834.399,
+    "duration": 3.481
+  },
+  {
+    "text": "language anywhere it is not a must hit",
+    "start": 836.16,
+    "duration": 3.76
+  },
+  {
+    "text": "by or a must-win by Progressive",
+    "start": 837.88,
+    "duration": 4.36
+  },
+  {
+    "text": "the way these work is that whenever it's",
+    "start": 839.92,
+    "duration": 5.599
+  },
+  {
+    "text": "reset the RNG will pick a number between",
+    "start": 842.24,
+    "duration": 5.44
+  },
+  {
+    "text": "the starting and end position and save",
+    "start": 845.519,
+    "duration": 4.56
+  },
+  {
+    "text": "that in internal memory nobody can see",
+    "start": 847.68,
+    "duration": 4.839
+  },
+  {
+    "text": "this uh slot text can't see it the",
+    "start": 850.079,
+    "duration": 4.281
+  },
+  {
+    "text": "casino can't see it nobody can see what",
+    "start": 852.519,
+    "duration": 4.521
+  },
+  {
+    "text": "that magic number is but as the meter",
+    "start": 854.36,
+    "duration": 4.32
+  },
+  {
+    "text": "continues to grow and the meter is just",
+    "start": 857.04,
+    "duration": 4.039
+  },
+  {
+    "text": "the progressive climbing as soon as it",
+    "start": 858.68,
+    "duration": 5.88
+  },
+  {
+    "text": "hits that magic number you get awarded",
+    "start": 861.079,
+    "duration": 5.56
+  },
+  {
+    "text": "the progressive and then it resets and",
+    "start": 864.56,
+    "duration": 4.32
+  },
+  {
+    "text": "does the same thing over again so let's",
+    "start": 866.639,
+    "duration": 3.721
+  },
+  {
+    "text": "take take the must hit by progressives",
+    "start": 868.88,
+    "duration": 3.24
+  },
+  {
+    "text": "that you find on asworth machines okay",
+    "start": 870.36,
+    "duration": 4.56
+  },
+  {
+    "text": "the dollar version starts at 9,000 ends",
+    "start": 872.12,
+    "duration": 5.2
+  },
+  {
+    "text": "at 10,000 whenever it resets it's going",
+    "start": 874.92,
+    "duration": 4.56
+  },
+  {
+    "text": "to pick a number randomly between those",
+    "start": 877.32,
+    "duration": 3.92
+  },
+  {
+    "text": "two values could be",
+    "start": 879.48,
+    "duration": 5.359
+  },
+  {
+    "text": "9216 and 44 Could Be",
+    "start": 881.24,
+    "duration": 7.32
+  },
+  {
+    "text": "9,837 and22 You Don't Know But as soon",
+    "start": 884.839,
+    "duration": 5.56
+  },
+  {
+    "text": "as the meter climbs to that amount you",
+    "start": 888.56,
+    "duration": 3.68
+  },
+  {
+    "text": "get awarded and the process repeats",
+    "start": 890.399,
+    "duration": 4.24
+  },
+  {
+    "text": "itself so all must win by must hit by",
+    "start": 892.24,
+    "duration": 4.839
+  },
+  {
+    "text": "progressives work that way and that's",
+    "start": 894.639,
+    "duration": 4.241
+  },
+  {
+    "text": "all you need to know about the two types",
+    "start": 897.079,
+    "duration": 3.2
+  },
+  {
+    "text": "of the progressives all right let's move",
+    "start": 898.88,
+    "duration": 3.24
+  },
+  {
+    "text": "on now we got all that out of the way",
+    "start": 900.279,
+    "duration": 3.36
+  },
+  {
+    "text": "we're going to talk about stuff that you",
+    "start": 902.12,
+    "duration": 3.0
+  },
+  {
+    "text": "actually have control over and stuff",
+    "start": 903.639,
+    "duration": 2.64
+  },
+  {
+    "text": "that you should be doing when you're",
+    "start": 905.12,
+    "duration": 3.519
+  },
+  {
+    "text": "going into play a slot machine okay the",
+    "start": 906.279,
+    "duration": 5.041
+  },
+  {
+    "text": "first one is the advantage play or what",
+    "start": 908.639,
+    "duration": 5.401
+  },
+  {
+    "text": "I call State saving slot machines okay",
+    "start": 911.32,
+    "duration": 5.56
+  },
+  {
+    "text": "what are these okay so Advantage play",
+    "start": 914.04,
+    "duration": 5.44
+  },
+  {
+    "text": "means that you have a specific advantage",
+    "start": 916.88,
+    "duration": 4.48
+  },
+  {
+    "text": "over playing that game at that",
+    "start": 919.48,
+    "duration": 4.24
+  },
+  {
+    "text": "particular time there are very few that",
+    "start": 921.36,
+    "duration": 5.36
+  },
+  {
+    "text": "fall into this category okay must hit by",
+    "start": 923.72,
+    "duration": 5.039
+  },
+  {
+    "text": "progressives is one of them if it's very",
+    "start": 926.72,
+    "duration": 4.599
+  },
+  {
+    "text": "high the meter is very close there is a",
+    "start": 928.759,
+    "duration": 4.481
+  },
+  {
+    "text": "number that you could essentially play",
+    "start": 931.319,
+    "duration": 3.96
+  },
+  {
+    "text": "at that could guarantee you a positive",
+    "start": 933.24,
+    "duration": 4.92
+  },
+  {
+    "text": "outcome or plus EV as they say um but",
+    "start": 935.279,
+    "duration": 5.401
+  },
+  {
+    "text": "these are very few and far between now",
+    "start": 938.16,
+    "duration": 4.679
+  },
+  {
+    "text": "the other side is the state saving ones",
+    "start": 940.68,
+    "duration": 4.56
+  },
+  {
+    "text": "and what I mean by this is like Scarab",
+    "start": 942.839,
+    "duration": 4.161
+  },
+  {
+    "text": "uh some of the Buffalo games do this",
+    "start": 945.24,
+    "duration": 3.399
+  },
+  {
+    "text": "where basically you're building up",
+    "start": 947.0,
+    "duration": 4.319
+  },
+  {
+    "text": "through 10 spins and then that 10th spin",
+    "start": 948.639,
+    "duration": 4.44
+  },
+  {
+    "text": "converts you into Wilds or something",
+    "start": 951.319,
+    "duration": 3.64
+  },
+  {
+    "text": "like that those are State saving games",
+    "start": 953.079,
+    "duration": 4.841
+  },
+  {
+    "text": "meaning that it flows and keeps track of",
+    "start": 954.959,
+    "duration": 5.0
+  },
+  {
+    "text": "the progress of capturing wilds and",
+    "start": 957.92,
+    "duration": 4.359
+  },
+  {
+    "text": "stuff through those 10 games those could",
+    "start": 959.959,
+    "duration": 4.601
+  },
+  {
+    "text": "be an advantage play also especially if",
+    "start": 962.279,
+    "duration": 5.521
+  },
+  {
+    "text": "somebody didn't bet that last spin you",
+    "start": 964.56,
+    "duration": 5.04
+  },
+  {
+    "text": "could jump in and do that but you got to",
+    "start": 967.8,
+    "duration": 3.64
+  },
+  {
+    "text": "be careful on those because some games",
+    "start": 969.6,
+    "duration": 4.44
+  },
+  {
+    "text": "when you do cash out it resets not all",
+    "start": 971.44,
+    "duration": 4.12
+  },
+  {
+    "text": "of them but some of them do so make sure",
+    "start": 974.04,
+    "duration": 4.32
+  },
+  {
+    "text": "you look out for that but if you are",
+    "start": 975.56,
+    "duration": 4.279
+  },
+  {
+    "text": "going to play one of those and you find",
+    "start": 978.36,
+    "duration": 3.76
+  },
+  {
+    "text": "it go through the different bet options",
+    "start": 979.839,
+    "duration": 4.201
+  },
+  {
+    "text": "because they're the state saving means",
+    "start": 982.12,
+    "duration": 3.36
+  },
+  {
+    "text": "that each bet option in each",
+    "start": 984.04,
+    "duration": 3.88
+  },
+  {
+    "text": "denomination has a different set of",
+    "start": 985.48,
+    "duration": 4.68
+  },
+  {
+    "text": "Wilds in and the progress through that",
+    "start": 987.92,
+    "duration": 4.32
+  },
+  {
+    "text": "state saving bonus round not really",
+    "start": 990.16,
+    "duration": 4.72
+  },
+  {
+    "text": "bonus round but more a play okay so look",
+    "start": 992.24,
+    "duration": 4.36
+  },
+  {
+    "text": "for those before you sit down and start",
+    "start": 994.88,
+    "duration": 3.519
+  },
+  {
+    "text": "committing to play cuz there could be an",
+    "start": 996.6,
+    "duration": 3.679
+  },
+  {
+    "text": "advantage there really could be all",
+    "start": 998.399,
+    "duration": 3.44
+  },
+  {
+    "text": "right those are Advantage play Slots and",
+    "start": 1000.279,
+    "duration": 3.48
+  },
+  {
+    "text": "state saving slots now let's talk about",
+    "start": 1001.839,
+    "duration": 3.841
+  },
+  {
+    "text": "the big one and this is the number one",
+    "start": 1003.759,
+    "duration": 4.041
+  },
+  {
+    "text": "thing that you need to focus on when",
+    "start": 1005.68,
+    "duration": 3.8
+  },
+  {
+    "text": "you're in the casino and trying to",
+    "start": 1007.8,
+    "duration": 3.44
+  },
+  {
+    "text": "decide which game to play all right we",
+    "start": 1009.48,
+    "duration": 3.4
+  },
+  {
+    "text": "finally made it to the last thing and",
+    "start": 1011.24,
+    "duration": 3.8
+  },
+  {
+    "text": "this is the biggest one I think that you",
+    "start": 1012.88,
+    "duration": 4.8
+  },
+  {
+    "text": "should pay attention to in this entire",
+    "start": 1015.04,
+    "duration": 4.68
+  },
+  {
+    "text": "video um all the other stuff we're",
+    "start": 1017.68,
+    "duration": 4.12
+  },
+  {
+    "text": "talking about how this stuff works now",
+    "start": 1019.72,
+    "duration": 4.039
+  },
+  {
+    "text": "let's put it to good use and understand",
+    "start": 1021.8,
+    "duration": 3.36
+  },
+  {
+    "text": "what it is that we need to do with that",
+    "start": 1023.759,
+    "duration": 4.841
+  },
+  {
+    "text": "information and that is volatility okay",
+    "start": 1025.16,
+    "duration": 5.32
+  },
+  {
+    "text": "volatility exists in a lot of different",
+    "start": 1028.6,
+    "duration": 4.12
+  },
+  {
+    "text": "things okay it ex in the money money",
+    "start": 1030.48,
+    "duration": 5.24
+  },
+  {
+    "text": "markets uh stocks bonds all those things",
+    "start": 1032.72,
+    "duration": 4.959
+  },
+  {
+    "text": "volatility exists there but when it",
+    "start": 1035.72,
+    "duration": 4.44
+  },
+  {
+    "text": "comes to slot machines what volatility",
+    "start": 1037.679,
+    "duration": 5.481
+  },
+  {
+    "text": "is is how the game was designed to pay",
+    "start": 1040.16,
+    "duration": 6.039
+  },
+  {
+    "text": "out over time okay not every slot",
+    "start": 1043.16,
+    "duration": 5.08
+  },
+  {
+    "text": "machine game is equal when it comes to",
+    "start": 1046.199,
+    "duration": 4.6
+  },
+  {
+    "text": "this games like huff and puff are very",
+    "start": 1048.24,
+    "duration": 4.76
+  },
+  {
+    "text": "high in volatility games like Double",
+    "start": 1050.799,
+    "duration": 4.681
+  },
+  {
+    "text": "Diamond are very low in volatility they",
+    "start": 1053.0,
+    "duration": 4.48
+  },
+  {
+    "text": "can have the exact same payback",
+    "start": 1055.48,
+    "duration": 3.96
+  },
+  {
+    "text": "percentage but the way they get to that",
+    "start": 1057.48,
+    "duration": 5.12
+  },
+  {
+    "text": "number is very different okay Double",
+    "start": 1059.44,
+    "duration": 5.16
+  },
+  {
+    "text": "Diamond is slow and steady think of it",
+    "start": 1062.6,
+    "duration": 3.92
+  },
+  {
+    "text": "like the tortoise and the hair race",
+    "start": 1064.6,
+    "duration": 4.52
+  },
+  {
+    "text": "right slow and steady up and down up and",
+    "start": 1066.52,
+    "duration": 4.72
+  },
+  {
+    "text": "down get mixed bars a lot get cherries a",
+    "start": 1069.12,
+    "duration": 4.0
+  },
+  {
+    "text": "lot get Double Diamond and cherries get",
+    "start": 1071.24,
+    "duration": 3.439
+  },
+  {
+    "text": "those types of things you're getting a",
+    "start": 1073.12,
+    "duration": 4.039
+  },
+  {
+    "text": "lot of activity okay a lot of wind slow",
+    "start": 1074.679,
+    "duration": 6.201
+  },
+  {
+    "text": "and steady the big hit or the big",
+    "start": 1077.159,
+    "duration": 5.081
+  },
+  {
+    "text": "jackpot which is the three Double",
+    "start": 1080.88,
+    "duration": 3.72
+  },
+  {
+    "text": "Diamonds is relatively easy to get one",
+    "start": 1082.24,
+    "duration": 4.76
+  },
+  {
+    "text": "in 42,000 or so on a Double Diamond",
+    "start": 1084.6,
+    "duration": 4.8
+  },
+  {
+    "text": "machine okay those are pretty good odds",
+    "start": 1087.0,
+    "duration": 4.2
+  },
+  {
+    "text": "for getting a Topline jackpot but the",
+    "start": 1089.4,
+    "duration": 4.32
+  },
+  {
+    "text": "most that one pays is 800 credits per",
+    "start": 1091.2,
+    "duration": 6.2
+  },
+  {
+    "text": "line uh multiplier okay so it's not a",
+    "start": 1093.72,
+    "duration": 5.68
+  },
+  {
+    "text": "big gigantic win now let's take the",
+    "start": 1097.4,
+    "duration": 3.24
+  },
+  {
+    "text": "other side of that and that's huff and",
+    "start": 1099.4,
+    "duration": 3.68
+  },
+  {
+    "text": "more puff big bonus rounds you guys have",
+    "start": 1100.64,
+    "duration": 4.36
+  },
+  {
+    "text": "seen and I know you've watched the Tik",
+    "start": 1103.08,
+    "duration": 4.12
+  },
+  {
+    "text": "Tok and the shorts are just filled with",
+    "start": 1105.0,
+    "duration": 4.76
+  },
+  {
+    "text": "mansion bonuses and everything like that",
+    "start": 1107.2,
+    "duration": 4.4
+  },
+  {
+    "text": "but the thing you got to be careful with",
+    "start": 1109.76,
+    "duration": 3.68
+  },
+  {
+    "text": "a game like this is that to get the",
+    "start": 1111.6,
+    "duration": 4.319
+  },
+  {
+    "text": "bonus around can be excruciatingly tough",
+    "start": 1113.44,
+    "duration": 3.96
+  },
+  {
+    "text": "sometimes you can get a lot of dead",
+    "start": 1115.919,
+    "duration": 3.961
+  },
+  {
+    "text": "spins the line hits are garbage and it's",
+    "start": 1117.4,
+    "duration": 4.36
+  },
+  {
+    "text": "just you you're playing for the bonus",
+    "start": 1119.88,
+    "duration": 3.919
+  },
+  {
+    "text": "but that bonus is very infrequent",
+    "start": 1121.76,
+    "duration": 3.56
+  },
+  {
+    "text": "sometimes and you can go through very",
+    "start": 1123.799,
+    "duration": 3.521
+  },
+  {
+    "text": "long strings of not getting it so think",
+    "start": 1125.32,
+    "duration": 4.239
+  },
+  {
+    "text": "of this as like the hair almost when",
+    "start": 1127.32,
+    "duration": 3.359
+  },
+  {
+    "text": "when you're talking about the tortoise",
+    "start": 1129.559,
+    "duration": 3.561
+  },
+  {
+    "text": "and the hair race where it's just big",
+    "start": 1130.679,
+    "duration": 4.521
+  },
+  {
+    "text": "like surges and then stops and then",
+    "start": 1133.12,
+    "duration": 6.28
+  },
+  {
+    "text": "surges and then stops so we feel",
+    "start": 1135.2,
+    "duration": 6.32
+  },
+  {
+    "text": "that the low volatility is the best to",
+    "start": 1139.4,
+    "duration": 5.48
+  },
+  {
+    "text": "play for a couple of reasons one it will",
+    "start": 1141.52,
+    "duration": 5.84
+  },
+  {
+    "text": "give you more activity for your bankroll",
+    "start": 1144.88,
+    "duration": 3.919
+  },
+  {
+    "text": "which means you will have a lot of coin",
+    "start": 1147.36,
+    "duration": 4.199
+  },
+  {
+    "text": "in and Co coin out cycling and this is",
+    "start": 1148.799,
+    "duration": 4.521
+  },
+  {
+    "text": "very important especially for earning",
+    "start": 1151.559,
+    "duration": 3.721
+  },
+  {
+    "text": "comps and things like that you want to",
+    "start": 1153.32,
+    "duration": 4.08
+  },
+  {
+    "text": "be able to last at a game as much as you",
+    "start": 1155.28,
+    "duration": 5.16
+  },
+  {
+    "text": "possibly can but it's also low risk and",
+    "start": 1157.4,
+    "duration": 5.44
+  },
+  {
+    "text": "low reward so there's not a big reward",
+    "start": 1160.44,
+    "duration": 3.96
+  },
+  {
+    "text": "from playing those games yeah you can",
+    "start": 1162.84,
+    "duration": 3.68
+  },
+  {
+    "text": "get the three Double Diamonds one in",
+    "start": 1164.4,
+    "duration": 5.04
+  },
+  {
+    "text": "42,000 chance pretty reasonable",
+    "start": 1166.52,
+    "duration": 4.76
+  },
+  {
+    "text": "but you're not going to get big",
+    "start": 1169.44,
+    "duration": 3.359
+  },
+  {
+    "text": "progressives there's no chance of",
+    "start": 1171.28,
+    "duration": 3.8
+  },
+  {
+    "text": "anything like that so a lot of people",
+    "start": 1172.799,
+    "duration": 4.24
+  },
+  {
+    "text": "tend to prefer the higher volatility",
+    "start": 1175.08,
+    "duration": 4.36
+  },
+  {
+    "text": "games because of the reward possibility",
+    "start": 1177.039,
+    "duration": 4.801
+  },
+  {
+    "text": "on those games okay because you know as",
+    "start": 1179.44,
+    "duration": 3.68
+  },
+  {
+    "text": "soon as you get a bonus round on",
+    "start": 1181.84,
+    "duration": 2.68
+  },
+  {
+    "text": "something like this you get pretty",
+    "start": 1183.12,
+    "duration": 3.64
+  },
+  {
+    "text": "excited because you've seen it you've",
+    "start": 1184.52,
+    "duration": 4.92
+  },
+  {
+    "text": "seen some of the humongous humongous",
+    "start": 1186.76,
+    "duration": 5.0
+  },
+  {
+    "text": "winds in relation to your bet that can",
+    "start": 1189.44,
+    "duration": 4.84
+  },
+  {
+    "text": "occur on a high volatility game but you",
+    "start": 1191.76,
+    "duration": 4.64
+  },
+  {
+    "text": "got to be prepared for the bank rule",
+    "start": 1194.28,
+    "duration": 4.0
+  },
+  {
+    "text": "that is going to be required to sustain",
+    "start": 1196.4,
+    "duration": 4.68
+  },
+  {
+    "text": "those losses before getting that win and",
+    "start": 1198.28,
+    "duration": 5.399
+  },
+  {
+    "text": "a lot of times it doesn't equate to what",
+    "start": 1201.08,
+    "duration": 5.839
+  },
+  {
+    "text": "you expected okay so here's our",
+    "start": 1203.679,
+    "duration": 5.321
+  },
+  {
+    "text": "recommendation play the low volatility",
+    "start": 1206.919,
+    "duration": 3.681
+  },
+  {
+    "text": "games at least initially when you first",
+    "start": 1209.0,
+    "duration": 3.6
+  },
+  {
+    "text": "go into the casino play those and kind",
+    "start": 1210.6,
+    "duration": 3.72
+  },
+  {
+    "text": "of build your bank roll up a little bit",
+    "start": 1212.6,
+    "duration": 3.319
+  },
+  {
+    "text": "you know kind of get that Comfort level",
+    "start": 1214.32,
+    "duration": 3.359
+  },
+  {
+    "text": "going where maybe you've doubled your",
+    "start": 1215.919,
+    "duration": 3.401
+  },
+  {
+    "text": "money or tripled your money and if you",
+    "start": 1217.679,
+    "duration": 3.681
+  },
+  {
+    "text": "want to push your risk and play",
+    "start": 1219.32,
+    "duration": 4.16
+  },
+  {
+    "text": "something like this that's your time to",
+    "start": 1221.36,
+    "duration": 3.88
+  },
+  {
+    "text": "do it but do it off of the winnings that",
+    "start": 1223.48,
+    "duration": 3.679
+  },
+  {
+    "text": "you got off of bankr building on those",
+    "start": 1225.24,
+    "duration": 4.4
+  },
+  {
+    "text": "smaller machines we cannot impress upon",
+    "start": 1227.159,
+    "duration": 4.561
+  },
+  {
+    "text": "you enough how important this is if you",
+    "start": 1229.64,
+    "duration": 3.84
+  },
+  {
+    "text": "really want to make your trip last in",
+    "start": 1231.72,
+    "duration": 4.36
+  },
+  {
+    "text": "the casino you've got to isolate and",
+    "start": 1233.48,
+    "duration": 4.439
+  },
+  {
+    "text": "find those low volatility games and",
+    "start": 1236.08,
+    "duration": 4.16
+  },
+  {
+    "text": "start there they're incredibly boring",
+    "start": 1237.919,
+    "duration": 5.161
+  },
+  {
+    "text": "Double Diamond is boring it's boring as",
+    "start": 1240.24,
+    "duration": 4.6
+  },
+  {
+    "text": "hell okay there's no bonus rounds",
+    "start": 1243.08,
+    "duration": 3.959
+  },
+  {
+    "text": "there's no progressives anything like",
+    "start": 1244.84,
+    "duration": 4.16
+  },
+  {
+    "text": "that you can still get dead spins on",
+    "start": 1247.039,
+    "duration": 6.401
+  },
+  {
+    "text": "there too right but stick with it play",
+    "start": 1249.0,
+    "duration": 6.48
+  },
+  {
+    "text": "it until you double your money or triple",
+    "start": 1253.44,
+    "duration": 4.52
+  },
+  {
+    "text": "your money then go play the big boys and",
+    "start": 1255.48,
+    "duration": 4.48
+  },
+  {
+    "text": "push your risk okay so I've told you",
+    "start": 1257.96,
+    "duration": 4.12
+  },
+  {
+    "text": "about volatility but how do I know what",
+    "start": 1259.96,
+    "duration": 4.12
+  },
+  {
+    "text": "the volatility is of a game very good",
+    "start": 1262.08,
+    "duration": 3.76
+  },
+  {
+    "text": "question so there's a couple things that",
+    "start": 1264.08,
+    "duration": 3.92
+  },
+  {
+    "text": "you can do in general okay if you find",
+    "start": 1265.84,
+    "duration": 4.24
+  },
+  {
+    "text": "an old three real machine some of those",
+    "start": 1268.0,
+    "duration": 4.4
+  },
+  {
+    "text": "old classics look for ones that have",
+    "start": 1270.08,
+    "duration": 4.36
+  },
+  {
+    "text": "very low multipliers or no multipliers",
+    "start": 1272.4,
+    "duration": 4.24
+  },
+  {
+    "text": "at all okay Double Diamond is good",
+    "start": 1274.44,
+    "duration": 4.599
+  },
+  {
+    "text": "triple diamond is good triple stars is",
+    "start": 1276.64,
+    "duration": 5.12
+  },
+  {
+    "text": "good those are good okay but when you",
+    "start": 1279.039,
+    "duration": 4.681
+  },
+  {
+    "text": "get into the five times pay and the 10",
+    "start": 1281.76,
+    "duration": 4.08
+  },
+  {
+    "text": "times pay and the Crystal seven with a",
+    "start": 1283.72,
+    "duration": 5.319
+  },
+  {
+    "text": "seven times pay those are high in vola",
+    "start": 1285.84,
+    "duration": 4.68
+  },
+  {
+    "text": "okay the tradeoff there is that you",
+    "start": 1289.039,
+    "duration": 3.361
+  },
+  {
+    "text": "could get big wins but you got to land",
+    "start": 1290.52,
+    "duration": 3.92
+  },
+  {
+    "text": "those multipliers and that's tough and",
+    "start": 1292.4,
+    "duration": 4.399
+  },
+  {
+    "text": "those games are built that way okay so",
+    "start": 1294.44,
+    "duration": 3.68
+  },
+  {
+    "text": "that's the one thing to look for look",
+    "start": 1296.799,
+    "duration": 3.041
+  },
+  {
+    "text": "for games that are incredibly boring",
+    "start": 1298.12,
+    "duration": 3.559
+  },
+  {
+    "text": "looking don't have a lot of good",
+    "start": 1299.84,
+    "duration": 4.04
+  },
+  {
+    "text": "multipliers and don't have bonus games",
+    "start": 1301.679,
+    "duration": 3.801
+  },
+  {
+    "text": "and don't have progressives okay those",
+    "start": 1303.88,
+    "duration": 4.08
+  },
+  {
+    "text": "are low in volatility in general the",
+    "start": 1305.48,
+    "duration": 3.92
+  },
+  {
+    "text": "higher the volatility the more that's",
+    "start": 1307.96,
+    "duration": 3.199
+  },
+  {
+    "text": "going on there's more progressives the",
+    "start": 1309.4,
+    "duration": 3.879
+  },
+  {
+    "text": "bonus rounds are infrequent but",
+    "start": 1311.159,
+    "duration": 4.041
+  },
+  {
+    "text": "lucrative those types of things well how",
+    "start": 1313.279,
+    "duration": 4.081
+  },
+  {
+    "text": "do you really know unless you sit down",
+    "start": 1315.2,
+    "duration": 4.719
+  },
+  {
+    "text": "and play it watch YouTube I'm telling",
+    "start": 1317.36,
+    "duration": 4.96
+  },
+  {
+    "text": "you but try to watch the live ones",
+    "start": 1319.919,
+    "duration": 4.601
+  },
+  {
+    "text": "people that have played uh like huff and",
+    "start": 1322.32,
+    "duration": 3.599
+  },
+  {
+    "text": "puff and show you the losses and the",
+    "start": 1324.52,
+    "duration": 3.08
+  },
+  {
+    "text": "wins so you can kind of get an idea and",
+    "start": 1325.919,
+    "duration": 4.041
+  },
+  {
+    "text": "a feel for what those games typically",
+    "start": 1327.6,
+    "duration": 4.12
+  },
+  {
+    "text": "will play like whenever you sit down to",
+    "start": 1329.96,
+    "duration": 4.76
+  },
+  {
+    "text": "play them and I I cannot express enough",
+    "start": 1331.72,
+    "duration": 6.24
+  },
+  {
+    "text": "how valuable watching YouTube is uh to",
+    "start": 1334.72,
+    "duration": 5.559
+  },
+  {
+    "text": "get that information to try to determine",
+    "start": 1337.96,
+    "duration": 4.04
+  },
+  {
+    "text": "what the volatility of a game is it's",
+    "start": 1340.279,
+    "duration": 4.361
+  },
+  {
+    "text": "humongous I've watched a lot and I can",
+    "start": 1342.0,
+    "duration": 3.96
+  },
+  {
+    "text": "understand a game like huff and more",
+    "start": 1344.64,
+    "duration": 3.36
+  },
+  {
+    "text": "puff before I even sit down and play it",
+    "start": 1345.96,
+    "duration": 4.04
+  },
+  {
+    "text": "because I've seen that but again be",
+    "start": 1348.0,
+    "duration": 4.159
+  },
+  {
+    "text": "careful watch the ones that show long",
+    "start": 1350.0,
+    "duration": 4.159
+  },
+  {
+    "text": "plays so you can get the full story not",
+    "start": 1352.159,
+    "duration": 3.681
+  },
+  {
+    "text": "just the bonus rounds okay cuz that's",
+    "start": 1354.159,
+    "duration": 4.321
+  },
+  {
+    "text": "very misleading and you might make a bad",
+    "start": 1355.84,
+    "duration": 5.079
+  },
+  {
+    "text": "decision on that okay so I hope you guys",
+    "start": 1358.48,
+    "duration": 4.52
+  },
+  {
+    "text": "learned something today again we're",
+    "start": 1360.919,
+    "duration": 3.441
+  },
+  {
+    "text": "trying to get the information out there",
+    "start": 1363.0,
+    "duration": 3.36
+  },
+  {
+    "text": "about how slot machines really work",
+    "start": 1364.36,
+    "duration": 3.64
+  },
+  {
+    "text": "because a lot of people are confused a",
+    "start": 1366.36,
+    "duration": 3.199
+  },
+  {
+    "text": "lot of people are pushing myths around",
+    "start": 1368.0,
+    "duration": 3.559
+  },
+  {
+    "text": "thinking that casinos have some kind of",
+    "start": 1369.559,
+    "duration": 4.521
+  },
+  {
+    "text": "control over when wins and losses occur",
+    "start": 1371.559,
+    "duration": 4.201
+  },
+  {
+    "text": "and how else are they able to balance it",
+    "start": 1374.08,
+    "duration": 3.68
+  },
+  {
+    "text": "if that's not the case it's not it's",
+    "start": 1375.76,
+    "duration": 3.399
+  },
+  {
+    "text": "pure mathema",
+    "start": 1377.76,
+    "duration": 3.44
+  },
+  {
+    "text": "it's RNG picking from a certain set of",
+    "start": 1379.159,
+    "duration": 4.721
+  },
+  {
+    "text": "results that's it it's very simple no",
+    "start": 1381.2,
+    "duration": 4.599
+  },
+  {
+    "text": "crazy algorithms nothing like that's",
+    "start": 1383.88,
+    "duration": 4.679
+  },
+  {
+    "text": "going on they're just pure and simple",
+    "start": 1385.799,
+    "duration": 5.041
+  },
+  {
+    "text": "mathematical operations going into these",
+    "start": 1388.559,
+    "duration": 5.561
+  },
+  {
+    "text": "things okay so if you know a friend you",
+    "start": 1390.84,
+    "duration": 4.92
+  },
+  {
+    "text": "know where I'm going no a friend that",
+    "start": 1394.12,
+    "duration": 3.76
+  },
+  {
+    "text": "believes in all this crazy stuff send",
+    "start": 1395.76,
+    "duration": 4.039
+  },
+  {
+    "text": "them this video and let them know this",
+    "start": 1397.88,
+    "duration": 3.919
+  },
+  {
+    "text": "is how slot machines work okay and I",
+    "start": 1399.799,
+    "duration": 4.201
+  },
+  {
+    "text": "provided the documentation in this video",
+    "start": 1401.799,
+    "duration": 4.12
+  },
+  {
+    "text": "to prove it and if you really want to",
+    "start": 1404.0,
+    "duration": 3.88
+  },
+  {
+    "text": "listen and you really can open your mind",
+    "start": 1405.919,
+    "duration": 4.161
+  },
+  {
+    "text": "to how this works there's a lot of good",
+    "start": 1407.88,
+    "duration": 3.679
+  },
+  {
+    "text": "information out there that you should go",
+    "start": 1410.08,
+    "duration": 4.12
+  },
+  {
+    "text": "and read up on in this document that I'm",
+    "start": 1411.559,
+    "duration": 4.321
+  },
+  {
+    "text": "putting on the screen now is a fantastic",
+    "start": 1414.2,
+    "duration": 4.24
+  },
+  {
+    "text": "way it's very math heavy but it does",
+    "start": 1415.88,
+    "duration": 4.039
+  },
+  {
+    "text": "break it down in a way that I think you",
+    "start": 1418.44,
+    "duration": 3.44
+  },
+  {
+    "text": "could understand it all right so that's",
+    "start": 1419.919,
+    "duration": 3.681
+  },
+  {
+    "text": "going to do it for today's video guys I",
+    "start": 1421.88,
+    "duration": 4.2
+  },
+  {
+    "text": "hope you really do enjoy it and have a",
+    "start": 1423.6,
+    "duration": 3.88
+  },
+  {
+    "text": "wonderful time out there we wish you the",
+    "start": 1426.08,
+    "duration": 3.04
+  },
+  {
+    "text": "best of luck and as always gamble smart",
+    "start": 1427.48,
+    "duration": 3.4
+  },
+  {
+    "text": "gamble safe and we will see you on the",
+    "start": 1429.12,
+    "duration": 4.64
+  },
+  {
+    "text": "next video take care",
+    "start": 1430.88,
+    "duration": 2.88
+  },
+  {
+    "text": "guys",
+    "start": 1437.44,
+    "duration": 3.0
+  }
+]
